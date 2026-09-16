@@ -19,28 +19,34 @@ public class Interaction1125771460Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void interact_118521332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(118521332L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable__426762922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-426762922L))
+    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
+    private void isIgnoringBlockTriggers__81297588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-81297588L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_310484103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(310484103L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1832505808(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1832505808L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
+    private void getPistonPushReaction__1245182969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1245182969L))
+            info.setReturnValue(net.minecraft.world.level.material.PushReaction.BLOCK);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastAttacker()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
     private void getLastAttacker__1313309408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1313309408L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeHitByProjectile()Z", cancellable = true)
+    private void canBeHitByProjectile__1489738149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1489738149L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "skipAttackInteraction(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -55,52 +61,34 @@ public class Interaction1125771460Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeHitByProjectile()Z", cancellable = true)
-    private void canBeHitByProjectile__1489738149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1489738149L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
-    private void getPistonPushReaction__1245182969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1245182969L))
-            info.setReturnValue(net.minecraft.world.level.material.PushReaction.BLOCK);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
-    private void isIgnoringBlockTriggers__81297588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-81297588L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_310484103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(310484103L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1832505808(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1832505808L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()F", cancellable = true)
-    private void getHeight__599848102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-599848102L))
-            info.setReturnValue(4.385404E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getWidth()F", cancellable = true)
     private void getWidth__812127417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-812127417L))
-            info.setReturnValue(4.385404E8F);
+            info.setReturnValue(7.738702E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "setHeight(F)V", cancellable = true)
-    private void setHeight_107016390(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(107016390L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getHeight()F", cancellable = true)
+    private void getHeight__599848102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-599848102L))
+            info.setReturnValue(7.738702E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "setWidth(F)V", cancellable = true)
-    private void setWidth__566196511(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-566196511L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void interact_118521332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(118521332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable__426762922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-426762922L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getResponse()Z", cancellable = true)
@@ -112,6 +100,18 @@ public class Interaction1125771460Mixin {
     @Inject(at = @At("HEAD"), method = "setResponse(Z)V", cancellable = true)
     private void setResponse__1266698764(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1266698764L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWidth(F)V", cancellable = true)
+    private void setWidth__566196511(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-566196511L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setHeight(F)V", cancellable = true)
+    private void setHeight_107016390(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(107016390L))
             info.cancel();
     }
 

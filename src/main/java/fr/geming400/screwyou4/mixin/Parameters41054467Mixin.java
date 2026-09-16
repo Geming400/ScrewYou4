@@ -22,7 +22,7 @@ public class Parameters41054467Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_598406558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598406558L))
-            info.setReturnValue(1139094722);
+            info.setReturnValue(888967822);
     }
 
     @Inject(at = @At("HEAD"), method = "options()B", cancellable = true)
@@ -43,16 +43,16 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void nameTagVisibility__989980490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-989980490L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
-    }
-
     @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void playerPrefix__2112387415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2112387415L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
+    private void collisionRule_242189429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(242189429L))
+            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
     }
 
     @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -61,10 +61,10 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
-    private void collisionRule_242189429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(242189429L))
-            info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
+    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void nameTagVisibility__989980490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-989980490L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
     }
 
 

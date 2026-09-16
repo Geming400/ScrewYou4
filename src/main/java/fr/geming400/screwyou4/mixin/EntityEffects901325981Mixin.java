@@ -22,7 +22,7 @@ public class EntityEffects901325981Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1458678072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458678072L))
-            info.setReturnValue(-2068728503);
+            info.setReturnValue(-1476481303);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class EntityEffects901325981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
-    private void effects_1452603087(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1452603087L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1967771235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1967771235L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
+    private void effects_1452603087(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1452603087L))
             info.setReturnValue(null);
     }
 

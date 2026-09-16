@@ -22,42 +22,42 @@ public class Summary1240334836Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1797686927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1797686927L))
-            info.setReturnValue(1139527674);
+            info.setReturnValue(1073391174);
     }
 
     @Inject(at = @At("HEAD"), method = "counts()J", cancellable = true)
     private void counts__283691817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-283691817L))
-            info.setReturnValue(6410054945962656222L);
+            info.setReturnValue(6410054945896519722L);
     }
 
     @Inject(at = @At("HEAD"), method = "bytesPerSecond()D", cancellable = true)
     private void bytesPerSecond_1667248399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1667248399L))
-            info.setReturnValue(6.235283002510648E8D);
+            info.setReturnValue(5.583976002510648E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
     private void totalBytes__2057758604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2057758604L))
-            info.setReturnValue(4655450787256235148L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "topTenContributorsByTotalBytes()Ljava/util/List;", cancellable = true)
-    private void topTenContributorsByTotalBytes__2072936926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2072936926L))
-            info.setReturnValue(null);
+            info.setReturnValue(4655450787191104448L);
     }
 
     @Inject(at = @At("HEAD"), method = "countsPerSecond()D", cancellable = true)
     private void countsPerSecond__1444523480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1444523480L))
-            info.setReturnValue(6.235283005630391E8D);
+            info.setReturnValue(5.583976005630391E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "timeSpentInIO()Ljava/time/Duration;", cancellable = true)
     private void timeSpentInIO_1436503685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1436503685L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "topTenContributorsByTotalBytes()Ljava/util/List;", cancellable = true)
+    private void topTenContributorsByTotalBytes__2072936926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2072936926L))
             info.setReturnValue(null);
     }
 

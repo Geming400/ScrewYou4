@@ -127,30 +127,6 @@ public class CopyOnWriteFileSystem_386611224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
-    private static void hardLinkFiles__1913808959(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1913808959L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveFilesWithRetry(Ljava/util/List;[Ljava/nio/file/CopyOption;)V", cancellable = true)
-    private static void moveFilesWithRetry__898566062(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-898566062L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
-    private void collectMoveOperations__1401149599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1401149599L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryRevertMoves(Ljava/util/List;[Ljava/nio/file/CopyOption;)Ljava/util/List;", cancellable = true)
-    private static void tryRevertMoves__46776504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-46776504L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "moveFiles(Ljava/util/List;)V", cancellable = true)
     private static void moveFiles_1990219021(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1990219021L))
@@ -161,6 +137,30 @@ public class CopyOnWriteFileSystem_386611224Mixin {
     private void baseDirectory__741903727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-741903727L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectMoveOperations(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Moves;", cancellable = true)
+    private void collectMoveOperations__1401149599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1401149599L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveFilesWithRetry(Ljava/util/List;[Ljava/nio/file/CopyOption;)V", cancellable = true)
+    private static void moveFilesWithRetry__898566062(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-898566062L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryRevertMoves(Ljava/util/List;[Ljava/nio/file/CopyOption;)Ljava/util/List;", cancellable = true)
+    private static void tryRevertMoves__46776504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-46776504L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hardLinkFiles(Ljava/util/List;)V", cancellable = true)
+    private static void hardLinkFiles__1913808959(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1913808959L))
+            info.cancel();
     }
 
 

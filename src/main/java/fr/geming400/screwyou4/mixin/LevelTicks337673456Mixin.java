@@ -10,7 +10,7 @@ public class LevelTicks337673456Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count__750496985(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-750496985L))
-            info.setReturnValue(404030653);
+            info.setReturnValue(631253053);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)
@@ -22,6 +22,18 @@ public class LevelTicks337673456Mixin {
     @Inject(at = @At("HEAD"), method = "tick(JILjava/util/function/BiConsumer;)V", cancellable = true)
     private void tick_1201765700(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1201765700L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
+    private void willTickThisTick__1699399903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1699399903L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyAreaFrom(Lnet/minecraft/world/ticks/LevelTicks;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
+    private void copyAreaFrom_1889727958(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1889727958L))
             info.cancel();
     }
 
@@ -37,21 +49,9 @@ public class LevelTicks337673456Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "willTickThisTick(Lnet/minecraft/core/BlockPos;Ljava/lang/Object;)Z", cancellable = true)
-    private void willTickThisTick__1699399903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1699399903L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "clearArea(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)V", cancellable = true)
     private void clearArea__651285260(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-651285260L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyAreaFrom(Lnet/minecraft/world/ticks/LevelTicks;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/core/Vec3i;)V", cancellable = true)
-    private void copyAreaFrom_1889727958(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1889727958L))
             info.cancel();
     }
 

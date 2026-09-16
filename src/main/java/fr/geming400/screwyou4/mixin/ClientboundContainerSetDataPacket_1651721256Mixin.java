@@ -16,13 +16,13 @@ public class ClientboundContainerSetDataPacket_1651721256Mixin {
     @Inject(at = @At("HEAD"), method = "getValue()I", cancellable = true)
     private void getValue__950698190(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-950698190L))
-            info.setReturnValue(2065507813);
+            info.setReturnValue(2110060213);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__6602340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-6602340L))
-            info.setReturnValue(-1094238847);
+            info.setReturnValue(-1049686447);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class ClientboundContainerSetDataPacket_1651721256Mixin {
     @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
     private void getContainerId__737684089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-737684089L))
-            info.setReturnValue(-801150207);
+            info.setReturnValue(-756597807);
     }
 
 

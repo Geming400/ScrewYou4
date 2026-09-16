@@ -16,7 +16,7 @@ public class ServerList_1471071971Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1914803559(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1914803559L))
-            info.setReturnValue(-138769488);
+            info.setReturnValue(-515483988);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Lnet/minecraft/client/multiplayer/ServerData;", cancellable = true)

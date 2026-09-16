@@ -28,19 +28,19 @@ public class ClientboundTakeItemEntityPacket_1718996502Mixin {
     @Inject(at = @At("HEAD"), method = "getAmount()I", cancellable = true)
     private void getAmount__185200275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-185200275L))
-            info.setReturnValue(-206736443);
+            info.setReturnValue(-385251743);
     }
 
     @Inject(at = @At("HEAD"), method = "getItemId()I", cancellable = true)
     private void getItemId_2144593911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2144593911L))
-            info.setReturnValue(-1861820004);
+            info.setReturnValue(-2040335304);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayerId()I", cancellable = true)
     private void getPlayerId_558987753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(558987753L))
-            info.setReturnValue(-447652067);
+            info.setReturnValue(-626167367);
     }
 
 

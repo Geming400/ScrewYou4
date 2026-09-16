@@ -22,7 +22,7 @@ public class TriggerInstance1731660310Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2005954895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2005954895L))
-            info.setReturnValue(-1387268379);
+            info.setReturnValue(-890052279);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -37,21 +37,9 @@ public class TriggerInstance1731660310Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startPosition()Ljava/util/Optional;", cancellable = true)
-    private void startPosition_1194666607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1194666607L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player_501007269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(501007269L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "travelledThroughNether(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void travelledThroughNether_1718047433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1718047433L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +49,21 @@ public class TriggerInstance1731660310Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "travelledThroughNether(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void travelledThroughNether_1718047433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1718047433L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fallFromHeight(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void fallFromHeight_1834915487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1834915487L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startPosition()Ljava/util/Optional;", cancellable = true)
+    private void startPosition_1194666607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1194666607L))
             info.setReturnValue(null);
     }
 

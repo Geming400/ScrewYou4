@@ -28,18 +28,18 @@ public class RenderableBox684802680Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1242154771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1242154771L))
-            info.setReturnValue(-585953690);
-    }
-
-    @Inject(at = @At("HEAD"), method = "localPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void localPos_419437104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(419437104L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1457276290);
     }
 
     @Inject(at = @At("HEAD"), method = "fromCorners(IIIIII)Lnet/minecraft/world/level/block/entity/BoundingBoxRenderable$RenderableBox;", cancellable = true)
     private static void fromCorners__1640849390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1640849390L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "localPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void localPos_419437104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(419437104L))
             info.setReturnValue(null);
     }
 

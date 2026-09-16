@@ -28,18 +28,18 @@ public class Ticket_2068868572Mixin {
     @Inject(at = @At("HEAD"), method = "getTicketLevel()I", cancellable = true)
     private void getTicketLevel_1048611423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1048611423L))
-            info.setReturnValue(1675418622);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetTicksLeft()V", cancellable = true)
-    private void resetTicksLeft_1341019712(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1341019712L))
-            info.cancel();
+            info.setReturnValue(-2114318774);
     }
 
     @Inject(at = @At("HEAD"), method = "decreaseTicksLeft()V", cancellable = true)
     private void decreaseTicksLeft__834188465(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-834188465L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetTicksLeft()V", cancellable = true)
+    private void resetTicksLeft_1341019712(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1341019712L))
             info.cancel();
     }
 

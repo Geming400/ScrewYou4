@@ -19,28 +19,16 @@ public class Zombie_76769498Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer__738518356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-738518356L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBaby()Z", cancellable = true)
-    private void isBaby_2050642288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2050642288L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_783503845(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(783503845L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_1451871487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1451871487L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "killedEntity(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void killedEntity_570519498(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(570519498L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
@@ -55,16 +43,22 @@ public class Zombie_76769498Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_783503845(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(783503845L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "killedEntity(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void killedEntity_570519498(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(570519498L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canHoldItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void canHoldItem__1996478829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1996478829L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer__738518356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-738518356L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBaby()Z", cancellable = true)
+    private void isBaby_2050642288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2050642288L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "wantsToPickUp(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -73,16 +67,10 @@ public class Zombie_76769498Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBaby(Z)V", cancellable = true)
-    private void setBaby__514625042(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-514625042L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_826867806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(826867806L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canHoldItem(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void canHoldItem__1996478829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1996478829L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canBreakDoors()Z", cancellable = true)
@@ -103,12 +91,6 @@ public class Zombie_76769498Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setInWaterTime(I)V", cancellable = true)
-    private void setInWaterTime_416920930(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(416920930L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setCanBreakDoors(Z)V", cancellable = true)
     private void setCanBreakDoors_1210532874(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1210532874L))
@@ -121,10 +103,28 @@ public class Zombie_76769498Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setInWaterTime(I)V", cancellable = true)
+    private void setInWaterTime_416920930(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(416920930L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBaby(Z)V", cancellable = true)
+    private void setBaby__514625042(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-514625042L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "convertVillagerToZombieVillager(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/npc/villager/Villager;)Z", cancellable = true)
     private void convertVillagerToZombieVillager_274621258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274621258L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_826867806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(826867806L))
+            info.setReturnValue(null);
     }
 
 

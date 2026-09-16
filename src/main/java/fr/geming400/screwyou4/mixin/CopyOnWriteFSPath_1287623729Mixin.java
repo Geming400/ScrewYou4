@@ -28,19 +28,19 @@ public class CopyOnWriteFSPath_1287623729Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1844975323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1844975323L))
-            info.setReturnValue(359120494);
+            info.setReturnValue(991400894);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__604480206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-604480206L))
-            info.setReturnValue(-252388809);
+            info.setReturnValue(379891591);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/nio/file/Path;)I", cancellable = true)
     private void compareTo_1209010485(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1209010485L))
-            info.setReturnValue(1039626322);
+            info.setReturnValue(1671906722);
     }
 
     @Inject(at = @At("HEAD"), method = "startsWith(Ljava/nio/file/Path;)Z", cancellable = true)
@@ -184,7 +184,7 @@ public class CopyOnWriteFSPath_1287623729Mixin {
     @Inject(at = @At("HEAD"), method = "getNameCount()I", cancellable = true)
     private void getNameCount__484631480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-484631480L))
-            info.setReturnValue(-1503172264);
+            info.setReturnValue(-870891864);
     }
 
     @Inject(at = @At("HEAD"), method = "relativize(Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)

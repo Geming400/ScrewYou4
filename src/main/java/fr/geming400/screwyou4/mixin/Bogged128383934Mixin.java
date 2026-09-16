@@ -25,16 +25,16 @@ public class Bogged128383934Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSheared()Z", cancellable = true)
-    private void isSheared_686528127(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(686528127L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "setSheared(Z)V", cancellable = true)
     private void setSheared__528721287(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-528721287L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSheared()Z", cancellable = true)
+    private void isSheared_686528127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(686528127L))
+            info.setReturnValue(true);
     }
 
 

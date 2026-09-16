@@ -22,12 +22,18 @@ public class Default_125359146Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_682711236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682711236L))
-            info.setReturnValue(-1273200742);
+            info.setReturnValue(-1740886442);
     }
 
-    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
-    private void creative__630394991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-630394991L))
+    @Inject(at = @At("HEAD"), method = "isAdvanced()Z", cancellable = true)
+    private void isAdvanced__2009162252(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2009162252L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
+    private void isCreative_1538016903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1538016903L))
             info.setReturnValue(true);
     }
 
@@ -37,21 +43,15 @@ public class Default_125359146Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCreative()Z", cancellable = true)
-    private void isCreative_1538016903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1538016903L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAdvanced()Z", cancellable = true)
-    private void isAdvanced__2009162252(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2009162252L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "advanced()Z", cancellable = true)
     private void advanced_117393150(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(117393150L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "creative()Z", cancellable = true)
+    private void creative__630394991(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-630394991L))
             info.setReturnValue(true);
     }
 

@@ -10,7 +10,7 @@ public class VaultServerData_128793743Mixin {
         @Inject(at = @At("HEAD"), method = "ejectionProgress()F", cancellable = true)
     private void ejectionProgress__2115127091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2115127091L))
-            info.setReturnValue(9.443058E8F);
+            info.setReturnValue(2.505558E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "addToRewardedPlayers(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)

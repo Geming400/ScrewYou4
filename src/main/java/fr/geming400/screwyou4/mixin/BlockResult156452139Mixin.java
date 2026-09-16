@@ -22,7 +22,7 @@ public class BlockResult156452139Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_713804230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(713804230L))
-            info.setReturnValue(958881082);
+            info.setReturnValue(395333382);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Ljava/util/Map;", cancellable = true)
@@ -31,15 +31,15 @@ public class BlockResult156452139Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void blockState__424936931(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-424936931L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "nbt()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void nbt__1340120925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1340120925L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void blockState__424936931(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-424936931L))
             info.setReturnValue(null);
     }
 

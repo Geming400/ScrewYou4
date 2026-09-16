@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.equine.TraderLlama.class)
 public class TraderLlama2129954521Mixin {
-        @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "setDespawnDelay(I)V", cancellable = true)
+    private void setDespawnDelay_1281347920(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1281347920L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep__533715208(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-533715208L))
             info.cancel();
@@ -17,12 +23,6 @@ public class TraderLlama2129954521Mixin {
     private void isTraderLlama_379892979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(379892979L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDespawnDelay(I)V", cancellable = true)
-    private void setDespawnDelay_1281347920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1281347920L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

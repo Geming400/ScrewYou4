@@ -19,15 +19,15 @@ public class DecoratedPotRecipe143142364Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble_1711197949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1711197949L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_1650810993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650810993L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble_1711197949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1711197949L))
             info.setReturnValue(null);
     }
 

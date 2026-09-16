@@ -13,15 +13,15 @@ public class BanNoticeScreens179093224Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createNameBan(Ljava/lang/String;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/ConfirmLinkScreen;", cancellable = true)
-    private static void createNameBan__725382796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-725382796L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createSkinBan(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/ConfirmLinkScreen;", cancellable = true)
     private static void createSkinBan__376331892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-376331892L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createNameBan(Ljava/lang/String;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/ConfirmLinkScreen;", cancellable = true)
+    private static void createNameBan__725382796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-725382796L))
             info.setReturnValue(null);
     }
 

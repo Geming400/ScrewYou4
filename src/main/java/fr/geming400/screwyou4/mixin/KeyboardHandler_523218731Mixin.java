@@ -25,16 +25,16 @@ public class KeyboardHandler_523218731Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitPreeditEvent(Lnet/minecraft/client/gui/components/events/GuiEventListener;Lnet/minecraft/client/input/PreeditEvent;)V", cancellable = true)
-    private static void submitPreeditEvent_754680354(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(754680354L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getClipboard()Ljava/lang/String;", cancellable = true)
     private void getClipboard__421341805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-421341805L))
             info.setReturnValue("IqF>R\u55E5\u03E4E0k\u0FBB\u2F69P\u606D$1k[isEYae");
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitPreeditEvent(Lnet/minecraft/client/gui/components/events/GuiEventListener;Lnet/minecraft/client/input/PreeditEvent;)V", cancellable = true)
+    private static void submitPreeditEvent_754680354(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(754680354L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "resubmitLastPreeditEvent(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V", cancellable = true)

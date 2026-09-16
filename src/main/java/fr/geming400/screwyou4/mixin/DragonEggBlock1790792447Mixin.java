@@ -16,7 +16,7 @@ public class DragonEggBlock1790792447Mixin {
     @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getDustColor__61810606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-61810606L))
-            info.setReturnValue(893238859);
+            info.setReturnValue(1505415259);
     }
 
 

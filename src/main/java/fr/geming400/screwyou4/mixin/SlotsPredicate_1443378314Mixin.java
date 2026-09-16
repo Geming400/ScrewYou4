@@ -22,7 +22,7 @@ public class SlotsPredicate_1443378314Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2000730404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2000730404L))
-            info.setReturnValue(-560092704);
+            info.setReturnValue(-162202904);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/SlotProvider;)Z", cancellable = true)

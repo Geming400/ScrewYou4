@@ -28,7 +28,7 @@ public class Atom284928679Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_842280770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(842280770L))
-            info.setReturnValue(-989112163);
+            info.setReturnValue(-1098994263);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/String;)Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)

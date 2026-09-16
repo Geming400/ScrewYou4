@@ -49,10 +49,16 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_711226627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(711226627L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
+    private void getPlacementPriority_655767987(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(655767987L))
+            info.setReturnValue(-326330394);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
+    private void getSelectionPriority_842211948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(842211948L))
+            info.setReturnValue(-1102556521);
     }
 
     @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
@@ -61,16 +67,10 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue("{R:vc1O9c$+]X\u37C5{H)ydY");
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
-    private void getPlacementPriority_655767987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(655767987L))
-            info.setReturnValue(-155633594);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
-    private void getSelectionPriority_842211948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(842211948L))
-            info.setReturnValue(-931859721);
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_711226627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(711226627L))
+            info.setReturnValue(null);
     }
 
 

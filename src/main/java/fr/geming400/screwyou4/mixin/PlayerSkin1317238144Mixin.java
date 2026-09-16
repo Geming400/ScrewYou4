@@ -22,7 +22,7 @@ public class PlayerSkin1317238144Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1874590235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1874590235L))
-            info.setReturnValue(-274804375);
+            info.setReturnValue(-694486875);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/world/entity/player/PlayerSkin$Patch;)Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
@@ -43,15 +43,9 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "secure()Z", cancellable = true)
-    private void secure__1614691808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1614691808L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void elytra_1699272735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1699272735L))
+    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void cape__2023324607(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2023324607L))
             info.setReturnValue(null);
     }
 
@@ -61,10 +55,16 @@ public class PlayerSkin1317238144Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "cape()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
-    private void cape__2023324607(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2023324607L))
+    @Inject(at = @At("HEAD"), method = "elytra()Lnet/minecraft/core/ClientAsset$Texture;", cancellable = true)
+    private void elytra_1699272735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1699272735L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "secure()Z", cancellable = true)
+    private void secure__1614691808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1614691808L))
+            info.setReturnValue(true);
     }
 
 

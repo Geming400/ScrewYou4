@@ -31,16 +31,16 @@ public class MobCategory1277218784Mixin {
             info.setReturnValue("qp{|,\u0C9F\uB068YIX\u4E16{9jMs0i8IS#R|\uD14AE,@\uB162\u1040o* tT1iS4q`YS$Yg");
     }
 
-    @Inject(at = @At("HEAD"), method = "getNoDespawnDistance()I", cancellable = true)
-    private void getNoDespawnDistance__1839275058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1839275058L))
-            info.setReturnValue(1127664464);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDespawnDistance()I", cancellable = true)
     private void getDespawnDistance__2033298963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2033298963L))
-            info.setReturnValue(217417685);
+            info.setReturnValue(-205232615);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNoDespawnDistance()I", cancellable = true)
+    private void getNoDespawnDistance__1839275058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1839275058L))
+            info.setReturnValue(705014164);
     }
 
     @Inject(at = @At("HEAD"), method = "isFriendly()Z", cancellable = true)
@@ -49,22 +49,22 @@ public class MobCategory1277218784Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPersistent()Z", cancellable = true)
-    private void isPersistent_257380054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(257380054L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMaxInstancesPerChunk()I", cancellable = true)
     private void getMaxInstancesPerChunk__246692250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-246692250L))
-            info.setReturnValue(1945447238);
+            info.setReturnValue(1522796938);
     }
 
     @Inject(at = @At("HEAD"), method = "getDebugAbbreviation()Ljava/lang/String;", cancellable = true)
     private void getDebugAbbreviation__309019212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-309019212L))
             info.setReturnValue("Eeb@s\u7085,J\uB4CD\"/]IX\u614Ay\uA2047`t4m1\uC250 G?");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPersistent()Z", cancellable = true)
+    private void isPersistent_257380054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(257380054L))
+            info.setReturnValue(true);
     }
 
 

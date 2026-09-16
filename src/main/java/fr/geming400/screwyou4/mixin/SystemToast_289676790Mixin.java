@@ -28,7 +28,7 @@ public class SystemToast_289676790Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1350471211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1350471211L))
-            info.setReturnValue(-1163585340);
+            info.setReturnValue(-1279073440);
     }
 
     @Inject(at = @At("HEAD"), method = "getToken()Ljava/lang/Object;", cancellable = true)
@@ -41,24 +41,6 @@ public class SystemToast_289676790Mixin {
     private void getToken_812069837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(812069837L))
             info.setReturnValue(new net.minecraft.client.gui.components.toasts.SystemToast.SystemToastId());
-    }
-
-    @Inject(at = @At("HEAD"), method = "forceHide(Lnet/minecraft/client/gui/components/toasts/ToastManager;Lnet/minecraft/client/gui/components/toasts/SystemToast$SystemToastId;)V", cancellable = true)
-    private static void forceHide_1177480006(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1177480006L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "forceHide()V", cancellable = true)
-    private void forceHide__2078020101(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2078020101L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__795671788(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-795671788L))
-            info.setReturnValue(-1834256553);
     }
 
     @Inject(at = @At("HEAD"), method = "onLowDiskSpace(Lnet/minecraft/client/Minecraft;)V", cancellable = true)
@@ -85,6 +67,18 @@ public class SystemToast_289676790Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onChunkSaveFailure(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private static void onChunkSaveFailure__1881894465(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1881894465L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onWorldAccessFailure(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V", cancellable = true)
+    private static void onWorldAccessFailure_1739850601(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1739850601L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "onPackCopyFailure(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V", cancellable = true)
     private static void onPackCopyFailure_114687199(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(114687199L))
@@ -97,21 +91,15 @@ public class SystemToast_289676790Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onWorldAccessFailure(Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V", cancellable = true)
-    private static void onWorldAccessFailure_1739850601(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1739850601L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onChunkLoadFailure(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
     private static void onChunkLoadFailure_194501416(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(194501416L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onChunkSaveFailure(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private static void onChunkSaveFailure__1881894465(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1881894465L))
+    @Inject(at = @At("HEAD"), method = "addOrUpdate(Lnet/minecraft/client/gui/components/toasts/ToastManager;Lnet/minecraft/client/gui/components/toasts/SystemToast$SystemToastId;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private static void addOrUpdate_1416941294(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1416941294L))
             info.cancel();
     }
 
@@ -121,9 +109,21 @@ public class SystemToast_289676790Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addOrUpdate(Lnet/minecraft/client/gui/components/toasts/ToastManager;Lnet/minecraft/client/gui/components/toasts/SystemToast$SystemToastId;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private static void addOrUpdate_1416941294(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1416941294L))
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__795671788(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-795671788L))
+            info.setReturnValue(-1949744653);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forceHide()V", cancellable = true)
+    private void forceHide__2078020101(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2078020101L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "forceHide(Lnet/minecraft/client/gui/components/toasts/ToastManager;Lnet/minecraft/client/gui/components/toasts/SystemToast$SystemToastId;)V", cancellable = true)
+    private static void forceHide_1177480006(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1177480006L))
             info.cancel();
     }
 

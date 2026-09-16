@@ -61,21 +61,15 @@ public class ShapelessRecipeBuilder1159667291Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/RecipeBuilder;", cancellable = true)
-    private void unlockedBy__513539675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-513539675L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
-    private void unlockedBy__32278845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-32278845L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
     private static void shapeless_1700650086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1700650086L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
+    private static void shapeless_731352644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(731352644L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +79,15 @@ public class ShapelessRecipeBuilder1159667291Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shapeless(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
-    private static void shapeless_731352644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(731352644L))
+    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/ShapelessRecipeBuilder;", cancellable = true)
+    private void unlockedBy__32278845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-32278845L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/RecipeBuilder;", cancellable = true)
+    private void unlockedBy__513539675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-513539675L))
             info.setReturnValue(null);
     }
 

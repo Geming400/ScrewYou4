@@ -22,13 +22,7 @@ public class CatSoundSet1206569755Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1763921846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1763921846L))
-            info.setReturnValue(318087714);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hurtSound__1573389097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1573389097L))
-            info.setReturnValue(null);
+            info.setReturnValue(390044314);
     }
 
     @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,33 +31,15 @@ public class CatSoundSet1206569755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hissSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void hissSound__2083049751(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2083049751L))
+    @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hurtSound__1573389097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1573389097L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "eatSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void eatSound_931284896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(931284896L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "purrSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void purrSound_869784781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(869784781L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "strayAmbientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void strayAmbientSound__1773807369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1773807369L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "begForFoodSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void begForFoodSound__299108757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-299108757L))
+    @Inject(at = @At("HEAD"), method = "purreowSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void purreowSound__578258896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-578258896L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +49,33 @@ public class CatSoundSet1206569755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "purreowSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void purreowSound__578258896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-578258896L))
+    @Inject(at = @At("HEAD"), method = "begForFoodSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void begForFoodSound__299108757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-299108757L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "strayAmbientSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void strayAmbientSound__1773807369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1773807369L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hissSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void hissSound__2083049751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2083049751L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "purrSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void purrSound_869784781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(869784781L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "eatSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void eatSound_931284896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(931284896L))
             info.setReturnValue(null);
     }
 

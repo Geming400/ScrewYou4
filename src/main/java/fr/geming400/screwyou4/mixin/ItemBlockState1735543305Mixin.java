@@ -40,7 +40,7 @@ public class ItemBlockState1735543305Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2002071900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2002071900L))
-            info.setReturnValue(932803635);
+            info.setReturnValue(904164135);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Ljava/lang/String;", cancellable = true)

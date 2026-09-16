@@ -19,16 +19,16 @@ public class Entry_1428220958Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
-    private void extractContent_1942978441(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1942978441L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarration_2146385564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146385564L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
+    private void extractContent_1942978441(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1942978441L))
+            info.cancel();
     }
 
 

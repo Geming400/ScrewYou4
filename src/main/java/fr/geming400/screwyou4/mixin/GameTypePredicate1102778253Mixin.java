@@ -22,7 +22,7 @@ public class GameTypePredicate1102778253Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1660130344(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1660130344L))
-            info.setReturnValue(573095353);
+            info.setReturnValue(1004763153);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/world/level/GameType;)Lnet/minecraft/advancements/predicates/GameTypePredicate;", cancellable = true)

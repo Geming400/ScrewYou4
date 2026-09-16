@@ -28,7 +28,7 @@ public class ServerStatus327039527Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_884391618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(884391618L))
-            info.setReturnValue(-1904285224);
+            info.setReturnValue(-1627233724);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,10 +37,10 @@ public class ServerStatus327039527Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "favicon()Ljava/util/Optional;", cancellable = true)
-    private void favicon_1295086057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1295086057L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "enforcesSecureChat()Z", cancellable = true)
+    private void enforcesSecureChat__542888770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-542888770L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "players()Ljava/util/Optional;", cancellable = true)
@@ -49,10 +49,10 @@ public class ServerStatus327039527Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enforcesSecureChat()Z", cancellable = true)
-    private void enforcesSecureChat__542888770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-542888770L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "favicon()Ljava/util/Optional;", cancellable = true)
+    private void favicon_1295086057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1295086057L))
+            info.setReturnValue(null);
     }
 
 

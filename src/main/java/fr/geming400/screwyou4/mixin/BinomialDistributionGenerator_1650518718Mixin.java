@@ -22,19 +22,19 @@ public class BinomialDistributionGenerator_1650518718Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2087096488(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2087096488L))
-            info.setReturnValue(-898600755);
+            info.setReturnValue(-1294458955);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt__1912489239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912489239L))
-            info.setReturnValue(996741502);
+            info.setReturnValue(600883302);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_1421047897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421047897L))
-            info.setReturnValue(4.277928E8F);
+            info.setReturnValue(3.19346E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "n()Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;", cancellable = true)

@@ -22,7 +22,7 @@ public class Packed_1768286551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1969328655(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1969328655L))
-            info.setReturnValue(-347495277);
+            info.setReturnValue(-187956477);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -46,7 +46,7 @@ public class Packed_1768286551Mixin {
     @Inject(at = @At("HEAD"), method = "freeTickets()I", cancellable = true)
     private void freeTickets_1194535233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1194535233L))
-            info.setReturnValue(597133196);
+            info.setReturnValue(756671996);
     }
 
 

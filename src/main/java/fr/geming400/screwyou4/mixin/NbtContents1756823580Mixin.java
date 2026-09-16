@@ -22,7 +22,7 @@ public class NbtContents1756823580Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1980791625(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980791625L))
-            info.setReturnValue(202452592);
+            info.setReturnValue(536885192);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -49,12 +49,6 @@ public class NbtContents1756823580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "interpreting()Z", cancellable = true)
-    private void interpreting__1187645634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187645634L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1471698462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1471698462L))
@@ -65,6 +59,12 @@ public class NbtContents1756823580Mixin {
     private void nbtPath_1198468709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1198468709L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "interpreting()Z", cancellable = true)
+    private void interpreting__1187645634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1187645634L))
+            info.setReturnValue(false);
     }
 
 

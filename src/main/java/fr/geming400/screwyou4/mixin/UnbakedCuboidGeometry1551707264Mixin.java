@@ -22,7 +22,7 @@ public class UnbakedCuboidGeometry1551707264Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2109059355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109059355L))
-            info.setReturnValue(-216788294);
+            info.setReturnValue(128280506);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

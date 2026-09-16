@@ -22,7 +22,7 @@ public class Fraction_283165930Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_840518020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840518020L))
-            info.setReturnValue(1490956323);
+            info.setReturnValue(1459601623);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class Fraction_283165930Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__2124034325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2124034325L))
-            info.setReturnValue(3.1643E8F);
+            info.setReturnValue(2.850753E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "numerator()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)

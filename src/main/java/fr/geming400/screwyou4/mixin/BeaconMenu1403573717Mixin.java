@@ -16,13 +16,7 @@ public class BeaconMenu1403573717Mixin {
     @Inject(at = @At("HEAD"), method = "getLevels()I", cancellable = true)
     private void getLevels__906220938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-906220938L))
-            info.setReturnValue(-1422846133);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__630337453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-630337453L))
-            info.setReturnValue(true);
+            info.setReturnValue(-1348216633);
     }
 
     @Inject(at = @At("HEAD"), method = "setData(II)V", cancellable = true)
@@ -31,9 +25,33 @@ public class BeaconMenu1403573717Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void quickMoveStack_80744913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(80744913L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "decodeEffect(I)Lnet/minecraft/core/Holder;", cancellable = true)
     private static void decodeEffect_154856225(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(154856225L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateEffects(Ljava/util/Optional;Ljava/util/Optional;)Z", cancellable = true)
+    private void updateEffects_1148911889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1148911889L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encodeEffect(Lnet/minecraft/core/Holder;)I", cancellable = true)
+    private static void encodeEffect__507274295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-507274295L))
+            info.setReturnValue(-441583195);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPrimaryEffect()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getPrimaryEffect__1253386316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1253386316L))
             info.setReturnValue(null);
     }
 
@@ -43,28 +61,10 @@ public class BeaconMenu1403573717Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeEffect(Lnet/minecraft/core/Holder;)I", cancellable = true)
-    private static void encodeEffect__507274295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-507274295L))
-            info.setReturnValue(-516212695);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateEffects(Ljava/util/Optional;Ljava/util/Optional;)Z", cancellable = true)
-    private void updateEffects_1148911889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1148911889L))
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__630337453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-630337453L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPrimaryEffect()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getPrimaryEffect__1253386316(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1253386316L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void quickMoveStack_80744913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(80744913L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasPayment()Z", cancellable = true)

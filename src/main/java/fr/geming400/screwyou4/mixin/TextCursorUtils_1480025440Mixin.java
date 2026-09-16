@@ -13,15 +13,15 @@ public class TextCursorUtils_1480025440Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractInsertCursor(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIII)V", cancellable = true)
-    private static void extractInsertCursor__215813233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-215813233L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractAppendCursor(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;IIIZ)V", cancellable = true)
     private static void extractAppendCursor_1895608729(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1895608729L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractInsertCursor(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIII)V", cancellable = true)
+    private static void extractInsertCursor__215813233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-215813233L))
             info.cancel();
     }
 

@@ -34,7 +34,7 @@ public class ServerboundCustomPayloadPacket973232074Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1530584165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1530584165L))
-            info.setReturnValue(1495938037);
+            info.setReturnValue(2009155137);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

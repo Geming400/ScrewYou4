@@ -16,7 +16,7 @@ public class ClientboundSetBorderSizePacket_1077877914Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()D", cancellable = true)
     private void getSize_1511999907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1511999907L))
-            info.setReturnValue(3.384477002887765E8D);
+            info.setReturnValue(3.323628002887765E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -25,9 +25,27 @@ public class Builder2089867113Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSprite(Lnet/minecraft/client/gui/components/CycleButton$SpriteSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void withSprite__1535157179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1535157179L))
+    @Inject(at = @At("HEAD"), method = "withTooltip(Lnet/minecraft/client/OptionInstance$TooltipSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void withTooltip__108986334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-108986334L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayState(Lnet/minecraft/client/gui/components/CycleButton$DisplayState;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void displayState_1539611523(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1539611523L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withCustomNarration(Ljava/util/function/Function;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void withCustomNarration__1687876890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1687876890L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayOnlyValue()Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void displayOnlyValue_21168752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(21168752L))
             info.setReturnValue(null);
     }
 
@@ -49,39 +67,21 @@ public class Builder2089867113Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withValues(Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void withValues_377399960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(377399960L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withValues(Ljava/util/function/BooleanSupplier;Ljava/util/List;Ljava/util/List;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
     private void withValues_2055687167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2055687167L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withTooltip(Lnet/minecraft/client/OptionInstance$TooltipSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void withTooltip__108986334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-108986334L))
+    @Inject(at = @At("HEAD"), method = "withValues(Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void withValues_377399960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(377399960L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withCustomNarration(Ljava/util/function/Function;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void withCustomNarration__1687876890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1687876890L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayOnlyValue()Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void displayOnlyValue_21168752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(21168752L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayState(Lnet/minecraft/client/gui/components/CycleButton$DisplayState;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private void displayState_1539611523(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1539611523L))
+    @Inject(at = @At("HEAD"), method = "withSprite(Lnet/minecraft/client/gui/components/CycleButton$SpriteSupplier;)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private void withSprite__1535157179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1535157179L))
             info.setReturnValue(null);
     }
 

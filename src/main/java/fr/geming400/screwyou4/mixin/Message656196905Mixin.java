@@ -22,18 +22,12 @@ public class Message656196905Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1213548996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1213548996L))
-            info.setReturnValue(-1705769611);
+            info.setReturnValue(-1872441711);
     }
 
     @Inject(at = @At("HEAD"), method = "literal()Ljava/util/Optional;", cancellable = true)
     private void literal_121830022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(121830022L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "translatable()Ljava/util/Optional;", cancellable = true)
-    private void translatable_52470696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(52470696L))
             info.setReturnValue(null);
     }
 
@@ -46,6 +40,12 @@ public class Message656196905Mixin {
     @Inject(at = @At("HEAD"), method = "asComponent()Ljava/util/Optional;", cancellable = true)
     private void asComponent__2082230590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2082230590L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translatable()Ljava/util/Optional;", cancellable = true)
+    private void translatable_52470696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(52470696L))
             info.setReturnValue(null);
     }
 

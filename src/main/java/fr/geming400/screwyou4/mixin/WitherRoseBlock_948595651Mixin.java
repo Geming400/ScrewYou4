@@ -13,16 +13,16 @@ public class WitherRoseBlock_948595651Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBeeInteractionEffect()Lnet/minecraft/world/effect/MobEffectInstance;", cancellable = true)
-    private void getBeeInteractionEffect_121853678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(121853678L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick_1353277183(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1353277183L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBeeInteractionEffect()Lnet/minecraft/world/effect/MobEffectInstance;", cancellable = true)
+    private void getBeeInteractionEffect_121853678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(121853678L))
+            info.setReturnValue(null);
     }
 
 

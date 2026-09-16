@@ -13,16 +13,16 @@ public class TestCommand_1220120277Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "trackAndStartRunner(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/gametest/framework/GameTestRunner;)I", cancellable = true)
-    private static void trackAndStartRunner__1134770043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1134770043L))
-            info.setReturnValue(-1267305680);
-    }
-
     @Inject(at = @At("HEAD"), method = "suggestTestFunction(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void suggestTestFunction_451073424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451073424L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "trackAndStartRunner(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/gametest/framework/GameTestRunner;)I", cancellable = true)
+    private static void trackAndStartRunner__1134770043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1134770043L))
+            info.setReturnValue(-832503280);
     }
 
 

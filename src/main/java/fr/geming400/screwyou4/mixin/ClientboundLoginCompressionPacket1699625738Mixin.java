@@ -28,7 +28,7 @@ public class ClientboundLoginCompressionPacket1699625738Mixin {
     @Inject(at = @At("HEAD"), method = "getCompressionThreshold()I", cancellable = true)
     private void getCompressionThreshold_1792839605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1792839605L))
-            info.setReturnValue(2010121653);
+            info.setReturnValue(2093776753);
     }
 
 

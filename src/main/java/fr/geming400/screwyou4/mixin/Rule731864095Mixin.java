@@ -22,7 +22,7 @@ public class Rule731864095Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1289216186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1289216186L))
-            info.setReturnValue(805168251);
+            info.setReturnValue(988981151);
     }
 
     @Inject(at = @At("HEAD"), method = "then()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

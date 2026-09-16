@@ -25,15 +25,15 @@ public class Builder110404917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
-    private void withParameter_162370218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(162370218L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
     private void withOptionalParameter_1941190954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1941190954L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/LootParams$Builder;", cancellable = true)
+    private void withParameter_162370218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(162370218L))
             info.setReturnValue(null);
     }
 

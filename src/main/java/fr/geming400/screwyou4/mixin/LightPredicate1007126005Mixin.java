@@ -22,7 +22,7 @@ public class LightPredicate1007126005Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1564478096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1564478096L))
-            info.setReturnValue(740082988);
+            info.setReturnValue(-28899412);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

@@ -22,7 +22,7 @@ public class Category740406461Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1297758552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297758552L))
-            info.setReturnValue(1161624990);
+            info.setReturnValue(1006568590);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/KeyMapping$Category;", cancellable = true)

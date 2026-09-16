@@ -22,18 +22,18 @@ public class WeightedRandomFeatureConfiguration1692576250Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2045038955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2045038955L))
-            info.setReturnValue(-1150342409);
-    }
-
-    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
-    private void features__387476963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-387476963L))
-            info.setReturnValue(null);
+            info.setReturnValue(-692153509);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
     private void getSubFeatures_885434984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885434984L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
+    private void features__387476963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-387476963L))
             info.setReturnValue(null);
     }
 

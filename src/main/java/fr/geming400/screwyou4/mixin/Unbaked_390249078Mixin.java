@@ -28,7 +28,7 @@ public class Unbaked_390249078Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_947601168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(947601168L))
-            info.setReturnValue(-360242967);
+            info.setReturnValue(-749731367);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/item/properties/conditional/ConditionalItemModelProperty;", cancellable = true)
@@ -43,15 +43,15 @@ public class Unbaked_390249078Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
+    private void resolveDependencies_1465939360(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1465939360L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/item/ItemModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
     private void bake_1147603491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1147603491L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
-    private void onFalse__595629405(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-595629405L))
             info.setReturnValue(null);
     }
 
@@ -61,10 +61,10 @@ public class Unbaked_390249078Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resolveDependencies(Lnet/minecraft/client/resources/model/ResolvableModel$Resolver;)V", cancellable = true)
-    private void resolveDependencies_1465939360(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1465939360L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)
+    private void onFalse__595629405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-595629405L))
+            info.setReturnValue(null);
     }
 
 

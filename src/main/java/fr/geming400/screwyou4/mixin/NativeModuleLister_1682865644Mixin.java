@@ -13,16 +13,16 @@ public class NativeModuleLister_1682865644Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tryGetModuleVersion(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
-    private static void tryGetModuleVersion__780689416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-780689416L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addCrashSection(Lnet/minecraft/CrashReportCategory;)V", cancellable = true)
     private static void addCrashSection__357157497(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-357157497L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryGetModuleVersion(Ljava/lang/String;)Ljava/util/Optional;", cancellable = true)
+    private static void tryGetModuleVersion__780689416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-780689416L))
+            info.setReturnValue(null);
     }
 
 

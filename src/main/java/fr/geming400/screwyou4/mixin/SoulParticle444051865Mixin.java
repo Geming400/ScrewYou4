@@ -22,7 +22,7 @@ public class SoulParticle444051865Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_460740243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(460740243L))
-            info.setReturnValue(14776301);
+            info.setReturnValue(543475701);
     }
 
 

@@ -22,7 +22,7 @@ public class EnchantmentsByCost_1956965310Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1780649896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1780649896L))
-            info.setReturnValue(1244891784);
+            info.setReturnValue(1037895184);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -31,15 +31,15 @@ public class EnchantmentsByCost_1956965310Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "enchantments()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void enchantments__145619859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-145619859L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cost()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
     private void cost_1719471193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1719471193L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "enchantments()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void enchantments__145619859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-145619859L))
             info.setReturnValue(null);
     }
 

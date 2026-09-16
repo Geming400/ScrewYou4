@@ -28,7 +28,7 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1265676761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1265676761L))
-            info.setReturnValue(1944256857);
+            info.setReturnValue(1163281457);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

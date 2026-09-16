@@ -22,7 +22,7 @@ public class KeyValueCondition_706368277Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1263720367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263720367L))
-            info.setReturnValue(173174815);
+            info.setReturnValue(587441815);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)

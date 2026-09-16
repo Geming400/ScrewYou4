@@ -28,7 +28,7 @@ public class ServerboundChangeDifficultyPacket_1173407856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730759946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730759946L))
-            info.setReturnValue(776520700);
+            info.setReturnValue(1576126700);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

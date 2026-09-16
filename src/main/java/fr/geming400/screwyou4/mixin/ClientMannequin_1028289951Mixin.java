@@ -13,22 +13,34 @@ public class ClientMannequin_1028289951Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
+    private void avatarState__1686925415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1686925415L))
+            info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1735024298(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1735024298L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "belowNameDisplay()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void belowNameDisplay__2042612361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2042612361L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
+    private static void registerOverrides__284490158(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-284490158L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getParrotVariantOnShoulder(Z)Lnet/minecraft/world/entity/animal/parrot/Parrot$Variant;", cancellable = true)
     private void getParrotVariantOnShoulder__223433332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-223433332L))
             info.setReturnValue(net.minecraft.world.entity.animal.parrot.Parrot.Variant.GRAY);
-    }
-
-    @Inject(at = @At("HEAD"), method = "avatarState()Lnet/minecraft/client/entity/ClientAvatarState;", cancellable = true)
-    private void avatarState__1686925415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1686925415L))
-            info.setReturnValue(new net.minecraft.client.entity.ClientAvatarState());
     }
 
     @Inject(at = @At("HEAD"), method = "showExtraEars()Z", cancellable = true)
@@ -41,18 +53,6 @@ public class ClientMannequin_1028289951Mixin {
     private void getSkin__2146215730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2146215730L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1735024298(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1735024298L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "registerOverrides(Lnet/minecraft/client/renderer/PlayerSkinRenderCache;)V", cancellable = true)
-    private static void registerOverrides__284490158(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-284490158L))
-            info.cancel();
     }
 
 

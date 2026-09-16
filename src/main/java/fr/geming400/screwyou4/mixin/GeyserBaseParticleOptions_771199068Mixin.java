@@ -28,7 +28,7 @@ public class GeyserBaseParticleOptions_771199068Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1328551158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1328551158L))
-            info.setReturnValue(127365142);
+            info.setReturnValue(-725870958);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
@@ -52,13 +52,13 @@ public class GeyserBaseParticleOptions_771199068Mixin {
     @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
     private void burstImpulseBase_1081612952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1081612952L))
-            info.setReturnValue(8.904218E8F);
+            info.setReturnValue(3.71857E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "waterBlocks()I", cancellable = true)
     private void waterBlocks__1096303900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1096303900L))
-            info.setReturnValue(328635309);
+            info.setReturnValue(-524600791);
     }
 
 

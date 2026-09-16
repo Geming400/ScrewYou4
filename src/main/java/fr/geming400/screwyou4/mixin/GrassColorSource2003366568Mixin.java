@@ -28,25 +28,25 @@ public class GrassColorSource2003366568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1734248637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1734248637L))
-            info.setReturnValue(-339476434);
+            info.setReturnValue(-1006372734);
     }
 
     @Inject(at = @At("HEAD"), method = "temperature()F", cancellable = true)
     private void temperature_1923694679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1923694679L))
-            info.setReturnValue(7.002292E8F);
+            info.setReturnValue(3.33329E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate_782961284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(782961284L))
-            info.setReturnValue(74582165);
+            info.setReturnValue(-592314135);
     }
 
     @Inject(at = @At("HEAD"), method = "downfall()F", cancellable = true)
     private void downfall__1580839858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1580839858L))
-            info.setReturnValue(7.002292E8F);
+            info.setReturnValue(3.33329E7F);
     }
 
 

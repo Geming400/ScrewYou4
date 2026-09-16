@@ -25,16 +25,16 @@ public class ClientboundGameEventPacket_1407497633Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getParam()F", cancellable = true)
-    private void getParam_1509912524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1509912524L))
-            info.setReturnValue(4.540066E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEvent()Lnet/minecraft/network/protocol/game/ClientboundGameEventPacket$Type;", cancellable = true)
     private void getEvent_649911034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649911034L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getParam()F", cancellable = true)
+    private void getParam_1509912524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1509912524L))
+            info.setReturnValue(4.145322E8F);
     }
 
 

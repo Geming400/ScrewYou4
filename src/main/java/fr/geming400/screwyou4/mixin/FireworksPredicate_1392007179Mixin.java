@@ -22,7 +22,7 @@ public class FireworksPredicate_1392007179Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1949359269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1949359269L))
-            info.setReturnValue(-754072672);
+            info.setReturnValue(-218782272);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

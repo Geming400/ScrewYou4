@@ -28,7 +28,7 @@ public class Neighbors_1210935319Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1768287409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768287409L))
-            info.setReturnValue(1744647483);
+            info.setReturnValue(-2062107413);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/world/level/block/SideChainPartBlock;", cancellable = true)

@@ -22,7 +22,7 @@ public class WrittenBookPredicate884591841Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1441943932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1441943932L))
-            info.setReturnValue(-1772668071);
+            info.setReturnValue(-2100947571);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

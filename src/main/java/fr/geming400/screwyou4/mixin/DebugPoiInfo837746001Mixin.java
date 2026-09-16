@@ -22,7 +22,7 @@ public class DebugPoiInfo837746001Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1395098092(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1395098092L))
-            info.setReturnValue(862457452);
+            info.setReturnValue(682118252);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -40,7 +40,7 @@ public class DebugPoiInfo837746001Mixin {
     @Inject(at = @At("HEAD"), method = "freeTicketCount()I", cancellable = true)
     private void freeTicketCount_300793408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(300793408L))
-            info.setReturnValue(98914094);
+            info.setReturnValue(-81425106);
     }
 
 

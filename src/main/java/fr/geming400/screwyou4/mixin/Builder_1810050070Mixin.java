@@ -13,15 +13,15 @@ public class Builder_1810050070Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius(I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
-    private void blockStateWriteRadius__1257893044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1257893044L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setTask(Lnet/minecraft/world/level/chunk/status/ChunkStatusTask;)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
     private void setTask__847964273(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-847964273L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockStateWriteRadius(I)Lnet/minecraft/world/level/chunk/status/ChunkStep$Builder;", cancellable = true)
+    private void blockStateWriteRadius__1257893044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1257893044L))
             info.setReturnValue(null);
     }
 

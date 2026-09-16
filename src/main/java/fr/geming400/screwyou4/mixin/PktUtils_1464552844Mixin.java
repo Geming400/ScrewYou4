@@ -22,19 +22,19 @@ public class PktUtils_1464552844Mixin {
     @Inject(at = @At("HEAD"), method = "intFromNetworkByteArray([BII)I", cancellable = true)
     private static void intFromNetworkByteArray__1476568812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1476568812L))
-            info.setReturnValue(-646989095);
+            info.setReturnValue(-771641295);
     }
 
     @Inject(at = @At("HEAD"), method = "intFromByteArray([BII)I", cancellable = true)
     private static void intFromByteArray_1830451352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1830451352L))
-            info.setReturnValue(391708005);
+            info.setReturnValue(267055805);
     }
 
     @Inject(at = @At("HEAD"), method = "intFromByteArray([BI)I", cancellable = true)
     private static void intFromByteArray__1434033677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1434033677L))
-            info.setReturnValue(1902189459);
+            info.setReturnValue(1777537259);
     }
 
 

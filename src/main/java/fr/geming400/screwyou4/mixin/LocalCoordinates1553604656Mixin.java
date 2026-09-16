@@ -22,7 +22,7 @@ public class LocalCoordinates1553604656Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2110956747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2110956747L))
-            info.setReturnValue(-157164729);
+            info.setReturnValue(-54050929);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/LocalCoordinates;", cancellable = true)
@@ -34,13 +34,13 @@ public class LocalCoordinates1553604656Mixin {
     @Inject(at = @At("HEAD"), method = "left()D", cancellable = true)
     private void left__1052430422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1052430422L))
-            info.setReturnValue(4.552143000794313E8D);
+            info.setReturnValue(5.583281000794313E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "up()D", cancellable = true)
     private void up_1262075286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262075286L))
-            info.setReturnValue(4.552143009740287E8D);
+            info.setReturnValue(5.583281009740287E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getPosition(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -58,19 +58,19 @@ public class LocalCoordinates1553604656Mixin {
     @Inject(at = @At("HEAD"), method = "forwards()D", cancellable = true)
     private void forwards_2004409795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2004409795L))
-            info.setReturnValue(4.5521430013895094E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
-    private void isZRelative_1366550539(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1366550539L))
-            info.setReturnValue(true);
+            info.setReturnValue(5.58328100138951E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
     private void isYRelative_1872109164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1872109164L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
+    private void isZRelative_1366550539(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1366550539L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)

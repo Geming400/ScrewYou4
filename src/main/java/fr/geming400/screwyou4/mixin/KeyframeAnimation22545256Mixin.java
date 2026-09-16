@@ -25,15 +25,15 @@ public class KeyframeAnimation22545256Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "applyWalk(FFFF)V", cancellable = true)
-    private void applyWalk__1983617244(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1983617244L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "applyStatic()V", cancellable = true)
     private void applyStatic_1911251999(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1911251999L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyWalk(FFFF)V", cancellable = true)
+    private void applyWalk__1983617244(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1983617244L))
             info.cancel();
     }
 

@@ -25,12 +25,6 @@ public class ZombieNautilus108302327Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain__77599599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-77599599L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
-    }
-
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_1483404317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1483404317L))
@@ -43,15 +37,21 @@ public class ZombieNautilus108302327Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;", cancellable = true)
-    private void getBreedOffspring_1980963392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980963392L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain__77599599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-77599599L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
     private void getBreedOffspring_248186427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(248186427L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;", cancellable = true)
+    private void getBreedOffspring_1980963392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980963392L))
             info.setReturnValue(null);
     }
 

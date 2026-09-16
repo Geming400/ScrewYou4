@@ -16,18 +16,12 @@ public class RenderInfo_1573203568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2130555162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2130555162L))
-            info.setReturnValue(-2081389849);
+            info.setReturnValue(-2094553149);
     }
 
     @Inject(at = @At("HEAD"), method = "gameProfile()Lcom/mojang/authlib/GameProfile;", cancellable = true)
     private void gameProfile__1524773666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1524773666L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void renderType_811848176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(811848176L))
             info.setReturnValue(null);
     }
 
@@ -46,6 +40,12 @@ public class RenderInfo_1573203568Mixin {
     @Inject(at = @At("HEAD"), method = "glyphRenderTypes()Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
     private void glyphRenderTypes__1005925535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1005925535L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderType()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void renderType_811848176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(811848176L))
             info.setReturnValue(null);
     }
 

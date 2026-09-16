@@ -22,7 +22,7 @@ public class ChatTypeDecoration697522028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1254874119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1254874119L))
-            info.setReturnValue(-823419397);
+            info.setReturnValue(-237997697);
     }
 
     @Inject(at = @At("HEAD"), method = "parameters()Ljava/util/List;", cancellable = true)
@@ -37,15 +37,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
-    private void translationKey_935836259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(935836259L))
-            info.setReturnValue("\u69F7K\u152C[?ic|!ZQ:n{+OEos\uD1C3wy>\u7BA1?M1ghotI)yog%\u53CE/IE[i\"Cr6g?Gs");
-    }
-
-    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void teamMessage__2138093276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2138093276L))
+    @Inject(at = @At("HEAD"), method = "outgoingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void outgoingDirectMessage_876830012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876830012L))
             info.setReturnValue(null);
     }
 
@@ -55,10 +49,16 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outgoingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void outgoingDirectMessage_876830012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876830012L))
+    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void teamMessage__2138093276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2138093276L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "translationKey()Ljava/lang/String;", cancellable = true)
+    private void translationKey_935836259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(935836259L))
+            info.setReturnValue("\u69F7K\u152C[?ic|!ZQ:n{+OEos\uD1C3wy>\u7BA1?M1ghotI)yog%\u53CE/IE[i\"Cr6g?Gs");
     }
 
     @Inject(at = @At("HEAD"), method = "withSender(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)

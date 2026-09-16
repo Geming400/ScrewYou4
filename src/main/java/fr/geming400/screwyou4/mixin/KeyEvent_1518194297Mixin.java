@@ -10,7 +10,7 @@ public class KeyEvent_1518194297Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
     private void modifiers_2049259874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049259874L))
-            info.setReturnValue(1864217483);
+            info.setReturnValue(-2059372113);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,25 +28,25 @@ public class KeyEvent_1518194297Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2075546387(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2075546387L))
-            info.setReturnValue(-1085996494);
+            info.setReturnValue(-714618794);
     }
 
     @Inject(at = @At("HEAD"), method = "key()I", cancellable = true)
     private void key_1966287199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1966287199L))
-            info.setReturnValue(-1264244762);
+            info.setReturnValue(-892867062);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
     private void input__1443128620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1443128620L))
-            info.setReturnValue(-1578778890);
+            info.setReturnValue(-1207401190);
     }
 
     @Inject(at = @At("HEAD"), method = "scancode()I", cancellable = true)
     private void scancode__1796417356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1796417356L))
-            info.setReturnValue(-1965400071);
+            info.setReturnValue(-1594022371);
     }
 
 

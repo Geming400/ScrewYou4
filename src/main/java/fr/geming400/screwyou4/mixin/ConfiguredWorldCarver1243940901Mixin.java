@@ -22,7 +22,7 @@ public class ConfiguredWorldCarver1243940901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1801292992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801292992L))
-            info.setReturnValue(-1078294143);
+            info.setReturnValue(-1097381943);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;", cancellable = true)

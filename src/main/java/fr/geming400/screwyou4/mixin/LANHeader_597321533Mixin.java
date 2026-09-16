@@ -13,16 +13,16 @@ public class LANHeader_597321533Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
-    private void extractContent_1112079016(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1112079016L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarration_1315486139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1315486139L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
+    private void extractContent_1112079016(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1112079016L))
+            info.cancel();
     }
 
 

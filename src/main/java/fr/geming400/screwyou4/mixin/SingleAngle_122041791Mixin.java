@@ -10,7 +10,7 @@ public class SingleAngle_122041791Mixin {
         @Inject(at = @At("HEAD"), method = "getAngle(Lnet/minecraft/commands/CommandSourceStack;)F", cancellable = true)
     private void getAngle__1604732480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1604732480L))
-            info.setReturnValue(1.036482E8F);
+            info.setReturnValue(3.641848E8F);
     }
 
 

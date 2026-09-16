@@ -19,22 +19,22 @@ public class MutableComponent1011252897Mixin {
             info.setReturnValue("W&U`EO\u0EA7ekSngP&)pN");
     }
 
-    @Inject(at = @At("HEAD"), method = "append(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void append_1028451292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1028451292L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "append(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void append__1668947226(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1668947226L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "append(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void append_1028451292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1028451292L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1568604492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1568604492L))
-            info.setReturnValue(185707825);
+            info.setReturnValue(840656025);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/network/chat/ComponentContents;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -49,15 +49,21 @@ public class MutableComponent1011252897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withStyle(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void withStyle_902701473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(902701473L))
+    @Inject(at = @At("HEAD"), method = "getStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void getStyle_1363359035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1363359035L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "withStyle([Lnet/minecraft/ChatFormatting;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void withStyle__1127907904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127907904L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withStyle(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void withStyle_902701473(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(902701473L))
             info.setReturnValue(null);
     }
 
@@ -73,27 +79,15 @@ public class MutableComponent1011252897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSiblings()Ljava/util/List;", cancellable = true)
-    private void getSiblings_423731896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(423731896L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void getStyle_1363359035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1363359035L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setStyle(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void setStyle__37013187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-37013187L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getVisualOrderText()Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
     private void getVisualOrderText__2090825510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2090825510L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSiblings()Ljava/util/List;", cancellable = true)
+    private void getSiblings_423731896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(423731896L))
             info.setReturnValue(null);
     }
 
@@ -106,6 +100,12 @@ public class MutableComponent1011252897Mixin {
     @Inject(at = @At("HEAD"), method = "withColor(I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
     private void withColor_595837986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595837986L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStyle(Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void setStyle__37013187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-37013187L))
             info.setReturnValue(null);
     }
 

@@ -19,16 +19,10 @@ public class CreativeModeInventoryScreen1067296840Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
-    private void charTyped__873411644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-873411644L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1036243209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1036243209L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick__1886704643(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1886704643L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "handleHotbarLoadOrSave(Lnet/minecraft/client/Minecraft;IZZ)V", cancellable = true)
@@ -37,9 +31,15 @@ public class CreativeModeInventoryScreen1067296840Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked_526790664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(526790664L))
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled_1895012910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1895012910L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
+    private void mouseReleased_1651432800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1651432800L))
             info.setReturnValue(false);
     }
 
@@ -49,16 +49,16 @@ public class CreativeModeInventoryScreen1067296840Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void mouseReleased_1651432800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1651432800L))
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_526790664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(526790664L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled_1895012910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1895012910L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getTooltipFromContainerItem(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;", cancellable = true)
+    private void getTooltipFromContainerItem__880741872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-880741872L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -67,9 +67,15 @@ public class CreativeModeInventoryScreen1067296840Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showsActiveEffects()Z", cancellable = true)
-    private void showsActiveEffects_1195341849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1195341849L))
+    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
+    private void preeditUpdated__110640094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-110640094L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyReleased_962611650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(962611650L))
             info.setReturnValue(false);
     }
 
@@ -79,28 +85,22 @@ public class CreativeModeInventoryScreen1067296840Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyReleased(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyReleased_962611650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(962611650L))
+    @Inject(at = @At("HEAD"), method = "showsActiveEffects()Z", cancellable = true)
+    private void showsActiveEffects_1195341849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1195341849L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
-    private void preeditUpdated__110640094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-110640094L))
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1036243209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1036243209L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTooltipFromContainerItem(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;", cancellable = true)
-    private void getTooltipFromContainerItem__880741872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-880741872L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick__1886704643(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1886704643L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
+    private void charTyped__873411644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-873411644L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isInventoryOpen()Z", cancellable = true)

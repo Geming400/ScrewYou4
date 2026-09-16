@@ -13,27 +13,15 @@ public class LookControl1785459856Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isLookingAtTarget()Z", cancellable = true)
-    private void isLookingAtTarget_340042058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340042058L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;FF)V", cancellable = true)
+    private void setLookAt__2077305648(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2077305648L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
     private void setLookAt_1382095235(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1382095235L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void setLookAt_770565456(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(770565456L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLookAt(DDDFF)V", cancellable = true)
-    private void setLookAt__1885826389(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1885826389L))
             info.cancel();
     }
 
@@ -43,28 +31,40 @@ public class LookControl1785459856Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;FF)V", cancellable = true)
-    private void setLookAt__2077305648(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2077305648L))
+    @Inject(at = @At("HEAD"), method = "setLookAt(DDDFF)V", cancellable = true)
+    private void setLookAt__1885826389(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1885826389L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWantedZ()D", cancellable = true)
-    private void getWantedZ_835505532(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(835505532L))
-            info.setReturnValue(6.570534005222651E8D);
+    @Inject(at = @At("HEAD"), method = "setLookAt(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void setLookAt_770565456(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(770565456L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getWantedY()D", cancellable = true)
     private void getWantedY_806876381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(806876381L))
-            info.setReturnValue(6.575590007435025E8D);
+            info.setReturnValue(6.094883007435025E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getWantedX()D", cancellable = true)
     private void getWantedX_778247230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778247230L))
-            info.setReturnValue(6.575590008597187E8D);
+            info.setReturnValue(6.094883008597187E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWantedZ()D", cancellable = true)
+    private void getWantedZ_835505532(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(835505532L))
+            info.setReturnValue(6.094883005222651E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isLookingAtTarget()Z", cancellable = true)
+    private void isLookingAtTarget_340042058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340042058L))
+            info.setReturnValue(false);
     }
 
 

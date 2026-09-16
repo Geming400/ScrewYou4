@@ -28,7 +28,7 @@ public class ClientboundPlayerRotationPacket439888060Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_997240151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(997240151L))
-            info.setReturnValue(690662366);
+            info.setReturnValue(201227866);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundPlayerRotationPacket439888060Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot__1736821632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1736821632L))
-            info.setReturnValue(7.535225E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
     private void yRot_750691201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(750691201L))
-            info.setReturnValue(7.535225E8F);
+            info.setReturnValue(2.64088E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot__1736821632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736821632L))
+            info.setReturnValue(2.64088E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "relativeY()Z", cancellable = true)

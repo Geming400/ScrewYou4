@@ -19,15 +19,15 @@ public class CopyNameFunction_1608998586Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyName(Lnet/minecraft/world/level/storage/loot/LootContextArg;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void copyName_568527935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(568527935L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1906465483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1906465483L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyName(Lnet/minecraft/world/level/storage/loot/LootContextArg;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void copyName_568527935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(568527935L))
             info.setReturnValue(null);
     }
 

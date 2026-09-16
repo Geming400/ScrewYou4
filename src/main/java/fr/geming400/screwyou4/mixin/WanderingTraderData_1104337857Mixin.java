@@ -10,13 +10,7 @@ public class WanderingTraderData_1104337857Mixin {
         @Inject(at = @At("HEAD"), method = "spawnDelay()I", cancellable = true)
     private void spawnDelay_1869177822(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1869177822L))
-            info.setReturnValue(1320393812);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSpawnChance(I)V", cancellable = true)
-    private void setSpawnChance__64153095(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-64153095L))
-            info.cancel();
+            info.setReturnValue(1554115112);
     }
 
     @Inject(at = @At("HEAD"), method = "setSpawnDelay(I)V", cancellable = true)
@@ -28,7 +22,13 @@ public class WanderingTraderData_1104337857Mixin {
     @Inject(at = @At("HEAD"), method = "spawnChance()I", cancellable = true)
     private void spawnChance__760690569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-760690569L))
-            info.setReturnValue(454368194);
+            info.setReturnValue(688089494);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSpawnChance(I)V", cancellable = true)
+    private void setSpawnChance__64153095(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-64153095L))
+            info.cancel();
     }
 
 

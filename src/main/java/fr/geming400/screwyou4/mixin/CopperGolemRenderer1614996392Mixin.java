@@ -25,28 +25,28 @@ public class CopperGolemRenderer1614996392Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/golem/CopperGolem;Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;F)V", cancellable = true)
-    private void extractRenderState__643910487(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-643910487L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
     private void extractRenderState__55477095(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-55477095L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;", cancellable = true)
-    private void createRenderState__773127497(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-773127497L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CopperGolemRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/golem/CopperGolem;Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;F)V", cancellable = true)
+    private void extractRenderState__643910487(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-643910487L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_1868167371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1868167371L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;", cancellable = true)
+    private void createRenderState__773127497(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-773127497L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CopperGolemRenderState());
     }
 
 

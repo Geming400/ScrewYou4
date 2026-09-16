@@ -16,7 +16,7 @@ public class WeightedList2113806233Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1623809468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1623809468L))
-            info.setReturnValue(1066548383);
+            info.setReturnValue(1347724783);
     }
 
     @Inject(at = @At("HEAD"), method = "of([Lnet/minecraft/util/random/Weighted;)Lnet/minecraft/util/random/WeightedList;", cancellable = true)
@@ -103,12 +103,6 @@ public class WeightedList2113806233Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRandomOrThrow(Lnet/minecraft/util/RandomSource;)Ljava/lang/Object;", cancellable = true)
-    private void getRandomOrThrow__2109734006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2109734006L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
     @Inject(at = @At("HEAD"), method = "nonEmptyCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void nonEmptyCodec_1601186086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1601186086L))
@@ -119,6 +113,12 @@ public class WeightedList2113806233Mixin {
     private static void nonEmptyCodec__1876440238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1876440238L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRandomOrThrow(Lnet/minecraft/util/RandomSource;)Ljava/lang/Object;", cancellable = true)
+    private void getRandomOrThrow__2109734006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2109734006L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

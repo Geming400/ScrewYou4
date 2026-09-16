@@ -25,16 +25,16 @@ public class ChatFormatting_905681885Mixin {
             info.setReturnValue(net.minecraft.ChatFormatting.BOLD);
     }
 
-    @Inject(at = @At("HEAD"), method = "getByCode(C)Lnet/minecraft/ChatFormatting;", cancellable = true)
-    private static void getByCode_1439100900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1439100900L))
-            info.setReturnValue(net.minecraft.ChatFormatting.WHITE);
-    }
-
     @Inject(at = @At("HEAD"), method = "stripFormatting(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private static void stripFormatting_952651056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(952651056L))
             info.setReturnValue("(ns\u5A0E8Uf/3)IITG\u4F4Emu\"%:Cv]T\u9280p=k\u54D61)\u7938G\u19538\u3AE7 kb\u0C25X\u03B9K$VE%=\uCF8DKJ\u1974\u1B9EaGg\u5E94&Xu2\u527EzY}D&UKDKJ>ou");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getByCode(C)Lnet/minecraft/ChatFormatting;", cancellable = true)
+    private static void getByCode_1439100900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1439100900L))
+            info.setReturnValue(net.minecraft.ChatFormatting.WHITE);
     }
 
 

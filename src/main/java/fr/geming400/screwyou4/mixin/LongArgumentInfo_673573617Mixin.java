@@ -7,27 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.synchronization.brigadier.LongArgumentInfo.class)
 public class LongArgumentInfo_673573617Mixin {
-        @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;", cancellable = true)
-    private void deserializeFromNetwork_1730107234(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1730107234L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
-    private void deserializeFromNetwork__608275914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-608275914L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson_358214256(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(358214256L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson__873627516(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-873627516L))
+        @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_638143050(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(638143050L))
             info.cancel();
     }
 
@@ -37,9 +19,27 @@ public class LongArgumentInfo_673573617Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_638143050(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(638143050L))
+    @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
+    private void deserializeFromNetwork__608275914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-608275914L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;", cancellable = true)
+    private void deserializeFromNetwork_1730107234(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1730107234L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson__873627516(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-873627516L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/brigadier/LongArgumentInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson_358214256(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(358214256L))
             info.cancel();
     }
 

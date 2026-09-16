@@ -22,18 +22,18 @@ public class StepFeatureData_1208914149Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1766266239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1766266239L))
-            info.setReturnValue(1458869496);
-    }
-
-    @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)
-    private void features__993795375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-993795375L))
-            info.setReturnValue(null);
+            info.setReturnValue(1508573496);
     }
 
     @Inject(at = @At("HEAD"), method = "indexMapping()Ljava/util/function/ToIntFunction;", cancellable = true)
     private void indexMapping__2037810567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2037810567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "features()Ljava/util/List;", cancellable = true)
+    private void features__993795375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-993795375L))
             info.setReturnValue(null);
     }
 

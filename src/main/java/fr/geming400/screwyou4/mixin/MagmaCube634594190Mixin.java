@@ -19,12 +19,6 @@ public class MagmaCube634594190Mixin {
             info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue__1587290094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1587290094L))
-            info.setReturnValue(3.026008E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "jumpFromGround()V", cancellable = true)
     private void jumpFromGround_1157124354(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1157124354L))
@@ -35,6 +29,12 @@ public class MagmaCube634594190Mixin {
     private void isOnFire__1145467354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1145467354L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue__1587290094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1587290094L))
+            info.setReturnValue(6.846935E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "checkMagmaCubeSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)

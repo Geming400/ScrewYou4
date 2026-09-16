@@ -22,7 +22,7 @@ public class TriggerInstance170471465Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_727823556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(727823556L))
-            info.setReturnValue(-391111064);
+            info.setReturnValue(139937536);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
@@ -49,15 +49,9 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionTo_315427137(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(315427137L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimensionFrom_194402544(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(194402544L))
+    @Inject(at = @At("HEAD"), method = "changedDimension(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimension_917868094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(917868094L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +61,15 @@ public class TriggerInstance170471465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changedDimension(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void changedDimension_917868094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(917868094L))
+    @Inject(at = @At("HEAD"), method = "changedDimensionFrom(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionFrom_194402544(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(194402544L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "changedDimensionTo(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void changedDimensionTo_315427137(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(315427137L))
             info.setReturnValue(null);
     }
 

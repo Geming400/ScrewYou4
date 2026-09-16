@@ -28,7 +28,7 @@ public class ServerboundTestInstanceBlockActionPacket802793147Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1360145238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1360145238L))
-            info.setReturnValue(-342961588);
+            info.setReturnValue(-762391588);
     }
 
     @Inject(at = @At("HEAD"), method = "data()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity$Data;", cancellable = true)

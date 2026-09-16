@@ -13,6 +13,12 @@ public class WindChargeItem_519771077Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
+    private void shoot_276849071(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(276849071L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createDispenseConfig()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig;", cancellable = true)
     private void createDispenseConfig__2012153263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2012153263L))
@@ -23,12 +29,6 @@ public class WindChargeItem_519771077Mixin {
     private void asProjectile__1562082971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1562082971L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shoot(Lnet/minecraft/world/entity/projectile/Projectile;DDDFF)V", cancellable = true)
-    private void shoot_276849071(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(276849071L))
-            info.cancel();
     }
 
 

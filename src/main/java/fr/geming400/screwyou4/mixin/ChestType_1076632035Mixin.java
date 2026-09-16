@@ -19,16 +19,16 @@ public class ChestType_1076632035Mixin {
             info.setReturnValue(net.minecraft.world.level.block.state.properties.ChestType.LEFT);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/world/level/block/state/properties/ChestType;", cancellable = true)
-    private void getOpposite_932055378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932055378L))
-            info.setReturnValue(net.minecraft.world.level.block.state.properties.ChestType.SINGLE);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_1164840656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1164840656L))
             info.setReturnValue("_f{1o");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/world/level/block/state/properties/ChestType;", cancellable = true)
+    private void getOpposite_932055378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932055378L))
+            info.setReturnValue(net.minecraft.world.level.block.state.properties.ChestType.SINGLE);
     }
 
 

@@ -22,19 +22,13 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1912589537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912589537L))
-            info.setReturnValue(319649823);
+            info.setReturnValue(1047492923);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
     private void feature__1408938806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1408938806L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void place__927216562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-927216562L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "placement()Ljava/util/List;", cancellable = true)
@@ -52,6 +46,12 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "placeWithBiomeCheck(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void placeWithBiomeCheck__1578378020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1578378020L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void place__927216562(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-927216562L))
             info.setReturnValue(true);
     }
 

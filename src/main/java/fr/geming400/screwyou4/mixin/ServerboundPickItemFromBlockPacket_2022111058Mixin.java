@@ -28,7 +28,7 @@ public class ServerboundPickItemFromBlockPacket_2022111058Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1715504148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1715504148L))
-            info.setReturnValue(916015151);
+            info.setReturnValue(1153906551);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

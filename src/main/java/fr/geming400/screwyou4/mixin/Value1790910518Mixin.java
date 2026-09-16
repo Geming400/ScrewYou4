@@ -28,7 +28,7 @@ public class Value1790910518Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1946704687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1946704687L))
-            info.setReturnValue(1362487476);
+            info.setReturnValue(1389571076);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/world/level/block/state/properties/Property;", cancellable = true)

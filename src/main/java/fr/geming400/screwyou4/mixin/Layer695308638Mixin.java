@@ -22,7 +22,7 @@ public class Layer695308638Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1252660729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1252660729L))
-            info.setReturnValue(717106336);
+            info.setReturnValue(432637236);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -31,21 +31,9 @@ public class Layer695308638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "usePlayerTexture()Z", cancellable = true)
-    private void usePlayerTexture__2090910142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2090910142L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "leatherDyeable(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
-    private static void leatherDyeable_38743565(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(38743565L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dyeable()Ljava/util/Optional;", cancellable = true)
-    private void dyeable_538781910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(538781910L))
+    @Inject(at = @At("HEAD"), method = "onlyIfDyed(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
+    private static void onlyIfDyed__1716973711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1716973711L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +43,21 @@ public class Layer695308638Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onlyIfDyed(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
-    private static void onlyIfDyed__1716973711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1716973711L))
+    @Inject(at = @At("HEAD"), method = "leatherDyeable(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/client/resources/model/EquipmentClientInfo$Layer;", cancellable = true)
+    private static void leatherDyeable_38743565(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(38743565L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "usePlayerTexture()Z", cancellable = true)
+    private void usePlayerTexture__2090910142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2090910142L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dyeable()Ljava/util/Optional;", cancellable = true)
+    private void dyeable_538781910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(538781910L))
             info.setReturnValue(null);
     }
 

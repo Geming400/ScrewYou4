@@ -22,7 +22,7 @@ public class Gene1823684539Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_165360944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(165360944L))
-            info.setReturnValue(1439464214);
+            info.setReturnValue(1823992014);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandom(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/entity/animal/panda/Panda$Gene;", cancellable = true)

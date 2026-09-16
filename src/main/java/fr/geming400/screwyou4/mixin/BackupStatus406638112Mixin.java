@@ -19,6 +19,12 @@ public class BackupStatus406638112Mixin {
             info.setReturnValue(net.minecraft.world.level.storage.LevelSummary.BackupStatus.DOWNGRADE);
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
+    private void shouldBackup_1811401634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1811401634L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTranslationKey()Ljava/lang/String;", cancellable = true)
     private void getTranslationKey__879672947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-879672947L))
@@ -28,12 +34,6 @@ public class BackupStatus406638112Mixin {
     @Inject(at = @At("HEAD"), method = "isSevere()Z", cancellable = true)
     private void isSevere__1737415079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1737415079L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldBackup()Z", cancellable = true)
-    private void shouldBackup_1811401634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1811401634L))
             info.setReturnValue(true);
     }
 

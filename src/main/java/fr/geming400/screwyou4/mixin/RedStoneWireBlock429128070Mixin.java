@@ -13,18 +13,6 @@ public class RedStoneWireBlock429128070Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockSignal(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getBlockSignal_623356146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(623356146L))
-            info.setReturnValue(1628935663);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColorForPower(I)I", cancellable = true)
-    private static void getColorForPower__605109082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-605109082L))
-            info.setReturnValue(-877886089);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__2040060410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2040060410L))
@@ -35,6 +23,18 @@ public class RedStoneWireBlock429128070Mixin {
     private void animateTick_833809603(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(833809603L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getColorForPower(I)I", cancellable = true)
+    private static void getColorForPower__605109082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-605109082L))
+            info.setReturnValue(-979931089);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockSignal(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getBlockSignal_623356146(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(623356146L))
+            info.setReturnValue(1526890663);
     }
 
 

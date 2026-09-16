@@ -19,16 +19,16 @@ public class Cache720515519Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightCoords(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getLightCoords__1037888249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1037888249L))
-            info.setReturnValue(2101282299);
-    }
-
     @Inject(at = @At("HEAD"), method = "getShadeBrightness(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)F", cancellable = true)
     private void getShadeBrightness_1773345614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1773345614L))
-            info.setReturnValue(6.04085E8F);
+            info.setReturnValue(7.763495E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightCoords(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getLightCoords__1037888249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1037888249L))
+            info.setReturnValue(-2021420497);
     }
 
 

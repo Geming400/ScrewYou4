@@ -28,18 +28,48 @@ public class VillagerData_1451553554Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2008905644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2008905644L))
-            info.setReturnValue(-200430594);
+            info.setReturnValue(-822805494);
     }
 
     @Inject(at = @At("HEAD"), method = "level()I", cancellable = true)
     private void level_1605615603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1605615603L))
-            info.setReturnValue(-680529623);
+            info.setReturnValue(-1302904523);
     }
 
     @Inject(at = @At("HEAD"), method = "withLevel(I)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
     private void withLevel__544320744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-544320744L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinXpPerLevel(I)I", cancellable = true)
+    private static void getMinXpPerLevel_17748451(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(17748451L))
+            info.setReturnValue(-97268845);
+    }
+
+    @Inject(at = @At("HEAD"), method = "profession()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void profession_1188883089(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1188883089L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxXpPerLevel(I)I", cancellable = true)
+    private static void getMaxXpPerLevel_52587765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(52587765L))
+            info.setReturnValue(-1654229755);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withProfession(Lnet/minecraft/core/HolderGetter$Provider;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
+    private void withProfession_390209878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(390209878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withProfession(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
+    private void withProfession__122488450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-122488450L))
             info.setReturnValue(null);
     }
 
@@ -58,36 +88,6 @@ public class VillagerData_1451553554Mixin {
     @Inject(at = @At("HEAD"), method = "withType(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
     private void withType_1510242688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1510242688L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinXpPerLevel(I)I", cancellable = true)
-    private static void getMinXpPerLevel_17748451(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(17748451L))
-            info.setReturnValue(525106055);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxXpPerLevel(I)I", cancellable = true)
-    private static void getMaxXpPerLevel_52587765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(52587765L))
-            info.setReturnValue(-1031854855);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withProfession(Lnet/minecraft/core/HolderGetter$Provider;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
-    private void withProfession_390209878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(390209878L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withProfession(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/npc/villager/VillagerData;", cancellable = true)
-    private void withProfession__122488450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-122488450L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profession()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void profession_1188883089(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1188883089L))
             info.setReturnValue(null);
     }
 

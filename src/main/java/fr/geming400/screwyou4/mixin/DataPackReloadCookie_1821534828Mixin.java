@@ -22,18 +22,18 @@ public class DataPackReloadCookie_1821534828Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1916080378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1916080378L))
-            info.setReturnValue(-1165059220);
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldGenSettings()Lnet/minecraft/world/level/levelgen/WorldGenSettings;", cancellable = true)
-    private void worldGenSettings__1851639674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1851639674L))
-            info.setReturnValue(null);
+            info.setReturnValue(-863159420);
     }
 
     @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void dataConfiguration_811949199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(811949199L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldGenSettings()Lnet/minecraft/world/level/levelgen/WorldGenSettings;", cancellable = true)
+    private void worldGenSettings__1851639674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1851639674L))
             info.setReturnValue(null);
     }
 

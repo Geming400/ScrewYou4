@@ -25,6 +25,12 @@ public class Types_1609129804Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1697338425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697338425L))
+            info.setReturnValue("5rw");
+    }
+
     @Inject(at = @At("HEAD"), method = "getSerializationKey()Ljava/lang/String;", cancellable = true)
     private void getSerializationKey_366618841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(366618841L))
@@ -41,12 +47,6 @@ public class Types_1609129804Mixin {
     private void keepAfterWorldgen_1329193261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1329193261L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_1697338425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697338425L))
-            info.setReturnValue("5rw");
     }
 
 

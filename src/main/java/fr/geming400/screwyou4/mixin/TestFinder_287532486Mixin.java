@@ -19,15 +19,15 @@ public class TestFinder_287532486Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findTests()Ljava/util/stream/Stream;", cancellable = true)
-    private void findTests__1536451758(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1536451758L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "findTestPos()Ljava/util/stream/Stream;", cancellable = true)
     private void findTestPos__875436431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-875436431L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findTests()Ljava/util/stream/Stream;", cancellable = true)
+    private void findTests__1536451758(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1536451758L))
             info.setReturnValue(null);
     }
 

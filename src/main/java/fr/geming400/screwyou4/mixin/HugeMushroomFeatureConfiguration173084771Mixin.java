@@ -22,18 +22,18 @@ public class HugeMushroomFeatureConfiguration173084771Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730436862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730436862L))
-            info.setReturnValue(-55442667);
-    }
-
-    @Inject(at = @At("HEAD"), method = "foliageRadius()I", cancellable = true)
-    private void foliageRadius__1436420098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1436420098L))
-            info.setReturnValue(1366447054);
+            info.setReturnValue(-130116867);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceOn()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canPlaceOn_234752666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(234752666L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "capProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void capProvider_92052161(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(92052161L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +43,10 @@ public class HugeMushroomFeatureConfiguration173084771Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "capProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void capProvider_92052161(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(92052161L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "foliageRadius()I", cancellable = true)
+    private void foliageRadius__1436420098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1436420098L))
+            info.setReturnValue(1291772854);
     }
 
 

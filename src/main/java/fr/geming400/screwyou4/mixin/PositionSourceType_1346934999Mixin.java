@@ -19,16 +19,16 @@ public class PositionSourceType_1346934999Mixin {
             info.setReturnValue(net.minecraft.world.item.enchantment.effects.SpawnParticlesEffect.PositionSourceType.BOUNDING_BOX);
     }
 
+    @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
+    private void getCoordinate__525640909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-525640909L))
+            info.setReturnValue(9.834769001433268E8D);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_1435143620(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1435143620L))
             info.setReturnValue(")x,@sPK\uA660\u3993P868\u50C15B>\u6132P*hz\uB411)\uCE2Bu=T{");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCoordinate(DDFLnet/minecraft/util/RandomSource;)D", cancellable = true)
-    private void getCoordinate__525640909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-525640909L))
-            info.setReturnValue(9.346111001433268E8D);
     }
 
 

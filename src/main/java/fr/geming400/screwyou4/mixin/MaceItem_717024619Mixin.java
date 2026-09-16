@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.MaceItem.class)
 public class MaceItem_717024619Mixin {
-        @Inject(at = @At("HEAD"), method = "hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void hurtEnemy_152912041(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(152912041L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "canSmashAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private static void canSmashAttack__253772515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-253772515L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getAttackDamageBonus(Lnet/minecraft/world/entity/Entity;FLnet/minecraft/world/damagesource/DamageSource;)F", cancellable = true)
     private void getAttackDamageBonus__386899237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-386899237L))
-            info.setReturnValue(1.603669E8F);
+            info.setReturnValue(8.69384E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "postHurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
@@ -31,6 +31,12 @@ public class MaceItem_717024619Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void hurtEnemy_152912041(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(152912041L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getItemDamageSource(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
     private void getItemDamageSource__676886733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-676886733L))
@@ -41,12 +47,6 @@ public class MaceItem_717024619Mixin {
     private static void createToolProperties__1937871478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1937871478L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSmashAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private static void canSmashAttack__253772515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-253772515L))
-            info.setReturnValue(true);
     }
 
 

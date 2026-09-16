@@ -25,9 +25,9 @@ public class Builder_1643830628Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "selected(Lnet/minecraft/client/OptionInstance;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
-    private void selected_2031195594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2031195594L))
+    @Inject(at = @At("HEAD"), method = "onValueChange(Lnet/minecraft/client/gui/components/Checkbox$OnValueChange;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
+    private void onValueChange__1555359157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1555359157L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Builder_1643830628Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onValueChange(Lnet/minecraft/client/gui/components/Checkbox$OnValueChange;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
-    private void onValueChange__1555359157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555359157L))
+    @Inject(at = @At("HEAD"), method = "selected(Lnet/minecraft/client/OptionInstance;)Lnet/minecraft/client/gui/components/Checkbox$Builder;", cancellable = true)
+    private void selected_2031195594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2031195594L))
             info.setReturnValue(null);
     }
 

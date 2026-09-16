@@ -28,13 +28,13 @@ public class ItemCooldowns1774368711Mixin {
     @Inject(at = @At("HEAD"), method = "getCooldownPercent(Lnet/minecraft/world/item/ItemStack;F)F", cancellable = true)
     private void getCooldownPercent__1191458305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1191458305L))
-            info.setReturnValue(6.778939E8F);
+            info.setReturnValue(8.550718E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCooldownGroup(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getCooldownGroup__883750937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-883750937L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addCooldown(Lnet/minecraft/resources/Identifier;I)V", cancellable = true)
+    private void addCooldown__1222865001(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1222865001L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addCooldown(Lnet/minecraft/world/item/ItemStack;I)V", cancellable = true)
@@ -43,10 +43,10 @@ public class ItemCooldowns1774368711Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addCooldown(Lnet/minecraft/resources/Identifier;I)V", cancellable = true)
-    private void addCooldown__1222865001(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1222865001L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getCooldownGroup(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getCooldownGroup__883750937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-883750937L))
+            info.setReturnValue(null);
     }
 
 

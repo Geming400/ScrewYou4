@@ -25,16 +25,16 @@ public class ServerDebugSubscribers_769008809Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "broadcastToAll(Lnet/minecraft/util/debug/DebugSubscription;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
-    private void broadcastToAll_635437849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(635437849L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "enabledSubscriptions()Ljava/util/Set;", cancellable = true)
     private void enabledSubscriptions__1419081867(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1419081867L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "broadcastToAll(Lnet/minecraft/util/debug/DebugSubscription;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
+    private void broadcastToAll_635437849(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(635437849L))
+            info.cancel();
     }
 
 

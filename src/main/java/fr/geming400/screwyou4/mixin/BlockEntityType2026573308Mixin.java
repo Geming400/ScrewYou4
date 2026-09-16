@@ -19,15 +19,15 @@ public class BlockEntityType2026573308Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void builtInRegistryHolder_2010600293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2010600293L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void getBlockEntity__1794478327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1794478327L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "builtInRegistryHolder()Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private void builtInRegistryHolder_2010600293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2010600293L))
             info.setReturnValue(null);
     }
 

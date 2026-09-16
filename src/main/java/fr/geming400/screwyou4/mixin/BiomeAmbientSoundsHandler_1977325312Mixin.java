@@ -16,7 +16,7 @@ public class BiomeAmbientSoundsHandler_1977325312Mixin {
     @Inject(at = @At("HEAD"), method = "getMoodiness()F", cancellable = true)
     private void getMoodiness__413263217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-413263217L))
-            info.setReturnValue(1.820535E8F);
+            info.setReturnValue(5.17118E7F);
     }
 
 

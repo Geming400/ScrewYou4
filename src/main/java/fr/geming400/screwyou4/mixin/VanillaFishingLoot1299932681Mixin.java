@@ -22,7 +22,7 @@ public class VanillaFishingLoot1299932681Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1857284772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1857284772L))
-            info.setReturnValue(-1941736351);
+            info.setReturnValue(1680006445);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -31,16 +31,16 @@ public class VanillaFishingLoot1299932681Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries__1265792449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265792449L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fishingFishLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private static void fishingFishLootTable_289079757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(289079757L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void registries__1265792449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265792449L))
+            info.setReturnValue(null);
     }
 
 

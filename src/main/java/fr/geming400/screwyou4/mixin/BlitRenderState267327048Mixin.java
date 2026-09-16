@@ -22,13 +22,13 @@ public class BlitRenderState267327048Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_824679139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(824679139L))
-            info.setReturnValue(2057099819);
+            info.setReturnValue(1382397019);
     }
 
     @Inject(at = @At("HEAD"), method = "v1()F", cancellable = true)
     private void v1__940333232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-940333232L))
-            info.setReturnValue(7.762718E8F);
+            info.setReturnValue(1.01569E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,54 +40,54 @@ public class BlitRenderState267327048Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_834677013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(834677013L))
-            info.setReturnValue(-331390254);
+            info.setReturnValue(-1006093054);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1503978155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1503978155L))
-            info.setReturnValue(1787846707);
+            info.setReturnValue(1113143907);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1_1722180694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1722180694L))
-            info.setReturnValue(1628281046);
+            info.setReturnValue(953578246);
     }
 
     @Inject(at = @At("HEAD"), method = "u1()F", cancellable = true)
     private void u1__1827836913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827836913L))
-            info.setReturnValue(7.762718E8F);
+            info.setReturnValue(1.01569E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "v0()F", cancellable = true)
     private void v0__968962383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-968962383L))
-            info.setReturnValue(7.762718E8F);
+            info.setReturnValue(1.01569E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u0()F", cancellable = true)
     private void u0__1856466064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1856466064L))
-            info.setReturnValue(7.762718E8F);
+            info.setReturnValue(1.01569E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_806047862(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(806047862L))
-            info.setReturnValue(1098787040);
+            info.setReturnValue(424084240);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0_1693551543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1693551543L))
-            info.setReturnValue(-1819150359);
+            info.setReturnValue(1801114137);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_188057822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(188057822L))
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea_2037394039(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2037394039L))
             info.setReturnValue(null);
     }
 
@@ -97,9 +97,9 @@ public class BlitRenderState267327048Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea_2037394039(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2037394039L))
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_188057822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(188057822L))
             info.setReturnValue(null);
     }
 

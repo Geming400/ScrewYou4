@@ -22,7 +22,7 @@ public class TriggerInstance_1062307286Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1619659376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619659376L))
-            info.setReturnValue(-1319132940);
+            info.setReturnValue(-1586445340);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
@@ -37,15 +37,9 @@ public class TriggerInstance_1062307286Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sleptInBed()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void sleptInBed__1798599952(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1798599952L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "raidWon()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void raidWon__50347760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-50347760L))
+    @Inject(at = @At("HEAD"), method = "walkOnBlockWithEquipment(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void walkOnBlockWithEquipment_1069442474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069442474L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,9 @@ public class TriggerInstance_1062307286Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "walkOnBlockWithEquipment(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/item/Item;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void walkOnBlockWithEquipment_1069442474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1069442474L))
+    @Inject(at = @At("HEAD"), method = "located(Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void located_1717985945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1717985945L))
             info.setReturnValue(null);
     }
 
@@ -67,15 +61,21 @@ public class TriggerInstance_1062307286Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "located(Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void located_1717985945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1717985945L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "located(Lnet/minecraft/advancements/predicates/LocationPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void located_1856611095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1856611095L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sleptInBed()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void sleptInBed__1798599952(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1798599952L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "raidWon()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void raidWon__50347760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-50347760L))
             info.setReturnValue(null);
     }
 

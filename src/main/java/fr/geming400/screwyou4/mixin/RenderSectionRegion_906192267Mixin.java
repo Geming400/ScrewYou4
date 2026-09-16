@@ -10,7 +10,13 @@ public class RenderSectionRegion_906192267Mixin {
         @Inject(at = @At("HEAD"), method = "index(IIIIII)I", cancellable = true)
     private static void index__1334767178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1334767178L))
-            info.setReturnValue(-546199999);
+            info.setReturnValue(-407381299);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockTint(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/ColorResolver;)I", cancellable = true)
+    private void getBlockTint_1795512948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1795512948L))
+            info.setReturnValue(1372583303);
     }
 
     @Inject(at = @At("HEAD"), method = "cardinalLighting()Lnet/minecraft/world/level/CardinalLighting;", cancellable = true)
@@ -19,21 +25,9 @@ public class RenderSectionRegion_906192267Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockTint(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/ColorResolver;)I", cancellable = true)
-    private void getBlockTint_1795512948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795512948L))
-            info.setReturnValue(1233764603);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_1191451859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1191451859L))
-            info.setReturnValue(-248578803);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState__1848892438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1848892438L))
+    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void getBlockEntity__1853003096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1853003096L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +37,27 @@ public class RenderSectionRegion_906192267Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__819424909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-819424909L))
-            info.setReturnValue(-771285057);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLightEngine()Lnet/minecraft/world/level/lighting/LevelLightEngine;", cancellable = true)
     private void getLightEngine_1594287697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1594287697L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getBlockEntity__1853003096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1853003096L))
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__819424909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-819424909L))
+            info.setReturnValue(-632466357);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_1191451859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1191451859L))
+            info.setReturnValue(-109760103);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState__1848892438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1848892438L))
             info.setReturnValue(null);
     }
 

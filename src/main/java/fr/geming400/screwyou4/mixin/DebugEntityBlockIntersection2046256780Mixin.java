@@ -22,7 +22,7 @@ public class DebugEntityBlockIntersection2046256780Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color__1012059409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1012059409L))
-            info.setReturnValue(-368343584);
+            info.setReturnValue(-308911684);
     }
 
 

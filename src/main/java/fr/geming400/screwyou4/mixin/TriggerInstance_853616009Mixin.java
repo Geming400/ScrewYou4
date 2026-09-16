@@ -22,7 +22,7 @@ public class TriggerInstance_853616009Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1410968099(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1410968099L))
-            info.setReturnValue(1921817067);
+            info.setReturnValue(1586389667);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -49,12 +49,6 @@ public class TriggerInstance_853616009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "startPosition()Ljava/util/Optional;", cancellable = true)
-    private void startPosition_316622305(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(316622305L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
     private void player__377037033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377037033L))
@@ -64,6 +58,12 @@ public class TriggerInstance_853616009Mixin {
     @Inject(at = @At("HEAD"), method = "fallAfterExplosion(Lnet/minecraft/advancements/predicates/DistancePredicate;Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void fallAfterExplosion__781130872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-781130872L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startPosition()Ljava/util/Optional;", cancellable = true)
+    private void startPosition_316622305(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(316622305L))
             info.setReturnValue(null);
     }
 

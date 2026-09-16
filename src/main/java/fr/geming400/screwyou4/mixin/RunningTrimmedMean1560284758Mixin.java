@@ -10,7 +10,7 @@ public class RunningTrimmedMean1560284758Mixin {
         @Inject(at = @At("HEAD"), method = "registerValueAndGetMean(J)J", cancellable = true)
     private void registerValueAndGetMean__530958327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-530958327L))
-            info.setReturnValue(-8122035383292545781L);
+            info.setReturnValue(-8122035384091009781L);
     }
 
 

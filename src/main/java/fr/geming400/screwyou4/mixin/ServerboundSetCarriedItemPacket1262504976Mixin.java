@@ -16,7 +16,7 @@ public class ServerboundSetCarriedItemPacket1262504976Mixin {
     @Inject(at = @At("HEAD"), method = "getSlot()I", cancellable = true)
     private void getSlot_1886926850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886926850L))
-            info.setReturnValue(-1641057746);
+            info.setReturnValue(-2055525546);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

@@ -13,15 +13,9 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
-    private void onDisconnect_1507885954(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1507885954L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleCodeOfConduct(Lnet/minecraft/network/protocol/configuration/ClientboundCodeOfConductPacket;)V", cancellable = true)
-    private void handleCodeOfConduct_2126674808(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2126674808L))
+    @Inject(at = @At("HEAD"), method = "handleConfigurationFinished(Lnet/minecraft/network/protocol/configuration/ClientboundFinishConfigurationPacket;)V", cancellable = true)
+    private void handleConfigurationFinished_317777149(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(317777149L))
             info.cancel();
     }
 
@@ -31,9 +25,9 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleUpdateTags(Lnet/minecraft/network/protocol/common/ClientboundUpdateTagsPacket;)V", cancellable = true)
-    private void handleUpdateTags_1582879807(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1582879807L))
+    @Inject(at = @At("HEAD"), method = "handleResetChat(Lnet/minecraft/network/protocol/configuration/ClientboundResetChatPacket;)V", cancellable = true)
+    private void handleResetChat__1824936232(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1824936232L))
             info.cancel();
     }
 
@@ -49,9 +43,21 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleResetChat(Lnet/minecraft/network/protocol/configuration/ClientboundResetChatPacket;)V", cancellable = true)
-    private void handleResetChat__1824936232(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1824936232L))
+    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
+    private void onDisconnect_1507885954(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1507885954L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleUpdateTags(Lnet/minecraft/network/protocol/common/ClientboundUpdateTagsPacket;)V", cancellable = true)
+    private void handleUpdateTags_1582879807(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1582879807L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleCodeOfConduct(Lnet/minecraft/network/protocol/configuration/ClientboundCodeOfConductPacket;)V", cancellable = true)
+    private void handleCodeOfConduct_2126674808(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2126674808L))
             info.cancel();
     }
 
@@ -59,12 +65,6 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
     private void isAcceptingMessages_1258249057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1258249057L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleConfigurationFinished(Lnet/minecraft/network/protocol/configuration/ClientboundFinishConfigurationPacket;)V", cancellable = true)
-    private void handleConfigurationFinished_317777149(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(317777149L))
-            info.cancel();
     }
 
 

@@ -22,12 +22,12 @@ public class Packed421532523Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_978884614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(978884614L))
-            info.setReturnValue(802135613);
+            info.setReturnValue(1268032713);
     }
 
-    @Inject(at = @At("HEAD"), method = "objectives()Ljava/util/List;", cancellable = true)
-    private void objectives__789332235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-789332235L))
+    @Inject(at = @At("HEAD"), method = "displaySlots()Ljava/util/Map;", cancellable = true)
+    private void displaySlots_1921504480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1921504480L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Packed421532523Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "displaySlots()Ljava/util/Map;", cancellable = true)
-    private void displaySlots_1921504480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1921504480L))
+    @Inject(at = @At("HEAD"), method = "objectives()Ljava/util/List;", cancellable = true)
+    private void objectives__789332235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-789332235L))
             info.setReturnValue(null);
     }
 

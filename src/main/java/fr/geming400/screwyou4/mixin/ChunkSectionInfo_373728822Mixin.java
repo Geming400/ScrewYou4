@@ -22,13 +22,13 @@ public class ChunkSectionInfo_373728822Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_931080912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(931080912L))
-            info.setReturnValue(-491364649);
+            info.setReturnValue(-52337849);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x__447478109(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-447478109L))
-            info.setReturnValue(-1519065516);
+            info.setReturnValue(-1080038716);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Ljava/nio/ByteBuffer;)V", cancellable = true)
@@ -40,13 +40,19 @@ public class ChunkSectionInfo_373728822Mixin {
     @Inject(at = @At("HEAD"), method = "z()I", cancellable = true)
     private void z__390219807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-390219807L))
-            info.setReturnValue(177881519);
+            info.setReturnValue(616908319);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y__418848958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-418848958L))
-            info.setReturnValue(1145939868);
+            info.setReturnValue(1584966668);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visibility()F", cancellable = true)
+    private void visibility__1793775354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1793775354L))
+            info.setReturnValue(7.217155E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "modelView()Lorg/joml/Matrix4fc;", cancellable = true)
@@ -55,22 +61,16 @@ public class ChunkSectionInfo_373728822Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "textureAtlasWidth()I", cancellable = true)
-    private void textureAtlasWidth_868078181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(868078181L))
-            info.setReturnValue(-1665571730);
-    }
-
     @Inject(at = @At("HEAD"), method = "textureAtlasHeight()I", cancellable = true)
     private void textureAtlasHeight_1033288964(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1033288964L))
-            info.setReturnValue(-153511743);
+            info.setReturnValue(285515057);
     }
 
-    @Inject(at = @At("HEAD"), method = "visibility()F", cancellable = true)
-    private void visibility__1793775354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1793775354L))
-            info.setReturnValue(2.826887E8F);
+    @Inject(at = @At("HEAD"), method = "textureAtlasWidth()I", cancellable = true)
+    private void textureAtlasWidth_868078181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(868078181L))
+            info.setReturnValue(-1226544930);
     }
 
 

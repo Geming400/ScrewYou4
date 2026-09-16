@@ -22,7 +22,7 @@ public class NetworkedRegistryData2023106378Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1714508827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1714508827L))
-            info.setReturnValue(-420556069);
+            info.setReturnValue(-695631369);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()Ljava/util/List;", cancellable = true)

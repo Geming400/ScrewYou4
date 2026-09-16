@@ -16,7 +16,7 @@ public class ServerboundAcceptTeleportationPacket_1660327343Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_2003747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003747L))
-            info.setReturnValue(-1884970640);
+            info.setReturnValue(1915140256);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

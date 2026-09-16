@@ -19,24 +19,6 @@ public class CompiledSectionMesh1719274451Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isDifferentPointOfView(Lnet/minecraft/client/renderer/chunk/TranslucencyPointOfView;)Z", cancellable = true)
-    private void isDifferentPointOfView_1608384513(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1608384513L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasTranslucentGeometry()Z", cancellable = true)
-    private void hasTranslucentGeometry_1625571897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1625571897L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSectionDraw(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionMesh$SectionDraw;", cancellable = true)
-    private void getSectionDraw_1378552653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1378552653L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "facesCanSeeEachother(Lnet/minecraft/core/Direction;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void facesCanSeeEachother_871380332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(871380332L))
@@ -47,6 +29,24 @@ public class CompiledSectionMesh1719274451Mixin {
     private void setTranslucencyPointOfView_9650681(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(9650681L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderableBlockEntities()Ljava/util/List;", cancellable = true)
+    private void getRenderableBlockEntities_292932395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(292932395L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isIndexBufferUploaded(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Z", cancellable = true)
+    private void isIndexBufferUploaded_2086416494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2086416494L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTransparencyState()Lcom/mojang/blaze3d/vertex/MeshData$SortState;", cancellable = true)
+    private void getTransparencyState__1928312418(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928312418L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasRenderableLayers()Z", cancellable = true)
@@ -61,24 +61,6 @@ public class CompiledSectionMesh1719274451Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTransparencyState()Lcom/mojang/blaze3d/vertex/MeshData$SortState;", cancellable = true)
-    private void getTransparencyState__1928312418(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1928312418L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isIndexBufferUploaded(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Z", cancellable = true)
-    private void isIndexBufferUploaded_2086416494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086416494L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRenderableBlockEntities()Ljava/util/List;", cancellable = true)
-    private void getRenderableBlockEntities_292932395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(292932395L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setIndexBufferUploaded(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)V", cancellable = true)
     private void setIndexBufferUploaded__769860814(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-769860814L))
@@ -89,6 +71,24 @@ public class CompiledSectionMesh1719274451Mixin {
     private void setVertexBufferUploaded__553130296(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-553130296L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSectionDraw(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionMesh$SectionDraw;", cancellable = true)
+    private void getSectionDraw_1378552653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1378552653L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDifferentPointOfView(Lnet/minecraft/client/renderer/chunk/TranslucencyPointOfView;)Z", cancellable = true)
+    private void isDifferentPointOfView_1608384513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1608384513L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasTranslucentGeometry()Z", cancellable = true)
+    private void hasTranslucentGeometry_1625571897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1625571897L))
+            info.setReturnValue(false);
     }
 
 

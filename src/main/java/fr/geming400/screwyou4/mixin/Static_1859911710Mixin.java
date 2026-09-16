@@ -22,7 +22,7 @@ public class Static_1859911710Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1877703992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1877703992L))
-            info.setReturnValue(374095883);
+            info.setReturnValue(400460383);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

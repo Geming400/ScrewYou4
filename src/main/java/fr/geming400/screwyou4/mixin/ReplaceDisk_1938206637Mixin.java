@@ -22,7 +22,7 @@ public class ReplaceDisk_1938206637Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1799408569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1799408569L))
-            info.setReturnValue(999750070);
+            info.setReturnValue(1002356870);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,15 +43,9 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
-    private void height__1052143102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1052143102L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void blockState__1986972693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1986972693L))
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent_2418762(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2418762L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +55,21 @@ public class ReplaceDisk_1938206637Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void blockState__1986972693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1986972693L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "radius()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
     private void radius__1341898323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1341898323L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent_2418762(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2418762L))
+    @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
+    private void height__1052143102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1052143102L))
             info.setReturnValue(null);
     }
 

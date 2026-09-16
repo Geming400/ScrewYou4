@@ -13,6 +13,12 @@ public class CrashReport2047539789Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTitle()Ljava/lang/String;", cancellable = true)
+    private void getTitle__202638088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-202638088L))
+            info.setReturnValue("h}Ze*>S(h)Pv:bQaOB]\u59C9U5]X\u96FE'u!A\uB614o3(");
+    }
+
     @Inject(at = @At("HEAD"), method = "addCategory(Ljava/lang/String;)Lnet/minecraft/CrashReportCategory;", cancellable = true)
     private void addCategory_1435961431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1435961431L))
@@ -49,28 +55,10 @@ public class CrashReport2047539789Mixin {
             info.setReturnValue(new net.minecraft.SystemReport());
     }
 
-    @Inject(at = @At("HEAD"), method = "getTitle()Ljava/lang/String;", cancellable = true)
-    private void getTitle__202638088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-202638088L))
-            info.setReturnValue("h}Ze*>S(h)Pv:bQaOB]\u59C9U5]X\u96FE'u!A\uB614o3(");
-    }
-
-    @Inject(at = @At("HEAD"), method = "saveToFile(Ljava/nio/file/Path;Lnet/minecraft/ReportType;)Z", cancellable = true)
-    private void saveToFile_66486620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66486620L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saveToFile(Ljava/nio/file/Path;Lnet/minecraft/ReportType;Ljava/util/List;)Z", cancellable = true)
-    private void saveToFile__492905459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-492905459L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "preload()V", cancellable = true)
-    private static void preload__700518001(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-700518001L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getFriendlyReport(Lnet/minecraft/ReportType;Ljava/util/List;)Ljava/lang/String;", cancellable = true)
+    private void getFriendlyReport__165451795(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-165451795L))
+            info.setReturnValue("QqRjLj=K,c}<");
     }
 
     @Inject(at = @At("HEAD"), method = "getFriendlyReport(Lnet/minecraft/ReportType;)Ljava/lang/String;", cancellable = true)
@@ -79,15 +67,21 @@ public class CrashReport2047539789Mixin {
             info.setReturnValue("0CBuHrmRYj\u011F+");
     }
 
-    @Inject(at = @At("HEAD"), method = "getFriendlyReport(Lnet/minecraft/ReportType;Ljava/util/List;)Ljava/lang/String;", cancellable = true)
-    private void getFriendlyReport__165451795(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-165451795L))
-            info.setReturnValue("QqRjLj=K,c}<");
+    @Inject(at = @At("HEAD"), method = "saveToFile(Ljava/nio/file/Path;Lnet/minecraft/ReportType;Ljava/util/List;)Z", cancellable = true)
+    private void saveToFile__492905459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-492905459L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDetails(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void getDetails_2092637357(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2092637357L))
+    @Inject(at = @At("HEAD"), method = "saveToFile(Ljava/nio/file/Path;Lnet/minecraft/ReportType;)Z", cancellable = true)
+    private void saveToFile_66486620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(66486620L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "preload()V", cancellable = true)
+    private static void preload__700518001(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-700518001L))
             info.cancel();
     }
 
@@ -95,6 +89,12 @@ public class CrashReport2047539789Mixin {
     private void getDetails_341841634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(341841634L))
             info.setReturnValue("mT'");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDetails(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void getDetails_2092637357(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2092637357L))
+            info.cancel();
     }
 
 

@@ -34,7 +34,7 @@ public class TypedDataComponent1470499239Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2027851330(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2027851330L))
-            info.setReturnValue(378259060);
+            info.setReturnValue(1185971260);
     }
 
     @Inject(at = @At("HEAD"), method = "encodeValue(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/DataResult;", cancellable = true)

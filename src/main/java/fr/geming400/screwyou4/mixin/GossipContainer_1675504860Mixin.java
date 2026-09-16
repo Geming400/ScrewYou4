@@ -61,22 +61,22 @@ public class GossipContainer_1675504860Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReputation(Ljava/util/UUID;Ljava/util/function/Predicate;)I", cancellable = true)
+    private void getReputation__2139345835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2139345835L))
+            info.setReturnValue(-1594121048);
+    }
+
     @Inject(at = @At("HEAD"), method = "decay()V", cancellable = true)
     private void decay_1470193684(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1470193684L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getReputation(Ljava/util/UUID;Ljava/util/function/Predicate;)I", cancellable = true)
-    private void getReputation__2139345835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2139345835L))
-            info.setReturnValue(-685391948);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCountForType(Lnet/minecraft/world/entity/ai/gossip/GossipType;Ljava/util/function/DoublePredicate;)J", cancellable = true)
     private void getCountForType_1977186854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1977186854L))
-            info.setReturnValue(8838366369558407205L);
+            info.setReturnValue(8838366368649678105L);
     }
 
 

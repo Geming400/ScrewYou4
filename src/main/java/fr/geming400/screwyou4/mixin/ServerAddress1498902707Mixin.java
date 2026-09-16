@@ -22,7 +22,7 @@ public class ServerAddress1498902707Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2056254302(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2056254302L))
-            info.setReturnValue(288742975);
+            info.setReturnValue(173242975);
     }
 
     @Inject(at = @At("HEAD"), method = "getHost()Ljava/lang/String;", cancellable = true)
@@ -34,13 +34,13 @@ public class ServerAddress1498902707Mixin {
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
     private void getPort__1743239166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1743239166L))
-            info.setReturnValue(-172674759);
+            info.setReturnValue(-288174759);
     }
 
     @Inject(at = @At("HEAD"), method = "parsePort(Ljava/lang/String;)I", cancellable = true)
     private static void parsePort__1034027193(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1034027193L))
-            info.setReturnValue(1402079419);
+            info.setReturnValue(1286579419);
     }
 
     @Inject(at = @At("HEAD"), method = "parseString(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/resolver/ServerAddress;", cancellable = true)

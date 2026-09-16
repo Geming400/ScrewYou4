@@ -22,7 +22,7 @@ public class MinecartStep197661568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_755013659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(755013659L))
-            info.setReturnValue(31330875);
+            info.setReturnValue(-362673125);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -31,28 +31,28 @@ public class MinecartStep197661568Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot__1979048124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1979048124L))
-            info.setReturnValue(9.763441E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_508464709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(508464709L))
-            info.setReturnValue(9.763441E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
     private void weight__2072156501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2072156501L))
-            info.setReturnValue(9.763441E8F);
+            info.setReturnValue(5.823401E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "movement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void movement_1767613034(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1767613034L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_508464709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(508464709L))
+            info.setReturnValue(5.823401E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot__1979048124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1979048124L))
+            info.setReturnValue(5.823401E8F);
     }
 
 

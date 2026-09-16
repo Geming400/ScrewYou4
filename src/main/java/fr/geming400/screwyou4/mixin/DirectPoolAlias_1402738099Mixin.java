@@ -28,19 +28,13 @@ public class DirectPoolAlias_1402738099Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1960090189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960090189L))
-            info.setReturnValue(1879286193);
+            info.setReturnValue(2131397293);
     }
 
     @Inject(at = @At("HEAD"), method = "alias()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void alias_690254483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(690254483L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved__1511590682(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1511590682L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -53,6 +47,12 @@ public class DirectPoolAlias_1402738099Mixin {
     private void allTargets_1123556774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1123556774L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved__1511590682(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1511590682L))
+            info.cancel();
     }
 
 

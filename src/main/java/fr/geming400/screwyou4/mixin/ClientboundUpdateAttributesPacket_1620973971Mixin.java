@@ -34,7 +34,7 @@ public class ClientboundUpdateAttributesPacket_1620973971Mixin {
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId_986232356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(986232356L))
-            info.setReturnValue(-1126996629);
+            info.setReturnValue(-875795529);
     }
 
 

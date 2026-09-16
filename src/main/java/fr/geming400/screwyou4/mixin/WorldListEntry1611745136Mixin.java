@@ -19,9 +19,33 @@ public class WorldListEntry1611745136Mixin {
             info.setReturnValue("9C:x@}]SIvI\uA107S[zH8\uD5D7hV+a8;?i*>X\"");
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1580691505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580691505L))
+    @Inject(at = @At("HEAD"), method = "recreateWorld()V", cancellable = true)
+    private void recreateWorld_1090476064(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1090476064L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "deleteWorld()V", cancellable = true)
+    private void deleteWorld_495855068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(495855068L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "doDeleteWorld()V", cancellable = true)
+    private void doDeleteWorld__1376386937(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1376386937L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLevelSummary()Lnet/minecraft/world/level/storage/LevelSummary;", cancellable = true)
+    private void getLevelSummary_1543907652(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1543907652L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canInteract()Z", cancellable = true)
+    private void canInteract_2135235265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2135235265L))
             info.setReturnValue(false);
     }
 
@@ -31,16 +55,16 @@ public class WorldListEntry1611745136Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
-    private void extractContent_2126502620(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2126502620L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarration__1965057553(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1965057553L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
+    private void extractContent_2126502620(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2126502620L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "joinWorld()V", cancellable = true)
@@ -55,34 +79,10 @@ public class WorldListEntry1611745136Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "doDeleteWorld()V", cancellable = true)
-    private void doDeleteWorld__1376386937(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1376386937L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "recreateWorld()V", cancellable = true)
-    private void recreateWorld_1090476064(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1090476064L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "deleteWorld()V", cancellable = true)
-    private void deleteWorld_495855068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(495855068L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canInteract()Z", cancellable = true)
-    private void canInteract_2135235265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2135235265L))
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1580691505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580691505L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLevelSummary()Lnet/minecraft/world/level/storage/LevelSummary;", cancellable = true)
-    private void getLevelSummary_1543907652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1543907652L))
-            info.setReturnValue(null);
     }
 
 

@@ -16,13 +16,7 @@ public class MoveControl_1317587042Mixin {
     @Inject(at = @At("HEAD"), method = "getSpeedModifier()D", cancellable = true)
     private void getSpeedModifier_1739142138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1739142138L))
-            info.setReturnValue(3.81322900681419E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setWantedPosition(DDDD)V", cancellable = true)
-    private void setWantedPosition_84711258(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(84711258L))
-            info.cancel();
+            info.setReturnValue(9.90519100681419E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "setWait()V", cancellable = true)
@@ -37,10 +31,10 @@ public class MoveControl_1317587042Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWantedZ()D", cancellable = true)
-    private void getWantedZ_367632717(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(367632717L))
-            info.setReturnValue(3.8132290033998877E8D);
+    @Inject(at = @At("HEAD"), method = "getWantedY()D", cancellable = true)
+    private void getWantedY_339003566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(339003566L))
+            info.setReturnValue(9.905191005951661E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "hasWanted()Z", cancellable = true)
@@ -49,16 +43,22 @@ public class MoveControl_1317587042Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWantedY()D", cancellable = true)
-    private void getWantedY_339003566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(339003566L))
-            info.setReturnValue(3.813229005951661E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "getWantedX()D", cancellable = true)
     private void getWantedX_310374415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(310374415L))
-            info.setReturnValue(3.813229008015117E8D);
+            info.setReturnValue(9.905191008015118E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWantedZ()D", cancellable = true)
+    private void getWantedZ_367632717(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(367632717L))
+            info.setReturnValue(9.905191003399887E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWantedPosition(DDDD)V", cancellable = true)
+    private void setWantedPosition_84711258(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(84711258L))
+            info.cancel();
     }
 
 

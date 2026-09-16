@@ -13,16 +13,16 @@ public class EnchantingTableBlock_1729421972Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_1870997356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1870997356L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void animateTick_2134103504(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2134103504L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBookShelf(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isValidBookShelf__1207377184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1207377184L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
@@ -31,10 +31,10 @@ public class EnchantingTableBlock_1729421972Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBookShelf(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isValidBookShelf__1207377184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207377184L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_1870997356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1870997356L))
+            info.setReturnValue(null);
     }
 
 

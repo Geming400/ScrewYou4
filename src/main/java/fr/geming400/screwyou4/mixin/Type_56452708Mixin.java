@@ -37,9 +37,9 @@ public class Type_56452708Mixin {
             info.setReturnValue("rx>t\uA45A\u766BlBT eEh\uBBCA)NC\uB8AD-25FT\uAF9B\u38052EA=");
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getPlanksState__707260837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-707260837L))
+    @Inject(at = @At("HEAD"), method = "getWoodState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getWoodState__1042965761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1042965761L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Type_56452708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWoodState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getWoodState__1042965761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1042965761L))
+    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getPlanksState__707260837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-707260837L))
             info.setReturnValue(null);
     }
 

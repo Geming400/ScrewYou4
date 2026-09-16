@@ -31,9 +31,9 @@ public class RowHelper_2143826648Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGrid()Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
-    private void getGrid__1083479995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1083479995L))
+    @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newCellSettings__827846849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-827846849L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class RowHelper_2143826648Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newCellSettings__827846849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-827846849L))
+    @Inject(at = @At("HEAD"), method = "getGrid()Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
+    private void getGrid__1083479995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1083479995L))
             info.setReturnValue(null);
     }
 

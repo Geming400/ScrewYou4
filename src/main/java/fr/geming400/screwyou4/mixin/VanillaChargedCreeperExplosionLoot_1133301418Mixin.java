@@ -22,7 +22,7 @@ public class VanillaChargedCreeperExplosionLoot_1133301418Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1690653508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1690653508L))
-            info.setReturnValue(-1642243696);
+            info.setReturnValue(-1627260796);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

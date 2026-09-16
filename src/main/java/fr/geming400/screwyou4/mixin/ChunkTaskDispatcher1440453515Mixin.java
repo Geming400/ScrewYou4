@@ -25,16 +25,16 @@ public class ChunkTaskDispatcher1440453515Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
-    private void hasWork_1391820631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1391820631L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "onLevelChange(Lnet/minecraft/world/level/ChunkPos;Ljava/util/function/IntSupplier;ILjava/util/function/IntConsumer;)V", cancellable = true)
     private void onLevelChange__1252413834(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1252413834L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
+    private void hasWork_1391820631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1391820631L))
+            info.setReturnValue(false);
     }
 
 

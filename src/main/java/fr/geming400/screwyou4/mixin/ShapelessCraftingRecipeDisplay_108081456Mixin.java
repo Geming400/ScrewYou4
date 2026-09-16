@@ -28,7 +28,7 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_665433546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(665433546L))
-            info.setReturnValue(-196269804);
+            info.setReturnValue(-263122504);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -43,15 +43,15 @@ public class ShapelessCraftingRecipeDisplay_108081456Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
-    private void ingredients__1707936991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1707936991L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
     private void craftingStation_2005002764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2005002764L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
+    private void ingredients__1707936991(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1707936991L))
             info.setReturnValue(null);
     }
 

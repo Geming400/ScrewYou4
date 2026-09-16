@@ -22,7 +22,7 @@ public class ResolutionContext1392565317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1949917408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1949917408L))
-            info.setReturnValue(-1917547832);
+            info.setReturnValue(-2054611632);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
@@ -70,7 +70,7 @@ public class ResolutionContext1392565317Mixin {
     @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
     private void depthLimit__413609357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-413609357L))
-            info.setReturnValue(1959931701);
+            info.setReturnValue(1823374801);
     }
 
 

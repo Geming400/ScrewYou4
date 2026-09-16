@@ -22,7 +22,7 @@ public class ApplyInFolders1791614490Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1946000715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1946000715L))
-            info.setReturnValue(-236877580);
+            info.setReturnValue(-515243280);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class ApplyInFolders1791614490Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "folders()Lnet/minecraft/util/filefix/access/FileRelation;", cancellable = true)
-    private void folders__605387527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-605387527L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fileFixOperations()Ljava/util/List;", cancellable = true)
     private void fileFixOperations_1237329295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1237329295L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "folders()Lnet/minecraft/util/filefix/access/FileRelation;", cancellable = true)
+    private void folders__605387527(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-605387527L))
             info.setReturnValue(null);
     }
 

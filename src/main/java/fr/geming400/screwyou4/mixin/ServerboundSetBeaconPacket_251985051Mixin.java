@@ -28,7 +28,7 @@ public class ServerboundSetBeaconPacket_251985051Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_809337141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809337141L))
-            info.setReturnValue(817108470);
+            info.setReturnValue(585185270);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

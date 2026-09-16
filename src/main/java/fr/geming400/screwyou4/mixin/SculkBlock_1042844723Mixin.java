@@ -22,7 +22,7 @@ public class SculkBlock_1042844723Mixin {
     @Inject(at = @At("HEAD"), method = "attemptUseCharge(Lnet/minecraft/world/level/block/SculkSpreader$ChargeCursor;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/SculkSpreader;Z)I", cancellable = true)
     private void attemptUseCharge__582098900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582098900L))
-            info.setReturnValue(-658447746);
+            info.setReturnValue(-690985046);
     }
 
 

@@ -16,7 +16,7 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private void getCount_494735734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(494735734L))
-            info.setReturnValue(420053824);
+            info.setReturnValue(-89206676);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,19 +34,19 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
     @Inject(at = @At("HEAD"), method = "getY()D", cancellable = true)
     private void getY__1510880121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1510880121L))
-            info.setReturnValue(9.143509006598985E8D);
+            info.setReturnValue(4.050904006598985E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()D", cancellable = true)
     private void getX__1539509272(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1539509272L))
-            info.setReturnValue(9.143509001174837E8D);
+            info.setReturnValue(4.050904001174838E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ()D", cancellable = true)
     private void getZ__1482250970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1482250970L))
-            info.setReturnValue(9.143509005542974E8D);
+            info.setReturnValue(4.0509040055429745E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "isOverrideLimiter()Z", cancellable = true)
@@ -55,40 +55,40 @@ public class ClientboundLevelParticlesPacket_1880654666Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getYDist()F", cancellable = true)
-    private void getYDist_1581197187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1581197187L))
-            info.setReturnValue(9.143509E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getZDist()F", cancellable = true)
-    private void getZDist_1384683682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1384683682L))
-            info.setReturnValue(9.143509E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXDist()F", cancellable = true)
-    private void getXDist_1777710692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1777710692L))
-            info.setReturnValue(9.143509E8F);
+    @Inject(at = @At("HEAD"), method = "alwaysShow()Z", cancellable = true)
+    private void alwaysShow__1359904044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1359904044L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getMaxSpeed()F", cancellable = true)
     private void getMaxSpeed_169751251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(169751251L))
-            info.setReturnValue(9.143509E8F);
+            info.setReturnValue(4.050904E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getZDist()F", cancellable = true)
+    private void getZDist_1384683682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384683682L))
+            info.setReturnValue(4.050904E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXDist()F", cancellable = true)
+    private void getXDist_1777710692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1777710692L))
+            info.setReturnValue(4.050904E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYDist()F", cancellable = true)
+    private void getYDist_1581197187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1581197187L))
+            info.setReturnValue(4.050904E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
     private void getParticle__942808807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-942808807L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alwaysShow()Z", cancellable = true)
-    private void alwaysShow__1359904044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1359904044L))
-            info.setReturnValue(true);
     }
 
 

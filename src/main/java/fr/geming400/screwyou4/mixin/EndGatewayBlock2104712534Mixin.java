@@ -7,21 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.EndGatewayBlock.class)
 public class EndGatewayBlock2104712534Mixin {
-        @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
-    private void getPortalDestination_288674003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288674003L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1123809508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1123809508L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity__2048679377(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2048679377L))
+    @Inject(at = @At("HEAD"), method = "getPortalDestination(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/portal/TeleportTransition;", cancellable = true)
+    private void getPortalDestination_288674003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288674003L))
             info.setReturnValue(null);
     }
 
@@ -34,6 +28,12 @@ public class EndGatewayBlock2104712534Mixin {
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__202112121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-202112121L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity__2048679377(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2048679377L))
             info.setReturnValue(null);
     }
 

@@ -13,42 +13,6 @@ public class FallingBlockEntity1642938135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable_90403753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(90403753L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_827650778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(827650778L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
-    private void isAttackable__1811211294(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1811211294L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState__41855105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-41855105L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void causeFallDamage__1343921992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1343921992L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillCrashReportCategory(Lnet/minecraft/CrashReportCategory;)V", cancellable = true)
-    private void fillCrashReportCategory__954581614(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-954581614L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "displayFireAnimation()Z", cancellable = true)
     private void displayFireAnimation_25976834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(25976834L))
@@ -67,10 +31,34 @@ public class FallingBlockEntity1642938135Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
+    private void isAttackable__1811211294(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1811211294L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void causeFallDamage__1343921992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1343921992L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillCrashReportCategory(Lnet/minecraft/CrashReportCategory;)V", cancellable = true)
+    private void fillCrashReportCategory__954581614(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-954581614L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "teleport(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void teleport_654688888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(654688888L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_827650778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(827650778L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "fall(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/item/FallingBlockEntity;", cancellable = true)
@@ -79,15 +67,21 @@ public class FallingBlockEntity1642938135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "disableDrop()V", cancellable = true)
-    private void disableDrop__1454254541(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1454254541L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable_90403753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(90403753L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setHurtsEntities(FI)V", cancellable = true)
-    private void setHurtsEntities_540595402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(540595402L))
+    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState__41855105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-41855105L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStartPos(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void setStartPos_653412274(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(653412274L))
             info.cancel();
     }
 
@@ -103,9 +97,15 @@ public class FallingBlockEntity1642938135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setStartPos(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void setStartPos_653412274(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(653412274L))
+    @Inject(at = @At("HEAD"), method = "disableDrop()V", cancellable = true)
+    private void disableDrop__1454254541(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1454254541L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setHurtsEntities(FI)V", cancellable = true)
+    private void setHurtsEntities_540595402(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(540595402L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class BiomeCheck1787525430Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1950089775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1950089775L))
-            info.setReturnValue(-407201735);
+            info.setReturnValue(-645081435);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -37,15 +37,15 @@ public class BiomeCheck1787525430Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1440996612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1440996612L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "requiredBiomes()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void requiredBiomes__703415652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-703415652L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1440996612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1440996612L))
             info.setReturnValue(null);
     }
 

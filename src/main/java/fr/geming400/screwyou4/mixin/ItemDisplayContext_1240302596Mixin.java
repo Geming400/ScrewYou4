@@ -25,12 +25,6 @@ public class ItemDisplayContext_1240302596Mixin {
             info.setReturnValue(36);
     }
 
-    @Inject(at = @At("HEAD"), method = "leftHand()Z", cancellable = true)
-    private void leftHand_1847352932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1847352932L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "firstPerson()Z", cancellable = true)
     private void firstPerson__2113137995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113137995L))
@@ -41,6 +35,12 @@ public class ItemDisplayContext_1240302596Mixin {
     private void getSerializedName_1328511217(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1328511217L))
             info.setReturnValue("D/7$5\u1655;r>-}]Qy6\u835BTlu>xV\uC747<uiUsD?D|M9\uA91Dmio\uBB0A\u3594V`\u2C1F}&o\u776B\uBE1A?l7>5\u8767y\u2C6C^)z");
+    }
+
+    @Inject(at = @At("HEAD"), method = "leftHand()Z", cancellable = true)
+    private void leftHand_1847352932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1847352932L))
+            info.setReturnValue(true);
     }
 
 

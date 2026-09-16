@@ -22,7 +22,7 @@ public class RenderState_1234259549Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1791611639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791611639L))
-            info.setReturnValue(-1388870703);
+            info.setReturnValue(-1745791603);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lnet/minecraft/world/entity/Display$GenericInterpolator;", cancellable = true)
@@ -34,19 +34,13 @@ public class RenderState_1234259549Mixin {
     @Inject(at = @At("HEAD"), method = "brightnessOverride()I", cancellable = true)
     private void brightnessOverride__1213671643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1213671643L))
-            info.setReturnValue(1245203823);
+            info.setReturnValue(888282923);
     }
 
     @Inject(at = @At("HEAD"), method = "billboardConstraints()Lnet/minecraft/world/entity/Display$BillboardConstraints;", cancellable = true)
     private void billboardConstraints_2049634229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2049634229L))
             info.setReturnValue(net.minecraft.world.entity.Display.BillboardConstraints.CENTER);
-    }
-
-    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
-    private void glowColorOverride__1959679552(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1959679552L))
-            info.setReturnValue(-1237436660);
     }
 
     @Inject(at = @At("HEAD"), method = "shadowRadius()Lnet/minecraft/world/entity/Display$FloatInterpolator;", cancellable = true)
@@ -59,6 +53,12 @@ public class RenderState_1234259549Mixin {
     private void shadowStrength__847247643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-847247643L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "glowColorOverride()I", cancellable = true)
+    private void glowColorOverride__1959679552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1959679552L))
+            info.setReturnValue(-1594357560);
     }
 
 

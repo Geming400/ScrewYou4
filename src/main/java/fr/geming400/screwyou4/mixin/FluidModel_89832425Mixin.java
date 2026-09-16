@@ -22,7 +22,7 @@ public class FluidModel_89832425Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_647184515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(647184515L))
-            info.setReturnValue(-1743327609);
+            info.setReturnValue(2058199987);
     }
 
     @Inject(at = @At("HEAD"), method = "layer()Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
@@ -31,9 +31,9 @@ public class FluidModel_89832425Mixin {
             info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.TRANSLUCENT);
     }
 
-    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void tintSource__1994128825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1994128825L))
+    @Inject(at = @At("HEAD"), method = "stillMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
+    private void stillMaterial_932850317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(932850317L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class FluidModel_89832425Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
-    private void stillMaterial_932850317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(932850317L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "overlayMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
     private void overlayMaterial__582933195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582933195L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tintSource()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void tintSource__1994128825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1994128825L))
             info.setReturnValue(null);
     }
 

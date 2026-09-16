@@ -22,7 +22,7 @@ public class EmptyNeighbor_834002553Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1391354643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1391354643L))
-            info.setReturnValue(289008762);
+            info.setReturnValue(58052162);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

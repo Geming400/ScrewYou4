@@ -13,9 +13,15 @@ public class InfestedBlock1837967931Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hostStateByInfested(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void hostStateByInfested_1503386206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1503386206L))
+    @Inject(at = @At("HEAD"), method = "isCompatibleHostBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isCompatibleHostBlock_1884579442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1884579442L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHostBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private void getHostBlock__634508543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-634508543L))
             info.setReturnValue(null);
     }
 
@@ -25,16 +31,10 @@ public class InfestedBlock1837967931Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHostBlock()Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private void getHostBlock__634508543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-634508543L))
+    @Inject(at = @At("HEAD"), method = "hostStateByInfested(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void hostStateByInfested_1503386206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1503386206L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isCompatibleHostBlock(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isCompatibleHostBlock_1884579442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884579442L))
-            info.setReturnValue(true);
     }
 
 

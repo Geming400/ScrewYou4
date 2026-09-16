@@ -22,7 +22,7 @@ public class TextureInput_2073268786Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1664346420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1664346420L))
-            info.setReturnValue(377105771);
+            info.setReturnValue(861643871);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -34,19 +34,19 @@ public class TextureInput_2073268786Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_433120785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(433120785L))
-            info.setReturnValue(-252595693);
+            info.setReturnValue(231942407);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_987920208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(987920208L))
+            info.setReturnValue(657353896);
     }
 
     @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
     private void bilinear_1971263804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1971263804L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_987920208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(987920208L))
-            info.setReturnValue(172815796);
     }
 
     @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/Set;", cancellable = true)

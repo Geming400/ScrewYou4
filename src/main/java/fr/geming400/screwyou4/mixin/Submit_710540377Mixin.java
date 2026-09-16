@@ -28,19 +28,19 @@ public class Submit_710540377Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1267892467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1267892467L))
-            info.setReturnValue(-1711626653);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_518116622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(518116622L))
-            info.setReturnValue(null);
+            info.setReturnValue(2064669943);
     }
 
     @Inject(at = @At("HEAD"), method = "camera()Lnet/minecraft/client/renderer/state/level/CameraRenderState;", cancellable = true)
     private void camera_1666589286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1666589286L))
             info.setReturnValue(new net.minecraft.client.renderer.state.level.CameraRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_518116622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(518116622L))
+            info.setReturnValue(null);
     }
 
 

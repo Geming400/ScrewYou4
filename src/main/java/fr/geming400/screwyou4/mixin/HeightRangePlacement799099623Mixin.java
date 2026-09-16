@@ -19,15 +19,15 @@ public class HeightRangePlacement799099623Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triangle(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/placement/HeightRangePlacement;", cancellable = true)
-    private static void triangle_2033402075(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2033402075L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "uniform(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/placement/HeightRangePlacement;", cancellable = true)
     private static void uniform__377898833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-377898833L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triangle(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/placement/HeightRangePlacement;", cancellable = true)
+    private static void triangle_2033402075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2033402075L))
             info.setReturnValue(null);
     }
 

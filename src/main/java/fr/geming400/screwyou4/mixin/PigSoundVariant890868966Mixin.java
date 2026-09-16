@@ -22,18 +22,18 @@ public class PigSoundVariant890868966Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1448221057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1448221057L))
-            info.setReturnValue(-990843144);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/pig/PigSoundVariant$PigSoundSet;", cancellable = true)
-    private void babySounds_93942152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(93942152L))
-            info.setReturnValue(null);
+            info.setReturnValue(-827967344);
     }
 
     @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/pig/PigSoundVariant$PigSoundSet;", cancellable = true)
     private void adultSounds__1722054876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1722054876L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/pig/PigSoundVariant$PigSoundSet;", cancellable = true)
+    private void babySounds_93942152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(93942152L))
             info.setReturnValue(null);
     }
 

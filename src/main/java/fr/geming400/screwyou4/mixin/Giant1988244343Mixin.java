@@ -16,7 +16,7 @@ public class Giant1988244343Mixin {
     @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
     private void getWalkTargetValue_447258161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447258161L))
-            info.setReturnValue(9.61711E8F);
+            info.setReturnValue(1.554353E8F);
     }
 
 

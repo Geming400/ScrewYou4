@@ -37,16 +37,16 @@ public class Named_1393654011Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_1915466660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1915466660L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
     private void canSerializeIn__1128623680(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1128623680L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_1915466660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1915466660L))
+            info.setReturnValue(null);
     }
 
 

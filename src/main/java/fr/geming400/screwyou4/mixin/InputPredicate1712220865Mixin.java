@@ -22,7 +22,7 @@ public class InputPredicate1712220865Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2025394340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2025394340L))
-            info.setReturnValue(1272832667);
+            info.setReturnValue(1655410567);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/player/Input;)Z", cancellable = true)
@@ -61,15 +61,15 @@ public class InputPredicate1712220865Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backward()Ljava/util/Optional;", cancellable = true)
-    private void backward_688779090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(688779090L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sneak()Ljava/util/Optional;", cancellable = true)
     private void sneak_233371523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(233371523L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "backward()Ljava/util/Optional;", cancellable = true)
+    private void backward_688779090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(688779090L))
             info.setReturnValue(null);
     }
 

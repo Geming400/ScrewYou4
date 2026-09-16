@@ -19,15 +19,9 @@ public class OminousItemSpawner1248544151Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_754378820(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(754378820L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_433256794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(433256794L))
+    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
+    private void isIgnoringBlockTriggers_41475103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(41475103L))
             info.setReturnValue(false);
     }
 
@@ -37,9 +31,9 @@ public class OminousItemSpawner1248544151Mixin {
             info.setReturnValue(net.minecraft.world.level.material.PushReaction.IGNORE);
     }
 
-    @Inject(at = @At("HEAD"), method = "isIgnoringBlockTriggers()Z", cancellable = true)
-    private void isIgnoringBlockTriggers_41475103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(41475103L))
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_433256794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(433256794L))
             info.setReturnValue(false);
     }
 
@@ -47,6 +41,12 @@ public class OminousItemSpawner1248544151Mixin {
     private void addParticles__333863746(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-333863746L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_754378820(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(754378820L))
+            info.setReturnValue(null);
     }
 
 

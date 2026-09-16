@@ -28,7 +28,7 @@ public class UniformHeight1134260141Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample__1479322860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1479322860L))
-            info.setReturnValue(-1082514718);
+            info.setReturnValue(-889193718);
     }
 
 

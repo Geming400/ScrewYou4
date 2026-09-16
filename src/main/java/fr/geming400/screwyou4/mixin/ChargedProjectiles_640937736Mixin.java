@@ -22,7 +22,7 @@ public class ChargedProjectiles_640937736Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1198289826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1198289826L))
-            info.setReturnValue(815101247);
+            info.setReturnValue(73885347);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/world/item/component/ChargedProjectiles;", cancellable = true)
@@ -55,15 +55,15 @@ public class ChargedProjectiles_640937736Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "itemCopies()Ljava/util/List;", cancellable = true)
-    private void itemCopies_662127101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(662127101L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ofNonEmpty(Ljava/util/List;)Lnet/minecraft/world/item/component/ChargedProjectiles;", cancellable = true)
     private static void ofNonEmpty__45807770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-45807770L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemCopies()Ljava/util/List;", cancellable = true)
+    private void itemCopies_662127101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(662127101L))
             info.setReturnValue(null);
     }
 

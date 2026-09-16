@@ -22,25 +22,7 @@ public class Packed_187419375Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_744771465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(744771465L))
-            info.setReturnValue(-899833361);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nextSpawnData()Ljava/util/Optional;", cancellable = true)
-    private void nextSpawnData_1270349486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1270349486L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nextMobSpawnsAt()J", cancellable = true)
-    private void nextMobSpawnsAt__277890371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-277890371L))
-            info.setReturnValue(2713711319696888219L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cooldownEndsAt()J", cancellable = true)
-    private void cooldownEndsAt_224583103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(224583103L))
-            info.setReturnValue(-3988466444756566650L);
+            info.setReturnValue(-896598761);
     }
 
     @Inject(at = @At("HEAD"), method = "detectedPlayers()Ljava/util/Set;", cancellable = true)
@@ -49,10 +31,22 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "totalMobsSpawned()I", cancellable = true)
-    private void totalMobsSpawned__1688277967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1688277967L))
-            info.setReturnValue(-1237240359);
+    @Inject(at = @At("HEAD"), method = "cooldownEndsAt()J", cancellable = true)
+    private void cooldownEndsAt_224583103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(224583103L))
+            info.setReturnValue(-3988466444753332050L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
+    private void ejectingLootTable_1810959665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1810959665L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nextSpawnData()Ljava/util/Optional;", cancellable = true)
+    private void nextSpawnData_1270349486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270349486L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "currentMobs()Ljava/util/Set;", cancellable = true)
@@ -61,10 +55,16 @@ public class Packed_187419375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ejectingLootTable()Ljava/util/Optional;", cancellable = true)
-    private void ejectingLootTable_1810959665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1810959665L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "nextMobSpawnsAt()J", cancellable = true)
+    private void nextMobSpawnsAt__277890371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-277890371L))
+            info.setReturnValue(2713711319700122819L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "totalMobsSpawned()I", cancellable = true)
+    private void totalMobsSpawned__1688277967(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1688277967L))
+            info.setReturnValue(-1234005759);
     }
 
 

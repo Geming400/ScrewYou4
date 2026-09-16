@@ -31,16 +31,16 @@ public class ServerboundRecipeBookChangeSettingsPacket_2086218913Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
-    private void getBookType_239033170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(239033170L))
-            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.CRAFTING);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFiltering()Z", cancellable = true)
     private void isFiltering_461021943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(461021943L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
+    private void getBookType_239033170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(239033170L))
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.CRAFTING);
     }
 
 

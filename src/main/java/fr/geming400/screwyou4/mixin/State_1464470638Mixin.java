@@ -22,7 +22,7 @@ public class State_1464470638Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1230713320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1230713320L))
-            info.setReturnValue(2046027354);
+            info.setReturnValue(-1517247742);
     }
 
 

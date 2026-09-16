@@ -22,7 +22,13 @@ public class KineticWeapon1411754871Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1969106962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969106962L))
-            info.setReturnValue(-1440285489);
+            info.setReturnValue(-581398989);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeLocalHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void makeLocalHitSound__1841223812(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1841223812L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "sound()Ljava/util/Optional;", cancellable = true)
@@ -37,10 +43,46 @@ public class KineticWeapon1411754871Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "makeLocalHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void makeLocalHitSound__1841223812(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1841223812L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hitSound()Ljava/util/Optional;", cancellable = true)
+    private void hitSound_133083745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(133083745L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dismountConditions()Ljava/util/Optional;", cancellable = true)
+    private void dismountConditions_1933948296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1933948296L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "knockbackConditions()Ljava/util/Optional;", cancellable = true)
+    private void knockbackConditions__1060211464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1060211464L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "damageConditions()Ljava/util/Optional;", cancellable = true)
+    private void damageConditions__619767892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-619767892L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "contactCooldownTicks()I", cancellable = true)
+    private void contactCooldownTicks_1964485298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1964485298L))
+            info.setReturnValue(1190012904);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forwardMovement()F", cancellable = true)
+    private void forwardMovement_1073778694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1073778694L))
+            info.setReturnValue(8.609401E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "computeDamageUseDuration()I", cancellable = true)
+    private void computeDamageUseDuration_1553965224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1553965224L))
+            info.setReturnValue(-1000728694);
     }
 
     @Inject(at = @At("HEAD"), method = "damageEntities(Lnet/minecraft/world/item/ItemStack;ILnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
@@ -52,13 +94,7 @@ public class KineticWeapon1411754871Mixin {
     @Inject(at = @At("HEAD"), method = "damageMultiplier()F", cancellable = true)
     private void damageMultiplier__1629525622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629525622L))
-            info.setReturnValue(3052300.5F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hitSound()Ljava/util/Optional;", cancellable = true)
-    private void hitSound_133083745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(133083745L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.609401E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getMotion(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -70,43 +106,7 @@ public class KineticWeapon1411754871Mixin {
     @Inject(at = @At("HEAD"), method = "delayTicks()I", cancellable = true)
     private void delayTicks_2064221834(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064221834L))
-            info.setReturnValue(-744296007);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dismountConditions()Ljava/util/Optional;", cancellable = true)
-    private void dismountConditions_1933948296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1933948296L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "computeDamageUseDuration()I", cancellable = true)
-    private void computeDamageUseDuration_1553965224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1553965224L))
-            info.setReturnValue(-1858616494);
-    }
-
-    @Inject(at = @At("HEAD"), method = "contactCooldownTicks()I", cancellable = true)
-    private void contactCooldownTicks_1964485298(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1964485298L))
-            info.setReturnValue(333125904);
-    }
-
-    @Inject(at = @At("HEAD"), method = "knockbackConditions()Ljava/util/Optional;", cancellable = true)
-    private void knockbackConditions__1060211464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1060211464L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forwardMovement()F", cancellable = true)
-    private void forwardMovement_1073778694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1073778694L))
-            info.setReturnValue(4053101.0F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "damageConditions()Ljava/util/Optional;", cancellable = true)
-    private void damageConditions__619767892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-619767892L))
-            info.setReturnValue(null);
+            info.setReturnValue(113591793);
     }
 
 

@@ -22,18 +22,12 @@ public class KeyframeTrack_819748577Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1377100667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1377100667L))
-            info.setReturnValue(1378452563);
+            info.setReturnValue(575830463);
     }
 
-    @Inject(at = @At("HEAD"), method = "keyframes()Ljava/util/List;", cancellable = true)
-    private void keyframes_1497454677(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1497454677L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "easingType()Lnet/minecraft/util/EasingType;", cancellable = true)
-    private void easingType_1276278113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1276278113L))
+    @Inject(at = @At("HEAD"), method = "bakeSampler(Ljava/util/Optional;Lnet/minecraft/world/attribute/LerpFunction;)Lnet/minecraft/util/KeyframeTrackSampler;", cancellable = true)
+    private void bakeSampler__1838407076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838407076L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +37,21 @@ public class KeyframeTrack_819748577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bakeSampler(Ljava/util/Optional;Lnet/minecraft/world/attribute/LerpFunction;)Lnet/minecraft/util/KeyframeTrackSampler;", cancellable = true)
-    private void bakeSampler__1838407076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838407076L))
+    @Inject(at = @At("HEAD"), method = "keyframes()Ljava/util/List;", cancellable = true)
+    private void keyframes_1497454677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1497454677L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private static void mapCodec_469603489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(469603489L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "easingType()Lnet/minecraft/util/EasingType;", cancellable = true)
+    private void easingType_1276278113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1276278113L))
             info.setReturnValue(null);
     }
 

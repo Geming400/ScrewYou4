@@ -28,7 +28,7 @@ public class Unbaked_171176213Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_728528303(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(728528303L))
-            info.setReturnValue(541715935);
+            info.setReturnValue(820167335);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)

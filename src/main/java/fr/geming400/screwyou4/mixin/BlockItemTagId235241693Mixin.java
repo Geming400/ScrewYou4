@@ -22,7 +22,7 @@ public class BlockItemTagId235241693Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_792593784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(792593784L))
-            info.setReturnValue(-820122477);
+            info.setReturnValue(-749824077);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/BlockItemTagId;", cancellable = true)

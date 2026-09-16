@@ -19,9 +19,9 @@ public class HappyGhastRenderer1425470872Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/happyghast/HappyGhast;Lnet/minecraft/client/renderer/entity/state/HappyGhastRenderState;F)V", cancellable = true)
-    private void extractRenderState_546672708(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(546672708L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_863249065(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(863249065L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class HappyGhastRenderer1425470872Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_863249065(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(863249065L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/happyghast/HappyGhast;Lnet/minecraft/client/renderer/entity/state/HappyGhastRenderState;F)V", cancellable = true)
+    private void extractRenderState_546672708(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(546672708L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class ServerboundChatCommandPacket_805447502Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1362799592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1362799592L))
-            info.setReturnValue(-7237360);
+            info.setReturnValue(87151140);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)

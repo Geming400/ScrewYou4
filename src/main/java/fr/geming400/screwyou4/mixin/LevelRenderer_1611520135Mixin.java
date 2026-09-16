@@ -19,33 +19,51 @@ public class LevelRenderer_1611520135Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isSectionCompiledAndVisible(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void isSectionCompiledAndVisible__1363949032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1363949032L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
     private void endFrame_1425236263(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1425236263L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addMainThreadGizmos(Ljava/util/List;)V", cancellable = true)
-    private void addMainThreadGizmos__1668259827(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1668259827L))
+    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/renderer/state/level/CameraRenderState;Lorg/joml/Matrix4fc;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;Z)V", cancellable = true)
+    private void render__1143486374(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1143486374L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "particlesTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
-    private void particlesTarget__1378163095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1378163095L))
+    @Inject(at = @At("HEAD"), method = "cloudRenderer()Lnet/minecraft/client/renderer/CloudRenderer;", cancellable = true)
+    private void cloudRenderer__1908431626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1908431626L))
+            info.setReturnValue(new net.minecraft.client.renderer.CloudRenderer());
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityRenderDispatcher()Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;", cancellable = true)
+    private void entityRenderDispatcher_1284249082(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1284249082L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "weatherTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
-    private void weatherTarget__1710459344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1710459344L))
+    @Inject(at = @At("HEAD"), method = "viewArea()Lnet/minecraft/client/renderer/ViewArea;", cancellable = true)
+    private void viewArea__220240072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-220240072L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "expectedChunks()Lit/unimi/dsi/fastutil/longs/LongCollection;", cancellable = true)
-    private void expectedChunks__972574645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-972574645L))
+    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
+    private void blockEntityRenderDispatcher_815238347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(815238347L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "collectPerFrameRenderThreadGizmos()Lnet/minecraft/gizmos/Gizmos$TemporaryCollection;", cancellable = true)
+    private void collectPerFrameRenderThreadGizmos_1195543889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1195543889L))
             info.setReturnValue(null);
     }
 
@@ -61,40 +79,22 @@ public class LevelRenderer_1611520135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRenderedAllSections()Z", cancellable = true)
-    private void hasRenderedAllSections__175315907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-175315907L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "doEntityOutline()V", cancellable = true)
     private void doEntityOutline__2124281947(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2124281947L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "entityOutlineTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
-    private void entityOutlineTarget__284797541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-284797541L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "hasRenderedAllSections()Z", cancellable = true)
+    private void hasRenderedAllSections__175315907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-175315907L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "visibleSections()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void visibleSections__982766302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-982766302L))
-            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
-    }
-
-    @Inject(at = @At("HEAD"), method = "sectionOcclusionGraph()Lnet/minecraft/client/renderer/SectionOcclusionGraph;", cancellable = true)
-    private void sectionOcclusionGraph_486567706(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(486567706L))
-            info.setReturnValue(new net.minecraft.client.renderer.SectionOcclusionGraph());
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldBorderRenderer()Lnet/minecraft/client/renderer/WorldBorderRenderer;", cancellable = true)
-    private void worldBorderRenderer_570312868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(570312868L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "weatherEffectRenderer()Lnet/minecraft/client/renderer/WeatherEffectRenderer;", cancellable = true)
+    private void weatherEffectRenderer__164094698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-164094698L))
+            info.setReturnValue(new net.minecraft.client.renderer.WeatherEffectRenderer());
     }
 
     @Inject(at = @At("HEAD"), method = "nearbyVisibleSections()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
@@ -103,10 +103,10 @@ public class LevelRenderer_1611520135Mixin {
             info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
     }
 
-    @Inject(at = @At("HEAD"), method = "weatherEffectRenderer()Lnet/minecraft/client/renderer/WeatherEffectRenderer;", cancellable = true)
-    private void weatherEffectRenderer__164094698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-164094698L))
-            info.setReturnValue(new net.minecraft.client.renderer.WeatherEffectRenderer());
+    @Inject(at = @At("HEAD"), method = "visibleSections()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void visibleSections__982766302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-982766302L))
+            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
     }
 
     @Inject(at = @At("HEAD"), method = "skyRenderer()Lnet/minecraft/client/renderer/SkyRenderer;", cancellable = true)
@@ -121,9 +121,9 @@ public class LevelRenderer_1611520135Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemEntityTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
-    private void itemEntityTarget_1976001042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1976001042L))
+    @Inject(at = @At("HEAD"), method = "entityOutlineTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
+    private void entityOutlineTarget__284797541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-284797541L))
             info.setReturnValue(null);
     }
 
@@ -133,15 +133,27 @@ public class LevelRenderer_1611520135Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "itemEntityTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
+    private void itemEntityTarget_1976001042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976001042L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sectionOcclusionGraph()Lnet/minecraft/client/renderer/SectionOcclusionGraph;", cancellable = true)
+    private void sectionOcclusionGraph_486567706(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(486567706L))
+            info.setReturnValue(new net.minecraft.client.renderer.SectionOcclusionGraph());
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldBorderRenderer()Lnet/minecraft/client/renderer/WorldBorderRenderer;", cancellable = true)
+    private void worldBorderRenderer_570312868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(570312868L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "resetLevelRenderData()V", cancellable = true)
     private void resetLevelRenderData__1902040924(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1902040924L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "invalidateCompiledGeometry(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Options;Lnet/minecraft/client/Camera;Lnet/minecraft/client/color/block/BlockColors;)V", cancellable = true)
-    private void invalidateCompiledGeometry__2128746387(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2128746387L))
             info.cancel();
     }
 
@@ -151,46 +163,34 @@ public class LevelRenderer_1611520135Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/resource/GraphicsResourceAllocator;Lnet/minecraft/client/DeltaTracker;ZLnet/minecraft/client/renderer/state/level/CameraRenderState;Lorg/joml/Matrix4fc;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lorg/joml/Vector4f;Z)V", cancellable = true)
-    private void render__1143486374(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1143486374L))
+    @Inject(at = @At("HEAD"), method = "invalidateCompiledGeometry(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Options;Lnet/minecraft/client/Camera;Lnet/minecraft/client/color/block/BlockColors;)V", cancellable = true)
+    private void invalidateCompiledGeometry__2128746387(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2128746387L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "collectPerFrameRenderThreadGizmos()Lnet/minecraft/gizmos/Gizmos$TemporaryCollection;", cancellable = true)
-    private void collectPerFrameRenderThreadGizmos_1195543889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1195543889L))
+    @Inject(at = @At("HEAD"), method = "addMainThreadGizmos(Ljava/util/List;)V", cancellable = true)
+    private void addMainThreadGizmos__1668259827(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1668259827L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "particlesTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
+    private void particlesTarget__1378163095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1378163095L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "viewArea()Lnet/minecraft/client/renderer/ViewArea;", cancellable = true)
-    private void viewArea__220240072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-220240072L))
+    @Inject(at = @At("HEAD"), method = "expectedChunks()Lit/unimi/dsi/fastutil/longs/LongCollection;", cancellable = true)
+    private void expectedChunks__972574645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-972574645L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSectionCompiledAndVisible(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void isSectionCompiledAndVisible__1363949032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1363949032L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockEntityRenderDispatcher()Lnet/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher;", cancellable = true)
-    private void blockEntityRenderDispatcher_815238347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(815238347L))
+    @Inject(at = @At("HEAD"), method = "weatherTarget()Lcom/mojang/blaze3d/pipeline/RenderTarget;", cancellable = true)
+    private void weatherTarget__1710459344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1710459344L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityRenderDispatcher()Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;", cancellable = true)
-    private void entityRenderDispatcher_1284249082(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1284249082L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cloudRenderer()Lnet/minecraft/client/renderer/CloudRenderer;", cancellable = true)
-    private void cloudRenderer__1908431626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1908431626L))
-            info.setReturnValue(new net.minecraft.client.renderer.CloudRenderer());
     }
 
 

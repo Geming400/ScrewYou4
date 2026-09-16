@@ -22,7 +22,7 @@ public class MobEffectInstancePredicate_172836580Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730188670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730188670L))
-            info.setReturnValue(-559874741);
+            info.setReturnValue(-732371541);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/effect/MobEffectInstance;)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class MobEffectInstancePredicate_172836580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambient()Ljava/util/Optional;", cancellable = true)
-    private void ambient_859398953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(859398953L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "amplifier()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private void amplifier__322498528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-322498528L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ambient()Ljava/util/Optional;", cancellable = true)
+    private void ambient_859398953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(859398953L))
             info.setReturnValue(null);
     }
 

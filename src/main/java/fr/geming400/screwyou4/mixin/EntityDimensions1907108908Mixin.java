@@ -22,7 +22,7 @@ public class EntityDimensions1907108908Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1830506297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1830506297L))
-            info.setReturnValue(-334692375);
+            info.setReturnValue(309162725);
     }
 
     @Inject(at = @At("HEAD"), method = "scale(FF)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
@@ -52,31 +52,7 @@ public class EntityDimensions1907108908Mixin {
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width_266958025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(266958025L))
-            info.setReturnValue(1.678914E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeBoundingBox(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void makeBoundingBox_1593136873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1593136873L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeBoundingBox(DDD)Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void makeBoundingBox_653991633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(653991633L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "eyeHeight()F", cancellable = true)
-    private void eyeHeight_1978239767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1978239767L))
-            info.setReturnValue(1.678914E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attachments()Lnet/minecraft/world/entity/EntityAttachments;", cancellable = true)
-    private void attachments_723306648(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(723306648L))
-            info.setReturnValue(null);
+            info.setReturnValue(8.117465E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "withEyeHeight(F)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
@@ -91,10 +67,34 @@ public class EntityDimensions1907108908Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "attachments()Lnet/minecraft/world/entity/EntityAttachments;", cancellable = true)
+    private void attachments_723306648(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(723306648L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeBoundingBox(DDD)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void makeBoundingBox_653991633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(653991633L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeBoundingBox(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void makeBoundingBox_1593136873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1593136873L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "eyeHeight()F", cancellable = true)
+    private void eyeHeight_1978239767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1978239767L))
+            info.setReturnValue(8.132598E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "height()F", cancellable = true)
     private void height_821757448(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(821757448L))
-            info.setReturnValue(1.678914E8F);
+            info.setReturnValue(8.132598E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "scalable(FF)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)

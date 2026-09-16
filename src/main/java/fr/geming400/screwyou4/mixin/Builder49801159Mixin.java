@@ -25,9 +25,33 @@ public class Builder49801159Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "hasInput(Lnet/minecraft/advancements/predicates/InputPredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void hasInput__343692286(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-343692286L))
+    @Inject(at = @At("HEAD"), method = "setGameType(Lnet/minecraft/advancements/predicates/GameTypePredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void setGameType_395951524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(395951524L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLookingAt(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void setLookingAt__351206184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-351206184L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkAdvancementDone(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void checkAdvancementDone__256598771(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-256598771L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkAdvancementCriterions(Lnet/minecraft/resources/Identifier;Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void checkAdvancementCriterions__1265463412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265463412L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void addRecipe__809578190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-809578190L))
             info.setReturnValue(null);
     }
 
@@ -43,33 +67,9 @@ public class Builder49801159Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setGameType(Lnet/minecraft/advancements/predicates/GameTypePredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void setGameType_395951524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(395951524L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkAdvancementCriterions(Lnet/minecraft/resources/Identifier;Ljava/util/Map;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void checkAdvancementCriterions__1265463412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265463412L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkAdvancementDone(Lnet/minecraft/resources/Identifier;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void checkAdvancementDone__256598771(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-256598771L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.PlayerPredicate.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLookingAt(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void setLookingAt__351206184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-351206184L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addRecipe(Lnet/minecraft/resources/ResourceKey;Z)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
-    private void addRecipe__809578190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-809578190L))
+    @Inject(at = @At("HEAD"), method = "hasInput(Lnet/minecraft/advancements/predicates/InputPredicate;)Lnet/minecraft/advancements/predicates/entity/PlayerPredicate$Builder;", cancellable = true)
+    private void hasInput__343692286(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-343692286L))
             info.setReturnValue(null);
     }
 

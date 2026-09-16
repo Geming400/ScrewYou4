@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.inventory.AnvilMenu.class)
 public class AnvilMenu_783277667Mixin {
-        @Inject(at = @At("HEAD"), method = "setItemName(Ljava/lang/String;)Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "calculateIncreasedRepairCost(I)I", cancellable = true)
+    private static void calculateIncreasedRepairCost__65827601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-65827601L))
+            info.setReturnValue(-1735086835);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setItemName(Ljava/lang/String;)Z", cancellable = true)
     private void setItemName_1039970659(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1039970659L))
             info.setReturnValue(false);
@@ -22,13 +28,7 @@ public class AnvilMenu_783277667Mixin {
     @Inject(at = @At("HEAD"), method = "getCost()I", cancellable = true)
     private void getCost_450711013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(450711013L))
-            info.setReturnValue(-2048678574);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculateIncreasedRepairCost(I)I", cancellable = true)
-    private static void calculateIncreasedRepairCost__65827601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-65827601L))
-            info.setReturnValue(-1706576135);
+            info.setReturnValue(-2077189274);
     }
 
 

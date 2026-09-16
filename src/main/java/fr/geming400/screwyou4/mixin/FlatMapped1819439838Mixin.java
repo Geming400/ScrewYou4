@@ -22,7 +22,7 @@ public class FlatMapped1819439838Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1918175367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1918175367L))
-            info.setReturnValue(-116733431);
+            info.setReturnValue(-908318831);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

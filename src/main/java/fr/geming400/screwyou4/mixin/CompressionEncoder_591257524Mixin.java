@@ -16,7 +16,7 @@ public class CompressionEncoder_591257524Mixin {
     @Inject(at = @At("HEAD"), method = "getThreshold()I", cancellable = true)
     private void getThreshold_2086709508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2086709508L))
-            info.setReturnValue(1209040322);
+            info.setReturnValue(775091622);
     }
 
 

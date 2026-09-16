@@ -25,16 +25,16 @@ public class SpawnPlacements_540099717Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlacementType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacementType;", cancellable = true)
-    private static void getPlacementType__494874743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-494874743L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeightmapType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)
     private static void getHeightmapType__1090510897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1090510897L))
             info.setReturnValue(net.minecraft.world.level.levelgen.Heightmap.Types.WORLD_SURFACE_WG);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlacementType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/entity/SpawnPlacementType;", cancellable = true)
+    private static void getPlacementType__494874743(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-494874743L))
+            info.setReturnValue(null);
     }
 
 

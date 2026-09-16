@@ -22,7 +22,7 @@ public class TranslatableContents441904317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_999255912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(999255912L))
-            info.setReturnValue(-252003985);
+            info.setReturnValue(-696423485);
     }
 
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)
@@ -49,16 +49,10 @@ public class TranslatableContents441904317Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getArgs()[Ljava/lang/Object;", cancellable = true)
-    private void getArgs__1837003874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1837003874L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1508349571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1508349571L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFallback()Ljava/lang/String;", cancellable = true)
-    private void getFallback__1934836066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1934836066L))
-            info.setReturnValue("R-UGBC:)w3*C,TuW(r0{5pzfD!n\u483AYYq+Mg1:v`\uD0C8%ehX\"n:0L\uCFFEzSdBCq9|m5(1<5+vu&,f9+\u1847\uC75C\u9010WH\u781BHe.\u3382lD6");
     }
 
     @Inject(at = @At("HEAD"), method = "isAllowedPrimitiveArgument(Ljava/lang/Object;)Z", cancellable = true)
@@ -67,15 +61,21 @@ public class TranslatableContents441904317Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getFallback()Ljava/lang/String;", cancellable = true)
+    private void getFallback__1934836066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1934836066L))
+            info.setReturnValue("R-UGBC:)w3*C,TuW(r0{5pzfD!n\u483AYYq+Mg1:v`\uD0C8%ehX\"n:0L\uCFFEzSdBCq9|m5(1<5+vu&,f9+\u1847\uC75C\u9010WH\u781BHe.\u3382lD6");
+    }
+
     @Inject(at = @At("HEAD"), method = "getArgument(I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
     private void getArgument_545235016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(545235016L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1508349571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1508349571L))
+    @Inject(at = @At("HEAD"), method = "getArgs()[Ljava/lang/Object;", cancellable = true)
+    private void getArgs__1837003874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1837003874L))
             info.setReturnValue(null);
     }
 

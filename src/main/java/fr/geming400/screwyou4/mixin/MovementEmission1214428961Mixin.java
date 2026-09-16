@@ -19,9 +19,9 @@ public class MovementEmission1214428961Mixin {
             info.setReturnValue(net.minecraft.world.entity.Entity.MovementEmission.EVENTS);
     }
 
-    @Inject(at = @At("HEAD"), method = "emitsSounds()Z", cancellable = true)
-    private void emitsSounds__1107690764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1107690764L))
+    @Inject(at = @At("HEAD"), method = "emitsAnything()Z", cancellable = true)
+    private void emitsAnything_339793014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(339793014L))
             info.setReturnValue(false);
     }
 
@@ -31,9 +31,9 @@ public class MovementEmission1214428961Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "emitsAnything()Z", cancellable = true)
-    private void emitsAnything_339793014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(339793014L))
+    @Inject(at = @At("HEAD"), method = "emitsSounds()Z", cancellable = true)
+    private void emitsSounds__1107690764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1107690764L))
             info.setReturnValue(false);
     }
 

@@ -25,15 +25,15 @@ public class ContinuousProfiler456939310Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getFiller()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
-    private void getFiller__1194958383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1194958383L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getResults()Lnet/minecraft/util/profiling/ProfileResults;", cancellable = true)
     private void getResults__1652295197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1652295197L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFiller()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
+    private void getFiller__1194958383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1194958383L))
             info.setReturnValue(null);
     }
 

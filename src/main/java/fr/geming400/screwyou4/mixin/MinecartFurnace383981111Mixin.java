@@ -13,15 +13,21 @@ public class MinecartFurnace383981111Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_438910447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(438910447L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void interact__623269017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-623269017L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_438910447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(438910447L))
+    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getDefaultDisplayBlockState_1972331392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1972331392L))
             info.setReturnValue(null);
     }
 
@@ -35,12 +41,6 @@ public class MinecartFurnace383981111Mixin {
     private void addFuel__1267020522(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1267020522L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDefaultDisplayBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getDefaultDisplayBlockState_1972331392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1972331392L))
-            info.setReturnValue(null);
     }
 
 

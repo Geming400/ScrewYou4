@@ -22,7 +22,7 @@ public class CustomData812580889Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1369932484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369932484L))
-            info.setReturnValue(-1799431499);
+            info.setReturnValue(-1893637999);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Ljava/util/function/Consumer;)Lnet/minecraft/world/item/component/CustomData;", cancellable = true)
@@ -55,16 +55,16 @@ public class CustomData812580889Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyTag()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void copyTag__300027188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-300027188L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
     @Inject(at = @At("HEAD"), method = "matchedBy(Lnet/minecraft/nbt/CompoundTag;)Z", cancellable = true)
     private void matchedBy_663731702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663731702L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyTag()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void copyTag__300027188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-300027188L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
 

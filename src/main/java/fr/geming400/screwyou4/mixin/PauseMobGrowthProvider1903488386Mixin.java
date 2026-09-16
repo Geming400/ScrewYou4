@@ -22,7 +22,7 @@ public class PauseMobGrowthProvider1903488386Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1834126819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1834126819L))
-            info.setReturnValue(323282644);
+            info.setReturnValue(236001944);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)

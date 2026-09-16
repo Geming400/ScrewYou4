@@ -19,15 +19,9 @@ public class Vindicator_1114499471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getArmPose()Lnet/minecraft/world/entity/monster/illager/AbstractIllager$IllagerArmPose;", cancellable = true)
-    private void getArmPose_213813373(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(213813373L))
-            info.setReturnValue(net.minecraft.world.entity.monster.illager.AbstractIllager.IllagerArmPose.CELEBRATING);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1864597779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1864597779L))
+    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getCelebrateSound__1567060494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1567060494L))
             info.setReturnValue(null);
     }
 
@@ -37,10 +31,16 @@ public class Vindicator_1114499471Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound__1567060494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1567060494L))
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1864597779(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1864597779L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getArmPose()Lnet/minecraft/world/entity/monster/illager/AbstractIllager$IllagerArmPose;", cancellable = true)
+    private void getArmPose_213813373(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(213813373L))
+            info.setReturnValue(net.minecraft.world.entity.monster.illager.AbstractIllager.IllagerArmPose.CELEBRATING);
     }
 
 

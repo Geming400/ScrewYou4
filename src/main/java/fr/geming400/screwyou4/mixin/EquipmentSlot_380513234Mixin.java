@@ -34,7 +34,7 @@ public class EquipmentSlot_380513234Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__1277810362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1277810362L))
-            info.setReturnValue(-754088918);
+            info.setReturnValue(-836398218);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/world/entity/EquipmentSlot$Type;", cancellable = true)
@@ -46,13 +46,13 @@ public class EquipmentSlot_380513234Mixin {
     @Inject(at = @At("HEAD"), method = "getIndex()I", cancellable = true)
     private void getIndex_776881179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(776881179L))
-            info.setReturnValue(2104267353);
+            info.setReturnValue(2021958053);
     }
 
     @Inject(at = @At("HEAD"), method = "getIndex(I)I", cancellable = true)
     private void getIndex__189207476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-189207476L))
-            info.setReturnValue(-234397271);
+            info.setReturnValue(-316706571);
     }
 
     @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;)Lnet/minecraft/world/entity/EquipmentSlot;", cancellable = true)
@@ -73,16 +73,16 @@ public class EquipmentSlot_380513234Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getFilterBit(I)I", cancellable = true)
+    private void getFilterBit_618016431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(618016431L))
+            info.setReturnValue(169648101);
+    }
+
     @Inject(at = @At("HEAD"), method = "isArmor()Z", cancellable = true)
     private void isArmor_501927027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(501927027L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFilterBit(I)I", cancellable = true)
-    private void getFilterBit_618016431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(618016431L))
-            info.setReturnValue(251957401);
     }
 
 

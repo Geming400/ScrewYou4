@@ -22,13 +22,7 @@ public class Fireworks_372942482Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_930294572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(930294572L))
-            info.setReturnValue(1333812490);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__2002277566(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2002277566L))
-            info.cancel();
+            info.setReturnValue(1241048690);
     }
 
     @Inject(at = @At("HEAD"), method = "explosions()Ljava/util/List;", cancellable = true)
@@ -37,10 +31,16 @@ public class Fireworks_372942482Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__2002277566(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2002277566L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "flightDuration()I", cancellable = true)
     private void flightDuration__612373293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-612373293L))
-            info.setReturnValue(-2104696298);
+            info.setReturnValue(2097507198);
     }
 
 

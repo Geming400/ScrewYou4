@@ -28,13 +28,13 @@ public class FeatureRendererType_1191725227Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1749077317(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1749077317L))
-            info.setReturnValue(-705589052);
+            info.setReturnValue(-647310952);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1503458731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1503458731L))
-            info.setReturnValue(-1140025103);
+            info.setReturnValue(-1081747003);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)

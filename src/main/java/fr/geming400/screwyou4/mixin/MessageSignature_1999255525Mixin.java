@@ -22,7 +22,7 @@ public class MessageSignature_1999255525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1738360177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1738360177L))
-            info.setReturnValue(1340454216);
+            info.setReturnValue(1014075416);
     }
 
     @Inject(at = @At("HEAD"), method = "bytes()[B", cancellable = true)
@@ -64,7 +64,7 @@ public class MessageSignature_1999255525Mixin {
     @Inject(at = @At("HEAD"), method = "checksum()I", cancellable = true)
     private void checksum__1763384473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1763384473L))
-            info.setReturnValue(1979406345);
+            info.setReturnValue(1653027545);
     }
 
     @Inject(at = @At("HEAD"), method = "describe(Lnet/minecraft/network/chat/MessageSignature;)Ljava/lang/String;", cancellable = true)

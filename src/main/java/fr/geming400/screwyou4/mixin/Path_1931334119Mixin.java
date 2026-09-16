@@ -22,7 +22,7 @@ public class Path_1931334119Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1806281087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806281087L))
-            info.setReturnValue(486074397);
+            info.setReturnValue(1170818697);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)

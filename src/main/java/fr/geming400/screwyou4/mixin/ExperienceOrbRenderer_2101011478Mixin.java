@@ -31,16 +31,16 @@ public class ExperienceOrbRenderer_2101011478Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__1940784840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1940784840L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ExperienceOrbRenderState;", cancellable = true)
     private void createRenderState__1836776794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1836776794L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.ExperienceOrbRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__1940784840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940784840L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
 

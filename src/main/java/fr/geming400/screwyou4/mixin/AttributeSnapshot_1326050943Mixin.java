@@ -16,7 +16,7 @@ public class AttributeSnapshot_1326050943Mixin {
     @Inject(at = @At("HEAD"), method = "base()D", cancellable = true)
     private void base__543406738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-543406738L))
-            info.setReturnValue(5.97827000792964E8D);
+            info.setReturnValue(2.2694460079296398E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class AttributeSnapshot_1326050943Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1883403033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1883403033L))
-            info.setReturnValue(-1697728701);
+            info.setReturnValue(-2068611101);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/core/Holder;", cancellable = true)

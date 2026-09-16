@@ -13,15 +13,15 @@ public class HolderSetCodec1862466408Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "encode(Lnet/minecraft/core/HolderSet;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void encode_1123430858(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1123430858L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "encode(Ljava/lang/Object;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
     private void encode_1206128995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1206128995L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encode(Lnet/minecraft/core/HolderSet;Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void encode_1123430858(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1123430858L))
             info.setReturnValue(null);
     }
 

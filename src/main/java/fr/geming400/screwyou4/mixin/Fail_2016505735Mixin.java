@@ -22,7 +22,7 @@ public class Fail_2016505735Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1721109471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1721109471L))
-            info.setReturnValue(-1758369587);
+            info.setReturnValue(-1809266187);
     }
 
 

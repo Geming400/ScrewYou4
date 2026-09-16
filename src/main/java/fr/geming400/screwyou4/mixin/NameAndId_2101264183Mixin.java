@@ -28,7 +28,7 @@ public class NameAndId_2101264183Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1636351023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1636351023L))
-            info.setReturnValue(-1621339344);
+            info.setReturnValue(-993774144);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)

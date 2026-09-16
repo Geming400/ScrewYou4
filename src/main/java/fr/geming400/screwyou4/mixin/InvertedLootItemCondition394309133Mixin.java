@@ -22,7 +22,7 @@ public class InvertedLootItemCondition394309133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_951661224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(951661224L))
-            info.setReturnValue(1141988888);
+            info.setReturnValue(1598462688);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class InvertedLootItemCondition394309133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1460754387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1460754387L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "invert(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void invert_1828350080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1828350080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1460754387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1460754387L))
             info.setReturnValue(null);
     }
 

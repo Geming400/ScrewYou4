@@ -25,9 +25,15 @@ public class Builder1804471369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withTootip()Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
-    private void withTootip_1494544040(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1494544040L))
+    @Inject(at = @At("HEAD"), method = "switchToLoadingAfterPress()Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
+    private void switchToLoadingAfterPress__274626865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-274626865L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spriteOffset(II)Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
+    private void spriteOffset__1408089261(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1408089261L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +55,15 @@ public class Builder1804471369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "switchToLoadingAfterPress()Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
-    private void switchToLoadingAfterPress__274626865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-274626865L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spriteOffset(II)Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
-    private void spriteOffset__1408089261(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1408089261L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "narration(Lnet/minecraft/client/gui/components/Button$CreateNarration;)Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
     private void narration__2100266889(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2100266889L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withTootip()Lnet/minecraft/client/gui/components/SpriteIconButton$Builder;", cancellable = true)
+    private void withTootip_1494544040(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1494544040L))
             info.setReturnValue(null);
     }
 

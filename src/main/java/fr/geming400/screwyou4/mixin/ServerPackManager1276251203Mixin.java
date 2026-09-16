@@ -19,27 +19,9 @@ public class ServerPackManager1276251203Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pushPack(Ljava/util/UUID;Ljava/net/URL;Lcom/google/common/hash/HashCode;)V", cancellable = true)
-    private void pushPack_846728333(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(846728333L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
-    private void popPack__231571712(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-231571712L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "allowServerPacks()V", cancellable = true)
     private void allowServerPacks_1309562568(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1309562568L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetPromptStatus()V", cancellable = true)
-    private void resetPromptStatus_982400177(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(982400177L))
             info.cancel();
     }
 
@@ -49,9 +31,27 @@ public class ServerPackManager1276251203Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "resetPromptStatus()V", cancellable = true)
+    private void resetPromptStatus_982400177(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(982400177L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "pushLocalPack(Ljava/util/UUID;Ljava/nio/file/Path;)V", cancellable = true)
     private void pushLocalPack_1126159679(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1126159679L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushPack(Ljava/util/UUID;Ljava/net/URL;Lcom/google/common/hash/HashCode;)V", cancellable = true)
+    private void pushPack_846728333(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(846728333L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "popPack(Ljava/util/UUID;)V", cancellable = true)
+    private void popPack__231571712(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-231571712L))
             info.cancel();
     }
 

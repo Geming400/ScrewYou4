@@ -22,7 +22,7 @@ public class EquipmentTable_2025039300Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1712575906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1712575906L))
-            info.setReturnValue(166607748);
+            info.setReturnValue(584106648);
     }
 
     @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.redstone.CollectingNeighborUpdater.class)
 public class CollectingNeighborUpdater_831697167Mixin {
-        @Inject(at = @At("HEAD"), method = "updateNeighborsAtExceptFromFacing(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/redstone/Orientation;)V", cancellable = true)
-    private void updateNeighborsAtExceptFromFacing__1483833321(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1483833321L))
+        @Inject(at = @At("HEAD"), method = "neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/redstone/Orientation;Z)V", cancellable = true)
+    private void neighborChanged_1261862092(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1261862092L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "neighborChanged(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/redstone/Orientation;)V", cancellable = true)
+    private void neighborChanged_805886065(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(805886065L))
             info.cancel();
     }
 
@@ -25,15 +31,9 @@ public class CollectingNeighborUpdater_831697167Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/redstone/Orientation;Z)V", cancellable = true)
-    private void neighborChanged_1261862092(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1261862092L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "neighborChanged(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/redstone/Orientation;)V", cancellable = true)
-    private void neighborChanged_805886065(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(805886065L))
+    @Inject(at = @At("HEAD"), method = "updateNeighborsAtExceptFromFacing(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/redstone/Orientation;)V", cancellable = true)
+    private void updateNeighborsAtExceptFromFacing__1483833321(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1483833321L))
             info.cancel();
     }
 

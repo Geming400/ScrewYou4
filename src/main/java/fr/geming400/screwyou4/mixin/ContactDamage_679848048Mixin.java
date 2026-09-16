@@ -22,7 +22,7 @@ public class ContactDamage_679848048Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1237200138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1237200138L))
-            info.setReturnValue(1975021071);
+            info.setReturnValue(1713987471);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)

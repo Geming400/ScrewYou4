@@ -49,16 +49,16 @@ public class StructureTemplateManager_109787790Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listTemplates()Ljava/util/stream/Stream;", cancellable = true)
-    private void listTemplates__423746393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-423746393L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
     private void onResourceManagerReload_363031950(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(363031950L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "listTemplates()Ljava/util/stream/Stream;", cancellable = true)
+    private void listTemplates__423746393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-423746393L))
+            info.setReturnValue(null);
     }
 
 

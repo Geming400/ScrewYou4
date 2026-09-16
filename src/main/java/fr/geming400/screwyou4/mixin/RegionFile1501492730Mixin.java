@@ -37,6 +37,12 @@ public class RegionFile1501492730Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "doesChunkExist(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private void doesChunkExist__801082086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-801082086L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getChunkDataOutputStream(Lnet/minecraft/world/level/ChunkPos;)Ljava/io/DataOutputStream;", cancellable = true)
     private void getChunkDataOutputStream_1831947191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831947191L))
@@ -47,12 +53,6 @@ public class RegionFile1501492730Mixin {
     private void getChunkDataInputStream_778893309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778893309L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "doesChunkExist(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private void doesChunkExist__801082086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-801082086L))
-            info.setReturnValue(true);
     }
 
 

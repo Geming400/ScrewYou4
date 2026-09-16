@@ -13,6 +13,12 @@ public class AzaleaBlock_168153057Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_131195236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(131195236L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess_768405851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(768405851L))
@@ -23,12 +29,6 @@ public class AzaleaBlock_168153057Mixin {
     private void performBonemeal__688631105(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-688631105L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_131195236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(131195236L))
-            info.setReturnValue(true);
     }
 
 

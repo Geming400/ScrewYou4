@@ -22,18 +22,18 @@ public class CompositeFeatureConfiguration_98845879Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_656197969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(656197969L))
-            info.setReturnValue(678751920);
-    }
-
-    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void features_915169095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(915169095L))
-            info.setReturnValue(null);
+            info.setReturnValue(642181320);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
     private void getSubFeatures__708295388(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-708295388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "features()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void features_915169095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(915169095L))
             info.setReturnValue(null);
     }
 

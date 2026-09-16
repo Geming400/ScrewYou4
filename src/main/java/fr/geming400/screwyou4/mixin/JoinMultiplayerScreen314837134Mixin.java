@@ -31,10 +31,10 @@ public class JoinMultiplayerScreen314837134Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_283783503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283783503L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getServers()Lnet/minecraft/client/multiplayer/ServerList;", cancellable = true)
+    private void getServers__444171022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-444171022L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPinger()Lnet/minecraft/client/multiplayer/ServerStatusPinger;", cancellable = true)
@@ -43,10 +43,10 @@ public class JoinMultiplayerScreen314837134Mixin {
             info.setReturnValue(new net.minecraft.client.multiplayer.ServerStatusPinger());
     }
 
-    @Inject(at = @At("HEAD"), method = "getServers()Lnet/minecraft/client/multiplayer/ServerList;", cancellable = true)
-    private void getServers__444171022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-444171022L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_283783503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(283783503L))
+            info.setReturnValue(false);
     }
 
 

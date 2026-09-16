@@ -22,7 +22,7 @@ public class TriggerInstance_284184044Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_841536134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841536134L))
-            info.setReturnValue(-891014939);
+            info.setReturnValue(-118271639);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance_284184044Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "zombie()Ljava/util/Optional;", cancellable = true)
-    private void zombie__1095130177(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1095130177L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
     private void villager_384286431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(384286431L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "zombie()Ljava/util/Optional;", cancellable = true)
+    private void zombie__1095130177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1095130177L))
             info.setReturnValue(null);
     }
 

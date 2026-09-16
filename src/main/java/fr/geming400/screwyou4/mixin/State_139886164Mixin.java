@@ -28,7 +28,7 @@ public class State_139886164Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_697238254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697238254L))
-            info.setReturnValue(-1257095291);
+            info.setReturnValue(-1519543091);
     }
 
     @Inject(at = @At("HEAD"), method = "reloadCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
@@ -43,15 +43,15 @@ public class State_139886164Mixin {
             info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
     }
 
-    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
-    private void reloadNanos__13565996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-13565996L))
-            info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
-    }
-
     @Inject(at = @At("HEAD"), method = "preparationCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
     private void preparationCount__403821722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-403821722L))
+            info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
+    }
+
+    @Inject(at = @At("HEAD"), method = "reloadNanos()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)
+    private void reloadNanos__13565996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-13565996L))
             info.setReturnValue(new java.util.concurrent.atomic.AtomicLong());
     }
 

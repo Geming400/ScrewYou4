@@ -28,7 +28,7 @@ public class StandAlone1688550182Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2049065023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2049065023L))
-            info.setReturnValue(-1692146005);
+            info.setReturnValue(-1414695605);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/List;)Ljava/util/List;", cancellable = true)
@@ -37,15 +37,15 @@ public class StandAlone1688550182Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/level/storage/loot/functions/ListOperation;", cancellable = true)
-    private void operation_1776459421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1776459421L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;I)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec__1180051524(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1180051524L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/level/storage/loot/functions/ListOperation;", cancellable = true)
+    private void operation_1776459421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1776459421L))
             info.setReturnValue(null);
     }
 

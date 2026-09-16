@@ -13,15 +13,15 @@ public class BulkSectionAccess541870697Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState_2081753289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2081753289L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSection(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/chunk/LevelChunkSection;", cancellable = true)
     private void getSection__1394134254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1394134254L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState_2081753289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2081753289L))
             info.setReturnValue(null);
     }
 

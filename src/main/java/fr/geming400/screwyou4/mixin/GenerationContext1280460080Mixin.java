@@ -22,13 +22,13 @@ public class GenerationContext1280460080Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1837812171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1837812171L))
-            info.setReturnValue(793934357);
+            info.setReturnValue(765760157);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1856548614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1856548614L))
-            info.setReturnValue(4935628174945335018L);
+            info.setReturnValue(4935628174917160818L);
     }
 
     @Inject(at = @At("HEAD"), method = "random()Lnet/minecraft/world/level/levelgen/WorldgenRandom;", cancellable = true)
@@ -40,6 +40,12 @@ public class GenerationContext1280460080Mixin {
     @Inject(at = @At("HEAD"), method = "chunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
     private void chunkPos__585161598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-585161598L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validBiome()Ljava/util/function/Predicate;", cancellable = true)
+    private void validBiome_96785666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(96785666L))
             info.setReturnValue(null);
     }
 
@@ -61,18 +67,6 @@ public class GenerationContext1280460080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validBiome()Ljava/util/function/Predicate;", cancellable = true)
-    private void validBiome_96785666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(96785666L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_2009202192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2009202192L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void chunkGenerator__418851968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-418851968L))
@@ -82,6 +76,12 @@ public class GenerationContext1280460080Mixin {
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureTemplateManager__1599322693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1599322693L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_2009202192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2009202192L))
             info.setReturnValue(null);
     }
 

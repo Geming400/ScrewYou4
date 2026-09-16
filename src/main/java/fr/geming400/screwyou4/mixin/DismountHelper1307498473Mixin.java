@@ -13,10 +13,10 @@ public class DismountHelper1307498473Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBlockFloorValid(D)Z", cancellable = true)
-    private static void isBlockFloorValid_382275711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(382275711L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "canDismountTo(Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Z", cancellable = true)
+    private static void canDismountTo_851973567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(851973567L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canDismountTo(Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Pose;)Z", cancellable = true)
@@ -25,10 +25,10 @@ public class DismountHelper1307498473Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canDismountTo(Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/phys/AABB;)Z", cancellable = true)
-    private static void canDismountTo_851973567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(851973567L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isBlockFloorValid(D)Z", cancellable = true)
+    private static void isBlockFloorValid_382275711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(382275711L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "nonClimbableShape(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
@@ -40,7 +40,7 @@ public class DismountHelper1307498473Mixin {
     @Inject(at = @At("HEAD"), method = "findCeilingFrom(Lnet/minecraft/core/BlockPos;ILjava/util/function/Function;)D", cancellable = true)
     private static void findCeilingFrom__1360562541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1360562541L))
-            info.setReturnValue(3.2937660014709514E8D);
+            info.setReturnValue(7.614380014709517E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "findSafeDismountLocation(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;Z)Lnet/minecraft/world/phys/Vec3;", cancellable = true)

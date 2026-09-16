@@ -28,7 +28,7 @@ public class ServerboundBlockEntityTagQueryPacket_1798839283Mixin {
     @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
     private void getTransactionId__1180979499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1180979499L))
-            info.setReturnValue(1101296763);
+            info.setReturnValue(1706145063);
     }
 
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

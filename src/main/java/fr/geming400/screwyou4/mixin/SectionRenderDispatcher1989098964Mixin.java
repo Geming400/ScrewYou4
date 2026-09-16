@@ -25,28 +25,22 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isQueueEmpty()Z", cancellable = true)
-    private void isQueueEmpty_439360453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(439360453L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
-    private void getFreeBufferCount_832697197(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(832697197L))
-            info.setReturnValue(1204603767);
+    @Inject(at = @At("HEAD"), method = "getStats()Ljava/lang/String;", cancellable = true)
+    private void getStats__358423674(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-358423674L))
+            info.setReturnValue("?/");
     }
 
     @Inject(at = @At("HEAD"), method = "getCompileQueueSize()I", cancellable = true)
     private void getCompileQueueSize__1774429787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1774429787L))
-            info.setReturnValue(-727313321);
+            info.setReturnValue(-651103521);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
-    private void getRenderSectionSlice_817151135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(817151135L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
+    private void getFreeBufferCount_832697197(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(832697197L))
+            info.setReturnValue(1280813567);
     }
 
     @Inject(at = @At("HEAD"), method = "setCameraPosition(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -73,10 +67,16 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStats()Ljava/lang/String;", cancellable = true)
-    private void getStats__358423674(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-358423674L))
-            info.setReturnValue("?/");
+    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
+    private void getRenderSectionSlice_817151135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(817151135L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isQueueEmpty()Z", cancellable = true)
+    private void isQueueEmpty_439360453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(439360453L))
+            info.setReturnValue(false);
     }
 
 

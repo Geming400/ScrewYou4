@@ -28,7 +28,7 @@ public class LeveledPriorityQueue670665424Mixin {
     @Inject(at = @At("HEAD"), method = "removeFirstLong()J", cancellable = true)
     private void removeFirstLong__1639764913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1639764913L))
-            info.setReturnValue(-2761465462898016427L);
+            info.setReturnValue(-2761465462540875327L);
     }
 
 

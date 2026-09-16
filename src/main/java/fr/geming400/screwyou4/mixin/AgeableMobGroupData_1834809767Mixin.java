@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.AgeableMob.AgeableMobGroupData.class)
 public class AgeableMobGroupData_1834809767Mixin {
-        @Inject(at = @At("HEAD"), method = "getGroupSize()I", cancellable = true)
-    private void getGroupSize_1193057634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1193057634L))
-            info.setReturnValue(-409456689);
+        @Inject(at = @At("HEAD"), method = "getBabySpawnChance()F", cancellable = true)
+    private void getBabySpawnChance_1936225414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936225414L))
+            info.setReturnValue(5.907883E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "increaseGroupSizeByOne()V", cancellable = true)
@@ -19,16 +19,16 @@ public class AgeableMobGroupData_1834809767Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBabySpawnChance()F", cancellable = true)
-    private void getBabySpawnChance_1936225414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1936225414L))
-            info.setReturnValue(2.01938E7F);
-    }
-
     @Inject(at = @At("HEAD"), method = "isShouldSpawnBaby()Z", cancellable = true)
     private void isShouldSpawnBaby__1727792151(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727792151L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGroupSize()I", cancellable = true)
+    private void getGroupSize_1193057634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1193057634L))
+            info.setReturnValue(161137811);
     }
 
 

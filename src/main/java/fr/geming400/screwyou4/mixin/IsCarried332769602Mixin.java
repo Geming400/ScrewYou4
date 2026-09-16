@@ -34,7 +34,7 @@ public class IsCarried332769602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_890121693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(890121693L))
-            info.setReturnValue(-2111193776);
+            info.setReturnValue(-1851038976);
     }
 
 

@@ -49,15 +49,15 @@ public class DoorBlock1011844145Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isWoodenDoor(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isWoodenDoor_334022839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334022839L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isWoodenDoor(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void isWoodenDoor_1268700321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1268700321L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isWoodenDoor(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isWoodenDoor_334022839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334022839L))
             info.setReturnValue(true);
     }
 

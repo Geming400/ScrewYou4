@@ -40,19 +40,19 @@ public class IntegerProperty1133365Mixin {
     @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
     private void generateHashCode__370659733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-370659733L))
-            info.setReturnValue(-1277655382);
+            info.setReturnValue(-1741047882);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Integer;)I", cancellable = true)
     private void getInternalIndex_275605159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(275605159L))
-            info.setReturnValue(-1914019467);
+            info.setReturnValue(1917555329);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex_536923645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(536923645L))
-            info.setReturnValue(835319509);
+            info.setReturnValue(371927009);
     }
 
     @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)

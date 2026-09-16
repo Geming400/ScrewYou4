@@ -10,7 +10,7 @@ public class PerlinSimplexNoise1905773298Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(DDZ)D", cancellable = true)
     private void getValue__1071596456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1071596456L))
-            info.setReturnValue(4.83643900073499E8D);
+            info.setReturnValue(3.4304600073499024E7D);
     }
 
 

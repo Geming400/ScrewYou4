@@ -10,7 +10,7 @@ public class SingleInputSet682399722Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1126131311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1126131311L))
-            info.setReturnValue(1996016643);
+            info.setReturnValue(1456031243);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class SingleInputSet682399722Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1239751813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1239751813L))
-            info.setReturnValue(-158675704);
+            info.setReturnValue(-698661104);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

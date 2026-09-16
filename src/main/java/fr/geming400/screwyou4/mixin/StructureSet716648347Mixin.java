@@ -22,7 +22,7 @@ public class StructureSet716648347Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1274000438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1274000438L))
-            info.setReturnValue(357809919);
+            info.setReturnValue(-62812681);
     }
 
     @Inject(at = @At("HEAD"), method = "entry(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/structure/StructureSet$StructureSelectionEntry;", cancellable = true)
@@ -37,15 +37,15 @@ public class StructureSet716648347Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/List;", cancellable = true)
-    private void structures__1883164885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1883164885L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "placement()Lnet/minecraft/world/level/levelgen/structure/placement/StructurePlacement;", cancellable = true)
     private void placement__645844293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-645844293L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "structures()Ljava/util/List;", cancellable = true)
+    private void structures__1883164885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1883164885L))
             info.setReturnValue(null);
     }
 

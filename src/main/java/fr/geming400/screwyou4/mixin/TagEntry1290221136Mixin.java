@@ -31,10 +31,10 @@ public class TagEntry1290221136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
-    private static void optionalTag__1959903520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1959903520L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "verifyIfPresent(Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void verifyIfPresent_1946886944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1946886944L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "visitOptionalDependencies(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -43,9 +43,9 @@ public class TagEntry1290221136Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "optionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
-    private static void optionalElement_1635351742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635351742L))
+    @Inject(at = @At("HEAD"), method = "optionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
+    private static void optionalTag__1959903520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1959903520L))
             info.setReturnValue(null);
     }
 
@@ -55,10 +55,10 @@ public class TagEntry1290221136Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "verifyIfPresent(Ljava/util/function/Predicate;Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void verifyIfPresent_1946886944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1946886944L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "optionalElement(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagEntry;", cancellable = true)
+    private static void optionalElement_1635351742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635351742L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class Rotation1925326290Mixin {
     @Inject(at = @At("HEAD"), method = "rotate(II)I", cancellable = true)
     private void rotate__166493923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-166493923L))
-            info.setReturnValue(452301409);
+            info.setReturnValue(742597609);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)

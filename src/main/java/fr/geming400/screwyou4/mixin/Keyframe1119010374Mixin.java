@@ -22,18 +22,18 @@ public class Keyframe1119010374Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1676362465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1676362465L))
-            info.setReturnValue(1824959042);
+            info.setReturnValue(2052895242);
     }
 
     @Inject(at = @At("HEAD"), method = "timestamp()F", cancellable = true)
     private void timestamp_59612563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(59612563L))
-            info.setReturnValue(6.715615E8F);
+            info.setReturnValue(8.994977E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "interpolation()Lnet/minecraft/client/animation/AnimationChannel$Interpolation;", cancellable = true)
-    private void interpolation_605776716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(605776716L))
+    @Inject(at = @At("HEAD"), method = "postTarget()Lorg/joml/Vector3fc;", cancellable = true)
+    private void postTarget_639012376(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(639012376L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class Keyframe1119010374Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "postTarget()Lorg/joml/Vector3fc;", cancellable = true)
-    private void postTarget_639012376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(639012376L))
+    @Inject(at = @At("HEAD"), method = "interpolation()Lnet/minecraft/client/animation/AnimationChannel$Interpolation;", cancellable = true)
+    private void interpolation_605776716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(605776716L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class PacketIdentification_1785940150Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1951675056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1951675056L))
-            info.setReturnValue(508694022);
+            info.setReturnValue(509307922);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/PacketIdentification;", cancellable = true)
@@ -37,16 +37,16 @@ public class PacketIdentification_1785940150Mixin {
             info.setReturnValue("6WO09m2U+w\uAB16zW8'W1+_=6");
     }
 
-    @Inject(at = @At("HEAD"), method = "protocolId()Ljava/lang/String;", cancellable = true)
-    private void protocolId_218458577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(218458577L))
-            info.setReturnValue("r\uAA90\u72DDzw\u73F9X?Wr3t4uwHM*O8 Wf>>(S,'H7?6C$\u4312_ 'C(N\":eEuqEU9?X\"BoxXv\"2p;E^7R\uA568\u398Aq\uBE97\uAD98");
-    }
-
     @Inject(at = @At("HEAD"), method = "packetId()Ljava/lang/String;", cancellable = true)
     private void packetId__1480566847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1480566847L))
             info.setReturnValue("s::\u89B0JZ9bU0cbS\u6C0AxsOE'F;C+d[OB\u0278wDq IE\u5563]%M?w-Ww8E\u2A1EcL!_\u384CG_,hACR)");
+    }
+
+    @Inject(at = @At("HEAD"), method = "protocolId()Ljava/lang/String;", cancellable = true)
+    private void protocolId_218458577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(218458577L))
+            info.setReturnValue("r\uAA90\u72DDzw\u73F9X?Wr3t4uwHM*O8 Wf>>(S,'H7?6C$\u4312_ 'C(N\":eEuqEU9?X\"BoxXv\"2p;E^7R\uA568\u398Aq\uBE97\uAD98");
     }
 
 

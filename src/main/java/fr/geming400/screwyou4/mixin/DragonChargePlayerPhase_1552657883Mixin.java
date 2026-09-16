@@ -25,12 +25,6 @@ public class DragonChargePlayerPhase_1552657883Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
-    private void getFlySpeed_1518534067(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1518534067L))
-            info.setReturnValue(6.713375E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getFlyTargetLocation__280621584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-280621584L))
@@ -41,6 +35,12 @@ public class DragonChargePlayerPhase_1552657883Mixin {
     private void doServerTick__743623213(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-743623213L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
+    private void getFlySpeed_1518534067(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1518534067L))
+            info.setReturnValue(2.23686E8F);
     }
 
 

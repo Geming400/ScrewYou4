@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.PowderSnowBlock.class)
 public class PowderSnowBlock_4883709Mixin {
-        @Inject(at = @At("HEAD"), method = "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1071328962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1071328962L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canEntityWalkOnPowderSnow(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private static void canEntityWalkOnPowderSnow_1921061371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1921061371L))
             info.setReturnValue(false);
@@ -17,12 +23,6 @@ public class PowderSnowBlock_4883709Mixin {
     private void fallOn__2043349850(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2043349850L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1071328962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1071328962L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)

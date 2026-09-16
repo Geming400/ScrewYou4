@@ -19,15 +19,15 @@ public class SectionBufferBuilderPack_461929323Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "discardAll()V", cancellable = true)
-    private void discardAll__2118331430(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2118331430L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "clearAll()V", cancellable = true)
     private void clearAll_1468949129(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1468949129L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "discardAll()V", cancellable = true)
+    private void discardAll__2118331430(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2118331430L))
             info.cancel();
     }
 

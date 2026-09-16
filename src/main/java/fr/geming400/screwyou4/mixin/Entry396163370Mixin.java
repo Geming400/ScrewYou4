@@ -22,13 +22,13 @@ public class Entry396163370Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_953515461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(953515461L))
-            info.setReturnValue(-1115262716);
+            info.setReturnValue(-1128476416);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_483778044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(483778044L))
-            info.setReturnValue(956251986);
+            info.setReturnValue(943038286);
     }
 
     @Inject(at = @At("HEAD"), method = "effect()Lnet/minecraft/core/Holder;", cancellable = true)

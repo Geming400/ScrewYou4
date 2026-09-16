@@ -34,7 +34,7 @@ public class FieldPathElement124648511Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_682000602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682000602L))
-            info.setReturnValue(114958142);
+            info.setReturnValue(130569942);
     }
 
 

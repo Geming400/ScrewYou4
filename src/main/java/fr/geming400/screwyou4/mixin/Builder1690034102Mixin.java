@@ -13,9 +13,9 @@ public class Builder1690034102Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnOverrides(Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
-    private void spawnOverrides__1983041500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1983041500L))
+    @Inject(at = @At("HEAD"), method = "terrainAdapation(Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
+    private void terrainAdapation__357029335(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-357029335L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class Builder1690034102Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "terrainAdapation(Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
-    private void terrainAdapation__357029335(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-357029335L))
+    @Inject(at = @At("HEAD"), method = "spawnOverrides(Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/structure/Structure$StructureSettings$Builder;", cancellable = true)
+    private void spawnOverrides__1983041500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1983041500L))
             info.setReturnValue(null);
     }
 

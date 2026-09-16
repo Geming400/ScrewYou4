@@ -31,15 +31,15 @@ public class VideoSettingsScreen364714044Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__175792132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-175792132L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
     private void mouseScrolled_1192430114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1192430114L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__175792132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-175792132L))
             info.setReturnValue(true);
     }
 

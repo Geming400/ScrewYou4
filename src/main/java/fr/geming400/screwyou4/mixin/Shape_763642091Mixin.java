@@ -28,7 +28,7 @@ public class Shape_763642091Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__894681505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-894681505L))
-            info.setReturnValue(-691736536);
+            info.setReturnValue(-148203336);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)

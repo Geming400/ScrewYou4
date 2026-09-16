@@ -28,7 +28,7 @@ public class ClientboundDisconnectPacket1691042233Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2046572972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2046572972L))
-            info.setReturnValue(-280038085);
+            info.setReturnValue(-440953585);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Lnet/minecraft/network/chat/Component;", cancellable = true)

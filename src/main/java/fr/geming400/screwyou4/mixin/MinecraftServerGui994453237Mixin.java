@@ -25,16 +25,16 @@ public class MinecraftServerGui994453237Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addFinalizer(Ljava/lang/Runnable;)V", cancellable = true)
-    private void addFinalizer__853104877(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-853104877L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "showFrameFor(Lnet/minecraft/server/dedicated/DedicatedServer;)Lnet/minecraft/server/gui/MinecraftServerGui;", cancellable = true)
     private static void showFrameFor__170475722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-170475722L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addFinalizer(Ljava/lang/Runnable;)V", cancellable = true)
+    private void addFinalizer__853104877(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-853104877L))
+            info.cancel();
     }
 
 

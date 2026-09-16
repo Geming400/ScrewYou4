@@ -13,16 +13,16 @@ public class PotentSulfurBlockEntity_1315009965Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReachedByNoxiousGas(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
-    private static void canBeReachedByNoxiousGas__212962122(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-212962122L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "geyserPositional(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/util/RandomSource;", cancellable = true)
     private static void geyserPositional_1162298861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1162298861L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReachedByNoxiousGas(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
+    private static void canBeReachedByNoxiousGas__212962122(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-212962122L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "resetCountdown()V", cancellable = true)

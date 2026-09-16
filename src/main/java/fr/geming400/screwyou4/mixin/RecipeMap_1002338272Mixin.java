@@ -25,15 +25,15 @@ public class RecipeMap_1002338272Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipesFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Ljava/util/stream/Stream;", cancellable = true)
-    private void getRecipesFor_548157105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(548157105L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "byType(Lnet/minecraft/world/item/crafting/RecipeType;)Ljava/util/Collection;", cancellable = true)
     private void byType__1146883941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1146883941L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipesFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/item/crafting/RecipeInput;Lnet/minecraft/world/level/Level;)Ljava/util/stream/Stream;", cancellable = true)
+    private void getRecipesFor_548157105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(548157105L))
             info.setReturnValue(null);
     }
 

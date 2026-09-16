@@ -16,7 +16,7 @@ public class SmithingRecipeInput1432162975Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1875894564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1875894564L))
-            info.setReturnValue(32857929);
+            info.setReturnValue(-42875271);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class SmithingRecipeInput1432162975Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1989515066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1989515066L))
-            info.setReturnValue(1129285);
+            info.setReturnValue(-74603915);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -49,15 +49,15 @@ public class SmithingRecipeInput1432162975Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_1345748545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1345748545L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addition()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void addition_425450943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(425450943L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_1345748545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1345748545L))
             info.setReturnValue(null);
     }
 

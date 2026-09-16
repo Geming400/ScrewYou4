@@ -16,13 +16,13 @@ public class Range1195566605Mixin {
     @Inject(at = @At("HEAD"), method = "floor()I", cancellable = true)
     private void floor__391430297(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-391430297L))
-            info.setReturnValue(-1738367022);
+            info.setReturnValue(1794222874);
     }
 
     @Inject(at = @At("HEAD"), method = "ceiling()I", cancellable = true)
     private void ceiling__964528810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964528810L))
-            info.setReturnValue(832821443);
+            info.setReturnValue(70444043);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()Ljava/util/OptionalInt;", cancellable = true)
@@ -34,7 +34,7 @@ public class Range1195566605Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_110218028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(110218028L))
-            info.setReturnValue(2119626468);
+            info.setReturnValue(1357249068);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloor()Ljava/util/OptionalInt;", cancellable = true)

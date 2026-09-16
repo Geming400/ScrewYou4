@@ -25,16 +25,16 @@ public class PortalParticle571072274Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
-    private void getLightCoords_587760652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(587760652L))
-            info.setReturnValue(1955390441);
-    }
-
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__2059043703(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2059043703L))
-            info.setReturnValue(1.366287E8F);
+            info.setReturnValue(2.557577E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
+    private void getLightCoords_587760652(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(587760652L))
+            info.setReturnValue(2074519441);
     }
 
 

@@ -22,7 +22,7 @@ public class DamageSourcePredicate_1607986385Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2129628821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2129628821L))
-            info.setReturnValue(1932148195);
+            info.setReturnValue(-1714027901);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
@@ -49,15 +49,15 @@ public class DamageSourcePredicate_1607986385Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sourceEntity()Ljava/util/Optional;", cancellable = true)
-    private void sourceEntity_68459612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(68459612L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "directEntity()Ljava/util/Optional;", cancellable = true)
     private void directEntity__375671894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-375671894L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sourceEntity()Ljava/util/Optional;", cancellable = true)
+    private void sourceEntity_68459612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(68459612L))
             info.setReturnValue(null);
     }
 

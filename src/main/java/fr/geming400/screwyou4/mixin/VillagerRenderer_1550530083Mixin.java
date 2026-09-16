@@ -19,15 +19,15 @@ public class VillagerRenderer_1550530083Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__119943405(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-119943405L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_988308275(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(988308275L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__119943405(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-119943405L))
             info.cancel();
     }
 

@@ -28,13 +28,7 @@ public class ClientboundRespawnPacket_527382769Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1084734859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1084734859L))
-            info.setReturnValue(1313916970);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_231670905(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(231670905L))
-            info.cancel();
+            info.setReturnValue(795418970);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,10 +37,10 @@ public class ClientboundRespawnPacket_527382769Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dataToKeep()B", cancellable = true)
-    private void dataToKeep__1629582875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1629582875L))
-            info.setReturnValue(25);
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void handle_231670905(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(231670905L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "commonPlayerSpawnInfo()Lnet/minecraft/network/protocol/game/CommonPlayerSpawnInfo;", cancellable = true)
@@ -59,6 +53,12 @@ public class ClientboundRespawnPacket_527382769Mixin {
     private void shouldKeep__948310927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-948310927L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dataToKeep()B", cancellable = true)
+    private void dataToKeep__1629582875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1629582875L))
+            info.setReturnValue(25);
     }
 
 

@@ -22,7 +22,7 @@ public class PlayerPredicate_2006327624Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1731287582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1731287582L))
-            info.setReturnValue(-1483098075);
+            info.setReturnValue(-1793994475);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -49,15 +49,9 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "advancements()Ljava/util/Map;", cancellable = true)
-    private void advancements_459983292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(459983292L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
-    private void stats_621235862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(621235862L))
+    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
+    private void food_1747893183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1747893183L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +67,15 @@ public class PlayerPredicate_2006327624Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "food()Lnet/minecraft/advancements/predicates/FoodPredicate;", cancellable = true)
-    private void food_1747893183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1747893183L))
+    @Inject(at = @At("HEAD"), method = "stats()Ljava/util/List;", cancellable = true)
+    private void stats_621235862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(621235862L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "advancements()Ljava/util/Map;", cancellable = true)
+    private void advancements_459983292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(459983292L))
             info.setReturnValue(null);
     }
 

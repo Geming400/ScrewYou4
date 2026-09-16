@@ -22,7 +22,7 @@ public class RegistryInfo_709079462Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1266431552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1266431552L))
-            info.setReturnValue(-1362165187);
+            info.setReturnValue(-1652227187);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Lnet/minecraft/core/HolderOwner;", cancellable = true)

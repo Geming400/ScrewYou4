@@ -22,13 +22,7 @@ public class CatVariant1905287613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1832327592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1832327592L))
-            info.setReturnValue(1309515743);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
-    private void spawnConditions__523705612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-523705612L))
-            info.setReturnValue(null);
+            info.setReturnValue(2100442343);
     }
 
     @Inject(at = @At("HEAD"), method = "adultAssetInfo()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
@@ -43,15 +37,21 @@ public class CatVariant1905287613Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "assetInfo(Z)Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void assetInfo_1205309073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1205309073L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)
     private void selectors_1475614305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1475614305L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assetInfo(Z)Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void assetInfo_1205309073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205309073L))
+    @Inject(at = @At("HEAD"), method = "spawnConditions()Lnet/minecraft/world/entity/variant/SpawnPrioritySelectors;", cancellable = true)
+    private void spawnConditions__523705612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-523705612L))
             info.setReturnValue(null);
     }
 

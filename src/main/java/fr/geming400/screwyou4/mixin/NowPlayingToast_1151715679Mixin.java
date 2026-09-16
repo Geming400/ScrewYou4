@@ -16,30 +16,24 @@ public class NowPlayingToast_1151715679Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__488432322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-488432322L))
-            info.setReturnValue(728842590);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_66367101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66367101L))
-            info.setReturnValue(-923407595);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xPos(IF)F", cancellable = true)
-    private void xPos_521783906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(521783906L))
-            info.setReturnValue(9.50184E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yPos(I)F", cancellable = true)
-    private void yPos_656977749(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(656977749L))
-            info.setReturnValue(9.50184E8F);
+            info.setReturnValue(366446790);
     }
 
     @Inject(at = @At("HEAD"), method = "onFinishedRendering()V", cancellable = true)
     private void onFinishedRendering__984123690(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-984123690L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickMusicNotes()V", cancellable = true)
+    private static void tickMusicNotes_558762896(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(558762896L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWantedVisibility(Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;)V", cancellable = true)
+    private void setWantedVisibility_1639221646(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1639221646L))
             info.cancel();
     }
 
@@ -55,22 +49,28 @@ public class NowPlayingToast_1151715679Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setWantedVisibility(Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;)V", cancellable = true)
-    private void setWantedVisibility_1639221646(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1639221646L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tickMusicNotes()V", cancellable = true)
-    private static void tickMusicNotes_558762896(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(558762896L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
     private void extractRenderState__365735242(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-365735242L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_66367101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(66367101L))
+            info.setReturnValue(-1285803395);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xPos(IF)F", cancellable = true)
+    private void xPos_521783906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(521783906L))
+            info.setReturnValue(5.877882E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "yPos(I)F", cancellable = true)
+    private void yPos_656977749(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(656977749L))
+            info.setReturnValue(5.877882E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "showToast(Lnet/minecraft/client/Options;)V", cancellable = true)

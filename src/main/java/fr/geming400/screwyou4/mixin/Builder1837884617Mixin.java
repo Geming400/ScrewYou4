@@ -13,15 +13,15 @@ public class Builder1837884617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTimeBasedLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$TimeBased;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
-    private void addTimeBasedLayer__1318386551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1318386551L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addTimelineLayer(Lnet/minecraft/core/Holder;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
     private void addTimelineLayer__1156093144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1156093144L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTimeBasedLayer(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer$TimeBased;)Lnet/minecraft/world/attribute/EnvironmentAttributeSystem$Builder;", cancellable = true)
+    private void addTimeBasedLayer__1318386551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1318386551L))
             info.setReturnValue(null);
     }
 

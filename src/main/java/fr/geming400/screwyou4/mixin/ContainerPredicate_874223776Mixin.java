@@ -22,7 +22,7 @@ public class ContainerPredicate_874223776Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1431575866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1431575866L))
-            info.setReturnValue(1225687643);
+            info.setReturnValue(752436943);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

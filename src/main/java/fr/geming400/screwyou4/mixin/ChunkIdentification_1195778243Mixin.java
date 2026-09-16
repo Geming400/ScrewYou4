@@ -22,13 +22,13 @@ public class ChunkIdentification_1195778243Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1753130333(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1753130333L))
-            info.setReturnValue(-1011034669);
+            info.setReturnValue(-1658415769);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_374571312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(374571312L))
-            info.setReturnValue(1878425864);
+            info.setReturnValue(1231044764);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ChunkIdentification;", cancellable = true)
@@ -40,7 +40,7 @@ public class ChunkIdentification_1195778243Mixin {
     @Inject(at = @At("HEAD"), method = "z()I", cancellable = true)
     private void z_431829614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(431829614L))
-            info.setReturnValue(924815365);
+            info.setReturnValue(277434265);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)

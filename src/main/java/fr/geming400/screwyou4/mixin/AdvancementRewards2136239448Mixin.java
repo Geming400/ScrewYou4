@@ -22,7 +22,7 @@ public class AdvancementRewards2136239448Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1601375757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1601375757L))
-            info.setReturnValue(2079634818);
+            info.setReturnValue(2013972718);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Ljava/util/Optional;", cancellable = true)
@@ -46,7 +46,7 @@ public class AdvancementRewards2136239448Mixin {
     @Inject(at = @At("HEAD"), method = "experience()I", cancellable = true)
     private void experience__89703404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89703404L))
-            info.setReturnValue(1635301336);
+            info.setReturnValue(1569639236);
     }
 
     @Inject(at = @At("HEAD"), method = "loot()Ljava/util/List;", cancellable = true)

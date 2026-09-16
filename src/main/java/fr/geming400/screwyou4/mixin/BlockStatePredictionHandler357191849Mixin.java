@@ -13,18 +13,6 @@ public class BlockStatePredictionHandler357191849Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateKnownServerState(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void updateKnownServerState_357037847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(357037847L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "endPredictionsUpTo(ILnet/minecraft/client/multiplayer/ClientLevel;)V", cancellable = true)
-    private void endPredictionsUpTo__1869625009(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1869625009L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "isPredicting()Z", cancellable = true)
     private void isPredicting_91400461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(91400461L))
@@ -37,10 +25,22 @@ public class BlockStatePredictionHandler357191849Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onTeleport()V", cancellable = true)
-    private void onTeleport__711522446(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-711522446L))
+    @Inject(at = @At("HEAD"), method = "endPredictionsUpTo(ILnet/minecraft/client/multiplayer/ClientLevel;)V", cancellable = true)
+    private void endPredictionsUpTo__1869625009(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1869625009L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateKnownServerState(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void updateKnownServerState_357037847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(357037847L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "currentSequence()I", cancellable = true)
+    private void currentSequence_288243317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288243317L))
+            info.setReturnValue(634414551);
     }
 
     @Inject(at = @At("HEAD"), method = "startPredicting()Lnet/minecraft/client/multiplayer/prediction/BlockStatePredictionHandler;", cancellable = true)
@@ -49,10 +49,10 @@ public class BlockStatePredictionHandler357191849Mixin {
             info.setReturnValue(new net.minecraft.client.multiplayer.prediction.BlockStatePredictionHandler());
     }
 
-    @Inject(at = @At("HEAD"), method = "currentSequence()I", cancellable = true)
-    private void currentSequence_288243317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288243317L))
-            info.setReturnValue(534287551);
+    @Inject(at = @At("HEAD"), method = "onTeleport()V", cancellable = true)
+    private void onTeleport__711522446(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-711522446L))
+            info.cancel();
     }
 
 

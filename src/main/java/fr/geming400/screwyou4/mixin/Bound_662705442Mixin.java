@@ -28,12 +28,18 @@ public class Bound_662705442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1220057532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1220057532L))
-            info.setReturnValue(2017484664);
+            info.setReturnValue(-2129511332);
     }
 
     @Inject(at = @At("HEAD"), method = "targetName()Ljava/util/Optional;", cancellable = true)
     private void targetName__1430568309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1430568309L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withTargetName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
+    private void withTargetName__1946627959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946627959L))
             info.setReturnValue(null);
     }
 
@@ -46,12 +52,6 @@ public class Bound_662705442Mixin {
     @Inject(at = @At("HEAD"), method = "chatType()Lnet/minecraft/core/Holder;", cancellable = true)
     private void chatType_1418464299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1418464299L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withTargetName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private void withTargetName__1946627959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1946627959L))
             info.setReturnValue(null);
     }
 

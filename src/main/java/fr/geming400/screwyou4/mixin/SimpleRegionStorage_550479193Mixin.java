@@ -31,33 +31,9 @@ public class SimpleRegionStorage_550479193Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "injectDatafixingContext(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
-    private static void injectDatafixingContext__1532755460(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1532755460L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOldChunkAround(Lnet/minecraft/world/level/ChunkPos;I)Z", cancellable = true)
-    private void isOldChunkAround_1057431705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1057431705L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lnet/minecraft/nbt/CompoundTag;ILnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void upgradeChunkTag__1751663133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1751663133L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void upgradeChunkTag_34188693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(34188693L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lcom/mojang/serialization/Dynamic;I)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private void upgradeChunkTag_56967537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(56967537L))
+    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
+    private void storageInfo_452898736(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(452898736L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +49,33 @@ public class SimpleRegionStorage_550479193Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
-    private void storageInfo_452898736(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(452898736L))
+    @Inject(at = @At("HEAD"), method = "isOldChunkAround(Lnet/minecraft/world/level/ChunkPos;I)Z", cancellable = true)
+    private void isOldChunkAround_1057431705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1057431705L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "injectDatafixingContext(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
+    private static void injectDatafixingContext__1532755460(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1532755460L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lcom/mojang/serialization/Dynamic;I)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private void upgradeChunkTag_56967537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(56967537L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lnet/minecraft/nbt/CompoundTag;ILnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void upgradeChunkTag__1751663133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1751663133L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeChunkTag(Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void upgradeChunkTag_34188693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(34188693L))
             info.setReturnValue(null);
     }
 

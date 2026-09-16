@@ -43,9 +43,21 @@ public class GridLayout_586516748Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rowSpacing(I)Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
-    private void rowSpacing_2053293687(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2053293687L))
+    @Inject(at = @At("HEAD"), method = "createRowHelper(I)Lnet/minecraft/client/gui/layouts/GridLayout$RowHelper;", cancellable = true)
+    private void createRowHelper_277619414(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(277619414L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void newCellSettings_1909810547(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1909810547L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "columnSpacing(I)Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
+    private void columnSpacing__1746993029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1746993029L))
             info.setReturnValue(new net.minecraft.client.gui.layouts.GridLayout());
     }
 
@@ -79,22 +91,10 @@ public class GridLayout_586516748Mixin {
             info.setReturnValue(new net.minecraft.client.gui.layouts.GridLayout());
     }
 
-    @Inject(at = @At("HEAD"), method = "columnSpacing(I)Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
-    private void columnSpacing__1746993029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1746993029L))
+    @Inject(at = @At("HEAD"), method = "rowSpacing(I)Lnet/minecraft/client/gui/layouts/GridLayout;", cancellable = true)
+    private void rowSpacing_2053293687(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2053293687L))
             info.setReturnValue(new net.minecraft.client.gui.layouts.GridLayout());
-    }
-
-    @Inject(at = @At("HEAD"), method = "newCellSettings()Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void newCellSettings_1909810547(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1909810547L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRowHelper(I)Lnet/minecraft/client/gui/layouts/GridLayout$RowHelper;", cancellable = true)
-    private void createRowHelper_277619414(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277619414L))
-            info.setReturnValue(null);
     }
 
 

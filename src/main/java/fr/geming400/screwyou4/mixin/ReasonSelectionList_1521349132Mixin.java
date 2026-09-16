@@ -13,10 +13,10 @@ public class ReasonSelectionList_1521349132Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
-    private void getRowWidth__271872081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-271872081L))
-            info.setReturnValue(-2000535012);
+    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/reporting/ReportReasonSelectionScreen$ReasonSelectionList$Entry;)V", cancellable = true)
+    private void setSelected_765266605(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(765266605L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/components/AbstractSelectionList$Entry;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class ReasonSelectionList_1521349132Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setSelected(Lnet/minecraft/client/gui/screens/reporting/ReportReasonSelectionScreen$ReasonSelectionList$Entry;)V", cancellable = true)
-    private void setSelected_765266605(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(765266605L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
+    private void getRowWidth__271872081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-271872081L))
+            info.setReturnValue(1773675784);
     }
 
 

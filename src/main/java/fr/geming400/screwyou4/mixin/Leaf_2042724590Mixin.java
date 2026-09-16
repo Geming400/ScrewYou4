@@ -22,7 +22,7 @@ public class Leaf_2042724590Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1694890616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1694890616L))
-            info.setReturnValue(41824978);
+            info.setReturnValue(156335678);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)

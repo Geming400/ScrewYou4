@@ -22,13 +22,13 @@ public class ItemBody146236917Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_703589008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(703589008L))
-            info.setReturnValue(573945287);
+            info.setReturnValue(-23018013);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1493911083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1493911083L))
-            info.setReturnValue(-464043372);
+            info.setReturnValue(-1061006672);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
@@ -43,16 +43,10 @@ public class ItemBody146236917Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__939111660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-939111660L))
-            info.setReturnValue(-621748250);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void mapCodec__597758153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-597758153L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "showTooltip()Z", cancellable = true)
+    private void showTooltip__1065627354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1065627354L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "showDecorations()Z", cancellable = true)
@@ -61,10 +55,16 @@ public class ItemBody146236917Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "showTooltip()Z", cancellable = true)
-    private void showTooltip__1065627354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1065627354L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void mapCodec__597758153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-597758153L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__939111660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-939111660L))
+            info.setReturnValue(-1218711550);
     }
 
 

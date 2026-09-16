@@ -28,18 +28,12 @@ public class VillagerProfession_1062510912Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1619863002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619863002L))
-            info.setReturnValue(1466259626);
+            info.setReturnValue(1908755826);
     }
 
     @Inject(at = @At("HEAD"), method = "bootstrap(Lnet/minecraft/core/Registry;)Lnet/minecraft/world/entity/npc/villager/VillagerProfession;", cancellable = true)
     private static void bootstrap__1955946473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1955946473L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
-    private void requestedItems__577202178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-577202178L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,9 @@ public class VillagerProfession_1062510912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heldJobSite()Ljava/util/function/Predicate;", cancellable = true)
-    private void heldJobSite__1463911428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1463911428L))
+    @Inject(at = @At("HEAD"), method = "acquirableJobSite()Ljava/util/function/Predicate;", cancellable = true)
+    private void acquirableJobSite_888823400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(888823400L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +55,15 @@ public class VillagerProfession_1062510912Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "acquirableJobSite()Ljava/util/function/Predicate;", cancellable = true)
-    private void acquirableJobSite_888823400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(888823400L))
+    @Inject(at = @At("HEAD"), method = "requestedItems()Lcom/google/common/collect/ImmutableSet;", cancellable = true)
+    private void requestedItems__577202178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-577202178L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heldJobSite()Ljava/util/function/Predicate;", cancellable = true)
+    private void heldJobSite__1463911428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463911428L))
             info.setReturnValue(null);
     }
 

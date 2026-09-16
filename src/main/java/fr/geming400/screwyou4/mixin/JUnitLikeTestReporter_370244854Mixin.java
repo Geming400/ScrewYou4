@@ -19,15 +19,15 @@ public class JUnitLikeTestReporter_370244854Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onTestSuccess(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
-    private void onTestSuccess__1036704329(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1036704329L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onTestFailed(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
     private void onTestFailed__1477469517(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1477469517L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onTestSuccess(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
+    private void onTestSuccess__1036704329(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1036704329L))
             info.cancel();
     }
 

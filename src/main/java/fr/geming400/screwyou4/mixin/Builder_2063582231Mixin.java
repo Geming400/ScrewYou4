@@ -25,6 +25,12 @@ public class Builder_2063582231Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setWidth(I)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
+    private void setWidth_1721248573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1721248573L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "addButton(Lnet/minecraft/network/chat/Component;Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
     private void addButton_1248855177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1248855177L))
@@ -34,12 +40,6 @@ public class Builder_2063582231Mixin {
     @Inject(at = @At("HEAD"), method = "setImage(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
     private void setImage__1240329265(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1240329265L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setWidth(I)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
-    private void setWidth_1721248573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1721248573L))
             info.setReturnValue(null);
     }
 

@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.BackupConfirmScreen.class)
 public class BackupConfirmScreen826378012Mixin {
-        @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_795324381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(795324381L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_237281634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(237281634L))
             info.setReturnValue(true);
@@ -23,6 +17,12 @@ public class BackupConfirmScreen826378012Mixin {
     private void extractRenderState_1813257654(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1813257654L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_795324381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(795324381L))
+            info.setReturnValue(false);
     }
 
 

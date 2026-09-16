@@ -28,7 +28,7 @@ public class ParamInfo_1578945155Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2136297245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2136297245L))
-            info.setReturnValue(-1788187109);
+            info.setReturnValue(-1938500509);
     }
 
     @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -37,16 +37,16 @@ public class ParamInfo_1578945155Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
-    private void required__1708580870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1708580870L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
     private void schema__1695162235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1695162235L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
+    private void required__1708580870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1708580870L))
+            info.setReturnValue(true);
     }
 
 

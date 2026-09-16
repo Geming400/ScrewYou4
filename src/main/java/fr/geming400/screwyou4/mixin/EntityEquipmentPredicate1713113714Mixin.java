@@ -22,7 +22,7 @@ public class EntityEquipmentPredicate1713113714Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2024501491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2024501491L))
-            info.setReturnValue(-1697374287);
+            info.setReturnValue(-1522547187);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -61,6 +61,12 @@ public class EntityEquipmentPredicate1713113714Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "legs()Ljava/util/Optional;", cancellable = true)
+    private void legs__905233083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-905233083L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "offhand()Ljava/util/Optional;", cancellable = true)
     private void offhand_992993406(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(992993406L))
@@ -76,12 +82,6 @@ public class EntityEquipmentPredicate1713113714Mixin {
     @Inject(at = @At("HEAD"), method = "feet()Ljava/util/Optional;", cancellable = true)
     private void feet__1516062770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1516062770L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "legs()Ljava/util/Optional;", cancellable = true)
-    private void legs__905233083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-905233083L))
             info.setReturnValue(null);
     }
 

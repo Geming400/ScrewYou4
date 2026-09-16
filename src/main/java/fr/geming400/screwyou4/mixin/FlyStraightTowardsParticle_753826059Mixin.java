@@ -28,7 +28,7 @@ public class FlyStraightTowardsParticle_753826059Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_770514436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(770514436L))
-            info.setReturnValue(-232244715);
+            info.setReturnValue(-163911215);
     }
 
 

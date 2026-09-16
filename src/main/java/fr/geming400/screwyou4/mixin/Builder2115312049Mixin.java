@@ -31,16 +31,16 @@ public class Builder2115312049Mixin {
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "display(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/resources/Identifier;Lnet/minecraft/advancements/AdvancementType;ZZZ)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void display_1324578044(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1324578044L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "display(Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/resources/Identifier;Lnet/minecraft/advancements/AdvancementType;ZZZ)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
     private void display_1317321178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317321178L))
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "display(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/resources/Identifier;Lnet/minecraft/advancements/AdvancementType;ZZZ)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void display_1324578044(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1324578044L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "build(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
@@ -49,21 +49,21 @@ public class Builder2115312049Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rewards(Lnet/minecraft/advancements/AdvancementRewards;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void rewards_137889537(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(137889537L))
-            info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "rewards(Lnet/minecraft/advancements/AdvancementRewards$Builder;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void rewards_1561791576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1561791576L))
-            info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "advancement()Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
     private static void advancement_1567978536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1567978536L))
+            info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "requirements(Lnet/minecraft/advancements/AdvancementRequirements$Strategy;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void requirements_330120600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(330120600L))
+            info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "requirements(Lnet/minecraft/advancements/AdvancementRequirements;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void requirements_1775323865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1775323865L))
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
     }
 
@@ -85,15 +85,15 @@ public class Builder2115312049Mixin {
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "requirements(Lnet/minecraft/advancements/AdvancementRequirements;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void requirements_1775323865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1775323865L))
+    @Inject(at = @At("HEAD"), method = "rewards(Lnet/minecraft/advancements/AdvancementRewards$Builder;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void rewards_1561791576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1561791576L))
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "requirements(Lnet/minecraft/advancements/AdvancementRequirements$Strategy;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
-    private void requirements_330120600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(330120600L))
+    @Inject(at = @At("HEAD"), method = "rewards(Lnet/minecraft/advancements/AdvancementRewards;)Lnet/minecraft/advancements/Advancement$Builder;", cancellable = true)
+    private void rewards_137889537(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(137889537L))
             info.setReturnValue(new net.minecraft.advancements.Advancement.Builder());
     }
 

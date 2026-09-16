@@ -28,7 +28,7 @@ public class Single1357004850Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1914356941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1914356941L))
-            info.setReturnValue(-947996392);
+            info.setReturnValue(-502026092);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Lnet/minecraft/core/component/predicates/DataComponentPredicate;", cancellable = true)

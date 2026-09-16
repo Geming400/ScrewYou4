@@ -22,7 +22,7 @@ public class ModCheck_760323396Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1317675486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1317675486L))
-            info.setReturnValue(1411638977);
+            info.setReturnValue(752167977);
     }
 
     @Inject(at = @At("HEAD"), method = "merge(Lnet/minecraft/util/ModCheck;)Lnet/minecraft/util/ModCheck;", cancellable = true)
@@ -37,28 +37,28 @@ public class ModCheck_760323396Mixin {
             info.setReturnValue("e;tGh\u32ED[j[\u9C3AvC()SqP9[<]ll#]_");
     }
 
-    @Inject(at = @At("HEAD"), method = "identify(Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/util/ModCheck;", cancellable = true)
-    private static void identify__2067573005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2067573005L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fullDescription()Ljava/lang/String;", cancellable = true)
     private void fullDescription_1325082361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325082361L))
             info.setReturnValue("y4m\")\uD381#u2M]94c)i");
     }
 
-    @Inject(at = @At("HEAD"), method = "confidence()Lnet/minecraft/util/ModCheck$Confidence;", cancellable = true)
-    private void confidence__1247038388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1247038388L))
-            info.setReturnValue(net.minecraft.util.ModCheck.Confidence.DEFINITELY);
+    @Inject(at = @At("HEAD"), method = "identify(Ljava/lang/String;Ljava/util/function/Supplier;Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/util/ModCheck;", cancellable = true)
+    private static void identify__2067573005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2067573005L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldReportAsModified()Z", cancellable = true)
     private void shouldReportAsModified__1210665224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1210665224L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "confidence()Lnet/minecraft/util/ModCheck$Confidence;", cancellable = true)
+    private void confidence__1247038388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1247038388L))
+            info.setReturnValue(net.minecraft.util.ModCheck.Confidence.DEFINITELY);
     }
 
 

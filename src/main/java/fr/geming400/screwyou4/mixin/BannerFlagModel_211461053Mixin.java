@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.object.banner.BannerFlagModel.class)
 public class BannerFlagModel_211461053Mixin {
-        @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "createFlagLayer(Z)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createFlagLayer_201587557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(201587557L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim_895109597(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(895109597L))
             info.cancel();
@@ -17,12 +23,6 @@ public class BannerFlagModel_211461053Mixin {
     private void setupAnim__1746306068(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1746306068L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createFlagLayer(Z)Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createFlagLayer_201587557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(201587557L))
-            info.setReturnValue(null);
     }
 
 

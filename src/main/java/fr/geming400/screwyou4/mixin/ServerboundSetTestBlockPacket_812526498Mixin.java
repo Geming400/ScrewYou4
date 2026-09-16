@@ -34,7 +34,7 @@ public class ServerboundSetTestBlockPacket_812526498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1369878588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1369878588L))
-            info.setReturnValue(1926850895);
+            info.setReturnValue(1995359595);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/core/BlockPos;", cancellable = true)

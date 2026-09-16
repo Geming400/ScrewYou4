@@ -22,30 +22,12 @@ public class BakingContext1825450133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1912165072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912165072L))
-            info.setReturnValue(1376288159);
+            info.setReturnValue(1397162659);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockModelBaker()Lnet/minecraft/client/resources/model/ModelBaker;", cancellable = true)
-    private void blockModelBaker__1562906132(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1562906132L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
-    private void missingItemModel_1376362488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1376362488L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingItemModel()Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
-    private void missingItemModel_511680217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(511680217L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "contextSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
-    private void contextSwapper_1440012397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1440012397L))
+    @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
+    private void entityModelSet__371265562(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-371265562L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +37,33 @@ public class BakingContext1825450133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
-    private void sprites_1829062967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1829062967L))
+    @Inject(at = @At("HEAD"), method = "blockModelBaker()Lnet/minecraft/client/resources/model/ModelBaker;", cancellable = true)
+    private void blockModelBaker__1562906132(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1562906132L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
-    private void entityModelSet__371265562(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-371265562L))
+    @Inject(at = @At("HEAD"), method = "contextSwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
+    private void contextSwapper_1440012397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1440012397L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingItemModel()Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
+    private void missingItemModel_511680217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(511680217L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "missingItemModel(Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/item/MissingItemModel;", cancellable = true)
+    private void missingItemModel_1376362488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1376362488L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprites()Lnet/minecraft/client/resources/model/sprite/SpriteGetter;", cancellable = true)
+    private void sprites_1829062967(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1829062967L))
             info.setReturnValue(null);
     }
 

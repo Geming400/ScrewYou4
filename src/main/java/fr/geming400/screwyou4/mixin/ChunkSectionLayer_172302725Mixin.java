@@ -28,7 +28,19 @@ public class ChunkSectionLayer_172302725Mixin {
     @Inject(at = @At("HEAD"), method = "bufferSize()I", cancellable = true)
     private void bufferSize__596556887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-596556887L))
-            info.setReturnValue(175796877);
+            info.setReturnValue(417294877);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byTransparency(Lcom/mojang/blaze3d/platform/Transparency;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
+    private static void byTransparency__1798131940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1798131940L))
+            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.SOLID);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void pipeline__1729987078(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1729987078L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)
@@ -41,18 +53,6 @@ public class ChunkSectionLayer_172302725Mixin {
     private void vertexFormat_236003858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(236003858L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void pipeline__1729987078(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1729987078L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byTransparency(Lcom/mojang/blaze3d/platform/Transparency;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;", cancellable = true)
-    private static void byTransparency__1798131940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1798131940L))
-            info.setReturnValue(net.minecraft.client.renderer.chunk.ChunkSectionLayer.SOLID);
     }
 
 

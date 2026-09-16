@@ -22,25 +22,25 @@ public class UseEffects465884889Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1023236980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1023236980L))
-            info.setReturnValue(-561986155);
+            info.setReturnValue(-127460155);
     }
 
     @Inject(at = @At("HEAD"), method = "speedMultiplier()F", cancellable = true)
     private void speedMultiplier__1132407532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1132407532L))
-            info.setReturnValue(3.869622E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
-    private void canSprint_1841844422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1841844422L))
-            info.setReturnValue(true);
+            info.setReturnValue(8.214882E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "interactVibrations()Z", cancellable = true)
     private void interactVibrations__273504263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-273504263L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canSprint()Z", cancellable = true)
+    private void canSprint_1841844422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1841844422L))
+            info.setReturnValue(true);
     }
 
 

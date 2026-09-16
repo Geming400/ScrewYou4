@@ -16,7 +16,7 @@ public class EntitySection_1591256908Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_2034988496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2034988496L))
-            info.setReturnValue(-600401099);
+            info.setReturnValue(69115001);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -37,6 +37,18 @@ public class EntitySection_1591256908Mixin {
             info.setReturnValue(net.minecraft.world.level.entity.Visibility.TRACKED);
     }
 
+    @Inject(at = @At("HEAD"), method = "updateChunkStatus(Lnet/minecraft/world/level/entity/Visibility;)Lnet/minecraft/world/level/entity/Visibility;", cancellable = true)
+    private void updateChunkStatus__533268264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-533268264L))
+            info.setReturnValue(net.minecraft.world.level.entity.Visibility.TICKING);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/level/entity/EntityTypeTest;Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;)Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
+    private void getEntities__357476857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-357476857L))
+            info.setReturnValue(net.minecraft.util.AbortableIterationConsumer.Continuation.ABORT);
+    }
+
     @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;)Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
     private void getEntities_1972789261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1972789261L))
@@ -47,18 +59,6 @@ public class EntitySection_1591256908Mixin {
     private void getEntities_549323241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(549323241L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/level/entity/EntityTypeTest;Lnet/minecraft/world/phys/AABB;Lnet/minecraft/util/AbortableIterationConsumer;)Lnet/minecraft/util/AbortableIterationConsumer$Continuation;", cancellable = true)
-    private void getEntities__357476857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-357476857L))
-            info.setReturnValue(net.minecraft.util.AbortableIterationConsumer.Continuation.ABORT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateChunkStatus(Lnet/minecraft/world/level/entity/Visibility;)Lnet/minecraft/world/level/entity/Visibility;", cancellable = true)
-    private void updateChunkStatus__533268264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-533268264L))
-            info.setReturnValue(net.minecraft.world.level.entity.Visibility.TICKING);
     }
 
 

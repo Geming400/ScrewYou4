@@ -34,13 +34,7 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_898750116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(898750116L))
-            info.setReturnValue(472381086);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_45686162(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(45686162L))
-            info.cancel();
+            info.setReturnValue(105268986);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/login/ServerLoginPacketListener;)V", cancellable = true)
@@ -49,10 +43,16 @@ public class ServerboundCustomQueryAnswerPacket_341398026Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void handle_45686162(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(45686162L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "transactionId()I", cancellable = true)
     private void transactionId_1331725046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1331725046L))
-            info.setReturnValue(323040574);
+            info.setReturnValue(-44071526);
     }
 
 

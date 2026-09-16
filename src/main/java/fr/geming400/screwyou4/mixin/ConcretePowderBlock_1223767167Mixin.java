@@ -13,12 +13,6 @@ public class ConcretePowderBlock_1223767167Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getDustColor__628835887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-628835887L))
-            info.setReturnValue(418965071);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1245421314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1245421314L))
@@ -29,6 +23,12 @@ public class ConcretePowderBlock_1223767167Mixin {
     private void onLand_2112496751(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2112496751L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getDustColor__628835887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-628835887L))
+            info.setReturnValue(1067567171);
     }
 
 

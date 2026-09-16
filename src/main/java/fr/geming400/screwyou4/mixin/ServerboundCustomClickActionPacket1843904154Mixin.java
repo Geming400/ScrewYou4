@@ -34,7 +34,7 @@ public class ServerboundCustomClickActionPacket1843904154Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1893711051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1893711051L))
-            info.setReturnValue(359333031);
+            info.setReturnValue(878995631);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

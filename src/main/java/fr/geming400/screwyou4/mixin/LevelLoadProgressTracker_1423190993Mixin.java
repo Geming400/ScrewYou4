@@ -10,7 +10,7 @@ public class LevelLoadProgressTracker_1423190993Mixin {
         @Inject(at = @At("HEAD"), method = "get()F", cancellable = true)
     private void get__948138787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-948138787L))
-            info.setReturnValue(3.180684E8F);
+            info.setReturnValue(4.59494E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/server/level/progress/LevelLoadListener$Stage;II)V", cancellable = true)

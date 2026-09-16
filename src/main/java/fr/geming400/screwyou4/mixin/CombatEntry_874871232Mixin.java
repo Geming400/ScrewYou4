@@ -22,7 +22,7 @@ public class CombatEntry_874871232Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1432223322(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1432223322L))
-            info.setReturnValue(-412278708);
+            info.setReturnValue(-571556208);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/world/damagesource/DamageSource;", cancellable = true)
@@ -34,13 +34,13 @@ public class CombatEntry_874871232Mixin {
     @Inject(at = @At("HEAD"), method = "fallDistance()F", cancellable = true)
     private void fallDistance_222462418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(222462418L))
-            info.setReturnValue(3.72934E8F);
+            info.setReturnValue(2.136565E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "damage()F", cancellable = true)
     private void damage_1644660307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1644660307L))
-            info.setReturnValue(3.72934E8F);
+            info.setReturnValue(2.136565E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "fallLocation()Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)

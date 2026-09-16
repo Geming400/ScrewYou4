@@ -13,15 +13,9 @@ public class WorldLoadEvent_1644353262Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "wasSent()Z", cancellable = true)
-    private void wasSent__1368742109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1368742109L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/world/level/GameType;Z)V", cancellable = true)
-    private void setGameMode__2013578854(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2013578854L))
+    @Inject(at = @At("HEAD"), method = "addProperties(Lnet/minecraft/client/telemetry/TelemetryPropertyMap$Builder;)V", cancellable = true)
+    private void addProperties__2146636000(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2146636000L))
             info.cancel();
     }
 
@@ -31,10 +25,16 @@ public class WorldLoadEvent_1644353262Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addProperties(Lnet/minecraft/client/telemetry/TelemetryPropertyMap$Builder;)V", cancellable = true)
-    private void addProperties__2146636000(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2146636000L))
+    @Inject(at = @At("HEAD"), method = "setGameMode(Lnet/minecraft/world/level/GameType;Z)V", cancellable = true)
+    private void setGameMode__2013578854(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2013578854L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "wasSent()Z", cancellable = true)
+    private void wasSent__1368742109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1368742109L))
+            info.setReturnValue(false);
     }
 
 

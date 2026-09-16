@@ -28,13 +28,13 @@ public class ServerboundPickItemFromEntityPacket_562801818Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1120153908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1120153908L))
-            info.setReturnValue(-1336773371);
+            info.setReturnValue(-889718671);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__2132382140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2132382140L))
-            info.setReturnValue(2033002168);
+            info.setReturnValue(-1814910428);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

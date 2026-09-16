@@ -13,9 +13,9 @@ public class ModelDiscovery1533490711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addRoot(Lnet/minecraft/client/resources/model/ResolvableModel;)V", cancellable = true)
-    private void addRoot__466960928(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-466960928L))
+    @Inject(at = @At("HEAD"), method = "addSpecialModel(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/resources/model/UnbakedModel;)V", cancellable = true)
+    private void addSpecialModel_39811987(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(39811987L))
             info.cancel();
     }
 
@@ -25,9 +25,9 @@ public class ModelDiscovery1533490711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addSpecialModel(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/resources/model/UnbakedModel;)V", cancellable = true)
-    private void addSpecialModel_39811987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(39811987L))
+    @Inject(at = @At("HEAD"), method = "addRoot(Lnet/minecraft/client/resources/model/ResolvableModel;)V", cancellable = true)
+    private void addRoot__466960928(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-466960928L))
             info.cancel();
     }
 

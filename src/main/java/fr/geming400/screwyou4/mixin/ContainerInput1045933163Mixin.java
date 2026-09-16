@@ -22,7 +22,7 @@ public class ContainerInput1045933163Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1649250794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1649250794L))
-            info.setReturnValue(-960638038);
+            info.setReturnValue(-1097023238);
     }
 
 

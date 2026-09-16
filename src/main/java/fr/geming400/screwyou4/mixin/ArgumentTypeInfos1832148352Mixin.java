@@ -19,15 +19,15 @@ public class ArgumentTypeInfos1832148352Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "byClass(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo;", cancellable = true)
-    private static void byClass_958870020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(958870020L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private static void unpack__937839025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-937839025L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byClass(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo;", cancellable = true)
+    private static void byClass_958870020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(958870020L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class BakedQuad_176844524Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_734196614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(734196614L))
-            info.setReturnValue(-935396812);
+            info.setReturnValue(-292572412);
     }
 
     @Inject(at = @At("HEAD"), method = "position(I)Lorg/joml/Vector3fc;", cancellable = true)
@@ -43,9 +43,39 @@ public class BakedQuad_176844524Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "materialInfo()Lnet/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo;", cancellable = true)
+    private void materialInfo__1396353334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1396353334L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packedUV(I)J", cancellable = true)
+    private void packedUV_1202539364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1202539364L))
+            info.setReturnValue(-6351882280434261936L);
+    }
+
     @Inject(at = @At("HEAD"), method = "position1()Lorg/joml/Vector3fc;", cancellable = true)
     private void position1_1652389780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1652389780L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packedUV0()J", cancellable = true)
+    private void packedUV0_1401096379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1401096379L))
+            info.setReturnValue(2155969147431806651L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "packedUV1()J", cancellable = true)
+    private void packedUV1_1429725530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1429725530L))
+            info.setReturnValue(18768048898754556L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "position2()Lorg/joml/Vector3fc;", cancellable = true)
+    private void position2__424819563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-424819563L))
             info.setReturnValue(null);
     }
 
@@ -58,43 +88,13 @@ public class BakedQuad_176844524Mixin {
     @Inject(at = @At("HEAD"), method = "packedUV2()J", cancellable = true)
     private void packedUV2_1458354681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1458354681L))
-            info.setReturnValue(-8382973009148348720L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "position2()Lorg/joml/Vector3fc;", cancellable = true)
-    private void position2__424819563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-424819563L))
-            info.setReturnValue(null);
+            info.setReturnValue(-8382973008505524320L);
     }
 
     @Inject(at = @At("HEAD"), method = "packedUV3()J", cancellable = true)
     private void packedUV3_1486983832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1486983832L))
-            info.setReturnValue(4368788410639646628L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedUV0()J", cancellable = true)
-    private void packedUV0_1401096379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1401096379L))
-            info.setReturnValue(2155969146788982251L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedUV1()J", cancellable = true)
-    private void packedUV1_1429725530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1429725530L))
-            info.setReturnValue(18768048255930156L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedUV(I)J", cancellable = true)
-    private void packedUV_1202539364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1202539364L))
-            info.setReturnValue(-6351882281077086336L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "materialInfo()Lnet/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo;", cancellable = true)
-    private void materialInfo__1396353334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1396353334L))
-            info.setReturnValue(null);
+            info.setReturnValue(4368788411282471028L);
     }
 
 

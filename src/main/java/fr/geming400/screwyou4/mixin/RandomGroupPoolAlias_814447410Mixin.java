@@ -22,19 +22,13 @@ public class RandomGroupPoolAlias_814447410Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1371799500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371799500L))
-            info.setReturnValue(-1945130612);
+            info.setReturnValue(1963022484);
     }
 
     @Inject(at = @At("HEAD"), method = "groups()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
     private void groups_1930990187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1930990187L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
-    private void forEachResolved__2099881371(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2099881371L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -47,6 +41,12 @@ public class RandomGroupPoolAlias_814447410Mixin {
     private void allTargets_535266085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(535266085L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forEachResolved(Lnet/minecraft/util/RandomSource;Ljava/util/function/BiConsumer;)V", cancellable = true)
+    private void forEachResolved__2099881371(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2099881371L))
+            info.cancel();
     }
 
 

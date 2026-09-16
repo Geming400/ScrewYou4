@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.ResourceSelectorArgument.class)
 public class ResourceSelectorArgument_591163500Mixin {
-        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/util/Collection;", cancellable = true)
-    private void parse_165929022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(165929022L))
+        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup;)Ljava/util/Collection;", cancellable = true)
+    private static void parse_2004693115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2004693115L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class ResourceSelectorArgument_591163500Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup;)Ljava/util/Collection;", cancellable = true)
-    private static void parse_2004693115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2004693115L))
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/util/Collection;", cancellable = true)
+    private void parse_165929022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(165929022L))
             info.setReturnValue(null);
     }
 

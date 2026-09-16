@@ -19,10 +19,10 @@ public class RecipeCollection_913475850Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSelectedRecipes(Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection$CraftableStatus;)Ljava/util/List;", cancellable = true)
-    private void getSelectedRecipes_1995521726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1995521726L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isCraftable(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
+    private void isCraftable__401678425(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-401678425L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hasAnySelected()Z", cancellable = true)
@@ -31,16 +31,16 @@ public class RecipeCollection_913475850Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isCraftable(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
-    private void isCraftable__401678425(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-401678425L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasCraftable()Z", cancellable = true)
     private void hasCraftable_88677568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(88677568L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectedRecipes(Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection$CraftableStatus;)Ljava/util/List;", cancellable = true)
+    private void getSelectedRecipes_1995521726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1995521726L))
+            info.setReturnValue(null);
     }
 
 

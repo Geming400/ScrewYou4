@@ -22,19 +22,19 @@ public class StructureSpawnOverride1152794592Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1710146683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1710146683L))
-            info.setReturnValue(343498336);
-    }
-
-    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType;", cancellable = true)
-    private void boundingBox__735887735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-735887735L))
-            info.setReturnValue(net.minecraft.world.level.levelgen.structure.StructureSpawnOverride.BoundingBoxType.PIECE);
+            info.setReturnValue(737181736);
     }
 
     @Inject(at = @At("HEAD"), method = "spawns()Lnet/minecraft/util/random/WeightedList;", cancellable = true)
     private void spawns_722748318(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(722748318L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType;", cancellable = true)
+    private void boundingBox__735887735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-735887735L))
+            info.setReturnValue(net.minecraft.world.level.levelgen.structure.StructureSpawnOverride.BoundingBoxType.PIECE);
     }
 
 

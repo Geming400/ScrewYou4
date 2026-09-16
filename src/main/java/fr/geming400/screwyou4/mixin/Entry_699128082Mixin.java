@@ -28,7 +28,7 @@ public class Entry_699128082Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1256480172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1256480172L))
-            info.setReturnValue(-808679909);
+            info.setReturnValue(-221670709);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)

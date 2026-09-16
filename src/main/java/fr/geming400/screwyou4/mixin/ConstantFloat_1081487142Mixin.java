@@ -10,7 +10,7 @@ public class ConstantFloat_1081487142Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__1223186697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1223186697L))
-            info.setReturnValue(6.902807E8F);
+            info.setReturnValue(4.047316E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,19 +28,19 @@ public class ConstantFloat_1081487142Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1638839232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1638839232L))
-            info.setReturnValue(-650059089);
+            info.setReturnValue(-935608189);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min__339642698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-339642698L))
-            info.setReturnValue(6.902807E8F);
+            info.setReturnValue(4.047316E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1436553956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1436553956L))
-            info.setReturnValue(6.902807E8F);
+            info.setReturnValue(4.047316E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(F)Lnet/minecraft/util/valueproviders/ConstantFloat;", cancellable = true)
@@ -58,7 +58,7 @@ public class ConstantFloat_1081487142Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
     private void sample_48422290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(48422290L))
-            info.setReturnValue(6.912827E8F);
+            info.setReturnValue(4.047316E8F);
     }
 
 

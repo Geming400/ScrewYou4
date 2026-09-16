@@ -22,7 +22,7 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1287073840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1287073840L))
-            info.setReturnValue(-374790767);
+            info.setReturnValue(-226742267);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/util/Unit;", cancellable = true)
@@ -37,22 +37,16 @@ public class Functions729721749Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
-    private void teardown_1353050289(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1353050289L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/Unit;)V", cancellable = true)
     private void teardown__1561213387(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1561213387L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1796167003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1796167003L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
+    private void teardown_1353050289(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1353050289L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "teardownFunction()Ljava/util/Optional;", cancellable = true)
@@ -64,6 +58,12 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "setupFunction()Ljava/util/Optional;", cancellable = true)
     private void setupFunction__835546184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835546184L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1796167003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1796167003L))
             info.setReturnValue(null);
     }
 

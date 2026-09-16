@@ -19,9 +19,9 @@ public class Zone_100971198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addValue(J)Lnet/minecraft/util/profiling/Zone;", cancellable = true)
-    private void addValue_123683133(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(123683133L))
+    @Inject(at = @At("HEAD"), method = "addText(Ljava/util/function/Supplier;)Lnet/minecraft/util/profiling/Zone;", cancellable = true)
+    private void addText__980294283(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-980294283L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class Zone_100971198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addText(Ljava/util/function/Supplier;)Lnet/minecraft/util/profiling/Zone;", cancellable = true)
-    private void addText__980294283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-980294283L))
+    @Inject(at = @At("HEAD"), method = "addValue(J)Lnet/minecraft/util/profiling/Zone;", cancellable = true)
+    private void addValue_123683133(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(123683133L))
             info.setReturnValue(null);
     }
 

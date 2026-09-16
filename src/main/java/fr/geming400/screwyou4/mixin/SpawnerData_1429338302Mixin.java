@@ -28,19 +28,19 @@ public class SpawnerData_1429338302Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1986690392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1986690392L))
-            info.setReturnValue(1152955125);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxCount()I", cancellable = true)
-    private void maxCount__831200392(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-831200392L))
-            info.setReturnValue(-259620353);
+            info.setReturnValue(1139953225);
     }
 
     @Inject(at = @At("HEAD"), method = "minCount()I", cancellable = true)
     private void minCount_991105766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991105766L))
-            info.setReturnValue(571659564);
+            info.setReturnValue(558657664);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxCount()I", cancellable = true)
+    private void maxCount__831200392(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-831200392L))
+            info.setReturnValue(-272622253);
     }
 
 

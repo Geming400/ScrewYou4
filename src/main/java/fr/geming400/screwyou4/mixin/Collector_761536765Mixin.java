@@ -25,6 +25,12 @@ public class Collector_761536765Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getReport()Ljava/lang/String;", cancellable = true)
+    private void getReport_114490671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(114490671L))
+            info.setReturnValue("UjD7=S{T{DcM{\u42A7x");
+    }
+
     @Inject(at = @At("HEAD"), method = "forChild(Lnet/minecraft/util/ProblemReporter$PathElement;)Lnet/minecraft/util/ProblemReporter;", cancellable = true)
     private void forChild_488740961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(488740961L))
@@ -35,12 +41,6 @@ public class Collector_761536765Mixin {
     private void getTreeReport__1250369299(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1250369299L))
             info.setReturnValue("t[\u35F55c}\u42E0zWq\u7C56\u5E0E\uA294");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReport()Ljava/lang/String;", cancellable = true)
-    private void getReport_114490671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(114490671L))
-            info.setReturnValue("UjD7=S{T{DcM{\u42A7x");
     }
 
 

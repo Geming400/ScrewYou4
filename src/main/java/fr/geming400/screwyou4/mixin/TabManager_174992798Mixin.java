@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.components.tabs.TabManager.class)
 public class TabManager_174992798Mixin {
-        @Inject(at = @At("HEAD"), method = "setTabArea(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)V", cancellable = true)
-    private void setTabArea__496348805(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-496348805L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "getCurrentTab()Lnet/minecraft/client/gui/components/tabs/Tab;", cancellable = true)
+    private void getCurrentTab__2029419260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2029419260L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setCurrentTab(Lnet/minecraft/client/gui/components/tabs/Tab;ZZ)V", cancellable = true)
@@ -25,10 +25,10 @@ public class TabManager_174992798Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCurrentTab()Lnet/minecraft/client/gui/components/tabs/Tab;", cancellable = true)
-    private void getCurrentTab__2029419260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2029419260L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setTabArea(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)V", cancellable = true)
+    private void setTabArea__496348805(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-496348805L))
+            info.cancel();
     }
 
 

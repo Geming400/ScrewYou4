@@ -10,7 +10,7 @@ public class ConstantValue1697898831Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__606775007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-606775007L))
-            info.setReturnValue(3.688012E8F);
+            info.setReturnValue(8.57854E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class ConstantValue1697898831Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2039716374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2039716374L))
-            info.setReturnValue(-1722731329);
+            info.setReturnValue(-2006748529);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_1468428011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1468428011L))
-            info.setReturnValue(3.698026E8F);
+            info.setReturnValue(8.57854E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

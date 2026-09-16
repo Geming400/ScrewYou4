@@ -22,7 +22,7 @@ public class MapDecorations_491839963Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1049192053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1049192053L))
-            info.setReturnValue(-424768859);
+            info.setReturnValue(-1251075459);
     }
 
     @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Map;", cancellable = true)

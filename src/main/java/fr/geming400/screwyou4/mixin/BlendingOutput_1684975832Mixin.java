@@ -22,19 +22,19 @@ public class BlendingOutput_1684975832Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2052639374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2052639374L))
-            info.setReturnValue(-41514390);
+            info.setReturnValue(799017310);
     }
 
     @Inject(at = @At("HEAD"), method = "alpha()D", cancellable = true)
     private void alpha_419097946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(419097946L))
-            info.setReturnValue(1.2275120014276399E8D);
+            info.setReturnValue(9.63282900142764E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "blendingOffset()D", cancellable = true)
     private void blendingOffset__878059372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-878059372L))
-            info.setReturnValue(1.227512002778691E8D);
+            info.setReturnValue(9.632829002778691E8D);
     }
 
 

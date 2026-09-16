@@ -19,18 +19,6 @@ public class MultifaceBlock_108777381Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasFace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void hasFace_299279255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(299279255L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFaceProperty(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/block/state/properties/BooleanProperty;", cancellable = true)
-    private static void getFaceProperty_133027241(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(133027241L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1253798283(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1253798283L))
@@ -43,6 +31,12 @@ public class MultifaceBlock_108777381Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasFace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void hasFace_299279255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(299279255L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isValidStateForPlacement(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;)Z", cancellable = true)
     private void isValidStateForPlacement__214087818(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-214087818L))
@@ -52,6 +46,12 @@ public class MultifaceBlock_108777381Mixin {
     @Inject(at = @At("HEAD"), method = "availableFaces(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/Set;", cancellable = true)
     private static void availableFaces__1701084320(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1701084320L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFaceProperty(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/block/state/properties/BooleanProperty;", cancellable = true)
+    private static void getFaceProperty_133027241(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(133027241L))
             info.setReturnValue(null);
     }
 

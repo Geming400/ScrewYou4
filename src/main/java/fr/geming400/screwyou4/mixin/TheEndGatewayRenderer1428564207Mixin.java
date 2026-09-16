@@ -19,18 +19,6 @@ public class TheEndGatewayRenderer1428564207Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance__668183387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-668183387L))
-            info.setReturnValue(-1389901913);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TheEndPortalBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/EndPortalRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1924936730(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1924936730L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState__921192409(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-921192409L))
@@ -41,6 +29,18 @@ public class TheEndGatewayRenderer1428564207Mixin {
     private void extractRenderState__360349292(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-360349292L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/TheEndPortalBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/EndPortalRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1924936730(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1924936730L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance__668183387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-668183387L))
+            info.setReturnValue(-1741407413);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)

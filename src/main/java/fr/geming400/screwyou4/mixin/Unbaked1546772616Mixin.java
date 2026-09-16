@@ -28,7 +28,7 @@ public class Unbaked1546772616Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2104124707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2104124707L))
-            info.setReturnValue(531416685);
+            info.setReturnValue(233735685);
     }
 
     @Inject(at = @At("HEAD"), method = "attachment()Lnet/minecraft/world/level/block/BannerBlock$AttachmentType;", cancellable = true)

@@ -28,7 +28,7 @@ public class SpyglassItem_1137537313Mixin {
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration__1365551882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1365551882L))
-            info.setReturnValue(320054382);
+            info.setReturnValue(17693882);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)

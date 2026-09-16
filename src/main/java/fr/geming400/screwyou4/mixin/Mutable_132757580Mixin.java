@@ -10,18 +10,18 @@ public class Mutable_132757580Mixin {
         @Inject(at = @At("HEAD"), method = "tryTransfer(Lnet/minecraft/world/inventory/Slot;Lnet/minecraft/world/entity/player/Player;)I", cancellable = true)
     private void tryTransfer_1591078195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1591078195L))
-            info.setReturnValue(-211560700);
-    }
-
-    @Inject(at = @At("HEAD"), method = "weight()Lorg/apache/commons/lang3/math/Fraction;", cancellable = true)
-    private void weight__1498346353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1498346353L))
-            info.setReturnValue(null);
+            info.setReturnValue(-23103000);
     }
 
     @Inject(at = @At("HEAD"), method = "clearItems()Lnet/minecraft/world/item/component/BundleContents$Mutable;", cancellable = true)
     private void clearItems__1695839871(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1695839871L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "weight()Lorg/apache/commons/lang3/math/Fraction;", cancellable = true)
+    private void weight__1498346353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1498346353L))
             info.setReturnValue(null);
     }
 
@@ -37,16 +37,16 @@ public class Mutable_132757580Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "tryInsert(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private void tryInsert_199808642(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(199808642L))
+            info.setReturnValue(1555087143);
+    }
+
     @Inject(at = @At("HEAD"), method = "removeOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void removeOne__999568975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-999568975L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryInsert(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private void tryInsert_199808642(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199808642L))
-            info.setReturnValue(1365628143);
     }
 
 

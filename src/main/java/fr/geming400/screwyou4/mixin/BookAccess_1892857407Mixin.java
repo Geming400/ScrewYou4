@@ -22,13 +22,7 @@ public class BookAccess_1892857407Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1844757799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1844757799L))
-            info.setReturnValue(691996822);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPage(I)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getPage_203440595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(203440595L))
-            info.setReturnValue(null);
+            info.setReturnValue(757800122);
     }
 
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
@@ -37,16 +31,22 @@ public class BookAccess_1892857407Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;", cancellable = true)
-    private static void fromItem_763511524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(763511524L))
+    @Inject(at = @At("HEAD"), method = "getPage(I)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getPage_203440595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(203440595L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPageCount()I", cancellable = true)
     private void getPageCount__1665011366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1665011366L))
-            info.setReturnValue(1756705894);
+            info.setReturnValue(1822509194);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;", cancellable = true)
+    private static void fromItem_763511524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(763511524L))
+            info.setReturnValue(null);
     }
 
 

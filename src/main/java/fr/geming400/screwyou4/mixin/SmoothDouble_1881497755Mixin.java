@@ -16,7 +16,7 @@ public class SmoothDouble_1881497755Mixin {
     @Inject(at = @At("HEAD"), method = "getNewDeltaValue(DD)D", cancellable = true)
     private void getNewDeltaValue__1071078856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1071078856L))
-            info.setReturnValue(9.563725006054251E8D);
+            info.setReturnValue(5.408402006054251E8D);
     }
 
 

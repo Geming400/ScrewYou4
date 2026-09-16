@@ -13,6 +13,12 @@ public class ChestModel7996294Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createSingleBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createSingleBodyLayer__1145379763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145379763L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createDoubleBodyLeftLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createDoubleBodyLeftLayer_1914902173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1914902173L))
@@ -29,12 +35,6 @@ public class ChestModel7996294Mixin {
     private void setupAnim_691644839(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(691644839L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createSingleBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createSingleBodyLayer__1145379763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145379763L))
-            info.setReturnValue(null);
     }
 
 

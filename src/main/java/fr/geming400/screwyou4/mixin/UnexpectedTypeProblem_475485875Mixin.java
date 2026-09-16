@@ -28,7 +28,7 @@ public class UnexpectedTypeProblem_475485875Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1032837965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1032837965L))
-            info.setReturnValue(1407657499);
+            info.setReturnValue(976890999);
     }
 
     @Inject(at = @At("HEAD"), method = "expected()Lnet/minecraft/nbt/TagType;", cancellable = true)

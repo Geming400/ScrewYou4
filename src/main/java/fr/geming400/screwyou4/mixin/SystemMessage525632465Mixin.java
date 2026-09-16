@@ -22,7 +22,7 @@ public class SystemMessage525632465Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1082984556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1082984556L))
-            info.setReturnValue(-1348818613);
+            info.setReturnValue(-1128182213);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/server/jsonrpc/methods/Message;", cancellable = true)
@@ -31,16 +31,16 @@ public class SystemMessage525632465Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
-    private void overlay_758548280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(758548280L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "receivingPlayers()Ljava/util/Optional;", cancellable = true)
     private void receivingPlayers__840009167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-840009167L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overlay()Z", cancellable = true)
+    private void overlay_758548280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(758548280L))
+            info.setReturnValue(false);
     }
 
 

@@ -22,7 +22,7 @@ public class GameRuleCategory1999007632Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1738607573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1738607573L))
-            info.setReturnValue(-466411524);
+            info.setReturnValue(47281376);
     }
 
     @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/gamerules/GameRuleCategory;", cancellable = true)

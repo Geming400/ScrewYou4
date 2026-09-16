@@ -31,10 +31,10 @@ public class CycleButton_142238134Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "resetValue()V", cancellable = true)
-    private void resetValue__1145636794(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1145636794L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled_969954203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(969954203L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
@@ -43,10 +43,10 @@ public class CycleButton_142238134Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled_969954203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(969954203L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "onOffBuilder(Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
+    private static void onOffBuilder__1880261492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1880261492L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "booleanBuilder(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
@@ -55,10 +55,10 @@ public class CycleButton_142238134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onOffBuilder(Z)Lnet/minecraft/client/gui/components/CycleButton$Builder;", cancellable = true)
-    private static void onOffBuilder__1880261492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1880261492L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "resetValue()V", cancellable = true)
+    private void resetValue__1145636794(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1145636794L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createDefaultNarrationMessage()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

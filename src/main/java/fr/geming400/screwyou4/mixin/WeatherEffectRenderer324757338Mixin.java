@@ -13,15 +13,15 @@ public class WeatherEffectRenderer324757338Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "render(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/state/level/WeatherRenderState;)V", cancellable = true)
-    private void render__323774734(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-323774734L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/state/level/WeatherRenderState;)V", cancellable = true)
     private void extractRenderState_432263175(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(432263175L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "render(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/state/level/WeatherRenderState;)V", cancellable = true)
+    private void render__323774734(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-323774734L))
             info.cancel();
     }
 

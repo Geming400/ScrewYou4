@@ -22,7 +22,7 @@ public class Patch_653746036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1211098126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1211098126L))
-            info.setReturnValue(1221039364);
+            info.setReturnValue(1186821264);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)Lnet/minecraft/world/entity/player/PlayerSkin$Patch;", cancellable = true)
@@ -43,15 +43,15 @@ public class Patch_653746036Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elytra()Ljava/util/Optional;", cancellable = true)
-    private void elytra__1677119022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1677119022L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "cape()Ljava/util/Optional;", cancellable = true)
     private void cape_71877364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(71877364L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "elytra()Ljava/util/Optional;", cancellable = true)
+    private void elytra__1677119022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1677119022L))
             info.setReturnValue(null);
     }
 

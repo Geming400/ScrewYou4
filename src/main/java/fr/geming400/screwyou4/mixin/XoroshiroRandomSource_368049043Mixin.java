@@ -10,19 +10,19 @@ public class XoroshiroRandomSource_368049043Mixin {
         @Inject(at = @At("HEAD"), method = "nextDouble()D", cancellable = true)
     private void nextDouble_410375311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(410375311L))
-            info.setReturnValue(9.238700001275649E8D);
+            info.setReturnValue(8.749050001275649E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "nextInt(I)I", cancellable = true)
     private void nextInt_1119916269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1119916269L))
-            info.setReturnValue(470078101);
+            info.setReturnValue(421113101);
     }
 
     @Inject(at = @At("HEAD"), method = "nextInt()I", cancellable = true)
     private void nextInt__162782468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-162782468L))
-            info.setReturnValue(-1433086999);
+            info.setReturnValue(-1482051999);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -34,7 +34,7 @@ public class XoroshiroRandomSource_368049043Mixin {
     @Inject(at = @At("HEAD"), method = "nextLong()J", cancellable = true)
     private void nextLong__1816530294(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1816530294L))
-            info.setReturnValue(6494178521474860212L);
+            info.setReturnValue(6494178521425895212L);
     }
 
     @Inject(at = @At("HEAD"), method = "setSeed(J)V", cancellable = true)
@@ -52,13 +52,13 @@ public class XoroshiroRandomSource_368049043Mixin {
     @Inject(at = @At("HEAD"), method = "nextFloat()F", cancellable = true)
     private void nextFloat__2032054100(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2032054100L))
-            info.setReturnValue(9.2387E8F);
+            info.setReturnValue(8.74905E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "nextGaussian()D", cancellable = true)
     private void nextGaussian_240098661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(240098661L))
-            info.setReturnValue(9.238700007440654E8D);
+            info.setReturnValue(8.749050007440654E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "consumeCount(I)V", cancellable = true)

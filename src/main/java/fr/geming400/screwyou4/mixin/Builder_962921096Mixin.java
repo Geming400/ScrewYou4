@@ -19,15 +19,15 @@ public class Builder_962921096Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "defineAll(Ljava/util/List;)Lnet/minecraft/client/telemetry/TelemetryEventType$Builder;", cancellable = true)
-    private void defineAll_2028690046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2028690046L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "optIn()Lnet/minecraft/client/telemetry/TelemetryEventType$Builder;", cancellable = true)
     private void optIn__352222341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-352222341L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defineAll(Ljava/util/List;)Lnet/minecraft/client/telemetry/TelemetryEventType$Builder;", cancellable = true)
+    private void defineAll_2028690046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2028690046L))
             info.setReturnValue(null);
     }
 

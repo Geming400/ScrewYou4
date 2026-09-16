@@ -22,7 +22,7 @@ public class SimpleModelState2039567285Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1698047920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1698047920L))
-            info.setReturnValue(1190961214);
+            info.setReturnValue(1255049614);
     }
 
     @Inject(at = @At("HEAD"), method = "x()Lcom/mojang/math/Quadrant;", cancellable = true)
@@ -43,6 +43,18 @@ public class SimpleModelState2039567285Mixin {
             info.setReturnValue(com.mojang.math.Quadrant.R0);
     }
 
+    @Inject(at = @At("HEAD"), method = "asModelState()Lnet/minecraft/client/renderer/block/dispatch/ModelState;", cancellable = true)
+    private void asModelState__1430938080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1430938080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uvLock()Z", cancellable = true)
+    private void uvLock_1556880768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1556880768L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "withUvLock(Z)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
     private void withUvLock_386157477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(386157477L))
@@ -55,27 +67,15 @@ public class SimpleModelState2039567285Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withZ(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
-    private void withZ_755518224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(755518224L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withX(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
     private void withX__1672740398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1672740398L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uvLock()Z", cancellable = true)
-    private void uvLock_1556880768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1556880768L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asModelState()Lnet/minecraft/client/renderer/block/dispatch/ModelState;", cancellable = true)
-    private void asModelState__1430938080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1430938080L))
+    @Inject(at = @At("HEAD"), method = "withZ(Lcom/mojang/math/Quadrant;)Lnet/minecraft/client/renderer/block/dispatch/Variant$SimpleModelState;", cancellable = true)
+    private void withZ_755518224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(755518224L))
             info.setReturnValue(null);
     }
 

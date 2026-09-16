@@ -22,7 +22,7 @@ public class RegionFileVersion1905167034Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_246843439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(246843439L))
-            info.setReturnValue(324694696);
+            info.setReturnValue(-253508804);
     }
 
     @Inject(at = @At("HEAD"), method = "configure(Ljava/lang/String;)V", cancellable = true)

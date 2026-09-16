@@ -10,7 +10,7 @@ public class AnimationFrame1801946825Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index__1798904035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1798904035L))
-            info.setReturnValue(-1191183835);
+            info.setReturnValue(-701597735);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class AnimationFrame1801946825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1935668380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1935668380L))
-            info.setReturnValue(584036283);
+            info.setReturnValue(1073622383);
     }
 
     @Inject(at = @At("HEAD"), method = "time()Ljava/util/Optional;", cancellable = true)
@@ -40,7 +40,7 @@ public class AnimationFrame1801946825Mixin {
     @Inject(at = @At("HEAD"), method = "timeOr(I)I", cancellable = true)
     private void timeOr_1633070776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1633070776L))
-            info.setReturnValue(-312143916);
+            info.setReturnValue(177442184);
     }
 
 

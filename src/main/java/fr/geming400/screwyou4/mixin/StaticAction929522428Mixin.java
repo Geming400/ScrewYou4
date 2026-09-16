@@ -28,18 +28,18 @@ public class StaticAction929522428Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1486874519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1486874519L))
-            info.setReturnValue(-1276329526);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1995967682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1995967682L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1097519826);
     }
 
     @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
     private void createAction_1539509501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539509501L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1995967682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1995967682L))
             info.setReturnValue(null);
     }
 

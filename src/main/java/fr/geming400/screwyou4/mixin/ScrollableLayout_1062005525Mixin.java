@@ -10,42 +10,24 @@ public class ScrollableLayout_1062005525Mixin {
         @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_1965442839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1965442839L))
-            info.setReturnValue(2067497954);
+            info.setReturnValue(-1870691042);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_1936813688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1936813688L))
-            info.setReturnValue(-1873951039);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__663611651(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-663611651L))
-            info.setReturnValue(1671228317);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
-    private void setX_80880118(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(80880118L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__875890966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-875890966L))
-            info.setReturnValue(-1563612270);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
-    private void setY_968383799(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(968383799L))
-            info.cancel();
+            info.setReturnValue(-1517172739);
     }
 
     @Inject(at = @At("HEAD"), method = "arrangeElements()V", cancellable = true)
     private void arrangeElements_228824804(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(228824804L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMinHeight(I)V", cancellable = true)
+    private void setMinHeight__214489897(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-214489897L))
             info.cancel();
     }
 
@@ -61,15 +43,15 @@ public class ScrollableLayout_1062005525Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setMaxHeight(I)V", cancellable = true)
-    private void setMaxHeight_895949033(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(895949033L))
+    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
+    private void removeChildren__2013026044(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2013026044L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinHeight(I)V", cancellable = true)
-    private void setMinHeight__214489897(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-214489897L))
+    @Inject(at = @At("HEAD"), method = "setMaxHeight(I)V", cancellable = true)
+    private void setMaxHeight_895949033(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(895949033L))
             info.cancel();
     }
 
@@ -79,9 +61,27 @@ public class ScrollableLayout_1062005525Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "removeChildren()V", cancellable = true)
-    private void removeChildren__2013026044(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2013026044L))
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__875890966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-875890966L))
+            info.setReturnValue(-1206833970);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__663611651(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-663611651L))
+            info.setReturnValue(2028006617);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
+    private void setX_80880118(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(80880118L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
+    private void setY_968383799(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(968383799L))
             info.cancel();
     }
 

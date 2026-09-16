@@ -25,15 +25,15 @@ public class ShapelessRecipe570896090Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble_2138951675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2138951675L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_2078564719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2078564719L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble_2138951675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2138951675L))
             info.setReturnValue(null);
     }
 

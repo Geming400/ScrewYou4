@@ -10,7 +10,7 @@ public class NormalNoise_1870895291Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue__1126791926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1126791926L))
-            info.setReturnValue(5.3031160007382566E8D);
+            info.setReturnValue(7.357469000738257E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "parameters()Lnet/minecraft/world/level/levelgen/synth/NormalNoise$NoiseParameters;", cancellable = true)
@@ -34,7 +34,7 @@ public class NormalNoise_1870895291Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue__1606148722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1606148722L))
-            info.setReturnValue(5.303116002699251E8D);
+            info.setReturnValue(7.357469002699251E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "createLegacyNetherBiome(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/synth/NormalNoise$NoiseParameters;)Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)

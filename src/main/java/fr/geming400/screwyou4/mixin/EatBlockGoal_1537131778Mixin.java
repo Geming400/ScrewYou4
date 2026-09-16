@@ -31,16 +31,16 @@ public class EatBlockGoal_1537131778Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getEatAnimationTick()I", cancellable = true)
+    private void getEatAnimationTick_1965452296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1965452296L))
+            info.setReturnValue(-300428297);
+    }
+
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_847496483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(847496483L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEatAnimationTick()I", cancellable = true)
-    private void getEatAnimationTick_1965452296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1965452296L))
-            info.setReturnValue(-51023097);
     }
 
 

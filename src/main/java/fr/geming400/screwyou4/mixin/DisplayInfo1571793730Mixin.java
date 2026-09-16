@@ -22,7 +22,7 @@ public class DisplayInfo1571793730Mixin {
     @Inject(at = @At("HEAD"), method = "getY()F", cancellable = true)
     private void getY__1819739134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1819739134L))
-            info.setReturnValue(3.422134E8F);
+            info.setReturnValue(2.392163E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getDescription()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -34,7 +34,7 @@ public class DisplayInfo1571793730Mixin {
     @Inject(at = @At("HEAD"), method = "getX()F", cancellable = true)
     private void getX__1848368285(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1848368285L))
-            info.setReturnValue(3.422134E8F);
+            info.setReturnValue(2.392163E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)

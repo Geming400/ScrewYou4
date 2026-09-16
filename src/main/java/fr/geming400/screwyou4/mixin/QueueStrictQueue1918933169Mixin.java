@@ -10,7 +10,7 @@ public class QueueStrictQueue1918933169Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size__1932302538(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1932302538L))
-            info.setReturnValue(1410765865);
+            info.setReturnValue(1608930665);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

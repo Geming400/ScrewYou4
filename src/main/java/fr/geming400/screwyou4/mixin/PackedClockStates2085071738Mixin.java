@@ -22,7 +22,7 @@ public class PackedClockStates2085071738Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1652543467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1652543467L))
-            info.setReturnValue(-893316273);
+            info.setReturnValue(-1298844673);
     }
 
     @Inject(at = @At("HEAD"), method = "clocks()Ljava/util/Map;", cancellable = true)

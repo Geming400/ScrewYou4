@@ -28,18 +28,12 @@ public class Unbaked_235738763Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_793090853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(793090853L))
-            info.setReturnValue(-1165841831);
+            info.setReturnValue(-1625906131);
     }
 
     @Inject(at = @At("HEAD"), method = "kind()Lnet/minecraft/world/level/block/SkullBlock$Type;", cancellable = true)
     private void kind_40529418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(40529418L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureOverride()Ljava/util/Optional;", cancellable = true)
-    private void textureOverride_1283763519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1283763519L))
             info.setReturnValue(null);
     }
 
@@ -58,7 +52,13 @@ public class Unbaked_235738763Mixin {
     @Inject(at = @At("HEAD"), method = "animation()F", cancellable = true)
     private void animation__1264429015(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1264429015L))
-            info.setReturnValue(7.308944E8F);
+            info.setReturnValue(2.708301E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureOverride()Ljava/util/Optional;", cancellable = true)
+    private void textureOverride_1283763519(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1283763519L))
+            info.setReturnValue(null);
     }
 
 

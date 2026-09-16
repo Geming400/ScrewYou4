@@ -10,7 +10,7 @@ public class ChatLog_2065635074Mixin {
         @Inject(at = @At("HEAD"), method = "end()I", cancellable = true)
     private void end__556813076(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-556813076L))
-            info.setReturnValue(306044598);
+            info.setReturnValue(-35436902);
     }
 
     @Inject(at = @At("HEAD"), method = "lookup(I)Lnet/minecraft/client/multiplayer/chat/LoggedChatEvent;", cancellable = true)
@@ -22,7 +22,7 @@ public class ChatLog_2065635074Mixin {
     @Inject(at = @At("HEAD"), method = "start()I", cancellable = true)
     private void start_439457221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(439457221L))
-            info.setReturnValue(337198515);
+            info.setReturnValue(-3282485);
     }
 
     @Inject(at = @At("HEAD"), method = "push(Lnet/minecraft/client/multiplayer/chat/LoggedChatEvent;)V", cancellable = true)

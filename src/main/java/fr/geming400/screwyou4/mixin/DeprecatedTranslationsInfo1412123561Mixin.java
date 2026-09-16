@@ -22,7 +22,7 @@ public class DeprecatedTranslationsInfo1412123561Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1969475652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1969475652L))
-            info.setReturnValue(-1242725274);
+            info.setReturnValue(-1260420174);
     }
 
     @Inject(at = @At("HEAD"), method = "removed()Ljava/util/List;", cancellable = true)
@@ -31,21 +31,15 @@ public class DeprecatedTranslationsInfo1412123561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renamed()Ljava/util/Map;", cancellable = true)
-    private void renamed__159640597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-159640597L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyToMap(Ljava/util/Map;)V", cancellable = true)
-    private void applyToMap_416411178(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(416411178L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "loadFromDefaultResource()Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
     private static void loadFromDefaultResource__974039198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-974039198L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadFromJson(Ljava/io/InputStream;)Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
+    private static void loadFromJson__1266434334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1266434334L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class DeprecatedTranslationsInfo1412123561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "loadFromJson(Ljava/io/InputStream;)Lnet/minecraft/locale/DeprecatedTranslationsInfo;", cancellable = true)
-    private static void loadFromJson__1266434334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1266434334L))
+    @Inject(at = @At("HEAD"), method = "applyToMap(Ljava/util/Map;)V", cancellable = true)
+    private void applyToMap_416411178(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(416411178L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "renamed()Ljava/util/Map;", cancellable = true)
+    private void renamed__159640597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-159640597L))
             info.setReturnValue(null);
     }
 

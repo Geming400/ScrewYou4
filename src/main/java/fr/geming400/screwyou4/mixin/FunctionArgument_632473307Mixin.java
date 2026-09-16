@@ -31,9 +31,9 @@ public class FunctionArgument_632473307Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFunctionCollection(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private static void getFunctionCollection__751751996(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-751751996L))
+    @Inject(at = @At("HEAD"), method = "getFunctions(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getFunctions__1310044487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1310044487L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class FunctionArgument_632473307Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFunctions(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getFunctions__1310044487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1310044487L))
+    @Inject(at = @At("HEAD"), method = "getFunctionCollection(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private static void getFunctionCollection__751751996(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-751751996L))
             info.setReturnValue(null);
     }
 

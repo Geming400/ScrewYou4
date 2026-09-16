@@ -37,10 +37,22 @@ public class ItemStackRenderState_2040427334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "appendModelIdentityElement(Ljava/lang/Object;)V", cancellable = true)
-    private void appendModelIdentityElement_1958964869(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1958964869L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getModelBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void getModelBoundingBox__623937047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-623937047L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "usesBlockLight()Z", cancellable = true)
+    private void usesBlockLight_1762091175(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1762091175L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)
+    private void isAnimated__1985788881(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1985788881L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setAnimated()V", cancellable = true)
@@ -49,9 +61,9 @@ public class ItemStackRenderState_2040427334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void visitExtents_109295328(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(109295328L))
+    @Inject(at = @At("HEAD"), method = "appendModelIdentityElement(Ljava/lang/Object;)V", cancellable = true)
+    private void appendModelIdentityElement_1958964869(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1958964869L))
             info.cancel();
     }
 
@@ -67,27 +79,15 @@ public class ItemStackRenderState_2040427334Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "visitExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void visitExtents_109295328(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(109295328L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "pickParticleMaterial(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
     private void pickParticleMaterial__1701819635(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1701819635L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAnimated()Z", cancellable = true)
-    private void isAnimated__1985788881(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1985788881L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "usesBlockLight()Z", cancellable = true)
-    private void usesBlockLight_1762091175(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1762091175L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModelBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void getModelBoundingBox__623937047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-623937047L))
             info.setReturnValue(null);
     }
 

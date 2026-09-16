@@ -19,10 +19,10 @@ public class SectionStorage1643990976Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
-    private void hasWork_1595358092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595358092L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "prefetch(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void prefetch_1095894120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1095894120L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "flushAll()V", cancellable = true)
@@ -31,10 +31,10 @@ public class SectionStorage1643990976Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "prefetch(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void prefetch_1095894120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1095894120L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "hasWork()Z", cancellable = true)
+    private void hasWork_1595358092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1595358092L))
+            info.setReturnValue(true);
     }
 
 

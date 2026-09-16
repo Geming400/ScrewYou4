@@ -22,7 +22,7 @@ public class InclusiveRange_1653793785Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2083821421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2083821421L))
-            info.setReturnValue(342241708);
+            info.setReturnValue(-288919492);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/InclusiveRange;", cancellable = true)
@@ -43,10 +43,10 @@ public class InclusiveRange_1653793785Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValueInRange(Ljava/lang/Comparable;)Z", cancellable = true)
-    private void isValueInRange_1177802047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1177802047L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_2005442597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2005442597L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;Ljava/lang/Comparable;Ljava/lang/Comparable;)Lcom/mojang/serialization/Codec;", cancellable = true)
@@ -55,9 +55,9 @@ public class InclusiveRange_1653793785Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_2005442597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2005442597L))
+    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
+    private void maxInclusive_1794278528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1794278528L))
             info.setReturnValue(null);
     }
 
@@ -67,10 +67,10 @@ public class InclusiveRange_1653793785Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()Ljava/lang/Comparable;", cancellable = true)
-    private void maxInclusive_1794278528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1794278528L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isValueInRange(Ljava/lang/Comparable;)Z", cancellable = true)
+    private void isValueInRange_1177802047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1177802047L))
+            info.setReturnValue(true);
     }
 
 

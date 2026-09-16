@@ -19,15 +19,9 @@ public class BlockStateParser_505155379Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/StringReader;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private static void parseForTesting__1278869936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1278869936L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
-    private static void parseForTesting__1090741806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1090741806L))
+    @Inject(at = @At("HEAD"), method = "parseForBlock(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lnet/minecraft/commands/arguments/blocks/BlockStateParser$BlockResult;", cancellable = true)
+    private static void parseForBlock_494872638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(494872638L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class BlockStateParser_505155379Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parseForBlock(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lnet/minecraft/commands/arguments/blocks/BlockStateParser$BlockResult;", cancellable = true)
-    private static void parseForBlock_494872638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(494872638L))
+    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Ljava/lang/String;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private static void parseForTesting__1090741806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1090741806L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parseForTesting(Lnet/minecraft/core/HolderLookup;Lcom/mojang/brigadier/StringReader;Z)Lcom/mojang/datafixers/util/Either;", cancellable = true)
+    private static void parseForTesting__1278869936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1278869936L))
             info.setReturnValue(null);
     }
 

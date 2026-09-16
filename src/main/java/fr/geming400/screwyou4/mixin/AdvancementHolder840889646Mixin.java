@@ -28,7 +28,7 @@ public class AdvancementHolder840889646Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1398241241(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1398241241L))
-            info.setReturnValue(752315076);
+            info.setReturnValue(1325808476);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

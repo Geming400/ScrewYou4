@@ -22,7 +22,7 @@ public class TagResult632380920Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1189733011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1189733011L))
-            info.setReturnValue(-841339081);
+            info.setReturnValue(-656132081);
     }
 
     @Inject(at = @At("HEAD"), method = "tag()Lnet/minecraft/core/HolderSet;", cancellable = true)

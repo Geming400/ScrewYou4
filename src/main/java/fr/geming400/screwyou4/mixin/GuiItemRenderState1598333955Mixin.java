@@ -10,7 +10,7 @@ public class GuiItemRenderState1598333955Mixin {
         @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_777127025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(777127025L))
-            info.setReturnValue(1005480871);
+            info.setReturnValue(1776777271);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -22,13 +22,7 @@ public class GuiItemRenderState1598333955Mixin {
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_805756176(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(805756176L))
-            info.setReturnValue(-525985323);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2f;", cancellable = true)
-    private void pose__759539172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-759539172L))
-            info.setReturnValue(new org.joml.Matrix3x2f());
+            info.setReturnValue(245311077);
     }
 
     @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -41,6 +35,12 @@ public class GuiItemRenderState1598333955Mixin {
     private void oversizedItemBounds_1234843972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1234843972L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2f;", cancellable = true)
+    private void pose__759539172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759539172L))
+            info.setReturnValue(new org.joml.Matrix3x2f());
     }
 
     @Inject(at = @At("HEAD"), method = "itemStackRenderState()Lnet/minecraft/client/renderer/item/TrackingItemStackRenderState;", cancellable = true)

@@ -22,19 +22,7 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1972113438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1972113438L))
-            info.setReturnValue(753556701);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
-    private void vines_457385109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(457385109L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
-    private void replaceWithBlackstone_1234374654(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234374654L))
-            info.setReturnValue(false);
+            info.setReturnValue(694342001);
     }
 
     @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
@@ -52,7 +40,19 @@ public class Properties_1765501768Mixin {
     @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
     private void mossiness__1001181012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1001181012L))
-            info.setReturnValue(7.148423E8F);
+            info.setReturnValue(6.556276E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
+    private void vines_457385109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(457385109L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "replaceWithBlackstone()Z", cancellable = true)
+    private void replaceWithBlackstone_1234374654(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234374654L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "cold()Z", cancellable = true)

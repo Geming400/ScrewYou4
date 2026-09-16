@@ -22,7 +22,7 @@ public class Stat_57046296Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_614397890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(614397890L))
-            info.setReturnValue(-2010987048);
+            info.setReturnValue(-1764950648);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue()Ljava/lang/Object;", cancellable = true)

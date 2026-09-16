@@ -28,7 +28,7 @@ public class TypeAndCodec1393502958Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1950855049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950855049L))
-            info.setReturnValue(1984507389);
+            info.setReturnValue(-1908050107);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)

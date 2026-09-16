@@ -28,7 +28,7 @@ public class KnownPack_2016907074Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1720708132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1720708132L))
-            info.setReturnValue(62320685);
+            info.setReturnValue(37674785);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -37,10 +37,10 @@ public class KnownPack_2016907074Mixin {
             info.setReturnValue("");
     }
 
-    @Inject(at = @At("HEAD"), method = "namespace()Ljava/lang/String;", cancellable = true)
-    private void namespace_1785781733(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1785781733L))
-            info.setReturnValue("rB]k\u2627;\u3D34O)%Ez57F\u5610wh%B0${D\u4D0F\uB9A2\u5E1A6y\u4531\u7C31\u7178|Z0VRw83.w\uAD4C!\u7091XZH\u2F06UOv!\u1643 )P$J/5Rpl:}Gt+OSW&$/'J1");
+    @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/KnownPack;", cancellable = true)
+    private static void vanilla_830863560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(830863560L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isVanilla()Z", cancellable = true)
@@ -49,10 +49,10 @@ public class KnownPack_2016907074Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/KnownPack;", cancellable = true)
-    private static void vanilla_830863560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(830863560L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "namespace()Ljava/lang/String;", cancellable = true)
+    private void namespace_1785781733(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1785781733L))
+            info.setReturnValue("rB]k\u2627;\u3D34O)%Ez57F\u5610wh%B0${D\u4D0F\uB9A2\u5E1A6y\u4531\u7C31\u7178|Z0VRw83.w\uAD4C!\u7091XZH\u2F06UOv!\u1643 )P$J/5Rpl:}Gt+OSW&$/'J1");
     }
 
 

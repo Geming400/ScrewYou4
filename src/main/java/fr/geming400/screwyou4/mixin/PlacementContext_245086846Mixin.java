@@ -19,16 +19,16 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCarvingMask(Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/chunk/CarvingMask;", cancellable = true)
-    private void getCarvingMask_954784009(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(954784009L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
+    private void getHeight__1111145966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1111145966L))
+            info.setReturnValue(-962031231);
     }
 
     @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
     private void getMinY_530346438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(530346438L))
-            info.setReturnValue(669186024);
+            info.setReturnValue(844613824);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -37,10 +37,10 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
-    private void getHeight__1111145966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1111145966L))
-            info.setReturnValue(-1137459031);
+    @Inject(at = @At("HEAD"), method = "getCarvingMask(Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/chunk/CarvingMask;", cancellable = true)
+    private void getCarvingMask_954784009(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(954784009L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)

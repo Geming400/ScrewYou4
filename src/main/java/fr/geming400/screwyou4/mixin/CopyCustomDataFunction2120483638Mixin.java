@@ -19,6 +19,12 @@ public class CopyCustomDataFunction2120483638Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1108038404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1108038404L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "copyData(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/CopyCustomDataFunction$Builder;", cancellable = true)
     private static void copyData__1508634890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1508634890L))
@@ -28,12 +34,6 @@ public class CopyCustomDataFunction2120483638Mixin {
     @Inject(at = @At("HEAD"), method = "copyData(Lnet/minecraft/world/level/storage/loot/providers/nbt/NbtProvider;)Lnet/minecraft/world/level/storage/loot/functions/CopyCustomDataFunction$Builder;", cancellable = true)
     private static void copyData__1395441830(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1395441830L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1108038404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1108038404L))
             info.setReturnValue(null);
     }
 

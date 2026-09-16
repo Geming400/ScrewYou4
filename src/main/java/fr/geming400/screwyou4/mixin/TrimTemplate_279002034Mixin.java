@@ -22,7 +22,7 @@ public class TrimTemplate_279002034Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_836354124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836354124L))
-            info.setReturnValue(-609966974);
+            info.setReturnValue(-1280983174);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/world/item/Item;", cancellable = true)
@@ -31,15 +31,15 @@ public class TrimTemplate_279002034Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "patternId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void patternId_1172350071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1172350071L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "recipeId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void recipeId_706488249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(706488249L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "patternId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void patternId_1172350071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1172350071L))
             info.setReturnValue(null);
     }
 

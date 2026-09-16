@@ -22,7 +22,7 @@ public class EntitySlotsPredicate201913835Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_759265926(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(759265926L))
-            info.setReturnValue(-1626459598);
+            info.setReturnValue(-1595064998);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

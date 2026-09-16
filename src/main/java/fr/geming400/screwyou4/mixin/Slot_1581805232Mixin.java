@@ -31,12 +31,6 @@ public class Slot_1581805232Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_1087639900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1087639900L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNoItemIcon()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getNoItemIcon_1464595961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1464595961L))
@@ -49,27 +43,21 @@ public class Slot_1581805232Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeClone(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void safeClone_692985928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(692985928L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
+    private void getMaxStackSize_445558106(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(445558106L))
+            info.setReturnValue(-81120631);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeTake(IILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void safeTake_28865292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(28865292L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
+    private void getMaxStackSize_649806079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(649806079L))
+            info.setReturnValue(-1642142727);
     }
 
-    @Inject(at = @At("HEAD"), method = "mayPickup(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void mayPickup_1037782144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1037782144L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void mayPlace__1614587351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1614587351L))
+    @Inject(at = @At("HEAD"), method = "allowModification(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void allowModification_1012499644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1012499644L))
             info.setReturnValue(true);
     }
 
@@ -85,34 +73,46 @@ public class Slot_1581805232Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void onTake__500598852(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-500598852L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "tryRemove(IILnet/minecraft/world/entity/player/Player;)Ljava/util/Optional;", cancellable = true)
     private void tryRemove_1251412353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1251412353L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
-    private void getMaxStackSize_649806079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(649806079L))
-            info.setReturnValue(-1468262127);
+    @Inject(at = @At("HEAD"), method = "safeClone(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void safeClone_692985928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(692985928L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-    private void getMaxStackSize_445558106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(445558106L))
-            info.setReturnValue(92759969);
+    @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void mayPlace__1614587351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1614587351L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mayPickup(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void mayPickup_1037782144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1037782144L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void onTake__500598852(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-500598852L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "safeTake(IILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void safeTake_28865292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(28865292L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getContainerSlot()I", cancellable = true)
     private void getContainerSlot__283664436(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-283664436L))
-            info.setReturnValue(1654286149);
+            info.setReturnValue(1480405549);
     }
 
     @Inject(at = @At("HEAD"), method = "setByPlayer(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -139,16 +139,16 @@ public class Slot_1581805232Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "allowModification(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void allowModification_1012499644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012499644L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFake()Z", cancellable = true)
     private void isFake__554157017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-554157017L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_1087639900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1087639900L))
+            info.setReturnValue(null);
     }
 
 

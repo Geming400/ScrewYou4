@@ -22,7 +22,7 @@ public class RemoveStatusEffectsConsumeEffect_179522853Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_736874943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(736874943L))
-            info.setReturnValue(-808288983);
+            info.setReturnValue(-1176489883);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

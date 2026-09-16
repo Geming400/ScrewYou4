@@ -22,7 +22,7 @@ public class SignedMessageBody_1458913297Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2016265387(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2016265387L))
-            info.setReturnValue(-65105663);
+            info.setReturnValue(779645537);
     }
 
     @Inject(at = @At("HEAD"), method = "unsigned(Ljava/lang/String;)Lnet/minecraft/network/chat/SignedMessageBody;", cancellable = true)
@@ -40,7 +40,7 @@ public class SignedMessageBody_1458913297Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_1734352673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1734352673L))
-            info.setReturnValue(6036621269285430845L);
+            info.setReturnValue(6036621270130182045L);
     }
 
     @Inject(at = @At("HEAD"), method = "updateSignature(Lnet/minecraft/util/SignatureUpdater$Output;)V", cancellable = true)
@@ -55,15 +55,15 @@ public class SignedMessageBody_1458913297Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages;", cancellable = true)
-    private void lastSeen_1056452516(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1056452516L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)
     private void timeStamp__1059731086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1059731086L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastSeen()Lnet/minecraft/network/chat/LastSeenMessages;", cancellable = true)
+    private void lastSeen_1056452516(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1056452516L))
             info.setReturnValue(null);
     }
 

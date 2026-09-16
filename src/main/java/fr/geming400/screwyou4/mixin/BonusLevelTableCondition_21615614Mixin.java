@@ -28,7 +28,7 @@ public class BonusLevelTableCondition_21615614Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_578967704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(578967704L))
-            info.setReturnValue(15485743);
+            info.setReturnValue(-425553357);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

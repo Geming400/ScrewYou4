@@ -22,7 +22,7 @@ public class TriggerInstance_2085396397Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1652218809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1652218809L))
-            info.setReturnValue(-1261009279);
+            info.setReturnValue(-2043904879);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/item/ItemStack;III)Z", cancellable = true)
@@ -49,6 +49,12 @@ public class TriggerInstance_2085396397Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void hasItems_1237291273(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1237291273L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void hasItems_1817116685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1817116685L))
@@ -58,12 +64,6 @@ public class TriggerInstance_2085396397Mixin {
     @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/advancements/predicates/ItemPredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void hasItems_910195520(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(910195520L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasItems([Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void hasItems_1237291273(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1237291273L))
             info.setReturnValue(null);
     }
 

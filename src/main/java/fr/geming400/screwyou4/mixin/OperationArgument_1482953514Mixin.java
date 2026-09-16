@@ -19,12 +19,6 @@ public class OperationArgument_1482953514Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/commands/arguments/OperationArgument;", cancellable = true)
-    private static void operation_2046363006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2046363006L))
-            info.setReturnValue(new net.minecraft.commands.arguments.OperationArgument());
-    }
-
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_731395722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(731395722L))
@@ -41,6 +35,12 @@ public class OperationArgument_1482953514Mixin {
     private static void getOperation__482601089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-482601089L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/commands/arguments/OperationArgument;", cancellable = true)
+    private static void operation_2046363006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2046363006L))
+            info.setReturnValue(new net.minecraft.commands.arguments.OperationArgument());
     }
 
 

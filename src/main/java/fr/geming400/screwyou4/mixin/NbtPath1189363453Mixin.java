@@ -10,7 +10,7 @@ public class NbtPath1189363453Mixin {
         @Inject(at = @At("HEAD"), method = "remove(Lnet/minecraft/nbt/Tag;)I", cancellable = true)
     private void remove__1218165593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1218165593L))
-            info.setReturnValue(422506326);
+            info.setReturnValue(300526326);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/nbt/Tag;)Ljava/util/List;", cancellable = true)
@@ -28,7 +28,7 @@ public class NbtPath1189363453Mixin {
     @Inject(at = @At("HEAD"), method = "insert(ILnet/minecraft/nbt/CompoundTag;Ljava/util/List;)I", cancellable = true)
     private void insert__1380054035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1380054035L))
-            info.setReturnValue(181636448);
+            info.setReturnValue(59656448);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/String;)Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)
@@ -40,7 +40,7 @@ public class NbtPath1189363453Mixin {
     @Inject(at = @At("HEAD"), method = "set(Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;)I", cancellable = true)
     private void set_1689651521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1689651521L))
-            info.setReturnValue(-1499287591);
+            info.setReturnValue(-1621267591);
     }
 
     @Inject(at = @At("HEAD"), method = "getOrCreate(Lnet/minecraft/nbt/Tag;Ljava/util/function/Supplier;)Ljava/util/List;", cancellable = true)
@@ -55,16 +55,16 @@ public class NbtPath1189363453Mixin {
             info.setReturnValue("S*LV8\uFB54)0&Fe\u559B _Qx\u8623\"BW\u06FA\u8063\u8857=;jBl\u7C0Br\u97513Q;)cEt\uB33E\u494Bxn_`uU]i");
     }
 
+    @Inject(at = @At("HEAD"), method = "countMatching(Lnet/minecraft/nbt/Tag;)I", cancellable = true)
+    private void countMatching_181772879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(181772879L))
+            info.setReturnValue(102225472);
+    }
+
     @Inject(at = @At("HEAD"), method = "isTooDeep(Lnet/minecraft/nbt/Tag;I)Z", cancellable = true)
     private static void isTooDeep_625713359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(625713359L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "countMatching(Lnet/minecraft/nbt/Tag;)I", cancellable = true)
-    private void countMatching_181772879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(181772879L))
-            info.setReturnValue(224205472);
     }
 
 

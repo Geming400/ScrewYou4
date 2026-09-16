@@ -43,10 +43,10 @@ public class Type506825247Mixin {
             info.setReturnValue(net.minecraft.world.level.block.EyeblossomBlock.Type.CLOSED);
     }
 
-    @Inject(at = @At("HEAD"), method = "longSwitchSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void longSwitchSound_958715778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(958715778L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "emitSounds()Z", cancellable = true)
+    private void emitSounds_367818559(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(367818559L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "spawnTransformParticle(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
@@ -55,10 +55,10 @@ public class Type506825247Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "emitSounds()Z", cancellable = true)
-    private void emitSounds_367818559(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(367818559L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "longSwitchSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void longSwitchSound_958715778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(958715778L))
+            info.setReturnValue(null);
     }
 
 

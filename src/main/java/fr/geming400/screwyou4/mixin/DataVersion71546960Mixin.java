@@ -22,13 +22,13 @@ public class DataVersion71546960Mixin {
     @Inject(at = @At("HEAD"), method = "version()I", cancellable = true)
     private void version__83969954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-83969954L))
-            info.setReturnValue(-635028889);
+            info.setReturnValue(-310786889);
     }
 
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_628899051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(628899051L))
-            info.setReturnValue(1221997945);
+            info.setReturnValue(1546239945);
     }
 
     @Inject(at = @At("HEAD"), method = "isCompatible(Lnet/minecraft/world/level/storage/DataVersion;)Z", cancellable = true)

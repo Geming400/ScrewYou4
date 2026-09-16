@@ -16,7 +16,7 @@ public class NoiseInterpolator916177238Mixin {
     @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute_1847966851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1847966851L))
-            info.setReturnValue(7.754958004858611E8D);
+            info.setReturnValue(3.295499004858611E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "wrapped()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)

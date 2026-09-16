@@ -28,7 +28,7 @@ public class ServerboundSelectTradePacket646163607Mixin {
     @Inject(at = @At("HEAD"), method = "getItem()I", cancellable = true)
     private void getItem__1557631852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1557631852L))
-            info.setReturnValue(1418645582);
+            info.setReturnValue(1225876582);
     }
 
 

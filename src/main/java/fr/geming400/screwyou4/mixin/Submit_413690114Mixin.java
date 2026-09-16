@@ -22,19 +22,19 @@ public class Submit_413690114Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_971042204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(971042204L))
-            info.setReturnValue(577241727);
-    }
-
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_221266359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(221266359L))
-            info.setReturnValue(null);
+            info.setReturnValue(439366427);
     }
 
     @Inject(at = @At("HEAD"), method = "particles()Lnet/minecraft/client/renderer/state/level/QuadParticleRenderState;", cancellable = true)
     private void particles_2135485967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2135485967L))
             info.setReturnValue(new net.minecraft.client.renderer.state.level.QuadParticleRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_221266359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(221266359L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "translucent()Z", cancellable = true)

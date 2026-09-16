@@ -22,7 +22,7 @@ public class Provider_1360686161Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1918038251(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1918038251L))
-            info.setReturnValue(-1559798853);
+            info.setReturnValue(-1409234253);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SculkChargeParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)

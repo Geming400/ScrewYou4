@@ -25,16 +25,16 @@ public class PreferredGraphicsApi705889106Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_794097728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794097728L))
-            info.setReturnValue("\u83FD#\uAFD8-}EN!VS,Ct+'\uB3BAxiH]u(d(\u4FDB*F3\uB4817*rmgvDMh\u18AAj\u5187\u46FA$\u6D94R");
-    }
-
     @Inject(at = @At("HEAD"), method = "getBackendsToTry()[Lcom/mojang/blaze3d/systems/GpuBackend;", cancellable = true)
     private void getBackendsToTry_846676810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(846676810L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_794097728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794097728L))
+            info.setReturnValue("\u83FD#\uAFD8-}EN!VS,Ct+'\uB3BAxiH]u(d(\u4FDB*F3\uB4817*rmgvDMh\u18AAj\u5187\u46FA$\u6D94R");
     }
 
 

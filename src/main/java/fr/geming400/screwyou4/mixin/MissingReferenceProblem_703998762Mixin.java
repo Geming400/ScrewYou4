@@ -22,7 +22,7 @@ public class MissingReferenceProblem_703998762Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1261350852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1261350852L))
-            info.setReturnValue(427624699);
+            info.setReturnValue(539165199);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Ljava/lang/String;", cancellable = true)

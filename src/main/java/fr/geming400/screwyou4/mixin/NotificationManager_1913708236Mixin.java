@@ -13,15 +13,9 @@ public class NotificationManager_1913708236Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerLeft(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void playerLeft__589794730(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-589794730L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setServer(Lnet/minecraft/server/dedicated/DedicatedServer;)V", cancellable = true)
-    private void setServer__509192786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-509192786L))
+    @Inject(at = @At("HEAD"), method = "playerJoined(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void playerJoined_471501272(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(471501272L))
             info.cancel();
     }
 
@@ -31,57 +25,15 @@ public class NotificationManager_1913708236Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "ipBanned(Lnet/minecraft/server/players/IpBanListEntry;)V", cancellable = true)
-    private void ipBanned_1816583353(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1816583353L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "playerOped(Lnet/minecraft/server/players/ServerOpListEntry;)V", cancellable = true)
     private void playerOped__842253295(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-842253295L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playerDeoped(Lnet/minecraft/server/players/ServerOpListEntry;)V", cancellable = true)
-    private void playerDeoped__2029729040(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2029729040L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "statusHeartbeat()V", cancellable = true)
-    private void statusHeartbeat_1232305812(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1232305812L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerBanned(Lnet/minecraft/server/players/UserBanListEntry;)V", cancellable = true)
-    private void playerBanned__549767473(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-549767473L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerAddedToAllowlist(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
-    private void playerAddedToAllowlist_792200302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(792200302L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerRemovedFromAllowlist(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
-    private void playerRemovedFromAllowlist__629734339(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-629734339L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serverActivityOccured()V", cancellable = true)
-    private void serverActivityOccured__275743899(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-275743899L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerUnbanned(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
-    private void playerUnbanned__1776945053(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1776945053L))
+    @Inject(at = @At("HEAD"), method = "ipBanned(Lnet/minecraft/server/players/IpBanListEntry;)V", cancellable = true)
+    private void ipBanned_1816583353(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1816583353L))
             info.cancel();
     }
 
@@ -94,6 +46,12 @@ public class NotificationManager_1913708236Mixin {
     @Inject(at = @At("HEAD"), method = "onGameRuleChanged(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)V", cancellable = true)
     private void onGameRuleChanged__1833602450(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1833602450L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverSaveStarted()V", cancellable = true)
+    private void serverSaveStarted__755622627(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-755622627L))
             info.cancel();
     }
 
@@ -115,15 +73,57 @@ public class NotificationManager_1913708236Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serverSaveStarted()V", cancellable = true)
-    private void serverSaveStarted__755622627(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-755622627L))
+    @Inject(at = @At("HEAD"), method = "playerDeoped(Lnet/minecraft/server/players/ServerOpListEntry;)V", cancellable = true)
+    private void playerDeoped__2029729040(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2029729040L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playerJoined(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void playerJoined_471501272(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(471501272L))
+    @Inject(at = @At("HEAD"), method = "playerAddedToAllowlist(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
+    private void playerAddedToAllowlist_792200302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(792200302L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerRemovedFromAllowlist(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
+    private void playerRemovedFromAllowlist__629734339(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-629734339L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerBanned(Lnet/minecraft/server/players/UserBanListEntry;)V", cancellable = true)
+    private void playerBanned__549767473(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-549767473L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverActivityOccured()V", cancellable = true)
+    private void serverActivityOccured__275743899(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-275743899L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerUnbanned(Lnet/minecraft/server/players/NameAndId;)V", cancellable = true)
+    private void playerUnbanned__1776945053(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1776945053L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "statusHeartbeat()V", cancellable = true)
+    private void statusHeartbeat_1232305812(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1232305812L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setServer(Lnet/minecraft/server/dedicated/DedicatedServer;)V", cancellable = true)
+    private void setServer__509192786(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-509192786L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerLeft(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void playerLeft__589794730(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-589794730L))
             info.cancel();
     }
 

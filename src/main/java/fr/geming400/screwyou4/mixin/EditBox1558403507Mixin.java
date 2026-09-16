@@ -19,46 +19,10 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "moveCursor(IZ)V", cancellable = true)
-    private void moveCursor_1475350192(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1475350192L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setHint(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setHint_1551470545(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1551470545L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
-    private void charTyped__382304977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-382304977L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1527349876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1527349876L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
-    private void onClick_2052862952(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2052862952L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
-    private void setFocused__819672731(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-819672731L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isVisible()Z", cancellable = true)
-    private void isVisible_506914946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(506914946L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getWordPosition(I)I", cancellable = true)
+    private void getWordPosition_1818116635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1818116635L))
+            info.setReturnValue(368464890);
     }
 
     @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
@@ -79,28 +43,16 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
-    private void setX_577278101(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(577278101L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
-    private void setY_1464781782(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1464781782L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addFormatter(Lnet/minecraft/client/gui/components/EditBox$TextFormatter;)V", cancellable = true)
     private void addFormatter__273458175(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-273458175L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getInnerWidth()I", cancellable = true)
-    private void getInnerWidth_299513427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(299513427L))
-            info.setReturnValue(-551506606);
+    @Inject(at = @At("HEAD"), method = "getCursorPosition()I", cancellable = true)
+    private void getCursorPosition_1270381860(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1270381860L))
+            info.setReturnValue(788585269);
     }
 
     @Inject(at = @At("HEAD"), method = "setSuggestion(Ljava/lang/String;)V", cancellable = true)
@@ -109,10 +61,10 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCursorPosition()I", cancellable = true)
-    private void getCursorPosition_1270381860(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1270381860L))
-            info.setReturnValue(466125969);
+    @Inject(at = @At("HEAD"), method = "getInnerWidth()I", cancellable = true)
+    private void getInnerWidth_299513427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(299513427L))
+            info.setReturnValue(-229047306);
     }
 
     @Inject(at = @At("HEAD"), method = "setCursorPosition(I)V", cancellable = true)
@@ -127,81 +79,9 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setTextShadow(Z)V", cancellable = true)
-    private void setTextShadow__1497748513(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1497748513L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveCursorToEnd(Z)V", cancellable = true)
-    private void moveCursorToEnd_1559787465(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1559787465L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "deleteWords(I)V", cancellable = true)
-    private void deleteWords_723022365(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(723022365L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setCentered(Z)V", cancellable = true)
-    private void setCentered__1570666970(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1570666970L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveCursorTo(IZ)V", cancellable = true)
-    private void moveCursorTo__1895731851(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1895731851L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setResponder(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void setResponder_496751568(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(496751568L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "deleteCharsToPos(I)V", cancellable = true)
-    private void deleteCharsToPos__1606002778(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1606002778L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMaxLength(I)V", cancellable = true)
-    private void setMaxLength__1695111673(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1695111673L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHighlighted()Ljava/lang/String;", cancellable = true)
-    private void getHighlighted_1712011417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1712011417L))
-            info.setReturnValue(".X}_<p-Q:@Db\u88EA[X?0u`l.\u922DbE,IDZ\u9F86{2L<I\u4345_K-/2t'Gz}{\u85B7wNX}CHt,9\u8AEF9UII'VmY<,W9.");
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveCursorToStart(Z)V", cancellable = true)
-    private void moveCursorToStart_821164688(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(821164688L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTextColorUneditable(I)V", cancellable = true)
-    private void setTextColorUneditable__509468880(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-509468880L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setTextColor(I)V", cancellable = true)
     private void setTextColor__402138669(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-402138669L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setBordered(Z)V", cancellable = true)
-    private void setBordered__501389571(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-501389571L))
             info.cancel();
     }
 
@@ -211,15 +91,99 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "deleteWords(I)V", cancellable = true)
+    private void deleteWords_723022365(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(723022365L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTextColorUneditable(I)V", cancellable = true)
+    private void setTextColorUneditable__509468880(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-509468880L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCentered(Z)V", cancellable = true)
+    private void setCentered__1570666970(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1570666970L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTextShadow(Z)V", cancellable = true)
+    private void setTextShadow__1497748513(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1497748513L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHighlighted()Ljava/lang/String;", cancellable = true)
+    private void getHighlighted_1712011417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1712011417L))
+            info.setReturnValue(".X}_<p-Q:@Db\u88EA[X?0u`l.\u922DbE,IDZ\u9F86{2L<I\u4345_K-/2t'Gz}{\u85B7wNX}CHt,9\u8AEF9UII'VmY<,W9.");
+    }
+
+    @Inject(at = @At("HEAD"), method = "setBordered(Z)V", cancellable = true)
+    private void setBordered__501389571(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-501389571L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setCanLoseFocus(Z)V", cancellable = true)
     private void setCanLoseFocus__761743611(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-761743611L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "moveCursorTo(IZ)V", cancellable = true)
+    private void moveCursorTo__1895731851(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1895731851L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMaxLength(I)V", cancellable = true)
+    private void setMaxLength__1695111673(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1695111673L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveCursorToStart(Z)V", cancellable = true)
+    private void moveCursorToStart_821164688(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(821164688L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "deleteCharsToPos(I)V", cancellable = true)
+    private void deleteCharsToPos__1606002778(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1606002778L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveCursorToEnd(Z)V", cancellable = true)
+    private void moveCursorToEnd_1559787465(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1559787465L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setResponder(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void setResponder_496751568(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(496751568L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "deleteChars(I)V", cancellable = true)
     private void deleteChars__1325565871(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1325565871L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFocused(Z)V", cancellable = true)
+    private void setFocused__819672731(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-819672731L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
+    private void onClick_2052862952(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2052862952L))
             info.cancel();
     }
 
@@ -235,21 +199,39 @@ public class EditBox1558403507Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
+    private void setX_577278101(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(577278101L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
+    private void setY_1464781782(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1464781782L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isVisible()Z", cancellable = true)
+    private void isVisible_506914946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(506914946L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "setInvertHighlightedTextColor(Z)V", cancellable = true)
     private void setInvertHighlightedTextColor_2130353739(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2130353739L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getScreenX(I)I", cancellable = true)
-    private void getScreenX__2132584248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2132584248L))
-            info.setReturnValue(156532436);
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1527349876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1527349876L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBordered()Z", cancellable = true)
-    private void isBordered__1981708427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1981708427L))
+    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
+    private void charTyped__382304977(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-382304977L))
             info.setReturnValue(true);
     }
 
@@ -265,10 +247,28 @@ public class EditBox1558403507Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWordPosition(I)I", cancellable = true)
-    private void getWordPosition_1818116635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1818116635L))
-            info.setReturnValue(46005590);
+    @Inject(at = @At("HEAD"), method = "getScreenX(I)I", cancellable = true)
+    private void getScreenX__2132584248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2132584248L))
+            info.setReturnValue(478991736);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBordered()Z", cancellable = true)
+    private void isBordered__1981708427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1981708427L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveCursor(IZ)V", cancellable = true)
+    private void moveCursor_1475350192(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1475350192L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setHint(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setHint_1551470545(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1551470545L))
+            info.cancel();
     }
 
 

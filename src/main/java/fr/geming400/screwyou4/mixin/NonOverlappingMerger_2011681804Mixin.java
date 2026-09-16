@@ -10,13 +10,13 @@ public class NonOverlappingMerger_2011681804Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size__1839553904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1839553904L))
-            info.setReturnValue(268667894);
+            info.setReturnValue(100078794);
     }
 
     @Inject(at = @At("HEAD"), method = "getDouble(I)D", cancellable = true)
     private void getDouble__883251924(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-883251924L))
-            info.setReturnValue(2.8056810006094915E8D);
+            info.setReturnValue(1.1197900006094915E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)

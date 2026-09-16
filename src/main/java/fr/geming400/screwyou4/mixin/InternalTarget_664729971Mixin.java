@@ -22,7 +22,7 @@ public class InternalTarget_664729971Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1222082061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1222082061L))
-            info.setReturnValue(1247007990);
+            info.setReturnValue(1001533690);
     }
 
     @Inject(at = @At("HEAD"), method = "width()Ljava/util/Optional;", cancellable = true)
@@ -37,16 +37,16 @@ public class InternalTarget_664729971Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "clearColor()I", cancellable = true)
-    private void clearColor_1131060226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1131060226L))
-            info.setReturnValue(1681956549);
-    }
-
     @Inject(at = @At("HEAD"), method = "height()Ljava/util/Optional;", cancellable = true)
     private void height_1148303175(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1148303175L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearColor()I", cancellable = true)
+    private void clearColor_1131060226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1131060226L))
+            info.setReturnValue(1436482249);
     }
 
 

@@ -10,7 +10,7 @@ public class SignedMessageLink_1177878457Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1871994892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1871994892L))
-            info.setReturnValue(-509909804);
+            info.setReturnValue(107695896);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class SignedMessageLink_1177878457Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1735230547(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1735230547L))
-            info.setReturnValue(1258036190);
+            info.setReturnValue(1876642690);
     }
 
     @Inject(at = @At("HEAD"), method = "root(Ljava/util/UUID;Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageLink;", cancellable = true)
@@ -61,16 +61,16 @@ public class SignedMessageLink_1177878457Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
-    private void sender_1297110912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1297110912L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isDescendantOf(Lnet/minecraft/network/chat/SignedMessageLink;)Z", cancellable = true)
     private void isDescendantOf__1796611107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1796611107L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
+    private void sender_1297110912(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1297110912L))
+            info.setReturnValue(null);
     }
 
 

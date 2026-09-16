@@ -25,15 +25,15 @@ public class Painting_838989016Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1545723363(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1545723363L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "trackingPosition()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void trackingPosition_463431120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(463431120L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_893918351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(893918351L))
             info.setReturnValue(null);
     }
 
@@ -43,16 +43,16 @@ public class Painting_838989016Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1545723363(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1545723363L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
     private void recreateFromPacket_1850649732(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1850649732L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_893918351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(893918351L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "snapTo(DDDFF)V", cancellable = true)
@@ -61,15 +61,15 @@ public class Painting_838989016Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playPlacementSound()V", cancellable = true)
-    private void playPlacementSound__2046181172(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2046181172L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "dropItem(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void dropItem_1269788308(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1269788308L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "playPlacementSound()V", cancellable = true)
+    private void playPlacementSound__2046181172(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2046181172L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class OverrideText_1956518858Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1781096348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1781096348L))
-            info.setReturnValue(614664715);
+            info.setReturnValue(981837015);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)

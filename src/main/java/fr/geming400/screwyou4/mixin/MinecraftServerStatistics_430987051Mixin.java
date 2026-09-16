@@ -37,16 +37,16 @@ public class MinecraftServerStatistics_430987051Mixin {
             info.setReturnValue(new javax.management.AttributeList());
     }
 
-    @Inject(at = @At("HEAD"), method = "getMBeanInfo()Ljavax/management/MBeanInfo;", cancellable = true)
-    private void getMBeanInfo_1550503157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1550503157L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerJmxMonitoring(Lnet/minecraft/server/MinecraftServer;)V", cancellable = true)
     private static void registerJmxMonitoring_1686671986(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1686671986L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMBeanInfo()Ljavax/management/MBeanInfo;", cancellable = true)
+    private void getMBeanInfo_1550503157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1550503157L))
+            info.setReturnValue(null);
     }
 
 

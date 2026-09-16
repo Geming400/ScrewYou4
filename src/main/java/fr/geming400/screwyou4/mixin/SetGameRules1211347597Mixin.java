@@ -22,19 +22,19 @@ public class SetGameRules1211347597Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1768699688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768699688L))
-            info.setReturnValue(1463887021);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
-    private void setup__818014220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-818014220L))
-            info.setReturnValue(new java.lang.Object());
+            info.setReturnValue(619360021);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
     private void setup__1601244739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1601244739L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)
+    private void setup__818014220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-818014220L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)

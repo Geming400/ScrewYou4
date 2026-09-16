@@ -19,16 +19,10 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_1554073010(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1554073010L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
-    private void sampleDuringExtract_175974420(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(175974420L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isRecording()Z", cancellable = true)
+    private void isRecording_379578183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(379578183L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getProfiler()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
@@ -37,15 +31,21 @@ public class InactiveMetricsRecorder_2094971160Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isRecording()Z", cancellable = true)
-    private void isRecording_379578183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(379578183L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_1554073010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1554073010L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
     private void startTick_1610945035(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1610945035L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampleDuringExtract()V", cancellable = true)
+    private void sampleDuringExtract_175974420(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(175974420L))
             info.cancel();
     }
 

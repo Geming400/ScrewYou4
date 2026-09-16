@@ -22,7 +22,7 @@ public class AssetInfo1061657367Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1619009458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619009458L))
-            info.setReturnValue(507526528);
+            info.setReturnValue(1264771928);
     }
 
     @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)

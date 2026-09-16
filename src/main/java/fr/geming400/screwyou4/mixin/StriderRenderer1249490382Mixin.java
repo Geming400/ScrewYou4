@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.StriderRenderer.class)
 public class StriderRenderer1249490382Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/StriderRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__819415724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-819415724L))
+        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1072962079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1072962079L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1072962079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1072962079L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/StriderRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__819415724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-819415724L))
             info.setReturnValue(null);
     }
 

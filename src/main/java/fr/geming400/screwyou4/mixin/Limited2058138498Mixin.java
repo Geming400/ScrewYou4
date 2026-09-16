@@ -22,13 +22,13 @@ public class Limited2058138498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1679476707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1679476707L))
-            info.setReturnValue(2074318200);
+            info.setReturnValue(1985879300);
     }
 
     @Inject(at = @At("HEAD"), method = "limit()I", cancellable = true)
     private void limit_256006797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(256006797L))
-            info.setReturnValue(-637745469);
+            info.setReturnValue(-726184369);
     }
 
     @Inject(at = @At("HEAD"), method = "limit(I)Lnet/minecraft/world/item/slot/SlotCollection;", cancellable = true)

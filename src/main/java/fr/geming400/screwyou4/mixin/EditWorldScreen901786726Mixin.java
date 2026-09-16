@@ -19,18 +19,6 @@ public class EditWorldScreen901786726Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_870733095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(870733095L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState_1888666368(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1888666368L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "makeBackupAndShowToast(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private static void makeBackupAndShowToast__659202626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-659202626L))
@@ -41,6 +29,18 @@ public class EditWorldScreen901786726Mixin {
     private static void conditionallyMakeBackupAndShowToast_1581804769(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1581804769L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState_1888666368(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1888666368L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_870733095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(870733095L))
+            info.setReturnValue(true);
     }
 
 

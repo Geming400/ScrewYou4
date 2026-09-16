@@ -28,19 +28,19 @@ public class ClientboundSetBorderLerpSizePacket4840701Mixin {
     @Inject(at = @At("HEAD"), method = "getLerpTime()J", cancellable = true)
     private void getLerpTime_175639690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(175639690L))
-            info.setReturnValue(-938669127399556245L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNewSize()D", cancellable = true)
-    private void getNewSize__1915456141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1915456141L))
-            info.setReturnValue(5.350447005455918E8D);
+            info.setReturnValue(-938669127463610445L);
     }
 
     @Inject(at = @At("HEAD"), method = "getOldSize()D", cancellable = true)
     private void getOldSize__2041341748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2041341748L))
-            info.setReturnValue(5.3504470026100445E8D);
+            info.setReturnValue(4.7099050026100445E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNewSize()D", cancellable = true)
+    private void getNewSize__1915456141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1915456141L))
+            info.setReturnValue(4.709905005455918E8D);
     }
 
 

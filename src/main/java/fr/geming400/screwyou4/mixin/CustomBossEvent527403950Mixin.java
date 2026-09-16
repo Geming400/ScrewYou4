@@ -10,13 +10,13 @@ public class CustomBossEvent527403950Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__1777267005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777267005L))
-            info.setReturnValue(-94828212);
+            info.setReturnValue(-434225012);
     }
 
     @Inject(at = @At("HEAD"), method = "max()I", cancellable = true)
     private void max_882473648(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(882473648L))
-            info.setReturnValue(-1612434822);
+            info.setReturnValue(-1951831622);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Ljava/util/UUID;Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/bossevents/CustomBossEvent$Packed;Ljava/lang/Runnable;)Lnet/minecraft/server/bossevents/CustomBossEvent;", cancellable = true)
@@ -43,45 +43,9 @@ public class CustomBossEvent527403950Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlayers(Ljava/util/Collection;)Z", cancellable = true)
-    private void setPlayers_1180065830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1180065830L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void customId_626585441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(626585441L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void addPlayer_1094286867(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1094286867L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void removePlayer_1892982(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1892982L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMax(I)V", cancellable = true)
-    private void setMax_216837884(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(216837884L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDirty()V", cancellable = true)
-    private void setDirty__2081323055(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2081323055L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeAllPlayers()V", cancellable = true)
-    private void removeAllPlayers__22570228(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-22570228L))
+    @Inject(at = @At("HEAD"), method = "onPlayerDisconnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void onPlayerDisconnect__1494526963(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1494526963L))
             info.cancel();
     }
 
@@ -91,9 +55,45 @@ public class CustomBossEvent527403950Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onPlayerDisconnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void onPlayerDisconnect__1494526963(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1494526963L))
+    @Inject(at = @At("HEAD"), method = "setDirty()V", cancellable = true)
+    private void setDirty__2081323055(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2081323055L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "customId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void customId_626585441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(626585441L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlayers(Ljava/util/Collection;)Z", cancellable = true)
+    private void setPlayers_1180065830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1180065830L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMax(I)V", cancellable = true)
+    private void setMax_216837884(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(216837884L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void addPlayer_1094286867(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1094286867L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeAllPlayers()V", cancellable = true)
+    private void removeAllPlayers__22570228(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-22570228L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void removePlayer_1892982(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1892982L))
             info.cancel();
     }
 

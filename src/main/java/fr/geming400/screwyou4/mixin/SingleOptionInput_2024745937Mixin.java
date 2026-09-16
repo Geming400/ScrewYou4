@@ -22,7 +22,7 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1712869269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1712869269L))
-            info.setReturnValue(-78846291);
+            info.setReturnValue(-338688291);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)
@@ -34,7 +34,7 @@ public class SingleOptionInput_2024745937Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_384597936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(384597936L))
-            info.setReturnValue(1009854018);
+            info.setReturnValue(750012018);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -49,16 +49,16 @@ public class SingleOptionInput_2024745937Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void mapCodec_1280750866(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1280750866L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "labelVisible()Z", cancellable = true)
     private void labelVisible_316919145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(316919145L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void mapCodec_1280750866(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1280750866L))
+            info.setReturnValue(null);
     }
 
 

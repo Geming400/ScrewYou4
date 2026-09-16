@@ -10,31 +10,31 @@ public class IoSummary1174765602Mixin {
         @Inject(at = @At("HEAD"), method = "getTotalCount()J", cancellable = true)
     private void getTotalCount__719479224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-719479224L))
-            info.setReturnValue(7329010109659794825L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalSize()J", cancellable = true)
-    private void getTotalSize_2146685050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2146685050L))
-            info.setReturnValue(-5095695339373057673L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCountsPerSecond()D", cancellable = true)
-    private void getCountsPerSecond_1405717708(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1405717708L))
-            info.setReturnValue(4.796464006456242E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSizePerSecond()D", cancellable = true)
-    private void getSizePerSecond_1004155465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1004155465L))
-            info.setReturnValue(4.796464003033545E8D);
+            info.setReturnValue(7329010109617023225L);
     }
 
     @Inject(at = @At("HEAD"), method = "largestSizeContributors()Ljava/util/List;", cancellable = true)
     private void largestSizeContributors__276743577(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-276743577L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSizePerSecond()D", cancellable = true)
+    private void getSizePerSecond_1004155465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1004155465L))
+            info.setReturnValue(4.368748003033545E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTotalSize()J", cancellable = true)
+    private void getTotalSize_2146685050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2146685050L))
+            info.setReturnValue(-5095695339415829273L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCountsPerSecond()D", cancellable = true)
+    private void getCountsPerSecond_1405717708(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1405717708L))
+            info.setReturnValue(4.368748006456242E8D);
     }
 
 

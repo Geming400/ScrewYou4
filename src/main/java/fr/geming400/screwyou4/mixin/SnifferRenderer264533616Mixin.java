@@ -19,12 +19,6 @@ public class SnifferRenderer264533616Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/sniffer/Sniffer;Lnet/minecraft/client/renderer/entity/state/SnifferRenderState;F)V", cancellable = true)
-    private void extractRenderState_799331346(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(799331346L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState__297688191(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-297688191L))
@@ -37,16 +31,22 @@ public class SnifferRenderer264533616Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SnifferRenderState;", cancellable = true)
-    private void createRenderState_711779271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(711779271L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SnifferRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/sniffer/Sniffer;Lnet/minecraft/client/renderer/entity/state/SnifferRenderState;F)V", cancellable = true)
+    private void extractRenderState_799331346(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(799331346L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_517704595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(517704595L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SnifferRenderState;", cancellable = true)
+    private void createRenderState_711779271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(711779271L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SnifferRenderState());
     }
 
 

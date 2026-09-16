@@ -22,7 +22,7 @@ public class ThreadAllocationStat299936818Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_857288909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(857288909L))
-            info.setReturnValue(784325340);
+            info.setReturnValue(991750440);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat;", cancellable = true)
@@ -46,7 +46,7 @@ public class ThreadAllocationStat299936818Mixin {
     @Inject(at = @At("HEAD"), method = "totalBytes()J", cancellable = true)
     private void totalBytes_1296810674(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1296810674L))
-            info.setReturnValue(-3642733842804549208L);
+            info.setReturnValue(-3642733842597124108L);
     }
 
     @Inject(at = @At("HEAD"), method = "summary(Ljava/util/List;)Lnet/minecraft/util/profiling/jfr/stats/ThreadAllocationStat$Summary;", cancellable = true)

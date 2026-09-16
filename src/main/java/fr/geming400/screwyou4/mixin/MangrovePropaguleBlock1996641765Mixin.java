@@ -13,6 +13,18 @@ public class MangrovePropaguleBlock1996641765Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__472546715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-472546715L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_1959683945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1959683945L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__1698072736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1698072736L))
@@ -25,27 +37,15 @@ public class MangrovePropaguleBlock1996641765Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_1959683945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1959683945L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createNewHangingPropagule(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void createNewHangingPropagule_420432697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(420432697L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createNewHangingPropagule()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private static void createNewHangingPropagule_856977956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(856977956L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__472546715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-472546715L))
+    @Inject(at = @At("HEAD"), method = "createNewHangingPropagule(I)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void createNewHangingPropagule_420432697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(420432697L))
             info.setReturnValue(null);
     }
 

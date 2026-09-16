@@ -19,6 +19,24 @@ public class GenericWaitingScreen1465731498Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createWaitingWithoutButton(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createWaitingWithoutButton__987625097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-987625097L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCompleted(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createCompleted__1085229885(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1085229885L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWaiting(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
+    private static void createWaiting_1321538861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1321538861L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarrationMessage__206111240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-206111240L))
@@ -35,24 +53,6 @@ public class GenericWaitingScreen1465731498Mixin {
     private void extractRenderState__1842356156(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1842356156L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWaiting(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createWaiting_1321538861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1321538861L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createCompleted(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createCompleted__1085229885(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1085229885L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWaitingWithoutButton(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;", cancellable = true)
-    private static void createWaitingWithoutButton__987625097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-987625097L))
-            info.setReturnValue(null);
     }
 
 

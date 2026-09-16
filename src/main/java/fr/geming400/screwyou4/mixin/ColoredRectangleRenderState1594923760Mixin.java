@@ -22,7 +22,7 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2142691445(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2142691445L))
-            info.setReturnValue(508330580);
+            info.setReturnValue(89628880);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -34,43 +34,31 @@ public class ColoredRectangleRenderState1594923760Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1__2132693571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2132693571L))
-            info.setReturnValue(-1013087070);
+            info.setReturnValue(-1431788770);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1__1245189890(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1245189890L))
-            info.setReturnValue(-2087748339);
+            info.setReturnValue(1788517257);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_2133644574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2133644574L))
-            info.setReturnValue(-80218065);
+            info.setReturnValue(-498919765);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0__1273819041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1273819041L))
-            info.setReturnValue(-2103108768);
+            info.setReturnValue(1773156828);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1515654534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1515654534L))
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__929976545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-929976545L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
-    private void col1_1731217605(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1731217605L))
-            info.setReturnValue(1712217565);
-    }
-
-    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
-    private void col2_1759846756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1759846756L))
-            info.setReturnValue(1899550819);
     }
 
     @Inject(at = @At("HEAD"), method = "buildVertices(Lcom/mojang/blaze3d/vertex/VertexConsumer;)V", cancellable = true)
@@ -79,10 +67,22 @@ public class ColoredRectangleRenderState1594923760Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea__929976545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-929976545L))
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1515654534(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1515654534L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col2()I", cancellable = true)
+    private void col2_1759846756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1759846756L))
+            info.setReturnValue(1480849119);
+    }
+
+    @Inject(at = @At("HEAD"), method = "col1()I", cancellable = true)
+    private void col1_1731217605(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1731217605L))
+            info.setReturnValue(1293515865);
     }
 
     @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)

@@ -13,16 +13,16 @@ public class RidingEntitySoundInstance_1591412546Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canStartSilent()Z", cancellable = true)
-    private void canStartSilent__1312961551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1312961551L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "canPlaySound()Z", cancellable = true)
     private void canPlaySound__2091517043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2091517043L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canStartSilent()Z", cancellable = true)
+    private void canStartSilent__1312961551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1312961551L))
+            info.setReturnValue(true);
     }
 
 

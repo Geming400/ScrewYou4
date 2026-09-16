@@ -16,7 +16,7 @@ public class WrappedGoal484832394Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1042183989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1042183989L))
-            info.setReturnValue(-523363908);
+            info.setReturnValue(-564847308);
     }
 
     @Inject(at = @At("HEAD"), method = "start()V", cancellable = true)
@@ -28,7 +28,7 @@ public class WrappedGoal484832394Mixin {
     @Inject(at = @At("HEAD"), method = "getPriority()I", cancellable = true)
     private void getPriority_155415446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(155415446L))
-            info.setReturnValue(1340906150);
+            info.setReturnValue(1299422750);
     }
 
     @Inject(at = @At("HEAD"), method = "stop()V", cancellable = true)
@@ -67,6 +67,18 @@ public class WrappedGoal484832394Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getGoal()Lnet/minecraft/world/entity/ai/goal/Goal;", cancellable = true)
+    private void getGoal_17740162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(17740162L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReplacedBy(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z", cancellable = true)
+    private void canBeReplacedBy_908265934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(908265934L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isInterruptable()Z", cancellable = true)
     private void isInterruptable__124280594(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-124280594L))
@@ -82,18 +94,6 @@ public class WrappedGoal484832394Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse__204802900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-204802900L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGoal()Lnet/minecraft/world/entity/ai/goal/Goal;", cancellable = true)
-    private void getGoal_17740162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(17740162L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeReplacedBy(Lnet/minecraft/world/entity/ai/goal/WrappedGoal;)Z", cancellable = true)
-    private void canBeReplacedBy_908265934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(908265934L))
             info.setReturnValue(true);
     }
 

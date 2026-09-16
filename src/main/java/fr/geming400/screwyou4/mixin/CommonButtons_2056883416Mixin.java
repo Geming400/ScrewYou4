@@ -13,15 +13,15 @@ public class CommonButtons_2056883416Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "friends(ILnet/minecraft/client/gui/components/Button$OnPress;Z)Lnet/minecraft/client/gui/components/FriendsButton;", cancellable = true)
-    private static void friends__399743723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399743723L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "accessibility(ILnet/minecraft/client/gui/components/Button$OnPress;Z)Lnet/minecraft/client/gui/components/SpriteIconButton;", cancellable = true)
     private static void accessibility__1349125763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1349125763L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "friends(ILnet/minecraft/client/gui/components/Button$OnPress;Z)Lnet/minecraft/client/gui/components/FriendsButton;", cancellable = true)
+    private static void friends__399743723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399743723L))
             info.setReturnValue(null);
     }
 

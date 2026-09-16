@@ -22,13 +22,7 @@ public class Configuration_1037434365Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1594786455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1594786455L))
-            info.setReturnValue(878601881);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void fluid_933824129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(933824129L))
-            info.setReturnValue(null);
+            info.setReturnValue(530094381);
     }
 
     @Inject(at = @At("HEAD"), method = "barrier()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -37,15 +31,21 @@ public class Configuration_1037434365Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canReplaceWithAirOrFluid_378662434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(378662434L))
+    @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void fluid_933824129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(933824129L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canReplaceWithBarrier()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canReplaceWithBarrier__674720004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-674720004L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canReplaceWithAirOrFluid()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void canReplaceWithAirOrFluid_378662434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378662434L))
             info.setReturnValue(null);
     }
 

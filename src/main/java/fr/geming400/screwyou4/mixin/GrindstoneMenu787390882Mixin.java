@@ -13,10 +13,10 @@ public class GrindstoneMenu787390882Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1246520288(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1246520288L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged__954215301(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-954215301L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -25,10 +25,10 @@ public class GrindstoneMenu787390882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged__954215301(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-954215301L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1246520288(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1246520288L))
+            info.setReturnValue(false);
     }
 
 

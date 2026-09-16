@@ -22,7 +22,7 @@ public class DistanceToPlayerPredicate_832733752Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1390085842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390085842L))
-            info.setReturnValue(1332294170);
+            info.setReturnValue(983799270);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

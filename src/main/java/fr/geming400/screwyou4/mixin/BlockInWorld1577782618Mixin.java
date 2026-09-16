@@ -19,9 +19,9 @@ public class BlockInWorld1577782618Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntity()Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getEntity_1187344895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1187344895L))
+    @Inject(at = @At("HEAD"), method = "hasState(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;", cancellable = true)
+    private static void hasState_895085064(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(895085064L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class BlockInWorld1577782618Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasState(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;", cancellable = true)
-    private static void hasState_895085064(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(895085064L))
+    @Inject(at = @At("HEAD"), method = "getEntity()Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void getEntity_1187344895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1187344895L))
             info.setReturnValue(null);
     }
 

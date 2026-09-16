@@ -22,7 +22,7 @@ public class CircleGizmo1441315596Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1998667687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1998667687L))
-            info.setReturnValue(-1714030399);
+            info.setReturnValue(-1658652499);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -46,7 +46,7 @@ public class CircleGizmo1441315596Mixin {
     @Inject(at = @At("HEAD"), method = "radius()F", cancellable = true)
     private void radius__1385618339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1385618339L))
-            info.setReturnValue(8.604734E8F);
+            info.setReturnValue(9.158513E8F);
     }
 
 

@@ -22,7 +22,7 @@ public class OperatorDto1370617778Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1927969869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1927969869L))
-            info.setReturnValue(2100240552);
+            info.setReturnValue(-1900279844);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/ServerOpListEntry;)Lnet/minecraft/server/jsonrpc/methods/OperatorService$OperatorDto;", cancellable = true)
@@ -37,15 +37,15 @@ public class OperatorDto1370617778Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "permissionLevel()Ljava/util/Optional;", cancellable = true)
-    private void permissionLevel__1985328811(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1985328811L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "bypassesPlayerLimit()Ljava/util/Optional;", cancellable = true)
     private void bypassesPlayerLimit__936267452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-936267452L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "permissionLevel()Ljava/util/Optional;", cancellable = true)
+    private void permissionLevel__1985328811(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1985328811L))
             info.setReturnValue(null);
     }
 

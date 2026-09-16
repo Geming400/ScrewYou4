@@ -22,24 +22,18 @@ public class NumberRangeInput1081839802Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1639191893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1639191893L))
-            info.setReturnValue(-1838815993);
+            info.setReturnValue(-1925497493);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__558308198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-558308198L))
-            info.setReturnValue(-308525529);
+            info.setReturnValue(-395207029);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void label_1694113601(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1694113601L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void mapCodec_337844732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(337844732L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +52,12 @@ public class NumberRangeInput1081839802Mixin {
     @Inject(at = @At("HEAD"), method = "computeLabel(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void computeLabel__454376704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-454376704L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void mapCodec_337844732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(337844732L))
             info.setReturnValue(null);
     }
 

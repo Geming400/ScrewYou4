@@ -25,15 +25,15 @@ public class ClientboundBlockUpdatePacket1525452045Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState__159341195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-159341195L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos_2015017776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015017776L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState__159341195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-159341195L))
             info.setReturnValue(null);
     }
 

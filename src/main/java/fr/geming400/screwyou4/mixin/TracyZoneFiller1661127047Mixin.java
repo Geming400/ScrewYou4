@@ -31,30 +31,6 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
-    private void setZoneColor_393131464(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(393131464L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
-    private void markForCharting__1107354443(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1107354443L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
-    private void addZoneValue_1274956472(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1274956472L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addZoneText(Ljava/lang/String;)V", cancellable = true)
-    private void addZoneText_1141581898(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1141581898L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "incrementCounter(Ljava/lang/String;I)V", cancellable = true)
     private void incrementCounter_1891137142(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1891137142L))
@@ -67,21 +43,45 @@ public class TracyZoneFiller1661127047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
-    private void popPush__1135498535(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1135498535L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
     private void popPush__1150793703(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1150793703L))
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
+    private void popPush__1135498535(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1135498535L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
     private void startTick_1177100923(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1177100923L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
+    private void markForCharting__1107354443(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1107354443L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addZoneText(Ljava/lang/String;)V", cancellable = true)
+    private void addZoneText_1141581898(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1141581898L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setZoneColor(I)V", cancellable = true)
+    private void setZoneColor_393131464(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(393131464L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addZoneValue(J)V", cancellable = true)
+    private void addZoneValue_1274956472(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1274956472L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class LoadedClientInfos1549119128Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2106471219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2106471219L))
-            info.setReturnValue(-1211727069);
+            info.setReturnValue(-1810843769);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Ljava/util/Map;", cancellable = true)

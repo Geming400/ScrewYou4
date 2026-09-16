@@ -28,7 +28,7 @@ public class ClientboundSetSubtitleTextPacket_1856062258Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1881552948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1881552948L))
-            info.setReturnValue(-1408695255);
+            info.setReturnValue(-2121909455);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

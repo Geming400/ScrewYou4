@@ -10,31 +10,19 @@ public class EndSpike_1432008350Mixin {
         @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__293608826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-293608826L))
-            info.setReturnValue(979706528);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTopBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
-    private void getTopBoundingBox_1441284333(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1441284333L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCenterZ()I", cancellable = true)
-    private void getCenterZ__1157316748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1157316748L))
-            info.setReturnValue(955645950);
+            info.setReturnValue(1523997328);
     }
 
     @Inject(at = @At("HEAD"), method = "getCenterX()I", cancellable = true)
     private void getCenterX__1214575050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1214575050L))
-            info.setReturnValue(-821572693);
+            info.setReturnValue(-277281893);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRadius()I", cancellable = true)
-    private void getRadius__2035191301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2035191301L))
-            info.setReturnValue(-1786997942);
+    @Inject(at = @At("HEAD"), method = "getCenterZ()I", cancellable = true)
+    private void getCenterZ__1157316748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1157316748L))
+            info.setReturnValue(1499936750);
     }
 
     @Inject(at = @At("HEAD"), method = "isGuarded()Z", cancellable = true)
@@ -47,6 +35,18 @@ public class EndSpike_1432008350Mixin {
     private void isCenterWithinChunk_1723052683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1723052683L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTopBoundingBox()Lnet/minecraft/world/phys/AABB;", cancellable = true)
+    private void getTopBoundingBox_1441284333(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1441284333L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadius()I", cancellable = true)
+    private void getRadius__2035191301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2035191301L))
+            info.setReturnValue(-1242707142);
     }
 
 

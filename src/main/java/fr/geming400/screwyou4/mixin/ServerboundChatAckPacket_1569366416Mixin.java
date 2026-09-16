@@ -28,13 +28,13 @@ public class ServerboundChatAckPacket_1569366416Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2126718506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2126718506L))
-            info.setReturnValue(-184507840);
+            info.setReturnValue(-182026440);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset__1502480702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1502480702L))
-            info.setReturnValue(-851751191);
+            info.setReturnValue(-849269791);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

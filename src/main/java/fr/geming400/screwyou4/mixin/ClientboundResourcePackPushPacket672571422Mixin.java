@@ -28,7 +28,7 @@ public class ClientboundResourcePackPushPacket672571422Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1229923513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1229923513L))
-            info.setReturnValue(-1215661084);
+            info.setReturnValue(-946362784);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Ljava/lang/String;", cancellable = true)

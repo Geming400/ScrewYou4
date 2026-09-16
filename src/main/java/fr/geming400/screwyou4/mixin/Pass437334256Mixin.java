@@ -22,7 +22,7 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_994686347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(994686347L))
-            info.setReturnValue(401264489);
+            info.setReturnValue(651943589);
     }
 
     @Inject(at = @At("HEAD"), method = "inputs()Ljava/util/List;", cancellable = true)
@@ -43,6 +43,12 @@ public class Pass437334256Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
+    private void referencedTargets_1069211068(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1069211068L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fragmentShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void fragmentShaderId_457864839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(457864839L))
@@ -52,12 +58,6 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void vertexShaderId__1686843941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1686843941L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "referencedTargets()Ljava/util/stream/Stream;", cancellable = true)
-    private void referencedTargets_1069211068(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1069211068L))
             info.setReturnValue(null);
     }
 

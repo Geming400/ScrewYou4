@@ -16,7 +16,7 @@ public class ShriekParticleOption_1520514629Mixin {
     @Inject(at = @At("HEAD"), method = "getDelay()I", cancellable = true)
     private void getDelay__477133699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-477133699L))
-            info.setReturnValue(-1938651653);
+            info.setReturnValue(-1788821453);
     }
 
 

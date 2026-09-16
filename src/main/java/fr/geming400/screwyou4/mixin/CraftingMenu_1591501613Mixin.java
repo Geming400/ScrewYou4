@@ -13,27 +13,21 @@ public class CraftingMenu_1591501613Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__442409558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-442409558L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getRecipeBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
+    private void getRecipeBookType_509871500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(509871500L))
+            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.SMOKER);
     }
 
-    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void quickMoveStack_268672808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(268672808L))
+    @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
+    private void getResultSlot__1098558679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1098558679L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
-    private void canTakeItemForPickAll__780369164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-780369164L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged__150104571(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-150104571L))
+    @Inject(at = @At("HEAD"), method = "beginPlacingRecipe()V", cancellable = true)
+    private void beginPlacingRecipe_138643190(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(138643190L))
             info.cancel();
     }
 
@@ -43,28 +37,34 @@ public class CraftingMenu_1591501613Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "beginPlacingRecipe()V", cancellable = true)
-    private void beginPlacingRecipe_138643190(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(138643190L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getResultSlot()Lnet/minecraft/world/inventory/Slot;", cancellable = true)
-    private void getResultSlot__1098558679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1098558679L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getInputGridSlots()Ljava/util/List;", cancellable = true)
     private void getInputGridSlots__193133385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-193133385L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeBookType()Lnet/minecraft/world/inventory/RecipeBookType;", cancellable = true)
-    private void getRecipeBookType_509871500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509871500L))
-            info.setReturnValue(net.minecraft.world.inventory.RecipeBookType.SMOKER);
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged__150104571(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-150104571L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
+    private void canTakeItemForPickAll__780369164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-780369164L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void quickMoveStack_268672808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(268672808L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__442409558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-442409558L))
+            info.setReturnValue(true);
     }
 
 

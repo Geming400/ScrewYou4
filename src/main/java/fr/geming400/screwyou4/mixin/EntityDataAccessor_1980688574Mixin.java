@@ -22,13 +22,13 @@ public class EntityDataAccessor_1980688574Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1756927128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1756927128L))
-            info.setReturnValue(1696132381);
+            info.setReturnValue(1518265981);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__714495384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-714495384L))
-            info.setReturnValue(1887841389);
+            info.setReturnValue(1709974989);
     }
 
     @Inject(at = @At("HEAD"), method = "serializer()Lnet/minecraft/network/syncher/EntityDataSerializer;", cancellable = true)

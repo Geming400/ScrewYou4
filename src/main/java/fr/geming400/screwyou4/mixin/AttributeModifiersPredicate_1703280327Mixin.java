@@ -28,7 +28,7 @@ public class AttributeModifiersPredicate_1703280327Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2034334879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2034334879L))
-            info.setReturnValue(-646160063);
+            info.setReturnValue(-188288563);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

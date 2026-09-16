@@ -22,19 +22,19 @@ public class StorageValue666910676Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1224262767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1224262767L))
-            info.setReturnValue(-1554252368);
+            info.setReturnValue(-1837340068);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt_1398870016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1398870016L))
-            info.setReturnValue(-1941213685);
+            info.setReturnValue(2070665911);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_437439856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(437439856L))
-            info.setReturnValue(5.713374E8F);
+            info.setReturnValue(2.882497E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;", cancellable = true)

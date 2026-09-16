@@ -22,31 +22,25 @@ public class TextureInput94031596Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_651383687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(651383687L))
-            info.setReturnValue(512549480);
+            info.setReturnValue(297824180);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1546116404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1546116404L))
-            info.setReturnValue(660401324);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addToPass(Lcom/mojang/blaze3d/framegraph/FramePass;Ljava/util/Map;)V", cancellable = true)
-    private void addToPass__1765851535(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1765851535L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
-    private void bilinear__7973385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-7973385L))
-            info.setReturnValue(true);
+            info.setReturnValue(445676024);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height__991316981(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-991316981L))
-            info.setReturnValue(-31287181);
+            info.setReturnValue(-246012481);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texture__570730108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-570730108L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/client/renderer/texture/AbstractTexture;", cancellable = true)
@@ -55,10 +49,16 @@ public class TextureInput94031596Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texture__570730108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-570730108L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
+    private void bilinear__7973385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-7973385L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addToPass(Lcom/mojang/blaze3d/framegraph/FramePass;Ljava/util/Map;)V", cancellable = true)
+    private void addToPass__1765851535(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1765851535L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)

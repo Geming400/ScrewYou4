@@ -19,16 +19,16 @@ public class WaitingForResponseScreen1571425329Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_982328951(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(982328951L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "previousScreen()Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
     private void previousScreen__1504243046(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1504243046L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_982328951(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(982328951L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)

@@ -22,7 +22,7 @@ public class AdventureModePredicate1600466448Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2137149253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2137149253L))
-            info.setReturnValue(96958074);
+            info.setReturnValue(392288574);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/block/state/pattern/BlockInWorld;)Z", cancellable = true)

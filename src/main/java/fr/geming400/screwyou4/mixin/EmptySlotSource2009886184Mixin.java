@@ -22,7 +22,7 @@ public class EmptySlotSource2009886184Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1727729021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727729021L))
-            info.setReturnValue(-187874822);
+            info.setReturnValue(136007778);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

@@ -19,12 +19,6 @@ public class SocialInteractionsScreen1499706744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1468653113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1468653113L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarrationMessage__172135994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-172135994L))
@@ -47,6 +41,12 @@ public class SocialInteractionsScreen1499706744Mixin {
     private void extractBackground__1393806019(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1393806019L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1468653113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1468653113L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "onRemovePlayer(Ljava/util/UUID;)V", cancellable = true)

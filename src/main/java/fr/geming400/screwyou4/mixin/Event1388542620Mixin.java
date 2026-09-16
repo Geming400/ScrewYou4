@@ -22,7 +22,7 @@ public class Event1388542620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1945894711(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1945894711L))
-            info.setReturnValue(1788169052);
+            info.setReturnValue(1697127152);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -40,7 +40,7 @@ public class Event1388542620Mixin {
     @Inject(at = @At("HEAD"), method = "triggerTime()J", cancellable = true)
     private void triggerTime_1025602238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1025602238L))
-            info.setReturnValue(9070213095750345528L);
+            info.setReturnValue(9070213095659303628L);
     }
 
     @Inject(at = @At("HEAD"), method = "sequentialId()Lcom/google/common/primitives/UnsignedLong;", cancellable = true)

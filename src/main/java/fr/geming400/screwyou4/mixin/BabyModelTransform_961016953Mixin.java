@@ -22,7 +22,7 @@ public class BabyModelTransform_961016953Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1518369043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1518369043L))
-            info.setReturnValue(-1929383773);
+            info.setReturnValue(1756407123);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/client/model/geom/builders/MeshDefinition;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
@@ -31,10 +31,34 @@ public class BabyModelTransform_961016953Mixin {
             info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
     }
 
-    @Inject(at = @At("HEAD"), method = "scaleHead()Z", cancellable = true)
-    private void scaleHead_1872286245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1872286245L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "babyYHeadOffset()F", cancellable = true)
+    private void babyYHeadOffset_238362533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(238362533L))
+            info.setReturnValue(2.25796E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyBodyScale()F", cancellable = true)
+    private void babyBodyScale__908097079(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-908097079L))
+            info.setReturnValue(2.25796E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bodyYOffset()F", cancellable = true)
+    private void bodyYOffset__656000271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-656000271L))
+            info.setReturnValue(2.25796E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyZHeadOffset()F", cancellable = true)
+    private void babyZHeadOffset__272171644(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-272171644L))
+            info.setReturnValue(2.25796E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "babyHeadScale()F", cancellable = true)
+    private void babyHeadScale_1981573255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1981573255L))
+            info.setReturnValue(2.25796E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "headParts()Ljava/util/Set;", cancellable = true)
@@ -43,34 +67,10 @@ public class BabyModelTransform_961016953Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bodyYOffset()F", cancellable = true)
-    private void bodyYOffset__656000271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-656000271L))
-            info.setReturnValue(8.349724E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyYHeadOffset()F", cancellable = true)
-    private void babyYHeadOffset_238362533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(238362533L))
-            info.setReturnValue(8.349724E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyHeadScale()F", cancellable = true)
-    private void babyHeadScale_1981573255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1981573255L))
-            info.setReturnValue(8.349724E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyBodyScale()F", cancellable = true)
-    private void babyBodyScale__908097079(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-908097079L))
-            info.setReturnValue(8.349724E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "babyZHeadOffset()F", cancellable = true)
-    private void babyZHeadOffset__272171644(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-272171644L))
-            info.setReturnValue(8.349724E8F);
+    @Inject(at = @At("HEAD"), method = "scaleHead()Z", cancellable = true)
+    private void scaleHead_1872286245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1872286245L))
+            info.setReturnValue(true);
     }
 
 

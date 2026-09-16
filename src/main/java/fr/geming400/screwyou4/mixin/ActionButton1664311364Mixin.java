@@ -22,7 +22,7 @@ public class ActionButton1664311364Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2073303841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2073303841L))
-            info.setReturnValue(-1254235004);
+            info.setReturnValue(-1565534204);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Ljava/util/Optional;", cancellable = true)

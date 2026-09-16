@@ -10,7 +10,7 @@ public class NarratableSearchResult_114100249Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_808216684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(808216684L))
-            info.setReturnValue(1709457849);
+            info.setReturnValue(1077934649);
     }
 
     @Inject(at = @At("HEAD"), method = "priority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
@@ -34,7 +34,7 @@ public class NarratableSearchResult_114100249Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_671452339(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(671452339L))
-            info.setReturnValue(-1295994039);
+            info.setReturnValue(-1927517239);
     }
 
     @Inject(at = @At("HEAD"), method = "entry()Lnet/minecraft/client/gui/narration/NarratableEntry;", cancellable = true)

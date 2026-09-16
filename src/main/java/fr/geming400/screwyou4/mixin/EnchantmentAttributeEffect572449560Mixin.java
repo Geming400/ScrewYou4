@@ -22,7 +22,7 @@ public class EnchantmentAttributeEffect572449560Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1129801651(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1129801651L))
-            info.setReturnValue(-1036366245);
+            info.setReturnValue(-890560945);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -43,16 +43,10 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
-    private void operation_2069007043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2069007043L))
-            info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onChangedBlock(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Z)V", cancellable = true)
-    private void onChangedBlock__555915611(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-555915611L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1638894814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1638894814L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getModifier(ILnet/minecraft/util/StringRepresentable;)Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;", cancellable = true)
@@ -61,16 +55,22 @@ public class EnchantmentAttributeEffect572449560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1638894814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1638894814L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onChangedBlock(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;Z)V", cancellable = true)
+    private void onChangedBlock__555915611(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-555915611L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onDeactivated(Lnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)
     private void onDeactivated_1124924835(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1124924835L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/world/entity/ai/attributes/AttributeModifier$Operation;", cancellable = true)
+    private void operation_2069007043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2069007043L))
+            info.setReturnValue(net.minecraft.world.entity.ai.attributes.AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
     }
 
 

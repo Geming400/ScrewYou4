@@ -22,7 +22,7 @@ public class OpenUrl_961796059Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1519148149(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1519148149L))
-            info.setReturnValue(-1900650148);
+            info.setReturnValue(-1331886748);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/network/chat/ClickEvent$Action;", cancellable = true)

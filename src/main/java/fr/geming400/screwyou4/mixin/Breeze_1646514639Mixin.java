@@ -19,27 +19,27 @@ public class Breeze_1646514639Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__1941718310(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1941718310L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "registerDebugValues(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/debug/DebugValueSource$Registration;)V", cancellable = true)
+    private void registerDebugValues_1187427264(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1187427264L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFluidJumpThreshold()D", cancellable = true)
+    private void getFluidJumpThreshold__706555290(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-706555290L))
+            info.setReturnValue(8.332331001634214E8D);
+    }
+
     @Inject(at = @At("HEAD"), method = "isInvulnerableTo(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void isInvulnerableTo__101933633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-101933633L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void canAttack_184954477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(184954477L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain_1460612712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1460612712L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
-    }
-
-    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
-    private void causeFallDamage__1340345489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1340345489L))
             info.setReturnValue(true);
     }
 
@@ -49,10 +49,16 @@ public class Breeze_1646514639Mixin {
             info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "registerDebugValues(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/debug/DebugValueSource$Registration;)V", cancellable = true)
-    private void registerDebugValues_1187427264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1187427264L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "causeFallDamage(DFLnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
+    private void causeFallDamage__1340345489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1340345489L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadRotSpeed()I", cancellable = true)
+    private void getHeadRotSpeed__1935301042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1935301042L))
+            info.setReturnValue(-1224641569);
     }
 
     @Inject(at = @At("HEAD"), method = "deflection(Lnet/minecraft/world/entity/projectile/Projectile;)Lnet/minecraft/world/entity/projectile/ProjectileDeflection;", cancellable = true)
@@ -61,27 +67,51 @@ public class Breeze_1646514639Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFluidJumpThreshold()D", cancellable = true)
-    private void getFluidJumpThreshold__706555290(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-706555290L))
-            info.setReturnValue(9.902571001634214E8D);
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain_1460612712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1460612712L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1941718310(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1941718310L))
+    @Inject(at = @At("HEAD"), method = "canAttack(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void canAttack_184954477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(184954477L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot__2140005816(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2140005816L))
+            info.setReturnValue(641255714);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playAmbientSound()V", cancellable = true)
+    private void playAmbientSound_1123210422(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1123210422L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHurtBy()Ljava/util/Optional;", cancellable = true)
+    private void getHurtBy__2083111112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2083111112L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFiringYPosition()D", cancellable = true)
+    private void getFiringYPosition_1510124086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1510124086L))
+            info.setReturnValue(8.332331006541138E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetJumpTrail()Lnet/minecraft/world/entity/monster/breeze/Breeze;", cancellable = true)
+    private void resetJumpTrail_325992710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(325992710L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "emitGroundParticles(I)V", cancellable = true)
     private void emitGroundParticles_569530189(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(569530189L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "playWhirlSound()V", cancellable = true)
-    private void playWhirlSound_885530768(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(885530768L))
             info.cancel();
     }
 
@@ -97,39 +127,9 @@ public class Breeze_1646514639Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getFiringYPosition()D", cancellable = true)
-    private void getFiringYPosition_1510124086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1510124086L))
-            info.setReturnValue(9.902571006541138E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetJumpTrail()Lnet/minecraft/world/entity/monster/breeze/Breeze;", cancellable = true)
-    private void resetJumpTrail_325992710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(325992710L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot__2140005816(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2140005816L))
-            info.setReturnValue(798279714);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeadRotSpeed()I", cancellable = true)
-    private void getHeadRotSpeed__1935301042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1935301042L))
-            info.setReturnValue(-1067617569);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHurtBy()Ljava/util/Optional;", cancellable = true)
-    private void getHurtBy__2083111112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2083111112L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playAmbientSound()V", cancellable = true)
-    private void playAmbientSound_1123210422(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1123210422L))
+    @Inject(at = @At("HEAD"), method = "playWhirlSound()V", cancellable = true)
+    private void playWhirlSound_885530768(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(885530768L))
             info.cancel();
     }
 

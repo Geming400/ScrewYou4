@@ -13,12 +13,6 @@ public class QuadCollection_308236015Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getQuads(Lnet/minecraft/core/Direction;)Ljava/util/List;", cancellable = true)
-    private void getQuads__1836888472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1836888472L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasMaterialFlag(I)Z", cancellable = true)
     private void hasMaterialFlag_467000395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(467000395L))
@@ -28,7 +22,13 @@ public class QuadCollection_308236015Mixin {
     @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
     private void materialFlags__432246988(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-432246988L))
-            info.setReturnValue(-1052482768);
+            info.setReturnValue(-972018868);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getQuads(Lnet/minecraft/core/Direction;)Ljava/util/List;", cancellable = true)
+    private void getQuads__1836888472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1836888472L))
+            info.setReturnValue(null);
     }
 
 

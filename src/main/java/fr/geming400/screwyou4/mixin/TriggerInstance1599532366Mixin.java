@@ -22,7 +22,7 @@ public class TriggerInstance1599532366Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2138082839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138082839L))
-            info.setReturnValue(2046521600);
+            info.setReturnValue(1171603300);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
@@ -31,9 +31,15 @@ public class TriggerInstance1599532366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
-    private void ingredients__216486080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-216486080L))
+    @Inject(at = @At("HEAD"), method = "recipeId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void recipeId_2027018582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2027018582L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "crafterCraftedItem(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void crafterCraftedItem__43538274(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-43538274L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +55,9 @@ public class TriggerInstance1599532366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "crafterCraftedItem(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void crafterCraftedItem__43538274(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-43538274L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recipeId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void recipeId_2027018582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2027018582L))
+    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
+    private void ingredients__216486080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-216486080L))
             info.setReturnValue(null);
     }
 

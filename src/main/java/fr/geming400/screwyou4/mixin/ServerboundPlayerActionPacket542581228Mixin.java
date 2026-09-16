@@ -28,7 +28,7 @@ public class ServerboundPlayerActionPacket542581228Mixin {
     @Inject(at = @At("HEAD"), method = "getSequence()I", cancellable = true)
     private void getSequence__1348997893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1348997893L))
-            info.setReturnValue(-1973294046);
+            info.setReturnValue(-1555827046);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -37,16 +37,16 @@ public class ServerboundPlayerActionPacket542581228Mixin {
             info.setReturnValue(net.minecraft.core.Direction.UP);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;", cancellable = true)
-    private void getAction__882511541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882511541L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.Action.SWAP_ITEM_WITH_OFFHAND);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getPos_1032146959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1032146959L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;", cancellable = true)
+    private void getAction__882511541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-882511541L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.Action.SWAP_ITEM_WITH_OFFHAND);
     }
 
 

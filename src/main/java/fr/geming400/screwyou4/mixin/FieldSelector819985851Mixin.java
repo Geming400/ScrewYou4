@@ -34,7 +34,7 @@ public class FieldSelector819985851Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1377337942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1377337942L))
-            info.setReturnValue(2740571);
+            info.setReturnValue(-180896829);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Ljava/util/List;", cancellable = true)

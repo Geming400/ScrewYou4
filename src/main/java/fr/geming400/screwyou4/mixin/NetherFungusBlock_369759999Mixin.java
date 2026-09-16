@@ -13,6 +13,12 @@ public class NetherFungusBlock_369759999Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_332802178(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(332802178L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess_970012793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(970012793L))
@@ -23,12 +29,6 @@ public class NetherFungusBlock_369759999Mixin {
     private void performBonemeal__487024163(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-487024163L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_332802178(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(332802178L))
-            info.setReturnValue(false);
     }
 
 

@@ -22,7 +22,7 @@ public class JukeboxSong547455101Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1104807192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1104807192L))
-            info.setReturnValue(-460460923);
+            info.setReturnValue(-48935323);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,22 +37,22 @@ public class JukeboxSong547455101Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "comparatorOutput()I", cancellable = true)
-    private void comparatorOutput_1867501388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1867501388L))
-            info.setReturnValue(834301384);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromStack(Lnet/minecraft/world/item/ItemStack;)Ljava/util/Optional;", cancellable = true)
     private static void fromStack_8130780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(8130780L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "comparatorOutput()I", cancellable = true)
+    private void comparatorOutput_1867501388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1867501388L))
+            info.setReturnValue(1245826984);
+    }
+
     @Inject(at = @At("HEAD"), method = "lengthInSeconds()F", cancellable = true)
     private void lengthInSeconds__1777695156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777695156L))
-            info.setReturnValue(6.68252E7F);
+            info.setReturnValue(4.783508E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hasFinished(J)Z", cancellable = true)
@@ -64,7 +64,7 @@ public class JukeboxSong547455101Mixin {
     @Inject(at = @At("HEAD"), method = "lengthInTicks()I", cancellable = true)
     private void lengthInTicks_1707897528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1707897528L))
-            info.setReturnValue(-674330398);
+            info.setReturnValue(-262804798);
     }
 
 

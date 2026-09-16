@@ -22,7 +22,7 @@ public class PacketType2048881100Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1688734105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1688734105L))
-            info.setReturnValue(-939913794);
+            info.setReturnValue(-1339185094);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

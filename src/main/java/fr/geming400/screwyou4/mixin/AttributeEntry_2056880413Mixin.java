@@ -22,7 +22,7 @@ public class AttributeEntry_2056880413Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1680734793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1680734793L))
-            info.setReturnValue(-859288576);
+            info.setReturnValue(-827429976);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/core/Holder;DLnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/entity/SulfurCubeArchetype$AttributeEntry;", cancellable = true)

@@ -10,7 +10,7 @@ public class IndirectMerger_1929230186Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size__1922005522(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1922005522L))
-            info.setReturnValue(-1124660202);
+            info.setReturnValue(-1224915102);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)

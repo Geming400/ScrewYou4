@@ -25,16 +25,16 @@ public class NoteBlockInstrument_1917667644Mixin {
             info.setReturnValue("?]>se)sKXYx\u69DDt>uA\u5C45\uB4CCM/Z_L\u160FG#=F!ii?[\u51B7REr\uC3AC\u44BE\u5EF2bG&\u14F5>`\u8BB3\u77750h\uCE65rl3{\uD725]nx$XX$L|");
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getSoundEvent_1709008470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1709008470L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasCustomSound()Z", cancellable = true)
     private void hasCustomSound_1983240270(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1983240270L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getSoundEvent_1709008470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1709008470L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "worksAboveNoteBlock()Z", cancellable = true)

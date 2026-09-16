@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.QuadrupedModel.class)
 public class QuadrupedModel975016482Mixin {
-        @Inject(at = @At("HEAD"), method = "createLegs(Lnet/minecraft/client/model/geom/builders/PartDefinition;ZZILnet/minecraft/client/model/geom/builders/CubeDeformation;)V", cancellable = true)
-    private static void createLegs_988180956(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(988180956L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "createBodyMesh(IZZLnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
+    private static void createBodyMesh_793255958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(793255958L))
+            info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class QuadrupedModel975016482Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createBodyMesh(IZZLnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
-    private static void createBodyMesh_793255958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(793255958L))
-            info.setReturnValue(new net.minecraft.client.model.geom.builders.MeshDefinition());
+    @Inject(at = @At("HEAD"), method = "createLegs(Lnet/minecraft/client/model/geom/builders/PartDefinition;ZZILnet/minecraft/client/model/geom/builders/CubeDeformation;)V", cancellable = true)
+    private static void createLegs_988180956(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(988180956L))
+            info.cancel();
     }
 
 

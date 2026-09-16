@@ -22,7 +22,7 @@ public class SimpleModelSelectors1389780145Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1947132236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1947132236L))
-            info.setReturnValue(-77321940);
+            info.setReturnValue(-765128440);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;Ljava/util/function/Supplier;Ljava/util/function/BiConsumer;)V", cancellable = true)

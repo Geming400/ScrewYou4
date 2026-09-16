@@ -13,15 +13,15 @@ public class SetPotionFunction444603807Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPotion(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setPotion_1639265426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1639265426L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1511049061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1511049061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPotion(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setPotion_1639265426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1639265426L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class ServerboundEditBookPacket_2005926120Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot__1655014513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1655014513L))
-            info.setReturnValue(-298377350);
+            info.setReturnValue(-1057888350);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -34,7 +34,7 @@ public class ServerboundEditBookPacket_2005926120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1731689086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1731689086L))
-            info.setReturnValue(1033478691);
+            info.setReturnValue(273967691);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)

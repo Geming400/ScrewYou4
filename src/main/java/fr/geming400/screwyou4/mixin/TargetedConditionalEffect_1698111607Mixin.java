@@ -22,7 +22,7 @@ public class TargetedConditionalEffect_1698111607Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2039503599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2039503599L))
-            info.setReturnValue(-559674531);
+            info.setReturnValue(-654460831);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -37,10 +37,10 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
-    private void affected_1486431123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1486431123L))
-            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.DAMAGING_ENTITY);
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_2049760419(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2049760419L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
@@ -49,22 +49,22 @@ public class TargetedConditionalEffect_1698111607Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_2049760419(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2049760419L))
+    @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void equipmentDropsCodec_16117453(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(16117453L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "affected()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
+    private void affected_1486431123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1486431123L))
+            info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.DAMAGING_ENTITY);
     }
 
     @Inject(at = @At("HEAD"), method = "enchanted()Lnet/minecraft/world/item/enchantment/EnchantmentTarget;", cancellable = true)
     private void enchanted__140215849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-140215849L))
             info.setReturnValue(net.minecraft.world.item.enchantment.EnchantmentTarget.DAMAGING_ENTITY);
-    }
-
-    @Inject(at = @At("HEAD"), method = "equipmentDropsCodec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void equipmentDropsCodec_16117453(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(16117453L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "requirements()Ljava/util/Optional;", cancellable = true)

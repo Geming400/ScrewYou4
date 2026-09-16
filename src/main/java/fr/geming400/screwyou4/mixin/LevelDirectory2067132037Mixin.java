@@ -22,7 +22,7 @@ public class LevelDirectory2067132037Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1670483168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1670483168L))
-            info.setReturnValue(1333802244);
+            info.setReturnValue(1568398244);
     }
 
     @Inject(at = @At("HEAD"), method = "path()Ljava/nio/file/Path;", cancellable = true)
@@ -49,6 +49,12 @@ public class LevelDirectory2067132037Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
+    private void iconFile_2126544120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2126544120L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "directoryName()Ljava/lang/String;", cancellable = true)
     private void directoryName_375569062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(375569062L))
@@ -70,12 +76,6 @@ public class LevelDirectory2067132037Mixin {
     @Inject(at = @At("HEAD"), method = "rawDataFile(Ljava/time/ZonedDateTime;)Ljava/nio/file/Path;", cancellable = true)
     private void rawDataFile_959295900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(959295900L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "iconFile()Ljava/nio/file/Path;", cancellable = true)
-    private void iconFile_2126544120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2126544120L))
             info.setReturnValue(null);
     }
 

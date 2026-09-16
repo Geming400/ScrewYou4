@@ -25,28 +25,28 @@ public class VecDeltaCodec_974366076Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeZ__349110222(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-349110222L))
-            info.setReturnValue(6926551655210005561L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
-    private void encodeY__678875983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-678875983L))
-            info.setReturnValue(-8649937789431997394L);
+    @Inject(at = @At("HEAD"), method = "setBase(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+    private void setBase_139305741(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(139305741L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "encodeX(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
     private void encodeX__1008641744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1008641744L))
-            info.setReturnValue(2668603249258438655L);
+            info.setReturnValue(2668603249859262555L);
     }
 
-    @Inject(at = @At("HEAD"), method = "setBase(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void setBase_139305741(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(139305741L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "encodeZ(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeZ__349110222(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-349110222L))
+            info.setReturnValue(6926551655811829761L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encodeY(Lnet/minecraft/world/phys/Vec3;)J", cancellable = true)
+    private void encodeY__678875983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-678875983L))
+            info.setReturnValue(-8649937788831173494L);
     }
 
 

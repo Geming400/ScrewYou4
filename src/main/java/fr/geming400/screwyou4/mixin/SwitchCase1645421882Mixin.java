@@ -28,7 +28,7 @@ public class SwitchCase1645421882Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2092193323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2092193323L))
-            info.setReturnValue(383231000);
+            info.setReturnValue(371945400);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)

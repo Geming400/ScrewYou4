@@ -22,18 +22,18 @@ public class MultilineOptions1822002884Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1915612321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915612321L))
-            info.setReturnValue(522814233);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()Ljava/util/Optional;", cancellable = true)
-    private void height__1989391207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1989391207L))
-            info.setReturnValue(null);
+            info.setReturnValue(166075333);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLines()Ljava/util/Optional;", cancellable = true)
     private void maxLines_2074343277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2074343277L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()Ljava/util/Optional;", cancellable = true)
+    private void height__1989391207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1989391207L))
             info.setReturnValue(null);
     }
 

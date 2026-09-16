@@ -22,7 +22,7 @@ public class GroupMove_1304591054Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1861943144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1861943144L))
-            info.setReturnValue(439527747);
+            info.setReturnValue(1045642647);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class GroupMove_1304591054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
-    private void fromTo__1106964016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1106964016L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fixers()Ljava/util/List;", cancellable = true)
     private void fixers__1716981842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1716981842L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromTo()Ljava/util/Map;", cancellable = true)
+    private void fromTo__1106964016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1106964016L))
             info.setReturnValue(null);
     }
 

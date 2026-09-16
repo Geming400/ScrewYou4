@@ -28,13 +28,13 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_626548079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(626548079L))
-            info.setReturnValue(16546175);
+            info.setReturnValue(-353250525);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1668979327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1668979327L))
-            info.setReturnValue(267171026);
+            info.setReturnValue(-102625674);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -49,10 +49,10 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
-    private void onGround__53052923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-53052923L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "change()Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
+    private void change_271321141(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(271321141L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "relatives()Ljava/util/Set;", cancellable = true)
@@ -67,10 +67,10 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "change()Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
-    private void change_271321141(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(271321141L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
+    private void onGround__53052923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-53052923L))
+            info.setReturnValue(false);
     }
 
 

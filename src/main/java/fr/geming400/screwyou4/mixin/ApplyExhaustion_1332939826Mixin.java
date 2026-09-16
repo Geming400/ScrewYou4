@@ -22,7 +22,7 @@ public class ApplyExhaustion_1332939826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1890291916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1890291916L))
-            info.setReturnValue(365124454);
+            info.setReturnValue(1004635554);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)

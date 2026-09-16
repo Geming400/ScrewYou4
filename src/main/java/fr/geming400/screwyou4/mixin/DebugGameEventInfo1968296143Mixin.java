@@ -22,7 +22,7 @@ public class DebugGameEventInfo1968296143Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1769319062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1769319062L))
-            info.setReturnValue(871721726);
+            info.setReturnValue(905500326);
     }
 
     @Inject(at = @At("HEAD"), method = "event()Lnet/minecraft/core/Holder;", cancellable = true)

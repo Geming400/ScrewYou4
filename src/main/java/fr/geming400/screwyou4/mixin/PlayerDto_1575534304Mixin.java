@@ -28,7 +28,7 @@ public class PlayerDto_1575534304Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2132886394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2132886394L))
-            info.setReturnValue(-605720727);
+            info.setReturnValue(-28915427);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/NameAndId;)Lnet/minecraft/server/jsonrpc/api/PlayerDto;", cancellable = true)

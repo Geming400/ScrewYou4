@@ -28,7 +28,7 @@ public class FeatureFlagsMetadataSection913722695Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1471074786(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1471074786L))
-            info.setReturnValue(243714648);
+            info.setReturnValue(1074698048);
     }
 
 

@@ -10,7 +10,7 @@ public class CustomModelDataProperty_771900775Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1466017210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466017210L))
-            info.setReturnValue(-747576271);
+            info.setReturnValue(-1058998671);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;ILnet/minecraft/world/item/ItemDisplayContext;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class CustomModelDataProperty_771900775Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1329252865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1329252865L))
-            info.setReturnValue(1120259633);
+            info.setReturnValue(807837133);
     }
 
 

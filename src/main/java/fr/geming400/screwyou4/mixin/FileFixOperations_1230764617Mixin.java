@@ -19,15 +19,9 @@ public class FileFixOperations_1230764617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "moveRegex(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;", cancellable = true)
-    private static void moveRegex_1057224126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1057224126L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveSimple(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;", cancellable = true)
-    private static void moveSimple_1694684514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1694684514L))
+    @Inject(at = @At("HEAD"), method = "applyInFolders(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/ApplyInFolders;", cancellable = true)
+    private static void applyInFolders_1472878382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1472878382L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class FileFixOperations_1230764617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyInFolders(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/ApplyInFolders;", cancellable = true)
-    private static void applyInFolders_1472878382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1472878382L))
+    @Inject(at = @At("HEAD"), method = "moveRegex(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;", cancellable = true)
+    private static void moveRegex_1057224126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1057224126L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveSimple(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;", cancellable = true)
+    private static void moveSimple_1694684514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1694684514L))
             info.setReturnValue(null);
     }
 

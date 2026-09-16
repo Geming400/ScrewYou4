@@ -19,15 +19,15 @@ public class Builder_718474348Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backgroundFill(Lnet/minecraft/client/gui/components/FocusableTextWidget$BackgroundFill;)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
-    private void backgroundFill_1201985505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201985505L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "alwaysShowBorder(Z)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
     private void alwaysShowBorder_870792012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(870792012L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "backgroundFill(Lnet/minecraft/client/gui/components/FocusableTextWidget$BackgroundFill;)Lnet/minecraft/client/gui/components/FocusableTextWidget$Builder;", cancellable = true)
+    private void backgroundFill_1201985505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201985505L))
             info.setReturnValue(null);
     }
 

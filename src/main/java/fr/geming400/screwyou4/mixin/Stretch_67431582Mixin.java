@@ -28,7 +28,7 @@ public class Stretch_67431582Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_624783672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(624783672L))
-            info.setReturnValue(1323082839);
+            info.setReturnValue(1273741539);
     }
 
 

@@ -25,10 +25,10 @@ public class ShulkerBoxRenderer_1343698268Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modelTransform(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
-    private static void modelTransform_1078705655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1078705655L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__1006058349(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1006058349L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/ShulkerBoxBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/ShulkerBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
@@ -37,16 +37,10 @@ public class ShulkerBoxRenderer_1343698268Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__1006058349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1006058349L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExtents(FLjava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents_1444890703(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1444890703L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "modelTransform(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
+    private static void modelTransform_1078705655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1078705655L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
@@ -59,6 +53,12 @@ public class ShulkerBoxRenderer_1343698268Mixin {
     private void createRenderState_1394604349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1394604349L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.ShulkerBoxRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExtents(FLjava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents_1444890703(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1444890703L))
+            info.cancel();
     }
 
 

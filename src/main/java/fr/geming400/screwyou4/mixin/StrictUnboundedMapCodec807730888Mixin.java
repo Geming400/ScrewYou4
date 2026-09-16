@@ -22,7 +22,7 @@ public class StrictUnboundedMapCodec807730888Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1365082979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1365082979L))
-            info.setReturnValue(2080802166);
+            info.setReturnValue(1835226266);
     }
 
     @Inject(at = @At("HEAD"), method = "decode(Lcom/mojang/serialization/DynamicOps;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)

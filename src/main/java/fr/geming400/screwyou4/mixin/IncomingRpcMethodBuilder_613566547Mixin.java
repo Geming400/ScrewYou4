@@ -31,9 +31,9 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "response(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/api/Schema;)Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void response__411219461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-411219461L))
+    @Inject(at = @At("HEAD"), method = "notOnMainThread()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void notOnMainThread_1970789304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1970789304L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class IncomingRpcMethodBuilder_613566547Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "notOnMainThread()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
-    private void notOnMainThread_1970789304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1970789304L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "undiscoverable()Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
     private void undiscoverable__1259184111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1259184111L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "response(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/api/Schema;)Lnet/minecraft/server/jsonrpc/IncomingRpcMethod$IncomingRpcMethodBuilder;", cancellable = true)
+    private void response__411219461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-411219461L))
             info.setReturnValue(null);
     }
 

@@ -13,22 +13,10 @@ public class DriedGhastBlock_2089879080Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHydrationLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
-    private void getHydrationLevel__419569256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-419569256L))
-            info.setReturnValue(-2032123378);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1138642963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1138642963L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid_268418378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(268418378L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -53,6 +41,18 @@ public class DriedGhastBlock_2089879080Mixin {
     private void animateTick__1800406684(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1800406684L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHydrationLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
+    private void getHydrationLevel__419569256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-419569256L))
+            info.setReturnValue(-2126792778);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid_268418378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(268418378L))
+            info.setReturnValue(true);
     }
 
 

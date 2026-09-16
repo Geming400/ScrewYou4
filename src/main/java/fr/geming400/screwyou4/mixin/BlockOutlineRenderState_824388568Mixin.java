@@ -22,7 +22,7 @@ public class BlockOutlineRenderState_824388568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1381740658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1381740658L))
-            info.setReturnValue(1674131071);
+            info.setReturnValue(1737429171);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -35,18 +35,6 @@ public class BlockOutlineRenderState_824388568Mixin {
     private void shape__175090598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-175090598L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "interactionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
-    private void interactionShape__1268581016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1268581016L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTranslucent()Z", cancellable = true)
-    private void isTranslucent__427905249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-427905249L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "highContrast()Z", cancellable = true)
@@ -64,6 +52,18 @@ public class BlockOutlineRenderState_824388568Mixin {
     @Inject(at = @At("HEAD"), method = "collisionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void collisionShape_1662253128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1662253128L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTranslucent()Z", cancellable = true)
+    private void isTranslucent__427905249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-427905249L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "interactionShape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
+    private void interactionShape__1268581016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1268581016L))
             info.setReturnValue(null);
     }
 

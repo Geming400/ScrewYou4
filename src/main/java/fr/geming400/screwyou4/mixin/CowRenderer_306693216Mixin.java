@@ -55,16 +55,16 @@ public class CowRenderer_306693216Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CowRenderState;", cancellable = true)
-    private void createRenderState_105840230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(105840230L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_559864194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(559864194L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CowRenderState;", cancellable = true)
+    private void createRenderState_105840230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(105840230L))
+            info.setReturnValue(null);
     }
 
 

@@ -34,7 +34,7 @@ public class ExtendedView_1538054492Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2095406582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2095406582L))
-            info.setReturnValue(-1619411534);
+            info.setReturnValue(-1563452034);
     }
 
 

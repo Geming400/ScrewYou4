@@ -13,9 +13,9 @@ public class GameTestBatchFactory94073878Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "divideIntoBatches(Ljava/util/Collection;Lnet/minecraft/gametest/framework/GameTestBatchFactory$TestDecorator;Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;", cancellable = true)
-    private static void divideIntoBatches_1023648569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1023648569L))
+    @Inject(at = @At("HEAD"), method = "fromGameTestInfo(I)Lnet/minecraft/gametest/framework/GameTestRunner$GameTestBatcher;", cancellable = true)
+    private static void fromGameTestInfo_1267623180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1267623180L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class GameTestBatchFactory94073878Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromGameTestInfo(I)Lnet/minecraft/gametest/framework/GameTestRunner$GameTestBatcher;", cancellable = true)
-    private static void fromGameTestInfo_1267623180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1267623180L))
+    @Inject(at = @At("HEAD"), method = "divideIntoBatches(Ljava/util/Collection;Lnet/minecraft/gametest/framework/GameTestBatchFactory$TestDecorator;Lnet/minecraft/server/level/ServerLevel;)Ljava/util/List;", cancellable = true)
+    private static void divideIntoBatches_1023648569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1023648569L))
             info.setReturnValue(null);
     }
 

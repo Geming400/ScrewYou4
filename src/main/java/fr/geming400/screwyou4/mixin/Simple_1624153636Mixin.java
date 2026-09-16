@@ -22,7 +22,7 @@ public class Simple_1624153636Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2113461570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113461570L))
-            info.setReturnValue(-79110924);
+            info.setReturnValue(-334854424);
     }
 
     @Inject(at = @At("HEAD"), method = "factory()Lnet/minecraft/world/level/chunk/Palette$Factory;", cancellable = true)
@@ -34,7 +34,13 @@ public class Simple_1624153636Mixin {
     @Inject(at = @At("HEAD"), method = "bits()I", cancellable = true)
     private void bits_2100593347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2100593347L))
-            info.setReturnValue(-707203273);
+            info.setReturnValue(-962946773);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
+    private void bitsInMemory__80022051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-80022051L))
+            info.setReturnValue(-1389695166);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
@@ -43,22 +49,16 @@ public class Simple_1624153636Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
-    private void bitsInStorage_1789396697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1789396697L))
-            info.setReturnValue(-2008093091);
-    }
-
     @Inject(at = @At("HEAD"), method = "createPalette(Lnet/minecraft/world/level/chunk/Strategy;Ljava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
     private void createPalette__1032609286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1032609286L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
-    private void bitsInMemory__80022051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-80022051L))
-            info.setReturnValue(-1133951666);
+    @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
+    private void bitsInStorage_1789396697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1789396697L))
+            info.setReturnValue(2031130705);
     }
 
 

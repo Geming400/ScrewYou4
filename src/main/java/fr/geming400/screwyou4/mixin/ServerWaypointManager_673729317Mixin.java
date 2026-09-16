@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.waypoints.ServerWaypointManager.class)
 public class ServerWaypointManager_673729317Mixin {
-        @Inject(at = @At("HEAD"), method = "untrackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
-    private void untrackWaypoint_1313400292(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1313400292L))
+        @Inject(at = @At("HEAD"), method = "breakAllConnections()V", cancellable = true)
+    private void breakAllConnections__1249225244(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1249225244L))
             info.cancel();
     }
 
@@ -19,15 +19,9 @@ public class ServerWaypointManager_673729317Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
-    private void trackWaypoint_1617885323(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1617885323L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
-    private void trackWaypoint__41788232(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-41788232L))
+    @Inject(at = @At("HEAD"), method = "untrackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
+    private void untrackWaypoint_1313400292(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1313400292L))
             info.cancel();
     }
 
@@ -46,6 +40,18 @@ public class ServerWaypointManager_673729317Mixin {
     @Inject(at = @At("HEAD"), method = "updatePlayer(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
     private void updatePlayer__885212751(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-885212751L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/Waypoint;)V", cancellable = true)
+    private void trackWaypoint_1617885323(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1617885323L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "trackWaypoint(Lnet/minecraft/world/waypoints/WaypointTransmitter;)V", cancellable = true)
+    private void trackWaypoint__41788232(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-41788232L))
             info.cancel();
     }
 
@@ -71,12 +77,6 @@ public class ServerWaypointManager_673729317Mixin {
     private void transmitters__283293980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-283293980L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "breakAllConnections()V", cancellable = true)
-    private void breakAllConnections__1249225244(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1249225244L))
-            info.cancel();
     }
 
 

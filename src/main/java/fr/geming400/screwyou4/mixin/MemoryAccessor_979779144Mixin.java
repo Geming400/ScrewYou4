@@ -25,15 +25,15 @@ public class MemoryAccessor_979779144Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setOrErase(Ljava/util/Optional;)V", cancellable = true)
-    private void setOrErase_1364883336(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1364883336L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setWithExpiry(Ljava/lang/Object;J)V", cancellable = true)
     private void setWithExpiry__692789901(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-692789901L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setOrErase(Ljava/util/Optional;)V", cancellable = true)
+    private void setOrErase_1364883336(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1364883336L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1599644835(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1599644835L))
-            info.setReturnValue(1327523437);
+            info.setReturnValue(1151348837);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundChangeDifficultyPacket1042292744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
-    private void difficulty_1249013861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249013861L))
-            info.setReturnValue(net.minecraft.world.Difficulty.EASY);
-    }
-
     @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
     private void locked_1204443381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1204443381L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
+    private void difficulty_1249013861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249013861L))
+            info.setReturnValue(net.minecraft.world.Difficulty.EASY);
     }
 
 

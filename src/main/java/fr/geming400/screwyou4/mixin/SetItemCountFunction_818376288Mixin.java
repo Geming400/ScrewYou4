@@ -19,9 +19,9 @@ public class SetItemCountFunction_818376288Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setCount(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setCount_546616466(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(546616466L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1884821541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1884821541L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class SetItemCountFunction_818376288Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1884821541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1884821541L))
+    @Inject(at = @At("HEAD"), method = "setCount(Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setCount_546616466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(546616466L))
             info.setReturnValue(null);
     }
 

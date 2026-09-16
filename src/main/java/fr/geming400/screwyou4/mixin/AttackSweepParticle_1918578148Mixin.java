@@ -22,7 +22,7 @@ public class AttackSweepParticle_1918578148Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1935266525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1935266525L))
-            info.setReturnValue(2083366853);
+            info.setReturnValue(-1689227143);
     }
 
 

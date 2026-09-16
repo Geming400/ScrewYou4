@@ -34,7 +34,7 @@ public class TrapezoidHeight_2069223647Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample__544359355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-544359355L))
-            info.setReturnValue(1218229767);
+            info.setReturnValue(858436467);
     }
 
 

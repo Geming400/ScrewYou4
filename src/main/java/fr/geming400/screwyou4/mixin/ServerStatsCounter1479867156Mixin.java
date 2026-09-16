@@ -25,15 +25,15 @@ public class ServerStatsCounter1479867156Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "markAllDirty()V", cancellable = true)
-    private void markAllDirty__237580311(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-237580311L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "sendStats(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
     private void sendStats__810285106(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-810285106L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "markAllDirty()V", cancellable = true)
+    private void markAllDirty__237580311(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-237580311L))
             info.cancel();
     }
 

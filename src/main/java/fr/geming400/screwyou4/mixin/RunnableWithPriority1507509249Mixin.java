@@ -10,7 +10,7 @@ public class RunnableWithPriority1507509249Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority__1999075645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1999075645L))
-            info.setReturnValue(-764767375);
+            info.setReturnValue(-478138675);
     }
 
     @Inject(at = @At("HEAD"), method = "run()V", cancellable = true)
@@ -34,7 +34,7 @@ public class RunnableWithPriority1507509249Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2064861340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2064861340L))
-            info.setReturnValue(1703245078);
+            info.setReturnValue(1989873778);
     }
 
     @Inject(at = @At("HEAD"), method = "task()Ljava/lang/Runnable;", cancellable = true)

@@ -22,7 +22,7 @@ public class SculkChargeParticle1363250128Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1379938506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1379938506L))
-            info.setReturnValue(-939700151);
+            info.setReturnValue(-931127151);
     }
 
 

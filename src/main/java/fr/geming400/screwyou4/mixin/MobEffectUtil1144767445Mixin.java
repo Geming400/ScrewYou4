@@ -10,7 +10,7 @@ public class MobEffectUtil1144767445Mixin {
         @Inject(at = @At("HEAD"), method = "getDigSpeedAmplification(Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private static void getDigSpeedAmplification_451838910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(451838910L))
-            info.setReturnValue(134447492);
+            info.setReturnValue(562672192);
     }
 
     @Inject(at = @At("HEAD"), method = "hasDigSpeed(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

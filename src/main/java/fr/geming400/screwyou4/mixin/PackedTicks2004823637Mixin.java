@@ -22,7 +22,7 @@ public class PackedTicks2004823637Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1732791568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1732791568L))
-            info.setReturnValue(-1476878668);
+            info.setReturnValue(-1818445568);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Ljava/util/List;", cancellable = true)

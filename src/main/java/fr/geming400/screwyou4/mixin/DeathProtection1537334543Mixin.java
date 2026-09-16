@@ -22,7 +22,7 @@ public class DeathProtection1537334543Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2094686634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2094686634L))
-            info.setReturnValue(-1870965024);
+            info.setReturnValue(-1134790424);
     }
 
     @Inject(at = @At("HEAD"), method = "applyEffects(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)

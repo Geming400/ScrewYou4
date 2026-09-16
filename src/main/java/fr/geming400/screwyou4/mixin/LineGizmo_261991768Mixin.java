@@ -22,7 +22,7 @@ public class LineGizmo_261991768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_819343858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(819343858L))
-            info.setReturnValue(1502121402);
+            info.setReturnValue(1687415902);
     }
 
     @Inject(at = @At("HEAD"), method = "end()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,13 +40,13 @@ public class LineGizmo_261991768Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1498642874(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1498642874L))
-            info.setReturnValue(-1838458170);
+            info.setReturnValue(-1653163670);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width__1378159116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1378159116L))
-            info.setReturnValue(6.650328E8F);
+            info.setReturnValue(8.503273E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "emit(Lnet/minecraft/gizmos/GizmoPrimitives;F)V", cancellable = true)

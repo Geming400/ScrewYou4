@@ -22,13 +22,13 @@ public class CrumblingOverlay1344642205Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1901994296(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1901994296L))
-            info.setReturnValue(760130233);
+            info.setReturnValue(635032433);
     }
 
     @Inject(at = @At("HEAD"), method = "progress()I", cancellable = true)
     private void progress_2072773750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2072773750L))
-            info.setReturnValue(563811440);
+            info.setReturnValue(438713640);
     }
 
     @Inject(at = @At("HEAD"), method = "cameraPose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)

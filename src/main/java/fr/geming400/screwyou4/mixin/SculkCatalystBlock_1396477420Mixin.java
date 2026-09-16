@@ -13,15 +13,15 @@ public class SculkCatalystBlock_1396477420Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_1538052804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1538052804L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__910347236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-910347236L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_1538052804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1538052804L))
             info.setReturnValue(null);
     }
 

@@ -16,7 +16,7 @@ public class ShipwreckPiece_276786419Mixin {
     @Inject(at = @At("HEAD"), method = "calculateBeachedPosition(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void calculateBeachedPosition__2046294214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2046294214L))
-            info.setReturnValue(-979070788);
+            info.setReturnValue(-767727288);
     }
 
     @Inject(at = @At("HEAD"), method = "adjustPositionHeight(I)V", cancellable = true)

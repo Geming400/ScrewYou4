@@ -22,7 +22,7 @@ public class FallLocation993028382Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1550380473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1550380473L))
-            info.setReturnValue(955476133);
+            info.setReturnValue(468698733);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -37,15 +37,15 @@ public class FallLocation993028382Mixin {
             info.setReturnValue("\u7847)\uCD4C+9=|<+68* 8+\uC7418|Szk;\u96040-s\uCAF0Y\u75B7j0h6 qEhhZg\" %*$'GvoFmt3L\u6AF6<");
     }
 
-    @Inject(at = @At("HEAD"), method = "getCurrentFallLocation(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)
-    private static void getCurrentFallLocation_1070551257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1070551257L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockToFallLocation(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)
     private static void blockToFallLocation_934497037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(934497037L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCurrentFallLocation(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/damagesource/FallLocation;", cancellable = true)
+    private static void getCurrentFallLocation_1070551257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1070551257L))
             info.setReturnValue(null);
     }
 

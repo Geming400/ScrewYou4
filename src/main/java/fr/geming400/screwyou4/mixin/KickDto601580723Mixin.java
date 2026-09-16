@@ -22,7 +22,7 @@ public class KickDto601580723Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1158932814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1158932814L))
-            info.setReturnValue(-2085703874);
+            info.setReturnValue(1876092522);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Ljava/util/Optional;", cancellable = true)

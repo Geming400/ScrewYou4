@@ -28,7 +28,7 @@ public class RecipeHolder1429795706Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1987147301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1987147301L))
-            info.setReturnValue(237386683);
+            info.setReturnValue(248231483);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

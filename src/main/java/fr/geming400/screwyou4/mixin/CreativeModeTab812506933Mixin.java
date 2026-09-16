@@ -34,7 +34,7 @@ public class CreativeModeTab812506933Mixin {
     @Inject(at = @At("HEAD"), method = "column()I", cancellable = true)
     private void column__75266171(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-75266171L))
-            info.setReturnValue(-539332253);
+            info.setReturnValue(-358375053);
     }
 
     @Inject(at = @At("HEAD"), method = "row()Lnet/minecraft/world/item/CreativeModeTab$Row;", cancellable = true)
@@ -79,6 +79,12 @@ public class CreativeModeTab812506933Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
+    private void isAlignedRight_141178314(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(141178314L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getIconItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getIconItem__1509861893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1509861893L))
@@ -95,12 +101,6 @@ public class CreativeModeTab812506933Mixin {
     private void getBackgroundTexture__177058093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-177058093L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAlignedRight()Z", cancellable = true)
-    private void isAlignedRight_141178314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(141178314L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getDisplayItems()Ljava/util/Collection;", cancellable = true)

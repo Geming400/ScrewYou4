@@ -25,6 +25,12 @@ public class DoNothing_966454668Mixin {
             info.setReturnValue(net.minecraft.world.entity.ai.behavior.Behavior.Status.STOPPED);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
+    private void getRequiredMemories_1020274073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1020274073L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "doStop(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;J)V", cancellable = true)
     private void doStop_107757628(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(107757628L))
@@ -35,12 +41,6 @@ public class DoNothing_966454668Mixin {
     private void tickOrStop_1234194247(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1234194247L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRequiredMemories()Ljava/util/Set;", cancellable = true)
-    private void getRequiredMemories_1020274073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1020274073L))
-            info.setReturnValue(null);
     }
 
 

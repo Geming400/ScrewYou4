@@ -28,19 +28,7 @@ public class LootDataType_921898652Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1479250742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1479250742L))
-            info.setReturnValue(-1228238352);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__882810889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-882810889L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void registryKey_1840241962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1840241962L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1372702552);
     }
 
     @Inject(at = @At("HEAD"), method = "runValidation(Lnet/minecraft/world/level/storage/loot/ValidationContextSource;Lnet/minecraft/core/HolderLookup;)V", cancellable = true)
@@ -53,6 +41,18 @@ public class LootDataType_921898652Mixin {
     private void runValidation_727707390(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(727707390L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__882810889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-882810889L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "registryKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void registryKey_1840241962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1840241962L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "contextGetter()Lnet/minecraft/world/level/storage/loot/LootDataType$ContextGetter;", cancellable = true)

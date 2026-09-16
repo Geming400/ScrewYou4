@@ -25,10 +25,10 @@ public class BossHealthOverlay973120953Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldCreateWorldFog()Z", cancellable = true)
-    private void shouldCreateWorldFog__1610169643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1610169643L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
+    private void extractRenderState_836865275(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(836865275L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shouldDarkenScreen()Z", cancellable = true)
@@ -37,10 +37,10 @@ public class BossHealthOverlay973120953Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
-    private void extractRenderState_836865275(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(836865275L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "shouldCreateWorldFog()Z", cancellable = true)
+    private void shouldCreateWorldFog__1610169643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1610169643L))
+            info.setReturnValue(true);
     }
 
 

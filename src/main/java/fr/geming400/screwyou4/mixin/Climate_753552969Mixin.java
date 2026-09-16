@@ -31,12 +31,6 @@ public class Climate_753552969Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "quantizeCoord(F)J", cancellable = true)
-    private static void quantizeCoord__1182401503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1182401503L))
-            info.setReturnValue(-885912320167091780L);
-    }
-
     @Inject(at = @At("HEAD"), method = "findSpawnPosition(Ljava/util/List;Lnet/minecraft/world/level/biome/Climate$Sampler;)Lnet/minecraft/core/BlockPos;", cancellable = true)
     private static void findSpawnPosition__939915212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-939915212L))
@@ -46,7 +40,13 @@ public class Climate_753552969Mixin {
     @Inject(at = @At("HEAD"), method = "unquantizeCoord(J)F", cancellable = true)
     private static void unquantizeCoord_53517288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(53517288L))
-            info.setReturnValue(8.21811E7F);
+            info.setReturnValue(3.190787E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "quantizeCoord(F)J", cancellable = true)
+    private static void quantizeCoord__1182401503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1182401503L))
+            info.setReturnValue(-885912319930194180L);
     }
 
 

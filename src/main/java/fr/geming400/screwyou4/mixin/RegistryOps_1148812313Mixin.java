@@ -16,7 +16,7 @@ public class RegistryOps_1148812313Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1706163907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706163907L))
-            info.setReturnValue(1040929567);
+            info.setReturnValue(579370667);
     }
 
     @Inject(at = @At("HEAD"), method = "owner(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
@@ -43,12 +43,6 @@ public class RegistryOps_1148812313Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "retrieveGetter(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;", cancellable = true)
-    private static void retrieveGetter__1976991591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1976991591L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "injectRegistryContext(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/core/HolderLookup$Provider;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void injectRegistryContext__1797588460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1797588460L))
@@ -58,6 +52,12 @@ public class RegistryOps_1148812313Mixin {
     @Inject(at = @At("HEAD"), method = "retrieveElement(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;", cancellable = true)
     private static void retrieveElement_1350175872(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1350175872L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "retrieveGetter(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;", cancellable = true)
+    private static void retrieveGetter__1976991591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1976991591L))
             info.setReturnValue(null);
     }
 

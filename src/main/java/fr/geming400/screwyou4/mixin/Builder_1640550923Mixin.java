@@ -31,15 +31,15 @@ public class Builder_1640550923Mixin {
             info.setReturnValue(new net.minecraft.advancements.predicates.ItemPredicate.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "withCount(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
-    private void withCount_478588136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(478588136L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withComponents(Lnet/minecraft/advancements/predicates/DataComponentMatchers;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
     private void withComponents_1523330952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1523330952L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withCount(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;", cancellable = true)
+    private void withCount_478588136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(478588136L))
             info.setReturnValue(null);
     }
 

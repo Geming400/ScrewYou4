@@ -28,7 +28,7 @@ public class PendingRpcRequest_1038739069Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1596091159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1596091159L))
-            info.setReturnValue(-1734636027);
+            info.setReturnValue(-1714491327);
     }
 
     @Inject(at = @At("HEAD"), method = "accept(Lcom/google/gson/JsonElement;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class PendingRpcRequest_1038739069Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeoutTime()J", cancellable = true)
-    private void timeoutTime_510489877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(510489877L))
-            info.setReturnValue(-2011591395087694954L);
-    }
-
     @Inject(at = @At("HEAD"), method = "resultFuture()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void resultFuture_212698841(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(212698841L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "timeoutTime()J", cancellable = true)
+    private void timeoutTime_510489877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(510489877L))
+            info.setReturnValue(-2011591395067550254L);
     }
 
 

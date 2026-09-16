@@ -13,15 +13,15 @@ public class SmithingTrimRecipeBuilder_1181135330Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unlocks(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SmithingTrimRecipeBuilder;", cancellable = true)
-    private void unlocks__1785927657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1785927657L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "smithingTrim(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/core/Holder;Lnet/minecraft/data/recipes/RecipeCategory;)Lnet/minecraft/data/recipes/SmithingTrimRecipeBuilder;", cancellable = true)
     private static void smithingTrim__469015422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-469015422L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unlocks(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SmithingTrimRecipeBuilder;", cancellable = true)
+    private void unlocks__1785927657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1785927657L))
             info.setReturnValue(null);
     }
 

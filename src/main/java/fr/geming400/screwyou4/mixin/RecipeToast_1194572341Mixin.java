@@ -19,15 +19,15 @@ public class RecipeToast_1194572341Mixin {
             info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
-    private void extractRenderState__322878580(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-322878580L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addOrUpdate(Lnet/minecraft/client/gui/components/toasts/ToastManager;Lnet/minecraft/world/item/crafting/display/RecipeDisplay;)V", cancellable = true)
     private static void addOrUpdate_620360097(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(620360097L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
+    private void extractRenderState__322878580(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-322878580L))
             info.cancel();
     }
 

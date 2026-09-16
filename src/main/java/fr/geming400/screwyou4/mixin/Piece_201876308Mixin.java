@@ -22,7 +22,7 @@ public class Piece_201876308Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_759228398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(759228398L))
-            info.setReturnValue(908369904);
+            info.setReturnValue(1232850604);
     }
 
     @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)

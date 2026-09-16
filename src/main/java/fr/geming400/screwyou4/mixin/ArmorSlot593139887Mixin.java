@@ -19,10 +19,10 @@ public class ArmorSlot593139887Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mayPickup(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void mayPickup_49116800(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(49116800L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
+    private void getMaxStackSize__543107238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-543107238L))
+            info.setReturnValue(-561550008);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -31,10 +31,10 @@ public class ArmorSlot593139887Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-    private void getMaxStackSize__543107238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-543107238L))
-            info.setReturnValue(284001992);
+    @Inject(at = @At("HEAD"), method = "mayPickup(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void mayPickup_49116800(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(49116800L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setByPlayer(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
