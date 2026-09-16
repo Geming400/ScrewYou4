@@ -22,7 +22,7 @@ public class Packed_939706868Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1497058958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1497058958L))
-            info.setReturnValue(-1331600646);
+            info.setReturnValue(-1238222146);
     }
 
     @Inject(at = @At("HEAD"), method = "known()Ljava/util/List;", cancellable = true)
@@ -31,15 +31,15 @@ public class Packed_939706868Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "highlight()Ljava/util/List;", cancellable = true)
-    private void highlight_1302782679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1302782679L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/stats/RecipeBookSettings;", cancellable = true)
     private void settings__977556090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-977556090L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "highlight()Ljava/util/List;", cancellable = true)
+    private void highlight_1302782679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1302782679L))
             info.setReturnValue(null);
     }
 

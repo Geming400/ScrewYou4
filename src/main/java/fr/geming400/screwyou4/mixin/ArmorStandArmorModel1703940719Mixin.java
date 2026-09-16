@@ -13,15 +13,15 @@ public class ArmorStandArmorModel1703940719Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/ArmorStandRenderState;)V", cancellable = true)
-    private void setupAnim__1978418547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1978418547L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim__1907378032(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1907378032L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/ArmorStandRenderState;)V", cancellable = true)
+    private void setupAnim__1978418547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1978418547L))
             info.cancel();
     }
 

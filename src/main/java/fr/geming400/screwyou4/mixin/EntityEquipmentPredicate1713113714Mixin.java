@@ -22,7 +22,7 @@ public class EntityEquipmentPredicate1713113714Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2024501491(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2024501491L))
-            info.setReturnValue(-1522547187);
+            info.setReturnValue(-1011257087);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -49,12 +49,6 @@ public class EntityEquipmentPredicate1713113714Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "captainPredicate(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate;", cancellable = true)
-    private static void captainPredicate__903491570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-903491570L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chest()Ljava/util/Optional;", cancellable = true)
     private void chest__1693667295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1693667295L))
@@ -67,12 +61,6 @@ public class EntityEquipmentPredicate1713113714Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "offhand()Ljava/util/Optional;", cancellable = true)
-    private void offhand_992993406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(992993406L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mainhand()Ljava/util/Optional;", cancellable = true)
     private void mainhand_1602569672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1602569672L))
@@ -82,6 +70,18 @@ public class EntityEquipmentPredicate1713113714Mixin {
     @Inject(at = @At("HEAD"), method = "feet()Ljava/util/Optional;", cancellable = true)
     private void feet__1516062770(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1516062770L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "offhand()Ljava/util/Optional;", cancellable = true)
+    private void offhand_992993406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(992993406L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "captainPredicate(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate;", cancellable = true)
+    private static void captainPredicate__903491570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-903491570L))
             info.setReturnValue(null);
     }
 

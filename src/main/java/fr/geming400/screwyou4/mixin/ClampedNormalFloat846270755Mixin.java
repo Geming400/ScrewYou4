@@ -22,19 +22,19 @@ public class ClampedNormalFloat846270755Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1403622846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403622846L))
-            info.setReturnValue(-675307039);
+            info.setReturnValue(-600855839);
     }
 
     @Inject(at = @At("HEAD"), method = "min()F", cancellable = true)
     private void min__574859084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-574859084L))
-            info.setReturnValue(5.179527E8F);
+            info.setReturnValue(5.924039E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "max()F", cancellable = true)
     private void max_1201337570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1201337570L))
-            info.setReturnValue(5.179527E8F);
+            info.setReturnValue(5.924039E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "of(FFFF)Lnet/minecraft/util/valueproviders/ClampedNormalFloat;", cancellable = true)
@@ -46,7 +46,7 @@ public class ClampedNormalFloat846270755Mixin {
     @Inject(at = @At("HEAD"), method = "mean()F", cancellable = true)
     private void mean_413424417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(413424417L))
-            info.setReturnValue(5.19953E8F);
+            info.setReturnValue(5.924039E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -55,22 +55,22 @@ public class ClampedNormalFloat846270755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "deviation()F", cancellable = true)
-    private void deviation_746000357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(746000357L))
-            info.setReturnValue(5.19953E8F);
+    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
+    private void sample__186794096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-186794096L))
+            info.setReturnValue(5.924039E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;FFFF)F", cancellable = true)
     private static void sample_1327798536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1327798536L))
-            info.setReturnValue(5.19953E8F);
+            info.setReturnValue(5.924039E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)F", cancellable = true)
-    private void sample__186794096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-186794096L))
-            info.setReturnValue(5.19953E8F);
+    @Inject(at = @At("HEAD"), method = "deviation()F", cancellable = true)
+    private void deviation_746000357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(746000357L))
+            info.setReturnValue(5.924039E8F);
     }
 
 

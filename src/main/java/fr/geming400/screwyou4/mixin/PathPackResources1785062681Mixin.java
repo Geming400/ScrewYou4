@@ -37,16 +37,10 @@ public class PathPackResources1785062681Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listResources(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private static void listResources_27695835(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(27695835L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private void listResources_467797149(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(467797149L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
+    private void getRootResource__1227046097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1227046097L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
@@ -61,10 +55,16 @@ public class PathPackResources1785062681Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
-    private void getRootResource__1227046097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1227046097L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listResources(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private static void listResources_27695835(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(27695835L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private void listResources_467797149(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(467797149L))
+            info.cancel();
     }
 
 

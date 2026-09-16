@@ -28,13 +28,7 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1265676761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1265676761L))
-            info.setReturnValue(1163281457);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__1028647041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1028647041L))
-            info.setReturnValue(false);
+            info.setReturnValue(1281163057);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,9 +37,21 @@ public class EnvironmentAttributeCheck_708324671Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test__1028647041(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1028647041L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)
     private void attribute_207594683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(207594683L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_1487827898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1487827898L))
             info.setReturnValue(null);
     }
 
@@ -58,12 +64,6 @@ public class EnvironmentAttributeCheck_708324671Mixin {
     @Inject(at = @At("HEAD"), method = "environmentAttribute(Lnet/minecraft/world/attribute/EnvironmentAttribute;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void environmentAttribute_409028340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(409028340L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_1487827898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1487827898L))
             info.setReturnValue(null);
     }
 

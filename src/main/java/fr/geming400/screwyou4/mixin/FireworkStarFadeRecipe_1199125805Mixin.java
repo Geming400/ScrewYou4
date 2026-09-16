@@ -19,6 +19,12 @@ public class FireworkStarFadeRecipe_1199125805Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1764012128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1764012128L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1527785907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1527785907L))
@@ -28,12 +34,6 @@ public class FireworkStarFadeRecipe_1199125805Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1588172863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1588172863L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1764012128(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1764012128L))
             info.setReturnValue(null);
     }
 

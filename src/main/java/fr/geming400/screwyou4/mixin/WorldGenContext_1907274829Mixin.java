@@ -22,7 +22,7 @@ public class WorldGenContext_1907274829Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1830340377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1830340377L))
-            info.setReturnValue(-835251599);
+            info.setReturnValue(-1263423099);
     }
 
     @Inject(at = @At("HEAD"), method = "generator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
@@ -37,15 +37,9 @@ public class WorldGenContext_1907274829Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lightEngine()Lnet/minecraft/server/level/ThreadedLevelLightEngine;", cancellable = true)
-    private void lightEngine__1945687272(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1945687272L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "structureManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
-    private void structureManager_609048369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(609048369L))
+    @Inject(at = @At("HEAD"), method = "unsavedListener()Lnet/minecraft/world/level/chunk/LevelChunk$UnsavedListener;", cancellable = true)
+    private void unsavedListener__443571977(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-443571977L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class WorldGenContext_1907274829Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "unsavedListener()Lnet/minecraft/world/level/chunk/LevelChunk$UnsavedListener;", cancellable = true)
-    private void unsavedListener__443571977(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-443571977L))
+    @Inject(at = @At("HEAD"), method = "structureManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
+    private void structureManager_609048369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(609048369L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lightEngine()Lnet/minecraft/server/level/ThreadedLevelLightEngine;", cancellable = true)
+    private void lightEngine__1945687272(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1945687272L))
             info.setReturnValue(null);
     }
 

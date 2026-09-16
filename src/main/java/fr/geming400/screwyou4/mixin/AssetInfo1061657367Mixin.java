@@ -22,7 +22,7 @@ public class AssetInfo1061657367Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1619009458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1619009458L))
-            info.setReturnValue(1264771928);
+            info.setReturnValue(1171957228);
     }
 
     @Inject(at = @At("HEAD"), method = "angry()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
@@ -31,15 +31,15 @@ public class AssetInfo1061657367Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tame()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
-    private void tame_1286776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1286776L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "wild()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
     private void wild__1492970243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1492970243L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tame()Lnet/minecraft/core/ClientAsset$ResourceTexture;", cancellable = true)
+    private void tame_1286776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1286776L))
             info.setReturnValue(null);
     }
 

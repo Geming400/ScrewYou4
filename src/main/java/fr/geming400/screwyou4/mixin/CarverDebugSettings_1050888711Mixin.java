@@ -25,21 +25,21 @@ public class CarverDebugSettings_1050888711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAirState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getAirState_1632155921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1632155921L))
+    @Inject(at = @At("HEAD"), method = "getLavaState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getLavaState_1907537551(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1907537551L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isDebugMode()Z", cancellable = true)
-    private void isDebugMode_2105488049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2105488049L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getBarrierState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBarrierState_363297668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(363297668L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAirState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getAirState_1632155921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1632155921L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +49,10 @@ public class CarverDebugSettings_1050888711Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLavaState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getLavaState_1907537551(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1907537551L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isDebugMode()Z", cancellable = true)
+    private void isDebugMode_2105488049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2105488049L))
+            info.setReturnValue(false);
     }
 
 

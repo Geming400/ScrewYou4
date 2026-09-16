@@ -22,7 +22,7 @@ public class TriggerInstance1634826041Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2102789164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2102789164L))
-            info.setReturnValue(-1257830107);
+            info.setReturnValue(-1466920407);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
@@ -31,9 +31,9 @@ public class TriggerInstance1634826041Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_404173000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(404173000L))
+    @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void lootTable_1329635620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1329635620L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class TriggerInstance1634826041Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lootTable()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void lootTable_1329635620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1329635620L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_404173000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(404173000L))
             info.setReturnValue(null);
     }
 

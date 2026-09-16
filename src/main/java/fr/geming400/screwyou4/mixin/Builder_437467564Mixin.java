@@ -13,18 +13,6 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "title(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void title__228418930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-228418930L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayItems(Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void displayItems_1442050946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1442050946L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "icon(Ljava/util/function/Supplier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void icon_464727709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(464727709L))
@@ -37,12 +25,6 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "backgroundTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void backgroundTexture_1738832143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1738832143L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "noScrollBar()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void noScrollBar__2001494449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2001494449L))
@@ -52,6 +34,24 @@ public class Builder_437467564Mixin {
     @Inject(at = @At("HEAD"), method = "alignedRight()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void alignedRight_1325372130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325372130L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayItems(Lnet/minecraft/world/item/CreativeModeTab$DisplayItemsGenerator;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void displayItems_1442050946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1442050946L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "backgroundTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void backgroundTexture_1738832143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1738832143L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "title(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void title__228418930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-228418930L))
             info.setReturnValue(null);
     }
 

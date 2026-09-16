@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.HoeItem.class)
 public class HoeItem_785930525Mixin {
-        @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn__129186709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-129186709L))
+        @Inject(at = @At("HEAD"), method = "changeIntoStateAndDropItem(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/ItemLike;)Ljava/util/function/Consumer;", cancellable = true)
+    private static void changeIntoStateAndDropItem__1122487765(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1122487765L))
             info.setReturnValue(null);
     }
 
@@ -19,16 +19,16 @@ public class HoeItem_785930525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changeIntoStateAndDropItem(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/ItemLike;)Ljava/util/function/Consumer;", cancellable = true)
-    private static void changeIntoStateAndDropItem__1122487765(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1122487765L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onlyIfAirAbove(Lnet/minecraft/world/item/context/UseOnContext;)Z", cancellable = true)
     private static void onlyIfAirAbove__951867894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-951867894L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn__129186709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-129186709L))
+            info.setReturnValue(null);
     }
 
 

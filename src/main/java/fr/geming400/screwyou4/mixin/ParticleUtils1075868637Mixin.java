@@ -31,15 +31,15 @@ public class ParticleUtils1075868637Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnParticleOnFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/phys/Vec3;D)V", cancellable = true)
-    private static void spawnParticleOnFace_1188745945(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1188745945L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/core/Direction;Ljava/util/function/Supplier;D)V", cancellable = true)
     private static void spawnParticlesOnBlockFace__428150961(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-428150961L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFaces(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;)V", cancellable = true)
+    private static void spawnParticlesOnBlockFaces__1818340540(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1818340540L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class ParticleUtils1075868637Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnParticlesOnBlockFaces(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/util/valueproviders/IntProvider;)V", cancellable = true)
-    private static void spawnParticlesOnBlockFaces__1818340540(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1818340540L))
+    @Inject(at = @At("HEAD"), method = "spawnParticleOnFace(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/world/phys/Vec3;D)V", cancellable = true)
+    private static void spawnParticleOnFace_1188745945(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1188745945L))
             info.cancel();
     }
 

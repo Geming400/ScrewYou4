@@ -22,7 +22,7 @@ public class TestData_1770832050Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1966783156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1966783156L))
-            info.setReturnValue(-585142802);
+            info.setReturnValue(-253488602);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/gametest/framework/TestData;", cancellable = true)
@@ -40,7 +40,7 @@ public class TestData_1770832050Mixin {
     @Inject(at = @At("HEAD"), method = "padding()I", cancellable = true)
     private void padding__1850983130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1850983130L))
-            info.setReturnValue(-1918736898);
+            info.setReturnValue(-1587082698);
     }
 
     @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)
@@ -49,28 +49,22 @@ public class TestData_1770832050Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void rotation_611570145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(611570145L))
-            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
-    }
-
     @Inject(at = @At("HEAD"), method = "structure()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void structure__1827798421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827798421L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requiredSuccesses()I", cancellable = true)
-    private void requiredSuccesses_1084572357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1084572357L))
-            info.setReturnValue(620640610);
+    @Inject(at = @At("HEAD"), method = "maxTicks()I", cancellable = true)
+    private void maxTicks__1277631899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1277631899L))
+            info.setReturnValue(26866068);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxAttempts()I", cancellable = true)
-    private void maxAttempts__1751181299(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1751181299L))
-            info.setReturnValue(929262757);
+    @Inject(at = @At("HEAD"), method = "setupTicks()I", cancellable = true)
+    private void setupTicks__1506104258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1506104258L))
+            info.setReturnValue(-568883208);
     }
 
     @Inject(at = @At("HEAD"), method = "manualOnly()Z", cancellable = true)
@@ -85,16 +79,22 @@ public class TestData_1770832050Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxTicks()I", cancellable = true)
-    private void maxTicks__1277631899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1277631899L))
-            info.setReturnValue(-305786532);
+    @Inject(at = @At("HEAD"), method = "requiredSuccesses()I", cancellable = true)
+    private void requiredSuccesses_1084572357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1084572357L))
+            info.setReturnValue(953293210);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupTicks()I", cancellable = true)
-    private void setupTicks__1506104258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1506104258L))
-            info.setReturnValue(-901535808);
+    @Inject(at = @At("HEAD"), method = "maxAttempts()I", cancellable = true)
+    private void maxAttempts__1751181299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1751181299L))
+            info.setReturnValue(1261915357);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void rotation_611570145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(611570145L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_180);
     }
 
 

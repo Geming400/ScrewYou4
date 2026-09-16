@@ -22,7 +22,7 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1287073840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1287073840L))
-            info.setReturnValue(-226742267);
+            info.setReturnValue(-366487167);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/util/Unit;", cancellable = true)
@@ -49,6 +49,12 @@ public class Functions729721749Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1796167003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1796167003L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "teardownFunction()Ljava/util/Optional;", cancellable = true)
     private void teardownFunction_1776280383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1776280383L))
@@ -58,12 +64,6 @@ public class Functions729721749Mixin {
     @Inject(at = @At("HEAD"), method = "setupFunction()Ljava/util/Optional;", cancellable = true)
     private void setupFunction__835546184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-835546184L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1796167003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1796167003L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,13 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1669477080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1669477080L))
-            info.setReturnValue(1240534307);
+            info.setReturnValue(1068620907);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale__1311593002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1311593002L))
-            info.setReturnValue(9.586455E8F);
+            info.setReturnValue(7.867321E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
@@ -40,30 +40,30 @@ public class OversizedItemRenderState1112124989Mixin {
     @Inject(at = @At("HEAD"), method = "x1()I", cancellable = true)
     private void x1_1679474954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1679474954L))
-            info.setReturnValue(-139973595);
+            info.setReturnValue(-311886995);
     }
 
     @Inject(at = @At("HEAD"), method = "y1()I", cancellable = true)
     private void y1__1727988661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727988661L))
-            info.setReturnValue(-1570401527);
+            info.setReturnValue(-1742314927);
     }
 
     @Inject(at = @At("HEAD"), method = "x0()I", cancellable = true)
     private void x0_1650845803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1650845803L))
-            info.setReturnValue(1368936312);
+            info.setReturnValue(1197022912);
     }
 
     @Inject(at = @At("HEAD"), method = "y0()I", cancellable = true)
     private void y0__1756617812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1756617812L))
-            info.setReturnValue(1028930567);
+            info.setReturnValue(857017167);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissorArea__1412775316(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1412775316L))
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1032855763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1032855763L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class OversizedItemRenderState1112124989Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1032855763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1032855763L))
+    @Inject(at = @At("HEAD"), method = "scissorArea()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissorArea__1412775316(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1412775316L))
             info.setReturnValue(null);
     }
 

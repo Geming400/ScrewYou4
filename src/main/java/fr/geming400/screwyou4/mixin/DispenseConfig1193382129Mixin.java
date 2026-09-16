@@ -22,7 +22,7 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1750734220(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1750734220L))
-            info.setReturnValue(796341201);
+            info.setReturnValue(555369101);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
@@ -34,7 +34,7 @@ public class DispenseConfig1193382129Mixin {
     @Inject(at = @At("HEAD"), method = "power()F", cancellable = true)
     private void power_1581297071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1581297071L))
-            info.setReturnValue(7.941057E8F);
+            info.setReturnValue(5.531336E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "positionFunction()Lnet/minecraft/world/item/ProjectileItem$PositionFunction;", cancellable = true)
@@ -43,16 +43,16 @@ public class DispenseConfig1193382129Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
-    private void uncertainty_503480358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(503480358L))
-            info.setReturnValue(7.941057E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "overrideDispenseEvent()Ljava/util/OptionalInt;", cancellable = true)
     private void overrideDispenseEvent__1034643595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1034643595L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uncertainty()F", cancellable = true)
+    private void uncertainty_503480358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(503480358L))
+            info.setReturnValue(5.541439E8F);
     }
 
 

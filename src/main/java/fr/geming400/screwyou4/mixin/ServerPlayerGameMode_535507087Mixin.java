@@ -19,22 +19,16 @@ public class ServerPlayerGameMode_535507087Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isSurvival()Z", cancellable = true)
-    private void isSurvival__1449858883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1449858883L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "changeGameModeForPlayer(Lnet/minecraft/world/level/GameType;)Z", cancellable = true)
+    private void changeGameModeForPlayer_549774663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(549774663L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void destroyBlock__645357556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-645357556L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useItemOn_296227776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(296227776L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getGameModeForPlayer()Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private void getGameModeForPlayer__1166205293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1166205293L))
+            info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
     }
 
     @Inject(at = @At("HEAD"), method = "getPreviousGameModeForPlayer()Lnet/minecraft/world/level/GameType;", cancellable = true)
@@ -55,16 +49,22 @@ public class ServerPlayerGameMode_535507087Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGameModeForPlayer()Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private void getGameModeForPlayer__1166205293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1166205293L))
-            info.setReturnValue(net.minecraft.world.level.GameType.SURVIVAL);
+    @Inject(at = @At("HEAD"), method = "useItemOn(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useItemOn_296227776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(296227776L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changeGameModeForPlayer(Lnet/minecraft/world/level/GameType;)Z", cancellable = true)
-    private void changeGameModeForPlayer_549774663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(549774663L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "destroyBlock(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void destroyBlock__645357556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-645357556L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSurvival()Z", cancellable = true)
+    private void isSurvival__1449858883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1449858883L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "handleBlockBreakAction(Lnet/minecraft/core/BlockPos;Lnet/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action;Lnet/minecraft/core/Direction;II)V", cancellable = true)

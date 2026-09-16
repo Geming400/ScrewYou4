@@ -22,7 +22,7 @@ public class ChatTypeDecoration697522028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1254874119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1254874119L))
-            info.setReturnValue(-237997697);
+            info.setReturnValue(-153081297);
     }
 
     @Inject(at = @At("HEAD"), method = "parameters()Ljava/util/List;", cancellable = true)
@@ -37,21 +37,9 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "outgoingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void outgoingDirectMessage_876830012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(876830012L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "incomingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void incomingDirectMessage__430876810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-430876810L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void teamMessage__2138093276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2138093276L))
+    @Inject(at = @At("HEAD"), method = "withSender(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void withSender__510898157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-510898157L))
             info.setReturnValue(null);
     }
 
@@ -61,15 +49,27 @@ public class ChatTypeDecoration697522028Mixin {
             info.setReturnValue("\u69F7K\u152C[?ic|!ZQ:n{+OEos\uD1C3wy>\u7BA1?M1ghotI)yog%\u53CE/IE[i\"Cr6g?Gs");
     }
 
-    @Inject(at = @At("HEAD"), method = "withSender(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
-    private static void withSender__510898157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-510898157L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "decorate(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void decorate_908635389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(908635389L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outgoingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void outgoingDirectMessage_876830012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(876830012L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "teamMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void teamMessage__2138093276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2138093276L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "incomingDirectMessage(Ljava/lang/String;)Lnet/minecraft/network/chat/ChatTypeDecoration;", cancellable = true)
+    private static void incomingDirectMessage__430876810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-430876810L))
             info.setReturnValue(null);
     }
 

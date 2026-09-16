@@ -19,16 +19,16 @@ public class SingleTickProfiler1080929956Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_540031807(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(540031807L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "startTick()Lnet/minecraft/util/profiling/ProfilerFiller;", cancellable = true)
     private void startTick__442364498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-442364498L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_540031807(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(540031807L))
+            info.cancel();
     }
 
 

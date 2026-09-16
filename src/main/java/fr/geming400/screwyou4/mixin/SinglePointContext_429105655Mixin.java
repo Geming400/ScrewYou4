@@ -22,25 +22,25 @@ public class SinglePointContext_429105655Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_986457745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(986457745L))
-            info.setReturnValue(-896016264);
+            info.setReturnValue(-28272664);
     }
 
     @Inject(at = @At("HEAD"), method = "blockY()I", cancellable = true)
     private void blockY_1413361136(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1413361136L))
-            info.setReturnValue(-1061930433);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockX()I", cancellable = true)
-    private void blockX_1384731985(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1384731985L))
-            info.setReturnValue(545475193);
+            info.setReturnValue(-194186833);
     }
 
     @Inject(at = @At("HEAD"), method = "blockZ()I", cancellable = true)
     private void blockZ_1441990287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1441990287L))
-            info.setReturnValue(1255411145);
+            info.setReturnValue(2123154745);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockX()I", cancellable = true)
+    private void blockX_1384731985(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1384731985L))
+            info.setReturnValue(1413218793);
     }
 
 

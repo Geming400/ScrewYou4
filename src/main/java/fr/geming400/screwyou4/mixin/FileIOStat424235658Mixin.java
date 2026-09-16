@@ -22,13 +22,13 @@ public class FileIOStat424235658Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_981587749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(981587749L))
-            info.setReturnValue(-1727151096);
+            info.setReturnValue(-1341205996);
     }
 
     @Inject(at = @At("HEAD"), method = "bytes()J", cancellable = true)
     private void bytes_1763833510(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1763833510L))
-            info.setReturnValue(-4673605523451442443L);
+            info.setReturnValue(-4673605523065497343L);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()Ljava/time/Duration;", cancellable = true)

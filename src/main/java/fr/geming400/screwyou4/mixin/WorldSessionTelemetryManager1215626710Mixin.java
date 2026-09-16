@@ -31,15 +31,15 @@ public class WorldSessionTelemetryManager1215626710Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onServerBrandReceived(Ljava/lang/String;)V", cancellable = true)
-    private void onServerBrandReceived_661308973(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(661308973L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onDisconnect()V", cancellable = true)
     private void onDisconnect_1154612622(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1154612622L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onServerBrandReceived(Ljava/lang/String;)V", cancellable = true)
+    private void onServerBrandReceived_661308973(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(661308973L))
             info.cancel();
     }
 

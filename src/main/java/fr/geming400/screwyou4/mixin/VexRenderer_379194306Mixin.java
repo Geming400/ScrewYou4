@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.VexRenderer.class)
 public class VexRenderer_379194306Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_632365284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(632365284L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/VexRenderState;", cancellable = true)
+    private void createRenderState__1855619226(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1855619226L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.VexRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__1943258156(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1943258156L))
             info.setReturnValue(null);
@@ -35,18 +47,6 @@ public class VexRenderer_379194306Mixin {
     private void extractRenderState__531047345(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-531047345L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_632365284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(632365284L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/VexRenderState;", cancellable = true)
-    private void createRenderState__1855619226(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1855619226L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.VexRenderState());
     }
 
 

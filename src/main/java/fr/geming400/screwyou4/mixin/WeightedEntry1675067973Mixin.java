@@ -28,7 +28,7 @@ public class WeightedEntry1675067973Mixin {
     @Inject(at = @At("HEAD"), method = "getWeight()I", cancellable = true)
     private void getWeight__1235015811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1235015811L))
-            info.setReturnValue(-453576375);
+            info.setReturnValue(37917925);
     }
 
 

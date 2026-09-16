@@ -22,12 +22,18 @@ public class LegacyStructureData_852809987Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1410162077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1410162077L))
-            info.setReturnValue(-2124917962);
+            info.setReturnValue(2128435134);
     }
 
     @Inject(at = @At("HEAD"), method = "indexes()Ljava/util/Map;", cancellable = true)
     private void indexes_354799338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354799338L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "starts()Ljava/util/Map;", cancellable = true)
+    private void starts_354075641(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(354075641L))
             info.setReturnValue(null);
     }
 
@@ -41,12 +47,6 @@ public class LegacyStructureData_852809987Mixin {
     private void addIndex__451348842(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-451348842L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "starts()Ljava/util/Map;", cancellable = true)
-    private void starts_354075641(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(354075641L))
-            info.setReturnValue(null);
     }
 
 

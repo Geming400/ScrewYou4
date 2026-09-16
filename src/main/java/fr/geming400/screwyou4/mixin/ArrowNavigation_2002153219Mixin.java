@@ -22,7 +22,7 @@ public class ArrowNavigation_2002153219Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1735461987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1735461987L))
-            info.setReturnValue(1335940004);
+            info.setReturnValue(1158856104);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/gui/navigation/ScreenRectangle;)Lnet/minecraft/client/gui/navigation/FocusNavigationEvent$ArrowNavigation;", cancellable = true)
@@ -37,16 +37,16 @@ public class ArrowNavigation_2002153219Mixin {
             info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.RIGHT);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
-    private void getVerticalDirectionForInitialFocus__430548512(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-430548512L))
-            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.RIGHT);
-    }
-
     @Inject(at = @At("HEAD"), method = "previousFocus()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void previousFocus_786789529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(786789529L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVerticalDirectionForInitialFocus()Lnet/minecraft/client/gui/navigation/ScreenDirection;", cancellable = true)
+    private void getVerticalDirectionForInitialFocus__430548512(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-430548512L))
+            info.setReturnValue(net.minecraft.client.gui.navigation.ScreenDirection.RIGHT);
     }
 
 

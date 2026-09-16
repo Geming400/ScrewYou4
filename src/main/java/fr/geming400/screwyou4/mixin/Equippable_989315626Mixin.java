@@ -28,7 +28,7 @@ public class Equippable_989315626Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1546667716(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1546667716L))
-            info.setReturnValue(728023752);
+            info.setReturnValue(955972152);
     }
 
     @Inject(at = @At("HEAD"), method = "builder(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/item/equipment/Equippable$Builder;", cancellable = true)
@@ -43,27 +43,33 @@ public class Equippable_989315626Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeEquippedBy(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void canBeEquippedBy_938112984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(938112984L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "dispensable()Z", cancellable = true)
     private void dispensable__1256057922(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1256057922L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "assetId()Ljava/util/Optional;", cancellable = true)
-    private void assetId_927734530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(927734530L))
+    @Inject(at = @At("HEAD"), method = "canBeEquippedBy(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void canBeEquippedBy_938112984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(938112984L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swapWithEquipmentSlot(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void swapWithEquipmentSlot__289627076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-289627076L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "equipSound()Lnet/minecraft/core/Holder;", cancellable = true)
     private void equipSound_1711051654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1711051654L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assetId()Ljava/util/Optional;", cancellable = true)
+    private void assetId_927734530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(927734530L))
             info.setReturnValue(null);
     }
 
@@ -79,16 +85,40 @@ public class Equippable_989315626Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "allowedEntities()Ljava/util/Optional;", cancellable = true)
+    private void allowedEntities__150475168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-150475168L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cameraOverlay()Ljava/util/Optional;", cancellable = true)
     private void cameraOverlay_621254722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621254722L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowedEntities()Ljava/util/Optional;", cancellable = true)
-    private void allowedEntities__150475168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-150475168L))
+    @Inject(at = @At("HEAD"), method = "saddle()Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void saddle__1033001384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1033001384L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "harness(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void harness__1620923192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1620923192L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "llamaSwag(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
+    private static void llamaSwag_718274167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(718274167L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swappable()Z", cancellable = true)
+    private void swappable_1894022697(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1894022697L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "equipOnTarget(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
@@ -101,36 +131,6 @@ public class Equippable_989315626Mixin {
     private void equipOnInteract__1802665605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1802665605L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "llamaSwag(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void llamaSwag_718274167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(718274167L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "harness(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void harness__1620923192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1620923192L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "saddle()Lnet/minecraft/world/item/equipment/Equippable;", cancellable = true)
-    private static void saddle__1033001384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1033001384L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "swappable()Z", cancellable = true)
-    private void swappable_1894022697(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1894022697L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "swapWithEquipmentSlot(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void swapWithEquipmentSlot__289627076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-289627076L))
-            info.setReturnValue(null);
     }
 
 

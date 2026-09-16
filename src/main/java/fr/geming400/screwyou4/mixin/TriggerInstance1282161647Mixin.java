@@ -22,7 +22,7 @@ public class TriggerInstance1282161647Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1839513738(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1839513738L))
-            info.setReturnValue(-852356744);
+            info.setReturnValue(-453773244);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;I)Z", cancellable = true)
@@ -43,12 +43,6 @@ public class TriggerInstance1282161647Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_51508606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(51508606L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "durability()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
     private void durability_2041668244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2041668244L))
@@ -64,6 +58,12 @@ public class TriggerInstance1282161647Mixin {
     @Inject(at = @At("HEAD"), method = "changedDurability(Ljava/util/Optional;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void changedDurability__436307707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-436307707L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_51508606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(51508606L))
             info.setReturnValue(null);
     }
 

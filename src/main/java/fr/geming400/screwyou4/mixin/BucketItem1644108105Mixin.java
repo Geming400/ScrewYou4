@@ -19,6 +19,12 @@ public class BucketItem1644108105Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "checkExtraContent(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void checkExtraContent_1802654173(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1802654173L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getFluidContext()Lnet/minecraft/world/level/ClipContext$Fluid;", cancellable = true)
     private void getFluidContext_1001187561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1001187561L))
@@ -35,12 +41,6 @@ public class BucketItem1644108105Mixin {
     private void emptyContents_1372742316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1372742316L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkExtraContent(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void checkExtraContent_1802654173(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1802654173L))
-            info.cancel();
     }
 
 

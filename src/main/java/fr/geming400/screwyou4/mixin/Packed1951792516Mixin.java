@@ -22,7 +22,7 @@ public class Packed1951792516Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1785822689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1785822689L))
-            info.setReturnValue(-615495173);
+            info.setReturnValue(-1158774173);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -40,7 +40,7 @@ public class Packed1951792516Mixin {
     @Inject(at = @At("HEAD"), method = "triggerTime()J", cancellable = true)
     private void triggerTime_1588852134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1588852134L))
-            info.setReturnValue(2410654398309101522L);
+            info.setReturnValue(2410654397765822522L);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)

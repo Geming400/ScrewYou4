@@ -4,27 +4,33 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.ibm.icu.impl.ClassLoaderUtil;
 import fr.geming400.screwyou4.generator.Generator;
+import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.minecraft.client.Minecraft;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLevelEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.fabricmc.fabric.api.networking.v1.PlayerLookup;
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.resources.Identifier;
 
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.server.packs.resources.ResourceManager;
 import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.player.Player;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class ScrewYou4 implements ModInitializer {
 	public static final String MOD_ID = "screw-you-4";
@@ -39,6 +45,7 @@ public class ScrewYou4 implements ModInitializer {
 	public static final SequencedSet<Long> KILLED_METHODS = new LinkedHashSet<>();
 
 	private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(ScrewYou4.class);
+	private static ResourceManager resourceManager = ResourceManager.Empty.INSTANCE;
 
 	@Override
 	public void onInitialize() {
@@ -47,14 +54,32 @@ public class ScrewYou4 implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello from the mod that will Screw You (4) !");
-		this.setMethodsFromPrecomputedFile();
 
-		onLocalPlayerRespawn((client, player) -> {
+		onLocalPlayerRespawn(player -> {
 			Generator.SerializedMethod toKill = getRandomMethod(player.getRandom());
 			killMethod(toKill.uniqueID());
 
-			LOGGER.info("Killed method {}", toKill);
+			LOGGER.info("Killed method {} (CLIENT)", toKill);
 		});
+
+		onDedicatedServerPlayerRespawn(player -> {
+			Generator.SerializedMethod toKill = getRandomMethod(player.getRandom());
+			killMethod(toKill.uniqueID());
+
+			LOGGER.info("Killed method {} (DEDICATED SERVER)", toKill);
+		});
+
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
+			ClientLifecycleEvents.CLIENT_STARTED.register(client -> {
+				resourceManager = client.getResourceManager();
+				this.setMethodsFromPrecomputedFile();
+			});
+		} else {
+			ServerLevelEvents.LOAD.register((server, level) -> {
+				resourceManager = server.getResourceManager();
+				this.setMethodsFromPrecomputedFile();
+			});
+		}
 	}
 
 	private void computeClasses() {
@@ -88,18 +113,25 @@ public class ScrewYou4 implements ModInitializer {
 	private void setMethodsFromPrecomputedFile() {
 		LOGGER.info("Reading found methods file");
 
+		if (METHODS_BY_CLASS != null) {
+			LOGGER.info("Already parsed SerializedMethods, won't parse it again !");
+			return;
+		}
+
 		try {
-			URL foundMethodsResource = CLASS_LOADER.getResource("foundMethods.json");
-			if (foundMethodsResource == null) {
+			Optional<Resource> foundMethodsResource = resourceManager.getResource(ScrewYou4.id("found_methods.json"));
+//			Optional<Resource> foundMethodsResource = Optional.empty();
+			Map<Identifier, Resource> resources = resourceManager.listResources("", id -> id.getNamespace().equals(MOD_ID));
+
+
+			if (foundMethodsResource.isEmpty()) {
 				LOGGER.warn("Couldn't find 'foundMethods.json'. Computing methods on the fly instead");
 				this.computeClasses();
 
 				return;
 			}
 
-			String rawFoundMethods = Files.readString(Paths.get(foundMethodsResource.toURI()));
-
-			Map<String, List<Generator.SerializedMethod>> foundMethods = new Gson().fromJson(rawFoundMethods, new TypeToken<>() {});
+			Map<String, List<Generator.SerializedMethod>> foundMethods = new Gson().fromJson(foundMethodsResource.get().openAsReader(), new TypeToken<>() {});
 			METHODS_BY_CLASS = foundMethods;
 
 			AtomicLong foundClassesCount = new AtomicLong();
@@ -115,7 +147,7 @@ public class ScrewYou4 implements ModInitializer {
 			});
 
 			LOGGER.info("Found {} classes and {} methods from precomputed 'foundMethods.json' file !", foundClassesCount, foundMethodsCount);
-		} catch (URISyntaxException | IOException e) {
+		} catch (IOException e) {
 			LOGGER.error("Got an error while trying to read foundMethods.json", e);
 		}
 	}
@@ -131,13 +163,38 @@ public class ScrewYou4 implements ModInitializer {
 					LOGGER.debug("Local player {} has respawned !", player);
 					isDead.set(false);
 
-					onRespawn.onRespawn(client, player);
+					onRespawn.onRespawn(player);
 				}
 			}
 		});
 	}
 
+	private static void onDedicatedServerPlayerRespawn(RespawnCallback onRespawn) {
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.SERVER) {
+			AtomicReference<Map<Integer, Boolean>> deadState = new AtomicReference<>(new HashMap<>());
+			ServerTickEvents.START_SERVER_TICK.register(server -> {
+				for (ServerPlayer player : PlayerLookup.all(server)) {
+					if (player.isDeadOrDying()) {
+						deadState.get().put(player.getId(), true);
+					} else if (deadState.get().getOrDefault(player.getId(), false)) {
+						LOGGER.debug("Local player {} has respawned !", player);
+						deadState.get().put(player.getId(), false);
+
+						onRespawn.onRespawn(player);
+					}
+				}
+			});
+		}
+	}
+
 	public static List<Generator.SerializedMethod> getAllSerializedMethods() {
+		if (METHODS_BY_CLASS == null || METHODS_BY_CLASS.isEmpty()) {
+			LOGGER.warn("Tried getting all serialized methods but ScrewYou4.METHODS_BY_CLASS is null or empty !");
+			LOGGER.info("METHODS_BY_CLASS == null: {}", METHODS_BY_CLASS == null);
+			LOGGER.info("METHODS_BY_CLASS.isEmpty(): {}", METHODS_BY_CLASS.isEmpty());
+			return List.of();
+		}
+
 		List<Generator.SerializedMethod> res = new ArrayList<>();
 		METHODS_BY_CLASS.forEach((clazz, methods) ->
 				res.addAll(methods)
@@ -178,6 +235,6 @@ public class ScrewYou4 implements ModInitializer {
 
 	@FunctionalInterface
 	interface RespawnCallback {
-		void onRespawn(@NotNull Minecraft client, @NotNull LocalPlayer player);
+		void onRespawn(@NotNull Player player);
 	}
 }

@@ -22,19 +22,19 @@ public class EnchantmentInstance1143264910Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1700617001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1700617001L))
-            info.setReturnValue(309089540);
+            info.setReturnValue(988184740);
     }
 
     @Inject(at = @At("HEAD"), method = "level()I", cancellable = true)
     private void level_1297326960(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1297326960L))
-            info.setReturnValue(2113660128);
+            info.setReturnValue(-1502211968);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight__1126550276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1126550276L))
-            info.setReturnValue(819738061);
+            info.setReturnValue(1498833261);
     }
 
     @Inject(at = @At("HEAD"), method = "enchantment()Lnet/minecraft/core/Holder;", cancellable = true)

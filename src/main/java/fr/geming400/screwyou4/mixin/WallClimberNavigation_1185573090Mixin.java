@@ -13,6 +13,12 @@ public class WallClimberNavigation_1185573090Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "moveTo(Lnet/minecraft/world/entity/Entity;D)Z", cancellable = true)
+    private void moveTo_283933735(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(283933735L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "createPath(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)
     private void createPath_337600572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(337600572L))
@@ -23,12 +29,6 @@ public class WallClimberNavigation_1185573090Mixin {
     private void createPath__424272425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-424272425L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "moveTo(Lnet/minecraft/world/entity/Entity;D)Z", cancellable = true)
-    private void moveTo_283933735(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(283933735L))
-            info.setReturnValue(true);
     }
 
 

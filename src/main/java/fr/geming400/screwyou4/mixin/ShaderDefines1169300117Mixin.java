@@ -34,7 +34,7 @@ public class ShaderDefines1169300117Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1726652208(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726652208L))
-            info.setReturnValue(32415991);
+            info.setReturnValue(-576062709);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

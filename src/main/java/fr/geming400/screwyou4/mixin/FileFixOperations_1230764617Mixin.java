@@ -25,12 +25,6 @@ public class FileFixOperations_1230764617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "groupMove(Ljava/util/Map;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/GroupMove;", cancellable = true)
-    private static void groupMove__867771900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-867771900L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "moveRegex(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;", cancellable = true)
     private static void moveRegex_1057224126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1057224126L))
@@ -40,6 +34,12 @@ public class FileFixOperations_1230764617Mixin {
     @Inject(at = @At("HEAD"), method = "moveSimple(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;", cancellable = true)
     private static void moveSimple_1694684514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1694684514L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "groupMove(Ljava/util/Map;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/GroupMove;", cancellable = true)
+    private static void groupMove__867771900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-867771900L))
             info.setReturnValue(null);
     }
 

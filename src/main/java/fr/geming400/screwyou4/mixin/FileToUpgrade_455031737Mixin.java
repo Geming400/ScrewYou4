@@ -22,7 +22,7 @@ public class FileToUpgrade_455031737Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1012383827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012383827L))
-            info.setReturnValue(1802948738);
+            info.setReturnValue(1864541938);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/world/level/chunk/storage/RegionFile;", cancellable = true)

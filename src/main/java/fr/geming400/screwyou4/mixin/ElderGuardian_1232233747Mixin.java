@@ -16,7 +16,7 @@ public class ElderGuardian_1232233747Mixin {
     @Inject(at = @At("HEAD"), method = "getAttackDuration()I", cancellable = true)
     private void getAttackDuration_49208646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(49208646L))
-            info.setReturnValue(1601390427);
+            info.setReturnValue(909033727);
     }
 
 

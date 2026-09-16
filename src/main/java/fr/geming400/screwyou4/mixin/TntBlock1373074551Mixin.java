@@ -19,10 +19,10 @@ public class TntBlock1373074551Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wasExploded(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V", cancellable = true)
-    private void wasExploded_674417977(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(674417977L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void playerWillDestroy_1700137149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1700137149L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "dropFromExplosion(Lnet/minecraft/world/level/Explosion;)Z", cancellable = true)
@@ -31,10 +31,10 @@ public class TntBlock1373074551Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerWillDestroy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void playerWillDestroy_1700137149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1700137149L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "wasExploded(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Explosion;)V", cancellable = true)
+    private void wasExploded_674417977(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(674417977L))
+            info.cancel();
     }
 
 

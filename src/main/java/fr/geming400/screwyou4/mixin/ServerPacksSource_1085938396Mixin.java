@@ -13,9 +13,9 @@ public class ServerPacksSource_1085938396Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createPackRepository(Ljava/nio/file/Path;Lnet/minecraft/world/level/validation/DirectoryValidator;)Lnet/minecraft/server/packs/repository/PackRepository;", cancellable = true)
-    private static void createPackRepository_198355630(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(198355630L))
+    @Inject(at = @At("HEAD"), method = "createVanillaTrustedRepository()Lnet/minecraft/server/packs/repository/PackRepository;", cancellable = true)
+    private static void createVanillaTrustedRepository_479143592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(479143592L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class ServerPacksSource_1085938396Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createVanillaTrustedRepository()Lnet/minecraft/server/packs/repository/PackRepository;", cancellable = true)
-    private static void createVanillaTrustedRepository_479143592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(479143592L))
+    @Inject(at = @At("HEAD"), method = "createPackRepository(Ljava/nio/file/Path;Lnet/minecraft/world/level/validation/DirectoryValidator;)Lnet/minecraft/server/packs/repository/PackRepository;", cancellable = true)
+    private static void createPackRepository_198355630(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(198355630L))
             info.setReturnValue(null);
     }
 

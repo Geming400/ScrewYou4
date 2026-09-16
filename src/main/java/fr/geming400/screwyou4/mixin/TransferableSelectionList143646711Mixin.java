@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.packs.TransferableSelectionList.class)
 public class TransferableSelectionList143646711Mixin {
-        @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
-    private void getRowWidth__1649574501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1649574501L))
-            info.setReturnValue(-937033146);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateList(Ljava/util/stream/Stream;Lnet/minecraft/client/gui/screens/packs/PackSelectionModel$EntryBase;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "updateList(Ljava/util/stream/Stream;Lnet/minecraft/client/gui/screens/packs/PackSelectionModel$EntryBase;)V", cancellable = true)
     private void updateList__266275588(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-266275588L))
             info.cancel();
@@ -23,6 +17,12 @@ public class TransferableSelectionList143646711Mixin {
     private void keyPressed_112593080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(112593080L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
+    private void getRowWidth__1649574501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1649574501L))
+            info.setReturnValue(-399814846);
     }
 
 

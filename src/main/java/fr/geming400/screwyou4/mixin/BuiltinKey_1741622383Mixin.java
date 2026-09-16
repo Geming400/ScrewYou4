@@ -22,7 +22,7 @@ public class BuiltinKey_1741622383Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1995992823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1995992823L))
-            info.setReturnValue(-1497600595);
+            info.setReturnValue(-1808748395);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -34,7 +34,7 @@ public class BuiltinKey_1741622383Mixin {
     @Inject(at = @At("HEAD"), method = "argCount()I", cancellable = true)
     private void argCount_1384760731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1384760731L))
-            info.setReturnValue(-11351777);
+            info.setReturnValue(-321498277);
     }
 
 

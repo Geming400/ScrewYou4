@@ -31,28 +31,10 @@ public class Optionull733774066Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "firstOrElse(Ljava/util/Collection;Ljava/util/function/Supplier;)Ljava/lang/Object;", cancellable = true)
-    private static void firstOrElse_1530272598(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1530272598L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapOrDefault(Ljava/lang/Object;Ljava/util/function/Function;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void mapOrDefault_1577072603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1577072603L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstOrDefault(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void firstOrDefault__1099849306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1099849306L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([J)Z", cancellable = true)
-    private static void isNullOrEmpty__757177033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-757177033L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([S)Z", cancellable = true)
+    private static void isNullOrEmpty__748865344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-748865344L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isNullOrEmpty([I)Z", cancellable = true)
@@ -61,10 +43,16 @@ public class Optionull733774066Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([S)Z", cancellable = true)
-    private static void isNullOrEmpty__748865344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-748865344L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([C)Z", cancellable = true)
+    private static void isNullOrEmpty__763641680(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763641680L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([J)Z", cancellable = true)
+    private static void isNullOrEmpty__757177033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-757177033L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isNullOrEmpty([F)Z", cancellable = true)
@@ -97,10 +85,22 @@ public class Optionull733774066Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isNullOrEmpty([C)Z", cancellable = true)
-    private static void isNullOrEmpty__763641680(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-763641680L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "mapOrDefault(Ljava/lang/Object;Ljava/util/function/Function;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void mapOrDefault_1577072603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1577072603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstOrElse(Ljava/util/Collection;Ljava/util/function/Supplier;)Ljava/lang/Object;", cancellable = true)
+    private static void firstOrElse_1530272598(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1530272598L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstOrDefault(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void firstOrDefault__1099849306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1099849306L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

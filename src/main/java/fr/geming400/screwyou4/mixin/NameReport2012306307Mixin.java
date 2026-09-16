@@ -19,16 +19,16 @@ public class NameReport2012306307Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private void createScreen__308586123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-308586123L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReportedName()Ljava/lang/String;", cancellable = true)
     private void getReportedName_406900864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406900864L))
             info.setReturnValue("");
+    }
+
+    @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private void createScreen__308586123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-308586123L))
+            info.setReturnValue(null);
     }
 
 

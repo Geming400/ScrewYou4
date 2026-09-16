@@ -10,24 +10,24 @@ public class RandomSupport988495214Mixin {
         @Inject(at = @At("HEAD"), method = "mixStafford13(J)J", cancellable = true)
     private static void mixStafford13__1163717082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1163717082L))
-            info.setReturnValue(8162236734927554182L);
+            info.setReturnValue(8162236734643432882L);
     }
 
     @Inject(at = @At("HEAD"), method = "generateUniqueSeed()J", cancellable = true)
     private static void generateUniqueSeed__1267244746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1267244746L))
-            info.setReturnValue(-4255952531503336083L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "upgradeSeedTo128bitUnmixed(J)Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)
-    private static void upgradeSeedTo128bitUnmixed_1886107170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1886107170L))
-            info.setReturnValue(null);
+            info.setReturnValue(-4255952531787457383L);
     }
 
     @Inject(at = @At("HEAD"), method = "seedFromHashOf(Ljava/lang/String;)Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)
     private static void seedFromHashOf_1136161390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1136161390L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "upgradeSeedTo128bitUnmixed(J)Lnet/minecraft/world/level/levelgen/RandomSupport$Seed128bit;", cancellable = true)
+    private static void upgradeSeedTo128bitUnmixed_1886107170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1886107170L))
             info.setReturnValue(null);
     }
 

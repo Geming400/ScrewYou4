@@ -7,10 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.SnowGolemRenderer.class)
 public class SnowGolemRenderer952039870Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SnowGolemRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_277573524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277573524L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SnowGolemRenderState;", cancellable = true)
+    private void createRenderState_322136995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(322136995L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SnowGolemRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1205210849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1205210849L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -19,10 +25,10 @@ public class SnowGolemRenderer952039870Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_389818063(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(389818063L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SnowGolemRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_277573524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(277573524L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
@@ -37,16 +43,10 @@ public class SnowGolemRenderer952039870Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1205210849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1205210849L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SnowGolemRenderState;", cancellable = true)
-    private void createRenderState_322136995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322136995L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.SnowGolemRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_389818063(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(389818063L))
+            info.cancel();
     }
 
 

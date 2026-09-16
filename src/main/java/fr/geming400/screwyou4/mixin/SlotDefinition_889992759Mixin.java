@@ -22,31 +22,31 @@ public class SlotDefinition_889992759Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1447344849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447344849L))
-            info.setReturnValue(-770128700);
+            info.setReturnValue(33397700);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_68785828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(68785828L))
-            info.setReturnValue(920637845);
+            info.setReturnValue(1724164245);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_97414979(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(97414979L))
-            info.setReturnValue(-172262449);
+            info.setReturnValue(631263951);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotIndex()I", cancellable = true)
+    private void slotIndex__1194494168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1194494168L))
+            info.setReturnValue(1244858846);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace()Ljava/util/function/Predicate;", cancellable = true)
     private void mayPlace__2081197274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2081197274L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "slotIndex()I", cancellable = true)
-    private void slotIndex__1194494168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1194494168L))
-            info.setReturnValue(441332446);
     }
 
 

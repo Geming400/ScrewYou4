@@ -13,9 +13,15 @@ public class Skeleton_1433334657Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setFreezeConverting(Z)V", cancellable = true)
-    private void setFreezeConverting_947466245(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(947466245L))
+    @Inject(at = @At("HEAD"), method = "canFreeze()Z", cancellable = true)
+    private void canFreeze_983300880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(983300880L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startFreezeConversion(I)V", cancellable = true)
+    private void startFreezeConversion_872415995(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(872415995L))
             info.cancel();
     }
 
@@ -25,16 +31,10 @@ public class Skeleton_1433334657Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "startFreezeConversion(I)V", cancellable = true)
-    private void startFreezeConversion_872415995(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(872415995L))
+    @Inject(at = @At("HEAD"), method = "setFreezeConverting(Z)V", cancellable = true)
+    private void setFreezeConverting_947466245(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(947466245L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canFreeze()Z", cancellable = true)
-    private void canFreeze_983300880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(983300880L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isShaking()Z", cancellable = true)

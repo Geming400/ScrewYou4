@@ -28,7 +28,7 @@ public class Blender_65796432Mixin {
     @Inject(at = @At("HEAD"), method = "blendDensity(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;D)D", cancellable = true)
     private void blendDensity_313180152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(313180152L))
-            info.setReturnValue(5.575803002908016E8D);
+            info.setReturnValue(3.2893210029080164E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getBiomeResolver(Lnet/minecraft/world/level/biome/BiomeResolver;)Lnet/minecraft/world/level/biome/BiomeResolver;", cancellable = true)
@@ -43,9 +43,9 @@ public class Blender_65796432Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "blendOffsetAndFactor(II)Lnet/minecraft/world/level/levelgen/blending/Blender$BlendingOutput;", cancellable = true)
-    private void blendOffsetAndFactor__1593634704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1593634704L))
+    @Inject(at = @At("HEAD"), method = "makeOldChunkDistanceGetter(Lnet/minecraft/world/level/levelgen/blending/BlendingData;Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/blending/Blender$DistanceGetter;", cancellable = true)
+    private static void makeOldChunkDistanceGetter__254746106(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-254746106L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class Blender_65796432Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "makeOldChunkDistanceGetter(Lnet/minecraft/world/level/levelgen/blending/BlendingData;Ljava/util/Map;)Lnet/minecraft/world/level/levelgen/blending/Blender$DistanceGetter;", cancellable = true)
-    private static void makeOldChunkDistanceGetter__254746106(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-254746106L))
+    @Inject(at = @At("HEAD"), method = "blendOffsetAndFactor(II)Lnet/minecraft/world/level/levelgen/blending/Blender$BlendingOutput;", cancellable = true)
+    private void blendOffsetAndFactor__1593634704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1593634704L))
             info.setReturnValue(null);
     }
 

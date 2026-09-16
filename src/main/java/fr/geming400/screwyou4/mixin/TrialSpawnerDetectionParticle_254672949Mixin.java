@@ -19,10 +19,10 @@ public class TrialSpawnerDetectionParticle_254672949Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
-    private void getQuadSize_1919524267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1919524267L))
-            info.setReturnValue(5.201741E8F);
+    @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
+    private void getLightCoords_271361326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(271361326L))
+            info.setReturnValue(287129250);
     }
 
     @Inject(at = @At("HEAD"), method = "getFacingCameraMode()Lnet/minecraft/client/particle/SingleQuadParticle$FacingCameraMode;", cancellable = true)
@@ -31,10 +31,10 @@ public class TrialSpawnerDetectionParticle_254672949Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
-    private void getLightCoords_271361326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(271361326L))
-            info.setReturnValue(-48489950);
+    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
+    private void getQuadSize_1919524267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1919524267L))
+            info.setReturnValue(8.557933E8F);
     }
 
 

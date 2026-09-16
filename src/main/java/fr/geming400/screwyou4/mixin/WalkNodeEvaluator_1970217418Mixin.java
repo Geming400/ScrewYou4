@@ -25,28 +25,10 @@ public class WalkNodeEvaluator_1970217418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
-    private void getNeighbors__2097223323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2097223323L))
-            info.setReturnValue(-760219687);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPathTypeStatic(Lnet/minecraft/world/level/pathfinder/PathfindingContext;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private static void getPathTypeStatic__1577544126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1577544126L))
-            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.DOOR_WOOD_CLOSED);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPathTypeStatic(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private static void getPathTypeStatic__1937094869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1937094869L))
-            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFloorLevel(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)D", cancellable = true)
     private static void getFloorLevel__2032288627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2032288627L))
-            info.setReturnValue(2.9410900078713864E8D);
+            info.setReturnValue(8.686334007871387E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
@@ -55,15 +37,15 @@ public class WalkNodeEvaluator_1970217418Mixin {
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
     }
 
+    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
+    private void getNeighbors__2097223323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2097223323L))
+            info.setReturnValue(-185695287);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
     private void getStart_225544375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(225544375L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPathTypeWithinMobBB(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Ljava/util/Set;", cancellable = true)
-    private void getPathTypeWithinMobBB__1222413472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1222413472L))
             info.setReturnValue(null);
     }
 
@@ -77,6 +59,24 @@ public class WalkNodeEvaluator_1970217418Mixin {
     private static void checkNeighbourBlocks_809223028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809223028L))
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.RAIL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPathTypeWithinMobBB(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Ljava/util/Set;", cancellable = true)
+    private void getPathTypeWithinMobBB__1222413472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1222413472L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPathTypeStatic(Lnet/minecraft/world/level/pathfinder/PathfindingContext;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private static void getPathTypeStatic__1577544126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1577544126L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.DOOR_WOOD_CLOSED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPathTypeStatic(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private static void getPathTypeStatic__1937094869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1937094869L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
     }
 
 

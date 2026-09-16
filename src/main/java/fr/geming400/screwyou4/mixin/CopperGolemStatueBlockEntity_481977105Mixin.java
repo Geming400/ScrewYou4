@@ -7,16 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.CopperGolemStatueBlockEntity.class)
 public class CopperGolemStatueBlockEntity_481977105Mixin {
-        @Inject(at = @At("HEAD"), method = "removeStatue(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/animal/golem/CopperGolem;", cancellable = true)
-    private void removeStatue__170384445(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-170384445L))
+        @Inject(at = @At("HEAD"), method = "getItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem__1933465926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1933465926L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createStatue(Lnet/minecraft/world/entity/animal/golem/CopperGolem;)V", cancellable = true)
-    private void createStatue_1620323810(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1620323810L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
@@ -31,9 +25,15 @@ public class CopperGolemStatueBlockEntity_481977105Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/CopperGolemStatueBlock$Pose;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem__1933465926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1933465926L))
+    @Inject(at = @At("HEAD"), method = "createStatue(Lnet/minecraft/world/entity/animal/golem/CopperGolem;)V", cancellable = true)
+    private void createStatue_1620323810(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1620323810L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeStatue(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/entity/animal/golem/CopperGolem;", cancellable = true)
+    private void removeStatue__170384445(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-170384445L))
             info.setReturnValue(null);
     }
 

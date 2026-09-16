@@ -25,21 +25,15 @@ public class ObjectiveCriteria1320146890Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
-    private static void registerCustom_249027095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(249027095L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;ZLnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
     private static void registerCustom_193481077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(193481077L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCustomCriteriaNames()Ljava/util/Set;", cancellable = true)
-    private static void getCustomCriteriaNames__864027742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-864027742L))
+    @Inject(at = @At("HEAD"), method = "registerCustom(Ljava/lang/String;)Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
+    private static void registerCustom_249027095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(249027095L))
             info.setReturnValue(null);
     }
 
@@ -47,6 +41,12 @@ public class ObjectiveCriteria1320146890Mixin {
     private void getDefaultRenderType__1091565532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091565532L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.INTEGER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCustomCriteriaNames()Ljava/util/Set;", cancellable = true)
+    private static void getCustomCriteriaNames__864027742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-864027742L))
+            info.setReturnValue(null);
     }
 
 

@@ -10,7 +10,7 @@ public class ThreeLayersFeatureSize_1610688581Mixin {
         @Inject(at = @At("HEAD"), method = "getSizeAtHeight(II)I", cancellable = true)
     private void getSizeAtHeight__536243367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-536243367L))
-            info.setReturnValue(1313924283);
+            info.setReturnValue(469054183);
     }
 
 

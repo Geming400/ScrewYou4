@@ -13,12 +13,6 @@ public class FlatLayerInfo_1508941480Mixin {
             info.setReturnValue("=tW$.mvz\u5DF8eksd_hnq4\u7096kp+e\u6CCA\u9AA9 kC]kt>\u9B87:n85H\u691C+C7aFc\"g5\uB500Yk*G<8FdD");
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__216675696(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-216675696L))
-            info.setReturnValue(1171810087);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState__175851761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-175851761L))
@@ -29,6 +23,12 @@ public class FlatLayerInfo_1508941480Mixin {
     private void heightLimited__195837600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-195837600L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__216675696(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-216675696L))
+            info.setReturnValue(890045987);
     }
 
 

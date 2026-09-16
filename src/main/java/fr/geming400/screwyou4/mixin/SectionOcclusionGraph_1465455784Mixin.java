@@ -25,42 +25,6 @@ public class SectionOcclusionGraph_1465455784Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "consumeFrustumUpdate()Z", cancellable = true)
-    private void consumeFrustumUpdate__1879394929(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1879394929L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addSectionsInFrustum(Lnet/minecraft/client/renderer/culling/Frustum;Ljava/util/List;Ljava/util/List;)V", cancellable = true)
-    private void addSectionsInFrustum__742292326(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-742292326L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "invalidateIfNeeded(Lnet/minecraft/client/renderer/state/level/CameraRenderState;I)V", cancellable = true)
-    private void invalidateIfNeeded__296690816(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-296690816L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateEmptySections(Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;)V", cancellable = true)
-    private void updateEmptySections_1164659848(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1164659848L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateLoadedChunks(Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;)V", cancellable = true)
-    private void updateLoadedChunks_273207590(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(273207590L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOctree()Lnet/minecraft/client/renderer/Octree;", cancellable = true)
-    private void getOctree_1419255183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1419255183L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "schedulePropagationFrom(Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection;)V", cancellable = true)
     private void schedulePropagationFrom_1214048385(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1214048385L))
@@ -76,6 +40,42 @@ public class SectionOcclusionGraph_1465455784Mixin {
     @Inject(at = @At("HEAD"), method = "expectedChunks()Lit/unimi/dsi/fastutil/longs/LongCollection;", cancellable = true)
     private void expectedChunks__1118638996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1118638996L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateLoadedChunks(Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;)V", cancellable = true)
+    private void updateLoadedChunks_273207590(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(273207590L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addSectionsInFrustum(Lnet/minecraft/client/renderer/culling/Frustum;Ljava/util/List;Ljava/util/List;)V", cancellable = true)
+    private void addSectionsInFrustum__742292326(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-742292326L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "consumeFrustumUpdate()Z", cancellable = true)
+    private void consumeFrustumUpdate__1879394929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1879394929L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "invalidateIfNeeded(Lnet/minecraft/client/renderer/state/level/CameraRenderState;I)V", cancellable = true)
+    private void invalidateIfNeeded__296690816(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-296690816L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateEmptySections(Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;Lit/unimi/dsi/fastutil/longs/LongOpenHashSet;)V", cancellable = true)
+    private void updateEmptySections_1164659848(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1164659848L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOctree()Lnet/minecraft/client/renderer/Octree;", cancellable = true)
+    private void getOctree_1419255183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1419255183L))
             info.setReturnValue(null);
     }
 

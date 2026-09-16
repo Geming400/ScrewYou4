@@ -28,19 +28,19 @@ public class ScoreboardValue_697126177Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1254478267(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1254478267L))
-            info.setReturnValue(-2018783789);
+            info.setReturnValue(-1723418789);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_467655356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(467655356L))
-            info.setReturnValue(3.789053E8F);
+            info.setReturnValue(6.742703E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale__1726591815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1726591815L))
-            info.setReturnValue(3.789053E8F);
+            info.setReturnValue(6.742703E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

@@ -25,6 +25,18 @@ public class CowRenderer_306693216Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_559864194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(559864194L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CowRenderState;", cancellable = true)
+    private void createRenderState_105840230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(105840230L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__2015759246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2015759246L))
@@ -37,15 +49,15 @@ public class CowRenderer_306693216Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1363780272(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1363780272L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState__255528592(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-255528592L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1363780272(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1363780272L))
             info.cancel();
     }
 
@@ -53,18 +65,6 @@ public class CowRenderer_306693216Mixin {
     private void extractRenderState__613569295(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-613569295L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_559864194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(559864194L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CowRenderState;", cancellable = true)
-    private void createRenderState_105840230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(105840230L))
-            info.setReturnValue(null);
     }
 
 

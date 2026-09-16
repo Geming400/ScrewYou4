@@ -19,16 +19,16 @@ public class SweetBerryBushBlock2003745297Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess__1690969204(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1690969204L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal_1146961136(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1146961136L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess__1690969204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1690969204L))
+            info.setReturnValue(true);
     }
 
 

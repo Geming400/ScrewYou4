@@ -13,16 +13,16 @@ public class EntityFluidInteraction1817428855Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getFluidHeight(Lnet/minecraft/tags/TagKey;)D", cancellable = true)
-    private void getFluidHeight_561895203(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(561895203L))
-            info.setReturnValue(7.577927008722436E8D);
-    }
-
     @Inject(at = @At("HEAD"), method = "isEyeInFluid(Lnet/minecraft/tags/TagKey;)Z", cancellable = true)
     private void isEyeInFluid_1560276060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1560276060L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFluidHeight(Lnet/minecraft/tags/TagKey;)D", cancellable = true)
+    private void getFluidHeight_561895203(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(561895203L))
+            info.setReturnValue(3.830663008722436E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "applyCurrentTo(Lnet/minecraft/tags/TagKey;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)

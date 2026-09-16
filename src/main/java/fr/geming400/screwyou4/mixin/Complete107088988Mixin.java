@@ -22,12 +22,18 @@ public class Complete107088988Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_664441079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(664441079L))
-            info.setReturnValue(-2053605706);
+            info.setReturnValue(-2090365206);
     }
 
     @Inject(at = @At("HEAD"), method = "dimensions()Lnet/minecraft/core/Registry;", cancellable = true)
     private void dimensions__251467206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-251467206L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
+    private void lifecycle_1979843768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1979843768L))
             info.setReturnValue(null);
     }
 
@@ -41,12 +47,6 @@ public class Complete107088988Mixin {
     private void specialWorldProperty_1792578396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1792578396L))
             info.setReturnValue(net.minecraft.world.level.storage.PrimaryLevelData.SpecialWorldProperty.FLAT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void lifecycle_1979843768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1979843768L))
-            info.setReturnValue(null);
     }
 
 

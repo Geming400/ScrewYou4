@@ -28,7 +28,7 @@ public class SimpleReloadInstance_17826146Mixin {
     @Inject(at = @At("HEAD"), method = "getActualProgress()F", cancellable = true)
     private void getActualProgress__1600768045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1600768045L))
-            info.setReturnValue(5.921681E8F);
+            info.setReturnValue(2.190638E8F);
     }
 
 

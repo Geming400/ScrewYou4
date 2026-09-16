@@ -22,13 +22,7 @@ public class ClampingLazyMaxIntRange173372969Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730725060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730725060L))
-            info.setReturnValue(1980572453);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue_788158646(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(788158646L))
-            info.setReturnValue(null);
+            info.setReturnValue(1927941753);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Integer;)Ljava/util/Optional;", cancellable = true)
@@ -37,27 +31,9 @@ public class ClampingLazyMaxIntRange173372969Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxSupplier()Ljava/util/function/IntSupplier;", cancellable = true)
-    private void maxSupplier__1770488413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1770488413L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
-    private void encodableMaxInclusive__153068258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-153068258L))
-            info.setReturnValue(2053666073);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createCycleButton()Z", cancellable = true)
-    private void createCycleButton_1545086020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1545086020L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier_530273240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(530273240L))
+    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
+    private void validateValue_788158646(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788158646L))
             info.setReturnValue(null);
     }
 
@@ -67,16 +43,40 @@ public class ClampingLazyMaxIntRange173372969Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive__1796466649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1796466649L))
-            info.setReturnValue(105868890);
-    }
-
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_518578325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(518578325L))
-            info.setReturnValue(-286241831);
+            info.setReturnValue(-338872531);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive__1796466649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1796466649L))
+            info.setReturnValue(53238190);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier_530273240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(530273240L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encodableMaxInclusive()I", cancellable = true)
+    private void encodableMaxInclusive__153068258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-153068258L))
+            info.setReturnValue(2001035373);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createCycleButton()Z", cancellable = true)
+    private void createCycleButton_1545086020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1545086020L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxSupplier()Ljava/util/function/IntSupplier;", cancellable = true)
+    private void maxSupplier__1770488413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1770488413L))
+            info.setReturnValue(null);
     }
 
 

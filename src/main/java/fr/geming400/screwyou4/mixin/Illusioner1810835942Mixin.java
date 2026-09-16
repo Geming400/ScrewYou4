@@ -7,28 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.illager.Illusioner.class)
 public class Illusioner1810835942Mixin {
-        @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__1109029364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1109029364L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep__852833787(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-852833787L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getCelebrateSound__870724022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-870724022L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
-    private void applyRaidBuffs_838363795(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(838363795L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__1109029364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1109029364L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "getIllusionOffsets(F)[Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -47,6 +35,18 @@ public class Illusioner1810835942Mixin {
     private void finalizeSpawn__1734033045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1734033045L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getCelebrateSound__870724022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-870724022L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyRaidBuffs(Lnet/minecraft/server/level/ServerLevel;IZ)V", cancellable = true)
+    private void applyRaidBuffs_838363795(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(838363795L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getArmPose()Lnet/minecraft/world/entity/monster/illager/AbstractIllager$IllagerArmPose;", cancellable = true)

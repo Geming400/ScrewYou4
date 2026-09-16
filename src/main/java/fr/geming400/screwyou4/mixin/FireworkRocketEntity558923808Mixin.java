@@ -13,6 +13,24 @@ public class FireworkRocketEntity558923808Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_64758477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(64758477L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
+    private void isAttackable_1399741675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1399741675L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1312671924(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1312671924L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "shouldRender(DDD)Z", cancellable = true)
     private void shouldRender_711666292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(711666292L))
@@ -25,18 +43,6 @@ public class FireworkRocketEntity558923808Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1312671924(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1312671924L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
-    private void isAttackable_1399741675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1399741675L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "calculateHorizontalHurtKnockbackDirection(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/damagesource/DamageSource;)Lit/unimi/dsi/fastutil/doubles/DoubleDoubleImmutablePair;", cancellable = true)
     private void calculateHorizontalHurtKnockbackDirection_1657170200(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1657170200L))
@@ -47,12 +53,6 @@ public class FireworkRocketEntity558923808Mixin {
     private void isShotAtAngle__1768852773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1768852773L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_64758477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(64758477L))
-            info.setReturnValue(null);
     }
 
 

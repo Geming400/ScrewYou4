@@ -28,19 +28,19 @@ public class Keyframe_247562236Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_804914326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(804914326L))
-            info.setReturnValue(-147860760);
+            info.setReturnValue(-56762460);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
+    private void ticks__1628533461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1628533461L))
+            info.setReturnValue(559203716);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_599211048(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599211048L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ticks()I", cancellable = true)
-    private void ticks__1628533461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1628533461L))
-            info.setReturnValue(468105416);
     }
 
 

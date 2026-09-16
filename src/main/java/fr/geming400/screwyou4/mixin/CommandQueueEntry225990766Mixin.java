@@ -22,7 +22,7 @@ public class CommandQueueEntry225990766Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_783342857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(783342857L))
-            info.setReturnValue(779946933);
+            info.setReturnValue(1236830333);
     }
 
     @Inject(at = @At("HEAD"), method = "execute(Lnet/minecraft/commands/execution/ExecutionContext;)V", cancellable = true)

@@ -22,25 +22,25 @@ public class EulerXYZRotation_1841319580Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1896295626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1896295626L))
-            info.setReturnValue(1676216590);
+            info.setReturnValue(1233389890);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x_1020109766(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1020109766L))
-            info.setReturnValue(5.152232E8F);
+            info.setReturnValue(7.23965E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "z()F", cancellable = true)
     private void z_1077368068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1077368068L))
-            info.setReturnValue(5.152232E8F);
+            info.setReturnValue(7.23965E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y_1048738917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1048738917L))
-            info.setReturnValue(5.152232E8F);
+            info.setReturnValue(7.23965E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)

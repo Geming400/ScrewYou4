@@ -22,7 +22,7 @@ public class BlockOutlineRenderState_824388568Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1381740658(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1381740658L))
-            info.setReturnValue(1737429171);
+            info.setReturnValue(1708901971);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

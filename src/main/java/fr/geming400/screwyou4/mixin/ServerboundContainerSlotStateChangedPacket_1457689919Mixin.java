@@ -28,7 +28,7 @@ public class ServerboundContainerSlotStateChangedPacket_1457689919Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2015042009(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2015042009L))
-            info.setReturnValue(925910435);
+            info.setReturnValue(1009456635);
     }
 
     @Inject(at = @At("HEAD"), method = "newState()Z", cancellable = true)
@@ -52,13 +52,13 @@ public class ServerboundContainerSlotStateChangedPacket_1457689919Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_547274536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(547274536L))
-            info.setReturnValue(70828256);
+            info.setReturnValue(154374456);
     }
 
     @Inject(at = @At("HEAD"), method = "slotId()I", cancellable = true)
     private void slotId_1726114571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726114571L))
-            info.setReturnValue(1521929123);
+            info.setReturnValue(1605475323);
     }
 
 

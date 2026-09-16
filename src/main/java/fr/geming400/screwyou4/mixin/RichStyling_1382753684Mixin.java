@@ -13,6 +13,12 @@ public class RichStyling_1382753684Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "keyStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
+    private void keyStyle_467935620(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(467935620L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "numberStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
     private void numberStyle_2113386074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2113386074L))
@@ -22,12 +28,6 @@ public class RichStyling_1382753684Mixin {
     @Inject(at = @At("HEAD"), method = "stringStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
     private void stringStyle__1358756718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1358756718L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyStyle()Lnet/minecraft/network/chat/Style;", cancellable = true)
-    private void keyStyle_467935620(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(467935620L))
             info.setReturnValue(null);
     }
 

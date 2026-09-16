@@ -22,7 +22,7 @@ public class BlockColumnConfiguration_1278812045Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1836164135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1836164135L))
-            info.setReturnValue(-1760895261);
+            info.setReturnValue(-2069094461);
     }
 
     @Inject(at = @At("HEAD"), method = "layer(Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/configurations/BlockColumnConfiguration$Layer;", cancellable = true)

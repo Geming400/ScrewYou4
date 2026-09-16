@@ -13,15 +13,15 @@ public class AreaEffectCloud870127689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
-    private void getOwner__1373346487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1373346487L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void getOwner_1315709938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1315709938L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOwner()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
+    private void getOwner__1373346487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1373346487L))
             info.setReturnValue(null);
     }
 
@@ -40,19 +40,19 @@ public class AreaEffectCloud870127689Mixin {
     @Inject(at = @At("HEAD"), method = "getDuration()I", cancellable = true)
     private void getDuration__160056987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-160056987L))
-            info.setReturnValue(333670146);
+            info.setReturnValue(1044060546);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1576862037(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1576862037L))
+    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
+    private void addEffect__586187328(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-586187328L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "refreshDimensions()V", cancellable = true)
-    private void refreshDimensions__1916376332(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1916376332L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_54840332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(54840332L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getPistonPushReaction()Lnet/minecraft/world/level/material/PushReaction;", cancellable = true)
@@ -67,58 +67,22 @@ public class AreaEffectCloud870127689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_54840332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(54840332L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addEffect(Lnet/minecraft/world/effect/MobEffectInstance;)V", cancellable = true)
-    private void addEffect__586187328(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-586187328L))
+    @Inject(at = @At("HEAD"), method = "refreshDimensions()V", cancellable = true)
+    private void refreshDimensions__1916376332(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1916376332L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRadius()F", cancellable = true)
-    private void getRadius_1697892452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1697892452L))
-            info.setReturnValue(2.171717E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isWaiting()Z", cancellable = true)
-    private void isWaiting_1848472093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1848472093L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRadius(F)V", cancellable = true)
-    private void setRadius_1696890246(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1696890246L))
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1576862037(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1576862037L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRadiusPerTick()F", cancellable = true)
-    private void getRadiusPerTick_367608442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(367608442L))
-            info.setReturnValue(2.171717E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPotionDurationScale(F)V", cancellable = true)
-    private void setPotionDurationScale_151905715(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(151905715L))
+    @Inject(at = @At("HEAD"), method = "setPotionContents(Lnet/minecraft/world/item/alchemy/PotionContents;)V", cancellable = true)
+    private void setPotionContents_2106165532(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2106165532L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDuration(I)V", cancellable = true)
-    private void setDuration__1913191669(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1913191669L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDurationOnUse()I", cancellable = true)
-    private void getDurationOnUse__245609807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-245609807L))
-            info.setReturnValue(1583543115);
     }
 
     @Inject(at = @At("HEAD"), method = "getParticle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
@@ -133,21 +97,9 @@ public class AreaEffectCloud870127689Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRadiusOnUse()F", cancellable = true)
-    private void getRadiusOnUse__671203732(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-671203732L))
-            info.setReturnValue(2.171717E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPotionContents(Lnet/minecraft/world/item/alchemy/PotionContents;)V", cancellable = true)
-    private void setPotionContents_2106165532(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2106165532L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRadiusPerTick(F)V", cancellable = true)
-    private void setRadiusPerTick__484832616(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-484832616L))
+    @Inject(at = @At("HEAD"), method = "setPotionDurationScale(F)V", cancellable = true)
+    private void setPotionDurationScale_151905715(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(151905715L))
             info.cancel();
     }
 
@@ -157,22 +109,70 @@ public class AreaEffectCloud870127689Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setWaitTime(I)V", cancellable = true)
-    private void setWaitTime_1105352921(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1105352921L))
+    @Inject(at = @At("HEAD"), method = "setDuration(I)V", cancellable = true)
+    private void setDuration__1913191669(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1913191669L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWaitTime()I", cancellable = true)
-    private void getWaitTime__201231913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-201231913L))
-            info.setReturnValue(1615114214);
     }
 
     @Inject(at = @At("HEAD"), method = "setRadiusOnUse(F)V", cancellable = true)
     private void setRadiusOnUse__252323354(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-252323354L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWaitTime()I", cancellable = true)
+    private void getWaitTime__201231913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-201231913L))
+            info.setReturnValue(-1969462682);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadiusPerTick()F", cancellable = true)
+    private void getRadiusPerTick_367608442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(367608442L))
+            info.setReturnValue(9.275621E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadiusOnUse()F", cancellable = true)
+    private void getRadiusOnUse__671203732(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-671203732L))
+            info.setReturnValue(9.275621E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRadiusPerTick(F)V", cancellable = true)
+    private void setRadiusPerTick__484832616(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-484832616L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWaitTime(I)V", cancellable = true)
+    private void setWaitTime_1105352921(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1105352921L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDurationOnUse()I", cancellable = true)
+    private void getDurationOnUse__245609807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-245609807L))
+            info.setReturnValue(-2001033781);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRadius(F)V", cancellable = true)
+    private void setRadius_1696890246(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1696890246L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRadius()F", cancellable = true)
+    private void getRadius_1697892452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1697892452L))
+            info.setReturnValue(9.275621E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isWaiting()Z", cancellable = true)
+    private void isWaiting_1848472093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1848472093L))
+            info.setReturnValue(true);
     }
 
 

@@ -22,13 +22,13 @@ public class PlainMessage_1449202691Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2006554781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2006554781L))
-            info.setReturnValue(-827799090);
+            info.setReturnValue(-942853190);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__190945310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-190945310L))
-            info.setReturnValue(-733588873);
+            info.setReturnValue(-848642973);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/network/chat/Component;", cancellable = true)

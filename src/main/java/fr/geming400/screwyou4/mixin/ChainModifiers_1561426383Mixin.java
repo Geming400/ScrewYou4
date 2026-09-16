@@ -28,7 +28,7 @@ public class ChainModifiers_1561426383Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2118778473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2118778473L))
-            info.setReturnValue(-709570550);
+            info.setReturnValue(-140512450);
     }
 
     @Inject(at = @At("HEAD"), method = "setForked()Lnet/minecraft/commands/execution/ChainModifiers;", cancellable = true)
@@ -37,9 +37,9 @@ public class ChainModifiers_1561426383Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isReturn()Z", cancellable = true)
-    private void isReturn__1387877173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1387877173L))
+    @Inject(at = @At("HEAD"), method = "isForked()Z", cancellable = true)
+    private void isForked_1163304890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1163304890L))
             info.setReturnValue(true);
     }
 
@@ -49,9 +49,9 @@ public class ChainModifiers_1561426383Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isForked()Z", cancellable = true)
-    private void isForked_1163304890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1163304890L))
+    @Inject(at = @At("HEAD"), method = "isReturn()Z", cancellable = true)
+    private void isReturn__1387877173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1387877173L))
             info.setReturnValue(true);
     }
 

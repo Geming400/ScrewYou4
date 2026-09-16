@@ -28,7 +28,7 @@ public class ServerboundAcceptCodeOfConductPacket_1778057537Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1959557669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1959557669L))
-            info.setReturnValue(-742896070);
+            info.setReturnValue(-774346970);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

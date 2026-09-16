@@ -16,7 +16,7 @@ public class BinaryHeap586018805Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1029750394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1029750394L))
-            info.setReturnValue(-2000050278);
+            info.setReturnValue(-1249804778);
     }
 
     @Inject(at = @At("HEAD"), method = "insert(Lnet/minecraft/world/level/pathfinder/Node;)Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
@@ -49,16 +49,16 @@ public class BinaryHeap586018805Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeap()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getHeap_1427342232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1427342232L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "changeCost(Lnet/minecraft/world/level/pathfinder/Node;F)V", cancellable = true)
     private void changeCost__286401836(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-286401836L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeap()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getHeap_1427342232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1427342232L))
+            info.setReturnValue(null);
     }
 
 

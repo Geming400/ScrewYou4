@@ -13,15 +13,15 @@ public class SmithingScreen_1859823977Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__1448263678(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1448263678L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "slotChanged(Lnet/minecraft/world/inventory/AbstractContainerMenu;ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void slotChanged__1244664602(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1244664602L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__1448263678(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1448263678L))
             info.cancel();
     }
 

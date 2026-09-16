@@ -13,16 +13,16 @@ public class SpawnPlacements_540099717Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "checkSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkSpawnRules__15210123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-15210123L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSpawnPositionOk(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isSpawnPositionOk__1934714608(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1934714608L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkSpawnRules__15210123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-15210123L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeightmapType(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/levelgen/Heightmap$Types;", cancellable = true)

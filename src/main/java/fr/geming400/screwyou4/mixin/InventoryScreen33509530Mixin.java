@@ -19,15 +19,15 @@ public class InventoryScreen33509530Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractEntityInInventoryFollowsMouse(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private static void extractEntityInInventoryFollowsMouse_628125069(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(628125069L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_1020389172(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1020389172L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractEntityInInventoryFollowsMouse(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIIIFFFLnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private static void extractEntityInInventoryFollowsMouse_628125069(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(628125069L))
             info.cancel();
     }
 

@@ -31,15 +31,15 @@ public class ClientRecipeBook_33297866Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "willHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
+    private void willHighlight__1382982663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1382982663L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "removeHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)V", cancellable = true)
     private void removeHighlight__1954792317(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1954792317L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "rebuildCollections()V", cancellable = true)
-    private void rebuildCollections_742357570(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(742357570L))
             info.cancel();
     }
 
@@ -55,10 +55,10 @@ public class ClientRecipeBook_33297866Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "willHighlight(Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;)Z", cancellable = true)
-    private void willHighlight__1382982663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1382982663L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "rebuildCollections()V", cancellable = true)
+    private void rebuildCollections_742357570(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(742357570L))
+            info.cancel();
     }
 
 

@@ -22,12 +22,18 @@ public class GlyphRenderState_1329601275Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1886953365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1886953365L))
-            info.setReturnValue(886824680);
+            info.setReturnValue(944012280);
     }
 
     @Inject(at = @At("HEAD"), method = "bounds()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
     private void bounds__1137331075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1137331075L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
+    private void pose_1250332048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1250332048L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +49,9 @@ public class GlyphRenderState_1329601275Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
-    private void pose_1250332048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1250332048L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private void textureSetup_1688968851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1688968851L))
+    @Inject(at = @At("HEAD"), method = "renderable()Lnet/minecraft/client/gui/font/TextRenderable;", cancellable = true)
+    private void renderable__1286438689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1286438689L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class GlyphRenderState_1329601275Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderable()Lnet/minecraft/client/gui/font/TextRenderable;", cancellable = true)
-    private void renderable__1286438689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1286438689L))
+    @Inject(at = @At("HEAD"), method = "textureSetup()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private void textureSetup_1688968851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1688968851L))
             info.setReturnValue(null);
     }
 

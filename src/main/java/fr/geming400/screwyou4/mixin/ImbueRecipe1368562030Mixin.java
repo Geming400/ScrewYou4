@@ -25,6 +25,12 @@ public class ImbueRecipe1368562030Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1933448354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1933448354L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1358349681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1358349681L))
@@ -34,12 +40,6 @@ public class ImbueRecipe1368562030Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1418736637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1418736637L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1933448354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1933448354L))
             info.setReturnValue(null);
     }
 

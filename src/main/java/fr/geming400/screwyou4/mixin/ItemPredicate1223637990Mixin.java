@@ -22,7 +22,7 @@ public class ItemPredicate1223637990Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1780990081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1780990081L))
-            info.setReturnValue(-261707133);
+            info.setReturnValue(-736344733);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemInstance;)Z", cancellable = true)

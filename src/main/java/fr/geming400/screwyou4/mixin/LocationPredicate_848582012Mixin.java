@@ -22,7 +22,7 @@ public class LocationPredicate_848582012Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1405934102(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1405934102L))
-            info.setReturnValue(1312067040);
+            info.setReturnValue(1132211640);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Ljava/util/Optional;", cancellable = true)
@@ -43,6 +43,18 @@ public class LocationPredicate_848582012Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
+    private void dimension_2063131279(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2063131279L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
+    private void fluid__431504653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-431504653L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "light()Ljava/util/Optional;", cancellable = true)
     private void light_712022591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(712022591L))
@@ -58,18 +70,6 @@ public class LocationPredicate_848582012Mixin {
     @Inject(at = @At("HEAD"), method = "canSeeSky()Ljava/util/Optional;", cancellable = true)
     private void canSeeSky__555941657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-555941657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dimension()Ljava/util/Optional;", cancellable = true)
-    private void dimension_2063131279(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2063131279L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fluid()Ljava/util/Optional;", cancellable = true)
-    private void fluid__431504653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-431504653L))
             info.setReturnValue(null);
     }
 

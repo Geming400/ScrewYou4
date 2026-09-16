@@ -25,16 +25,22 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
-    private void getEntityId__582039727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-582039727L))
-            info.setReturnValue(1442949248);
+    @Inject(at = @At("HEAD"), method = "getEffect()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getEffect__387025580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-387025580L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
     private void getEffectDurationTicks__1661035126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1661035126L))
-            info.setReturnValue(1371541360);
+            info.setReturnValue(1334767060);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
+    private void getEffectAmplifier__1218937541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1218937541L))
+            info.setReturnValue(824029805);
     }
 
     @Inject(at = @At("HEAD"), method = "isEffectAmbient()Z", cancellable = true)
@@ -55,22 +61,16 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
-    private void getEffectAmplifier__1218937541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1218937541L))
-            info.setReturnValue(860804105);
+    @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
+    private void getEntityId__582039727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-582039727L))
+            info.setReturnValue(1406174948);
     }
 
     @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
     private void effectShowsIcon__88486120(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-88486120L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffect()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getEffect__387025580(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-387025580L))
-            info.setReturnValue(null);
     }
 
 

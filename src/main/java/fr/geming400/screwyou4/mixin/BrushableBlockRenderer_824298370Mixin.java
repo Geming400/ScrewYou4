@@ -19,6 +19,18 @@ public class BrushableBlockRenderer_824298370Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1207061194(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1207061194L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BrushableBlockRenderState;", cancellable = true)
+    private void createRenderState_433814973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(433814973L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
     private void extractRenderState__1525458247(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1525458247L))
@@ -29,18 +41,6 @@ public class BrushableBlockRenderer_824298370Mixin {
     private void extractRenderState__965088496(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-965088496L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BrushableBlockRenderState;", cancellable = true)
-    private void createRenderState_433814973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(433814973L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1207061194(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1207061194L))
-            info.setReturnValue(null);
     }
 
 

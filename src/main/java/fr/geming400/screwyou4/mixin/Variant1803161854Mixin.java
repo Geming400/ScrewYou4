@@ -19,16 +19,16 @@ public class Variant1803161854Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.cow.MushroomCow.Variant.RED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_1891370476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1891370476L))
-            info.setReturnValue("9C\"\u5B52!Z|]DG\uA12FS?E\"aGOY/#Y*edo\u2C99tXskkB\u2112$K#-\uFEE4>?A\u1BF3vFf\u07F8?Pv}fc[s|MM:IRAf7E\uD195\u233Fbv!uR$jr'xOGL\u44B0*/m");
-    }
-
     @Inject(at = @At("HEAD"), method = "getBlockState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState_118368614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(118368614L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1891370476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1891370476L))
+            info.setReturnValue("9C\"\u5B52!Z|]DG\uA12FS?E\"aGOY/#Y*edo\u2C99tXskkB\u2112$K#-\uFEE4>?A\u1BF3vFf\u07F8?Pv}fc[s|MM:IRAf7E\uD195\u233Fbv!uR$jr'xOGL\u44B0*/m");
     }
 
 

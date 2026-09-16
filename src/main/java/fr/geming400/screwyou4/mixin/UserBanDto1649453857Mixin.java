@@ -22,7 +22,7 @@ public class UserBanDto1649453857Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2088161348(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2088161348L))
-            info.setReturnValue(1621545408);
+            info.setReturnValue(1741549508);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Lnet/minecraft/server/players/UserBanListEntry;)Lnet/minecraft/server/jsonrpc/methods/BanlistService$UserBanDto;", cancellable = true)

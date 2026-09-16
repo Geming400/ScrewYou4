@@ -25,6 +25,12 @@ public class MusicToastDisplayState_311786731Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_399995352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(399995352L))
+            info.setReturnValue("L@V*01<e\u7BFD!_\u19BDMa\",\uC4D6\uFC9Dcr.Ywm!IuFeoi<Sg+{4\u83C8{1m\u2822G\uCB2B\u2252q5\uCDFE@:H\uA7D3>1M\u7847p'R.0\u4DA5fm{,aQ`&9 s\u096A5A(N,+&(X");
+    }
+
     @Inject(at = @At("HEAD"), method = "renderToast()Z", cancellable = true)
     private void renderToast__498968816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-498968816L))
@@ -41,12 +47,6 @@ public class MusicToastDisplayState_311786731Mixin {
     private void tooltip__387933760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-387933760L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_399995352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(399995352L))
-            info.setReturnValue("L@V*01<e\u7BFD!_\u19BDMa\",\uC4D6\uFC9Dcr.Ywm!IuFeoi<Sg+{4\u83C8{1m\u2822G\uCB2B\u2252q5\uCDFE@:H\uA7D3>1M\u7847p'R.0\u4DA5fm{,aQ`&9 s\u096A5A(N,+&(X");
     }
 
 

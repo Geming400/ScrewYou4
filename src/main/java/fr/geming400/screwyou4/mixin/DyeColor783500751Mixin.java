@@ -34,7 +34,7 @@ public class DyeColor783500751Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__874822844(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-874822844L))
-            info.setReturnValue(-1041692920);
+            info.setReturnValue(-969972920);
     }
 
     @Inject(at = @At("HEAD"), method = "byName(Ljava/lang/String;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
@@ -49,16 +49,16 @@ public class DyeColor783500751Mixin {
             info.setReturnValue(net.minecraft.world.item.DyeColor.ORANGE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMapColor()Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
-    private void getMapColor__1159754493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1159754493L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_871709373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(871709373L))
             info.setReturnValue("\u911C{!&X\"i`YBYp\u3B45o>A\u443F_-.7;?\u9E39 tP\u9638kY\u44D7<L,x\uFB53R;oQ_UXdD5S#$k{\u364F,j;GI\u90BEX}>KqUlfTNc[:\u5423\u24B5*T2#0^\u0B6AW6\u52139'2ZCeR:");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMapColor()Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
+    private void getMapColor__1159754493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1159754493L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTerracottaColor()Lnet/minecraft/world/level/material/MapColor;", cancellable = true)
@@ -67,34 +67,34 @@ public class DyeColor783500751Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMixedColor(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private static void getMixedColor__1616567200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1616567200L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.BROWN);
+    @Inject(at = @At("HEAD"), method = "getFireworkColor()I", cancellable = true)
+    private void getFireworkColor_1652823503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1652823503L))
+            info.setReturnValue(-1355143853);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureDiffuseColor()I", cancellable = true)
     private void getTextureDiffuseColor_1285066959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1285066959L))
-            info.setReturnValue(1650919340);
+            info.setReturnValue(1722639340);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextColor()I", cancellable = true)
     private void getTextColor_1659513909(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1659513909L))
-            info.setReturnValue(1641886199);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFireworkColor()I", cancellable = true)
-    private void getFireworkColor_1652823503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1652823503L))
-            info.setReturnValue(-1426863853);
+            info.setReturnValue(1713606199);
     }
 
     @Inject(at = @At("HEAD"), method = "byFireworkColor(I)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private static void byFireworkColor_1085242123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1085242123L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.PURPLE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMixedColor(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private static void getMixedColor__1616567200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1616567200L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.BROWN);
     }
 
 

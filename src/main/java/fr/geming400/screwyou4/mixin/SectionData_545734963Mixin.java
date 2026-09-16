@@ -22,13 +22,13 @@ public class SectionData_545734963Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1103087053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1103087053L))
-            info.setReturnValue(-977309301);
+            info.setReturnValue(-1117459801);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y__246842817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-246842817L))
-            info.setReturnValue(1723243825);
+            info.setReturnValue(1583093325);
     }
 
     @Inject(at = @At("HEAD"), method = "skyLight()Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)

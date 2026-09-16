@@ -22,7 +22,7 @@ public class Type712954010Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1270306101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1270306101L))
-            info.setReturnValue(-1113121768);
+            info.setReturnValue(-1023359868);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

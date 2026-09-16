@@ -13,12 +13,6 @@ public class CloudRenderer_223641366Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_37357494(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(37357494L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "render(ILnet/minecraft/client/CloudStatus;FILnet/minecraft/world/phys/Vec3;JF)V", cancellable = true)
     private void render_1188573350(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1188573350L))
@@ -28,6 +22,12 @@ public class CloudRenderer_223641366Mixin {
     @Inject(at = @At("HEAD"), method = "markForRebuild()V", cancellable = true)
     private void markForRebuild_456415081(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(456415081L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_37357494(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(37357494L))
             info.cancel();
     }
 

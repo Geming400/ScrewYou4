@@ -22,19 +22,19 @@ public class TriggerInstanceKey1066911724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1624263815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1624263815L))
-            info.setReturnValue(-1914709637);
-    }
-
-    @Inject(at = @At("HEAD"), method = "criterion()Ljava/lang/String;", cancellable = true)
-    private void criterion_1021245270(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1021245270L))
-            info.setReturnValue("1\u06C2k{tNG(`;h&d\u9C42?wn4}@!H->Lt$5");
+            info.setReturnValue(-1436094137);
     }
 
     @Inject(at = @At("HEAD"), method = "advancement()Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
     private void advancement__751392362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-751392362L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "criterion()Ljava/lang/String;", cancellable = true)
+    private void criterion_1021245270(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1021245270L))
+            info.setReturnValue("1\u06C2k{tNG(`;h&d\u9C42?wn4}@!H->Lt$5");
     }
 
 

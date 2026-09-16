@@ -22,7 +22,7 @@ public class PostChainConfig_494373051Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1051725141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1051725141L))
-            info.setReturnValue(1599604920);
+            info.setReturnValue(1342566320);
     }
 
     @Inject(at = @At("HEAD"), method = "passes()Ljava/util/List;", cancellable = true)

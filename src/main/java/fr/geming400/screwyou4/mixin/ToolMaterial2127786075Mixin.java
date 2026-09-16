@@ -22,25 +22,25 @@ public class ToolMaterial2127786075Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1609829130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1609829130L))
-            info.setReturnValue(-663127054);
-    }
-
-    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
-    private void durability_378128344(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(378128344L))
-            info.setReturnValue(1579122727);
+            info.setReturnValue(-14225154);
     }
 
     @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
     private void speed__1587917033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1587917033L))
-            info.setReturnValue(2.788741E8F);
+            info.setReturnValue(9.27776E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "incorrectBlocksForDrops()Lnet/minecraft/tags/TagKey;", cancellable = true)
     private void incorrectBlocksForDrops_1646546802(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1646546802L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "durability()I", cancellable = true)
+    private void durability_378128344(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(378128344L))
+            info.setReturnValue(-2066942669);
     }
 
     @Inject(at = @At("HEAD"), method = "applyToolProperties(Lnet/minecraft/world/item/Item$Properties;Lnet/minecraft/tags/TagKey;FFF)Lnet/minecraft/world/item/Item$Properties;", cancellable = true)
@@ -61,16 +61,16 @@ public class ToolMaterial2127786075Mixin {
             info.setReturnValue(new net.minecraft.world.item.Item.Properties());
     }
 
-    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
-    private void attackDamageBonus__18734730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-18734730L))
-            info.setReturnValue(2.788741E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "enchantmentValue()I", cancellable = true)
     private void enchantmentValue__1881242617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1881242617L))
-            info.setReturnValue(1795409035);
+            info.setReturnValue(-1850656361);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attackDamageBonus()F", cancellable = true)
+    private void attackDamageBonus__18734730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-18734730L))
+            info.setReturnValue(9.27776E8F);
     }
 
 

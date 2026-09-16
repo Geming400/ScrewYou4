@@ -19,16 +19,16 @@ public class JointType1048987193Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_1137195815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1137195815L))
-            info.setReturnValue("g\uD5F7-lm(I_Yk@\uD693Rt9e]\uCDF8gJ_Flw/ir\u4989?]e7Y[\u5B45,tPk@(7V@Tx`/i=B");
-    }
-
     @Inject(at = @At("HEAD"), method = "getTranslatedName()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getTranslatedName_631643011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(631643011L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1137195815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1137195815L))
+            info.setReturnValue("g\uD5F7-lm(I_Yk@\uD693Rt9e]\uCDF8gJ_Flw/ir\u4989?]e7Y[\u5B45,tPk@(7V@Tx`/i=B");
     }
 
 

@@ -25,6 +25,18 @@ public class ChickenRenderer1797151690Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_2050322669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2050322669L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;", cancellable = true)
+    private void createRenderState_748319099(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(748319099L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ChickenRenderState());
+    }
+
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__525300771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-525300771L))
@@ -53,18 +65,6 @@ public class ChickenRenderer1797151690Mixin {
     private void extractRenderState_982395294(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(982395294L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_2050322669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2050322669L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;", cancellable = true)
-    private void createRenderState_748319099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(748319099L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.ChickenRenderState());
     }
 
 

@@ -25,15 +25,15 @@ public class HexColorArgument855168207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_103610416(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(103610416L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1715185090(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1715185090L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_103610416(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(103610416L))
             info.setReturnValue(null);
     }
 

@@ -28,7 +28,7 @@ public class UpdateResult38592196Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_595944287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595944287L))
-            info.setReturnValue(646770412);
+            info.setReturnValue(1476893912);
     }
 
     @Inject(at = @At("HEAD"), method = "providerId()Ljava/lang/String;", cancellable = true)
@@ -40,7 +40,7 @@ public class UpdateResult38592196Mixin {
     @Inject(at = @At("HEAD"), method = "writes()I", cancellable = true)
     private void writes__2000373578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2000373578L))
-            info.setReturnValue(978347401);
+            info.setReturnValue(1808470901);
     }
 
 

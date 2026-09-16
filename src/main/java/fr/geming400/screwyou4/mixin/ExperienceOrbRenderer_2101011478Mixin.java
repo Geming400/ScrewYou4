@@ -19,16 +19,10 @@ public class ExperienceOrbRenderer_2101011478Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1538789670(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1538789670L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/ExperienceOrb;Lnet/minecraft/client/renderer/entity/state/ExperienceOrbRenderState;F)V", cancellable = true)
-    private void extractRenderState__1635910090(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1635910090L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__1940784840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940784840L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ExperienceOrbRenderState;", cancellable = true)
@@ -37,10 +31,16 @@ public class ExperienceOrbRenderer_2101011478Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.ExperienceOrbRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__1940784840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1940784840L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/ExperienceOrb;Lnet/minecraft/client/renderer/entity/state/ExperienceOrbRenderState;F)V", cancellable = true)
+    private void extractRenderState__1635910090(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1635910090L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1538789670(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1538789670L))
+            info.cancel();
     }
 
 

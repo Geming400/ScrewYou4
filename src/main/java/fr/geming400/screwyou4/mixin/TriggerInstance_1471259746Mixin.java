@@ -22,7 +22,7 @@ public class TriggerInstance_1471259746Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2028611836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028611836L))
-            info.setReturnValue(421833860);
+            info.setReturnValue(1275258060);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/phys/Vec3;I)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance_1471259746Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_240606704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(240606704L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "levitated(Lnet/minecraft/advancements/predicates/DistancePredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void levitated_450950626(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(450950626L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_240606704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(240606704L))
             info.setReturnValue(null);
     }
 

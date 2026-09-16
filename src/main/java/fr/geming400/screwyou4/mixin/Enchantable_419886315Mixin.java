@@ -10,7 +10,7 @@ public class Enchantable_419886315Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__1884784641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1884784641L))
-            info.setReturnValue(617041891);
+            info.setReturnValue(1107136591);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Enchantable_419886315Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_977238405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(977238405L))
-            info.setReturnValue(-297437707);
+            info.setReturnValue(192656993);
     }
 
 

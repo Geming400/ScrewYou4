@@ -22,7 +22,7 @@ public class TriggerInstance_1927057157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1810558049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1810558049L))
-            info.setReturnValue(-1850059579);
+            info.setReturnValue(-1877040779);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -37,12 +37,6 @@ public class TriggerInstance_1927057157Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_696404115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(696404115L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "usedTotem(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void usedTotem__374783140(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-374783140L))
@@ -52,6 +46,12 @@ public class TriggerInstance_1927057157Mixin {
     @Inject(at = @At("HEAD"), method = "usedTotem(Lnet/minecraft/advancements/predicates/ItemPredicate;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void usedTotem__826685683(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-826685683L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_696404115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(696404115L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class GustParticle_1293504395Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1310192772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1310192772L))
-            info.setReturnValue(-548525600);
+            info.setReturnValue(-933147000);
     }
 
 

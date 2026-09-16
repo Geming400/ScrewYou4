@@ -13,15 +13,15 @@ public class RecipeUnlockedTrigger318655737Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unlocked(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void unlocked__649241657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-649241657L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec__1486053803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1486053803L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unlocked(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void unlocked__649241657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-649241657L))
             info.setReturnValue(null);
     }
 

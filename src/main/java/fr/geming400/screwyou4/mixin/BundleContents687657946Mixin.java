@@ -10,7 +10,7 @@ public class BundleContents687657946Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1131389535(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1131389535L))
-            info.setReturnValue(-1833630852);
+            info.setReturnValue(-2132531852);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class BundleContents687657946Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1245009541(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245009541L))
-            info.setReturnValue(-1603730244);
+            info.setReturnValue(-1901633544);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -43,15 +43,15 @@ public class BundleContents687657946Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "weight()Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void weight__562844591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-562844591L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSelectedItem()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
     private void getSelectedItem__639132440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-639132440L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "weight()Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void weight__562844591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-562844591L))
             info.setReturnValue(null);
     }
 
@@ -70,13 +70,13 @@ public class BundleContents687657946Mixin {
     @Inject(at = @At("HEAD"), method = "getSelectedItemIndex()I", cancellable = true)
     private void getSelectedItemIndex_161487378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(161487378L))
-            info.setReturnValue(-1811773711);
+            info.setReturnValue(-2109677011);
     }
 
     @Inject(at = @At("HEAD"), method = "getNumberOfItemsToShow()I", cancellable = true)
     private void getNumberOfItemsToShow_1545586014(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1545586014L))
-            info.setReturnValue(1549117797);
+            info.setReturnValue(1251214497);
     }
 
 

@@ -7,10 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.GoatRenderer.class)
 public class GoatRenderer36430322Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/GoatRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1213575862(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213575862L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/GoatRenderState;", cancellable = true)
+    private void createRenderState__1242236659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1242236659L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_289601301(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(289601301L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -19,10 +25,10 @@ public class GoatRenderer36430322Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__525791485(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-525791485L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/GoatRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1213575862(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213575862L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
@@ -37,16 +43,10 @@ public class GoatRenderer36430322Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_289601301(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(289601301L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/GoatRenderState;", cancellable = true)
-    private void createRenderState__1242236659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1242236659L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__525791485(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-525791485L))
+            info.cancel();
     }
 
 

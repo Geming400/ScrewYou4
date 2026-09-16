@@ -10,19 +10,19 @@ public class Section_1122173285Mixin {
         @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
     private void getColor_2061075901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2061075901L))
-            info.setReturnValue(-1127957564);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__603443891(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-603443891L))
-            info.setReturnValue(-1363328763);
+            info.setReturnValue(-991462064);
     }
 
     @Inject(at = @At("HEAD"), method = "increaseHeight()V", cancellable = true)
     private void increaseHeight_308224942(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(308224942L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__603443891(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-603443891L))
+            info.setReturnValue(-1226833263);
     }
 
 

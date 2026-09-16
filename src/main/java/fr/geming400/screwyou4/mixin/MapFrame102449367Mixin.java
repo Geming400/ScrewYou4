@@ -22,7 +22,7 @@ public class MapFrame102449367Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_659801458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(659801458L))
-            info.setReturnValue(1092720595);
+            info.setReturnValue(276795995);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)
@@ -37,22 +37,22 @@ public class MapFrame102449367Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "frameId(Lnet/minecraft/core/BlockPos;)Ljava/lang/String;", cancellable = true)
+    private static void frameId__1407776356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1407776356L))
+            info.setReturnValue(" 1T`pqH|wA`]KU Cg#a^Uh\uC3BD\u00B3:d\uC889CMOK\uAC4Atx=\uB3BA\u7C13.o\uD28E1\u4369!KCw\uCCBD/|;D+a\uBEAD8FZk^'.rpkc$XVNFk8]H3oc\u7D11e&Tg{#{\u13E8Vh");
+    }
+
     @Inject(at = @At("HEAD"), method = "rotation()I", cancellable = true)
     private void rotation_303957503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(303957503L))
-            info.setReturnValue(1873225672);
+            info.setReturnValue(1057301072);
     }
 
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_585507103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585507103L))
-            info.setReturnValue(789380655);
-    }
-
-    @Inject(at = @At("HEAD"), method = "frameId(Lnet/minecraft/core/BlockPos;)Ljava/lang/String;", cancellable = true)
-    private static void frameId__1407776356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1407776356L))
-            info.setReturnValue(" 1T`pqH|wA`]KU Cg#a^Uh\uC3BD\u00B3:d\uC889CMOK\uAC4Atx=\uB3BA\u7C13.o\uD28E1\u4369!KCw\uCCBD/|;D+a\uBEAD8FZk^'.rpkc$XVNFk8]H3oc\u7D11e&Tg{#{\u13E8Vh");
+            info.setReturnValue(-26543945);
     }
 
 

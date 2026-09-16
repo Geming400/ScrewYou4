@@ -28,7 +28,7 @@ public class Lookup_2005453298Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1732161908(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1732161908L))
-            info.setReturnValue(2118251147);
+            info.setReturnValue(-2047213649);
     }
 
     @Inject(at = @At("HEAD"), method = "fallback()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -46,7 +46,7 @@ public class Lookup_2005453298Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__401746957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-401746957L))
-            info.setReturnValue(2.467589E8F);
+            info.setReturnValue(3.762614E8F);
     }
 
 

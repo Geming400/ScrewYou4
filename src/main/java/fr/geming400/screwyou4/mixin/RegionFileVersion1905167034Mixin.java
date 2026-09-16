@@ -22,19 +22,13 @@ public class RegionFileVersion1905167034Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_246843439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(246843439L))
-            info.setReturnValue(-253508804);
+            info.setReturnValue(467452696);
     }
 
     @Inject(at = @At("HEAD"), method = "configure(Ljava/lang/String;)V", cancellable = true)
     private static void configure_698935497(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(698935497L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelected()Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;", cancellable = true)
-    private static void getSelected_549487599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(549487599L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fromId(I)Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;", cancellable = true)
@@ -47,6 +41,12 @@ public class RegionFileVersion1905167034Mixin {
     private static void isValidVersion__1058035480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1058035480L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelected()Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;", cancellable = true)
+    private static void getSelected_549487599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(549487599L))
+            info.setReturnValue(null);
     }
 
 

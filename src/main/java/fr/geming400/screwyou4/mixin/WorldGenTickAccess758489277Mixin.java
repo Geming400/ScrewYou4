@@ -10,7 +10,7 @@ public class WorldGenTickAccess758489277Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count__329681164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-329681164L))
-            info.setReturnValue(-758762484);
+            info.setReturnValue(-220925084);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)

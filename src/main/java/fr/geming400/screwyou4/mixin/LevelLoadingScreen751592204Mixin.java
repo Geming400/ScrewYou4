@@ -25,12 +25,6 @@ public class LevelLoadingScreen751592204Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractChunksForRendering(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIILnet/minecraft/server/level/progress/ChunkLoadStatusView;)V", cancellable = true)
-    private static void extractChunksForRendering__2016460380(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2016460380L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_162495826(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162495826L))
@@ -40,6 +34,12 @@ public class LevelLoadingScreen751592204Mixin {
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_1738471846(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1738471846L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractChunksForRendering(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIIILnet/minecraft/server/level/progress/ChunkLoadStatusView;)V", cancellable = true)
+    private static void extractChunksForRendering__2016460380(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2016460380L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class LookAtEntity172798609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730150700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730150700L))
-            info.setReturnValue(-2125826254);
+            info.setReturnValue(-2090620054);
     }
 
     @Inject(at = @At("HEAD"), method = "anchor()Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)
@@ -31,16 +31,16 @@ public class LookAtEntity172798609Mixin {
             info.setReturnValue(net.minecraft.commands.arguments.EntityAnchorArgument.Anchor.FEET);
     }
 
-    @Inject(at = @At("HEAD"), method = "perform(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void perform_1081460890(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1081460890L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "entity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void entity_171222228(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(171222228L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "perform(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void perform_1081460890(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1081460890L))
+            info.cancel();
     }
 
 

@@ -25,28 +25,16 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
-    private void handle_1535358080(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1535358080L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
     private void handle_239592349(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(239592349L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlayerAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private void getPlayerAction_1305216900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1305216900L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.REMOVE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTeamAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
-    private void getTeamAction__1943719928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1943719928L))
-            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
+    private void handle_1535358080(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1535358080L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getPlayers()Ljava/util/Collection;", cancellable = true)
@@ -71,6 +59,18 @@ public class ClientboundSetPlayerTeamPacket1831069943Mixin {
     private static void createPlayerPacket_1933139275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1933139275L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTeamAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
+    private void getTeamAction__1943719928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1943719928L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.ADD);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlayerAction()Lnet/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action;", cancellable = true)
+    private void getPlayerAction_1305216900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1305216900L))
+            info.setReturnValue(net.minecraft.network.protocol.game.ClientboundSetPlayerTeamPacket.Action.REMOVE);
     }
 
 

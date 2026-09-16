@@ -28,7 +28,7 @@ public class ClientboundSetBorderWarningDistancePacket532176912Mixin {
     @Inject(at = @At("HEAD"), method = "getWarningBlocks()I", cancellable = true)
     private void getWarningBlocks_900639978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900639978L))
-            info.setReturnValue(1508804451);
+            info.setReturnValue(1277593251);
     }
 
 

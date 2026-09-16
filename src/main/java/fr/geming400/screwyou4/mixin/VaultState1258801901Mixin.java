@@ -25,16 +25,16 @@ public class VaultState1258801901Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
+    private void lightLevel__434846331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-434846331L))
+            info.setReturnValue(1019081253);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_1347010523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1347010523L))
             info.setReturnValue("Mpw{");
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
-    private void lightLevel__434846331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-434846331L))
-            info.setReturnValue(1762587953);
     }
 
     @Inject(at = @At("HEAD"), method = "tickAndGetNext(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultServerData;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;)Lnet/minecraft/world/level/block/entity/vault/VaultState;", cancellable = true)

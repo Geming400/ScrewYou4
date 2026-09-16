@@ -28,7 +28,7 @@ public class GameRuleUpdate_498566379Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1055918469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1055918469L))
-            info.setReturnValue(-780514188);
+            info.setReturnValue(-887741688);
     }
 
     @Inject(at = @At("HEAD"), method = "gameRule()Lnet/minecraft/world/level/gamerules/GameRule;", cancellable = true)

@@ -13,18 +13,6 @@ public class DynamicTexture_903633656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dumpContents(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;)V", cancellable = true)
-    private void dumpContents__977335005(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-977335005L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
-    private void upload_1915612233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1915612233L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setPixels(Lcom/mojang/blaze3d/platform/NativeImage;)V", cancellable = true)
     private void setPixels__2042753635(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2042753635L))
@@ -35,6 +23,18 @@ public class DynamicTexture_903633656Mixin {
     private void getPixels__179757083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-179757083L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dumpContents(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;)V", cancellable = true)
+    private void dumpContents__977335005(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-977335005L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "upload()V", cancellable = true)
+    private void upload_1915612233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1915612233L))
+            info.cancel();
     }
 
 

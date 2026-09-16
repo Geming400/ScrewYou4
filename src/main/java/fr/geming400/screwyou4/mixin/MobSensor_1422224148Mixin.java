@@ -13,9 +13,9 @@ public class MobSensor_1422224148Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobDetected(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void mobDetected__1007930728(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1007930728L))
+    @Inject(at = @At("HEAD"), method = "checkForMobsNearby(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void checkForMobsNearby_393374345(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(393374345L))
             info.cancel();
     }
 
@@ -25,9 +25,9 @@ public class MobSensor_1422224148Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "checkForMobsNearby(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
-    private void checkForMobsNearby_393374345(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(393374345L))
+    @Inject(at = @At("HEAD"), method = "mobDetected(Lnet/minecraft/world/entity/LivingEntity;)V", cancellable = true)
+    private void mobDetected__1007930728(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1007930728L))
             info.cancel();
     }
 

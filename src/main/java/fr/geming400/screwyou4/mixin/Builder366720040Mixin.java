@@ -25,9 +25,9 @@ public class Builder366720040Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withEffect(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/world/item/enchantment/Enchantment$Builder;", cancellable = true)
-    private void withEffect__928109002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-928109002L))
+    @Inject(at = @At("HEAD"), method = "withEffect(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/world/item/enchantment/Enchantment$Builder;", cancellable = true)
+    private void withEffect__458799086(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-458799086L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class Builder366720040Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withEffect(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/world/item/enchantment/Enchantment$Builder;", cancellable = true)
-    private void withEffect__458799086(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-458799086L))
+    @Inject(at = @At("HEAD"), method = "withEffect(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/world/item/enchantment/Enchantment$Builder;", cancellable = true)
+    private void withEffect__928109002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-928109002L))
             info.setReturnValue(null);
     }
 

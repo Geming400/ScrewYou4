@@ -22,13 +22,13 @@ public class SpeleothemClusterConfiguration_2093042746Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1644572460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1644572460L))
-            info.setReturnValue(1172269318);
+            info.setReturnValue(1258754318);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxDistanceFromEdgeAffectingChanceOfSpeleothem()I", cancellable = true)
-    private void maxDistanceFromEdgeAffectingChanceOfSpeleothem__1838098435(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838098435L))
-            info.setReturnValue(177958160);
+    @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
+    private void height_1120153915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1120153915L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "density()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
@@ -43,15 +43,9 @@ public class SpeleothemClusterConfiguration_2093042746Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
-    private void height_1120153915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1120153915L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void baseBlock_1261449059(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1261449059L))
+    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void replaceableBlocks__973485567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-973485567L))
             info.setReturnValue(null);
     }
 
@@ -61,40 +55,16 @@ public class SpeleothemClusterConfiguration_2093042746Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void replaceableBlocks__973485567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-973485567L))
+    @Inject(at = @At("HEAD"), method = "baseBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void baseBlock_1261449059(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1261449059L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightDeviation()I", cancellable = true)
-    private void heightDeviation__404610235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-404610235L))
-            info.setReturnValue(815262355);
-    }
-
-    @Inject(at = @At("HEAD"), method = "floorToCeilingSearchRange()I", cancellable = true)
-    private void floorToCeilingSearchRange_1901372928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901372928L))
-            info.setReturnValue(1200762649);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void pointedBlock_2125808965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2125808965L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chanceOfSpeleothemAtMaxDistanceFromCenter()F", cancellable = true)
-    private void chanceOfSpeleothemAtMaxDistanceFromCenter_1846582572(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1846582572L))
-            info.setReturnValue(5.607202E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "maxStalagmiteStalactiteHeightDiff()I", cancellable = true)
     private void maxStalagmiteStalactiteHeightDiff_716711516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(716711516L))
-            info.setReturnValue(-80101067);
+            info.setReturnValue(6383933);
     }
 
     @Inject(at = @At("HEAD"), method = "speleothemBlockLayerThickness()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -106,7 +76,37 @@ public class SpeleothemClusterConfiguration_2093042746Mixin {
     @Inject(at = @At("HEAD"), method = "maxDistanceFromCenterAffectingHeightBias()I", cancellable = true)
     private void maxDistanceFromCenterAffectingHeightBias__1525735350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1525735350L))
-            info.setReturnValue(-990590146);
+            info.setReturnValue(-904105146);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chanceOfSpeleothemAtMaxDistanceFromCenter()F", cancellable = true)
+    private void chanceOfSpeleothemAtMaxDistanceFromCenter_1846582572(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1846582572L))
+            info.setReturnValue(6.472052E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxDistanceFromEdgeAffectingChanceOfSpeleothem()I", cancellable = true)
+    private void maxDistanceFromEdgeAffectingChanceOfSpeleothem__1838098435(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838098435L))
+            info.setReturnValue(264443160);
+    }
+
+    @Inject(at = @At("HEAD"), method = "floorToCeilingSearchRange()I", cancellable = true)
+    private void floorToCeilingSearchRange_1901372928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1901372928L))
+            info.setReturnValue(1287247649);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pointedBlock()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void pointedBlock_2125808965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2125808965L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "heightDeviation()I", cancellable = true)
+    private void heightDeviation__404610235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-404610235L))
+            info.setReturnValue(901747355);
     }
 
 

@@ -22,7 +22,7 @@ public class ProvidesTrimMaterial1801352793Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1936262412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1936262412L))
-            info.setReturnValue(1655611315);
+            info.setReturnValue(-2011978781);
     }
 
     @Inject(at = @At("HEAD"), method = "material()Lnet/minecraft/core/Holder;", cancellable = true)

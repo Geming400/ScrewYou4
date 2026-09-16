@@ -22,7 +22,7 @@ public class Submit_1244884598Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1802236688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1802236688L))
-            info.setReturnValue(746510634);
+            info.setReturnValue(220807834);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4f;", cancellable = true)

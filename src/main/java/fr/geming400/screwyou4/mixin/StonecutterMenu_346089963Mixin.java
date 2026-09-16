@@ -19,22 +19,16 @@ public class StonecutterMenu_346089963Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1687821208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1687821208L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "registerUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
     private void registerUpdateListener__1847000837(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1847000837L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNumberOfVisibleRecipes()I", cancellable = true)
-    private void getNumberOfVisibleRecipes_121786247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(121786247L))
-            info.setReturnValue(-642192822);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getVisibleRecipes()Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
-    private void getVisibleRecipes_2118019399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2118019399L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasInputItem()Z", cancellable = true)
@@ -43,22 +37,22 @@ public class StonecutterMenu_346089963Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "getVisibleRecipes()Lnet/minecraft/world/item/crafting/SelectableRecipe$SingleInputSet;", cancellable = true)
+    private void getVisibleRecipes_2118019399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2118019399L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNumberOfVisibleRecipes()I", cancellable = true)
+    private void getNumberOfVisibleRecipes_121786247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(121786247L))
+            info.setReturnValue(-422900622);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSelectedRecipeIndex()I", cancellable = true)
     private void getSelectedRecipeIndex__380005219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-380005219L))
-            info.setReturnValue(-554593967);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clickMenuButton(Lnet/minecraft/world/entity/player/Player;I)Z", cancellable = true)
-    private void clickMenuButton_1110281240(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1110281240L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged__1395516221(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1395516221L))
-            info.cancel();
+            info.setReturnValue(-335301767);
     }
 
     @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
@@ -73,10 +67,16 @@ public class StonecutterMenu_346089963Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1687821208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1687821208L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged__1395516221(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1395516221L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "clickMenuButton(Lnet/minecraft/world/entity/player/Player;I)Z", cancellable = true)
+    private void clickMenuButton_1110281240(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1110281240L))
+            info.setReturnValue(false);
     }
 
 

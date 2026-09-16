@@ -31,21 +31,15 @@ public class MushroomCow2131169381Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
-    private void thunderHit_1230096581(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1230096581L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
+    private void readyForShearing_1595867349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1595867349L))
+            info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
-    private void getWalkTargetValue_590183199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(590183199L))
-            info.setReturnValue(6.865802E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__154642387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-154642387L))
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/cow/MushroomCow;", cancellable = true)
+    private void getBreedOffspring__8649740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-8649740L))
             info.setReturnValue(null);
     }
 
@@ -55,22 +49,28 @@ public class MushroomCow2131169381Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/cow/MushroomCow;", cancellable = true)
-    private void getBreedOffspring__8649740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-8649740L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
+    private void getWalkTargetValue_590183199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(590183199L))
+            info.setReturnValue(1.161999E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "readyForShearing()Z", cancellable = true)
-    private void readyForShearing_1595867349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1595867349L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__154642387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-154642387L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "checkMushroomSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private static void checkMushroomSpawnRules__2103207045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2103207045L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
+    private void thunderHit_1230096581(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1230096581L))
+            info.cancel();
     }
 
 

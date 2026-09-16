@@ -25,10 +25,10 @@ public class IOWorker664475022Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
-    private void storageInfo_566894566(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(566894566L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "synchronize(Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void synchronize__655666415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-655666415L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "loadAsync(Lnet/minecraft/world/level/ChunkPos;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
@@ -37,10 +37,10 @@ public class IOWorker664475022Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "synchronize(Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void synchronize__655666415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-655666415L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    @Inject(at = @At("HEAD"), method = "storageInfo()Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;", cancellable = true)
+    private void storageInfo_566894566(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(566894566L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isOldChunkAround(Lnet/minecraft/world/level/ChunkPos;I)Z", cancellable = true)

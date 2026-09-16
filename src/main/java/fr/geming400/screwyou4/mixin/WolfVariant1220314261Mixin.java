@@ -22,7 +22,7 @@ public class WolfVariant1220314261Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1777666352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1777666352L))
-            info.setReturnValue(1367936480);
+            info.setReturnValue(977088380);
     }
 
     @Inject(at = @At("HEAD"), method = "adultInfo()Lnet/minecraft/world/entity/animal/wolf/WolfVariant$AssetInfo;", cancellable = true)

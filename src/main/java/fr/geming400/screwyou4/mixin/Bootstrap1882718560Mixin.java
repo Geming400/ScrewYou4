@@ -13,9 +13,9 @@ public class Bootstrap1882718560Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "bootStrap()V", cancellable = true)
-    private static void bootStrap__1856902275(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1856902275L))
+    @Inject(at = @At("HEAD"), method = "realStdoutPrintln(Ljava/lang/String;)V", cancellable = true)
+    private static void realStdoutPrintln_1368024879(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1368024879L))
             info.cancel();
     }
 
@@ -25,21 +25,21 @@ public class Bootstrap1882718560Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "shutdownStdout()V", cancellable = true)
+    private static void shutdownStdout__618916502(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-618916502L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "checkBootstrapCalled(Ljava/util/function/Supplier;)V", cancellable = true)
     private static void checkBootstrapCalled_1302617922(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1302617922L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "realStdoutPrintln(Ljava/lang/String;)V", cancellable = true)
-    private static void realStdoutPrintln_1368024879(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1368024879L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "shutdownStdout()V", cancellable = true)
-    private static void shutdownStdout__618916502(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-618916502L))
+    @Inject(at = @At("HEAD"), method = "bootStrap()V", cancellable = true)
+    private static void bootStrap__1856902275(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1856902275L))
             info.cancel();
     }
 

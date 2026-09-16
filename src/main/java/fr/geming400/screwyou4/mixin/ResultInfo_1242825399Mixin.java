@@ -28,18 +28,18 @@ public class ResultInfo_1242825399Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1800177489(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1800177489L))
-            info.setReturnValue(-1022907323);
-    }
-
-    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void typedCodec_141335488(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(141335488L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1341756323);
     }
 
     @Inject(at = @At("HEAD"), method = "schema()Lnet/minecraft/server/jsonrpc/api/Schema;", cancellable = true)
     private void schema__2031281991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2031281991L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "typedCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void typedCodec_141335488(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(141335488L))
             info.setReturnValue(null);
     }
 

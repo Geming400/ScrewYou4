@@ -31,16 +31,16 @@ public class RemoteFriendListUpdateHandler1899327937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forceUpdate()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void forceUpdate_288685938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(288685938L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "addUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)
     private void addUpdateListener_1864178964(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1864178964L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "forceUpdate()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void forceUpdate_288685938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(288685938L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "removeUpdateListener(Ljava/lang/Runnable;)V", cancellable = true)

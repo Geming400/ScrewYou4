@@ -22,7 +22,7 @@ public class IntRange1975635250Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1761979955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1761979955L))
-            info.setReturnValue(-1249671855);
+            info.setReturnValue(-1719509755);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -37,28 +37,28 @@ public class IntRange1975635250Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyValueImmediately()Z", cancellable = true)
-    private void applyValueImmediately_1480222062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1480222062L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec_170925710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(170925710L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive_5795632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(5795632L))
-            info.setReturnValue(-237719248);
-    }
-
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive__1974126690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1974126690L))
-            info.setReturnValue(1538436846);
+            info.setReturnValue(1068598946);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive_5795632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(5795632L))
+            info.setReturnValue(-707557148);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyValueImmediately()Z", cancellable = true)
+    private void applyValueImmediately_1480222062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1480222062L))
+            info.setReturnValue(true);
     }
 
 

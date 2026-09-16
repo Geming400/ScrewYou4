@@ -22,7 +22,7 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2032415385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032415385L))
-            info.setReturnValue(628505429);
+            info.setReturnValue(1050744429);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment$Server;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
@@ -55,6 +55,12 @@ public class ReportEnvironment_1475063295Mixin {
             info.setReturnValue(",{dERs$\uC935\u65BC\u7EC7  DnZ9M.('B(W\u3E95]*ldlX\u12EDxG]'thp:eQEg7aC(j\u2134lV2pp7Hjor[SuTk.xWizm6)Db8\u8B67\u1736s h?4\u9779\uAD19\u5DE5Y\u7BC3");
     }
 
+    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
+    private static void thirdParty_888523491(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(888523491L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "clientInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$ClientInfo;", cancellable = true)
     private void clientInfo__78987727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-78987727L))
@@ -64,12 +70,6 @@ public class ReportEnvironment_1475063295Mixin {
     @Inject(at = @At("HEAD"), method = "realmInfo()Lcom/mojang/authlib/yggdrasil/request/AbuseReportRequest$RealmInfo;", cancellable = true)
     private void realmInfo__270213277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-270213277L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "thirdParty(Ljava/lang/String;)Lnet/minecraft/client/multiplayer/chat/report/ReportEnvironment;", cancellable = true)
-    private static void thirdParty_888523491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(888523491L))
             info.setReturnValue(null);
     }
 

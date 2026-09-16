@@ -28,7 +28,7 @@ public class ClientboundChunksBiomesPacket_94397674Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_651749764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(651749764L))
-            info.setReturnValue(-1313090986);
+            info.setReturnValue(-911110286);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundChunksBiomesPacket_94397674Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "chunkBiomeData()Ljava/util/List;", cancellable = true)
-    private void chunkBiomeData__1433331946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1433331946L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forChunks(Ljava/util/List;)Lnet/minecraft/network/protocol/game/ClientboundChunksBiomesPacket;", cancellable = true)
     private static void forChunks_1203829070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1203829070L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chunkBiomeData()Ljava/util/List;", cancellable = true)
+    private void chunkBiomeData__1433331946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1433331946L))
             info.setReturnValue(null);
     }
 

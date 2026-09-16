@@ -19,15 +19,15 @@ public class RecipeBookTabButton1590130402Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractContents__1722643717(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1722643717L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "unselect()V", cancellable = true)
     private void unselect__1196618272(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1196618272L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startAnimation(Lnet/minecraft/client/ClientRecipeBook;Z)V", cancellable = true)
+    private void startAnimation_1056384408(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1056384408L))
             info.cancel();
     }
 
@@ -37,9 +37,9 @@ public class RecipeBookTabButton1590130402Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "startAnimation(Lnet/minecraft/client/ClientRecipeBook;Z)V", cancellable = true)
-    private void startAnimation_1056384408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1056384408L))
+    @Inject(at = @At("HEAD"), method = "extractContents(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractContents__1722643717(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1722643717L))
             info.cancel();
     }
 

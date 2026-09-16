@@ -22,7 +22,7 @@ public class ArmorStandPose_1930902561Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1806712645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806712645L))
-            info.setReturnValue(80193435);
+            info.setReturnValue(90466435);
     }
 
     @Inject(at = @At("HEAD"), method = "head()Lnet/minecraft/core/Rotations;", cancellable = true)
@@ -37,27 +37,27 @@ public class ArmorStandPose_1930902561Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rightArm()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void rightArm__1004264875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1004264875L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rightLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void rightLeg_1276108167(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1276108167L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leftArm()Lnet/minecraft/core/Rotations;", cancellable = true)
-    private void leftArm__558552246(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-558552246L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "leftLeg()Lnet/minecraft/core/Rotations;", cancellable = true)
     private void leftLeg_1721820796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1721820796L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rightArm()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void rightArm__1004264875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1004264875L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "leftArm()Lnet/minecraft/core/Rotations;", cancellable = true)
+    private void leftArm__558552246(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-558552246L))
             info.setReturnValue(null);
     }
 

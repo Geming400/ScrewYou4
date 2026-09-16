@@ -28,7 +28,7 @@ public class ClientboundRotateHeadPacket1794756232Mixin {
     @Inject(at = @At("HEAD"), method = "getYHeadRot()F", cancellable = true)
     private void getYHeadRot_1161159447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1161159447L))
-            info.setReturnValue(4.218904E8F);
+            info.setReturnValue(6.309209E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;", cancellable = true)

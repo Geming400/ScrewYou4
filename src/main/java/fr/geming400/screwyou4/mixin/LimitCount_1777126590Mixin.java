@@ -19,15 +19,15 @@ public class LimitCount_1777126590Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "limitCount(Lnet/minecraft/world/level/storage/loot/IntRange;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void limitCount__664303506(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-664303506L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1451395453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1451395453L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "limitCount(Lnet/minecraft/world/level/storage/loot/IntRange;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void limitCount__664303506(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-664303506L))
             info.setReturnValue(null);
     }
 

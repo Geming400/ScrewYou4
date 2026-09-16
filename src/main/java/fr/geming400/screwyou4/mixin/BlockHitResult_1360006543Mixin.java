@@ -19,21 +19,15 @@ public class BlockHitResult_1360006543Mixin {
             info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
-    @Inject(at = @At("HEAD"), method = "withDirection(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void withDirection_1311498486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1311498486L))
+    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void withPosition_1031648518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1031648518L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getBlockPos_2121411250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2121411250L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withPosition(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void withPosition_1031648518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1031648518L))
             info.setReturnValue(null);
     }
 
@@ -47,6 +41,12 @@ public class BlockHitResult_1360006543Mixin {
     private void isInside__1794470593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1794470593L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDirection(Lnet/minecraft/core/Direction;)Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void withDirection_1311498486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1311498486L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isWorldBorderHit()Z", cancellable = true)

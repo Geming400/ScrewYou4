@@ -22,13 +22,7 @@ public class InitialWorldCreationOptions444150451Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1001502542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1001502542L))
-            info.setReturnValue(1281794300);
-    }
-
-    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
-    private void gameRuleOverwrites_375629369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(375629369L))
-            info.setReturnValue(null);
+            info.setReturnValue(1812982100);
     }
 
     @Inject(at = @At("HEAD"), method = "selectedGameMode()Lnet/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode;", cancellable = true)
@@ -40,6 +34,12 @@ public class InitialWorldCreationOptions444150451Mixin {
     @Inject(at = @At("HEAD"), method = "flatLevelPreset()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private void flatLevelPreset__1648018214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1648018214L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameRuleOverwrites()Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
+    private void gameRuleOverwrites_375629369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(375629369L))
             info.setReturnValue(null);
     }
 

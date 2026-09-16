@@ -55,16 +55,16 @@ public class PoiSection1496873579Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getFreeTickets(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getFreeTickets_1679669898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1679669898L))
+            info.setReturnValue(-1160714956);
+    }
+
     @Inject(at = @At("HEAD"), method = "getRecords(Ljava/util/function/Predicate;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
     private void getRecords_2115073266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2115073266L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFreeTickets(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getFreeTickets_1679669898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1679669898L))
-            info.setReturnValue(-689887856);
     }
 
     @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;", cancellable = true)

@@ -22,7 +22,7 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1012325796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012325796L))
-            info.setReturnValue(149247986);
+            info.setReturnValue(612612586);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -49,6 +49,12 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_1234476933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234476933L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1521418959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1521418959L))
@@ -58,12 +64,6 @@ public class LootItemBlockStatePropertyCondition454973705Mixin {
     @Inject(at = @At("HEAD"), method = "hasBlockStateProperties(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemBlockStatePropertyCondition$Builder;", cancellable = true)
     private static void hasBlockStateProperties__963084260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963084260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_1234476933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234476933L))
             info.setReturnValue(null);
     }
 

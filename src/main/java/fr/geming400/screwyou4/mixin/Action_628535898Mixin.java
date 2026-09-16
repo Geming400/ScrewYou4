@@ -25,16 +25,16 @@ public class Action_628535898Mixin {
             info.setReturnValue(net.minecraft.network.chat.HoverEvent.Action.SHOW_TEXT);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAllowedFromServer()Z", cancellable = true)
-    private void isAllowedFromServer__1894515803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1894515803L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_716744519(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(716744519L))
             info.setReturnValue("\u6304:N]#r]lSDF7q6r");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAllowedFromServer()Z", cancellable = true)
+    private void isAllowedFromServer__1894515803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1894515803L))
+            info.setReturnValue(false);
     }
 
 

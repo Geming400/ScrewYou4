@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.monster.piglin.PiglinAi.class)
 public class PiglinAi_439579887Mixin {
-        @Inject(at = @At("HEAD"), method = "angerNearbyPiglins(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;Z)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getActivities(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/List;", cancellable = true)
+    private static void getActivities_1435861417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1435861417L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "angerNearbyPiglins(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/player/Player;Z)V", cancellable = true)
     private static void angerNearbyPiglins_114696033(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(114696033L))
             info.cancel();
@@ -25,27 +31,15 @@ public class PiglinAi_439579887Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getActivities(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/List;", cancellable = true)
-    private static void getActivities_1435861417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1435861417L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isZombified(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private static void isZombified_604330413(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(604330413L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPlayerHoldingLovedItem(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private static void isPlayerHoldingLovedItem__2011370438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2011370438L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isWearingSafeArmor(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private static void isWearingSafeArmor_497973446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(497973446L))
+    @Inject(at = @At("HEAD"), method = "isZombified(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private static void isZombified_604330413(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(604330413L))
             info.setReturnValue(false);
     }
 
@@ -55,15 +49,21 @@ public class PiglinAi_439579887Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearestVisibleTargetablePlayer(Lnet/minecraft/world/entity/monster/piglin/AbstractPiglin;)Ljava/util/Optional;", cancellable = true)
-    private static void getNearestVisibleTargetablePlayer_1617177404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1617177404L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isWearingSafeArmor(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private static void isWearingSafeArmor_497973446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(497973446L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getAvoidTarget(Lnet/minecraft/world/entity/monster/piglin/Piglin;)Ljava/util/Optional;", cancellable = true)
     private static void getAvoidTarget__350511692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-350511692L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNearestVisibleTargetablePlayer(Lnet/minecraft/world/entity/monster/piglin/AbstractPiglin;)Ljava/util/Optional;", cancellable = true)
+    private static void getNearestVisibleTargetablePlayer_1617177404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1617177404L))
             info.setReturnValue(null);
     }
 

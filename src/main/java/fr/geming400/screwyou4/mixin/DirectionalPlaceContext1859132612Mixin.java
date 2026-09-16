@@ -16,7 +16,7 @@ public class DirectionalPlaceContext1859132612Mixin {
     @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
     private void getRotation_942838515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(942838515L))
-            info.setReturnValue(2.952029E8F);
+            info.setReturnValue(3.177827E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -25,22 +25,16 @@ public class DirectionalPlaceContext1859132612Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getHorizontalDirection_1138318484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1138318484L))
-            info.setReturnValue(net.minecraft.core.Direction.NORTH);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getNearestLookingDirections()[Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getNearestLookingDirections_260300441(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(260300441L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canPlace()Z", cancellable = true)
     private void canPlace__203506236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-203506236L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getHorizontalDirection_1138318484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1138318484L))
+            info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
     @Inject(at = @At("HEAD"), method = "getNearestLookingDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -53,6 +47,12 @@ public class DirectionalPlaceContext1859132612Mixin {
     private void replacingClickedOnBlock__707349277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-707349277L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNearestLookingDirections()[Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getNearestLookingDirections_260300441(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(260300441L))
+            info.setReturnValue(null);
     }
 
 

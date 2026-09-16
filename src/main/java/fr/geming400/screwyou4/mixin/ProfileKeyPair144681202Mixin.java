@@ -22,7 +22,7 @@ public class ProfileKeyPair144681202Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_702033293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(702033293L))
-            info.setReturnValue(653087490);
+            info.setReturnValue(354498890);
     }
 
     @Inject(at = @At("HEAD"), method = "publicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
@@ -37,16 +37,16 @@ public class ProfileKeyPair144681202Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "refreshedAfter()Ljava/time/Instant;", cancellable = true)
-    private void refreshedAfter_92188808(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(92188808L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "dueRefresh()Z", cancellable = true)
     private void dueRefresh_2051360962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2051360962L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "refreshedAfter()Ljava/time/Instant;", cancellable = true)
+    private void refreshedAfter_92188808(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(92188808L))
+            info.setReturnValue(null);
     }
 
 

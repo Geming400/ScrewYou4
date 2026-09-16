@@ -19,15 +19,15 @@ public class Builder_1528184838Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "syncable()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
-    private void syncable_321982756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(321982756L))
+    @Inject(at = @At("HEAD"), method = "valueRange(Lnet/minecraft/world/attribute/AttributeRange;)Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
+    private void valueRange__1800852143(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1800852143L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spatiallyInterpolated()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
-    private void spatiallyInterpolated__207293853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-207293853L))
+    @Inject(at = @At("HEAD"), method = "syncable()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
+    private void syncable_321982756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(321982756L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Builder_1528184838Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueRange(Lnet/minecraft/world/attribute/AttributeRange;)Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
-    private void valueRange__1800852143(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1800852143L))
+    @Inject(at = @At("HEAD"), method = "spatiallyInterpolated()Lnet/minecraft/world/attribute/EnvironmentAttribute$Builder;", cancellable = true)
+    private void spatiallyInterpolated__207293853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-207293853L))
             info.setReturnValue(null);
     }
 

@@ -31,15 +31,15 @@ public class Type_56452708Mixin {
             info.setReturnValue(net.minecraft.world.level.levelgen.structure.structures.MineshaftStructure.Type.NORMAL);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_144661329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144661329L))
-            info.setReturnValue("rx>t\uA45A\u766BlBT eEh\uBBCA)NC\uB8AD-25FT\uAF9B\u38052EA=");
-    }
-
     @Inject(at = @At("HEAD"), method = "getWoodState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getWoodState__1042965761(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1042965761L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getPlanksState__707260837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-707260837L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +49,10 @@ public class Type_56452708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPlanksState()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getPlanksState__707260837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-707260837L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_144661329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(144661329L))
+            info.setReturnValue("rx>t\uA45A\u766BlBT eEh\uBBCA)NC\uB8AD-25FT\uAF9B\u38052EA=");
     }
 
 

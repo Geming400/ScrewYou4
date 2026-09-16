@@ -28,7 +28,7 @@ public class NearestHealableRaiderTargetGoal_1109387795Mixin {
     @Inject(at = @At("HEAD"), method = "getCooldown()I", cancellable = true)
     private void getCooldown_2058837943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2058837943L))
-            info.setReturnValue(-555865745);
+            info.setReturnValue(-600117745);
     }
 
 

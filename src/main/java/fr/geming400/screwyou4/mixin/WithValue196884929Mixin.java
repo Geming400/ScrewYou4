@@ -34,7 +34,7 @@ public class WithValue196884929Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_754237020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(754237020L))
-            info.setReturnValue(2061775049);
+            info.setReturnValue(2050248149);
     }
 
     @Inject(at = @At("HEAD"), method = "unwrapToType(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/util/Optional;", cancellable = true)

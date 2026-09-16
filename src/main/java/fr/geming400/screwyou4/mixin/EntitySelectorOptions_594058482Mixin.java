@@ -13,15 +13,15 @@ public class EntitySelectorOptions_594058482Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bootStrap()V", cancellable = true)
-    private static void bootStrap_1149404942(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1149404942L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "suggestNames(Lnet/minecraft/commands/arguments/selector/EntitySelectorParser;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)V", cancellable = true)
     private static void suggestNames_1772233235(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1772233235L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "bootStrap()V", cancellable = true)
+    private static void bootStrap_1149404942(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1149404942L))
             info.cancel();
     }
 

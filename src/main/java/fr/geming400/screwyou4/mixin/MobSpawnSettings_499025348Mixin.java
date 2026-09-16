@@ -22,7 +22,7 @@ public class MobSpawnSettings_499025348Mixin {
     @Inject(at = @At("HEAD"), method = "getCreatureProbability()F", cancellable = true)
     private void getCreatureProbability__1052072666(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1052072666L))
-            info.setReturnValue(2.31164E7F);
+            info.setReturnValue(8.964957E8F);
     }
 
 

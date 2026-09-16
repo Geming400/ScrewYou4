@@ -10,7 +10,7 @@ public class CrossbowPull933065911Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__555731329(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-555731329L))
-            info.setReturnValue(8.317253E8F);
+            info.setReturnValue(9.315645E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)

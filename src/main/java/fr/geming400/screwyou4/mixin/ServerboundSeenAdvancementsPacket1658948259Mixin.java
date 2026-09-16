@@ -37,16 +37,16 @@ public class ServerboundSeenAdvancementsPacket1658948259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openedTab(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket;", cancellable = true)
-    private static void openedTab_972129192(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(972129192L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action;", cancellable = true)
     private void getAction__1376797511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1376797511L))
             info.setReturnValue(net.minecraft.network.protocol.game.ServerboundSeenAdvancementsPacket.Action.CLOSED_SCREEN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openedTab(Lnet/minecraft/advancements/AdvancementHolder;)Lnet/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket;", cancellable = true)
+    private static void openedTab_972129192(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(972129192L))
+            info.setReturnValue(null);
     }
 
 

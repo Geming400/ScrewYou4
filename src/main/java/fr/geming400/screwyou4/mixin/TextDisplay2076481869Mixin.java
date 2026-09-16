@@ -31,16 +31,22 @@ public class TextDisplay2076481869Mixin {
             info.setReturnValue(-31);
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated__1511751079(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1511751079L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getAlign(B)Lnet/minecraft/world/entity/Display$TextDisplay$Align;", cancellable = true)
     private static void getAlign__1609083591(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1609083591L))
             info.setReturnValue(net.minecraft.world.entity.Display.TextDisplay.Align.LEFT);
     }
 
-    @Inject(at = @At("HEAD"), method = "textRenderState()Lnet/minecraft/world/entity/Display$TextDisplay$TextRenderState;", cancellable = true)
-    private void textRenderState__1393349177(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1393349177L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setBackgroundColor(I)V", cancellable = true)
+    private void setBackgroundColor__2016097732(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2016097732L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setTextOpacity(B)V", cancellable = true)
@@ -49,9 +55,9 @@ public class TextDisplay2076481869Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBackgroundColor(I)V", cancellable = true)
-    private void setBackgroundColor__2016097732(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2016097732L))
+    @Inject(at = @At("HEAD"), method = "setLineWidth(I)V", cancellable = true)
+    private void setLineWidth_929523289(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(929523289L))
             info.cancel();
     }
 
@@ -61,34 +67,28 @@ public class TextDisplay2076481869Mixin {
             info.setReturnValue(-72);
     }
 
+    @Inject(at = @At("HEAD"), method = "getLineWidth()I", cancellable = true)
+    private void getLineWidth__1454774489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1454774489L))
+            info.setReturnValue(-2061255446);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textRenderState()Lnet/minecraft/world/entity/Display$TextDisplay$TextRenderState;", cancellable = true)
+    private void textRenderState__1393349177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1393349177L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cacheDisplay(Lnet/minecraft/world/entity/Display$TextDisplay$LineSplitter;)Lnet/minecraft/world/entity/Display$TextDisplay$CachedInfo;", cancellable = true)
     private void cacheDisplay_70321221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(70321221L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLineWidth()I", cancellable = true)
-    private void getLineWidth__1454774489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1454774489L))
-            info.setReturnValue(-1565697546);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBackgroundColor()I", cancellable = true)
     private void getBackgroundColor_1830958052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1830958052L))
-            info.setReturnValue(-1587750774);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setLineWidth(I)V", cancellable = true)
-    private void setLineWidth_929523289(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(929523289L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated__1511751079(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1511751079L))
-            info.cancel();
+            info.setReturnValue(-2083308674);
     }
 
 

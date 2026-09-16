@@ -22,7 +22,7 @@ public class NoiseUtils_987906879Mixin {
     @Inject(at = @At("HEAD"), method = "biasTowardsExtreme(DD)D", cancellable = true)
     private static void biasTowardsExtreme_2084161902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2084161902L))
-            info.setReturnValue(6.180920097285163E7D);
+            info.setReturnValue(7.205674009728516E8D);
     }
 
 

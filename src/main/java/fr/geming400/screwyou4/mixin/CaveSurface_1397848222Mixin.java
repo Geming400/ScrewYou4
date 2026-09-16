@@ -22,7 +22,7 @@ public class CaveSurface_1397848222Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY__1993681760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1993681760L))
-            info.setReturnValue(-901111837);
+            info.setReturnValue(-444728537);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)

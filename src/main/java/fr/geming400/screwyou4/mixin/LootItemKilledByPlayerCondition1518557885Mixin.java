@@ -19,12 +19,6 @@ public class LootItemKilledByPlayerCondition1518557885Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1709964157(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1709964157L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "killedByPlayer()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void killedByPlayer_2074174857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2074174857L))
@@ -34,6 +28,12 @@ public class LootItemKilledByPlayerCondition1518557885Mixin {
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1996906183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1996906183L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1709964157(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1709964157L))
             info.setReturnValue(null);
     }
 

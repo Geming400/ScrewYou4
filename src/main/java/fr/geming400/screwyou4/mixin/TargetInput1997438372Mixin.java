@@ -22,13 +22,19 @@ public class TargetInput1997438372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1740176833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1740176833L))
-            info.setReturnValue(-1723703631);
+            info.setReturnValue(-1229743131);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texture_1332676668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1332676668L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)
+    private void depthBuffer_794115160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(794115160L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
+    private void samplerName__1220522080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220522080L))
+            info.setReturnValue("Tbf\u8044y2QAApd.vw`\u6A80&\u2C92iruP]M=X\u7F27Vc;g7OD\u350B\uF97B:bz>\u7690L6USN#E`:-2\";)\uBA973G4v\u758DpD\"6\u8BC8PSV_40J#@");
     }
 
     @Inject(at = @At("HEAD"), method = "targetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -49,16 +55,10 @@ public class TargetInput1997438372Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)
-    private void depthBuffer_794115160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(794115160L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "samplerName()Ljava/lang/String;", cancellable = true)
-    private void samplerName__1220522080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1220522080L))
-            info.setReturnValue("Tbf\u8044y2QAApd.vw`\u6A80&\u2C92iruP]M=X\u7F27Vc;g7OD\u350B\uF97B:bz>\u7690L6USN#E`:-2\";)\uBA973G4v\u758DpD\"6\u8BC8PSV_40J#@");
+    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texture_1332676668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1332676668L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class FunctionTagCallback1031035497Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1588387588(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1588387588L))
-            info.setReturnValue(184486872);
+            info.setReturnValue(89869772);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Ljava/lang/Object;Lnet/minecraft/world/level/timers/TimerQueue;J)V", cancellable = true)
@@ -37,15 +37,15 @@ public class FunctionTagCallback1031035497Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tagId()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void tagId__536695035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-536695035L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_2097480751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2097480751L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tagId()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void tagId__536695035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-536695035L))
             info.setReturnValue(null);
     }
 

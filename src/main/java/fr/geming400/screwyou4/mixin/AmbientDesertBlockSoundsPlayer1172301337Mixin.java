@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.sounds.AmbientDesertBlockSoundsPlayer.class)
 public class AmbientDesertBlockSoundsPlayer1172301337Mixin {
-        @Inject(at = @At("HEAD"), method = "playAmbientDeadBushSounds(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void playAmbientDeadBushSounds__917308813(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-917308813L))
+        @Inject(at = @At("HEAD"), method = "playAmbientDryGrassSounds(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private static void playAmbientDryGrassSounds_190269970(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(190269970L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "playAmbientDryGrassSounds(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void playAmbientDryGrassSounds_190269970(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(190269970L))
+    @Inject(at = @At("HEAD"), method = "playAmbientDeadBushSounds(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private static void playAmbientDeadBushSounds__917308813(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-917308813L))
             info.cancel();
     }
 

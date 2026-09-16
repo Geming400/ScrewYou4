@@ -28,24 +28,12 @@ public class Bound_662705442Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1220057532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1220057532L))
-            info.setReturnValue(-2129511332);
+            info.setReturnValue(-2128410932);
     }
 
     @Inject(at = @At("HEAD"), method = "targetName()Ljava/util/Optional;", cancellable = true)
     private void targetName__1430568309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1430568309L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withTargetName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
-    private void withTargetName__1946627959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1946627959L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decorateNarration(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void decorateNarration_229872181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(229872181L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +46,18 @@ public class Bound_662705442Mixin {
     @Inject(at = @At("HEAD"), method = "decorate(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void decorate_467546669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(467546669L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withTargetName(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
+    private void withTargetName__1946627959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946627959L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decorateNarration(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void decorateNarration_229872181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(229872181L))
             info.setReturnValue(null);
     }
 

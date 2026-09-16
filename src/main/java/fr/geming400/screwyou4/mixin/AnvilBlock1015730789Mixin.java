@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.AnvilBlock.class)
 public class AnvilBlock1015730789Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_2082176043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2082176043L))
+        @Inject(at = @At("HEAD"), method = "damage(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private static void damage_1340829803(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1340829803L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "damage(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private static void damage_1340829803(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1340829803L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_2082176043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2082176043L))
             info.setReturnValue(null);
     }
 
@@ -46,7 +46,7 @@ public class AnvilBlock1015730789Mixin {
     @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getDustColor__836872264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-836872264L))
-            info.setReturnValue(1626081263);
+            info.setReturnValue(1773033563);
     }
 
 

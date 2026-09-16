@@ -13,15 +13,15 @@ public class LoadingOverlay_175251364Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState_1162131005(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1162131005L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "registerTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
     private static void registerTextures__1734974432(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1734974432L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState_1162131005(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1162131005L))
             info.cancel();
     }
 

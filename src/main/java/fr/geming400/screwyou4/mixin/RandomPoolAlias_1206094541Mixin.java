@@ -22,7 +22,7 @@ public class RandomPoolAlias_1206094541Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1763446631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1763446631L))
-            info.setReturnValue(813152814);
+            info.setReturnValue(1392783614);
     }
 
     @Inject(at = @At("HEAD"), method = "targets()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

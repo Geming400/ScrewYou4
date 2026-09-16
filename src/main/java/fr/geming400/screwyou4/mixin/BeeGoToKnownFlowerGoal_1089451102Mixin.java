@@ -31,12 +31,6 @@ public class BeeGoToKnownFlowerGoal_1089451102Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeeUse()Z", cancellable = true)
-    private void canBeeUse_2054210975(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2054210975L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "canBeeContinueToUse()Z", cancellable = true)
     private void canBeeContinueToUse_981629633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(981629633L))
@@ -46,6 +40,12 @@ public class BeeGoToKnownFlowerGoal_1089451102Mixin {
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_399944767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399944767L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeeUse()Z", cancellable = true)
+    private void canBeeUse_2054210975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2054210975L))
             info.setReturnValue(true);
     }
 

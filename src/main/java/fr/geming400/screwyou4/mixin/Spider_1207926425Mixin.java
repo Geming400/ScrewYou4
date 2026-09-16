@@ -19,6 +19,12 @@ public class Spider_1207926425Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "makeStuckInBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
+    private void makeStuckInBlock_880466178(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(880466178L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__1711938882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1711938882L))
@@ -35,12 +41,6 @@ public class Spider_1207926425Mixin {
     private void getVehicleAttachmentPoint__1480241727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1480241727L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeStuckInBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
-    private void makeStuckInBlock_880466178(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(880466178L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setClimbing(Z)V", cancellable = true)

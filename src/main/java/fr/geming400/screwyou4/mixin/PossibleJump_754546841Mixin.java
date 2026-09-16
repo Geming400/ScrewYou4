@@ -22,13 +22,13 @@ public class PossibleJump_754546841Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1311898931(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311898931L))
-            info.setReturnValue(276825755);
+            info.setReturnValue(-349305445);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight__1515268346(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1515268346L))
-            info.setReturnValue(1122975601);
+            info.setReturnValue(496844401);
     }
 
     @Inject(at = @At("HEAD"), method = "targetPos()Lnet/minecraft/core/BlockPos;", cancellable = true)

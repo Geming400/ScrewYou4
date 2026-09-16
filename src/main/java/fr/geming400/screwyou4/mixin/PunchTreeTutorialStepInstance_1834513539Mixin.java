@@ -19,15 +19,15 @@ public class PunchTreeTutorialStepInstance_1834513539Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onDestroyBlock(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)V", cancellable = true)
-    private void onDestroyBlock_1968302289(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1968302289L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private void onGetItem__656789520(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-656789520L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDestroyBlock(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)V", cancellable = true)
+    private void onDestroyBlock_1968302289(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1968302289L))
             info.cancel();
     }
 

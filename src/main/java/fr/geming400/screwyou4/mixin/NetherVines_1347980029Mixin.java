@@ -16,7 +16,7 @@ public class NetherVines_1347980029Mixin {
     @Inject(at = @At("HEAD"), method = "getBlocksToGrowWhenBonemealed(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private static void getBlocksToGrowWhenBonemealed__1712851548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1712851548L))
-            info.setReturnValue(1921435602);
+            info.setReturnValue(1887816202);
     }
 
 

@@ -13,6 +13,12 @@ public class AdvancementToast_593884651Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getSoundEvent__1013916693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1013916693L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
     private void getWantedVisibility_1186062842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1186062842L))
@@ -23,12 +29,6 @@ public class AdvancementToast_593884651Mixin {
     private void extractRenderState__923566270(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-923566270L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSoundEvent()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getSoundEvent__1013916693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1013916693L))
-            info.setReturnValue(null);
     }
 
 

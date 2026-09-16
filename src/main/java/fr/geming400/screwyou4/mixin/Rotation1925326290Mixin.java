@@ -22,7 +22,7 @@ public class Rotation1925326290Mixin {
     @Inject(at = @At("HEAD"), method = "rotate(II)I", cancellable = true)
     private void rotate__166493923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-166493923L))
-            info.setReturnValue(742597609);
+            info.setReturnValue(884966509);
     }
 
     @Inject(at = @At("HEAD"), method = "rotate(Lnet/minecraft/core/Direction;)Lnet/minecraft/core/Direction;", cancellable = true)
@@ -37,16 +37,16 @@ public class Rotation1925326290Mixin {
             info.setReturnValue(net.minecraft.world.level.block.Rotation.NONE);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
-    private void rotation__1228333112(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1228333112L))
-            info.setReturnValue(com.mojang.math.OctahedralGroup.SWAP_NEG_YZ);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_2013534912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2013534912L))
             info.setReturnValue("-)|\u7ACE{F\u888F6X\u1F09L2+");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
+    private static void getShuffled_960596985(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960596985L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRotated(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
@@ -55,10 +55,10 @@ public class Rotation1925326290Mixin {
             info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
     }
 
-    @Inject(at = @At("HEAD"), method = "getShuffled(Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
-    private static void getShuffled_960596985(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(960596985L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/OctahedralGroup;", cancellable = true)
+    private void rotation__1228333112(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1228333112L))
+            info.setReturnValue(com.mojang.math.OctahedralGroup.SWAP_NEG_YZ);
     }
 
 

@@ -25,12 +25,6 @@ public class StonecutterRecipe24549156Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resultDisplay()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void resultDisplay__1320850610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1320850610L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
     private void recipeBookCategory__448012944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-448012944L))
@@ -40,6 +34,12 @@ public class StonecutterRecipe24549156Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
     private void getSerializer_589435480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(589435480L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resultDisplay()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void resultDisplay__1320850610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1320850610L))
             info.setReturnValue(null);
     }
 

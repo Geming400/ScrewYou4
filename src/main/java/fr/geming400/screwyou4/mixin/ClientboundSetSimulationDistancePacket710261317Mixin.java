@@ -28,7 +28,7 @@ public class ClientboundSetSimulationDistancePacket710261317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1267613408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1267613408L))
-            info.setReturnValue(-1105911408);
+            info.setReturnValue(-826256808);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundSetSimulationDistancePacket710261317Mixin {
     @Inject(at = @At("HEAD"), method = "simulationDistance()I", cancellable = true)
     private void simulationDistance_1157268111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1157268111L))
-            info.setReturnValue(-1993308556);
+            info.setReturnValue(-1713653956);
     }
 
 

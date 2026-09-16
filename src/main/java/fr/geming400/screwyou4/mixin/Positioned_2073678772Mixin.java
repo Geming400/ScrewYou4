@@ -22,7 +22,7 @@ public class Positioned_2073678772Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1663936434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1663936434L))
-            info.setReturnValue(755453198);
+            info.setReturnValue(158613898);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/item/crafting/CraftingInput;", cancellable = true)
@@ -34,13 +34,13 @@ public class Positioned_2073678772Mixin {
     @Inject(at = @At("HEAD"), method = "top()I", cancellable = true)
     private void top_1054635364(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1054635364L))
-            info.setReturnValue(468617812);
+            info.setReturnValue(-128221488);
     }
 
     @Inject(at = @At("HEAD"), method = "left()I", cancellable = true)
     private void left__532351502(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-532351502L))
-            info.setReturnValue(-562774267);
+            info.setReturnValue(-1159613567);
     }
 
 

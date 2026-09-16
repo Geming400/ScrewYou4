@@ -28,7 +28,7 @@ public class ItemStackTemplate1962133009Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1775482196(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1775482196L))
-            info.setReturnValue(-2076795762);
+            info.setReturnValue(-1876091662);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(ILnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -46,7 +46,7 @@ public class ItemStackTemplate1962133009Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_873962568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(873962568L))
-            info.setReturnValue(-1942907824);
+            info.setReturnValue(-1742203724);
     }
 
     @Inject(at = @At("HEAD"), method = "create()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -67,15 +67,15 @@ public class ItemStackTemplate1962133009Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromNonEmptyStack(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private static void fromNonEmptyStack__1795329172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1795329172L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "typeHolder()Lnet/minecraft/core/Holder;", cancellable = true)
     private void typeHolder__1961617465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1961617465L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromNonEmptyStack(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
+    private static void fromNonEmptyStack__1795329172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1795329172L))
             info.setReturnValue(null);
     }
 

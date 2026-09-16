@@ -22,12 +22,18 @@ public class BiomeSpecialEffects_909290389Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1466642479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466642479L))
-            info.setReturnValue(-122402379);
+            info.setReturnValue(-344086479);
     }
 
     @Inject(at = @At("HEAD"), method = "grassColorOverride()Ljava/util/Optional;", cancellable = true)
     private void grassColorOverride_1368212603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1368212603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dryFoliageColorOverride()Ljava/util/Optional;", cancellable = true)
+    private void dryFoliageColorOverride_189360675(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(189360675L))
             info.setReturnValue(null);
     }
 
@@ -43,16 +49,10 @@ public class BiomeSpecialEffects_909290389Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dryFoliageColorOverride()Ljava/util/Optional;", cancellable = true)
-    private void dryFoliageColorOverride_189360675(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(189360675L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "waterColor()I", cancellable = true)
     private void waterColor__1156650898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1156650898L))
-            info.setReturnValue(1749571942);
+            info.setReturnValue(1526877342);
     }
 
 

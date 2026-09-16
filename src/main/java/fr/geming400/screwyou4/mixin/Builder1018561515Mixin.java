@@ -13,16 +13,16 @@ public class Builder1018561515Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addFixer(Lnet/minecraft/util/filefix/FileFix;)V", cancellable = true)
-    private void addFixer_535511010(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(535511010L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addSchema(Lcom/mojang/datafixers/DataFixerBuilder;ILjava/util/function/BiFunction;)Lcom/mojang/datafixers/schemas/Schema;", cancellable = true)
     private void addSchema__730695031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-730695031L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addFixer(Lnet/minecraft/util/filefix/FileFix;)V", cancellable = true)
+    private void addFixer_535511010(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(535511010L))
+            info.cancel();
     }
 
 

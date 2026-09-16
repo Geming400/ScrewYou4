@@ -13,6 +13,12 @@ public class WardenModel904991606Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createBioluminescentLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBioluminescentLayer_199467632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(199467632L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createHeartLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createHeartLayer__210945735(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-210945735L))
@@ -31,21 +37,15 @@ public class WardenModel904991606Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBioluminescentLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBioluminescentLayer_199467632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(199467632L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/WardenRenderState;)V", cancellable = true)
+    private void setupAnim__381183006(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-381183006L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim_1588640151(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1588640151L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/WardenRenderState;)V", cancellable = true)
-    private void setupAnim__381183006(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-381183006L))
             info.cancel();
     }
 

@@ -19,6 +19,12 @@ public class PlayerHeadSpecialRenderer1451178477Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents_1111409629(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1111409629L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/renderer/PlayerSkinRenderCache$RenderInfo;", cancellable = true)
     private void extractArgument_616027134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(616027134L))
@@ -29,12 +35,6 @@ public class PlayerHeadSpecialRenderer1451178477Mixin {
     private void extractArgument_42700961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(42700961L))
             info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents_1111409629(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1111409629L))
-            info.cancel();
     }
 
 

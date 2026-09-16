@@ -28,7 +28,7 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1561070326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1561070326L))
-            info.setReturnValue(1346669300);
+            info.setReturnValue(1278127600);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/util/random/Weighted;", cancellable = true)
@@ -40,7 +40,7 @@ public class Weighted1003718235Mixin {
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight__1266096951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1266096951L))
-            info.setReturnValue(-288039188);
+            info.setReturnValue(-357582888);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)

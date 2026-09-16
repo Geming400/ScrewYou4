@@ -22,7 +22,7 @@ public class PositionMoveRotation2096583124Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1641032081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1641032081L))
-            info.setReturnValue(-831959287);
+            info.setReturnValue(-719374787);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/portal/TeleportTransition;)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
@@ -43,6 +43,24 @@ public class PositionMoveRotation2096583124Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot__1887581031(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1887581031L))
+            info.setReturnValue(4.32425E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot__80126568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-80126568L))
+            info.setReturnValue(4.32425E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "deltaMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void deltaMovement_1234250214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1234250214L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "withRotation(FF)Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
     private void withRotation__834009407(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-834009407L))
@@ -53,24 +71,6 @@ public class PositionMoveRotation2096583124Mixin {
     private static void calculateAbsolute__1270156145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1270156145L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "deltaMovement()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void deltaMovement_1234250214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1234250214L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot__1887581031(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1887581031L))
-            info.setReturnValue(3.198405E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot__80126568(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-80126568L))
-            info.setReturnValue(3.198405E8F);
     }
 
 

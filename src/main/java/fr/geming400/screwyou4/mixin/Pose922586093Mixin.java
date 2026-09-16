@@ -22,7 +22,7 @@ public class Pose922586093Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1772597864(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1772597864L))
-            info.setReturnValue(252234075);
+            info.setReturnValue(-313275225);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

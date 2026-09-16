@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.network.protocol.PacketUtils.class)
 public class PacketUtils49108315Mixin {
-        @Inject(at = @At("HEAD"), method = "fillCrashReport(Lnet/minecraft/CrashReport;Lnet/minecraft/network/PacketListener;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "makeReportedException(Ljava/lang/Exception;Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketListener;)Lnet/minecraft/ReportedException;", cancellable = true)
+    private static void makeReportedException__990184976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-990184976L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillCrashReport(Lnet/minecraft/CrashReport;Lnet/minecraft/network/PacketListener;Lnet/minecraft/network/protocol/Packet;)V", cancellable = true)
     private static void fillCrashReport__487289555(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-487289555L))
             info.cancel();
@@ -23,12 +29,6 @@ public class PacketUtils49108315Mixin {
     private static void ensureRunningOnSameThread__1334565102(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1334565102L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "makeReportedException(Ljava/lang/Exception;Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketListener;)Lnet/minecraft/ReportedException;", cancellable = true)
-    private static void makeReportedException__990184976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-990184976L))
-            info.setReturnValue(null);
     }
 
 

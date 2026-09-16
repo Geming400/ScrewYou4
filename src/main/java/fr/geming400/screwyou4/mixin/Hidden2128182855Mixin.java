@@ -28,7 +28,7 @@ public class Hidden2128182855Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1609432350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1609432350L))
-            info.setReturnValue(-1580262921);
+            info.setReturnValue(-768623021);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/ai/attributes/AttributeModifier;)V", cancellable = true)

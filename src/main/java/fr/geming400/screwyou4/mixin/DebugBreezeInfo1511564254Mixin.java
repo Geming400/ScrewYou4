@@ -22,18 +22,18 @@ public class DebugBreezeInfo1511564254Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2068916345(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2068916345L))
-            info.setReturnValue(-2101820706);
-    }
-
-    @Inject(at = @At("HEAD"), method = "attackTarget()Ljava/util/Optional;", cancellable = true)
-    private void attackTarget__1522634619(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1522634619L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1456920906);
     }
 
     @Inject(at = @At("HEAD"), method = "jumpTarget()Ljava/util/Optional;", cancellable = true)
     private void jumpTarget_723427307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723427307L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "attackTarget()Ljava/util/Optional;", cancellable = true)
+    private void attackTarget__1522634619(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1522634619L))
             info.setReturnValue(null);
     }
 

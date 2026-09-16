@@ -22,7 +22,7 @@ public class Positioned1904591699Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1833023506(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1833023506L))
-            info.setReturnValue(298944602);
+            info.setReturnValue(811659502);
     }
 
     @Inject(at = @At("HEAD"), method = "contains(IIZ)Z", cancellable = true)
@@ -37,16 +37,16 @@ public class Positioned1904591699Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
-    private void viewDistance__1588107329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1588107329L))
-            info.setReturnValue(-120197028);
-    }
-
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
     private void center_615269459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(615269459L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
+    private void viewDistance__1588107329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1588107329L))
+            info.setReturnValue(393524572);
     }
 
 

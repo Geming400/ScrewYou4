@@ -19,18 +19,6 @@ public class PlayerTabOverlay_879407306Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFooter(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setFooter_964367315(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(964367315L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setHeader__226688095(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-226688095L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;ILnet/minecraft/world/scores/Scoreboard;Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
     private void extractRenderState_1782996235(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1782996235L))
@@ -40,6 +28,18 @@ public class PlayerTabOverlay_879407306Mixin {
     @Inject(at = @At("HEAD"), method = "setVisible(Z)V", cancellable = true)
     private void setVisible_1863294262(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1863294262L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setHeader__226688095(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-226688095L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setFooter(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setFooter_964367315(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(964367315L))
             info.cancel();
     }
 

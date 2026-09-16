@@ -31,9 +31,15 @@ public class MultiLineEditBox773567054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
-    private void updateWidgetNarration__850297503(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-850297503L))
+    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
+    private void preeditUpdated__404369880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-404369880L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCharacterLimit(I)V", cancellable = true)
+    private void setCharacterLimit_1485857166(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1485857166L))
             info.cancel();
     }
 
@@ -49,9 +55,27 @@ public class MultiLineEditBox773567054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setCharacterLimit(I)V", cancellable = true)
-    private void setCharacterLimit_1485857166(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1485857166L))
+    @Inject(at = @At("HEAD"), method = "updateWidgetNarration(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V", cancellable = true)
+    private void updateWidgetNarration__850297503(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-850297503L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
+    private void charTyped__1167141430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1167141430L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_742513423(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(742513423L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
+    private void onClick_1268026499(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1268026499L))
             info.cancel();
     }
 
@@ -61,34 +85,10 @@ public class MultiLineEditBox773567054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onClick(Lnet/minecraft/client/input/MouseButtonEvent;Z)V", cancellable = true)
-    private void onClick_1268026499(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1268026499L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "preeditUpdated(Lnet/minecraft/client/input/PreeditEvent;)Z", cancellable = true)
-    private void preeditUpdated__404369880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-404369880L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getInnerHeight()I", cancellable = true)
     private void getInnerHeight__1377687891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1377687891L))
-            info.setReturnValue(-860843308);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_742513423(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(742513423L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "charTyped(Lnet/minecraft/client/input/CharacterEvent;)Z", cancellable = true)
-    private void charTyped__1167141430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1167141430L))
-            info.setReturnValue(true);
+            info.setReturnValue(-987064008);
     }
 
 

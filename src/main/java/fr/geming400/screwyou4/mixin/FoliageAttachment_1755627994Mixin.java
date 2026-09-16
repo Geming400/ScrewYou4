@@ -22,7 +22,7 @@ public class FoliageAttachment_1755627994Mixin {
     @Inject(at = @At("HEAD"), method = "radiusOffset()I", cancellable = true)
     private void radiusOffset__1388567782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1388567782L))
-            info.setReturnValue(-1036339532);
+            info.setReturnValue(-1042711132);
     }
 
 

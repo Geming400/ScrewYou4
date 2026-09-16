@@ -22,7 +22,7 @@ public class DimensionType1830188514Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1907426691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1907426691L))
-            info.setReturnValue(-2074803088);
+            info.setReturnValue(1544199508);
     }
 
     @Inject(at = @At("HEAD"), method = "attributes()Lnet/minecraft/world/attribute/EnvironmentAttributeMap;", cancellable = true)
@@ -34,43 +34,25 @@ public class DimensionType1830188514Mixin {
     @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
     private void minY_2125052897(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2125052897L))
-            info.setReturnValue(-144146408);
+            info.setReturnValue(-820111108);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasFixedTime()Z", cancellable = true)
-    private void hasFixedTime__621144814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-621144814L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_744839937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(744839937L))
+            info.setReturnValue(448213180);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasSkyLight()Z", cancellable = true)
-    private void hasSkyLight__433348662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-433348662L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "monsterSpawnBlockLightLimit()I", cancellable = true)
+    private void monsterSpawnBlockLightLimit_682643383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682643383L))
+            info.setReturnValue(734505822);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultClock()Ljava/util/Optional;", cancellable = true)
-    private void defaultClock_424470237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(424470237L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ambientLight()F", cancellable = true)
-    private void ambientLight_1499937255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1499937255L))
-            info.setReturnValue(7.418213E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasEnderDragonFight()Z", cancellable = true)
-    private void hasEnderDragonFight__1927377814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1927377814L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "logicalHeight()I", cancellable = true)
-    private void logicalHeight_185382712(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(185382712L))
-            info.setReturnValue(-1261005468);
+    @Inject(at = @At("HEAD"), method = "getTeleportationScale(Lnet/minecraft/world/level/dimension/DimensionType;Lnet/minecraft/world/level/dimension/DimensionType;)D", cancellable = true)
+    private static void getTeleportationScale_1282264069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1282264069L))
+            info.setReturnValue(6.5856600913585E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "infiniburn()Lnet/minecraft/core/HolderSet;", cancellable = true)
@@ -85,10 +67,40 @@ public class DimensionType1830188514Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_744839937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(744839937L))
-            info.setReturnValue(1124177880);
+    @Inject(at = @At("HEAD"), method = "hasEnderDragonFight()Z", cancellable = true)
+    private void hasEnderDragonFight__1927377814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927377814L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "logicalHeight()I", cancellable = true)
+    private void logicalHeight_185382712(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(185382712L))
+            info.setReturnValue(-1936970168);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ambientLight()F", cancellable = true)
+    private void ambientLight_1499937255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1499937255L))
+            info.setReturnValue(6.58566E7F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFixedTime()Z", cancellable = true)
+    private void hasFixedTime__621144814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-621144814L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultClock()Ljava/util/Optional;", cancellable = true)
+    private void defaultClock_424470237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424470237L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSkyLight()Z", cancellable = true)
+    private void hasSkyLight__433348662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-433348662L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSpawnLightTest()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)
@@ -97,10 +109,10 @@ public class DimensionType1830188514Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "monsterSpawnBlockLightLimit()I", cancellable = true)
-    private void monsterSpawnBlockLightLimit_682643383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(682643383L))
-            info.setReturnValue(1410470522);
+    @Inject(at = @At("HEAD"), method = "coordinateScale()D", cancellable = true)
+    private void coordinateScale__630044271(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-630044271L))
+            info.setReturnValue(6.585660092354284E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "monsterSettings()Lnet/minecraft/world/level/dimension/DimensionType$MonsterSettings;", cancellable = true)
@@ -115,28 +127,16 @@ public class DimensionType1830188514Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasEndFlashes()Z", cancellable = true)
-    private void hasEndFlashes__1940764612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1940764612L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "cardinalLightType()Lnet/minecraft/world/level/CardinalLighting$Type;", cancellable = true)
     private void cardinalLightType_533996192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(533996192L))
             info.setReturnValue(net.minecraft.world.level.CardinalLighting.Type.DEFAULT);
     }
 
-    @Inject(at = @At("HEAD"), method = "coordinateScale()D", cancellable = true)
-    private void coordinateScale__630044271(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-630044271L))
-            info.setReturnValue(7.418213009235429E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTeleportationScale(Lnet/minecraft/world/level/dimension/DimensionType;Lnet/minecraft/world/level/dimension/DimensionType;)D", cancellable = true)
-    private static void getTeleportationScale_1282264069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1282264069L))
-            info.setReturnValue(7.41821300913585E8D);
+    @Inject(at = @At("HEAD"), method = "hasEndFlashes()Z", cancellable = true)
+    private void hasEndFlashes__1940764612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1940764612L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "skybox()Lnet/minecraft/world/level/dimension/DimensionType$Skybox;", cancellable = true)

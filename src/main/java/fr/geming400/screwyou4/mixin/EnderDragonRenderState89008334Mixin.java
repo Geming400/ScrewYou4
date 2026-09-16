@@ -16,7 +16,7 @@ public class EnderDragonRenderState89008334Mixin {
     @Inject(at = @At("HEAD"), method = "getHeadPartYOffset(ILnet/minecraft/world/entity/boss/enderdragon/DragonFlightHistory$Sample;Lnet/minecraft/world/entity/boss/enderdragon/DragonFlightHistory$Sample;)F", cancellable = true)
     private void getHeadPartYOffset__519088357(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-519088357L))
-            info.setReturnValue(1.78845E8F);
+            info.setReturnValue(2.335152E8F);
     }
 
 

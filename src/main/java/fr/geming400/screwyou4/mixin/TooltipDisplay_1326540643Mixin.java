@@ -22,13 +22,7 @@ public class TooltipDisplay_1326540643Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1883892733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1883892733L))
-            info.setReturnValue(-1700873014);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
-    private void shows_2131566867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2131566867L))
-            info.setReturnValue(true);
+            info.setReturnValue(-1673003114);
     }
 
     @Inject(at = @At("HEAD"), method = "hiddenComponents()Ljava/util/SequencedSet;", cancellable = true)
@@ -37,16 +31,22 @@ public class TooltipDisplay_1326540643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hideTooltip()Z", cancellable = true)
-    private void hideTooltip_900633944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(900633944L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "withHidden(Lnet/minecraft/core/component/DataComponentType;Z)Lnet/minecraft/world/item/component/TooltipDisplay;", cancellable = true)
     private void withHidden_464095732(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(464095732L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shows(Lnet/minecraft/core/component/DataComponentType;)Z", cancellable = true)
+    private void shows_2131566867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2131566867L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hideTooltip()Z", cancellable = true)
+    private void hideTooltip_900633944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(900633944L))
+            info.setReturnValue(false);
     }
 
 

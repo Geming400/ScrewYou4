@@ -19,16 +19,22 @@ public class InterpolationHandler649323794Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
+    private void yRot_960126935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(960126935L))
+            info.setReturnValue(4.824596E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
+    private void xRot__1527385898(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1527385898L))
+            info.setReturnValue(4.824596E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "interpolate()V", cancellable = true)
     private void interpolate__953709724(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-953709724L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasActiveInterpolation()Z", cancellable = true)
-    private void hasActiveInterpolation__1220315643(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1220315643L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "interpolateTo(Lnet/minecraft/world/phys/Vec3;FF)V", cancellable = true)
@@ -37,16 +43,10 @@ public class InterpolationHandler649323794Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "yRot()F", cancellable = true)
-    private void yRot_960126935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(960126935L))
-            info.setReturnValue(4.536999E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "xRot()F", cancellable = true)
-    private void xRot__1527385898(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1527385898L))
-            info.setReturnValue(4.536999E8F);
+    @Inject(at = @At("HEAD"), method = "hasActiveInterpolation()Z", cancellable = true)
+    private void hasActiveInterpolation__1220315643(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220315643L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setInterpolationLength(I)V", cancellable = true)

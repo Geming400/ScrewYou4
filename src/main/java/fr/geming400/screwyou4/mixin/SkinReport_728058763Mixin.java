@@ -19,15 +19,15 @@ public class SkinReport_728058763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private void createScreen__1592833668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1592833668L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSkinGetter()Ljava/util/function/Supplier;", cancellable = true)
     private void getSkinGetter_274658221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274658221L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createScreen(Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/multiplayer/chat/report/ReportingContext;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private void createScreen__1592833668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1592833668L))
             info.setReturnValue(null);
     }
 

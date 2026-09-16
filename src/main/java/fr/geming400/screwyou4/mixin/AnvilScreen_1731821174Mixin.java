@@ -19,16 +19,16 @@ public class AnvilScreen_1731821174Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__1161691590(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1161691590L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
     private void keyPressed_1700767542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1700767542L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__1161691590(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1161691590L))
+            info.cancel();
     }
 
 

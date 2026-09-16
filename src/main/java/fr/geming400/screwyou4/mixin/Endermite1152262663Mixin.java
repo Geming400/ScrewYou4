@@ -13,6 +13,12 @@ public class Endermite1152262663Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1511407066(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1511407066L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__1767602643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1767602643L))
@@ -22,12 +28,6 @@ public class Endermite1152262663Mixin {
     @Inject(at = @At("HEAD"), method = "setYBodyRot(F)V", cancellable = true)
     private void setYBodyRot__100873010(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-100873010L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__1511407066(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1511407066L))
             info.cancel();
     }
 

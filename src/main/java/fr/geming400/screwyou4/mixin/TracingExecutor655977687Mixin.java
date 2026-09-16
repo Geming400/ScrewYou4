@@ -28,7 +28,7 @@ public class TracingExecutor655977687Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1213329778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1213329778L))
-            info.setReturnValue(-1607231912);
+            info.setReturnValue(-1878017412);
     }
 
     @Inject(at = @At("HEAD"), method = "execute(Ljava/lang/Runnable;)V", cancellable = true)

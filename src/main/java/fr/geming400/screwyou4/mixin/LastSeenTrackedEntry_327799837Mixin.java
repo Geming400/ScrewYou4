@@ -28,7 +28,7 @@ public class LastSeenTrackedEntry_327799837Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_885151927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(885151927L))
-            info.setReturnValue(-1542606013);
+            info.setReturnValue(-1824920913);
     }
 
     @Inject(at = @At("HEAD"), method = "pending()Z", cancellable = true)

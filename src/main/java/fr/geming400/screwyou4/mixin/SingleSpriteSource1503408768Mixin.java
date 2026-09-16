@@ -22,13 +22,7 @@ public class SingleSpriteSource1503408768Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2060760859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2060760859L))
-            info.setReturnValue(-193187978);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRandomGlyph(Lnet/minecraft/util/RandomSource;I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
-    private void getRandomGlyph__642972451(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-642972451L))
-            info.setReturnValue(null);
+            info.setReturnValue(7202422);
     }
 
     @Inject(at = @At("HEAD"), method = "glyph()Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
@@ -40,6 +34,12 @@ public class SingleSpriteSource1503408768Mixin {
     @Inject(at = @At("HEAD"), method = "getGlyph(I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
     private void getGlyph__793329722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-793329722L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRandomGlyph(Lnet/minecraft/util/RandomSource;I)Lnet/minecraft/client/gui/font/glyphs/BakedGlyph;", cancellable = true)
+    private void getRandomGlyph__642972451(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-642972451L))
             info.setReturnValue(null);
     }
 

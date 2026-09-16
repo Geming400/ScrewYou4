@@ -13,15 +13,15 @@ public class EntitySelector_1770857538Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withinDistance(DDDD)Ljava/util/function/Predicate;", cancellable = true)
-    private static void withinDistance_1861127303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861127303L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "notRiding(Lnet/minecraft/world/entity/Entity;)Ljava/util/function/Predicate;", cancellable = true)
     private static void notRiding__779713690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-779713690L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withinDistance(DDDD)Ljava/util/function/Predicate;", cancellable = true)
+    private static void withinDistance_1861127303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1861127303L))
             info.setReturnValue(null);
     }
 

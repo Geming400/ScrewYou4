@@ -22,7 +22,7 @@ public class DiscoverComponents173442184Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730794275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730794275L))
-            info.setReturnValue(489943392);
+            info.setReturnValue(463378092);
     }
 
     @Inject(at = @At("HEAD"), method = "schemas()Ljava/util/Map;", cancellable = true)

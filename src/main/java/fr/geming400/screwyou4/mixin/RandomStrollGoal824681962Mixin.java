@@ -31,16 +31,16 @@ public class RandomStrollGoal824681962Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setInterval(I)V", cancellable = true)
-    private void setInterval_1489059613(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1489059613L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "canContinueToUse()Z", cancellable = true)
     private void canContinueToUse_135046668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(135046668L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setInterval(I)V", cancellable = true)
+    private void setInterval_1489059613(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1489059613L))
+            info.cancel();
     }
 
 

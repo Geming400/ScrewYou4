@@ -10,25 +10,25 @@ public class PathEntry372991862Mixin {
         @Inject(at = @At("HEAD"), method = "getCount()J", cancellable = true)
     private void getCount__1012926108(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1012926108L))
-            info.setReturnValue(5344473351137134555L);
+            info.setReturnValue(5344473350788562855L);
     }
 
     @Inject(at = @At("HEAD"), method = "getDuration()J", cancellable = true)
     private void getDuration__657191853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-657191853L))
-            info.setReturnValue(5321985746231210700L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxDuration()J", cancellable = true)
-    private void getMaxDuration__366926725(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-366926725L))
-            info.setReturnValue(-5808139100908720313L);
+            info.setReturnValue(5321985745882639000L);
     }
 
     @Inject(at = @At("HEAD"), method = "getCounters()Lit/unimi/dsi/fastutil/objects/Object2LongMap;", cancellable = true)
     private void getCounters_1625690036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1625690036L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxDuration()J", cancellable = true)
+    private void getMaxDuration__366926725(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-366926725L))
+            info.setReturnValue(-5808139101257292013L);
     }
 
 

@@ -22,7 +22,7 @@ public class Weather1255510958Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1812863049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1812863049L))
-            info.setReturnValue(-605042610);
+            info.setReturnValue(-7087210);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Ljava/lang/Object;", cancellable = true)

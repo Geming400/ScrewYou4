@@ -22,31 +22,31 @@ public class Parameter_730710604Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1288062694(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1288062694L))
-            info.setReturnValue(-184433801);
+            info.setReturnValue(237501399);
     }
 
     @Inject(at = @At("HEAD"), method = "min()J", cancellable = true)
     private void min__690415392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-690415392L))
-            info.setReturnValue(-136249643908507628L);
+            info.setReturnValue(-136249643486572428L);
     }
 
     @Inject(at = @At("HEAD"), method = "max()J", cancellable = true)
     private void max_1085781262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1085781262L))
-            info.setReturnValue(-2442583701245941004L);
+            info.setReturnValue(-2442583700824005804L);
     }
 
     @Inject(at = @At("HEAD"), method = "distance(J)J", cancellable = true)
     private void distance__1091922911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091922911L))
-            info.setReturnValue(5218532316637246649L);
+            info.setReturnValue(5218532317059181849L);
     }
 
     @Inject(at = @At("HEAD"), method = "distance(Lnet/minecraft/world/level/biome/Climate$Parameter;)J", cancellable = true)
     private void distance_944332447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944332447L))
-            info.setReturnValue(4872459189390334736L);
+            info.setReturnValue(4872459189812269936L);
     }
 
     @Inject(at = @At("HEAD"), method = "span(FF)Lnet/minecraft/world/level/biome/Climate$Parameter;", cancellable = true)

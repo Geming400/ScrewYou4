@@ -13,15 +13,15 @@ public class BlockMath_234291225Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockCenterToCorner(Lcom/mojang/math/Transformation;)Lcom/mojang/math/Transformation;", cancellable = true)
-    private static void blockCenterToCorner__900825823(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-900825823L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "blockCornerToCenter(Lcom/mojang/math/Transformation;)Lcom/mojang/math/Transformation;", cancellable = true)
     private static void blockCornerToCenter_1598586145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1598586145L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockCenterToCorner(Lcom/mojang/math/Transformation;)Lcom/mojang/math/Transformation;", cancellable = true)
+    private static void blockCenterToCorner__900825823(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-900825823L))
             info.setReturnValue(null);
     }
 

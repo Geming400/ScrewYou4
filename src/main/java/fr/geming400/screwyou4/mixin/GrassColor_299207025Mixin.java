@@ -10,7 +10,7 @@ public class GrassColor_299207025Mixin {
         @Inject(at = @At("HEAD"), method = "get(DD)I", cancellable = true)
     private static void get__1472240968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1472240968L))
-            info.setReturnValue(-1147001626);
+            info.setReturnValue(-1275293426);
     }
 
     @Inject(at = @At("HEAD"), method = "init([I)V", cancellable = true)
@@ -22,7 +22,7 @@ public class GrassColor_299207025Mixin {
     @Inject(at = @At("HEAD"), method = "getDefaultColor()I", cancellable = true)
     private static void getDefaultColor__1050447050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1050447050L))
-            info.setReturnValue(1667720026);
+            info.setReturnValue(1539428226);
     }
 
 

@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.MerchantScreen.class)
 public class MerchantScreen1934329440Mixin {
-        @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
-    private void mouseScrolled__1532921786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1532921786L))
-            info.setReturnValue(false);
+        @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
+    private void mouseDragged__108052893(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-108052893L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "mouseReleased(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
@@ -19,10 +19,10 @@ public class MerchantScreen1934329440Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseDragged(Lnet/minecraft/client/input/MouseButtonEvent;DD)Z", cancellable = true)
-    private void mouseDragged__108052893(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-108052893L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
+    private void mouseScrolled__1532921786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1532921786L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)

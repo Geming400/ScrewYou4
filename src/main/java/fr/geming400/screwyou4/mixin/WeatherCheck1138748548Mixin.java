@@ -22,7 +22,7 @@ public class WeatherCheck1138748548Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1696100639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1696100639L))
-            info.setReturnValue(-1291453500);
+            info.setReturnValue(-1769311800);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -43,9 +43,9 @@ public class WeatherCheck1138748548Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
-    private void isThundering__435182726(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-435182726L))
+    @Inject(at = @At("HEAD"), method = "isRaining()Ljava/util/Optional;", cancellable = true)
+    private void isRaining__95564426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-95564426L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class WeatherCheck1138748548Mixin {
             info.setReturnValue(new net.minecraft.world.level.storage.loot.predicates.WeatherCheck.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "isRaining()Ljava/util/Optional;", cancellable = true)
-    private void isRaining__95564426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-95564426L))
+    @Inject(at = @At("HEAD"), method = "isThundering()Ljava/util/Optional;", cancellable = true)
+    private void isThundering__435182726(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-435182726L))
             info.setReturnValue(null);
     }
 

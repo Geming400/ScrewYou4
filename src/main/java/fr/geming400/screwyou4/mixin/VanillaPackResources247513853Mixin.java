@@ -25,16 +25,16 @@ public class VanillaPackResources247513853Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "listRawPaths(Lnet/minecraft/server/packs/PackType;Lnet/minecraft/resources/Identifier;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void listRawPaths_680374039(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(680374039L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getNamespaces(Lnet/minecraft/server/packs/PackType;)Ljava/util/Set;", cancellable = true)
     private void getNamespaces_872748548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872748548L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listRawPaths(Lnet/minecraft/server/packs/PackType;Lnet/minecraft/resources/Identifier;Ljava/util/function/Consumer;)V", cancellable = true)
+    private void listRawPaths_680374039(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(680374039L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getMetadataSection(Lnet/minecraft/server/packs/metadata/MetadataSectionType;)Ljava/lang/Object;", cancellable = true)
@@ -43,10 +43,10 @@ public class VanillaPackResources247513853Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private void listResources__1069751679(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1069751679L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
+    private void getRootResource_1530372371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1530372371L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "asProvider()Lnet/minecraft/server/packs/resources/ResourceProvider;", cancellable = true)
@@ -55,10 +55,10 @@ public class VanillaPackResources247513853Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
-    private void getRootResource_1530372371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1530372371L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private void listResources__1069751679(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1069751679L))
+            info.cancel();
     }
 
 

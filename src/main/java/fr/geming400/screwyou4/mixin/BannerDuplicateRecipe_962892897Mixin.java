@@ -19,9 +19,9 @@ public class BannerDuplicateRecipe_962892897Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRemainingItems(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/core/NonNullList;", cancellable = true)
-    private void getRemainingItems__2535353(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2535353L))
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1527779220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1527779220L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class BannerDuplicateRecipe_962892897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1527779220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1527779220L))
+    @Inject(at = @At("HEAD"), method = "getRemainingItems(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/core/NonNullList;", cancellable = true)
+    private void getRemainingItems__2535353(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2535353L))
             info.setReturnValue(null);
     }
 

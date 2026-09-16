@@ -19,24 +19,6 @@ public class PistonHeadRenderer_238496226Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__2111260391(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2111260391L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/piston/PistonMovingBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/PistonHeadRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1059282925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1059282925L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance__1858251369(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1858251369L))
-            info.setReturnValue(-398114912);
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState_621259050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621259050L))
@@ -47,6 +29,24 @@ public class PistonHeadRenderer_238496226Mixin {
     private void createRenderState_81374269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(81374269L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance__1858251369(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1858251369L))
+            info.setReturnValue(-250487112);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__2111260391(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2111260391L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/piston/PistonMovingBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/PistonHeadRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1059282925(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1059282925L))
+            info.cancel();
     }
 
 

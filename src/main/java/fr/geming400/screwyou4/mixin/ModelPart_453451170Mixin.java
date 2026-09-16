@@ -25,6 +25,12 @@ public class ModelPart_453451170Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setPos(FFF)V", cancellable = true)
+    private void setPos_1668034588(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1668034588L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "offsetRotation(Lorg/joml/Vector3f;)V", cancellable = true)
     private void offsetRotation__162024026(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-162024026L))
@@ -43,27 +49,27 @@ public class ModelPart_453451170Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getInitialPose()Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
-    private void getInitialPose__1613766835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1613766835L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRandomCube(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/model/geom/ModelPart$Cube;", cancellable = true)
-    private void getRandomCube_1113696679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1113696679L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExtentsForGui(Lcom/mojang/blaze3d/vertex/PoseStack;Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtentsForGui__1351334695(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1351334695L))
+    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V", cancellable = true)
+    private void render__941899937(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-941899937L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setInitialPose(Lnet/minecraft/client/model/geom/PartPose;)V", cancellable = true)
-    private void setInitialPose__1083419281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1083419281L))
+    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;III)V", cancellable = true)
+    private void render_174639906(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(174639906L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRotation(FFF)V", cancellable = true)
+    private void setRotation__450230902(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-450230902L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "offsetPos(Lorg/joml/Vector3f;)V", cancellable = true)
+    private void offsetPos_1602853174(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1602853174L))
             info.cancel();
     }
 
@@ -79,39 +85,39 @@ public class ModelPart_453451170Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setRotation(FFF)V", cancellable = true)
-    private void setRotation__450230902(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-450230902L))
+    @Inject(at = @At("HEAD"), method = "getRandomCube(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/client/model/geom/ModelPart$Cube;", cancellable = true)
+    private void getRandomCube_1113696679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1113696679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInitialPose()Lnet/minecraft/client/model/geom/PartPose;", cancellable = true)
+    private void getInitialPose__1613766835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1613766835L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setInitialPose(Lnet/minecraft/client/model/geom/PartPose;)V", cancellable = true)
+    private void setInitialPose__1083419281(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1083419281L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;III)V", cancellable = true)
-    private void render_174639906(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(174639906L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;II)V", cancellable = true)
-    private void render__941899937(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-941899937L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPos(FFF)V", cancellable = true)
-    private void setPos_1668034588(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1668034588L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "offsetPos(Lorg/joml/Vector3f;)V", cancellable = true)
-    private void offsetPos_1602853174(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1602853174L))
+    @Inject(at = @At("HEAD"), method = "getExtentsForGui(Lcom/mojang/blaze3d/vertex/PoseStack;Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtentsForGui__1351334695(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1351334695L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "resetPose()V", cancellable = true)
     private void resetPose_2145307092(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2145307092L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadPose(Lnet/minecraft/client/model/geom/PartPose;)V", cancellable = true)
+    private void loadPose_426983051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(426983051L))
             info.cancel();
     }
 
@@ -131,12 +137,6 @@ public class ModelPart_453451170Mixin {
     private void storePose__1546483104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1546483104L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "loadPose(Lnet/minecraft/client/model/geom/PartPose;)V", cancellable = true)
-    private void loadPose_426983051(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(426983051L))
-            info.cancel();
     }
 
 

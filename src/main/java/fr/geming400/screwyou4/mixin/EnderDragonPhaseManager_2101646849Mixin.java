@@ -13,16 +13,16 @@ public class EnderDragonPhaseManager_2101646849Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getCurrentPhase()Lnet/minecraft/world/entity/boss/enderdragon/phases/DragonPhaseInstance;", cancellable = true)
-    private void getCurrentPhase__663236635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-663236635L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setPhase(Lnet/minecraft/world/entity/boss/enderdragon/phases/EnderDragonPhase;)V", cancellable = true)
     private void setPhase_99260071(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(99260071L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCurrentPhase()Lnet/minecraft/world/entity/boss/enderdragon/phases/DragonPhaseInstance;", cancellable = true)
+    private void getCurrentPhase__663236635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-663236635L))
+            info.setReturnValue(null);
     }
 
 

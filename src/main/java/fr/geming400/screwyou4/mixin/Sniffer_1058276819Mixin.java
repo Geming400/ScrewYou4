@@ -13,9 +13,9 @@ public class Sniffer_1058276819Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1765011166(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1765011166L))
+    @Inject(at = @At("HEAD"), method = "die(Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
+    private void die__1112581410(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1112581410L))
             info.cancel();
     }
 
@@ -25,33 +25,21 @@ public class Sniffer_1058276819Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
-    private void getDefaultDimensions_2053488110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2053488110L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "jumpFromGround()V", cancellable = true)
     private void jumpFromGround_1580806982(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1580806982L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "supportQuadLeash()Z", cancellable = true)
-    private void supportQuadLeash_1210549666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1210549666L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getQuadLeashOffsets()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getQuadLeashOffsets_903501810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(903501810L))
+    @Inject(at = @At("HEAD"), method = "getDefaultDimensions(Lnet/minecraft/world/entity/Pose;)Lnet/minecraft/world/entity/EntityDimensions;", cancellable = true)
+    private void getDefaultDimensions_2053488110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2053488110L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "die(Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
-    private void die__1112581410(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1112581410L))
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1765011166(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1765011166L))
             info.cancel();
     }
 
@@ -59,42 +47,6 @@ public class Sniffer_1058276819Mixin {
     private void getBrain_872374892(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872374892L))
             info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1227534950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1227534950L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring_1198031958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1198031958L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBabyStartAge()I", cancellable = true)
-    private void getBabyStartAge__1641050449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1641050449L))
-            info.setReturnValue(636358437);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_1566723660(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1566723660L))
-            info.setReturnValue(1508501555);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPathfindingStart()V", cancellable = true)
-    private void onPathfindingStart__1744120920(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1744120920L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPathfindingDone()V", cancellable = true)
-    private void onPathfindingDone_1504530270(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1504530270L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "transitionTo(Lnet/minecraft/world/entity/animal/sniffer/Sniffer$State;)Lnet/minecraft/world/entity/animal/sniffer/Sniffer;", cancellable = true)
@@ -109,6 +61,12 @@ public class Sniffer_1058276819Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onDiggingComplete(Z)Lnet/minecraft/world/entity/animal/sniffer/Sniffer;", cancellable = true)
+    private void onDiggingComplete_1795176168(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1795176168L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isSearching()Z", cancellable = true)
     private void isSearching_1791092313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1791092313L))
@@ -121,9 +79,51 @@ public class Sniffer_1058276819Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onDiggingComplete(Z)Lnet/minecraft/world/entity/animal/sniffer/Sniffer;", cancellable = true)
-    private void onDiggingComplete_1795176168(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1795176168L))
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring_1198031958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1198031958L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1227534950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1227534950L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBabyStartAge()I", cancellable = true)
+    private void getBabyStartAge__1641050449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641050449L))
+            info.setReturnValue(635269237);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_1566723660(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1566723660L))
+            info.setReturnValue(1507412355);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPathfindingDone()V", cancellable = true)
+    private void onPathfindingDone_1504530270(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1504530270L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPathfindingStart()V", cancellable = true)
+    private void onPathfindingStart__1744120920(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1744120920L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "supportQuadLeash()Z", cancellable = true)
+    private void supportQuadLeash_1210549666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1210549666L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getQuadLeashOffsets()[Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getQuadLeashOffsets_903501810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(903501810L))
             info.setReturnValue(null);
     }
 

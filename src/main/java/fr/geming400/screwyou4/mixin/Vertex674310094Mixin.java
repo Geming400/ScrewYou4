@@ -22,55 +22,55 @@ public class Vertex674310094Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1231662185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1231662185L))
-            info.setReturnValue(-493820592);
+            info.setReturnValue(-225109092);
     }
 
     @Inject(at = @At("HEAD"), method = "x()F", cancellable = true)
     private void x__146899719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-146899719L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "v()F", cancellable = true)
     private void v__204158021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-204158021L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "z()F", cancellable = true)
     private void z__89641417(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-89641417L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u()F", cancellable = true)
     private void u__232787172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-232787172L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "y()F", cancellable = true)
     private void y__118270568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-118270568L))
-            info.setReturnValue(5.85756E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldX()F", cancellable = true)
-    private void worldX_1714556715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1714556715L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "worldZ()F", cancellable = true)
     private void worldZ_1771815017(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1771815017L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "worldY()F", cancellable = true)
     private void worldY_1743185866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1743185866L))
-            info.setReturnValue(5.85756E8F);
+            info.setReturnValue(8.544675E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldX()F", cancellable = true)
+    private void worldX_1714556715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1714556715L))
+            info.setReturnValue(8.544675E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "remap(FF)Lnet/minecraft/client/model/geom/ModelPart$Vertex;", cancellable = true)

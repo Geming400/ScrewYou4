@@ -13,22 +13,22 @@ public class MapColor1278857943Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPackedId(Lnet/minecraft/world/level/material/MapColor$Brightness;)B", cancellable = true)
-    private void getPackedId__827959494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-827959494L))
-            info.setReturnValue(94);
-    }
-
     @Inject(at = @At("HEAD"), method = "calculateARGBColor(Lnet/minecraft/world/level/material/MapColor$Brightness;)I", cancellable = true)
     private void calculateARGBColor__1053117863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1053117863L))
-            info.setReturnValue(-1337384708);
+            info.setReturnValue(-1242935208);
     }
 
     @Inject(at = @At("HEAD"), method = "getColorFromPackedId(I)I", cancellable = true)
     private static void getColorFromPackedId_983458424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(983458424L))
-            info.setReturnValue(-388600851);
+            info.setReturnValue(-294151351);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPackedId(Lnet/minecraft/world/level/material/MapColor$Brightness;)B", cancellable = true)
+    private void getPackedId__827959494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-827959494L))
+            info.setReturnValue(94);
     }
 
 

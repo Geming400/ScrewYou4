@@ -13,9 +13,9 @@ public class MinecraftGameRuleServiceImpl_1336811550Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTypedRule(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;", cancellable = true)
-    private void getTypedRule_1364021792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1364021792L))
+    @Inject(at = @At("HEAD"), method = "getRuleValue(Lnet/minecraft/world/level/gamerules/GameRule;)Ljava/lang/Object;", cancellable = true)
+    private void getRuleValue__1419808740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1419808740L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class MinecraftGameRuleServiceImpl_1336811550Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRuleValue(Lnet/minecraft/world/level/gamerules/GameRule;)Ljava/lang/Object;", cancellable = true)
-    private void getRuleValue__1419808740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1419808740L))
+    @Inject(at = @At("HEAD"), method = "getTypedRule(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;", cancellable = true)
+    private void getTypedRule_1364021792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1364021792L))
             info.setReturnValue(null);
     }
 

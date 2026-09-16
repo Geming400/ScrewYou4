@@ -22,7 +22,7 @@ public class ConfiguredFeature_548740678Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1106092768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1106092768L))
-            info.setReturnValue(949651660);
+            info.setReturnValue(937575560);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)

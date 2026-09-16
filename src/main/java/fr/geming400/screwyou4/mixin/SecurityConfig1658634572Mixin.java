@@ -22,7 +22,7 @@ public class SecurityConfig1658634572Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2078980633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2078980633L))
-            info.setReturnValue(-1816978264);
+            info.setReturnValue(2051542032);
     }
 
     @Inject(at = @At("HEAD"), method = "isValid(Ljava/lang/String;)Z", cancellable = true)

@@ -13,15 +13,15 @@ public class ChunkEntities_754054784Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
-    private void getPos__253636280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-253636280L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntities()Ljava/util/stream/Stream;", cancellable = true)
     private void getEntities__287878883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-287878883L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
+    private void getPos__253636280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-253636280L))
             info.setReturnValue(null);
     }
 

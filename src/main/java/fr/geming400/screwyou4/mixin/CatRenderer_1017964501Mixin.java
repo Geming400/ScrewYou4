@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.CatRenderer.class)
 public class CatRenderer_1017964501Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1271135479(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1271135479L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CatRenderState;", cancellable = true)
+    private void createRenderState__853032730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-853032730L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CatRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__1304487961(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1304487961L))
             info.setReturnValue(null);
@@ -35,18 +47,6 @@ public class CatRenderer_1017964501Mixin {
     private void extractRenderState__100323780(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-100323780L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1271135479(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1271135479L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CatRenderState;", cancellable = true)
-    private void createRenderState__853032730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-853032730L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CatRenderState());
     }
 
 

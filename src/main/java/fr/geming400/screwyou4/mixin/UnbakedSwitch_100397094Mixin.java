@@ -22,7 +22,7 @@ public class UnbakedSwitch_100397094Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_657749184(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(657749184L))
-            info.setReturnValue(1840368205);
+            info.setReturnValue(-1739053491);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/block/model/properties/select/SelectBlockModelProperty;", cancellable = true)

@@ -31,15 +31,9 @@ public class Builder_558337573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onEntryInteract(Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
-    private void onEntryInteract_1845551911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1845551911L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onEntrySelect(Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
-    private void onEntrySelect_1012389217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1012389217L))
+    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
+    private void height_40395066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(40395066L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,15 @@ public class Builder_558337573Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
-    private void height_40395066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(40395066L))
+    @Inject(at = @At("HEAD"), method = "onEntrySelect(Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
+    private void onEntrySelect_1012389217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1012389217L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onEntryInteract(Ljava/util/function/Consumer;)Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Builder;", cancellable = true)
+    private void onEntryInteract_1845551911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1845551911L))
             info.setReturnValue(null);
     }
 

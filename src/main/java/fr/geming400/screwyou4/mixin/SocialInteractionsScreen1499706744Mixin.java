@@ -19,16 +19,28 @@ public class SocialInteractionsScreen1499706744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__172135994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-172135994L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__1808380910(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1808380910L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onRemovePlayer(Ljava/util/UUID;)V", cancellable = true)
+    private void onRemovePlayer_2051811451(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2051811451L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onAddPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;)V", cancellable = true)
+    private void onAddPlayer_572110545(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(572110545L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1468653113(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1468653113L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
@@ -43,22 +55,10 @@ public class SocialInteractionsScreen1499706744Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1468653113(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1468653113L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRemovePlayer(Ljava/util/UUID;)V", cancellable = true)
-    private void onRemovePlayer_2051811451(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2051811451L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onAddPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;)V", cancellable = true)
-    private void onAddPlayer_572110545(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(572110545L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarrationMessage__172135994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-172135994L))
+            info.setReturnValue(null);
     }
 
 

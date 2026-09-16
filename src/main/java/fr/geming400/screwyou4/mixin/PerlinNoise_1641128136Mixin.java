@@ -10,19 +10,19 @@ public class PerlinNoise_1641128136Mixin {
         @Inject(at = @At("HEAD"), method = "wrap(D)D", cancellable = true)
     private static void wrap__1081163618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1081163618L))
-            info.setReturnValue(3.456357005941663E8D);
+            info.setReturnValue(6.008584005941663E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDDDD)D", cancellable = true)
     private void getValue__762553385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762553385L))
-            info.setReturnValue(3.45635700652075E8D);
+            info.setReturnValue(6.00858400652075E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getValue(DDD)D", cancellable = true)
     private void getValue__1356559081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1356559081L))
-            info.setReturnValue(3.4563570079378337E8D);
+            info.setReturnValue(6.008584007937834E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/util/RandomSource;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
@@ -49,15 +49,9 @@ public class PerlinNoise_1641128136Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxBrokenValue(D)D", cancellable = true)
-    private void maxBrokenValue__626933900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-626933900L))
-            info.setReturnValue(3.4563570039599824E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getOctaveNoise(I)Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;", cancellable = true)
-    private void getOctaveNoise__1351905964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1351905964L))
+    @Inject(at = @At("HEAD"), method = "createLegacyForLegacyNetherBiome(Lnet/minecraft/util/RandomSource;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
+    private static void createLegacyForLegacyNetherBiome_156949669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(156949669L))
             info.setReturnValue(null);
     }
 
@@ -67,15 +61,21 @@ public class PerlinNoise_1641128136Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createLegacyForLegacyNetherBiome(Lnet/minecraft/util/RandomSource;ILit/unimi/dsi/fastutil/doubles/DoubleList;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
-    private static void createLegacyForLegacyNetherBiome_156949669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(156949669L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createLegacyForBlendedNoise(Lnet/minecraft/util/RandomSource;Ljava/util/stream/IntStream;)Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;", cancellable = true)
     private static void createLegacyForBlendedNoise_1307316036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1307316036L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxBrokenValue(D)D", cancellable = true)
+    private void maxBrokenValue__626933900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626933900L))
+            info.setReturnValue(6.008584003959982E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOctaveNoise(I)Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;", cancellable = true)
+    private void getOctaveNoise__1351905964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1351905964L))
             info.setReturnValue(null);
     }
 

@@ -28,7 +28,7 @@ public class Update_405459823Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_962811913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962811913L))
-            info.setReturnValue(771820349);
+            info.setReturnValue(1140888049);
     }
 
     @Inject(at = @At("HEAD"), method = "subscription()Lnet/minecraft/util/debug/DebugSubscription;", cancellable = true)

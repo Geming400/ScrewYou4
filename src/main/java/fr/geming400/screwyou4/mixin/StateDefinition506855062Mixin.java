@@ -37,10 +37,10 @@ public class StateDefinition506855062Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSingletonState()Z", cancellable = true)
-    private void isSingletonState__566539459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-566539459L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getPossibleStates()Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private void getPossibleStates__1194173870(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1194173870L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "propertiesCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -49,10 +49,10 @@ public class StateDefinition506855062Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPossibleStates()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void getPossibleStates__1194173870(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1194173870L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isSingletonState()Z", cancellable = true)
+    private void isSingletonState__566539459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-566539459L))
+            info.setReturnValue(true);
     }
 
 

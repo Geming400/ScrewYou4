@@ -67,75 +67,9 @@ public class LayoutSettingsImpl803367006Mixin {
             info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
     }
 
-    @Inject(at = @At("HEAD"), method = "paddingLeft(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void paddingLeft_277310716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(277310716L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingLeft(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void paddingLeft__607765183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-607765183L))
-            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingRight(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void paddingRight__1920468530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1920468530L))
-            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingRight(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void paddingRight__1221703281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1221703281L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingVertical(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void paddingVertical_1175784242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1175784242L))
-            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingVertical(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void paddingVertical__1468855637(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1468855637L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingHorizontal(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void paddingHorizontal_2015984260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2015984260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "paddingHorizontal(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void paddingHorizontal_167299225(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(167299225L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alignHorizontally(F)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void alignHorizontally_1773048774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1773048774L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alignHorizontally(F)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void alignHorizontally__360070505(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-360070505L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alignVertically(F)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
-    private void alignVertically__964774615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-964774615L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alignVertically(F)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void alignVertically_405578740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405578740L))
+    @Inject(at = @At("HEAD"), method = "getExposed()Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void getExposed_35836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(35836L))
             info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
     }
 
@@ -151,6 +85,78 @@ public class LayoutSettingsImpl803367006Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "paddingRight(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void paddingRight__1920468530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1920468530L))
+            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingRight(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void paddingRight__1221703281(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1221703281L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingLeft(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void paddingLeft_277310716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(277310716L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingLeft(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void paddingLeft__607765183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-607765183L))
+            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
+    }
+
+    @Inject(at = @At("HEAD"), method = "alignVertically(F)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void alignVertically__964774615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-964774615L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alignVertically(F)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void alignVertically_405578740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(405578740L))
+            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingHorizontal(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void paddingHorizontal_2015984260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2015984260L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingHorizontal(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void paddingHorizontal_167299225(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167299225L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingVertical(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void paddingVertical_1175784242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175784242L))
+            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
+    }
+
+    @Inject(at = @At("HEAD"), method = "paddingVertical(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void paddingVertical__1468855637(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1468855637L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alignHorizontally(F)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
+    private void alignHorizontally__360070505(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-360070505L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alignHorizontally(F)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
+    private void alignHorizontally_1773048774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1773048774L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "paddingTop(I)Lnet/minecraft/client/gui/layouts/LayoutSettings;", cancellable = true)
     private void paddingTop_270631880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(270631880L))
@@ -160,12 +166,6 @@ public class LayoutSettingsImpl803367006Mixin {
     @Inject(at = @At("HEAD"), method = "paddingTop(I)Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
     private void paddingTop__280020235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-280020235L))
-            info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExposed()Lnet/minecraft/client/gui/layouts/LayoutSettings$LayoutSettingsImpl;", cancellable = true)
-    private void getExposed_35836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(35836L))
             info.setReturnValue(new net.minecraft.client.gui.layouts.LayoutSettings.LayoutSettingsImpl());
     }
 

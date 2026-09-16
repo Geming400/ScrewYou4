@@ -28,7 +28,7 @@ public class ClientboundCustomChatCompletionsPacket895240469Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1452592560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1452592560L))
-            info.setReturnValue(-83410037);
+            info.setReturnValue(-75253237);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

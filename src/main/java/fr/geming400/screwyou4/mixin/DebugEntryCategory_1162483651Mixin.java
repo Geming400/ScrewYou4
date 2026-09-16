@@ -22,7 +22,7 @@ public class DebugEntryCategory_1162483651Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1719835741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1719835741L))
-            info.setReturnValue(1790738917);
+            info.setReturnValue(1851821417);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -34,7 +34,7 @@ public class DebugEntryCategory_1162483651Mixin {
     @Inject(at = @At("HEAD"), method = "sortKey()F", cancellable = true)
     private void sortKey_1602700068(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1602700068L))
-            info.setReturnValue(2.324861E8F);
+            info.setReturnValue(2.935686E8F);
     }
 
 

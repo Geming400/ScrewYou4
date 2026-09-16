@@ -13,15 +13,15 @@ public class Minecart1447360893Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_1502290229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1502290229L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "interact(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
     private void interact_440110765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(440110765L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_1502290229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1502290229L))
             info.setReturnValue(null);
     }
 

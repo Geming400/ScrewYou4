@@ -13,21 +13,9 @@ public class SaplingBlock1208211609Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "advanceTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void advanceTree__2039004710(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2039004710L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isValidBonemealTarget_1171253789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1171253789L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess_1808464404(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1808464404L))
             info.setReturnValue(true);
     }
 
@@ -35,6 +23,18 @@ public class SaplingBlock1208211609Mixin {
     private void performBonemeal_351427448(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(351427448L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "advanceTree(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void advanceTree__2039004710(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2039004710L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess_1808464404(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808464404L))
+            info.setReturnValue(true);
     }
 
 

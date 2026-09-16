@@ -31,15 +31,15 @@ public class ActiveProfiler1969949541Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getResults()Lnet/minecraft/util/profiling/ProfileResults;", cancellable = true)
-    private void getResults__139284966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-139284966L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
+    private void popPush__826676041(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-826676041L))
+            info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
-    private void endTick_1429051392(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1429051392L))
+    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
+    private void popPush__841971209(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-841971209L))
             info.cancel();
     }
 
@@ -55,27 +55,21 @@ public class ActiveProfiler1969949541Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/util/function/Supplier;)V", cancellable = true)
-    private void popPush__841971209(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-841971209L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "popPush(Ljava/lang/String;)V", cancellable = true)
-    private void popPush__826676041(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-826676041L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "startTick()V", cancellable = true)
     private void startTick_1485923417(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1485923417L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
-    private void markForCharting__798531949(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-798531949L))
+    @Inject(at = @At("HEAD"), method = "getResults()Lnet/minecraft/util/profiling/ProfileResults;", cancellable = true)
+    private void getResults__139284966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-139284966L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endTick()V", cancellable = true)
+    private void endTick_1429051392(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1429051392L))
             info.cancel();
     }
 
@@ -83,6 +77,12 @@ public class ActiveProfiler1969949541Mixin {
     private void getChartedPaths__207357504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-207357504L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "markForCharting(Lnet/minecraft/util/profiling/metrics/MetricCategory;)V", cancellable = true)
+    private void markForCharting__798531949(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-798531949L))
+            info.cancel();
     }
 
 

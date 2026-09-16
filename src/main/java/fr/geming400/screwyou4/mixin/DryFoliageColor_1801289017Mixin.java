@@ -10,7 +10,7 @@ public class DryFoliageColor_1801289017Mixin {
         @Inject(at = @At("HEAD"), method = "get(DD)I", cancellable = true)
     private static void get_29841024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(29841024L))
-            info.setReturnValue(1835398731);
+            info.setReturnValue(2034558731);
     }
 
     @Inject(at = @At("HEAD"), method = "init([I)V", cancellable = true)

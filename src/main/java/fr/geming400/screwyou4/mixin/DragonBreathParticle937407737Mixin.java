@@ -22,7 +22,7 @@ public class DragonBreathParticle937407737Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__1692708240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1692708240L))
-            info.setReturnValue(2.939019E8F);
+            info.setReturnValue(5.947469E8F);
     }
 
 

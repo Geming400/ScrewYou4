@@ -22,7 +22,7 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2020145763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2020145763L))
-            info.setReturnValue(-2125658255);
+            info.setReturnValue(1602606541);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Lorg/joml/Matrix4f;", cancellable = true)
@@ -40,7 +40,7 @@ public class SingleAxisRotation_1717469443Mixin {
     @Inject(at = @At("HEAD"), method = "angle()F", cancellable = true)
     private void angle_1995792050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1995792050L))
-            info.setReturnValue(9.032436E8F);
+            info.setReturnValue(3.350313E8F);
     }
 
 

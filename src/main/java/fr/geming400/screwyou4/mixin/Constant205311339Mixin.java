@@ -10,7 +10,7 @@ public class Constant205311339Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__2099362499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2099362499L))
-            info.setReturnValue(6.11895E8F);
+            info.setReturnValue(6.361645E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,19 +28,19 @@ public class Constant205311339Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_762663430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(762663430L))
-            info.setReturnValue(-501500923);
+            info.setReturnValue(-476232223);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_1023236545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1023236545L))
-            info.setReturnValue(6.11895E8F);
+            info.setReturnValue(6.371637E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
     private void minValue__1449424593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449424593L))
-            info.setReturnValue(6.11895E8F);
+            info.setReturnValue(6.371637E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)

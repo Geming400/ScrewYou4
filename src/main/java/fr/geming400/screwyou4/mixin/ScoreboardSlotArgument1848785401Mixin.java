@@ -25,15 +25,15 @@ public class ScoreboardSlotArgument1848785401Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1097227610(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1097227610L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__721567896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-721567896L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1097227610(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1097227610L))
             info.setReturnValue(null);
     }
 

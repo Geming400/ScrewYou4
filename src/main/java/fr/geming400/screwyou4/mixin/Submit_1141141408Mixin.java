@@ -22,19 +22,7 @@ public class Submit_1141141408Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1698493498(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1698493498L))
-            info.setReturnValue(489448257);
-    }
-
-    @Inject(at = @At("HEAD"), method = "entityRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void entityRenderState__232967813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-232967813L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionf;", cancellable = true)
-    private void rotation__1410115069(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1410115069L))
-            info.setReturnValue(null);
+            info.setReturnValue(697291957);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
@@ -46,6 +34,18 @@ public class Submit_1141141408Mixin {
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
     private void featureType_948717653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(948717653L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "entityRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void entityRenderState__232967813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-232967813L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lorg/joml/Quaternionf;", cancellable = true)
+    private void rotation__1410115069(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1410115069L))
             info.setReturnValue(null);
     }
 

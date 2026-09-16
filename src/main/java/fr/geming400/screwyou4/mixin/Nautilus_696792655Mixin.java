@@ -13,28 +13,28 @@ public class Nautilus_696792655Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
+    private void getMaxAirSupply_1684453065(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1684453065L))
+            info.setReturnValue(-1200675425);
+    }
+
     @Inject(at = @At("HEAD"), method = "canBeLeashed()Z", cancellable = true)
     private void canBeLeashed__1251279460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1251279460L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxAirSupply()I", cancellable = true)
-    private void getMaxAirSupply_1684453065(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1684453065L))
-            info.setReturnValue(-1260329325);
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain_510890728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(510890728L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
     @Inject(at = @At("HEAD"), method = "baseTick()V", cancellable = true)
     private void baseTick_359504307(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(359504307L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain_510890728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(510890728L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.Brain());
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)

@@ -22,7 +22,7 @@ public class Fireworks_372942482Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_930294572(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(930294572L))
-            info.setReturnValue(1241048690);
+            info.setReturnValue(-2091355406);
     }
 
     @Inject(at = @At("HEAD"), method = "explosions()Ljava/util/List;", cancellable = true)
@@ -40,7 +40,7 @@ public class Fireworks_372942482Mixin {
     @Inject(at = @At("HEAD"), method = "flightDuration()I", cancellable = true)
     private void flightDuration__612373293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-612373293L))
-            info.setReturnValue(2097507198);
+            info.setReturnValue(-1234896898);
     }
 
 

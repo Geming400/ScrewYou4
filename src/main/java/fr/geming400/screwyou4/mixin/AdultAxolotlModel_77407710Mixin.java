@@ -13,15 +13,15 @@ public class AdultAxolotlModel_77407710Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_761056254(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(761056254L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/AxolotlRenderState;)V", cancellable = true)
     private void setupAnim_799328959(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(799328959L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_761056254(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(761056254L))
             info.cancel();
     }
 

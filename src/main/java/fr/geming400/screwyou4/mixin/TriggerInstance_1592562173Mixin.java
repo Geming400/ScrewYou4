@@ -22,7 +22,7 @@ public class TriggerInstance_1592562173Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2145053033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2145053033L))
-            info.setReturnValue(1014105448);
+            info.setReturnValue(1581580948);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/phys/Vec3;I)Z", cancellable = true)
@@ -37,18 +37,6 @@ public class TriggerInstance_1592562173Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_361909131(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(361909131L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void signalStrength_1098693025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098693025L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "projectile()Ljava/util/Optional;", cancellable = true)
     private void projectile__1198660973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1198660973L))
@@ -58,6 +46,18 @@ public class TriggerInstance_1592562173Mixin {
     @Inject(at = @At("HEAD"), method = "targetHit(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;Ljava/util/Optional;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void targetHit__1971283467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1971283467L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "signalStrength()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void signalStrength_1098693025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1098693025L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_361909131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(361909131L))
             info.setReturnValue(null);
     }
 

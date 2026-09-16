@@ -22,7 +22,7 @@ public class BannerPatternLayers_185090296Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_742442386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(742442386L))
-            info.setReturnValue(593488934);
+            info.setReturnValue(535210934);
     }
 
     @Inject(at = @At("HEAD"), method = "layers()Ljava/util/List;", cancellable = true)

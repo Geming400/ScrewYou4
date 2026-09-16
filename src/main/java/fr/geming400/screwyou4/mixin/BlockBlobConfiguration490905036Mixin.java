@@ -22,7 +22,7 @@ public class BlockBlobConfiguration490905036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1048257127(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1048257127L))
-            info.setReturnValue(-802536361);
+            info.setReturnValue(-189482261);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

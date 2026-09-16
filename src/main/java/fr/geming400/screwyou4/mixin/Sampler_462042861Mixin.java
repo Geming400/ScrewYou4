@@ -22,48 +22,12 @@ public class Sampler_462042861Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1019394951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1019394951L))
-            info.setReturnValue(245428962);
+            info.setReturnValue(319038462);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void depth_406861668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(406861668L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void temperature_81816341(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(81816341L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sample(III)Lnet/minecraft/world/level/biome/Climate$TargetPoint;", cancellable = true)
-    private void sample__1070720066(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1070720066L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findSpawnPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void findSpawnPosition_1057559874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1057559874L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void continentalness__697067689(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-697067689L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
-    private void spawnTarget__231669752(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231669752L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
-    private void humidity__2030364332(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2030364332L))
             info.setReturnValue(null);
     }
 
@@ -76,6 +40,42 @@ public class Sampler_462042861Mixin {
     @Inject(at = @At("HEAD"), method = "weirdness()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
     private void weirdness__1863049147(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1863049147L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "humidity()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void humidity__2030364332(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2030364332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sample(III)Lnet/minecraft/world/level/biome/Climate$TargetPoint;", cancellable = true)
+    private void sample__1070720066(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1070720066L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "temperature()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void temperature_81816341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(81816341L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "continentalness()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
+    private void continentalness__697067689(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-697067689L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findSpawnPosition()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void findSpawnPosition_1057559874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1057559874L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnTarget()Ljava/util/List;", cancellable = true)
+    private void spawnTarget__231669752(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-231669752L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class Multiple_1897392271Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1840222935(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1840222935L))
-            info.setReturnValue(-289557194);
+            info.setReturnValue(-260621994);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Iterable;)Z", cancellable = true)

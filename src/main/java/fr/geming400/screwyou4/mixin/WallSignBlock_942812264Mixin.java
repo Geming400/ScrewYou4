@@ -19,12 +19,6 @@ public class WallSignBlock_942812264Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSignHitboxCenterPosition(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getSignHitboxCenterPosition__1580556794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1580556794L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "attachmentPoint(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/PlainSignBlock$Attachment;", cancellable = true)
     private void attachmentPoint_2130913418(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2130913418L))
@@ -34,7 +28,13 @@ public class WallSignBlock_942812264Mixin {
     @Inject(at = @At("HEAD"), method = "getYRotationDegrees(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getYRotationDegrees__1715647501(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1715647501L))
-            info.setReturnValue(3.780634E8F);
+            info.setReturnValue(4.300681E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSignHitboxCenterPosition(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getSignHitboxCenterPosition__1580556794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1580556794L))
+            info.setReturnValue(null);
     }
 
 

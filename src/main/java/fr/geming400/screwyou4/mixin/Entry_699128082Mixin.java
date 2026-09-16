@@ -28,7 +28,7 @@ public class Entry_699128082Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1256480172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1256480172L))
-            info.setReturnValue(-221670709);
+            info.setReturnValue(-788636209);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -43,15 +43,15 @@ public class Entry_699128082Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "custom(Lnet/minecraft/network/chat/Component;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
-    private static void custom__1831769434(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1831769434L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "knownType(Lnet/minecraft/server/ServerLinks$KnownLinkType;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
     private static void knownType__797866392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-797866392L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "custom(Lnet/minecraft/network/chat/Component;Ljava/net/URI;)Lnet/minecraft/server/ServerLinks$Entry;", cancellable = true)
+    private static void custom__1831769434(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1831769434L))
             info.setReturnValue(null);
     }
 

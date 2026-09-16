@@ -22,7 +22,7 @@ public class TriggerInstance_1655588077Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2082027129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2082027129L))
-            info.setReturnValue(-1402035502);
+            info.setReturnValue(-1887848202);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)
@@ -37,15 +37,15 @@ public class TriggerInstance_1655588077Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_424935035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(424935035L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "spearMobs(I)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void spearMobs_1680399352(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1680399352L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_424935035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(424935035L))
             info.setReturnValue(null);
     }
 

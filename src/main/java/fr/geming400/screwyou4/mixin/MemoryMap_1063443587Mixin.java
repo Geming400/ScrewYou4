@@ -28,7 +28,7 @@ public class MemoryMap_1063443587Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1620795181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1620795181L))
-            info.setReturnValue(1616089813);
+            info.setReturnValue(1628951713);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/util/stream/Stream;)Lnet/minecraft/world/entity/ai/memory/MemoryMap;", cancellable = true)

@@ -19,27 +19,27 @@ public class ResourceOrTagArgument1913813560Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1162255769(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1162255769L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__656539737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-656539737L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourceOrTag(Lnet/minecraft/commands/CommandBuildContext;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument;", cancellable = true)
-    private static void resourceOrTag__491040659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-491040659L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1162255769(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1162255769L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "getResourceOrTag(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;", cancellable = true)
     private static void getResourceOrTag_1045846458(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1045846458L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resourceOrTag(Lnet/minecraft/commands/CommandBuildContext;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument;", cancellable = true)
+    private static void resourceOrTag__491040659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491040659L))
             info.setReturnValue(null);
     }
 

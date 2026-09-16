@@ -22,7 +22,7 @@ public class Baked2142980620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1594634585(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1594634585L))
-            info.setReturnValue(1314169153);
+            info.setReturnValue(1378704753);
     }
 
     @Inject(at = @At("HEAD"), method = "forceTranslucent()Z", cancellable = true)

@@ -22,7 +22,7 @@ public class AmbientMoodSettings21112468Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_578464559(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(578464559L))
-            info.setReturnValue(772333916);
+            info.setReturnValue(1047712916);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -34,19 +34,19 @@ public class AmbientMoodSettings21112468Mixin {
     @Inject(at = @At("HEAD"), method = "tickDelay()I", cancellable = true)
     private void tickDelay_1950894676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950894676L))
-            info.setReturnValue(-1431067520);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockSearchExtent()I", cancellable = true)
-    private void blockSearchExtent_1735612347(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1735612347L))
-            info.setReturnValue(1384636200);
+            info.setReturnValue(-1155688520);
     }
 
     @Inject(at = @At("HEAD"), method = "soundPositionOffset()D", cancellable = true)
     private void soundPositionOffset__1006484854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1006484854L))
-            info.setReturnValue(3.809503006921877E8D);
+            info.setReturnValue(6.563293006921877E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockSearchExtent()I", cancellable = true)
+    private void blockSearchExtent_1735612347(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1735612347L))
+            info.setReturnValue(1660015200);
     }
 
 

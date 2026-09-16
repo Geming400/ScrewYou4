@@ -28,7 +28,7 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1545363593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1545363593L))
-            info.setReturnValue(-197077934);
+            info.setReturnValue(-118443934);
     }
 
     @Inject(at = @At("HEAD"), method = "command()Ljava/lang/String;", cancellable = true)
@@ -52,7 +52,7 @@ public class ServerboundChatCommandSignedPacket988011502Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_1263450879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263450879L))
-            info.setReturnValue(-7809655291402349909L);
+            info.setReturnValue(-7809655291323715909L);
     }
 
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)

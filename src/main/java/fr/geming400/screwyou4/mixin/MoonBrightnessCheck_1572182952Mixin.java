@@ -22,7 +22,7 @@ public class MoonBrightnessCheck_1572182952Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2129535042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2129535042L))
-            info.setReturnValue(167411576);
+            info.setReturnValue(-538135024);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/entity/variant/SpawnContext;)Z", cancellable = true)

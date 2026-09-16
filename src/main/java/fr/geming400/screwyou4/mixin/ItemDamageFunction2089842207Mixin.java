@@ -10,7 +10,7 @@ public class ItemDamageFunction2089842207Mixin {
         @Inject(at = @At("HEAD"), method = "base()F", cancellable = true)
     private void base_220386449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(220386449L))
-            info.setReturnValue(8.66951E7F);
+            info.setReturnValue(6.168591E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,25 +28,25 @@ public class ItemDamageFunction2089842207Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1647772998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1647772998L))
-            info.setReturnValue(-1584665287);
+            info.setReturnValue(-1053501087);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(F)I", cancellable = true)
     private void apply__1052008727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1052008727L))
-            info.setReturnValue(2123652864);
+            info.setReturnValue(-1640150232);
     }
 
     @Inject(at = @At("HEAD"), method = "threshold()F", cancellable = true)
     private void threshold__417634505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-417634505L))
-            info.setReturnValue(8.66951E7F);
+            info.setReturnValue(6.178593E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "factor()F", cancellable = true)
     private void factor_2091303123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2091303123L))
-            info.setReturnValue(8.66951E7F);
+            info.setReturnValue(6.178593E8F);
     }
 
 

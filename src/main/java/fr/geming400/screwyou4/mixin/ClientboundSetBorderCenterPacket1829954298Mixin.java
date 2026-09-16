@@ -28,13 +28,13 @@ public class ClientboundSetBorderCenterPacket1829954298Mixin {
     @Inject(at = @At("HEAD"), method = "getNewCenterX()D", cancellable = true)
     private void getNewCenterX__197266206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-197266206L))
-            info.setReturnValue(6.13498900889102E8D);
+            info.setReturnValue(8.44248800889102E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getNewCenterZ()D", cancellable = true)
     private void getNewCenterZ__140007904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-140007904L))
-            info.setReturnValue(6.13498900325199E8D);
+            info.setReturnValue(8.45249000325199E8D);
     }
 
 

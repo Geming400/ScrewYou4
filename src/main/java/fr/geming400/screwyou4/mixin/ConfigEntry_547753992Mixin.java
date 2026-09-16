@@ -28,7 +28,7 @@ public class ConfigEntry_547753992Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1105106082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1105106082L))
-            info.setReturnValue(27303524);
+            info.setReturnValue(-326942676);
     }
 
     @Inject(at = @At("HEAD"), method = "compile(Ljava/nio/file/FileSystem;)Ljava/nio/file/PathMatcher;", cancellable = true)

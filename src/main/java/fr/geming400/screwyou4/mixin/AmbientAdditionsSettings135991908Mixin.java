@@ -22,7 +22,7 @@ public class AmbientAdditionsSettings135991908Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_693343999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(693343999L))
-            info.setReturnValue(319982918);
+            info.setReturnValue(791280918);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -34,7 +34,7 @@ public class AmbientAdditionsSettings135991908Mixin {
     @Inject(at = @At("HEAD"), method = "tickChance()D", cancellable = true)
     private void tickChance_24429812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(24429812L))
-            info.setReturnValue(4.1927860001807344E8D);
+            info.setReturnValue(8.905766000180734E8D);
     }
 
 

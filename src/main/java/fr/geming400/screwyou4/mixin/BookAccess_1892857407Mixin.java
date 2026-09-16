@@ -22,13 +22,13 @@ public class BookAccess_1892857407Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1844757799(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1844757799L))
-            info.setReturnValue(757800122);
+            info.setReturnValue(1029242922);
     }
 
-    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
-    private void pages__1192687054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192687054L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getPageCount()I", cancellable = true)
+    private void getPageCount__1665011366(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1665011366L))
+            info.setReturnValue(2093951994);
     }
 
     @Inject(at = @At("HEAD"), method = "getPage(I)Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,10 +37,10 @@ public class BookAccess_1892857407Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPageCount()I", cancellable = true)
-    private void getPageCount__1665011366(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1665011366L))
-            info.setReturnValue(1822509194);
+    @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
+    private void pages__1192687054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192687054L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fromItem(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/screens/inventory/BookViewScreen$BookAccess;", cancellable = true)

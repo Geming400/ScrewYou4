@@ -19,15 +19,15 @@ public class Builder1064257894Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addTab(Lnet/minecraft/client/gui/components/tabs/Tab;)Lnet/minecraft/client/gui/components/tabs/MenuTabBar$Builder;", cancellable = true)
-    private void addTab__1596691716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1596691716L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addTabs([Lnet/minecraft/client/gui/components/tabs/Tab;)Lnet/minecraft/client/gui/components/tabs/MenuTabBar$Builder;", cancellable = true)
     private void addTabs__157073478(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-157073478L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTab(Lnet/minecraft/client/gui/components/tabs/Tab;)Lnet/minecraft/client/gui/components/tabs/MenuTabBar$Builder;", cancellable = true)
+    private void addTab__1596691716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1596691716L))
             info.setReturnValue(null);
     }
 

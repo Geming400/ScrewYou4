@@ -22,7 +22,7 @@ public class ResolutionContext1392565317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1949917408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1949917408L))
-            info.setReturnValue(-2054611632);
+            info.setReturnValue(-1706030832);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
@@ -49,6 +49,12 @@ public class ResolutionContext1392565317Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
+    private void depthLimit__413609357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-413609357L))
+            info.setReturnValue(-2123518595);
+    }
+
     @Inject(at = @At("HEAD"), method = "depthLimitBehavior()Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;", cancellable = true)
     private void depthLimitBehavior__848570925(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-848570925L))
@@ -65,12 +71,6 @@ public class ResolutionContext1392565317Mixin {
     private void objectInfoValidator__104002792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-104002792L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "depthLimit()I", cancellable = true)
-    private void depthLimit__413609357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-413609357L))
-            info.setReturnValue(1823374801);
     }
 
 

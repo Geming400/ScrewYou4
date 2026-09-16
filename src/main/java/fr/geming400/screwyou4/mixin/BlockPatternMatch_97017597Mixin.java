@@ -22,7 +22,7 @@ public class BlockPatternMatch_97017597Mixin {
     @Inject(at = @At("HEAD"), method = "getDepth()I", cancellable = true)
     private void getDepth__28351499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-28351499L))
-            info.setReturnValue(1519557286);
+            info.setReturnValue(1685788186);
     }
 
     @Inject(at = @At("HEAD"), method = "getFrontTopLeft()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -31,22 +31,22 @@ public class BlockPatternMatch_97017597Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getForwards()Lnet/minecraft/core/Direction;", cancellable = true)
+    private void getForwards_1324036683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1324036683L))
+            info.setReturnValue(net.minecraft.core.Direction.SOUTH);
+    }
+
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth__1840878894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1840878894L))
-            info.setReturnValue(1420104709);
+            info.setReturnValue(1586335609);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__1628599579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1628599579L))
-            info.setReturnValue(1381193821);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getForwards()Lnet/minecraft/core/Direction;", cancellable = true)
-    private void getForwards_1324036683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1324036683L))
-            info.setReturnValue(net.minecraft.core.Direction.SOUTH);
+            info.setReturnValue(1547424721);
     }
 
     @Inject(at = @At("HEAD"), method = "getUp()Lnet/minecraft/core/Direction;", cancellable = true)

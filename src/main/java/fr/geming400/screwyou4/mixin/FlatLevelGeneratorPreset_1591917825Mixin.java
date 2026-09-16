@@ -22,7 +22,7 @@ public class FlatLevelGeneratorPreset_1591917825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2145697381(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2145697381L))
-            info.setReturnValue(-1753747535);
+            info.setReturnValue(-1054017735);
     }
 
     @Inject(at = @At("HEAD"), method = "settings()Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)

@@ -19,15 +19,15 @@ public class DefaultPlayerSkin1335430961Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void getDefaultTexture_418712576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(418712576L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getDefaultSkin()Lnet/minecraft/world/entity/player/PlayerSkin;", cancellable = true)
     private static void getDefaultSkin__1158923186(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1158923186L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefaultTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void getDefaultTexture_418712576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(418712576L))
             info.setReturnValue(null);
     }
 

@@ -22,19 +22,19 @@ public class Submit1620731762Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2116883443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2116883443L))
-            info.setReturnValue(-856030104);
+            info.setReturnValue(-370090404);
     }
 
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color__1437584427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1437584427L))
-            info.setReturnValue(-1639654602);
+            info.setReturnValue(-1153714902);
     }
 
     @Inject(at = @At("HEAD"), method = "width()F", cancellable = true)
     private void width__19419121(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-19419121L))
-            info.setReturnValue(2.640387E8F);
+            info.setReturnValue(7.499784E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "shape()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)

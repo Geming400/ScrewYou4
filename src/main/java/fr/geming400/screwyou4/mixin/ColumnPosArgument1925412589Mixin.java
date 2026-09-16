@@ -25,15 +25,15 @@ public class ColumnPosArgument1925412589Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_1173854798(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1173854798L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__644940708(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-644940708L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_1173854798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1173854798L))
             info.setReturnValue(null);
     }
 

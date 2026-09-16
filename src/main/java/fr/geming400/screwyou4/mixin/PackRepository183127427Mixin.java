@@ -19,9 +19,15 @@ public class PackRepository183127427Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRequestedFeatureFlags()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void getRequestedFeatureFlags_867265836(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(867265836L))
+    @Inject(at = @At("HEAD"), method = "openAllSelected()Ljava/util/List;", cancellable = true)
+    private void openAllSelected__1555030683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1555030683L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSelectedIds()Ljava/util/Collection;", cancellable = true)
+    private void getSelectedIds_1282342938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1282342938L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +55,22 @@ public class PackRepository183127427Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addPack(Ljava/lang/String;)Z", cancellable = true)
-    private void addPack__706387030(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-706387030L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getAvailableIds()Ljava/util/Collection;", cancellable = true)
+    private void getAvailableIds__260240552(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-260240552L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAvailablePacks()Ljava/util/Collection;", cancellable = true)
+    private void getAvailablePacks__1699737510(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1699737510L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRequestedFeatureFlags()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void getRequestedFeatureFlags_867265836(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(867265836L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPack(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/Pack;", cancellable = true)
@@ -67,28 +85,10 @@ public class PackRepository183127427Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "openAllSelected()Ljava/util/List;", cancellable = true)
-    private void openAllSelected__1555030683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1555030683L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSelectedIds()Ljava/util/Collection;", cancellable = true)
-    private void getSelectedIds_1282342938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1282342938L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAvailableIds()Ljava/util/Collection;", cancellable = true)
-    private void getAvailableIds__260240552(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-260240552L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAvailablePacks()Ljava/util/Collection;", cancellable = true)
-    private void getAvailablePacks__1699737510(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1699737510L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "addPack(Ljava/lang/String;)Z", cancellable = true)
+    private void addPack__706387030(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-706387030L))
+            info.setReturnValue(true);
     }
 
 

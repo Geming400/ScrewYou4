@@ -25,6 +25,18 @@ public class Dictionary_24649444Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "checkAllBound()V", cancellable = true)
+    private void checkAllBound__1240505551(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1240505551L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "namedWithAlias(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
+    private void namedWithAlias_345460879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(345460879L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "named(Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
     private void named_2139776804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139776804L))
@@ -37,21 +49,9 @@ public class Dictionary_24649444Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkAllBound()V", cancellable = true)
-    private void checkAllBound__1240505551(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1240505551L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "putComplex(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Term;Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;)Lnet/minecraft/util/parsing/packrat/NamedRule;", cancellable = true)
     private void putComplex__913788637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-913788637L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "namedWithAlias(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Atom;)Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)
-    private void namedWithAlias_345460879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(345460879L))
             info.setReturnValue(null);
     }
 

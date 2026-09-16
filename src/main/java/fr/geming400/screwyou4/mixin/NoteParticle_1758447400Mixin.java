@@ -16,7 +16,7 @@ public class NoteParticle_1758447400Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize__871668578(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-871668578L))
-            info.setReturnValue(2.499738E8F);
+            info.setReturnValue(4.600787E8F);
     }
 
 

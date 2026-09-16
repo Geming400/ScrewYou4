@@ -22,18 +22,18 @@ public class PackConfig756117878Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1313469969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1313469969L))
-            info.setReturnValue(-375617849);
+            info.setReturnValue(-223669649);
+    }
+
+    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
+    private void initMode_234965050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(234965050L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "initialDataConfig()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void initialDataConfig_795395358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795395358L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
-    private void createResourceManager_397314517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(397314517L))
             info.setReturnValue(null);
     }
 
@@ -43,16 +43,16 @@ public class PackConfig756117878Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createResourceManager()Lcom/mojang/datafixers/util/Pair;", cancellable = true)
+    private void createResourceManager_397314517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(397314517L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "safeMode()Z", cancellable = true)
     private void safeMode__333551011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-333551011L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "initMode()Z", cancellable = true)
-    private void initMode_234965050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(234965050L))
-            info.setReturnValue(false);
     }
 
 

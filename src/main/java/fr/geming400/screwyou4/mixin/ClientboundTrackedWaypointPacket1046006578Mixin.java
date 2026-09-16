@@ -28,7 +28,7 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1603358669(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1603358669L))
-            info.setReturnValue(-1448217930);
+            info.setReturnValue(-1370889530);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/waypoints/TrackedWaypointManager;)V", cancellable = true)
@@ -47,6 +47,18 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
     private void handle_750294715(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(750294715L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
+    private static void updateWaypointChunk__99332199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-99332199L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addWaypointPosition(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
+    private static void addWaypointPosition__1750914052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1750914052L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateWaypointPosition(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
@@ -73,33 +85,21 @@ public class ClientboundTrackedWaypointPacket1046006578Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addWaypointPosition(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
-    private static void addWaypointPosition__1750914052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1750914052L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateWaypointChunk(Ljava/util/UUID;Lnet/minecraft/world/waypoints/Waypoint$Icon;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
-    private static void updateWaypointChunk__99332199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-99332199L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "removeWaypoint(Ljava/util/UUID;)Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket;", cancellable = true)
     private static void removeWaypoint_1837402990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1837402990L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "waypoint()Lnet/minecraft/world/waypoints/TrackedWaypoint;", cancellable = true)
-    private void waypoint__656706376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-656706376L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "operation()Lnet/minecraft/network/protocol/game/ClientboundTrackedWaypointPacket$Operation;", cancellable = true)
     private void operation__108217783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-108217783L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "waypoint()Lnet/minecraft/world/waypoints/TrackedWaypoint;", cancellable = true)
+    private void waypoint__656706376(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-656706376L))
             info.setReturnValue(null);
     }
 

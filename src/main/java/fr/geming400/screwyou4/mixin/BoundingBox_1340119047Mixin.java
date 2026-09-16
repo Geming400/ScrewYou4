@@ -22,18 +22,12 @@ public class BoundingBox_1340119047Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1897470641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897470641L))
-            info.setReturnValue(-1009201270);
+            info.setReturnValue(-1663641470);
     }
 
     @Inject(at = @At("HEAD"), method = "getLength()Lnet/minecraft/core/Vec3i;", cancellable = true)
     private void getLength__1775773598(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1775773598L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "move(III)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void move__588442906(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-588442906L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +37,10 @@ public class BoundingBox_1340119047Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "intersects(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Z", cancellable = true)
-    private void intersects_766686484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(766686484L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "move(III)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void move__588442906(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-588442906L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "intersects(IIII)Z", cancellable = true)
@@ -55,21 +49,123 @@ public class BoundingBox_1340119047Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "intersects(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Z", cancellable = true)
+    private void intersects_766686484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(766686484L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "moved(III)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void moved_1007844420(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1007844420L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inflatedBy(III)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void inflatedBy__259531101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-259531101L))
+    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
+    private void minY_1634983429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1634983429L))
+            info.setReturnValue(107028964);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxX()I", cancellable = true)
+    private void maxX_833875704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(833875704L))
+            info.setReturnValue(-1651000556);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minX()I", cancellable = true)
+    private void minX_1606354278(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1606354278L))
+            info.setReturnValue(1644467555);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minZ()I", cancellable = true)
+    private void minZ_1663612580(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1663612580L))
+            info.setReturnValue(-202292478);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxZ()I", cancellable = true)
+    private void maxZ_891134006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(891134006L))
+            info.setReturnValue(2009223008);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
+    private void maxY_862504855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(862504855L))
+            info.setReturnValue(-1860287283);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getCenter__1195101284(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1195101284L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inflatedBy(I)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void inflatedBy__311948669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-311948669L))
+    @Inject(at = @At("HEAD"), method = "encapsulatingBoxes(Ljava/lang/Iterable;)Ljava/util/Optional;", cancellable = true)
+    private static void encapsulatingBoxes__786243250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-786243250L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encapsulating(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private static void encapsulating__1697492992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1697492992L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encapsulatingPositions(Ljava/lang/Iterable;)Ljava/util/Optional;", cancellable = true)
+    private static void encapsulatingPositions__1871336577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1871336577L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forAllCorners(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forAllCorners__2106325911(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2106325911L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "orientBox(IIIIIIIIILnet/minecraft/core/Direction;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private static void orientBox__1895034723(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1895034723L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getXSpan()I", cancellable = true)
+    private void getXSpan_242963264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(242963264L))
+            info.setReturnValue(-1496942746);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getYSpan()I", cancellable = true)
+    private void getYSpan_46449759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(46449759L))
+            info.setReturnValue(-1174995853);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getZSpan()I", cancellable = true)
+    private void getZSpan__150063746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-150063746L))
+            info.setReturnValue(884276550);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInside(III)Z", cancellable = true)
+    private void isInside_1520172764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1520172764L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInside(Lnet/minecraft/core/Vec3i;)Z", cancellable = true)
+    private void isInside__810933640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-810933640L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromCorners(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private static void fromCorners_636526714(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(636526714L))
             info.setReturnValue(null);
     }
 
@@ -85,123 +181,27 @@ public class BoundingBox_1340119047Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromCorners(Lnet/minecraft/core/Vec3i;Lnet/minecraft/core/Vec3i;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private static void fromCorners_636526714(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(636526714L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "intersectingChunks()Ljava/util/stream/Stream;", cancellable = true)
     private void intersectingChunks__1158094542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1158094542L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "minY()I", cancellable = true)
-    private void minY_1634983429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1634983429L))
-            info.setReturnValue(760468264);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxZ()I", cancellable = true)
-    private void maxZ_891134006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(891134006L))
-            info.setReturnValue(-1632304988);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minX()I", cancellable = true)
-    private void minX_1606354278(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1606354278L))
-            info.setReturnValue(-1997060441);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxY()I", cancellable = true)
-    private void maxY_862504855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(862504855L))
-            info.setReturnValue(-1206847983);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxX()I", cancellable = true)
-    private void maxX_833875704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(833875704L))
-            info.setReturnValue(-997561256);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minZ()I", cancellable = true)
-    private void minZ_1663612580(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1663612580L))
-            info.setReturnValue(451146822);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCenter()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getCenter__1195101284(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1195101284L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInside(III)Z", cancellable = true)
-    private void isInside_1520172764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1520172764L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInside(Lnet/minecraft/core/Vec3i;)Z", cancellable = true)
-    private void isInside__810933640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-810933640L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encapsulatingBoxes(Ljava/lang/Iterable;)Ljava/util/Optional;", cancellable = true)
-    private static void encapsulatingBoxes__786243250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-786243250L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forAllCorners(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forAllCorners__2106325911(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2106325911L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "encapsulatingPositions(Ljava/lang/Iterable;)Ljava/util/Optional;", cancellable = true)
-    private static void encapsulatingPositions__1871336577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1871336577L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encapsulating(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private static void encapsulating__1697492992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1697492992L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "orientBox(IIIIIIIIILnet/minecraft/core/Direction;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private static void orientBox__1895034723(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1895034723L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getYSpan()I", cancellable = true)
-    private void getYSpan_46449759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(46449759L))
-            info.setReturnValue(-521556553);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getZSpan()I", cancellable = true)
-    private void getZSpan__150063746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-150063746L))
-            info.setReturnValue(1537715850);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getXSpan()I", cancellable = true)
-    private void getXSpan_242963264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(242963264L))
-            info.setReturnValue(-843503446);
-    }
-
     @Inject(at = @At("HEAD"), method = "infinite()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private static void infinite__1261430820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1261430820L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "inflatedBy(I)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void inflatedBy__311948669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-311948669L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "inflatedBy(III)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void inflatedBy__259531101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-259531101L))
             info.setReturnValue(null);
     }
 

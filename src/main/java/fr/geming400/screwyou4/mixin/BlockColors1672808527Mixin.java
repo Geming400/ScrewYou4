@@ -13,15 +13,9 @@ public class BlockColors1672808527Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTintSources(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/List;", cancellable = true)
-    private void getTintSources__896211657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-896211657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTintSource(Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private void getTintSource__1820189470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1820189470L))
+    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
+    private static void createDefault__424409637(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-424409637L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +25,15 @@ public class BlockColors1672808527Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/client/color/block/BlockColors;", cancellable = true)
-    private static void createDefault__424409637(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-424409637L))
+    @Inject(at = @At("HEAD"), method = "getTintSources(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/List;", cancellable = true)
+    private void getTintSources__896211657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-896211657L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTintSource(Lnet/minecraft/world/level/block/state/BlockState;I)Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private void getTintSource__1820189470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1820189470L))
             info.setReturnValue(null);
     }
 

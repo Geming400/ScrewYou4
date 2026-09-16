@@ -25,16 +25,16 @@ public class BossBarColor_1240814566Mixin {
             info.setReturnValue(net.minecraft.world.BossEvent.BossBarColor.PURPLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_1329023187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1329023187L))
-            info.setReturnValue("G\u9EF5/Y{KU\u6AD67Bt(wyqYRqW|lTm/\uADD7{00pVM0r\u7502O;m/Z=&sI9b\u66F2qB.7t+dx\u30F4Xc;{\u582C0W(1\"$vq#\uA173\u391C*BT");
-    }
-
     @Inject(at = @At("HEAD"), method = "getFormatting()Lnet/minecraft/ChatFormatting;", cancellable = true)
     private void getFormatting__644479427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-644479427L))
             info.setReturnValue(net.minecraft.ChatFormatting.OBFUSCATED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1329023187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1329023187L))
+            info.setReturnValue("G\u9EF5/Y{KU\u6AD67Bt(wyqYRqW|lTm/\uADD7{00pVM0r\u7502O;m/Z=&sI9b\u66F2qB.7t+dx\u30F4Xc;{\u582C0W(1\"$vq#\uA173\u391C*BT");
     }
 
 

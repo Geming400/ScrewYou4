@@ -7,15 +7,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.HorseRenderer.class)
 public class HorseRenderer225497026Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/HorseRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1743554980(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1743554980L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/HorseRenderState;", cancellable = true)
+    private void createRenderState_1299856667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1299856667L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_478668005(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(478668005L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__2096955435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2096955435L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/HorseRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1743554980(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1743554980L))
             info.setReturnValue(null);
     }
 
@@ -41,18 +53,6 @@ public class HorseRenderer225497026Mixin {
     private void extractRenderState__1444976461(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1444976461L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_478668005(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(478668005L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/HorseRenderState;", cancellable = true)
-    private void createRenderState_1299856667(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299856667L))
-            info.setReturnValue(null);
     }
 
 

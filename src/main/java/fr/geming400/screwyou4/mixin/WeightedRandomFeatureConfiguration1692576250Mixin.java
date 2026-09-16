@@ -22,7 +22,7 @@ public class WeightedRandomFeatureConfiguration1692576250Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2045038955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2045038955L))
-            info.setReturnValue(-692153509);
+            info.setReturnValue(-264404909);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)

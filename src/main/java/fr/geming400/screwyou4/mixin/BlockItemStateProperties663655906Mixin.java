@@ -28,7 +28,7 @@ public class BlockItemStateProperties663655906Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1221007997(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1221007997L))
-            info.setReturnValue(-1839461616);
+            info.setReturnValue(-1706559416);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

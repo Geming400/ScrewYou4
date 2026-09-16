@@ -16,7 +16,7 @@ public class FeatureFlagSet_974540022Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1531891616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1531891616L))
-            info.setReturnValue(-1415963747);
+            info.setReturnValue(-1577619147);
     }
 
     @Inject(at = @At("HEAD"), method = "of()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)

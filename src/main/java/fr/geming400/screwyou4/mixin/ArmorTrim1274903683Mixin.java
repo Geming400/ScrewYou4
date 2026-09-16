@@ -22,7 +22,7 @@ public class ArmorTrim1274903683Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1832255774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1832255774L))
-            info.setReturnValue(1684198265);
+            info.setReturnValue(1338697465);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)

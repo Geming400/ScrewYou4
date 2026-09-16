@@ -19,16 +19,10 @@ public class FogRenderer1946761139Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1760477268(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1760477268L))
+    @Inject(at = @At("HEAD"), method = "updateBuffer(Lnet/minecraft/client/renderer/fog/FogData;)V", cancellable = true)
+    private void updateBuffer_188930859(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(188930859L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "toggleFog()Z", cancellable = true)
-    private static void toggleFog__817720360(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-817720360L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setupFog(Lnet/minecraft/client/Camera;ILnet/minecraft/client/DeltaTracker;FLnet/minecraft/client/multiplayer/ClientLevel;)Lnet/minecraft/client/renderer/fog/FogData;", cancellable = true)
@@ -37,9 +31,15 @@ public class FogRenderer1946761139Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.fog.FogData());
     }
 
-    @Inject(at = @At("HEAD"), method = "updateBuffer(Lnet/minecraft/client/renderer/fog/FogData;)V", cancellable = true)
-    private void updateBuffer_188930859(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(188930859L))
+    @Inject(at = @At("HEAD"), method = "toggleFog()Z", cancellable = true)
+    private static void toggleFog__817720360(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-817720360L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1760477268(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1760477268L))
             info.cancel();
     }
 

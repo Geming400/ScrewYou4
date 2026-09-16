@@ -13,6 +13,12 @@ public class WitchModel33259606Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__1870395003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1870395003L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "translateToArms(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
     private void translateToArms__2037883196(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2037883196L))
@@ -25,21 +31,15 @@ public class WitchModel33259606Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__1870395003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1870395003L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/WitchRenderState;)V", cancellable = true)
+    private void setupAnim__969238612(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-969238612L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
     private void setupAnim_716908151(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(716908151L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/WitchRenderState;)V", cancellable = true)
-    private void setupAnim__969238612(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-969238612L))
             info.cancel();
     }
 

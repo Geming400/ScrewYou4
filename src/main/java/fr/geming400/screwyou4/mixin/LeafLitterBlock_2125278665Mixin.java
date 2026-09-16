@@ -19,6 +19,12 @@ public class LeafLitterBlock_2125278665Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
+    private void canBeReplaced__1880821840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1880821840L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__343909816(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-343909816L))
@@ -29,12 +35,6 @@ public class LeafLitterBlock_2125278665Mixin {
     private void mirror__1950691820(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1950691820L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
-    private void canBeReplaced__1880821840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1880821840L))
-            info.setReturnValue(true);
     }
 
 

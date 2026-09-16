@@ -19,15 +19,15 @@ public class SetStewEffectFunction_1110101232Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stewEffect()Lnet/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder;", cancellable = true)
-    private static void stewEffect__60961905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-60961905L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2118420811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2118420811L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stewEffect()Lnet/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder;", cancellable = true)
+    private static void stewEffect__60961905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-60961905L))
             info.setReturnValue(null);
     }
 

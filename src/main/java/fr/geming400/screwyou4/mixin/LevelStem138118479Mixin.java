@@ -28,7 +28,7 @@ public class LevelStem138118479Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_695470570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(695470570L))
-            info.setReturnValue(181374953);
+            info.setReturnValue(13087053);
     }
 
     @Inject(at = @At("HEAD"), method = "generator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)

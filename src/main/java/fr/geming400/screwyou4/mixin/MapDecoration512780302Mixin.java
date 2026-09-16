@@ -34,7 +34,7 @@ public class MapDecoration512780302Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1070132393(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070132393L))
-            info.setReturnValue(-2016185400);
+            info.setReturnValue(1765852596);
     }
 
     @Inject(at = @At("HEAD"), method = "x()B", cancellable = true)
@@ -55,16 +55,16 @@ public class MapDecoration512780302Mixin {
             info.setReturnValue(112);
     }
 
-    @Inject(at = @At("HEAD"), method = "renderOnFrame()Z", cancellable = true)
-    private void renderOnFrame__1855458195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1855458195L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSpriteLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getSpriteLocation__161834523(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-161834523L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderOnFrame()Z", cancellable = true)
+    private void renderOnFrame__1855458195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1855458195L))
+            info.setReturnValue(false);
     }
 
 

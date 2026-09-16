@@ -19,9 +19,9 @@ public class DragonHoldingPatternPhase_1129469171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void onCrystalDestroyed__371435332(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-371435332L))
+    @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
+    private void doServerTick__1166811925(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1166811925L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class DragonHoldingPatternPhase_1129469171Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void doServerTick__1166811925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1166811925L))
+    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/damagesource/DamageSource;Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void onCrystalDestroyed__371435332(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-371435332L))
             info.cancel();
     }
 

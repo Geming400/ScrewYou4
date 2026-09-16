@@ -19,6 +19,12 @@ public class EnderChestBlock1242683174Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__1064141481(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1064141481L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1226505306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1226505306L))
@@ -29,12 +35,6 @@ public class EnderChestBlock1242683174Mixin {
     private void animateTick_1647364707(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1647364707L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__1064141481(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1064141481L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)

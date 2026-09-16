@@ -22,7 +22,7 @@ public class CuboidGizmo_1296817406Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1854169496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854169496L))
-            info.setReturnValue(555366340);
+            info.setReturnValue(417918740);
     }
 
     @Inject(at = @At("HEAD"), method = "style()Lnet/minecraft/gizmos/GizmoStyle;", cancellable = true)
@@ -37,16 +37,16 @@ public class CuboidGizmo_1296817406Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "coloredCornerStroke()Z", cancellable = true)
-    private void coloredCornerStroke__1923876155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1923876155L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "aabb()Lnet/minecraft/world/phys/AABB;", cancellable = true)
     private void aabb_146533845(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(146533845L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "coloredCornerStroke()Z", cancellable = true)
+    private void coloredCornerStroke__1923876155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1923876155L))
+            info.setReturnValue(false);
     }
 
 

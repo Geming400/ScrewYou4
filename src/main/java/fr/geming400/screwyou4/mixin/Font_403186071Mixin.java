@@ -13,22 +13,22 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "width(Ljava/lang/String;)I", cancellable = true)
-    private void width__812955904(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-812955904L))
-            info.setReturnValue(-585005881);
+    @Inject(at = @At("HEAD"), method = "width(Lnet/minecraft/network/chat/FormattedText;)I", cancellable = true)
+    private void width__1006059650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1006059650L))
+            info.setReturnValue(1665402416);
     }
 
     @Inject(at = @At("HEAD"), method = "width(Lnet/minecraft/util/FormattedCharSequence;)I", cancellable = true)
     private void width_1612960939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1612960939L))
-            info.setReturnValue(-500723070);
+            info.setReturnValue(-481903670);
     }
 
-    @Inject(at = @At("HEAD"), method = "width(Lnet/minecraft/network/chat/FormattedText;)I", cancellable = true)
-    private void width__1006059650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1006059650L))
-            info.setReturnValue(1646583016);
+    @Inject(at = @At("HEAD"), method = "width(Ljava/lang/String;)I", cancellable = true)
+    private void width__812955904(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-812955904L))
+            info.setReturnValue(-566186481);
     }
 
     @Inject(at = @At("HEAD"), method = "bidirectionalShaping(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
@@ -43,9 +43,15 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "prepareText(Lnet/minecraft/util/FormattedCharSequence;FFIZZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
-    private void prepareText_901813512(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(901813512L))
+    @Inject(at = @At("HEAD"), method = "substrByWidth(Lnet/minecraft/network/chat/FormattedText;I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
+    private void substrByWidth__1764945010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764945010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSplitter()Lnet/minecraft/client/StringSplitter;", cancellable = true)
+    private void getSplitter__183284587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-183284587L))
             info.setReturnValue(null);
     }
 
@@ -55,10 +61,28 @@ public class Font_403186071Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "prepareText(Lnet/minecraft/util/FormattedCharSequence;FFIZZI)Lnet/minecraft/client/gui/Font$PreparedText;", cancellable = true)
+    private void prepareText_901813512(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(901813512L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wordWrapHeight(Lnet/minecraft/network/chat/FormattedText;I)I", cancellable = true)
+    private void wordWrapHeight__365719256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-365719256L))
+            info.setReturnValue(-917510827);
+    }
+
     @Inject(at = @At("HEAD"), method = "isBidirectional()Z", cancellable = true)
     private void isBidirectional_1012570804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1012570804L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "splitIgnoringLanguage(Lnet/minecraft/network/chat/FormattedText;I)Ljava/util/List;", cancellable = true)
+    private void splitIgnoringLanguage_1155455700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1155455700L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "plainSubstrByWidth(Ljava/lang/String;IZ)Ljava/lang/String;", cancellable = true)
@@ -71,30 +95,6 @@ public class Font_403186071Mixin {
     private void plainSubstrByWidth_324489468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(324489468L))
             info.setReturnValue(";\u7465=D%x\"*r\uB8043W\u4605\u93BB\u09E1wl\u8202,\u6A70=D<\uB73B+CtA82+&-^<cZ2D1yI?\u34A3smb*)x:\uFE836}+xTq'??\uFECD");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSplitter()Lnet/minecraft/client/StringSplitter;", cancellable = true)
-    private void getSplitter__183284587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-183284587L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "splitIgnoringLanguage(Lnet/minecraft/network/chat/FormattedText;I)Ljava/util/List;", cancellable = true)
-    private void splitIgnoringLanguage_1155455700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1155455700L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wordWrapHeight(Lnet/minecraft/network/chat/FormattedText;I)I", cancellable = true)
-    private void wordWrapHeight__365719256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-365719256L))
-            info.setReturnValue(-935824427);
-    }
-
-    @Inject(at = @At("HEAD"), method = "substrByWidth(Lnet/minecraft/network/chat/FormattedText;I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
-    private void substrByWidth__1764945010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1764945010L))
-            info.setReturnValue(null);
     }
 
 

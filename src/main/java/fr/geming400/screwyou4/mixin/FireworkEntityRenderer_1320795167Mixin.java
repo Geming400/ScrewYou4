@@ -19,18 +19,6 @@ public class FireworkEntityRenderer_1320795167Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/FireworkRocketEntity;Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;F)V", cancellable = true)
-    private void extractRenderState_1624665854(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1624665854L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_758573359(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(758573359L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_1573966145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1573966145L))
@@ -41,6 +29,18 @@ public class FireworkEntityRenderer_1320795167Mixin {
     private void createRenderState__1120830055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1120830055L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/projectile/FireworkRocketEntity;Lnet/minecraft/client/renderer/entity/state/FireworkRocketRenderState;F)V", cancellable = true)
+    private void extractRenderState_1624665854(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1624665854L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_758573359(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(758573359L))
+            info.cancel();
     }
 
 

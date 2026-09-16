@@ -37,16 +37,28 @@ public class RenderType_1927332982Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasBlending()Z", cancellable = true)
-    private void hasBlending__25573791(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-25573791L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
+    private void outputTarget__1435723406(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1435723406L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "primitiveTopology()Lcom/mojang/blaze3d/PrimitiveTopology;", cancellable = true)
     private void primitiveTopology_148756174(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(148756174L))
             info.setReturnValue(com.mojang.blaze3d.PrimitiveTopology.DEBUG_LINE_STRIP);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasBlending()Z", cancellable = true)
+    private void hasBlending__25573791(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-25573791L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOutline()Z", cancellable = true)
+    private void isOutline__350446220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-350446220L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "canConsolidateConsecutiveGeometry()Z", cancellable = true)
@@ -70,18 +82,6 @@ public class RenderType_1927332982Mixin {
     @Inject(at = @At("HEAD"), method = "outline()Ljava/util/Optional;", cancellable = true)
     private void outline__1502734235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1502734235L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOutline()Z", cancellable = true)
-    private void isOutline__350446220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-350446220L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/client/renderer/rendertype/OutputTarget;", cancellable = true)
-    private void outputTarget__1435723406(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1435723406L))
             info.setReturnValue(null);
     }
 

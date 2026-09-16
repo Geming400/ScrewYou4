@@ -25,6 +25,24 @@ public class StructureStart_1519822053Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
+    private void getPieces__86172209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-86172209L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStructure()Lnet/minecraft/world/level/levelgen/structure/Structure;", cancellable = true)
+    private void getStructure_1600387199(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1600387199L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canBeReferenced()Z", cancellable = true)
+    private void canBeReferenced_786778895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(786778895L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getChunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
     private void getChunkPos_22057900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(22057900L))
@@ -40,31 +58,13 @@ public class StructureStart_1519822053Mixin {
     @Inject(at = @At("HEAD"), method = "getReferences()I", cancellable = true)
     private void getReferences__1507789044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1507789044L))
-            info.setReturnValue(-1023739684);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeReferenced()Z", cancellable = true)
-    private void canBeReferenced_786778895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(786778895L))
-            info.setReturnValue(false);
+            info.setReturnValue(-1025792484);
     }
 
     @Inject(at = @At("HEAD"), method = "placeInChunk(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
     private void placeInChunk__390767396(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-390767396L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStructure()Lnet/minecraft/world/level/levelgen/structure/Structure;", cancellable = true)
-    private void getStructure_1600387199(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1600387199L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPieces()Ljava/util/List;", cancellable = true)
-    private void getPieces__86172209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-86172209L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "loadStaticStart(Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;Lnet/minecraft/nbt/CompoundTag;J)Lnet/minecraft/world/level/levelgen/structure/StructureStart;", cancellable = true)

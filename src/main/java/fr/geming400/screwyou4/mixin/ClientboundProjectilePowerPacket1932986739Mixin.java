@@ -16,7 +16,7 @@ public class ClientboundProjectilePowerPacket1932986739Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId_274663144(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274663144L))
-            info.setReturnValue(876529158);
+            info.setReturnValue(938596358);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundProjectilePowerPacket1932986739Mixin {
     @Inject(at = @At("HEAD"), method = "getAccelerationPower()D", cancellable = true)
     private void getAccelerationPower__1228396987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1228396987L))
-            info.setReturnValue(2.1711030059562975E8D);
+            info.setReturnValue(2.7917750059562975E8D);
     }
 
 

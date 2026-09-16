@@ -22,7 +22,7 @@ public class MovementAffectedByPredicate_2003802369Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1733812837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1733812837L))
-            info.setReturnValue(-1769407754);
+            info.setReturnValue(-1899263854);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

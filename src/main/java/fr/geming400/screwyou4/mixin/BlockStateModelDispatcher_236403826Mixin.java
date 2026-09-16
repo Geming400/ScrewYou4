@@ -22,7 +22,7 @@ public class BlockStateModelDispatcher_236403826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_793755916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(793755916L))
-            info.setReturnValue(1625686052);
+            info.setReturnValue(-1779807044);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;Ljava/util/function/Supplier;)Ljava/util/Map;", cancellable = true)

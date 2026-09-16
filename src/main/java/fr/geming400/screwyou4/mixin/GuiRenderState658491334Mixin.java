@@ -19,9 +19,15 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachItem(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void forEachItem_2001689984(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2001689984L))
+    @Inject(at = @At("HEAD"), method = "addItem(Lnet/minecraft/client/renderer/state/gui/GuiItemRenderState;)V", cancellable = true)
+    private void addItem__127894119(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-127894119L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addGlyphToCurrentLayer(Lnet/minecraft/client/renderer/state/gui/GuiElementRenderState;)V", cancellable = true)
+    private void addGlyphToCurrentLayer__435918782(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-435918782L))
             info.cancel();
     }
 
@@ -31,15 +37,15 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sortElements(Ljava/util/Comparator;)V", cancellable = true)
-    private void sortElements__2072916707(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2072916707L))
+    @Inject(at = @At("HEAD"), method = "addBlitToCurrentLayer(Lnet/minecraft/client/renderer/state/gui/BlitRenderState;)V", cancellable = true)
+    private void addBlitToCurrentLayer_952839073(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(952839073L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forEachElement(Ljava/util/function/Consumer;Lnet/minecraft/client/renderer/state/gui/GuiRenderState$TraverseRange;)V", cancellable = true)
-    private void forEachElement_352567759(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(352567759L))
+    @Inject(at = @At("HEAD"), method = "forEachItem(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void forEachItem_2001689984(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2001689984L))
             info.cancel();
     }
 
@@ -49,9 +55,21 @@ public class GuiRenderState658491334Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addBlitToCurrentLayer(Lnet/minecraft/client/renderer/state/gui/BlitRenderState;)V", cancellable = true)
-    private void addBlitToCurrentLayer_952839073(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(952839073L))
+    @Inject(at = @At("HEAD"), method = "forEachElement(Ljava/util/function/Consumer;Lnet/minecraft/client/renderer/state/gui/GuiRenderState$TraverseRange;)V", cancellable = true)
+    private void forEachElement_352567759(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(352567759L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sortElements(Ljava/util/Comparator;)V", cancellable = true)
+    private void sortElements__2072916707(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2072916707L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addText(Lnet/minecraft/client/renderer/state/gui/GuiTextRenderState;)V", cancellable = true)
+    private void addText_361372889(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(361372889L))
             info.cancel();
     }
 
@@ -67,6 +85,12 @@ public class GuiRenderState658491334Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "addGuiElement(Lnet/minecraft/client/renderer/state/gui/GuiElementRenderState;)V", cancellable = true)
+    private void addGuiElement__1231744090(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1231744090L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "addPicturesInPictureState(Lnet/minecraft/client/renderer/state/gui/pip/PictureInPictureRenderState;)V", cancellable = true)
     private void addPicturesInPictureState_522801764(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(522801764L))
@@ -76,30 +100,6 @@ public class GuiRenderState658491334Mixin {
     @Inject(at = @At("HEAD"), method = "blurBeforeThisStratum()V", cancellable = true)
     private void blurBeforeThisStratum__2013135647(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2013135647L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addGuiElement(Lnet/minecraft/client/renderer/state/gui/GuiElementRenderState;)V", cancellable = true)
-    private void addGuiElement__1231744090(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1231744090L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addGlyphToCurrentLayer(Lnet/minecraft/client/renderer/state/gui/GuiElementRenderState;)V", cancellable = true)
-    private void addGlyphToCurrentLayer__435918782(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-435918782L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addText(Lnet/minecraft/client/renderer/state/gui/GuiTextRenderState;)V", cancellable = true)
-    private void addText_361372889(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(361372889L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addItem(Lnet/minecraft/client/renderer/state/gui/GuiItemRenderState;)V", cancellable = true)
-    private void addItem__127894119(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-127894119L))
             info.cancel();
     }
 

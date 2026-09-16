@@ -19,27 +19,21 @@ public class ChestBlock_1620629872Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__848558609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-848558609L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
     private void getTicker__686194784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-686194784L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_1762205256(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1762205256L))
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__848558609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-848558609L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOpenChestSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getOpenChestSound__152734493(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-152734493L))
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_1762205256(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1762205256L))
             info.setReturnValue(null);
     }
 
@@ -55,27 +49,27 @@ public class ChestBlock_1620629872Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "opennessCombiner(Lnet/minecraft/world/level/block/entity/LidBlockEntity;)Lnet/minecraft/world/level/block/DoubleBlockCombiner$Combiner;", cancellable = true)
-    private static void opennessCombiner_1808190491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1808190491L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chestCanConnectTo(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void chestCanConnectTo__220579617(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-220579617L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isChestBlockedAt(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isChestBlockedAt__1552390910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1552390910L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCloseChestSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void getCloseChestSound__1978199263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1978199263L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOpenChestSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getOpenChestSound__152734493(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-152734493L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "opennessCombiner(Lnet/minecraft/world/level/block/entity/LidBlockEntity;)Lnet/minecraft/world/level/block/DoubleBlockCombiner$Combiner;", cancellable = true)
+    private static void opennessCombiner_1808190491(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1808190491L))
             info.setReturnValue(null);
     }
 
@@ -89,6 +83,12 @@ public class ChestBlock_1620629872Mixin {
     private static void getConnectedDirection_188490895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(188490895L))
             info.setReturnValue(net.minecraft.core.Direction.EAST);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isChestBlockedAt(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isChestBlockedAt__1552390910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1552390910L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getContainer(Lnet/minecraft/world/level/block/ChestBlock;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Z)Lnet/minecraft/world/Container;", cancellable = true)

@@ -10,7 +10,7 @@ public class LavaFogEnvironment248817745Mixin {
         @Inject(at = @At("HEAD"), method = "getBaseColor(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Camera;IF)I", cancellable = true)
     private void getBaseColor_881786807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(881786807L))
-            info.setReturnValue(604291334);
+            info.setReturnValue(-31145866);
     }
 
     @Inject(at = @At("HEAD"), method = "isApplicable(Lnet/minecraft/world/level/material/FogType;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)

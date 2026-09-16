@@ -28,25 +28,25 @@ public class Entry552190363Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1109542454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109542454L))
-            info.setReturnValue(-103368672);
+            info.setReturnValue(78433828);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x__269021372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-269021372L))
-            info.setReturnValue(2.2227000080223823E8D);
+            info.setReturnValue(4.040725008022382E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "z()D", cancellable = true)
     private void z__211763070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-211763070L))
-            info.setReturnValue(2.2227000004717195E8D);
+            info.setReturnValue(4.0407250004717195E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "rotation()F", cancellable = true)
     private void rotation_753695616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(753695616L))
-            info.setReturnValue(2.2227E8F);
+            info.setReturnValue(4.040725E8F);
     }
 
 

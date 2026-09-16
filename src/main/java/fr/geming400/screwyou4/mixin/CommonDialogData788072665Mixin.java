@@ -22,7 +22,7 @@ public class CommonDialogData788072665Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345424756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345424756L))
-            info.setReturnValue(-527182265);
+            info.setReturnValue(-514363465);
     }
 
     @Inject(at = @At("HEAD"), method = "body()Ljava/util/List;", cancellable = true)
@@ -43,6 +43,18 @@ public class CommonDialogData788072665Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void title__1174422076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1174422076L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "afterAction()Lnet/minecraft/server/dialog/DialogAction;", cancellable = true)
+    private void afterAction_1315523052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1315523052L))
+            info.setReturnValue(net.minecraft.server.dialog.DialogAction.CLOSE);
+    }
+
     @Inject(at = @At("HEAD"), method = "canCloseWithEscape()Z", cancellable = true)
     private void canCloseWithEscape__507609887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-507609887L))
@@ -58,18 +70,6 @@ public class CommonDialogData788072665Mixin {
     @Inject(at = @At("HEAD"), method = "computeExternalTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void computeExternalTitle__1777718206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777718206L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "afterAction()Lnet/minecraft/server/dialog/DialogAction;", cancellable = true)
-    private void afterAction_1315523052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1315523052L))
-            info.setReturnValue(net.minecraft.server.dialog.DialogAction.CLOSE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void title__1174422076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1174422076L))
             info.setReturnValue(null);
     }
 

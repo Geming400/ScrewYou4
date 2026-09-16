@@ -25,15 +25,15 @@ public class SetContainerLootTable164278553Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withLootTable(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/resources/ResourceKey;J)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void withLootTable_1761109255(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1761109255L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withLootTable(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void withLootTable_1165209855(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1165209855L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withLootTable(Lnet/minecraft/world/level/block/entity/BlockEntityType;Lnet/minecraft/resources/ResourceKey;J)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void withLootTable_1761109255(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1761109255L))
             info.setReturnValue(null);
     }
 

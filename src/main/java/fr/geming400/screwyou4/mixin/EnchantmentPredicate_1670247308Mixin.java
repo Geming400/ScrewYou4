@@ -22,7 +22,7 @@ public class EnchantmentPredicate_1670247308Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2067367898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2067367898L))
-            info.setReturnValue(788866180);
+            info.setReturnValue(858447280);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
@@ -31,16 +31,16 @@ public class EnchantmentPredicate_1670247308Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "containedIn(Lnet/minecraft/world/item/enchantment/ItemEnchantments;)Z", cancellable = true)
-    private void containedIn_1379069311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1379069311L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "enchantments()Ljava/util/Optional;", cancellable = true)
     private void enchantments__1707480235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1707480235L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "containedIn(Lnet/minecraft/world/item/enchantment/ItemEnchantments;)Z", cancellable = true)
+    private void containedIn_1379069311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1379069311L))
+            info.setReturnValue(true);
     }
 
 

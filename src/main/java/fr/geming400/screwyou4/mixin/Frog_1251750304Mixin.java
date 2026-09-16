@@ -31,12 +31,6 @@ public class Frog_1251750304Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1958484651(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1958484651L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__1668115003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1668115003L))
@@ -49,10 +43,10 @@ public class Frog_1251750304Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeadRotSpeed()I", cancellable = true)
-    private void getHeadRotSpeed_1964901919(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1964901919L))
-            info.setReturnValue(-1242302149);
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1958484651(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1958484651L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canEat(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
@@ -67,18 +61,6 @@ public class Frog_1251750304Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring_1391505443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1391505443L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
-    private void getMaxHeadYRot_1760197145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1760197145L))
-            info.setReturnValue(-766833564);
-    }
-
     @Inject(at = @At("HEAD"), method = "playEatingSound()V", cancellable = true)
     private void playEatingSound__1692053215(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1692053215L))
@@ -91,10 +73,46 @@ public class Frog_1251750304Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring_1391505443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1391505443L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMaxHeadYRot()I", cancellable = true)
+    private void getMaxHeadYRot_1760197145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1760197145L))
+            info.setReturnValue(-1040993164);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeadRotSpeed()I", cancellable = true)
+    private void getHeadRotSpeed_1964901919(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1964901919L))
+            info.setReturnValue(-1516461749);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_2001848612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2001848612L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void isFood_1227623891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227623891L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTongueTarget(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void setTongueTarget__357094302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-357094302L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkFrogSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private static void checkFrogSpawnRules__1207945751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1207945751L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getTongueTarget()Ljava/util/Optional;", cancellable = true)
@@ -107,24 +125,6 @@ public class Frog_1251750304Mixin {
     private void eraseTongueTarget_1616845239(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1616845239L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkFrogSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private static void checkFrogSpawnRules__1207945751(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207945751L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTongueTarget(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void setTongueTarget__357094302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-357094302L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_2001848612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2001848612L))
-            info.setReturnValue(null);
     }
 
 

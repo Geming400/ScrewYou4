@@ -22,7 +22,7 @@ public class SetGameRules1211347597Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1768699688(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1768699688L))
-            info.setReturnValue(619360021);
+            info.setReturnValue(1091406421);
     }
 
     @Inject(at = @At("HEAD"), method = "setup(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/gamerules/GameRuleMap;", cancellable = true)
@@ -37,15 +37,15 @@ public class SetGameRules1211347597Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
-    private void teardown_1834676137(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1834676137L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/gamerules/GameRuleMap;)V", cancellable = true)
     private void teardown_304045666(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(304045666L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "teardown(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;)V", cancellable = true)
+    private void teardown_1834676137(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1834676137L))
             info.cancel();
     }
 

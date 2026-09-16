@@ -16,7 +16,7 @@ public class ManagementServer_1411902644Mixin {
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
     private void getPort__1830239230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1830239230L))
-            info.setReturnValue(1237228614);
+            info.setReturnValue(1255569614);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
@@ -37,6 +37,12 @@ public class ManagementServer_1411902644Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "startWithTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lio/netty/handler/ssl/SslContext;)V", cancellable = true)
+    private void startWithTls__1588013669(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1588013669L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "startWithoutTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;)V", cancellable = true)
     private void startWithoutTls__1882663255(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1882663255L))
@@ -46,12 +52,6 @@ public class ManagementServer_1411902644Mixin {
     @Inject(at = @At("HEAD"), method = "onConnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
     private void onConnected__1698658497(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1698658497L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "startWithTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lio/netty/handler/ssl/SslContext;)V", cancellable = true)
-    private void startWithTls__1588013669(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1588013669L))
             info.cancel();
     }
 

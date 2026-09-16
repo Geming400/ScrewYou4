@@ -13,15 +13,15 @@ public class CopyNameFunction_1608998586Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1619523457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1619523457L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1906465483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1906465483L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1619523457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1619523457L))
             info.setReturnValue(null);
     }
 

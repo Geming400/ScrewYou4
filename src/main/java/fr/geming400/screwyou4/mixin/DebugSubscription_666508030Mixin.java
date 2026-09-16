@@ -25,21 +25,21 @@ public class DebugSubscription_666508030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void valueStreamCodec_1059939988(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1059939988L))
+    @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
+    private void emptyUpdate__1294091847(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1294091847L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "expireAfterTicks()I", cancellable = true)
     private void expireAfterTicks_2028036106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2028036106L))
-            info.setReturnValue(-1827133842);
+            info.setReturnValue(-1903628442);
     }
 
-    @Inject(at = @At("HEAD"), method = "emptyUpdate()Lnet/minecraft/util/debug/DebugSubscription$Update;", cancellable = true)
-    private void emptyUpdate__1294091847(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1294091847L))
+    @Inject(at = @At("HEAD"), method = "valueStreamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private void valueStreamCodec_1059939988(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1059939988L))
             info.setReturnValue(null);
     }
 

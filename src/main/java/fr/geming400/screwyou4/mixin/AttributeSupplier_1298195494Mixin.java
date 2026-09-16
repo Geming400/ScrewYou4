@@ -10,7 +10,7 @@ public class AttributeSupplier_1298195494Mixin {
         @Inject(at = @At("HEAD"), method = "getValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
     private void getValue__1127054640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1127054640L))
-            info.setReturnValue(1.0549910058767171E8D);
+            info.setReturnValue(9.801951005876718E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
@@ -28,13 +28,13 @@ public class AttributeSupplier_1298195494Mixin {
     @Inject(at = @At("HEAD"), method = "getBaseValue(Lnet/minecraft/core/Holder;)D", cancellable = true)
     private void getBaseValue_2003531135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003531135L))
-            info.setReturnValue(1.0549910082263455E8D);
+            info.setReturnValue(9.801951008226346E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getModifierValue(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)D", cancellable = true)
     private void getModifierValue__1887744191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1887744191L))
-            info.setReturnValue(1.0549910092680526E8D);
+            info.setReturnValue(9.801951009268053E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "hasModifier(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/Identifier;)Z", cancellable = true)

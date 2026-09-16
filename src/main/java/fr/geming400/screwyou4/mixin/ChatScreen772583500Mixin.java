@@ -25,10 +25,10 @@ public class ChatScreen772583500Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "moveInHistory(I)V", cancellable = true)
-    private void moveInHistory_2053727190(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2053727190L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
+    private void isAllowedInPortal__1424152012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1424152012L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "normalizeChatMessage(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
@@ -40,6 +40,12 @@ public class ChatScreen772583500Mixin {
     @Inject(at = @At("HEAD"), method = "handleChatInput(Ljava/lang/String;Z)V", cancellable = true)
     private void handleChatInput__148547511(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-148547511L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveInHistory(I)V", cancellable = true)
+    private void moveInHistory_2053727190(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2053727190L))
             info.cancel();
     }
 
@@ -55,27 +61,9 @@ public class ChatScreen772583500Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isAllowedInPortal()Z", cancellable = true)
-    private void isAllowedInPortal__1424152012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1424152012L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_1759463142(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1759463142L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_1508405899(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1508405899L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractBackground__2120929263(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2120929263L))
             info.cancel();
     }
 
@@ -88,6 +76,18 @@ public class ChatScreen772583500Mixin {
     @Inject(at = @At("HEAD"), method = "insertText(Ljava/lang/String;Z)V", cancellable = true)
     private void insertText_2123157957(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2123157957L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_1508405899(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1508405899L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractBackground__2120929263(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2120929263L))
             info.cancel();
     }
 

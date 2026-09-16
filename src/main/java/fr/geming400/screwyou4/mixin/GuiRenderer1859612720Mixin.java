@@ -13,12 +13,6 @@ public class GuiRenderer1859612720Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
-    private void endFrame_1673328849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1673328849L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "render()V", cancellable = true)
     private void render_179028749(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(179028749L))
@@ -28,6 +22,12 @@ public class GuiRenderer1859612720Mixin {
     @Inject(at = @At("HEAD"), method = "registerPanoramaTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
     private void registerPanoramaTextures__417169408(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-417169408L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "endFrame()V", cancellable = true)
+    private void endFrame_1673328849(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1673328849L))
             info.cancel();
     }
 

@@ -22,12 +22,24 @@ public class ConfirmationDialog889967129Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1447319220(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1447319220L))
-            info.setReturnValue(-793615526);
+            info.setReturnValue(-1077389926);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
     private void common_172528006(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(172528006L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1956412383(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1956412383L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
+    private void mainActions_1391509325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1391509325L))
             info.setReturnValue(null);
     }
 
@@ -46,18 +58,6 @@ public class ConfirmationDialog889967129Mixin {
     @Inject(at = @At("HEAD"), method = "onCancel()Ljava/util/Optional;", cancellable = true)
     private void onCancel_1147039232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1147039232L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mainActions()Ljava/util/List;", cancellable = true)
-    private void mainActions_1391509325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1391509325L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1956412383(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1956412383L))
             info.setReturnValue(null);
     }
 

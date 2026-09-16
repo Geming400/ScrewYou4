@@ -34,7 +34,7 @@ public class PowerParticleOption505286098Mixin {
     @Inject(at = @At("HEAD"), method = "getPower()F", cancellable = true)
     private void getPower_595452550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595452550L))
-            info.setReturnValue(1.695265E8F);
+            info.setReturnValue(5.269283E8F);
     }
 
 

@@ -22,7 +22,7 @@ public class FpsStat_2005535265Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1732079941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1732079941L))
-            info.setReturnValue(245329666);
+            info.setReturnValue(46431266);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/stats/FpsStat;", cancellable = true)
@@ -34,7 +34,7 @@ public class FpsStat_2005535265Mixin {
     @Inject(at = @At("HEAD"), method = "fps()I", cancellable = true)
     private void fps__964625219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-964625219L))
-            info.setReturnValue(-1333248090);
+            info.setReturnValue(-1532146490);
     }
 
 

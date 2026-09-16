@@ -31,6 +31,30 @@ public class Tutorial_568682514Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onInventoryAction(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/ClickAction;)V", cancellable = true)
+    private void onInventoryAction__2108792054(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2108792054L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onInput(Lnet/minecraft/client/player/ClientInput;)V", cancellable = true)
+    private void onInput__838199515(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-838199515L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void onGetItem__1922620545(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1922620545L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMinecraft()Lnet/minecraft/client/Minecraft;", cancellable = true)
+    private void getMinecraft_1723353657(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1723353657L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onOpenInventory()V", cancellable = true)
     private void onOpenInventory_1033218065(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1033218065L))
@@ -41,18 +65,6 @@ public class Tutorial_568682514Mixin {
     private void isSurvival__1416683456(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1416683456L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getMinecraft()Lnet/minecraft/client/Minecraft;", cancellable = true)
-    private void getMinecraft_1723353657(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1723353657L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDestroyBlock(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)V", cancellable = true)
-    private void onDestroyBlock_702471264(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(702471264L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onLookAt(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/phys/HitResult;)V", cancellable = true)
@@ -67,27 +79,15 @@ public class Tutorial_568682514Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onGetItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void onGetItem__1922620545(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1922620545L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onInput(Lnet/minecraft/client/player/ClientInput;)V", cancellable = true)
-    private void onInput__838199515(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-838199515L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onInventoryAction(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/ClickAction;)V", cancellable = true)
-    private void onInventoryAction__2108792054(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2108792054L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setStep(Lnet/minecraft/client/tutorial/TutorialSteps;)V", cancellable = true)
     private void setStep_733621633(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(733621633L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDestroyBlock(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;F)V", cancellable = true)
+    private void onDestroyBlock_702471264(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(702471264L))
             info.cancel();
     }
 

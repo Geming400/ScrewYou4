@@ -22,7 +22,7 @@ public class DataPackReloadCookie_1821534828Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1916080378(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1916080378L))
-            info.setReturnValue(-863159420);
+            info.setReturnValue(-277700920);
     }
 
     @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)

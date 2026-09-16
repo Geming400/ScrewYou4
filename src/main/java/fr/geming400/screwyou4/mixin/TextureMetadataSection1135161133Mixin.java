@@ -22,7 +22,7 @@ public class TextureMetadataSection1135161133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1692513224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692513224L))
-            info.setReturnValue(217209255);
+            info.setReturnValue(531644355);
     }
 
     @Inject(at = @At("HEAD"), method = "clamp()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class TextureMetadataSection1135161133Mixin {
     @Inject(at = @At("HEAD"), method = "alphaCutoffBias()F", cancellable = true)
     private void alphaCutoffBias__2142613492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2142613492L))
-            info.setReturnValue(6.134899E8F);
+            info.setReturnValue(9.27925E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mipmapStrategy()Lnet/minecraft/client/renderer/texture/MipmapStrategy;", cancellable = true)

@@ -22,7 +22,7 @@ public class Packed421532523Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_978884614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(978884614L))
-            info.setReturnValue(1268032713);
+            info.setReturnValue(1131168513);
     }
 
     @Inject(at = @At("HEAD"), method = "displaySlots()Ljava/util/Map;", cancellable = true)
@@ -31,9 +31,9 @@ public class Packed421532523Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "teams()Ljava/util/List;", cancellable = true)
-    private void teams__654175151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-654175151L))
+    @Inject(at = @At("HEAD"), method = "scores()Ljava/util/List;", cancellable = true)
+    private void scores_2006596412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2006596412L))
             info.setReturnValue(null);
     }
 
@@ -43,9 +43,9 @@ public class Packed421532523Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scores()Ljava/util/List;", cancellable = true)
-    private void scores_2006596412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2006596412L))
+    @Inject(at = @At("HEAD"), method = "teams()Ljava/util/List;", cancellable = true)
+    private void teams__654175151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-654175151L))
             info.setReturnValue(null);
     }
 

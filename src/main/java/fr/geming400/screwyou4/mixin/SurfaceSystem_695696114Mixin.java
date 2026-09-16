@@ -10,7 +10,7 @@ public class SurfaceSystem_695696114Mixin {
         @Inject(at = @At("HEAD"), method = "getSeaLevel()I", cancellable = true)
     private void getSeaLevel__9321012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-9321012L))
-            info.setReturnValue(-1107096266);
+            info.setReturnValue(-567651366);
     }
 
     @Inject(at = @At("HEAD"), method = "buildSurface(Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/biome/BiomeManager;ZLnet/minecraft/world/level/levelgen/WorldGenerationContext;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/levelgen/NoiseChunk;Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;Ljava/util/Set;)V", cancellable = true)

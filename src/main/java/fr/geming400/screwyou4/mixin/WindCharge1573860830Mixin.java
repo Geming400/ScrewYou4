@@ -13,15 +13,15 @@ public class WindCharge1573860830Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
-    private void shouldRenderAtSqrDistance__1766864426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1766864426L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "deflect(Lnet/minecraft/world/entity/projectile/ProjectileDeflection;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/EntityReference;Z)Z", cancellable = true)
     private void deflect_827794455(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(827794455L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
+    private void shouldRenderAtSqrDistance__1766864426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1766864426L))
             info.setReturnValue(true);
     }
 

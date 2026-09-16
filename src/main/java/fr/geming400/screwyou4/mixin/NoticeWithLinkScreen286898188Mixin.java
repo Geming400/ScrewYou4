@@ -13,9 +13,9 @@ public class NoticeWithLinkScreen286898188Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__1384944550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1384944550L))
+    @Inject(at = @At("HEAD"), method = "createWorldSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private static void createWorldSymlinkWarningScreen_143412849(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(143412849L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class NoticeWithLinkScreen286898188Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWorldSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private static void createWorldSymlinkWarningScreen_143412849(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(143412849L))
+    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarrationMessage__1384944550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1384944550L))
             info.setReturnValue(null);
     }
 

@@ -19,12 +19,6 @@ public class RotationArgument_468366293Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
-    private static void rotation__1476059945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1476059945L))
-            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.RotationArgument());
-    }
-
     @Inject(at = @At("HEAD"), method = "getRotation(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;", cancellable = true)
     private static void getRotation__1846046521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846046521L))
@@ -35,6 +29,12 @@ public class RotationArgument_468366293Mixin {
     private void getExamples__2101987005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2101987005L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/commands/arguments/coordinates/RotationArgument;", cancellable = true)
+    private static void rotation__1476059945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1476059945L))
+            info.setReturnValue(new net.minecraft.commands.arguments.coordinates.RotationArgument());
     }
 
 

@@ -13,10 +13,10 @@ public class SoundEngineExecutor1256235222Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "wrapRunnable(Ljava/lang/Runnable;)Ljava/lang/Runnable;", cancellable = true)
-    private void wrapRunnable__492957348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-492957348L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "startUp()V", cancellable = true)
+    private void startUp_830276364(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(830276364L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "shutDown()V", cancellable = true)
@@ -25,10 +25,10 @@ public class SoundEngineExecutor1256235222Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startUp()V", cancellable = true)
-    private void startUp_830276364(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(830276364L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "wrapRunnable(Ljava/lang/Runnable;)Ljava/lang/Runnable;", cancellable = true)
+    private void wrapRunnable__492957348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-492957348L))
+            info.setReturnValue(null);
     }
 
 

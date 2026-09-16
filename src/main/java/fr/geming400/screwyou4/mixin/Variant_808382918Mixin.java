@@ -22,7 +22,7 @@ public class Variant_808382918Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__849940678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-849940678L))
-            info.setReturnValue(1875631114);
+            info.setReturnValue(1569521314);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/fox/Fox$Variant;", cancellable = true)
@@ -31,16 +31,16 @@ public class Variant_808382918Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fox.Fox.Variant.RED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_896591539(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(896591539L))
-            info.setReturnValue("8(nI\u3970C@Gq\u573AXb\"e\uAFEAm8l\u1624;1Bo3CE{\uCCDA(ZaAQ4aH");
-    }
-
     @Inject(at = @At("HEAD"), method = "byBiome(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/entity/animal/fox/Fox$Variant;", cancellable = true)
     private static void byBiome_206527041(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(206527041L))
             info.setReturnValue(net.minecraft.world.entity.animal.fox.Fox.Variant.RED);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_896591539(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(896591539L))
+            info.setReturnValue("8(nI\u3970C@Gq\u573AXb\"e\uAFEAm8l\u1624;1Bo3CE{\uCCDA(ZaAQ4aH");
     }
 
 

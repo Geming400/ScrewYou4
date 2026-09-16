@@ -7,10 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.RavagerRenderer.class)
 public class RavagerRenderer1610928079Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/RavagerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1772934540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1772934540L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/RavagerRenderState;", cancellable = true)
+    private void createRenderState__1772892411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1772892411L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.RavagerRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1864099058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1864099058L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -19,10 +25,10 @@ public class RavagerRenderer1610928079Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_1048706272(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1048706272L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/RavagerRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1772934540(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1772934540L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
@@ -37,16 +43,10 @@ public class RavagerRenderer1610928079Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1864099058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1864099058L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/RavagerRenderState;", cancellable = true)
-    private void createRenderState__1772892411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1772892411L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.RavagerRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_1048706272(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1048706272L))
+            info.cancel();
     }
 
 

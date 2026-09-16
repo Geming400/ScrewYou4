@@ -25,16 +25,16 @@ public class MovementEmission1214428961Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "emitsEvents()Z", cancellable = true)
-    private void emitsEvents_1368854591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1368854591L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "emitsSounds()Z", cancellable = true)
     private void emitsSounds__1107690764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1107690764L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "emitsEvents()Z", cancellable = true)
+    private void emitsEvents_1368854591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1368854591L))
+            info.setReturnValue(true);
     }
 
 

@@ -10,7 +10,7 @@ public class HttpUtil_1651860688Mixin {
         @Inject(at = @At("HEAD"), method = "getAvailablePort()I", cancellable = true)
     private static void getAvailablePort__166013703(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-166013703L))
-            info.setReturnValue(154006724);
+            info.setReturnValue(157459624);
     }
 
     @Inject(at = @At("HEAD"), method = "isPortAvailable(I)Z", cancellable = true)

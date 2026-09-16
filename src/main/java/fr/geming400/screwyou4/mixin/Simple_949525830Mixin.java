@@ -28,7 +28,7 @@ public class Simple_949525830Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1506877920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1506877920L))
-            info.setReturnValue(808078186);
+            info.setReturnValue(1315726286);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -40,7 +40,7 @@ public class Simple_949525830Mixin {
     @Inject(at = @At("HEAD"), method = "protocolVersion()I", cancellable = true)
     private void protocolVersion_177232907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(177232907L))
-            info.setReturnValue(9358195);
+            info.setReturnValue(517006295);
     }
 
     @Inject(at = @At("HEAD"), method = "dataVersion()Lnet/minecraft/world/level/storage/DataVersion;", cancellable = true)
@@ -55,15 +55,15 @@ public class Simple_949525830Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "buildTime()Ljava/util/Date;", cancellable = true)
-    private void buildTime_264641856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(264641856L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "packVersion(Lnet/minecraft/server/packs/PackType;)Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
     private void packVersion_693822636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(693822636L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resourcePackVersion()Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
+    private void resourcePackVersion__898829627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-898829627L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +73,9 @@ public class Simple_949525830Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resourcePackVersion()Lnet/minecraft/server/packs/metadata/pack/PackFormat;", cancellable = true)
-    private void resourcePackVersion__898829627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-898829627L))
+    @Inject(at = @At("HEAD"), method = "buildTime()Ljava/util/Date;", cancellable = true)
+    private void buildTime_264641856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(264641856L))
             info.setReturnValue(null);
     }
 

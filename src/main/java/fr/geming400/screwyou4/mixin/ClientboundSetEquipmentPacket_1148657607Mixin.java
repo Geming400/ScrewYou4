@@ -25,16 +25,16 @@ public class ClientboundSetEquipmentPacket_1148657607Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getEntity()I", cancellable = true)
+    private void getEntity_1737051763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1737051763L))
+            info.setReturnValue(-1944947809);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSlots()Ljava/util/List;", cancellable = true)
     private void getSlots__233319179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-233319179L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntity()I", cancellable = true)
-    private void getEntity_1737051763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1737051763L))
-            info.setReturnValue(-1433396709);
     }
 
 

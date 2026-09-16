@@ -10,7 +10,7 @@ public class RegionBitmap49127661Mixin {
         @Inject(at = @At("HEAD"), method = "allocate(I)I", cancellable = true)
     private void allocate__454671159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-454671159L))
-            info.setReturnValue(-1225958826);
+            info.setReturnValue(-749103726);
     }
 
     @Inject(at = @At("HEAD"), method = "force(II)V", cancellable = true)

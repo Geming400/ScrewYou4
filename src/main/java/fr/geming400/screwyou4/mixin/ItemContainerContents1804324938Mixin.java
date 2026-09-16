@@ -16,7 +16,7 @@ public class ItemContainerContents1804324938Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1933290763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1933290763L))
-            info.setReturnValue(-1365560635);
+            info.setReturnValue(-1773166035);
     }
 
     @Inject(at = @At("HEAD"), method = "copyInto(Lnet/minecraft/core/NonNullList;)V", cancellable = true)
@@ -25,9 +25,9 @@ public class ItemContainerContents1804324938Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void copyOne__1815896545(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1815896545L))
+    @Inject(at = @At("HEAD"), method = "nonEmptyItemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
+    private void nonEmptyItemCopyStream__1790222249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1790222249L))
             info.setReturnValue(null);
     }
 
@@ -43,6 +43,12 @@ public class ItemContainerContents1804324938Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "copyOne()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void copyOne__1815896545(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1815896545L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "nonEmptyItems()Ljava/lang/Iterable;", cancellable = true)
     private void nonEmptyItems_465501362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465501362L))
@@ -52,12 +58,6 @@ public class ItemContainerContents1804324938Mixin {
     @Inject(at = @At("HEAD"), method = "allItemsCopyStream()Ljava/util/stream/Stream;", cancellable = true)
     private void allItemsCopyStream_537552363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(537552363L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nonEmptyItemCopyStream()Ljava/util/stream/Stream;", cancellable = true)
-    private void nonEmptyItemCopyStream__1790222249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1790222249L))
             info.setReturnValue(null);
     }
 

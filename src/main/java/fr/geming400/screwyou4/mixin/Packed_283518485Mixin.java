@@ -22,25 +22,25 @@ public class Packed_283518485Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_840870575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840870575L))
-            info.setReturnValue(-2140057136);
+            info.setReturnValue(1870142960);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minSection()I", cancellable = true)
+    private void minSection__1593896025(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1593896025L))
+            info.setReturnValue(1841490563);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxSection()I", cancellable = true)
+    private void maxSection__483457095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-483457095L))
+            info.setReturnValue(351263667);
     }
 
     @Inject(at = @At("HEAD"), method = "heights()Ljava/util/Optional;", cancellable = true)
     private void heights_959604718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(959604718L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minSection()I", cancellable = true)
-    private void minSection__1593896025(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1593896025L))
-            info.setReturnValue(2126257763);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxSection()I", cancellable = true)
-    private void maxSection__483457095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-483457095L))
-            info.setReturnValue(636030867);
     }
 
 

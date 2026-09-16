@@ -28,31 +28,31 @@ public class NineSlice1839483613Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1898131592(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1898131592L))
-            info.setReturnValue(1716379678);
+            info.setReturnValue(-2054873618);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width_199335613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(199335613L))
-            info.setReturnValue(-1167789473);
+            info.setReturnValue(-644075473);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_754135036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(754135036L))
-            info.setReturnValue(389978021);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stretchInner()Z", cancellable = true)
-    private void stretchInner_788273379(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(788273379L))
-            info.setReturnValue(false);
+            info.setReturnValue(913692021);
     }
 
     @Inject(at = @At("HEAD"), method = "border()Lnet/minecraft/client/resources/metadata/gui/GuiSpriteScaling$NineSlice$Border;", cancellable = true)
     private void border_555666146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(555666146L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stretchInner()Z", cancellable = true)
+    private void stretchInner_788273379(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(788273379L))
+            info.setReturnValue(false);
     }
 
 

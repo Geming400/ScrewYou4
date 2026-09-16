@@ -22,13 +22,13 @@ public class RemoveBinomial2113606261Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1624008944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1624008944L))
-            info.setReturnValue(-1692048471);
+            info.setReturnValue(-1625969071);
     }
 
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process_237597462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(237597462L))
-            info.setReturnValue(2.779101E8F);
+            info.setReturnValue(3.439895E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

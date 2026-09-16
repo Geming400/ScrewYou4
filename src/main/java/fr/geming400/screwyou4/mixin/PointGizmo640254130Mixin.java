@@ -10,7 +10,7 @@ public class PointGizmo640254130Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1083982836(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1083982836L))
-            info.setReturnValue(9.678077E8F);
+            info.setReturnValue(5.291041E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class PointGizmo640254130Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1197606221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1197606221L))
-            info.setReturnValue(743929401);
+            info.setReturnValue(305225801);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -40,7 +40,7 @@ public class PointGizmo640254130Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color_1876905237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1876905237L))
-            info.setReturnValue(-587426687);
+            info.setReturnValue(-1026130287);
     }
 
     @Inject(at = @At("HEAD"), method = "emit(Lnet/minecraft/gizmos/GizmoPrimitives;F)V", cancellable = true)

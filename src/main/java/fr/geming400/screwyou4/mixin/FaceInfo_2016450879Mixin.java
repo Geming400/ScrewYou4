@@ -19,16 +19,16 @@ public class FaceInfo_2016450879Mixin {
             info.setReturnValue(net.minecraft.client.renderer.FaceInfo.DOWN);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromFacing(Lnet/minecraft/core/Direction;)Lnet/minecraft/client/renderer/FaceInfo;", cancellable = true)
-    private static void fromFacing_2016927797(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2016927797L))
-            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.DOWN);
-    }
-
     @Inject(at = @At("HEAD"), method = "getVertexInfo(I)Lnet/minecraft/client/renderer/FaceInfo$VertexInfo;", cancellable = true)
     private void getVertexInfo_732949300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(732949300L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromFacing(Lnet/minecraft/core/Direction;)Lnet/minecraft/client/renderer/FaceInfo;", cancellable = true)
+    private static void fromFacing_2016927797(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2016927797L))
+            info.setReturnValue(net.minecraft.client.renderer.FaceInfo.DOWN);
     }
 
 

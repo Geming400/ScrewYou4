@@ -13,12 +13,6 @@ public class TreeFeature_188345654Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLowestTrunkOrRootOfTree(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)Ljava/util/List;", cancellable = true)
-    private static void getLowestTrunkOrRootOfTree_777330511(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777330511L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "validTreePos(Lnet/minecraft/world/level/LevelSimulatedReader;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void validTreePos__854714402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-854714402L))
@@ -29,6 +23,12 @@ public class TreeFeature_188345654Mixin {
     private static void isAirOrLeaves__1401379165(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1401379165L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLowestTrunkOrRootOfTree(Lnet/minecraft/world/level/levelgen/feature/treedecorators/TreeDecorator$Context;)Ljava/util/List;", cancellable = true)
+    private static void getLowestTrunkOrRootOfTree_777330511(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777330511L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z", cancellable = true)

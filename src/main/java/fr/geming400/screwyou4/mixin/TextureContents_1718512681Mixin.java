@@ -22,7 +22,7 @@ public class TextureContents_1718512681Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2019102525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2019102525L))
-            info.setReturnValue(300431135);
+            info.setReturnValue(-40776865);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureContents;", cancellable = true)

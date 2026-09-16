@@ -13,16 +13,16 @@ public class Builder_2129243301Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addMobCharge(Lnet/minecraft/world/entity/EntityType;DD)Lnet/minecraft/world/level/biome/MobSpawnSettings$Builder;", cancellable = true)
-    private void addMobCharge_2112769760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2112769760L))
-            info.setReturnValue(new net.minecraft.world.level.biome.MobSpawnSettings.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "addSpawn(Lnet/minecraft/world/entity/MobCategory;ILnet/minecraft/world/level/biome/MobSpawnSettings$SpawnerData;)Lnet/minecraft/world/level/biome/MobSpawnSettings$Builder;", cancellable = true)
     private void addSpawn__342508045(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-342508045L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addMobCharge(Lnet/minecraft/world/entity/EntityType;DD)Lnet/minecraft/world/level/biome/MobSpawnSettings$Builder;", cancellable = true)
+    private void addMobCharge_2112769760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2112769760L))
+            info.setReturnValue(new net.minecraft.world.level.biome.MobSpawnSettings.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "creatureGenerationProbability(F)Lnet/minecraft/world/level/biome/MobSpawnSettings$Builder;", cancellable = true)

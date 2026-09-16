@@ -16,7 +16,7 @@ public class ClientboundKeepAlivePacket595331245Mixin {
     @Inject(at = @At("HEAD"), method = "getId()J", cancellable = true)
     private void getId__1062991389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1062991389L))
-            info.setReturnValue(-8253858764830264785L);
+            info.setReturnValue(-8253858764833498685L);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

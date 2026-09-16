@@ -22,19 +22,19 @@ public class RangeInfo587227657Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1144579748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1144579748L))
-            info.setReturnValue(-1133393740);
+            info.setReturnValue(-1365760840);
     }
 
     @Inject(at = @At("HEAD"), method = "end()F", cancellable = true)
     private void end__2035223375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035223375L))
-            info.setReturnValue(4.178812E8F);
+            info.setReturnValue(1.855141E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "start()F", cancellable = true)
     private void start__1038953078(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1038953078L))
-            info.setReturnValue(4.178812E8F);
+            info.setReturnValue(1.855141E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "step()Ljava/util/Optional;", cancellable = true)
@@ -52,13 +52,13 @@ public class RangeInfo587227657Mixin {
     @Inject(at = @At("HEAD"), method = "initialSliderValue()F", cancellable = true)
     private void initialSliderValue_2065030400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2065030400L))
-            info.setReturnValue(4.188909E8F);
+            info.setReturnValue(1.885185E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "computeScaledValue(F)F", cancellable = true)
     private void computeScaledValue__1100105950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1100105950L))
-            info.setReturnValue(4.188909E8F);
+            info.setReturnValue(1.885185E8F);
     }
 
 

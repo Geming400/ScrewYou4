@@ -10,19 +10,19 @@ public class ResultField1628181247Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__263922687(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-263922687L))
-            info.setReturnValue(119894741);
+            info.setReturnValue(-540897059);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/util/profiling/ResultField;)I", cancellable = true)
     private void compareTo_568250521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(568250521L))
-            info.setReturnValue(-2140933160);
+            info.setReturnValue(1493242336);
     }
 
     @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
     private void getColor__1727883432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1727883432L))
-            info.setReturnValue(1611602495);
+            info.setReturnValue(950810695);
     }
 
 

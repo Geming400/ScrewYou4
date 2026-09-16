@@ -22,7 +22,7 @@ public class AboveRootPlacement_560795396Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1118147486(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1118147486L))
-            info.setReturnValue(1570948879);
+            info.setReturnValue(603176379);
     }
 
     @Inject(at = @At("HEAD"), method = "aboveRootProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -34,7 +34,7 @@ public class AboveRootPlacement_560795396Mixin {
     @Inject(at = @At("HEAD"), method = "aboveRootPlacementChance()F", cancellable = true)
     private void aboveRootPlacementChance_354409356(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354409356L))
-            info.setReturnValue(9.912171E8F);
+            info.setReturnValue(2.34446E7F);
     }
 
 

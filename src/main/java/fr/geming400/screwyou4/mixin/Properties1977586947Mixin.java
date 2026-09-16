@@ -22,7 +22,13 @@ public class Properties1977586947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1760028258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1760028258L))
-            info.setReturnValue(-2031603111);
+            info.setReturnValue(-1903340511);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
+    private void swapAnimationScale__1378605395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1378605395L))
+            info.setReturnValue(2.512678E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "handAnimationOnSwap()Z", cancellable = true)
@@ -35,12 +41,6 @@ public class Properties1977586947Mixin {
     private void oversizedInGui_1926731827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1926731827L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "swapAnimationScale()F", cancellable = true)
-    private void swapAnimationScale__1378605395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1378605395L))
-            info.setReturnValue(1.230052E8F);
     }
 
 

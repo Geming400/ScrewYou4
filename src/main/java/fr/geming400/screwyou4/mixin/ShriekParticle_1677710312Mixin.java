@@ -25,16 +25,16 @@ public class ShriekParticle_1677710312Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
-    private void getQuadSize__952405666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-952405666L))
-            info.setReturnValue(3.857513E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1694398689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1694398689L))
-            info.setReturnValue(100572787);
+            info.setReturnValue(18546887);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
+    private void getQuadSize__952405666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-952405666L))
+            info.setReturnValue(3.037254E8F);
     }
 
 

@@ -22,18 +22,12 @@ public class WritableBookContent_317153166Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_874505256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874505256L))
-            info.setReturnValue(-1106078507);
+            info.setReturnValue(-1131161407);
     }
 
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)
     private void pages_1526576001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1526576001L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPages(Z)Ljava/util/stream/Stream;", cancellable = true)
-    private void getPages__684475494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-684475494L))
             info.setReturnValue(null);
     }
 
@@ -47,6 +41,12 @@ public class WritableBookContent_317153166Mixin {
     private void withReplacedPages__940791259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-940791259L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPages(Z)Ljava/util/stream/Stream;", cancellable = true)
+    private void getPages__684475494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-684475494L))
+            info.setReturnValue(null);
     }
 
 

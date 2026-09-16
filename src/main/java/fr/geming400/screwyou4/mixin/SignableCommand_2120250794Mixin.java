@@ -22,7 +22,7 @@ public class SignableCommand_2120250794Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1617364412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1617364412L))
-            info.setReturnValue(1781553912);
+            info.setReturnValue(-1825239284);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lcom/mojang/brigadier/ParseResults;)Lnet/minecraft/network/chat/SignableCommand;", cancellable = true)
@@ -37,16 +37,16 @@ public class SignableCommand_2120250794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasSignableArguments(Lcom/mojang/brigadier/ParseResults;)Z", cancellable = true)
-    private static void hasSignableArguments_323179320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(323179320L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getArgument(Ljava/lang/String;)Lnet/minecraft/network/chat/SignableCommand$Argument;", cancellable = true)
     private void getArgument_1087962389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1087962389L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasSignableArguments(Lcom/mojang/brigadier/ParseResults;)Z", cancellable = true)
+    private static void hasSignableArguments_323179320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(323179320L))
+            info.setReturnValue(true);
     }
 
 

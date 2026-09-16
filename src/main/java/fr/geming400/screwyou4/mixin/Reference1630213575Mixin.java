@@ -85,6 +85,12 @@ public class Reference1630213575Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "bindComponents(Lnet/minecraft/core/component/DataComponentMap;)V", cancellable = true)
+    private void bindComponents__1117007795(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1117007795L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
     private void canSerializeIn__892064115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-892064115L))
@@ -97,22 +103,16 @@ public class Reference1630213575Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createStandAlone(Lnet/minecraft/core/HolderOwner;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void createStandAlone__873962123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-873962123L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "areComponentsBound()Z", cancellable = true)
     private void areComponentsBound__1351325462(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1351325462L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "bindComponents(Lnet/minecraft/core/component/DataComponentMap;)V", cancellable = true)
-    private void bindComponents__1117007795(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1117007795L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createStandAlone(Lnet/minecraft/core/HolderOwner;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void createStandAlone__873962123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-873962123L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)

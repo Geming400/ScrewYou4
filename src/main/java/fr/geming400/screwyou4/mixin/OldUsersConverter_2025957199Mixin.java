@@ -13,18 +13,6 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertUserBanlist_2058558245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2058558245L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertOpsList__1993427881(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1993427881L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "areOldUserlistsRemoved()Z", cancellable = true)
     private static void areOldUserlistsRemoved_145250292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145250292L))
@@ -40,6 +28,18 @@ public class OldUsersConverter_2025957199Mixin {
     @Inject(at = @At("HEAD"), method = "convertPlayers(Lnet/minecraft/server/dedicated/DedicatedServer;)Z", cancellable = true)
     private static void convertPlayers__1017042893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1017042893L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertOpsList__1993427881(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1993427881L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertUserBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertUserBanlist_2058558245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2058558245L))
             info.setReturnValue(true);
     }
 

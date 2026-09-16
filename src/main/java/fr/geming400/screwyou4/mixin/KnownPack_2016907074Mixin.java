@@ -28,7 +28,7 @@ public class KnownPack_2016907074Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1720708132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1720708132L))
-            info.setReturnValue(37674785);
+            info.setReturnValue(-900802615);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -37,16 +37,16 @@ public class KnownPack_2016907074Mixin {
             info.setReturnValue("");
     }
 
-    @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/KnownPack;", cancellable = true)
-    private static void vanilla_830863560(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(830863560L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isVanilla()Z", cancellable = true)
     private void isVanilla__722554713(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-722554713L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vanilla(Ljava/lang/String;)Lnet/minecraft/server/packs/repository/KnownPack;", cancellable = true)
+    private static void vanilla_830863560(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(830863560L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "namespace()Ljava/lang/String;", cancellable = true)

@@ -28,7 +28,7 @@ public class SliderableEnum128383424Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_685735515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(685735515L))
-            info.setReturnValue(690878228);
+            info.setReturnValue(816964028);
     }
 
     @Inject(at = @At("HEAD"), method = "next(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -49,22 +49,22 @@ public class SliderableEnum128383424Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__1676326116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1676326116L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
     private void toSliderValue_1944571720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1944571720L))
-            info.setReturnValue(4.836973001155353E8D);
+            info.setReturnValue(6.097831001155353E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
     private void fromSliderValue_1396524321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1396524321L))
             info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__1676326116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1676326116L))
-            info.setReturnValue(null);
     }
 
 

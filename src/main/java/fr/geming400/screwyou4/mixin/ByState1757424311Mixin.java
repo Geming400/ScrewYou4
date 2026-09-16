@@ -22,7 +22,7 @@ public class ByState1757424311Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1980190894(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980190894L))
-            info.setReturnValue(1370628837);
+            info.setReturnValue(944193437);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$ByState;", cancellable = true)
@@ -55,15 +55,15 @@ public class ByState1757424311Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "weathered()Ljava/lang/Object;", cancellable = true)
-    private void weathered__485554267(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-485554267L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
     @Inject(at = @At("HEAD"), method = "oxidized()Ljava/lang/Object;", cancellable = true)
     private void oxidized__764523098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-764523098L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "weathered()Ljava/lang/Object;", cancellable = true)
+    private void weathered__485554267(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-485554267L))
             info.setReturnValue(new java.lang.Object());
     }
 

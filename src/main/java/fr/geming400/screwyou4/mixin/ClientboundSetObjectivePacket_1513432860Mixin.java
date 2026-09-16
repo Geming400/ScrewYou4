@@ -16,7 +16,7 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
     @Inject(at = @At("HEAD"), method = "getMethod()I", cancellable = true)
     private void getMethod__106834038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-106834038L))
-            info.setReturnValue(-108218641);
+            info.setReturnValue(476557759);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundSetObjectivePacket_1513432860Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
-    private void getObjectiveName__769232942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-769232942L))
-            info.setReturnValue("(@F`#`1H,GS4/+IL4l9%rl66YL\"r/@1`P-3]{B@'P0,B6*AK0;a>\uAC935quG[0Q\uC512P \u6AF0[\"`\uFD52Qp\uC7FEY\uC258y&O>m\uB1DAuu\u7702_Ec");
-    }
-
     @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
     private void getRenderType__216004928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-216004928L))
             info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.INTEGER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getObjectiveName()Ljava/lang/String;", cancellable = true)
+    private void getObjectiveName__769232942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-769232942L))
+            info.setReturnValue("(@F`#`1H,GS4/+IL4l9%rl66YL\"r/@1`P-3]{B@'P0,B6*AK0;a>\uAC935quG[0Q\uC512P \u6AF0[\"`\uFD52Qp\uC7FEY\uC258y&O>m\uB1DAuu\u7702_Ec");
     }
 
 

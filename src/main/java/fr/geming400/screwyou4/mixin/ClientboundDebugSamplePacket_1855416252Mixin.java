@@ -28,7 +28,7 @@ public class ClientboundDebugSamplePacket_1855416252Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1882198954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1882198954L))
-            info.setReturnValue(1736591800);
+            info.setReturnValue(2139522100);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundDebugSamplePacket_1855416252Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "debugSampleType()Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
-    private void debugSampleType_791154018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(791154018L))
-            info.setReturnValue(net.minecraft.util.debugchart.RemoteDebugSampleType.TICK_TIME);
-    }
-
     @Inject(at = @At("HEAD"), method = "sample()[J", cancellable = true)
     private void sample_667220595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(667220595L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "debugSampleType()Lnet/minecraft/util/debugchart/RemoteDebugSampleType;", cancellable = true)
+    private void debugSampleType_791154018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(791154018L))
+            info.setReturnValue(net.minecraft.util.debugchart.RemoteDebugSampleType.TICK_TIME);
     }
 
 

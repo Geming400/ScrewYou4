@@ -22,19 +22,19 @@ public class Absolute_1833106502Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1904508704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1904508704L))
-            info.setReturnValue(-1918249251);
+            info.setReturnValue(-1706917651);
     }
 
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_1040528722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040528722L))
-            info.setReturnValue(-1678186571);
+            info.setReturnValue(-1466854971);
     }
 
     @Inject(at = @At("HEAD"), method = "resolveY(Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void resolveY__430113373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-430113373L))
-            info.setReturnValue(1717588518);
+            info.setReturnValue(1928920118);
     }
 
 

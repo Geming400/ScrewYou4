@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.TurtleRenderer.class)
 public class TurtleRenderer340121235Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation_1976203158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1976203158L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;", cancellable = true)
+    private void createRenderState_838121871(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(838121871L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TurtleRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_593292214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(593292214L))
             info.setReturnValue(null);
     }
 
@@ -19,10 +25,10 @@ public class TurtleRenderer340121235Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__222100572(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-222100572L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation_1976203158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1976203158L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
@@ -37,16 +43,10 @@ public class TurtleRenderer340121235Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;", cancellable = true)
-    private void createRenderState_838121871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(838121871L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TurtleRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_593292214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(593292214L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__222100572(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-222100572L))
+            info.cancel();
     }
 
 

@@ -28,7 +28,7 @@ public class DirectoryLister2077983098Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1659632107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1659632107L))
-            info.setReturnValue(-689289021);
+            info.setReturnValue(-713012721);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

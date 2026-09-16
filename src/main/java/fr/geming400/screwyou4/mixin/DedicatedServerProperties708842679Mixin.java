@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.server.dedicated.DedicatedServerProperties.class)
 public class DedicatedServerProperties708842679Mixin {
-        @Inject(at = @At("HEAD"), method = "fromFile(Ljava/nio/file/Path;)Lnet/minecraft/server/dedicated/DedicatedServerProperties;", cancellable = true)
-    private static void fromFile_183779799(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183779799L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "createDimensions(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
     private void createDimensions_1466833978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466833978L))
             info.setReturnValue(null);
@@ -28,6 +22,12 @@ public class DedicatedServerProperties708842679Mixin {
     @Inject(at = @At("HEAD"), method = "deserializePermission(Ljava/lang/String;)Lnet/minecraft/server/permissions/LevelBasedPermissionSet;", cancellable = true)
     private static void deserializePermission_102089856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(102089856L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromFile(Ljava/nio/file/Path;)Lnet/minecraft/server/dedicated/DedicatedServerProperties;", cancellable = true)
+    private static void fromFile_183779799(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(183779799L))
             info.setReturnValue(null);
     }
 

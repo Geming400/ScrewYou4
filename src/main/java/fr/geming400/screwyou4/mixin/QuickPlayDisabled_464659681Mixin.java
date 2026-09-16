@@ -22,7 +22,7 @@ public class QuickPlayDisabled_464659681Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1022011771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1022011771L))
-            info.setReturnValue(-1382877183);
+            info.setReturnValue(-669551383);
     }
 
     @Inject(at = @At("HEAD"), method = "isEnabled()Z", cancellable = true)

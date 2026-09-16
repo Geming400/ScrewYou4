@@ -22,7 +22,7 @@ public class MobEffectsPredicate112390263Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_669742354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(669742354L))
-            info.setReturnValue(-2124891783);
+            info.setReturnValue(2145323813);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

@@ -22,7 +22,7 @@ public class ZombieNautilusVariant_481413426Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1038765516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1038765516L))
-            info.setReturnValue(-733596819);
+            info.setReturnValue(-318282919);
     }
 
     @Inject(at = @At("HEAD"), method = "selectors()Ljava/util/List;", cancellable = true)

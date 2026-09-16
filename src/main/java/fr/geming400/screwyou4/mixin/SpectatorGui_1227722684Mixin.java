@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.components.spectator.SpectatorGui.class)
 public class SpectatorGui_1227722684Mixin {
-        @Inject(at = @At("HEAD"), method = "onHotbarActionKeyPressed()V", cancellable = true)
-    private void onHotbarActionKeyPressed__1946426352(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1946426352L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onHotbarSelected(I)V", cancellable = true)
-    private void onHotbarSelected__1347190777(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1347190777L))
+        @Inject(at = @At("HEAD"), method = "onSpectatorMenuClosed(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)
+    private void onSpectatorMenuClosed__550628040(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-550628040L))
             info.cancel();
     }
 
@@ -31,9 +25,15 @@ public class SpectatorGui_1227722684Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSpectatorMenuClosed(Lnet/minecraft/client/gui/spectator/SpectatorMenu;)V", cancellable = true)
-    private void onSpectatorMenuClosed__550628040(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-550628040L))
+    @Inject(at = @At("HEAD"), method = "onHotbarActionKeyPressed()V", cancellable = true)
+    private void onHotbarActionKeyPressed__1946426352(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1946426352L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onHotbarSelected(I)V", cancellable = true)
+    private void onHotbarSelected__1347190777(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1347190777L))
             info.cancel();
     }
 

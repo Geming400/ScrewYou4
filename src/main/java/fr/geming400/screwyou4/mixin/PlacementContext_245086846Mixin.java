@@ -19,21 +19,21 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
-    private void getHeight__1111145966(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1111145966L))
-            info.setReturnValue(-962031231);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
     private void getMinY_530346438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(530346438L))
-            info.setReturnValue(844613824);
+            info.setReturnValue(589193124);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getBlockState_1784969437(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1784969437L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
+    private void topFeature__487722740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-487722740L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +43,10 @@ public class PlacementContext_245086846Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "topFeature()Ljava/util/Optional;", cancellable = true)
-    private void topFeature__487722740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-487722740L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/world/level/levelgen/Heightmap$Types;II)I", cancellable = true)
+    private void getHeight__1111145966(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1111145966L))
+            info.setReturnValue(-1217451931);
     }
 
 

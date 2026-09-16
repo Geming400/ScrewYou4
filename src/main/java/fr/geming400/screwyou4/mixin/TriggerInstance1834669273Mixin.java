@@ -22,7 +22,7 @@ public class TriggerInstance1834669273Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1902945932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1902945932L))
-            info.setReturnValue(-1647525548);
+            info.setReturnValue(-709725648);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance1834669273Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_604016232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(604016232L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/Optional;", cancellable = true)
     private void effects__613262967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-613262967L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gotEffectsFrom(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void gotEffectsFrom__1708461499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1708461499L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class TriggerInstance1834669273Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gotEffectsFrom(Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void gotEffectsFrom__1708461499(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1708461499L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_604016232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(604016232L))
             info.setReturnValue(null);
     }
 

@@ -19,15 +19,9 @@ public class VanillaPackResourcesBuilder_1183255876Mixin {
             info.setReturnValue(new net.minecraft.server.packs.VanillaPackResourcesBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "pushAssetPath(Lnet/minecraft/server/packs/PackType;Ljava/nio/file/Path;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
-    private void pushAssetPath__1224161661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1224161661L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMetadata(Lnet/minecraft/server/packs/resources/ResourceMetadata;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
-    private void setMetadata_968837920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(968837920L))
+    @Inject(at = @At("HEAD"), method = "pushJarResources()Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
+    private void pushJarResources__1080880456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1080880456L))
             info.setReturnValue(new net.minecraft.server.packs.VanillaPackResourcesBuilder());
     }
 
@@ -37,10 +31,16 @@ public class VanillaPackResourcesBuilder_1183255876Mixin {
             info.setReturnValue(new net.minecraft.server.packs.VanillaPackResourcesBuilder());
     }
 
-    @Inject(at = @At("HEAD"), method = "pushJarResources()Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
-    private void pushJarResources__1080880456(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1080880456L))
+    @Inject(at = @At("HEAD"), method = "setMetadata(Lnet/minecraft/server/packs/resources/ResourceMetadata;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
+    private void setMetadata_968837920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(968837920L))
             info.setReturnValue(new net.minecraft.server.packs.VanillaPackResourcesBuilder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "pushAssetPath(Lnet/minecraft/server/packs/PackType;Ljava/nio/file/Path;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)
+    private void pushAssetPath__1224161661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1224161661L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "pushClasspathResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/Class;)Lnet/minecraft/server/packs/VanillaPackResourcesBuilder;", cancellable = true)

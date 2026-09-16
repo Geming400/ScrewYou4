@@ -22,7 +22,7 @@ public class StructureSettings_756882769Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1314234859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1314234859L))
-            info.setReturnValue(-1301175531);
+            info.setReturnValue(-1630673131);
     }
 
     @Inject(at = @At("HEAD"), method = "step()Lnet/minecraft/world/level/levelgen/GenerationStep$Decoration;", cancellable = true)

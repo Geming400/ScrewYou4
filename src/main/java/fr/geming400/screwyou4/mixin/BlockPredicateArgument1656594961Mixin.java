@@ -31,15 +31,15 @@ public class BlockPredicateArgument1656594961Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_905037170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(905037170L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__913758336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-913758336L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_905037170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(905037170L))
             info.setReturnValue(null);
     }
 

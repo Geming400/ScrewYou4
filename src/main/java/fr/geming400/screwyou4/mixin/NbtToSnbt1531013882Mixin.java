@@ -19,16 +19,16 @@ public class NbtToSnbt1531013882Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "writeSnbt(Lnet/minecraft/data/CachedOutput;Ljava/nio/file/Path;Ljava/lang/String;)V", cancellable = true)
-    private static void writeSnbt__783232291(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-783232291L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "convertStructure(Lnet/minecraft/data/CachedOutput;Ljava/nio/file/Path;Ljava/lang/String;Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)
     private static void convertStructure__313223227(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-313223227L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "writeSnbt(Lnet/minecraft/data/CachedOutput;Ljava/nio/file/Path;Ljava/lang/String;)V", cancellable = true)
+    private static void writeSnbt__783232291(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-783232291L))
+            info.cancel();
     }
 
 

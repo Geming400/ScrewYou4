@@ -37,16 +37,16 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.CommandBlockEntity.Mode.REDSTONE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_1278830582(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278830582L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
     private void isTrackOutput_1255405096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1255405096L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_1278830582(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278830582L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)

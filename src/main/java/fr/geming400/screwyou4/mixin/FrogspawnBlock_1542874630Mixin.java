@@ -13,15 +13,15 @@ public class FrogspawnBlock_1542874630Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDefaultHatchDelay()V", cancellable = true)
-    private static void setDefaultHatchDelay_1062250734(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1062250734L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setHatchDelay(II)V", cancellable = true)
     private static void setHatchDelay__1579514357(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1579514357L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDefaultHatchDelay()V", cancellable = true)
+    private static void setDefaultHatchDelay_1062250734(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1062250734L))
             info.cancel();
     }
 

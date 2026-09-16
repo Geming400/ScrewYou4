@@ -13,16 +13,16 @@ public class CappedProcessor_1678579737Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeProcessing(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Ljava/util/List;Ljava/util/List;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Ljava/util/List;", cancellable = true)
-    private void finalizeProcessing_1514454021(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1514454021L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "evaluatesEntirePieceState()Z", cancellable = true)
     private void evaluatesEntirePieceState__1952433471(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1952433471L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeProcessing(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Ljava/util/List;Ljava/util/List;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Ljava/util/List;", cancellable = true)
+    private void finalizeProcessing_1514454021(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1514454021L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class ClientInfo135572295Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_692924386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(692924386L))
-            info.setReturnValue(200755305);
+            info.setReturnValue(-98525095);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Integer;)Lnet/minecraft/server/jsonrpc/methods/ClientInfo;", cancellable = true)

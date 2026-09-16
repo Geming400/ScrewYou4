@@ -10,7 +10,7 @@ public class Count239398161Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__1249399079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1249399079L))
-            info.setReturnValue(2.294854E8F);
+            info.setReturnValue(6.433152E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class Count239398161Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_796750252(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(796750252L))
-            info.setReturnValue(1372887193);
+            info.setReturnValue(1786716993);
     }
 
     @Inject(at = @At("HEAD"), method = "normalize()Z", cancellable = true)

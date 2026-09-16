@@ -10,7 +10,7 @@ public class Constant_371753928Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__1932919911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1932919911L))
-            info.setReturnValue(5.662327E8F);
+            info.setReturnValue(3.485767E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Constant_371753928Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_929106018(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(929106018L))
-            info.setReturnValue(2108519327);
+            info.setReturnValue(1890863327);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,7 +40,7 @@ public class Constant_371753928Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate__2035446327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035446327L))
-            info.setReturnValue(5.662327E8F);
+            info.setReturnValue(3.485767E8F);
     }
 
 

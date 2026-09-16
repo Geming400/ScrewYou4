@@ -31,16 +31,22 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.setReturnValue("?/");
     }
 
-    @Inject(at = @At("HEAD"), method = "getCompileQueueSize()I", cancellable = true)
-    private void getCompileQueueSize__1774429787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1774429787L))
-            info.setReturnValue(-651103521);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFreeBufferCount()I", cancellable = true)
     private void getFreeBufferCount_832697197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(832697197L))
-            info.setReturnValue(1280813567);
+            info.setReturnValue(1610057067);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompileQueueSize()I", cancellable = true)
+    private void getCompileQueueSize__1774429787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1774429787L))
+            info.setReturnValue(-321860021);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uploadTerrainBuffersToGpu()V", cancellable = true)
+    private void uploadTerrainBuffersToGpu__112766987(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-112766987L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setCameraPosition(Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -49,10 +55,10 @@ public class SectionRenderDispatcher1989098964Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "uploadTerrainBuffersToGpu()V", cancellable = true)
-    private void uploadTerrainBuffersToGpu__112766987(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-112766987L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
+    private void getRenderSectionSlice_817151135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(817151135L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "clearCompileQueue()V", cancellable = true)
@@ -65,12 +71,6 @@ public class SectionRenderDispatcher1989098964Mixin {
     private void setCompiler__1459724839(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1459724839L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRenderSectionSlice(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;", cancellable = true)
-    private void getRenderSectionSlice_817151135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(817151135L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isQueueEmpty()Z", cancellable = true)

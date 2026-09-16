@@ -19,6 +19,18 @@ public class BannerRenderer905440913Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BannerRenderState;", cancellable = true)
+    private void createRenderState__1057139104(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1057139104L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1288203738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1288203738L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "submitSpecial(Lnet/minecraft/world/level/block/BannerBlock$AttachmentType;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;IILnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/level/block/entity/BannerPatternLayers;I)V", cancellable = true)
     private void submitSpecial__1296684803(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1296684803L))
@@ -41,18 +53,6 @@ public class BannerRenderer905440913Mixin {
     private void extractRenderState_1669513893(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1669513893L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BannerRenderState;", cancellable = true)
-    private void createRenderState__1057139104(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1057139104L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1288203738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1288203738L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)

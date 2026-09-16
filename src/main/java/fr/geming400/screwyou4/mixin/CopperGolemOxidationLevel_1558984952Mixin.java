@@ -22,18 +22,18 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116337042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116337042L))
-            info.setReturnValue(281607482);
-    }
-
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void deathSound_1292447486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1292447486L))
-            info.setReturnValue(null);
+            info.setReturnValue(-674707718);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void hurtSound__478120231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-478120231L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void deathSound_1292447486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1292447486L))
             info.setReturnValue(null);
     }
 

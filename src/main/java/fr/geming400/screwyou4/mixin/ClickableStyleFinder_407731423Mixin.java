@@ -19,16 +19,10 @@ public class ClickableStyleFinder_407731423Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultParameters(Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
-    private void defaultParameters__1548108101(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1548108101L))
+    @Inject(at = @At("HEAD"), method = "acceptScrolling(Lnet/minecraft/network/chat/Component;IIIIILnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
+    private void acceptScrolling_1462552510(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1462552510L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultParameters()Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
-    private void defaultParameters_596540671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(596540671L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "includeInsertions(Z)Lnet/minecraft/client/gui/ActiveTextCollector$ClickableStyleFinder;", cancellable = true)
@@ -37,9 +31,15 @@ public class ClickableStyleFinder_407731423Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "acceptScrolling(Lnet/minecraft/network/chat/Component;IIIIILnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
-    private void acceptScrolling_1462552510(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1462552510L))
+    @Inject(at = @At("HEAD"), method = "defaultParameters()Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
+    private void defaultParameters_596540671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(596540671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultParameters(Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;)V", cancellable = true)
+    private void defaultParameters__1548108101(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1548108101L))
             info.cancel();
     }
 

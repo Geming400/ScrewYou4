@@ -13,16 +13,16 @@ public class KeyframeAnimations1744341189Mixin {
             info.setReturnValue(new org.joml.Vector3f());
     }
 
-    @Inject(at = @At("HEAD"), method = "scaleVec(DDD)Lorg/joml/Vector3f;", cancellable = true)
-    private static void scaleVec__1701554839(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1701554839L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "posVec(FFF)Lorg/joml/Vector3f;", cancellable = true)
     private static void posVec_1386736353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1386736353L))
             info.setReturnValue(new org.joml.Vector3f());
+    }
+
+    @Inject(at = @At("HEAD"), method = "scaleVec(DDD)Lorg/joml/Vector3f;", cancellable = true)
+    private static void scaleVec__1701554839(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1701554839L))
+            info.setReturnValue(null);
     }
 
 

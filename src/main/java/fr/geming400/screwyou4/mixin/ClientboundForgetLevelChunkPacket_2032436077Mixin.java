@@ -28,7 +28,7 @@ public class ClientboundForgetLevelChunkPacket_2032436077Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1705179129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1705179129L))
-            info.setReturnValue(704274341);
+            info.setReturnValue(1141246241);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)

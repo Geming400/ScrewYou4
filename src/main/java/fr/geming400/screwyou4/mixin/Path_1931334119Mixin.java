@@ -22,7 +22,7 @@ public class Path_1931334119Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1806281087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806281087L))
-            info.setReturnValue(1170818697);
+            info.setReturnValue(1376606597);
     }
 
     @Inject(at = @At("HEAD"), method = "component()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
@@ -37,15 +37,15 @@ public class Path_1931334119Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
-    private void leafComponent__1417610473(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1417610473L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "childPath()Lnet/minecraft/client/gui/ComponentPath;", cancellable = true)
     private void childPath_214870679(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(214870679L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;", cancellable = true)
+    private void leafComponent__1417610473(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1417610473L))
             info.setReturnValue(null);
     }
 

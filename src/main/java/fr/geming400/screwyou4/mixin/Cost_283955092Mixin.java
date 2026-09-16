@@ -10,7 +10,7 @@ public class Cost_283955092Mixin {
         @Inject(at = @At("HEAD"), method = "base()I", cancellable = true)
     private void base__1585497784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1585497784L))
-            info.setReturnValue(1230656733);
+            info.setReturnValue(1180348333);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,19 +28,19 @@ public class Cost_283955092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_841307182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841307182L))
-            info.setReturnValue(211735581);
-    }
-
-    @Inject(at = @At("HEAD"), method = "perLevelAboveFirst()I", cancellable = true)
-    private void perLevelAboveFirst_472725727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(472725727L))
-            info.setReturnValue(1011228423);
+            info.setReturnValue(161427181);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(I)I", cancellable = true)
     private void calculate__2123242280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2123242280L))
-            info.setReturnValue(1403557748);
+            info.setReturnValue(1353249348);
+    }
+
+    @Inject(at = @At("HEAD"), method = "perLevelAboveFirst()I", cancellable = true)
+    private void perLevelAboveFirst_472725727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(472725727L))
+            info.setReturnValue(960920023);
     }
 
 

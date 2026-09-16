@@ -22,13 +22,19 @@ public class RenderSectionBufferSlice912901381Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1470253472(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470253472L))
-            info.setReturnValue(1464576887);
+            info.setReturnValue(1996660787);
     }
 
-    @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)
-    private void vertexBuffer_650159474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(650159474L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
+    private void indexBufferOffset_1932369639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1932369639L))
+            info.setReturnValue(7789988087755981761L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
+    private void vertexBufferOffset_947164245(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(947164245L))
+            info.setReturnValue(5935182623007830766L);
     }
 
     @Inject(at = @At("HEAD"), method = "indexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)
@@ -37,16 +43,10 @@ public class RenderSectionBufferSlice912901381Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "indexBufferOffset()J", cancellable = true)
-    private void indexBufferOffset_1932369639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1932369639L))
-            info.setReturnValue(7789988087223897861L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vertexBufferOffset()J", cancellable = true)
-    private void vertexBufferOffset_947164245(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(947164245L))
-            info.setReturnValue(5935182622475746866L);
+    @Inject(at = @At("HEAD"), method = "vertexBuffer()Lcom/mojang/blaze3d/buffers/GpuBuffer;", cancellable = true)
+    private void vertexBuffer_650159474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(650159474L))
+            info.setReturnValue(null);
     }
 
 

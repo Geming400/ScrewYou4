@@ -34,7 +34,7 @@ public class ConstantHeight1013586551Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample__1599996450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1599996450L))
-            info.setReturnValue(-23090149);
+            info.setReturnValue(479029351);
     }
 
 

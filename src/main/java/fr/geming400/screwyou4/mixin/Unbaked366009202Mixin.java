@@ -28,7 +28,7 @@ public class Unbaked366009202Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_923361293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(923361293L))
-            info.setReturnValue(-1109421072);
+            info.setReturnValue(-1213046872);
     }
 
     @Inject(at = @At("HEAD"), method = "fallback()Ljava/util/Optional;", cancellable = true)

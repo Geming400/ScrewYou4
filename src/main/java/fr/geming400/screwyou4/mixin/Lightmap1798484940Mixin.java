@@ -22,7 +22,7 @@ public class Lightmap1798484940Mixin {
     @Inject(at = @At("HEAD"), method = "getBrightness(Lnet/minecraft/world/level/dimension/DimensionType;I)F", cancellable = true)
     private static void getBrightness__1602962307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1602962307L))
-            info.setReturnValue(2.912249E8F);
+            info.setReturnValue(877500.6F);
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)

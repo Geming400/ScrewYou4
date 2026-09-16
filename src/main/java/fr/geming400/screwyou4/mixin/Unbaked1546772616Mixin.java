@@ -28,13 +28,19 @@ public class Unbaked1546772616Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2104124707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2104124707L))
-            info.setReturnValue(233735685);
+            info.setReturnValue(722521785);
     }
 
     @Inject(at = @At("HEAD"), method = "attachment()Lnet/minecraft/world/level/block/BannerBlock$AttachmentType;", cancellable = true)
     private void attachment_1809712891(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1809712891L))
             info.setReturnValue(net.minecraft.world.level.block.BannerBlock.AttachmentType.GROUND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void baseColor__176968196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-176968196L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.CYAN);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -47,12 +53,6 @@ public class Unbaked1546772616Mixin {
     private void bake__311930806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-311930806L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void baseColor__176968196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-176968196L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.CYAN);
     }
 
 

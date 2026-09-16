@@ -22,7 +22,7 @@ public class TriggerInstance130997348Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_688349439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(688349439L))
-            info.setReturnValue(-725447893);
+            info.setReturnValue(-211127593);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(I)Z", cancellable = true)
@@ -37,12 +37,6 @@ public class TriggerInstance130997348Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player__1099655693(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1099655693L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "constructedBeacon(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void constructedBeacon_90368326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(90368326L))
@@ -52,6 +46,12 @@ public class TriggerInstance130997348Mixin {
     @Inject(at = @At("HEAD"), method = "constructedBeacon()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void constructedBeacon_2017440497(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017440497L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player__1099655693(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1099655693L))
             info.setReturnValue(null);
     }
 

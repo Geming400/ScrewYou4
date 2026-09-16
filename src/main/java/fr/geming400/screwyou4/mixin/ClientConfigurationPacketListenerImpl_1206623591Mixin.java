@@ -13,33 +13,15 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
+    private void isAcceptingMessages_1258249057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1258249057L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "handleConfigurationFinished(Lnet/minecraft/network/protocol/configuration/ClientboundFinishConfigurationPacket;)V", cancellable = true)
     private void handleConfigurationFinished_317777149(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(317777149L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleRegistryData(Lnet/minecraft/network/protocol/configuration/ClientboundRegistryDataPacket;)V", cancellable = true)
-    private void handleRegistryData__1296372750(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1296372750L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleResetChat(Lnet/minecraft/network/protocol/configuration/ClientboundResetChatPacket;)V", cancellable = true)
-    private void handleResetChat__1824936232(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1824936232L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleSelectKnownPacks(Lnet/minecraft/network/protocol/configuration/ClientboundSelectKnownPacks;)V", cancellable = true)
-    private void handleSelectKnownPacks__1897081726(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1897081726L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEnabledFeatures(Lnet/minecraft/network/protocol/configuration/ClientboundUpdateEnabledFeaturesPacket;)V", cancellable = true)
-    private void handleEnabledFeatures_335621345(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(335621345L))
             info.cancel();
     }
 
@@ -55,16 +37,34 @@ public class ClientConfigurationPacketListenerImpl_1206623591Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "handleResetChat(Lnet/minecraft/network/protocol/configuration/ClientboundResetChatPacket;)V", cancellable = true)
+    private void handleResetChat__1824936232(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1824936232L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEnabledFeatures(Lnet/minecraft/network/protocol/configuration/ClientboundUpdateEnabledFeaturesPacket;)V", cancellable = true)
+    private void handleEnabledFeatures_335621345(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(335621345L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleSelectKnownPacks(Lnet/minecraft/network/protocol/configuration/ClientboundSelectKnownPacks;)V", cancellable = true)
+    private void handleSelectKnownPacks__1897081726(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1897081726L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "handleCodeOfConduct(Lnet/minecraft/network/protocol/configuration/ClientboundCodeOfConductPacket;)V", cancellable = true)
     private void handleCodeOfConduct_2126674808(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2126674808L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
-    private void isAcceptingMessages_1258249057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1258249057L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "handleRegistryData(Lnet/minecraft/network/protocol/configuration/ClientboundRegistryDataPacket;)V", cancellable = true)
+    private void handleRegistryData__1296372750(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1296372750L))
+            info.cancel();
     }
 
 

@@ -25,16 +25,16 @@ public class AmphibiousNodeEvaluator_1297129922Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
-    private void getNeighbors_1524656477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1524656477L))
-            info.setReturnValue(-1905214870);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathType__1822182530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1822182530L))
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.OPEN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
+    private void getNeighbors_1524656477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1524656477L))
+            info.setReturnValue(-2073805270);
     }
 
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)

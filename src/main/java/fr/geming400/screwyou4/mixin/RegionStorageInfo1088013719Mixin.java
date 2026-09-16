@@ -28,7 +28,7 @@ public class RegionStorageInfo1088013719Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1645365810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1645365810L))
-            info.setReturnValue(-1118719972);
+            info.setReturnValue(-1398061172);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Ljava/lang/String;", cancellable = true)

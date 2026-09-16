@@ -19,6 +19,18 @@ public class ChestRenderer1459400438Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1842163263(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1842163263L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;", cancellable = true)
+    private void createRenderState_1347153200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1347153200L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.ChestRenderState());
+    }
+
     @Inject(at = @At("HEAD"), method = "modelTransformation(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
     private static void modelTransformation__672597983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-672597983L))
@@ -41,18 +53,6 @@ public class ChestRenderer1459400438Mixin {
     private void extractRenderState__890356178(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-890356178L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/ChestRenderState;", cancellable = true)
-    private void createRenderState_1347153200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1347153200L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.ChestRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1842163263(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1842163263L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

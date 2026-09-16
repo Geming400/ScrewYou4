@@ -10,18 +10,12 @@ public class SharedConstants_1541575108Mixin {
         @Inject(at = @At("HEAD"), method = "getProtocolVersion()I", cancellable = true)
     private static void getProtocolVersion__609874441(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-609874441L))
-            info.setReturnValue(1262302750);
+            info.setReturnValue(824301050);
     }
 
     @Inject(at = @At("HEAD"), method = "setVersion(Lnet/minecraft/WorldVersion;)V", cancellable = true)
     private static void setVersion__1897421715(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1897421715L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryDetectVersion()V", cancellable = true)
-    private static void tryDetectVersion__1931213068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1931213068L))
             info.cancel();
     }
 
@@ -35,6 +29,12 @@ public class SharedConstants_1541575108Mixin {
     private static void debugVoidTerrain__440719504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-440719504L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryDetectVersion()V", cancellable = true)
+    private static void tryDetectVersion__1931213068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1931213068L))
+            info.cancel();
     }
 
 

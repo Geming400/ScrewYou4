@@ -34,7 +34,7 @@ public class Marker511748476Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1069100567(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1069100567L))
-            info.setReturnValue(1504069579);
+            info.setReturnValue(2033979579);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

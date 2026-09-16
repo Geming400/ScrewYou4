@@ -22,19 +22,19 @@ public class FrameSize_1254077360Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1811429450(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1811429450L))
-            info.setReturnValue(-1275654203);
+            info.setReturnValue(-1520174603);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__386070641(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-386070641L))
-            info.setReturnValue(-1072175298);
+            info.setReturnValue(-1316695698);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height_168728782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(168728782L))
-            info.setReturnValue(-1782656302);
+            info.setReturnValue(-2027176702);
     }
 
 

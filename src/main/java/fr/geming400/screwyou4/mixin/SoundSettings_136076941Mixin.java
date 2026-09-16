@@ -22,7 +22,7 @@ public class SoundSettings_136076941Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_693429031(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(693429031L))
-            info.setReturnValue(1889067530);
+            info.setReturnValue(-1863916166);
     }
 
     @Inject(at = @At("HEAD"), method = "pushSound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -34,13 +34,13 @@ public class SoundSettings_136076941Mixin {
     @Inject(at = @At("HEAD"), method = "pushSoundCooldown()F", cancellable = true)
     private void pushSoundCooldown__1915716465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1915716465L))
-            info.setReturnValue(8.08734E7F);
+            info.setReturnValue(6.22857E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "pushSoundImpulseThreshold()F", cancellable = true)
     private void pushSoundImpulseThreshold_939181284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(939181284L))
-            info.setReturnValue(8.08734E7F);
+            info.setReturnValue(6.22857E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "hitSound()Lnet/minecraft/core/Holder;", cancellable = true)

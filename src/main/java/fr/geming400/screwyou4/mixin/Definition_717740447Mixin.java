@@ -28,7 +28,7 @@ public class Definition_717740447Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1275092537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1275092537L))
-            info.setReturnValue(1502223805);
+            info.setReturnValue(-2032837591);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -37,10 +37,16 @@ public class Definition_717740447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
-    private void codepointGrid__784543077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-784543077L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__367608131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-367608131L))
+            info.setReturnValue(-1547824010);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
+    private void ascent_669154026(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(669154026L))
+            info.setReturnValue(-488315743);
     }
 
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
@@ -49,16 +55,10 @@ public class Definition_717740447Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__367608131(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-367608131L))
-            info.setReturnValue(1987237386);
-    }
-
-    @Inject(at = @At("HEAD"), method = "ascent()I", cancellable = true)
-    private void ascent_669154026(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(669154026L))
-            info.setReturnValue(-1248221643);
+    @Inject(at = @At("HEAD"), method = "codepointGrid()[[I", cancellable = true)
+    private void codepointGrid__784543077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-784543077L))
+            info.setReturnValue(null);
     }
 
 

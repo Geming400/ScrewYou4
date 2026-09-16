@@ -28,7 +28,7 @@ public class TypedEntityData1633837145Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2103778556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2103778556L))
-            info.setReturnValue(-1273677380);
+            info.setReturnValue(-1072268580);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
@@ -49,6 +49,12 @@ public class TypedEntityData1633837145Mixin {
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
+    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void copyTagWithoutId__1833691469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1833691469L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_1985485958(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1985485958L))
@@ -67,22 +73,16 @@ public class TypedEntityData1633837145Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void loadInto__1344833205(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1344833205L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/core/HolderLookup$Provider;)Z", cancellable = true)
     private void loadInto_950504275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950504275L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "copyTagWithoutId()Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void copyTagWithoutId__1833691469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1833691469L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "loadInto(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void loadInto__1344833205(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1344833205L))
+            info.cancel();
     }
 
 

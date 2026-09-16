@@ -19,18 +19,6 @@ public class LecternRenderer_2143378452Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__206378165(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-206378165L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/LecternBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/LecternRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__25202579(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-25202579L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
     private void createRenderState__1768826020(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1768826020L))
@@ -41,6 +29,18 @@ public class LecternRenderer_2143378452Mixin {
     private void createRenderState__1828121725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1828121725L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.LecternRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/LecternBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/LecternRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__25202579(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-25202579L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__206378165(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-206378165L))
+            info.cancel();
     }
 
 

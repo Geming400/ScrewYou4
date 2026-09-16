@@ -22,12 +22,12 @@ public class TriggerInstance1599532366Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2138082839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2138082839L))
-            info.setReturnValue(1171603300);
+            info.setReturnValue(2100464200);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_368879325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(368879325L))
+    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
+    private void ingredients__216486080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-216486080L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class TriggerInstance1599532366Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
-    private void ingredients__216486080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-216486080L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_368879325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(368879325L))
             info.setReturnValue(null);
     }
 

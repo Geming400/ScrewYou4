@@ -10,7 +10,7 @@ public class EndCrystalRenderer1132554226Mixin {
         @Inject(at = @At("HEAD"), method = "getY(F)F", cancellable = true)
     private static void getY__900658426(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900658426L))
-            info.setReturnValue(6054400.0F);
+            info.setReturnValue(628000.1F);
     }
 
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
@@ -22,18 +22,6 @@ public class EndCrystalRenderer1132554226Mixin {
     @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
     private void submit_55061406(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(55061406L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_570332419(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(570332419L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;F)V", cancellable = true)
-    private void extractRenderState__479170369(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-479170369L))
             info.cancel();
     }
 
@@ -49,16 +37,28 @@ public class EndCrystalRenderer1132554226Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;", cancellable = true)
+    private void createRenderState__1191877555(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1191877555L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EndCrystalRenderState());
+    }
+
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_1385725205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1385725205L))
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;", cancellable = true)
-    private void createRenderState__1191877555(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1191877555L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EndCrystalRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/client/renderer/entity/state/EndCrystalRenderState;F)V", cancellable = true)
+    private void extractRenderState__479170369(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-479170369L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_570332419(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(570332419L))
+            info.cancel();
     }
 
 

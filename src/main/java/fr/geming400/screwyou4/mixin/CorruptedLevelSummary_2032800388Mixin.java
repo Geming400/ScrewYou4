@@ -10,7 +10,7 @@ public class CorruptedLevelSummary_2032800388Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo_140696453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(140696453L))
-            info.setReturnValue(-1609924806);
+            info.setReturnValue(-1465342906);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -23,6 +23,18 @@ public class CorruptedLevelSummary_2032800388Mixin {
     private void getLevelName_381131461(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(381131461L))
             info.setReturnValue("\u60EFm%b2.\u27BFH0:I:zTVs\uD3B3Op|:\u5D9E\u7C86j^TYl3lY\u8A68X \"pOI\u08CBok_JmwEl|$:m\uC555S$+/\u53AC\u29B6B/GtRwDq 1p/UnaA^\u0862>H>ze");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
+    private void isDisabled__520588748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-520588748L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
+    private void getLastPlayed__434984309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-434984309L))
+            info.setReturnValue(6799051584326774260L);
     }
 
     @Inject(at = @At("HEAD"), method = "primaryActionMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -43,12 +55,6 @@ public class CorruptedLevelSummary_2032800388Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
-    private void getLastPlayed__434984309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-434984309L))
-            info.setReturnValue(6799051584182192360L);
-    }
-
     @Inject(at = @At("HEAD"), method = "canEdit()Z", cancellable = true)
     private void canEdit__635217280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-635217280L))
@@ -59,12 +65,6 @@ public class CorruptedLevelSummary_2032800388Mixin {
     private void canUpload_530897129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(530897129L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
-    private void isDisabled__520588748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-520588748L))
-            info.setReturnValue(true);
     }
 
 

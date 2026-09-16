@@ -43,22 +43,22 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
-    private void getJoint_2114076257(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2114076257L))
-            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_711226627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(711226627L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getPlacementPriority()I", cancellable = true)
     private void getPlacementPriority_655767987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(655767987L))
-            info.setReturnValue(-326330394);
+            info.setReturnValue(-764604094);
     }
 
     @Inject(at = @At("HEAD"), method = "getSelectionPriority()I", cancellable = true)
     private void getSelectionPriority_842211948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(842211948L))
-            info.setReturnValue(-1102556521);
+            info.setReturnValue(-1540830221);
     }
 
     @Inject(at = @At("HEAD"), method = "getFinalState()Ljava/lang/String;", cancellable = true)
@@ -67,10 +67,10 @@ public class ServerboundSetJigsawBlockPacket_221660897Mixin {
             info.setReturnValue("{R:vc1O9c$+]X\u37C5{H)ydY");
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_711226627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(711226627L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getJoint()Lnet/minecraft/world/level/block/entity/JigsawBlockEntity$JointType;", cancellable = true)
+    private void getJoint_2114076257(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2114076257L))
+            info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ALIGNED);
     }
 
 

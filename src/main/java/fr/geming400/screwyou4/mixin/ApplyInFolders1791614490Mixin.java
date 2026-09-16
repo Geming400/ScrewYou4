@@ -22,7 +22,7 @@ public class ApplyInFolders1791614490Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1946000715(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1946000715L))
-            info.setReturnValue(-515243280);
+            info.setReturnValue(-694632780);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

@@ -13,16 +13,10 @@ public class EyeOfEnder_1340650078Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
-    private void shouldRenderAtSqrDistance__2000075179(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2000075179L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
-    private void isAttackable__2113499352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2113499352L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_846484746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(846484746L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
@@ -31,10 +25,16 @@ public class EyeOfEnder_1340650078Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue__881234207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-881234207L))
-            info.setReturnValue(3.310355E8F);
+    @Inject(at = @At("HEAD"), method = "isAttackable()Z", cancellable = true)
+    private void isAttackable__2113499352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113499352L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
+    private void shouldRenderAtSqrDistance__2000075179(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2000075179L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setItem(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -49,10 +49,10 @@ public class EyeOfEnder_1340650078Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_846484746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(846484746L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue__881234207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-881234207L))
+            info.setReturnValue(9.929217E8F);
     }
 
 

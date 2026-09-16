@@ -22,7 +22,7 @@ public class SimpleModelWrapper_1926752036Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1810863170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1810863170L))
-            info.setReturnValue(-706679001);
+            info.setReturnValue(-420046601);
     }
 
     @Inject(at = @At("HEAD"), method = "findNonBlockSprites(Lnet/minecraft/client/resources/model/geometry/QuadCollection;)Lcom/google/common/collect/Multimap;", cancellable = true)
@@ -31,28 +31,16 @@ public class SimpleModelWrapper_1926752036Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
-    private void materialFlags_1186269033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1186269033L))
-            info.setReturnValue(-497752114);
-    }
-
     @Inject(at = @At("HEAD"), method = "useAmbientOcclusion()Z", cancellable = true)
     private void useAmbientOcclusion__280334114(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-280334114L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "particleMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
-    private void particleMaterial_453981350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(453981350L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/block/dispatch/ModelState;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
-    private static void bake_1659604056(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659604056L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "materialFlags()I", cancellable = true)
+    private void materialFlags_1186269033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1186269033L))
+            info.setReturnValue(-210118814);
     }
 
     @Inject(at = @At("HEAD"), method = "quads()Lnet/minecraft/client/resources/model/geometry/QuadCollection;", cancellable = true)
@@ -64,6 +52,18 @@ public class SimpleModelWrapper_1926752036Mixin {
     @Inject(at = @At("HEAD"), method = "getQuads(Lnet/minecraft/core/Direction;)Ljava/util/List;", cancellable = true)
     private void getQuads__218372451(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-218372451L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "particleMaterial()Lnet/minecraft/client/resources/model/sprite/Material$Baked;", cancellable = true)
+    private void particleMaterial_453981350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(453981350L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ModelBaker;Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/block/dispatch/ModelState;)Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
+    private static void bake_1659604056(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1659604056L))
             info.setReturnValue(null);
     }
 

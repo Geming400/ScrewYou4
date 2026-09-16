@@ -22,7 +22,7 @@ public class Polygon_553445028Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1110797118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1110797118L))
-            info.setReturnValue(683011529);
+            info.setReturnValue(1152673829);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lorg/joml/Vector3fc;", cancellable = true)

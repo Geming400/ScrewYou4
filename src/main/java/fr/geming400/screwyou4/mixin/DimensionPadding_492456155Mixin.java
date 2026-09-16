@@ -10,7 +10,7 @@ public class DimensionPadding_492456155Mixin {
         @Inject(at = @At("HEAD"), method = "bottom()I", cancellable = true)
     private void bottom__169531531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-169531531L))
-            info.setReturnValue(-1140316594);
+            info.setReturnValue(-1332619394);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class DimensionPadding_492456155Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1049808245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1049808245L))
-            info.setReturnValue(-1823950821);
+            info.setReturnValue(-2016253621);
     }
 
     @Inject(at = @At("HEAD"), method = "top()I", cancellable = true)
     private void top__526587253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-526587253L))
-            info.setReturnValue(-527509792);
+            info.setReturnValue(-719812592);
     }
 
     @Inject(at = @At("HEAD"), method = "hasEqualTopAndBottom()Z", cancellable = true)

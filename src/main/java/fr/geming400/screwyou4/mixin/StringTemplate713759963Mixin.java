@@ -22,7 +22,7 @@ public class StringTemplate713759963Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1271112054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1271112054L))
-            info.setReturnValue(402400467);
+            info.setReturnValue(-212432633);
     }
 
     @Inject(at = @At("HEAD"), method = "segments()Ljava/util/List;", cancellable = true)
@@ -37,6 +37,12 @@ public class StringTemplate713759963Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "substitute(Ljava/util/List;)Ljava/lang/String;", cancellable = true)
+    private void substitute_1171802861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1171802861L))
+            info.setReturnValue(")(C2e>&YCv\u57330.O\u59DB@J\u9514v@<iF\u8FD6_\uC3E58R\uD1D4@gh'|MT}koDj=%`\uFF6A\uFE2790qizJ\uC038km:0IxIq\uBB94\u3D29\uC7E3UczIpxXe`L");
+    }
+
     @Inject(at = @At("HEAD"), method = "variables()Ljava/util/List;", cancellable = true)
     private void variables__1257625854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1257625854L))
@@ -47,12 +53,6 @@ public class StringTemplate713759963Mixin {
     private static void isValidVariableName__1310153157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1310153157L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "substitute(Ljava/util/List;)Ljava/lang/String;", cancellable = true)
-    private void substitute_1171802861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1171802861L))
-            info.setReturnValue(")(C2e>&YCv\u57330.O\u59DB@J\u9514v@<iF\u8FD6_\uC3E58R\uD1D4@gh'|MT}koDj=%`\uFF6A\uFE2790qizJ\uC038km:0IxIq\uBB94\u3D29\uC7E3UczIpxXe`L");
     }
 
 

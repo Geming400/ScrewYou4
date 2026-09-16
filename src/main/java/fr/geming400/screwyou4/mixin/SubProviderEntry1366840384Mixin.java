@@ -22,7 +22,7 @@ public class SubProviderEntry1366840384Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1924192475(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924192475L))
-            info.setReturnValue(1647330566);
+            info.setReturnValue(1688862466);
     }
 
     @Inject(at = @At("HEAD"), method = "provider()Ljava/util/function/Function;", cancellable = true)

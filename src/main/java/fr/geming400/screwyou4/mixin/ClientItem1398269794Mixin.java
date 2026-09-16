@@ -22,7 +22,7 @@ public class ClientItem1398269794Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1955621885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955621885L))
-            info.setReturnValue(802198439);
+            info.setReturnValue(1170091039);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/renderer/item/ClientItem$Properties;", cancellable = true)
@@ -37,15 +37,15 @@ public class ClientItem1398269794Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withRegistrySwapper(Lnet/minecraft/util/RegistryContextSwapper;)Lnet/minecraft/client/renderer/item/ClientItem;", cancellable = true)
-    private void withRegistrySwapper__821325227(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-821325227L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "registrySwapper()Lnet/minecraft/util/RegistryContextSwapper;", cancellable = true)
     private void registrySwapper__1618257080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1618257080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withRegistrySwapper(Lnet/minecraft/util/RegistryContextSwapper;)Lnet/minecraft/client/renderer/item/ClientItem;", cancellable = true)
+    private void withRegistrySwapper__821325227(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-821325227L))
             info.setReturnValue(null);
     }
 

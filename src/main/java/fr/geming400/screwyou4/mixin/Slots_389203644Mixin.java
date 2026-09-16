@@ -22,7 +22,7 @@ public class Slots_389203644Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_946555734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(946555734L))
-            info.setReturnValue(68214943);
+            info.setReturnValue(66917743);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(III)Z", cancellable = true)

@@ -19,10 +19,22 @@ public class ShelfBlockEntity_627880708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
-    private void getVisualRotationYInDegrees_1233442569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233442569L))
-            info.setReturnValue(3.892196E8F);
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket_94486318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(94486318L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__1494893162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1494893162L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1406030463(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1406030463L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "swapItemNoUpdate(ILnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -49,27 +61,9 @@ public class ShelfBlockEntity_627880708Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1406030463(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1406030463L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getItems()Lnet/minecraft/core/NonNullList;", cancellable = true)
     private void getItems_1051214405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1051214405L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket_94486318(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(94486318L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__1494893162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1494893162L))
             info.setReturnValue(null);
     }
 
@@ -83,6 +77,12 @@ public class ShelfBlockEntity_627880708Mixin {
     private void removeComponentsFromTag_515052449(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(515052449L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
+    private void getVisualRotationYInDegrees_1233442569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233442569L))
+            info.setReturnValue(4.253477E8F);
     }
 
 

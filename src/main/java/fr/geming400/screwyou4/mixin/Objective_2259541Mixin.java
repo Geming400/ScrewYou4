@@ -37,12 +37,6 @@ public class Objective_2259541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setRenderType(Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)V", cancellable = true)
-    private void setRenderType__208937963(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-208937963L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "numberFormatOrDefault(Lnet/minecraft/network/chat/numbers/NumberFormat;)Lnet/minecraft/network/chat/numbers/NumberFormat;", cancellable = true)
     private void numberFormatOrDefault__1670969921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1670969921L))
@@ -55,16 +49,10 @@ public class Objective_2259541Mixin {
             info.setReturnValue(new net.minecraft.world.scores.Scoreboard());
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
-    private void getRenderType__1727178247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1727178247L))
-            info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.HEARTS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
-    private void displayAutoUpdate__1916803439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1916803439L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "setDisplayAutoUpdate(Z)V", cancellable = true)
+    private void setDisplayAutoUpdate_250787977(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(250787977L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getCriteria()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria;", cancellable = true)
@@ -73,10 +61,16 @@ public class Objective_2259541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setDisplayAutoUpdate(Z)V", cancellable = true)
-    private void setDisplayAutoUpdate_250787977(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(250787977L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "displayAutoUpdate()Z", cancellable = true)
+    private void displayAutoUpdate__1916803439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1916803439L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderType()Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;", cancellable = true)
+    private void getRenderType__1727178247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1727178247L))
+            info.setReturnValue(net.minecraft.world.scores.criteria.ObjectiveCriteria.RenderType.HEARTS);
     }
 
     @Inject(at = @At("HEAD"), method = "setDisplayName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
@@ -89,6 +83,12 @@ public class Objective_2259541Mixin {
     private void getFormattedDisplayName__805970258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-805970258L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRenderType(Lnet/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType;)V", cancellable = true)
+    private void setRenderType__208937963(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-208937963L))
+            info.cancel();
     }
 
 

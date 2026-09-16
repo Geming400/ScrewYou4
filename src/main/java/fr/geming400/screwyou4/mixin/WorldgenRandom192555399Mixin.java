@@ -10,13 +10,13 @@ public class WorldgenRandom192555399Mixin {
         @Inject(at = @At("HEAD"), method = "next(I)I", cancellable = true)
     private void next_1950558361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1950558361L))
-            info.setReturnValue(267435798);
+            info.setReturnValue(38218498);
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private void getCount__1193363532(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1193363532L))
-            info.setReturnValue(-2081941411);
+            info.setReturnValue(1983808585);
     }
 
     @Inject(at = @At("HEAD"), method = "fork()Lnet/minecraft/util/RandomSource;", cancellable = true)
@@ -37,22 +37,22 @@ public class WorldgenRandom192555399Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFeatureSeed(JII)V", cancellable = true)
-    private void setFeatureSeed_1182898329(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1182898329L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "seedSlimeChunk(IIJJ)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private static void seedSlimeChunk__1737085802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1737085802L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setDecorationSeed(JII)J", cancellable = true)
     private void setDecorationSeed_292116747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(292116747L))
-            info.setReturnValue(4841488276418683479L);
+            info.setReturnValue(4841488276188467979L);
     }
 
-    @Inject(at = @At("HEAD"), method = "seedSlimeChunk(IIJJ)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private static void seedSlimeChunk__1737085802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1737085802L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setFeatureSeed(JII)V", cancellable = true)
+    private void setFeatureSeed_1182898329(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1182898329L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setLargeFeatureWithSalt(JIII)V", cancellable = true)

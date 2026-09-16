@@ -22,13 +22,13 @@ public class PngInfo_342888935Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_900241025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900241025L))
-            info.setReturnValue(-463938424);
+            info.setReturnValue(-478365124);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1297259066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1297259066L))
-            info.setReturnValue(1218515252);
+            info.setReturnValue(1204088552);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStream(Ljava/io/InputStream;)Lnet/minecraft/util/PngInfo;", cancellable = true)
@@ -40,7 +40,7 @@ public class PngInfo_342888935Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height__742459643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-742459643L))
-            info.setReturnValue(-1911876396);
+            info.setReturnValue(-1926303096);
     }
 
     @Inject(at = @At("HEAD"), method = "fromBytes([B)Lnet/minecraft/util/PngInfo;", cancellable = true)

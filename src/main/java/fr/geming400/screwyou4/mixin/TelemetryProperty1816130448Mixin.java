@@ -22,7 +22,7 @@ public class TelemetryProperty1816130448Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1921484757(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1921484757L))
-            info.setReturnValue(54127582);
+            info.setReturnValue(129811282);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)
@@ -67,27 +67,9 @@ public class TelemetryProperty1816130448Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gameLoadMeasurement(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
-    private static void gameLoadMeasurement__759463298(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-759463298L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "longSamples(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
-    private static void longSamples_1959047815(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1959047815L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "uuid(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
     private static void uuid_1498768085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1498768085L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private void title_990245315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(990245315L))
             info.setReturnValue(null);
     }
 
@@ -107,6 +89,24 @@ public class TelemetryProperty1816130448Mixin {
     private void exportKey__877113628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-877113628L))
             info.setReturnValue("N");
+    }
+
+    @Inject(at = @At("HEAD"), method = "longSamples(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
+    private static void longSamples_1959047815(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1959047815L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gameLoadMeasurement(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/telemetry/TelemetryProperty;", cancellable = true)
+    private static void gameLoadMeasurement__759463298(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759463298L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private void title_990245315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(990245315L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class HiddenByteBuf_910724893Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1468076983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1468076983L))
-            info.setReturnValue(-140428525);
+            info.setReturnValue(-212187225);
     }
 
     @Inject(at = @At("HEAD"), method = "release(I)Z", cancellable = true)
@@ -79,15 +79,21 @@ public class HiddenByteBuf_910724893Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
-    private void retain_98922293(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(98922293L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
+    private void refCnt__1418447124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1418447124L))
+            info.setReturnValue(556972620);
     }
 
     @Inject(at = @At("HEAD"), method = "retain(I)Lio/netty/util/ReferenceCounted;", cancellable = true)
     private void retain_1307962162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1307962162L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "retain()Lio/netty/util/ReferenceCounted;", cancellable = true)
+    private void retain_98922293(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(98922293L))
             info.setReturnValue(null);
     }
 
@@ -101,12 +107,6 @@ public class HiddenByteBuf_910724893Mixin {
     private void retain_1482468271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1482468271L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "refCnt()I", cancellable = true)
-    private void refCnt__1418447124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1418447124L))
-            info.setReturnValue(628731320);
     }
 
 

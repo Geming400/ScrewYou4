@@ -13,15 +13,15 @@ public class BoatModel_1383804805Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createChestBoatModel()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createChestBoatModel__210561628(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-210561628L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createBoatModel()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createBoatModel__1825433555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1825433555L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createChestBoatModel()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createChestBoatModel__210561628(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-210561628L))
             info.setReturnValue(null);
     }
 

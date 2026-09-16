@@ -22,7 +22,7 @@ public class TriggerInstance_1157723439Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1715075529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1715075529L))
-            info.setReturnValue(844694475);
+            info.setReturnValue(541760175);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -43,15 +43,15 @@ public class TriggerInstance_1157723439Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player__72929603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-72929603L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "slidesDownBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void slidesDownBlock__1486326554(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1486326554L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player__72929603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-72929603L))
             info.setReturnValue(null);
     }
 

@@ -13,12 +13,6 @@ public class XoroshiroPositionalRandomFactory1051090125Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString_1288189217(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1288189217L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "fromHashOf(Ljava/lang/String;)Lnet/minecraft/util/RandomSource;", cancellable = true)
     private void fromHashOf__1778168587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1778168587L))
@@ -29,6 +23,12 @@ public class XoroshiroPositionalRandomFactory1051090125Mixin {
     private void fromSeed_1014420111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014420111L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void parityConfigString_1288189217(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1288189217L))
+            info.cancel();
     }
 
 

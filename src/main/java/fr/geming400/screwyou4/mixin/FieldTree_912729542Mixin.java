@@ -22,13 +22,13 @@ public class FieldTree_912729542Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1470081632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1470081632L))
-            info.setReturnValue(1452807363);
+            info.setReturnValue(961446163);
     }
 
     @Inject(at = @At("HEAD"), method = "depth()I", cancellable = true)
     private void depth_1085108936(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1085108936L))
-            info.setReturnValue(-446103056);
+            info.setReturnValue(-937464256);
     }
 
     @Inject(at = @At("HEAD"), method = "addEntry(Lnet/minecraft/nbt/visitors/FieldSelector;)V", cancellable = true)
@@ -37,15 +37,9 @@ public class FieldTree_912729542Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fieldsToRecurse()Ljava/util/Map;", cancellable = true)
-    private void fieldsToRecurse_74290754(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(74290754L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectedFields()Ljava/util/Map;", cancellable = true)
-    private void selectedFields_133608185(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(133608185L))
+    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
+    private static void createRoot__205175304(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-205175304L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class FieldTree_912729542Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRoot()Lnet/minecraft/nbt/visitors/FieldTree;", cancellable = true)
-    private static void createRoot__205175304(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-205175304L))
+    @Inject(at = @At("HEAD"), method = "selectedFields()Ljava/util/Map;", cancellable = true)
+    private void selectedFields_133608185(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(133608185L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fieldsToRecurse()Ljava/util/Map;", cancellable = true)
+    private void fieldsToRecurse_74290754(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(74290754L))
             info.setReturnValue(null);
     }
 

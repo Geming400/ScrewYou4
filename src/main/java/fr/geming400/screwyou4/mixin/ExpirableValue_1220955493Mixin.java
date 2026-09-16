@@ -28,7 +28,7 @@ public class ExpirableValue_1220955493Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1778307583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1778307583L))
-            info.setReturnValue(-604139118);
+            info.setReturnValue(-474821918);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;", cancellable = true)
@@ -43,15 +43,15 @@ public class ExpirableValue_1220955493Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "timeToLive()Ljava/util/Optional;", cancellable = true)
-    private void timeToLive_125833798(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(125833798L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void codec_1572604305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572604305L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "timeToLive()Ljava/util/Optional;", cancellable = true)
+    private void timeToLive_125833798(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(125833798L))
             info.setReturnValue(null);
     }
 

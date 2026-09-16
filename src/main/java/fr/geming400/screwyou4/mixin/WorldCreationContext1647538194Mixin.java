@@ -22,7 +22,7 @@ public class WorldCreationContext1647538194Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2090077011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2090077011L))
-            info.setReturnValue(-685281733);
+            info.setReturnValue(-1210475033);
     }
 
     @Inject(at = @At("HEAD"), method = "validate()V", cancellable = true)
@@ -43,21 +43,39 @@ public class WorldCreationContext1647538194Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldgenLoadContext()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
-    private void worldgenLoadContext__1232910172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1232910172L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "selectedDimensions()Lnet/minecraft/world/level/levelgen/WorldDimensions;", cancellable = true)
     private void selectedDimensions_438554384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(438554384L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "worldgenLoadContext()Lnet/minecraft/core/RegistryAccess$Frozen;", cancellable = true)
+    private void worldgenLoadContext__1232910172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1232910172L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void dataConfiguration_637952566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(637952566L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "initialWorldCreationOptions()Lnet/minecraft/client/gui/screens/worldselection/InitialWorldCreationOptions;", cancellable = true)
+    private void initialWorldCreationOptions__733526755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-733526755L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDimensions(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext$DimensionsUpdater;)Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext;", cancellable = true)
+    private void withDimensions_1466817468(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1466817468L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withSettings(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext;", cancellable = true)
+    private void withSettings__682267531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-682267531L))
             info.setReturnValue(null);
     }
 
@@ -76,24 +94,6 @@ public class WorldCreationContext1647538194Mixin {
     @Inject(at = @At("HEAD"), method = "dataPackResources()Lnet/minecraft/server/ReloadableServerResources;", cancellable = true)
     private void dataPackResources_1417771787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1417771787L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withSettings(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext;", cancellable = true)
-    private void withSettings__682267531(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-682267531L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDimensions(Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext$DimensionsUpdater;)Lnet/minecraft/client/gui/screens/worldselection/WorldCreationContext;", cancellable = true)
-    private void withDimensions_1466817468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1466817468L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "initialWorldCreationOptions()Lnet/minecraft/client/gui/screens/worldselection/InitialWorldCreationOptions;", cancellable = true)
-    private void initialWorldCreationOptions__733526755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-733526755L))
             info.setReturnValue(null);
     }
 

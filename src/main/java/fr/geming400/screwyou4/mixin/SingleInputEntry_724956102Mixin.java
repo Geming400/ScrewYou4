@@ -22,7 +22,7 @@ public class SingleInputEntry_724956102Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1282308192(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1282308192L))
-            info.setReturnValue(2029770060);
+            info.setReturnValue(2005001960);
     }
 
     @Inject(at = @At("HEAD"), method = "input()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)

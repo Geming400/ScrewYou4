@@ -34,7 +34,7 @@ public class IsSelected_686398517Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1243750607(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1243750607L))
-            info.setReturnValue(1820330592);
+            info.setReturnValue(-2032124304);
     }
 
 

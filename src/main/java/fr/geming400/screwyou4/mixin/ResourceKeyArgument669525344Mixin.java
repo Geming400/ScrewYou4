@@ -25,9 +25,9 @@ public class ResourceKeyArgument669525344Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipe(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/item/crafting/RecipeHolder;", cancellable = true)
-    private static void getRecipe__1267003934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1267003934L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__1900827953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1900827953L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,15 @@ public class ResourceKeyArgument669525344Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__1900827953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1900827953L))
+    @Inject(at = @At("HEAD"), method = "getConfiguredFeature(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getConfiguredFeature_1068061331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1068061331L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipe(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/item/crafting/RecipeHolder;", cancellable = true)
+    private static void getRecipe__1267003934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1267003934L))
             info.setReturnValue(null);
     }
 
@@ -55,21 +61,15 @@ public class ResourceKeyArgument669525344Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStructureTemplatePool(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getStructureTemplatePool_802706052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(802706052L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRegistryKey(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private static void getRegistryKey_57997953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57997953L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getConfiguredFeature(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getConfiguredFeature_1068061331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1068061331L))
+    @Inject(at = @At("HEAD"), method = "getStructureTemplatePool(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getStructureTemplatePool_802706052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(802706052L))
             info.setReturnValue(null);
     }
 

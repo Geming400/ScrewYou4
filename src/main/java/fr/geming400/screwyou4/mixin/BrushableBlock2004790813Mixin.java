@@ -19,10 +19,10 @@ public class BrushableBlock2004790813Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/world/level/ScheduledTickAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void updateShape_1764079550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1764079550L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
+    private void onPlace_1879192639(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1879192639L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class BrushableBlock2004790813Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
-    private void onPlace_1879192639(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1879192639L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/world/level/ScheduledTickAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void updateShape_1764079550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1764079550L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
@@ -49,9 +49,9 @@ public class BrushableBlock2004790813Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBrushSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void getBrushSound__965444812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-965444812L))
+    @Inject(at = @At("HEAD"), method = "getTurnsInto()Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private void getTurnsInto_1201872626(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1201872626L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class BrushableBlock2004790813Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTurnsInto()Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private void getTurnsInto_1201872626(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1201872626L))
+    @Inject(at = @At("HEAD"), method = "getBrushSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void getBrushSound__965444812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-965444812L))
             info.setReturnValue(null);
     }
 

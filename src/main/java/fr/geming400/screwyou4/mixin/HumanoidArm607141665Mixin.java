@@ -25,16 +25,16 @@ public class HumanoidArm607141665Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_695350287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(695350287L))
-            info.setReturnValue("Fz.G`D/T_{&d<5ZrC\uA76E|S\u2735mREkr7h2)\u4B5AJx,ZR8/LA{4O}[mN`E*P67xf\uA72Cw\u0414tsaZ`9/UNf>\u58B9\u5335z");
-    }
-
     @Inject(at = @At("HEAD"), method = "getOpposite()Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
     private void getOpposite__524692568(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-524692568L))
             info.setReturnValue(net.minecraft.world.entity.HumanoidArm.LEFT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_695350287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(695350287L))
+            info.setReturnValue("Fz.G`D/T_{&d<5ZrC\uA76E|S\u2735mREkr7h2)\u4B5AJx,ZR8/LA{4O}[mN`E*P67xf\uA72Cw\u0414tsaZ`9/UNf>\u58B9\u5335z");
     }
 
 

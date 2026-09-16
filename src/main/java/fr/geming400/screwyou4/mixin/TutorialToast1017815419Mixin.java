@@ -13,6 +13,18 @@ public class TutorialToast1017815419Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__67533158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67533158L))
+            info.setReturnValue(1775793516);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hide()V", cancellable = true)
+    private void hide_1818477612(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1818477612L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
     private void getWantedVisibility_1609993611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609993611L))
@@ -29,18 +41,6 @@ public class TutorialToast1017815419Mixin {
     private void extractRenderState__499635501(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-499635501L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hide()V", cancellable = true)
-    private void hide_1818477612(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1818477612L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__67533158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67533158L))
-            info.setReturnValue(-2106603480);
     }
 
 

@@ -19,28 +19,16 @@ public class TrialSpawnerState_2070915487Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerState.WAITING_FOR_PLAYERS);
     }
 
+    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
+    private void lightLevel_377267254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(377267254L))
+            info.setReturnValue(-1805657018);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName__2135843188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2135843188L))
             info.setReturnValue("/XAu$\uACCD\uFC86-\uBC6Bky/Zg6Ynq|Uri<;LA8|3ByvCA5hW-mp\u7F20^(|7I 0rZAM:M\u4199'mv");
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
-    private void lightLevel_377267254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(377267254L))
-            info.setReturnValue(-1366925418);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
-    private void isCapableOfSpawning__745914219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-745914219L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
-    private void spinningMobSpeed__1557204062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1557204062L))
-            info.setReturnValue(7.979194007090535E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "hasSpinningMob()Z", cancellable = true)
@@ -53,6 +41,18 @@ public class TrialSpawnerState_2070915487Mixin {
     private void emitParticles__880619056(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-880619056L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isCapableOfSpawning()Z", cancellable = true)
+    private void isCapableOfSpawning__745914219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-745914219L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spinningMobSpeed()D", cancellable = true)
+    private void spinningMobSpeed__1557204062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1557204062L))
+            info.setReturnValue(3.591878007090535E8D);
     }
 
 

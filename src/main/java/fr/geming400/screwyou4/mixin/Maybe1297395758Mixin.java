@@ -22,7 +22,7 @@ public class Maybe1297395758Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1854747849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854747849L))
-            info.setReturnValue(-891569514);
+            info.setReturnValue(-1254605914);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

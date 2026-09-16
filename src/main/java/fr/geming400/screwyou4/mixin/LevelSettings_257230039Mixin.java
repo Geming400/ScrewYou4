@@ -22,7 +22,7 @@ public class LevelSettings_257230039Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_814582129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(814582129L))
-            info.setReturnValue(-661468049);
+            info.setReturnValue(-819931649);
     }
 
     @Inject(at = @At("HEAD"), method = "copy()Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
@@ -43,18 +43,6 @@ public class LevelSettings_257230039Mixin {
             info.setReturnValue(";LW\"\u13BDTZ,\u65E8\uA36Aw`nL\u70F6>4JG#-iI86\u816EEf&\u661DI\uA2D1l-");
     }
 
-    @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
-    private void dataConfiguration__752355590(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-752355590L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allowCommands()Z", cancellable = true)
-    private void allowCommands_472207420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(472207420L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "gameType()Lnet/minecraft/world/level/GameType;", cancellable = true)
     private void gameType__2109473528(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2109473528L))
@@ -67,15 +55,21 @@ public class LevelSettings_257230039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withDifficulty(Lnet/minecraft/world/Difficulty;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withDifficulty_1174987057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1174987057L))
+    @Inject(at = @At("HEAD"), method = "dataConfiguration()Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
+    private void dataConfiguration__752355590(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-752355590L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withGameType(Lnet/minecraft/world/level/GameType;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withGameType_688560388(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(688560388L))
+    @Inject(at = @At("HEAD"), method = "allowCommands()Z", cancellable = true)
+    private void allowCommands_472207420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(472207420L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDataConfiguration(Lnet/minecraft/world/level/WorldDataConfiguration;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withDataConfiguration_1930029826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1930029826L))
             info.setReturnValue(null);
     }
 
@@ -91,9 +85,15 @@ public class LevelSettings_257230039Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withDataConfiguration(Lnet/minecraft/world/level/WorldDataConfiguration;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
-    private void withDataConfiguration_1930029826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1930029826L))
+    @Inject(at = @At("HEAD"), method = "withGameType(Lnet/minecraft/world/level/GameType;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withGameType_688560388(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(688560388L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDifficulty(Lnet/minecraft/world/Difficulty;)Lnet/minecraft/world/level/LevelSettings;", cancellable = true)
+    private void withDifficulty_1174987057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1174987057L))
             info.setReturnValue(null);
     }
 

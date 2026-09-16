@@ -13,16 +13,16 @@ public class ClientClockManager_641289378Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/core/Holder;)J", cancellable = true)
+    private void getTotalTicks__1787588705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1787588705L))
+            info.setReturnValue(-2012278733566142129L);
+    }
+
     @Inject(at = @At("HEAD"), method = "handleUpdates(JLjava/util/Map;)V", cancellable = true)
     private void handleUpdates__57452269(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-57452269L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/core/Holder;)J", cancellable = true)
-    private void getTotalTicks__1787588705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1787588705L))
-            info.setReturnValue(-2012278732805643729L);
     }
 
 

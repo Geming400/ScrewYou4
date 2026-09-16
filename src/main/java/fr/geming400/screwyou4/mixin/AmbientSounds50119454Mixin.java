@@ -22,7 +22,7 @@ public class AmbientSounds50119454Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_607471545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607471545L))
-            info.setReturnValue(-1190926102);
+            info.setReturnValue(-1951441002);
     }
 
     @Inject(at = @At("HEAD"), method = "loop()Ljava/util/Optional;", cancellable = true)

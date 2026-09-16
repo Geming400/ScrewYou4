@@ -19,6 +19,12 @@ public class Builder_395207046Mixin {
             info.setReturnValue(new net.minecraft.world.level.biome.BiomeSpecialEffects.Builder());
     }
 
+    @Inject(at = @At("HEAD"), method = "dryFoliageColorOverride(I)Lnet/minecraft/world/level/biome/BiomeSpecialEffects$Builder;", cancellable = true)
+    private void dryFoliageColorOverride__2083884242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2083884242L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "grassColorModifier(Lnet/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier;)Lnet/minecraft/world/level/biome/BiomeSpecialEffects$Builder;", cancellable = true)
     private void grassColorModifier_1497510869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1497510869L))
@@ -29,12 +35,6 @@ public class Builder_395207046Mixin {
     private void foliageColorOverride_646085539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646085539L))
             info.setReturnValue(new net.minecraft.world.level.biome.BiomeSpecialEffects.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "dryFoliageColorOverride(I)Lnet/minecraft/world/level/biome/BiomeSpecialEffects$Builder;", cancellable = true)
-    private void dryFoliageColorOverride__2083884242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2083884242L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "waterColor(I)Lnet/minecraft/world/level/biome/BiomeSpecialEffects$Builder;", cancellable = true)

@@ -19,16 +19,16 @@ public class TridentItem_1390597033Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration__1112492162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1112492162L))
+            info.setReturnValue(1401776213);
+    }
+
     @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
     private void releaseUsing__1172180657(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1172180657L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration__1112492162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1112492162L))
-            info.setReturnValue(1526864013);
     }
 
     @Inject(at = @At("HEAD"), method = "asProjectile(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;", cancellable = true)
@@ -37,16 +37,16 @@ public class TridentItem_1390597033Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
-    private void getUseAnimation_652782211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(652782211L))
-            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.EAT);
-    }
-
     @Inject(at = @At("HEAD"), method = "createToolProperties()Lnet/minecraft/world/item/component/Tool;", cancellable = true)
     private static void createToolProperties__1264299064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1264299064L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)
+    private void getUseAnimation_652782211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(652782211L))
+            info.setReturnValue(net.minecraft.world.item.ItemUseAnimation.EAT);
     }
 
 

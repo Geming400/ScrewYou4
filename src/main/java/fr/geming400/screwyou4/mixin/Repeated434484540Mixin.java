@@ -22,7 +22,7 @@ public class Repeated434484540Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_991836631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991836631L))
-            info.setReturnValue(1397475046);
+            info.setReturnValue(1215553946);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class Repeated434484540Mixin {
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_788681906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(788681906L))
-            info.setReturnValue(-351347474);
+            info.setReturnValue(-533268574);
     }
 
     @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)

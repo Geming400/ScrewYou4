@@ -19,12 +19,6 @@ public class DragonDeathPhase_1081737622Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlyTargetLocation__751541845(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-751541845L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick__1214543474(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1214543474L))
@@ -40,7 +34,13 @@ public class DragonDeathPhase_1081737622Mixin {
     @Inject(at = @At("HEAD"), method = "getFlySpeed()F", cancellable = true)
     private void getFlySpeed_1047613806(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1047613806L))
-            info.setReturnValue(3.76982E8F);
+            info.setReturnValue(5.978582E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlyTargetLocation__751541845(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-751541845L))
+            info.setReturnValue(null);
     }
 
 

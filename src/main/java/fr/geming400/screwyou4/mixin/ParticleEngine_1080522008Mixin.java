@@ -37,18 +37,6 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
-    private void countParticles_1313041534(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1313041534L))
-            info.setReturnValue("-q\"fbs%{ubjnaul\u9DF7_K9&$$c<\u28D0Ei;\u64D1v\u4FB8(qq,hA");
-    }
-
-    @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
-    private void createParticle__1597136589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1597136589L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createTrackingEmitter(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/particles/ParticleOptions;I)V", cancellable = true)
     private void createTrackingEmitter_1129846106(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1129846106L))
@@ -61,10 +49,22 @@ public class ParticleEngine_1080522008Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "countParticles()Ljava/lang/String;", cancellable = true)
+    private void countParticles_1313041534(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1313041534L))
+            info.setReturnValue("-q\"fbs%{ubjnaul\u9DF7_K9&$$c<\u28D0Ei;\u64D1v\u4FB8(qq,hA");
+    }
+
     @Inject(at = @At("HEAD"), method = "clearParticles()V", cancellable = true)
     private void clearParticles__529091350(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-529091350L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;DDDDDD)Lnet/minecraft/client/particle/Particle;", cancellable = true)
+    private void createParticle__1597136589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1597136589L))
+            info.setReturnValue(null);
     }
 
 

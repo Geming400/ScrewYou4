@@ -22,7 +22,7 @@ public class ServerLinks561917304Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1119269395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1119269395L))
-            info.setReturnValue(1243711435);
+            info.setReturnValue(1656887635);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -37,15 +37,15 @@ public class ServerLinks561917304Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findKnownType(Lnet/minecraft/server/ServerLinks$KnownLinkType;)Ljava/util/Optional;", cancellable = true)
-    private void findKnownType_1098082508(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1098082508L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "untrust()Ljava/util/List;", cancellable = true)
     private void untrust__1434575481(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1434575481L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findKnownType(Lnet/minecraft/server/ServerLinks$KnownLinkType;)Ljava/util/Optional;", cancellable = true)
+    private void findKnownType_1098082508(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1098082508L))
             info.setReturnValue(null);
     }
 

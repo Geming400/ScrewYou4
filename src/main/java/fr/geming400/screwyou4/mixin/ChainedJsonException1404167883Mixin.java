@@ -13,9 +13,9 @@ public class ChainedJsonException1404167883Mixin {
             info.setReturnValue("NscZ");
     }
 
-    @Inject(at = @At("HEAD"), method = "prependJsonKey(Ljava/lang/String;)V", cancellable = true)
-    private void prependJsonKey_937452159(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(937452159L))
+    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
+    private void setFilenameAndFlush__250391118(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-250391118L))
             info.cancel();
     }
 
@@ -25,9 +25,9 @@ public class ChainedJsonException1404167883Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFilenameAndFlush(Ljava/lang/String;)V", cancellable = true)
-    private void setFilenameAndFlush__250391118(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-250391118L))
+    @Inject(at = @At("HEAD"), method = "prependJsonKey(Ljava/lang/String;)V", cancellable = true)
+    private void prependJsonKey_937452159(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(937452159L))
             info.cancel();
     }
 

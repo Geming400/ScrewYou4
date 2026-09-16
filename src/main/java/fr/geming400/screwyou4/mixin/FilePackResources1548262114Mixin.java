@@ -25,10 +25,10 @@ public class FilePackResources1548262114Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private void listResources_230996582(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(230996582L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
+    private void getRootResource__1463846664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463846664L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractNamespace(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
@@ -37,10 +37,10 @@ public class FilePackResources1548262114Mixin {
             info.setReturnValue("4g) f\u2AE6zYHTJ=2z-Jq#+9rT8\u0EA5P\u3A4F+anEE5]>f");
     }
 
-    @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
-    private void getRootResource__1463846664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1463846664L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private void listResources_230996582(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(230996582L))
+            info.cancel();
     }
 
 

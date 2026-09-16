@@ -28,7 +28,7 @@ public class ServerboundDebugSubscriptionRequestPacket_632201628Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1189553718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1189553718L))
-            info.setReturnValue(1108724370);
+            info.setReturnValue(850920070);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

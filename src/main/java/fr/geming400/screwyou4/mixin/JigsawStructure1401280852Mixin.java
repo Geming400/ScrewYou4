@@ -13,6 +13,12 @@ public class JigsawStructure1401280852Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "findGenerationPoint(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;)Ljava/util/Optional;", cancellable = true)
+    private void findGenerationPoint__519473003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-519473003L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStartPool()Lnet/minecraft/core/Holder;", cancellable = true)
     private void getStartPool__622300312(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-622300312L))
@@ -22,12 +28,6 @@ public class JigsawStructure1401280852Mixin {
     @Inject(at = @At("HEAD"), method = "getPoolAliases()Ljava/util/List;", cancellable = true)
     private void getPoolAliases_387172240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(387172240L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findGenerationPoint(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;)Ljava/util/Optional;", cancellable = true)
-    private void findGenerationPoint__519473003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-519473003L))
             info.setReturnValue(null);
     }
 

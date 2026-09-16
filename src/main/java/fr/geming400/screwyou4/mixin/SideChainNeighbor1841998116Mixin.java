@@ -22,7 +22,7 @@ public class SideChainNeighbor1841998116Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1895617089(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1895617089L))
-            info.setReturnValue(1749533416);
+            info.setReturnValue(1880227116);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -61,9 +61,9 @@ public class SideChainNeighbor1841998116Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "disconnectFromLeft()V", cancellable = true)
-    private void disconnectFromLeft_1228847210(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228847210L))
+    @Inject(at = @At("HEAD"), method = "connectToTheRight()V", cancellable = true)
+    private void connectToTheRight_1936470407(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1936470407L))
             info.cancel();
     }
 
@@ -73,21 +73,21 @@ public class SideChainNeighbor1841998116Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "connectToTheRight()V", cancellable = true)
-    private void connectToTheRight_1936470407(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1936470407L))
+    @Inject(at = @At("HEAD"), method = "disconnectFromRight()V", cancellable = true)
+    private void disconnectFromRight_2050665025(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2050665025L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "disconnectFromLeft()V", cancellable = true)
+    private void disconnectFromLeft_1228847210(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228847210L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "connectToTheLeft()V", cancellable = true)
     private void connectToTheLeft_532426852(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(532426852L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "disconnectFromRight()V", cancellable = true)
-    private void disconnectFromRight_2050665025(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2050665025L))
             info.cancel();
     }
 

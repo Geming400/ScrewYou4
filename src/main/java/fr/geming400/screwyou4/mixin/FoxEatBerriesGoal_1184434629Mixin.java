@@ -28,7 +28,7 @@ public class FoxEatBerriesGoal_1184434629Mixin {
     @Inject(at = @At("HEAD"), method = "acceptedDistance()D", cancellable = true)
     private void acceptedDistance__264574551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-264574551L))
-            info.setReturnValue(9.594238008806269E8D);
+            info.setReturnValue(4.718189008806269E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRecalculatePath()Z", cancellable = true)

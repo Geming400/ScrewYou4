@@ -10,7 +10,7 @@ public class Score_1888452284Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__416218672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-416218672L))
-            info.setReturnValue(1389122851);
+            info.setReturnValue(1334652351);
     }
 
     @Inject(at = @At("HEAD"), method = "value(I)V", cancellable = true)

@@ -25,15 +25,15 @@ public class BlockModelRenderState1290425937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scratchRandomSource(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private void scratchRandomSource_1097397232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1097397232L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setupSpecialModel(Lnet/minecraft/client/renderer/special/SpecialModelRenderer;Lorg/joml/Matrix4fc;)V", cancellable = true)
     private void setupSpecialModel_2002368736(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2002368736L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "submitWithZOffset(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V", cancellable = true)
+    private void submitWithZOffset__1964774612(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1964774612L))
             info.cancel();
     }
 
@@ -43,10 +43,10 @@ public class BlockModelRenderState1290425937Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "submitWithZOffset(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V", cancellable = true)
-    private void submitWithZOffset__1964774612(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1964774612L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "scratchRandomSource(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private void scratchRandomSource_1097397232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1097397232L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "tintLayers()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)

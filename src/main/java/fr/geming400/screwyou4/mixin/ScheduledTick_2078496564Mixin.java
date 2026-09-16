@@ -34,7 +34,7 @@ public class ScheduledTick_2078496564Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1659118642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1659118642L))
-            info.setReturnValue(815291221);
+            info.setReturnValue(506209021);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -55,16 +55,16 @@ public class ScheduledTick_2078496564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
-    private void triggerTick_1602228869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1602228869L))
-            info.setReturnValue(-8504215237253529637L);
-    }
-
     @Inject(at = @At("HEAD"), method = "subTickOrder()J", cancellable = true)
     private void subTickOrder__60345815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-60345815L))
-            info.setReturnValue(-515384056795644738L);
+            info.setReturnValue(-515384057104726938L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerTick()J", cancellable = true)
+    private void triggerTick_1602228869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1602228869L))
+            info.setReturnValue(-8504215237562611837L);
     }
 
 

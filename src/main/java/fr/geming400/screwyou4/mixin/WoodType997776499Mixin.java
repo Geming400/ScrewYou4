@@ -34,7 +34,7 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1555128590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1555128590L))
-            info.setReturnValue(480493725);
+            info.setReturnValue(163909425);
     }
 
     @Inject(at = @At("HEAD"), method = "setType()Lnet/minecraft/world/level/block/state/properties/BlockSetType;", cancellable = true)

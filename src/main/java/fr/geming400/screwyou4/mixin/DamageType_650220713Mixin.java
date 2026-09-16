@@ -22,19 +22,19 @@ public class DamageType_650220713Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207572803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207572803L))
-            info.setReturnValue(926699945);
-    }
-
-    @Inject(at = @At("HEAD"), method = "msgId()Ljava/lang/String;", cancellable = true)
-    private void msgId_645456813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(645456813L))
-            info.setReturnValue("0w88");
+            info.setReturnValue(543388745);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Lnet/minecraft/world/damagesource/DamageEffects;", cancellable = true)
     private void effects__1494638503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1494638503L))
             info.setReturnValue(net.minecraft.world.damagesource.DamageEffects.POKING);
+    }
+
+    @Inject(at = @At("HEAD"), method = "msgId()Ljava/lang/String;", cancellable = true)
+    private void msgId_645456813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(645456813L))
+            info.setReturnValue("0w88");
     }
 
     @Inject(at = @At("HEAD"), method = "scaling()Lnet/minecraft/world/damagesource/DamageScaling;", cancellable = true)
@@ -46,7 +46,7 @@ public class DamageType_650220713Mixin {
     @Inject(at = @At("HEAD"), method = "exhaustion()F", cancellable = true)
     private void exhaustion__1954211987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1954211987L))
-            info.setReturnValue(5.188053E8F);
+            info.setReturnValue(1.354941E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "deathMessageType()Lnet/minecraft/world/damagesource/DeathMessageType;", cancellable = true)

@@ -22,7 +22,7 @@ public class Simple_1624153636Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2113461570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2113461570L))
-            info.setReturnValue(-334854424);
+            info.setReturnValue(-133825424);
     }
 
     @Inject(at = @At("HEAD"), method = "factory()Lnet/minecraft/world/level/chunk/Palette$Factory;", cancellable = true)
@@ -34,19 +34,19 @@ public class Simple_1624153636Mixin {
     @Inject(at = @At("HEAD"), method = "bits()I", cancellable = true)
     private void bits_2100593347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2100593347L))
-            info.setReturnValue(-962946773);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
-    private void bitsInMemory__80022051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-80022051L))
-            info.setReturnValue(-1389695166);
+            info.setReturnValue(-761917773);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
     private void alwaysRepack_534608639(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(534608639L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
+    private void bitsInMemory__80022051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-80022051L))
+            info.setReturnValue(-1188666166);
     }
 
     @Inject(at = @At("HEAD"), method = "createPalette(Lnet/minecraft/world/level/chunk/Strategy;Ljava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
@@ -58,7 +58,7 @@ public class Simple_1624153636Mixin {
     @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
     private void bitsInStorage_1789396697(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1789396697L))
-            info.setReturnValue(2031130705);
+            info.setReturnValue(-2062807591);
     }
 
 

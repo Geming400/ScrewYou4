@@ -22,7 +22,7 @@ public class RandomGroupPoolAlias_814447410Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1371799500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371799500L))
-            info.setReturnValue(1963022484);
+            info.setReturnValue(2106719784);
     }
 
     @Inject(at = @At("HEAD"), method = "groups()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

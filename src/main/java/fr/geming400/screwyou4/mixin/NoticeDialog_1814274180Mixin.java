@@ -22,7 +22,7 @@ public class NoticeDialog_1814274180Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1923341026(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1923341026L))
-            info.setReturnValue(753779600);
+            info.setReturnValue(1240814900);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/server/dialog/ActionButton;", cancellable = true)
@@ -37,9 +37,9 @@ public class NoticeDialog_1814274180Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onCancel()Ljava/util/Optional;", cancellable = true)
-    private void onCancel_2071346282(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2071346282L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1414247863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1414247863L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class NoticeDialog_1814274180Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1414247863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1414247863L))
+    @Inject(at = @At("HEAD"), method = "onCancel()Ljava/util/Optional;", cancellable = true)
+    private void onCancel_2071346282(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2071346282L))
             info.setReturnValue(null);
     }
 

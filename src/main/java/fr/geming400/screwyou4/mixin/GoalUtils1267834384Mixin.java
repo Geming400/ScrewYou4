@@ -19,10 +19,10 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isWater(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isWater_1302663019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1302663019L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
+    private static void hasGroundPathNavigation__1708093777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1708093777L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isSolid(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
@@ -31,21 +31,9 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasMalus(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void hasMalus__463224230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-463224230L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobRestricted(Lnet/minecraft/world/entity/PathfinderMob;D)Z", cancellable = true)
-    private static void mobRestricted__1060106759(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1060106759L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isNotStable(Lnet/minecraft/world/entity/ai/navigation/PathNavigation;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isNotStable__1760689760(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1760689760L))
+    @Inject(at = @At("HEAD"), method = "isWater(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isWater_1302663019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1302663019L))
             info.setReturnValue(false);
     }
 
@@ -55,9 +43,21 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
-    private static void hasGroundPathNavigation__1708093777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1708093777L))
+    @Inject(at = @At("HEAD"), method = "isNotStable(Lnet/minecraft/world/entity/ai/navigation/PathNavigation;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isNotStable__1760689760(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1760689760L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mobRestricted(Lnet/minecraft/world/entity/PathfinderMob;D)Z", cancellable = true)
+    private static void mobRestricted__1060106759(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1060106759L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasMalus(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void hasMalus__463224230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-463224230L))
             info.setReturnValue(true);
     }
 

@@ -22,7 +22,7 @@ public class ChunkPyramid_393161653Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_950513743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(950513743L))
-            info.setReturnValue(-1144293018);
+            info.setReturnValue(-1063094918);
     }
 
     @Inject(at = @At("HEAD"), method = "steps()Lcom/google/common/collect/ImmutableList;", cancellable = true)

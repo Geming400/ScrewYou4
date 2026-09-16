@@ -22,7 +22,7 @@ public class ClientInformation_41960605Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_599312695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599312695L))
-            info.setReturnValue(179861127);
+            info.setReturnValue(6884227);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -37,10 +37,10 @@ public class ClientInformation_41960605Mixin {
             info.setReturnValue("V&BuYE ja&\uBAB3r:Y|gHsR\u0927z&asQnqof\u1627K{AU\u750B)v1^sHb=+#`BHe?2|JUWHpb&\u7292\uC2EC!. eupD4p\u1BFDjR>X6\"");
     }
 
-    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
-    private void viewDistance_844228872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(844228872L))
-            info.setReturnValue(49853340);
+    @Inject(at = @At("HEAD"), method = "particleStatus()Lnet/minecraft/server/level/ParticleStatus;", cancellable = true)
+    private void particleStatus__856648851(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-856648851L))
+            info.setReturnValue(net.minecraft.server.level.ParticleStatus.ALL);
     }
 
     @Inject(at = @At("HEAD"), method = "chatVisibility()Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
@@ -49,21 +49,15 @@ public class ClientInformation_41960605Mixin {
             info.setReturnValue(net.minecraft.world.entity.player.ChatVisiblity.FULL);
     }
 
-    @Inject(at = @At("HEAD"), method = "particleStatus()Lnet/minecraft/server/level/ParticleStatus;", cancellable = true)
-    private void particleStatus__856648851(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-856648851L))
-            info.setReturnValue(net.minecraft.server.level.ParticleStatus.ALL);
+    @Inject(at = @At("HEAD"), method = "textFilteringEnabled()Z", cancellable = true)
+    private void textFilteringEnabled_1022535439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1022535439L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "allowsListing()Z", cancellable = true)
     private void allowsListing_384863673(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(384863673L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textFilteringEnabled()Z", cancellable = true)
-    private void textFilteringEnabled_1022535439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1022535439L))
             info.setReturnValue(false);
     }
 
@@ -73,10 +67,16 @@ public class ClientInformation_41960605Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
+    private void viewDistance_844228872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(844228872L))
+            info.setReturnValue(-123123560);
+    }
+
     @Inject(at = @At("HEAD"), method = "modelCustomisation()I", cancellable = true)
     private void modelCustomisation__345499055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345499055L))
-            info.setReturnValue(-1891428423);
+            info.setReturnValue(-2064405323);
     }
 
     @Inject(at = @At("HEAD"), method = "chatColors()Z", cancellable = true)

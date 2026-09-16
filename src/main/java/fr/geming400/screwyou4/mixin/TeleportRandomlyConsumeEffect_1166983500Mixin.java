@@ -22,7 +22,7 @@ public class TeleportRandomlyConsumeEffect_1166983500Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1724335590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1724335590L))
-            info.setReturnValue(665661215);
+            info.setReturnValue(32459715);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class TeleportRandomlyConsumeEffect_1166983500Mixin {
     @Inject(at = @At("HEAD"), method = "diameter()F", cancellable = true)
     private void diameter_993314689(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(993314689L))
-            info.setReturnValue(8.054542E8F);
+            info.setReturnValue(1.722527E8F);
     }
 
 

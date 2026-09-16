@@ -19,16 +19,10 @@ public class Ticket_2068868572Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTimedOut()Z", cancellable = true)
-    private void isTimedOut__321859503(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-321859503L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTicketLevel()I", cancellable = true)
     private void getTicketLevel_1048611423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1048611423L))
-            info.setReturnValue(-2114318774);
+            info.setReturnValue(1432227822);
     }
 
     @Inject(at = @At("HEAD"), method = "decreaseTicksLeft()V", cancellable = true)
@@ -41,6 +35,12 @@ public class Ticket_2068868572Mixin {
     private void resetTicksLeft_1341019712(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1341019712L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTimedOut()Z", cancellable = true)
+    private void isTimedOut__321859503(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-321859503L))
+            info.setReturnValue(false);
     }
 
 

@@ -13,6 +13,18 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "returnToWorld()V", cancellable = true)
+    private void returnToWorld__1614038806(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1614038806L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
+    private void isAcceptingMessages_1242204761(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1242204761L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "handleResourcePackResponse(Lnet/minecraft/network/protocol/common/ServerboundResourcePackPacket;)V", cancellable = true)
     private void handleResourcePackResponse__1140788688(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1140788688L))
@@ -37,9 +49,9 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleSelectKnownPacks(Lnet/minecraft/network/protocol/configuration/ServerboundSelectKnownPacks;)V", cancellable = true)
-    private void handleSelectKnownPacks_1493391602(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1493391602L))
+    @Inject(at = @At("HEAD"), method = "startConfiguration()V", cancellable = true)
+    private void startConfiguration_1203434461(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1203434461L))
             info.cancel();
     }
 
@@ -49,21 +61,9 @@ public class ServerConfigurationPacketListenerImpl_1190579295Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "returnToWorld()V", cancellable = true)
-    private void returnToWorld__1614038806(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1614038806L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAcceptingMessages()Z", cancellable = true)
-    private void isAcceptingMessages_1242204761(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1242204761L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startConfiguration()V", cancellable = true)
-    private void startConfiguration_1203434461(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1203434461L))
+    @Inject(at = @At("HEAD"), method = "handleSelectKnownPacks(Lnet/minecraft/network/protocol/configuration/ServerboundSelectKnownPacks;)V", cancellable = true)
+    private void handleSelectKnownPacks_1493391602(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1493391602L))
             info.cancel();
     }
 

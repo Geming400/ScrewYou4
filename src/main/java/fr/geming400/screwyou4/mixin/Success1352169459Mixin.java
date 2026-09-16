@@ -28,7 +28,7 @@ public class Success1352169459Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1909521550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1909521550L))
-            info.setReturnValue(2057368995);
+            info.setReturnValue(1426375895);
     }
 
     @Inject(at = @At("HEAD"), method = "map(Ljava/util/function/Function;)Lnet/minecraft/server/level/ChunkResult;", cancellable = true)
@@ -49,16 +49,16 @@ public class Success1352169459Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "ifSuccess(Ljava/util/function/Consumer;)Lnet/minecraft/server/level/ChunkResult;", cancellable = true)
-    private void ifSuccess__1066562454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1066562454L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isSuccess()Z", cancellable = true)
     private void isSuccess__114243119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-114243119L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ifSuccess(Ljava/util/function/Consumer;)Lnet/minecraft/server/level/ChunkResult;", cancellable = true)
+    private void ifSuccess__1066562454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1066562454L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getError()Ljava/lang/String;", cancellable = true)

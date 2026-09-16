@@ -13,15 +13,15 @@ public class GameTestBlockHighlightRenderer_417288054Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "highlightPos(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void highlightPos_1353020840(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1353020840L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "emitGizmos()V", cancellable = true)
     private void emitGizmos_528396220(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(528396220L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "highlightPos(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void highlightPos_1353020840(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1353020840L))
             info.cancel();
     }
 

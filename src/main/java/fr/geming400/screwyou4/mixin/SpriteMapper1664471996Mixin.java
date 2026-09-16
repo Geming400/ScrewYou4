@@ -22,7 +22,7 @@ public class SpriteMapper1664471996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2073143209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2073143209L))
-            info.setReturnValue(-1968381193);
+            info.setReturnValue(-1947495093);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/resources/model/sprite/SpriteId;", cancellable = true)

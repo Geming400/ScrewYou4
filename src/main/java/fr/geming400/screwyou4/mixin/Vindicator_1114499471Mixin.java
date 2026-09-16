@@ -19,6 +19,12 @@ public class Vindicator_1114499471Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1864597779(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1864597779L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void getCelebrateSound__1567060494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1567060494L))
@@ -29,12 +35,6 @@ public class Vindicator_1114499471Mixin {
     private void applyRaidBuffs_142027323(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(142027323L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1864597779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1864597779L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getArmPose()Lnet/minecraft/world/entity/monster/illager/AbstractIllager$IllagerArmPose;", cancellable = true)

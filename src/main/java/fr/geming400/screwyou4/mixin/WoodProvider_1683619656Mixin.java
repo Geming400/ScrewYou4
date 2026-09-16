@@ -19,15 +19,15 @@ public class WoodProvider_1683619656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "logUVLocked(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
-    private void logUVLocked__1503711768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1503711768L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "logWithHorizontal(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
     private void logWithHorizontal__484517271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-484517271L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "logUVLocked(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/BlockModelGenerators$WoodProvider;", cancellable = true)
+    private void logUVLocked__1503711768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1503711768L))
             info.setReturnValue(null);
     }
 

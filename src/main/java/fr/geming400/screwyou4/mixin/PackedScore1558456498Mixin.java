@@ -22,7 +22,7 @@ public class PackedScore1558456498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2115808589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2115808589L))
-            info.setReturnValue(1829235098);
+            info.setReturnValue(1792040998);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)

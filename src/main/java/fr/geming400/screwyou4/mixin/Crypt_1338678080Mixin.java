@@ -13,6 +13,42 @@ public class Crypt_1338678080Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "byteToPublicKey([B)Ljava/security/PublicKey;", cancellable = true)
+    private static void byteToPublicKey_1621712603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1621712603L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decryptByteToSecretKey(Ljava/security/PrivateKey;[B)Ljavax/crypto/SecretKey;", cancellable = true)
+    private static void decryptByteToSecretKey__1286068910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1286068910L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "encryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
+    private static void encryptUsingKey__182047300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-182047300L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
+    private static void decryptUsingKey__65047148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-65047148L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCipher(ILjava/security/Key;)Ljavax/crypto/Cipher;", cancellable = true)
+    private static void getCipher__586812933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-586812933L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "digestData(Ljava/lang/String;Ljava/security/PublicKey;Ljavax/crypto/SecretKey;)[B", cancellable = true)
+    private static void digestData__1737076959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1737076959L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "stringToPemRsaPrivateKey(Ljava/lang/String;)Ljava/security/PrivateKey;", cancellable = true)
     private static void stringToPemRsaPrivateKey__1778139603(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1778139603L))
@@ -28,42 +64,6 @@ public class Crypt_1338678080Mixin {
     @Inject(at = @At("HEAD"), method = "generateSecretKey()Ljavax/crypto/SecretKey;", cancellable = true)
     private static void generateSecretKey_768314245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(768314245L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
-    private static void decryptUsingKey__65047148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-65047148L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "encryptUsingKey(Ljava/security/Key;[B)[B", cancellable = true)
-    private static void encryptUsingKey__182047300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-182047300L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "decryptByteToSecretKey(Ljava/security/PrivateKey;[B)Ljavax/crypto/SecretKey;", cancellable = true)
-    private static void decryptByteToSecretKey__1286068910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1286068910L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "byteToPublicKey([B)Ljava/security/PublicKey;", cancellable = true)
-    private static void byteToPublicKey_1621712603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1621712603L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "digestData(Ljava/lang/String;Ljava/security/PublicKey;Ljavax/crypto/SecretKey;)[B", cancellable = true)
-    private static void digestData__1737076959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1737076959L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCipher(ILjava/security/Key;)Ljavax/crypto/Cipher;", cancellable = true)
-    private static void getCipher__586812933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-586812933L))
             info.setReturnValue(null);
     }
 

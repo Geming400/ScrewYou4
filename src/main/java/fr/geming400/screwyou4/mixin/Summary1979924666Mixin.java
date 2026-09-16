@@ -22,7 +22,7 @@ public class Summary1979924666Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1757690539(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1757690539L))
-            info.setReturnValue(938442394);
+            info.setReturnValue(1693112194);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()Ljava/time/Duration;", cancellable = true)
@@ -31,28 +31,28 @@ public class Summary1979924666Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "gcTotalDuration()Ljava/time/Duration;", cancellable = true)
-    private void gcTotalDuration__491529349(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-491529349L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "totalGCs()I", cancellable = true)
-    private void totalGCs__503926483(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-503926483L))
-            info.setReturnValue(-1820314538);
+    @Inject(at = @At("HEAD"), method = "allocationRateBytesPerSecond()D", cancellable = true)
+    private void allocationRateBytesPerSecond_2090961365(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2090961365L))
+            info.setReturnValue(9.066961000276524E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "gcOverHead()F", cancellable = true)
     private void gcOverHead_177136525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(177136525L))
-            info.setReturnValue(1.520263E8F);
+            info.setReturnValue(9.066961E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "allocationRateBytesPerSecond()D", cancellable = true)
-    private void allocationRateBytesPerSecond_2090961365(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2090961365L))
-            info.setReturnValue(1.5202630002765244E8D);
+    @Inject(at = @At("HEAD"), method = "totalGCs()I", cancellable = true)
+    private void totalGCs__503926483(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-503926483L))
+            info.setReturnValue(-1065644738);
+    }
+
+    @Inject(at = @At("HEAD"), method = "gcTotalDuration()Ljava/time/Duration;", cancellable = true)
+    private void gcTotalDuration__491529349(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491529349L))
+            info.setReturnValue(null);
     }
 
 

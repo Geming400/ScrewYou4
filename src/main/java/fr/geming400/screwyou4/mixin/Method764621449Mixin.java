@@ -22,7 +22,7 @@ public class Method764621449Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1321973540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1321973540L))
-            info.setReturnValue(-1794126839);
+            info.setReturnValue(-1423670939);
     }
 
     @Inject(at = @At("HEAD"), method = "info()Lnet/minecraft/server/jsonrpc/api/MethodInfo;", cancellable = true)
@@ -37,15 +37,15 @@ public class Method764621449Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "decodeResult(Lcom/google/gson/JsonElement;)Ljava/lang/Object;", cancellable = true)
-    private void decodeResult_1249640666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1249640666L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "encodeParams(Ljava/lang/Object;)Lcom/google/gson/JsonElement;", cancellable = true)
     private void encodeParams__272147595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-272147595L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decodeResult(Lcom/google/gson/JsonElement;)Ljava/lang/Object;", cancellable = true)
+    private void decodeResult_1249640666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1249640666L))
             info.setReturnValue(null);
     }
 

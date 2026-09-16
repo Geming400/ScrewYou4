@@ -22,7 +22,7 @@ public class ReplaceBlock_851186821Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1408538911(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1408538911L))
-            info.setReturnValue(-681856782);
+            info.setReturnValue(-159760782);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,9 +43,9 @@ public class ReplaceBlock_851186821Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent__1084601054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1084601054L))
+    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void blockState_1220974787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1220974787L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class ReplaceBlock_851186821Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockState()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void blockState_1220974787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1220974787L))
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent__1084601054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1084601054L))
             info.setReturnValue(null);
     }
 

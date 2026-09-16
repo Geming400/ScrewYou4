@@ -25,6 +25,18 @@ public class TeamColor682277960Mixin {
             info.setReturnValue(net.minecraft.world.scores.TeamColor.DARK_RED);
     }
 
+    @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
+    private void rgb_1561678209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1561678209L))
+            info.setReturnValue(-518493807);
+    }
+
+    @Inject(at = @At("HEAD"), method = "textColor()Lnet/minecraft/network/chat/TextColor;", cancellable = true)
+    private void textColor_2076245944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2076245944L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "displaySlot()Lnet/minecraft/world/scores/DisplaySlot;", cancellable = true)
     private void displaySlot__1740222477(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1740222477L))
@@ -35,18 +47,6 @@ public class TeamColor682277960Mixin {
     private void getSerializedName_770486582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(770486582L))
             info.setReturnValue("3, Q+L(?f(bpWb# pMa\uB5AB\u75E9M-/TW'gU!+]B.5RA5");
-    }
-
-    @Inject(at = @At("HEAD"), method = "rgb()I", cancellable = true)
-    private void rgb_1561678209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1561678209L))
-            info.setReturnValue(-340621307);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textColor()Lnet/minecraft/network/chat/TextColor;", cancellable = true)
-    private void textColor_2076245944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2076245944L))
-            info.setReturnValue(null);
     }
 
 

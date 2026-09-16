@@ -25,6 +25,12 @@ public class DyeRecipe1091398480Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1656284804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1656284804L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1635513231(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1635513231L))
@@ -34,12 +40,6 @@ public class DyeRecipe1091398480Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1695900187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1695900187L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1656284804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1656284804L))
             info.setReturnValue(null);
     }
 

@@ -13,27 +13,27 @@ public class SurfaceRuleData_1261617243Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overworld(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
-    private static void overworld_1213550036(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213550036L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "air()Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
     private static void air_1782951328(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1782951328L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overworldLike(Lnet/minecraft/core/HolderGetter;ZZZ)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
-    private static void overworldLike__1811164603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1811164603L))
+    @Inject(at = @At("HEAD"), method = "overworld(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
+    private static void overworld_1213550036(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213550036L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "nether(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
     private static void nether_1356252154(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1356252154L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overworldLike(Lnet/minecraft/core/HolderGetter;ZZZ)Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;", cancellable = true)
+    private static void overworldLike__1811164603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1811164603L))
             info.setReturnValue(null);
     }
 

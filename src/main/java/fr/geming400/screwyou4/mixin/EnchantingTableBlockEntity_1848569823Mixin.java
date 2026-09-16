@@ -13,16 +13,16 @@ public class EnchantingTableBlockEntity_1848569823Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setCustomName__1528460985(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1528460985L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getCustomName()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getCustomName__1353651325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1353651325L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setCustomName__1528460985(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1528460985L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "bookAnimationTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/EnchantingTableBlockEntity;)V", cancellable = true)

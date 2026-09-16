@@ -31,18 +31,6 @@ public class SignText_1783739328Mixin {
             info.setReturnValue(new net.minecraft.world.level.block.entity.SignText());
     }
 
-    @Inject(at = @At("HEAD"), method = "getRenderMessages(ZLjava/util/function/Function;)[Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
-    private void getRenderMessages_400373362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(400373362L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasGlowingText()Z", cancellable = true)
-    private void hasGlowingText__1755976850(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1755976850L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor__1883236808(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1883236808L))
@@ -55,15 +43,15 @@ public class SignText_1783739328Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasGlowingText()Z", cancellable = true)
+    private void hasGlowingText__1755976850(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1755976850L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasAnyClickCommands(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void hasAnyClickCommands_606822355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(606822355L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasMessage(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void hasMessage__1647499196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1647499196L))
             info.setReturnValue(false);
     }
 
@@ -71,6 +59,18 @@ public class SignText_1783739328Mixin {
     private void getMessages__135439849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-135439849L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRenderMessages(ZLjava/util/function/Function;)[Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)
+    private void getRenderMessages_400373362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(400373362L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasMessage(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void hasMessage__1647499196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1647499196L))
+            info.setReturnValue(false);
     }
 
 

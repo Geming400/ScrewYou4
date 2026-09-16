@@ -22,7 +22,7 @@ public class HugeExplosionParticle492081026Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_508769404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(508769404L))
-            info.setReturnValue(-1955566377);
+            info.setReturnValue(1634298519);
     }
 
 

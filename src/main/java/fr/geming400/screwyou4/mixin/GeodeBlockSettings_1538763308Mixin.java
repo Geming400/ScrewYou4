@@ -22,24 +22,24 @@ public class GeodeBlockSettings_1538763308Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2096115398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096115398L))
-            info.setReturnValue(-1894391341);
+            info.setReturnValue(2030746355);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alternateInnerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void alternateInnerLayerProvider_161243052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161243052L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void outerLayerProvider_1742668109(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1742668109L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "invalidBlocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void invalidBlocks_1170108124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1170108124L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillingProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void fillingProvider_1901096438(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1901096438L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "innerPlacements()Ljava/util/List;", cancellable = true)
-    private void innerPlacements_1213964159(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213964159L))
             info.setReturnValue(null);
     }
 
@@ -55,21 +55,21 @@ public class GeodeBlockSettings_1538763308Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "fillingProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void fillingProvider_1901096438(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1901096438L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "innerPlacements()Ljava/util/List;", cancellable = true)
+    private void innerPlacements_1213964159(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213964159L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cannotReplace()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void cannotReplace__928695376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-928695376L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void outerLayerProvider_1742668109(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1742668109L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alternateInnerLayerProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void alternateInnerLayerProvider_161243052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(161243052L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class PlacedFeature_1825025669Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1912589537(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1912589537L))
-            info.setReturnValue(1047492923);
+            info.setReturnValue(996258823);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)

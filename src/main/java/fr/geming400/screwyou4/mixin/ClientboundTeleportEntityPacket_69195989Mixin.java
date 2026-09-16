@@ -28,13 +28,13 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_626548079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(626548079L))
-            info.setReturnValue(-353250525);
+            info.setReturnValue(-86809525);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1668979327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1668979327L))
-            info.setReturnValue(-102625674);
+            info.setReturnValue(163815326);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -47,6 +47,12 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     private void handle__226515875(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-226515875L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
+    private void onGround__53052923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-53052923L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "change()Lnet/minecraft/world/entity/PositionMoveRotation;", cancellable = true)
@@ -65,12 +71,6 @@ public class ClientboundTeleportEntityPacket_69195989Mixin {
     private static void teleport_1866513079(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866513079L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onGround()Z", cancellable = true)
-    private void onGround__53052923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-53052923L))
-            info.setReturnValue(false);
     }
 
 

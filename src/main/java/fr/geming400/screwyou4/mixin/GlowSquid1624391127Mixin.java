@@ -28,7 +28,7 @@ public class GlowSquid1624391127Mixin {
     @Inject(at = @At("HEAD"), method = "getDarkTicksRemaining()I", cancellable = true)
     private void getDarkTicksRemaining__1736865775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1736865775L))
-            info.setReturnValue(-1238657653);
+            info.setReturnValue(-651912853);
     }
 
     @Inject(at = @At("HEAD"), method = "checkGlowSquidSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)

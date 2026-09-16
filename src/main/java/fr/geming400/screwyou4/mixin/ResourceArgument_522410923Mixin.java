@@ -13,16 +13,16 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private void parse_1801424188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1801424188L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1483671016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1483671016L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private void parse_1801424188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1801424188L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getAttribute(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
@@ -37,9 +37,9 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getClock(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getClock__1962660077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1962660077L))
+    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
+    private void getExamples__2047942375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2047942375L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +49,9 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
-    private void getExamples__2047942375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2047942375L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getStructure_237148792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(237148792L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEntityType(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getEntityType__1542679698(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1542679698L))
+    @Inject(at = @At("HEAD"), method = "getConfiguredFeature(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getConfiguredFeature_920946909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(920946909L))
             info.setReturnValue(null);
     }
 
@@ -73,15 +61,27 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTimeline(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getTimeline__147440782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-147440782L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEntityType(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getEntityType__1542679698(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1542679698L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getEnchantment(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void getEnchantment_955653052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955653052L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTimeline(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getTimeline__147440782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-147440782L))
+    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getStructure_237148792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(237148792L))
             info.setReturnValue(null);
     }
 
@@ -91,9 +91,9 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getConfiguredFeature(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getConfiguredFeature_920946909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(920946909L))
+    @Inject(at = @At("HEAD"), method = "getClock(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getClock__1962660077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1962660077L))
             info.setReturnValue(null);
     }
 

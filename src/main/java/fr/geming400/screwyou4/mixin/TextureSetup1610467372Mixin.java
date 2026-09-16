@@ -22,13 +22,49 @@ public class TextureSetup1610467372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2127147833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2127147833L))
-            info.setReturnValue(1251714591);
+            info.setReturnValue(1629137091);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateSortKeySeed()V", cancellable = true)
-    private static void updateSortKeySeed_2084779022(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2084779022L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "sampler0()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
+    private void sampler0_2094269530(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2094269530L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampler2()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
+    private void sampler2__1307211428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1307211428L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sampler1()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
+    private void sampler1_393529051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(393529051L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texure2()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texure2_1413121483(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1413121483L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSortKey()I", cancellable = true)
+    private void getSortKey__617770681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-617770681L))
+            info.setReturnValue(614280643);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texure1()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texure1_1420880842(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1420880842L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texure0()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texure0_1428640201(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1428640201L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "singleTextureWithLightmap(Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;)Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
@@ -43,10 +79,10 @@ public class TextureSetup1610467372Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "singleTexture(Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;)Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
-    private static void singleTexture__838312296(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-838312296L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateSortKeySeed()V", cancellable = true)
+    private static void updateSortKeySeed_2084779022(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2084779022L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "noTexture()Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
@@ -55,45 +91,9 @@ public class TextureSetup1610467372Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sampler1()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
-    private void sampler1_393529051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(393529051L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texure0()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texure0_1428640201(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1428640201L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampler2()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
-    private void sampler2__1307211428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1307211428L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texure1()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texure1_1420880842(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1420880842L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sampler0()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)
-    private void sampler0_2094269530(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2094269530L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSortKey()I", cancellable = true)
-    private void getSortKey__617770681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-617770681L))
-            info.setReturnValue(236858143);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texure2()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texure2_1413121483(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1413121483L))
+    @Inject(at = @At("HEAD"), method = "singleTexture(Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;)Lnet/minecraft/client/gui/render/TextureSetup;", cancellable = true)
+    private static void singleTexture__838312296(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-838312296L))
             info.setReturnValue(null);
     }
 

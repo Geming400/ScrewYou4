@@ -22,7 +22,7 @@ public class RemoteChatSession1122962330Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1680314421(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1680314421L))
-            info.setReturnValue(902572892);
+            info.setReturnValue(926999592);
     }
 
     @Inject(at = @At("HEAD"), method = "sessionId()Ljava/util/UUID;", cancellable = true)
@@ -31,15 +31,21 @@ public class RemoteChatSession1122962330Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createMessageDecoder(Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$Decoder;", cancellable = true)
-    private void createMessageDecoder_592773921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(592773921L))
+    @Inject(at = @At("HEAD"), method = "asData()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
+    private void asData__2087327990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2087327990L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "profilePublicKey()Lnet/minecraft/world/entity/player/ProfilePublicKey;", cancellable = true)
     private void profilePublicKey__1543684939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1543684939L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMessageDecoder(Ljava/util/UUID;)Lnet/minecraft/network/chat/SignedMessageChain$Decoder;", cancellable = true)
+    private void createMessageDecoder_592773921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(592773921L))
             info.setReturnValue(null);
     }
 
@@ -53,12 +59,6 @@ public class RemoteChatSession1122962330Mixin {
     private void hasExpired__632817402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-632817402L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "asData()Lnet/minecraft/network/chat/RemoteChatSession$Data;", cancellable = true)
-    private void asData__2087327990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2087327990L))
-            info.setReturnValue(null);
     }
 
 

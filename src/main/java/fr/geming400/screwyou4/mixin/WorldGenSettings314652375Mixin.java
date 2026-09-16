@@ -16,7 +16,7 @@ public class WorldGenSettings314652375Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_872003970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872003970L))
-            info.setReturnValue(1544685230);
+            info.setReturnValue(1435383030);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/level/levelgen/WorldGenSettings;", cancellable = true)

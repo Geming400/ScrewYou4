@@ -28,7 +28,13 @@ public class NarratorStatus_217415457Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__1440908139(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1440908139L))
-            info.setReturnValue(1840654277);
+            info.setReturnValue(-1907318519);
+    }
+
+    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/client/NarratorStatus;", cancellable = true)
+    private static void byId_352193212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(352193212L))
+            info.setReturnValue(net.minecraft.client.NarratorStatus.CHAT);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldNarrateSystem()Z", cancellable = true)
@@ -37,22 +43,16 @@ public class NarratorStatus_217415457Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldNarrateSystemOrChat()Z", cancellable = true)
-    private void shouldNarrateSystemOrChat__2117690303(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2117690303L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldNarrateChat()Z", cancellable = true)
     private void shouldNarrateChat__1601004397(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1601004397L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/client/NarratorStatus;", cancellable = true)
-    private static void byId_352193212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(352193212L))
-            info.setReturnValue(net.minecraft.client.NarratorStatus.CHAT);
+    @Inject(at = @At("HEAD"), method = "shouldNarrateSystemOrChat()Z", cancellable = true)
+    private void shouldNarrateSystemOrChat__2117690303(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2117690303L))
+            info.setReturnValue(true);
     }
 
 

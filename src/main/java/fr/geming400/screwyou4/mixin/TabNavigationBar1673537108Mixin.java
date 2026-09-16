@@ -19,9 +19,21 @@ public class TabNavigationBar1673537108Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "narrationPriority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
+    private void narrationPriority_355493029(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(355493029L))
+            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.NONE);
+    }
+
     @Inject(at = @At("HEAD"), method = "nextFocusPath(Lnet/minecraft/client/gui/navigation/FocusNavigationEvent;)Lnet/minecraft/client/gui/ComponentPath;", cancellable = true)
     private void nextFocusPath__18055516(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-18055516L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRectangle()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void getRectangle_1425142867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1425142867L))
             info.setReturnValue(null);
     }
 
@@ -31,16 +43,16 @@ public class TabNavigationBar1673537108Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "narrationPriority()Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;", cancellable = true)
-    private void narrationPriority_355493029(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(355493029L))
-            info.setReturnValue(net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority.NONE);
+    @Inject(at = @At("HEAD"), method = "getTabs()Ljava/util/List;", cancellable = true)
+    private void getTabs_1780756088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1780756088L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRectangle()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void getRectangle_1425142867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1425142867L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "selectTab(IZ)V", cancellable = true)
+    private void selectTab__532918113(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-532918113L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "arrangeElements(I)V", cancellable = true)
@@ -61,6 +73,12 @@ public class TabNavigationBar1673537108Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1642483477(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1642483477L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "setFocused(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V", cancellable = true)
     private void setFocused__1410804321(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1410804321L))
@@ -71,24 +89,6 @@ public class TabNavigationBar1673537108Mixin {
     private void setFocused__704539130(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-704539130L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1642483477(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1642483477L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "selectTab(IZ)V", cancellable = true)
-    private void selectTab__532918113(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-532918113L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTabs()Ljava/util/List;", cancellable = true)
-    private void getTabs_1780756088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1780756088L))
-            info.setReturnValue(null);
     }
 
 

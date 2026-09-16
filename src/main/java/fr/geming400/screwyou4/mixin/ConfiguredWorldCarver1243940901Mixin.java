@@ -22,19 +22,13 @@ public class ConfiguredWorldCarver1243940901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1801292992(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1801292992L))
-            info.setReturnValue(-1097381943);
+            info.setReturnValue(-1343983543);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;", cancellable = true)
     private void config__978800583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-978800583L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "carve(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/Aquifer;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/CarvingMask;)Z", cancellable = true)
-    private void carve_512734682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(512734682L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
@@ -47,6 +41,12 @@ public class ConfiguredWorldCarver1243940901Mixin {
     private void worldCarver__1084463424(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1084463424L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "carve(Lnet/minecraft/world/level/levelgen/carver/CarvingContext;Lnet/minecraft/world/level/chunk/ChunkAccess;Ljava/util/function/Function;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/Aquifer;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/CarvingMask;)Z", cancellable = true)
+    private void carve_512734682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(512734682L))
+            info.setReturnValue(false);
     }
 
 

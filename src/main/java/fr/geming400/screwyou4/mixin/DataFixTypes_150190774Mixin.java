@@ -31,10 +31,10 @@ public class DataFixTypes_150190774Mixin {
             info.setReturnValue(net.minecraft.util.datafix.DataFixTypes.SAVED_DATA_ENDER_DRAGON_FIGHT);
     }
 
-    @Inject(at = @At("HEAD"), method = "wrapCodec(Lcom/mojang/serialization/Codec;Lcom/mojang/datafixers/DataFixer;I)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void wrapCodec__684860725(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-684860725L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void updateToCurrentVersion__1372247678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1372247678L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
     @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lcom/mojang/serialization/Dynamic;I)Lcom/mojang/serialization/Dynamic;", cancellable = true)
@@ -43,10 +43,10 @@ public class DataFixTypes_150190774Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateToCurrentVersion(Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/nbt/CompoundTag;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void updateToCurrentVersion__1372247678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1372247678L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    @Inject(at = @At("HEAD"), method = "wrapCodec(Lcom/mojang/serialization/Codec;Lcom/mojang/datafixers/DataFixer;I)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void wrapCodec__684860725(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-684860725L))
+            info.setReturnValue(null);
     }
 
 

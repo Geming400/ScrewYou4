@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.storage.loot.functions.CopyBlockState.class)
 public class CopyBlockState_210130361Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1276575614(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1276575614L))
+        @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_989633588(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(989633588L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_989633588(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(989633588L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1276575614(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1276575614L))
             info.setReturnValue(null);
     }
 

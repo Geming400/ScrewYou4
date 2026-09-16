@@ -31,15 +31,15 @@ public class ListPoolElement_1971626284Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setProjection(Lnet/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection;)Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElement;", cancellable = true)
-    private void setProjection__626181942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-626181942L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
     private void getShuffledJigsawBlocks_413804734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(413804734L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setProjection(Lnet/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection;)Lnet/minecraft/world/level/levelgen/structure/pools/StructurePoolElement;", cancellable = true)
+    private void setProjection__626181942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-626181942L))
             info.setReturnValue(null);
     }
 

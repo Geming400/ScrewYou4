@@ -25,18 +25,6 @@ public class SinglePoolElement1816141418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTemplateLocation_1980765814(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980765814L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDataMarkers(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Z)Ljava/util/List;", cancellable = true)
-    private void getDataMarkers__1659058716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1659058716L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
     private void getBoundingBox__563068408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563068408L))
@@ -53,6 +41,18 @@ public class SinglePoolElement1816141418Mixin {
     private void place_506279336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506279336L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDataMarkers(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Z)Ljava/util/List;", cancellable = true)
+    private void getDataMarkers__1659058716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1659058716L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTemplateLocation_1980765814(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980765814L))
+            info.setReturnValue(null);
     }
 
 

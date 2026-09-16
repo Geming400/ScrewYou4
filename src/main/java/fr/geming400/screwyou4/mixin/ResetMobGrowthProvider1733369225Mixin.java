@@ -22,7 +22,13 @@ public class ResetMobGrowthProvider1733369225Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2004245980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2004245980L))
-            info.setReturnValue(-742093949);
+            info.setReturnValue(-774552849);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)
+    private void sprite_30010788(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(30010788L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
@@ -34,12 +40,6 @@ public class ResetMobGrowthProvider1733369225Mixin {
     @Inject(at = @At("HEAD"), method = "createParticle(Lnet/minecraft/core/particles/ParticleOptions;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;", cancellable = true)
     private void createParticle__1240183994(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1240183994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/client/particle/SpriteSet;", cancellable = true)
-    private void sprite_30010788(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(30010788L))
             info.setReturnValue(null);
     }
 

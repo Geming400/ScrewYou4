@@ -19,28 +19,28 @@ public class BowItem264058735Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
-    private void releaseUsing_1996248342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1996248342L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private void getUseDuration_2055936837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2055936837L))
-            info.setReturnValue(-485404504);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPowerForTime(I)F", cancellable = true)
     private static void getPowerForTime_899908394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(899908394L))
-            info.setReturnValue(5.331236E8F);
+            info.setReturnValue(7.42978E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getDefaultProjectileRange()I", cancellable = true)
     private void getDefaultProjectileRange__1002046548(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1002046548L))
-            info.setReturnValue(-1582176071);
+            info.setReturnValue(-1372321671);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private void getUseDuration_2055936837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2055936837L))
+            info.setReturnValue(-275550104);
+    }
+
+    @Inject(at = @At("HEAD"), method = "releaseUsing(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;I)Z", cancellable = true)
+    private void releaseUsing_1996248342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1996248342L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemUseAnimation;", cancellable = true)

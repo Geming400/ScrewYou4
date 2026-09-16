@@ -22,7 +22,7 @@ public class SectionUpdateRenderState1706390225Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2031224980(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2031224980L))
-            info.setReturnValue(1881075663);
+            info.setReturnValue(1626014463);
     }
 
     @Inject(at = @At("HEAD"), method = "region()Lnet/minecraft/client/renderer/chunk/RenderSectionRegion;", cancellable = true)
@@ -40,7 +40,7 @@ public class SectionUpdateRenderState1706390225Mixin {
     @Inject(at = @At("HEAD"), method = "sectionNode()J", cancellable = true)
     private void sectionNode__661478831(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-661478831L))
-            info.setReturnValue(8073023803813849674L);
+            info.setReturnValue(8073023803558788474L);
     }
 
 

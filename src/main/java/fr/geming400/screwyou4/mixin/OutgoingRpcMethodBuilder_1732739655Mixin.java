@@ -25,15 +25,15 @@ public class OutgoingRpcMethodBuilder_1732739655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/OutgoingRpcMethod$OutgoingRpcMethodBuilder;", cancellable = true)
-    private void allowPreServerInit_609235400(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(609235400L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "response(Ljava/lang/String;Lnet/minecraft/server/jsonrpc/api/Schema;)Lnet/minecraft/server/jsonrpc/OutgoingRpcMethod$OutgoingRpcMethodBuilder;", cancellable = true)
     private void response_373325667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(373325667L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "allowPreServerInit()Lnet/minecraft/server/jsonrpc/OutgoingRpcMethod$OutgoingRpcMethodBuilder;", cancellable = true)
+    private void allowPreServerInit_609235400(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(609235400L))
             info.setReturnValue(null);
     }
 

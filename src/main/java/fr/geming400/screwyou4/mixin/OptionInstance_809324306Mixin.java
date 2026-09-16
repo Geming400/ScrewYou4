@@ -31,15 +31,15 @@ public class OptionInstance_809324306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;Lnet/minecraft/client/OptionInstance$CaptionBasedToString;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean__128619140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-128619140L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void codec__995385235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-995385235L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Z)Lnet/minecraft/client/OptionInstance;", cancellable = true)
-    private static void createBoolean__1897485825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1897485825L))
+    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Lnet/minecraft/client/OptionInstance$TooltipSupplier;Lnet/minecraft/client/OptionInstance$CaptionBasedToString;ZLnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/OptionInstance;", cancellable = true)
+    private static void createBoolean__128619140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-128619140L))
             info.setReturnValue(null);
     }
 
@@ -61,21 +61,27 @@ public class OptionInstance_809324306Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createBoolean(Ljava/lang/String;Z)Lnet/minecraft/client/OptionInstance;", cancellable = true)
+    private static void createBoolean__1897485825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1897485825L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "cachedConstantTooltip(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/OptionInstance$TooltipSupplier;", cancellable = true)
     private static void cachedConstantTooltip_1117214815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1117214815L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;IIILnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
-    private void createButton__2023905833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2023905833L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;III)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
     private void createButton__318559746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-318559746L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createButton(Lnet/minecraft/client/Options;IIILnet/minecraft/client/OptionInstance$ValueUpdateListener;)Lnet/minecraft/client/gui/components/AbstractWidget;", cancellable = true)
+    private void createButton__2023905833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2023905833L))
             info.setReturnValue(null);
     }
 
@@ -88,12 +94,6 @@ public class OptionInstance_809324306Mixin {
     @Inject(at = @At("HEAD"), method = "noTooltip()Lnet/minecraft/client/OptionInstance$TooltipSupplier;", cancellable = true)
     private static void noTooltip_1544061542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1544061542L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void codec__995385235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-995385235L))
             info.setReturnValue(null);
     }
 

@@ -13,12 +13,6 @@ public class FlyingPathNavigation_750335172Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createPath(Lnet/minecraft/world/entity/Entity;I)Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)
-    private void createPath__859510343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-859510343L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStableDestination(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void isStableDestination_696403927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(696403927L))
@@ -29,6 +23,12 @@ public class FlyingPathNavigation_750335172Mixin {
     private void canNavigateGround_1889035570(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1889035570L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createPath(Lnet/minecraft/world/entity/Entity;I)Lnet/minecraft/world/level/pathfinder/Path;", cancellable = true)
+    private void createPath__859510343(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-859510343L))
+            info.setReturnValue(null);
     }
 
 

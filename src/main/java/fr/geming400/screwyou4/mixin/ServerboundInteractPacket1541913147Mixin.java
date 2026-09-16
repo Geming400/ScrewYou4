@@ -28,7 +28,7 @@ public class ServerboundInteractPacket1541913147Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2099265238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2099265238L))
-            info.setReturnValue(404698124);
+            info.setReturnValue(-39696076);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
@@ -64,7 +64,7 @@ public class ServerboundInteractPacket1541913147Mixin {
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId_2024970883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024970883L))
-            info.setReturnValue(-99238247);
+            info.setReturnValue(-543632447);
     }
 
 

@@ -28,7 +28,7 @@ public class ReasonSelectionList_1521349132Mixin {
     @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
     private void getRowWidth__271872081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-271872081L))
-            info.setReturnValue(1773675784);
+            info.setReturnValue(1756008584);
     }
 
 

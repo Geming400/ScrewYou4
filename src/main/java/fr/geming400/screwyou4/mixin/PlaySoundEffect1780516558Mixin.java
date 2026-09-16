@@ -22,7 +22,7 @@ public class PlaySoundEffect1780516558Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1957098647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1957098647L))
-            info.setReturnValue(1784094479);
+            info.setReturnValue(2008641679);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -37,9 +37,9 @@ public class PlaySoundEffect1780516558Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "soundEvents()Ljava/util/List;", cancellable = true)
-    private void soundEvents__1835864058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1835864058L))
+    @Inject(at = @At("HEAD"), method = "pitch()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
+    private void pitch__694675318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-694675318L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class PlaySoundEffect1780516558Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pitch()Lnet/minecraft/util/valueproviders/FloatProvider;", cancellable = true)
-    private void pitch__694675318(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-694675318L))
+    @Inject(at = @At("HEAD"), method = "soundEvents()Ljava/util/List;", cancellable = true)
+    private void soundEvents__1835864058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1835864058L))
             info.setReturnValue(null);
     }
 

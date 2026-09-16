@@ -16,7 +16,7 @@ public class ProtoChunkTicks1116454051Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_28283610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(28283610L))
-            info.setReturnValue(-132063647);
+            info.setReturnValue(383498653);
     }
 
     @Inject(at = @At("HEAD"), method = "schedule(Lnet/minecraft/world/ticks/ScheduledTick;)V", cancellable = true)

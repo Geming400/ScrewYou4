@@ -25,15 +25,15 @@ public class SlotsArgument106389028Mixin {
             info.setReturnValue(new net.minecraft.commands.arguments.SlotsArgument());
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions__645168763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-645168763L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples_1831003027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831003027L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions__645168763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-645168763L))
             info.setReturnValue(null);
     }
 

@@ -22,13 +22,19 @@ public class CuboidFace_1347732701Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1905084791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905084791L))
-            info.setReturnValue(5855624);
+            info.setReturnValue(350051124);
     }
 
     @Inject(at = @At("HEAD"), method = "getU(Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;Lcom/mojang/math/Quadrant;I)F", cancellable = true)
     private static void getU_1489455039(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1489455039L))
-            info.setReturnValue(3.17977E8F);
+            info.setReturnValue(6.621725E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uvs()Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;", cancellable = true)
+    private void uvs_488143778(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(488143778L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "cullForDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -37,10 +43,10 @@ public class CuboidFace_1347732701Mixin {
             info.setReturnValue(net.minecraft.core.Direction.UP);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/Quadrant;", cancellable = true)
-    private void rotation__1907318924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1907318924L))
-            info.setReturnValue(com.mojang.math.Quadrant.R0);
+    @Inject(at = @At("HEAD"), method = "tintIndex()I", cancellable = true)
+    private void tintIndex__491186549(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-491186549L))
+            info.setReturnValue(-774348190);
     }
 
     @Inject(at = @At("HEAD"), method = "texture()Ljava/lang/String;", cancellable = true)
@@ -52,19 +58,13 @@ public class CuboidFace_1347732701Mixin {
     @Inject(at = @At("HEAD"), method = "getV(Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;Lcom/mojang/math/Quadrant;I)F", cancellable = true)
     private static void getV_1047700544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1047700544L))
-            info.setReturnValue(3.17977E8F);
+            info.setReturnValue(6.621725E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "tintIndex()I", cancellable = true)
-    private void tintIndex__491186549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-491186549L))
-            info.setReturnValue(-1118543690);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uvs()Lnet/minecraft/client/resources/model/cuboid/CuboidFace$UVs;", cancellable = true)
-    private void uvs_488143778(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(488143778L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "rotation()Lcom/mojang/math/Quadrant;", cancellable = true)
+    private void rotation__1907318924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1907318924L))
+            info.setReturnValue(com.mojang.math.Quadrant.R0);
     }
 
 

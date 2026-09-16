@@ -28,19 +28,19 @@ public class MapColor453870471Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1011222562(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1011222562L))
-            info.setReturnValue(1156593386);
+            info.setReturnValue(1033880186);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate__766534813(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-766534813L))
-            info.setReturnValue(-1539071982);
+            info.setReturnValue(-1661785182);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_2003232011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003232011L))
-            info.setReturnValue(1156101133);
+            info.setReturnValue(1033387933);
     }
 
 

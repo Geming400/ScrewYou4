@@ -25,16 +25,16 @@ public class DragonStrafePlayerPhase_1146249302Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getFlyTargetLocation__687030165(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-687030165L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "doServerTick(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
     private void doServerTick__1150031794(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1150031794L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyTargetLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getFlyTargetLocation__687030165(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-687030165L))
+            info.setReturnValue(null);
     }
 
 

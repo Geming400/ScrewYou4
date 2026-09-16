@@ -19,15 +19,9 @@ public class Builder_1135007148Mixin {
             info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setDepthLimitBehavior(Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
-    private void setDepthLimitBehavior__1395181368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1395181368L))
-            info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDepthLimit(I)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
-    private void setDepthLimit_1954399502(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954399502L))
+    @Inject(at = @At("HEAD"), method = "withEntityOverride(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
+    private void withEntityOverride__92604525(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-92604525L))
             info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
     }
 
@@ -37,9 +31,15 @@ public class Builder_1135007148Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withEntityOverride(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
-    private void withEntityOverride__92604525(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-92604525L))
+    @Inject(at = @At("HEAD"), method = "setDepthLimit(I)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
+    private void setDepthLimit_1954399502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1954399502L))
+            info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDepthLimitBehavior(Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
+    private void setDepthLimitBehavior__1395181368(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1395181368L))
             info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
     }
 

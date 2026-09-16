@@ -10,7 +10,7 @@ public class DataLayer2046976121Mixin {
         @Inject(at = @At("HEAD"), method = "get(III)I", cancellable = true)
     private void get__1014840050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1014840050L))
-            info.setReturnValue(1103623644);
+            info.setReturnValue(918726244);
     }
 
     @Inject(at = @At("HEAD"), method = "toString()Ljava/lang/String;", cancellable = true)
@@ -49,6 +49,12 @@ public class DataLayer2046976121Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
+    private void isDefinitelyFilledWith__342521128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-342521128L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "layerToString(I)Ljava/lang/String;", cancellable = true)
     private void layerToString_2084048172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2084048172L))
@@ -59,12 +65,6 @@ public class DataLayer2046976121Mixin {
     private void isDefinitelyHomogenous__69178365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-69178365L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isDefinitelyFilledWith(I)Z", cancellable = true)
-    private void isDefinitelyFilledWith__342521128(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-342521128L))
-            info.setReturnValue(true);
     }
 
 

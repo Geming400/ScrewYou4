@@ -25,28 +25,16 @@ public class SculkSpreader2078238678Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addCursors(Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
-    private void addCursors_1972589106(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1972589106L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "growthSpawnCost()I", cancellable = true)
+    private void growthSpawnCost__974531973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-974531973L))
+            info.setReturnValue(1139852414);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateCursors(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Z)V", cancellable = true)
-    private void updateCursors__1426724213(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1426724213L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/tags/TagKey;", cancellable = true)
-    private void replaceableBlocks__2064595265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2064595265L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWorldGenSpreader()Lnet/minecraft/world/level/block/SculkSpreader;", cancellable = true)
-    private static void createWorldGenSpreader__106548462(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-106548462L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "chargeDecayRate()I", cancellable = true)
+    private void chargeDecayRate__1380468202(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1380468202L))
+            info.setReturnValue(-2082366316);
     }
 
     @Inject(at = @At("HEAD"), method = "isWorldGeneration()Z", cancellable = true)
@@ -55,28 +43,40 @@ public class SculkSpreader2078238678Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "growthSpawnCost()I", cancellable = true)
-    private void growthSpawnCost__974531973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-974531973L))
-            info.setReturnValue(580378314);
-    }
-
     @Inject(at = @At("HEAD"), method = "noGrowthRadius()I", cancellable = true)
     private void noGrowthRadius__887628702(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-887628702L))
-            info.setReturnValue(-270060939);
+            info.setReturnValue(289413161);
     }
 
     @Inject(at = @At("HEAD"), method = "additionalDecayRate()I", cancellable = true)
     private void additionalDecayRate__1258714551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1258714551L))
-            info.setReturnValue(1972890615);
+            info.setReturnValue(-1762602581);
     }
 
-    @Inject(at = @At("HEAD"), method = "chargeDecayRate()I", cancellable = true)
-    private void chargeDecayRate__1380468202(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1380468202L))
-            info.setReturnValue(1653126880);
+    @Inject(at = @At("HEAD"), method = "replaceableBlocks()Lnet/minecraft/tags/TagKey;", cancellable = true)
+    private void replaceableBlocks__2064595265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2064595265L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateCursors(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;Z)V", cancellable = true)
+    private void updateCursors__1426724213(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1426724213L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addCursors(Lnet/minecraft/core/BlockPos;I)V", cancellable = true)
+    private void addCursors_1972589106(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1972589106L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWorldGenSpreader()Lnet/minecraft/world/level/block/SculkSpreader;", cancellable = true)
+    private static void createWorldGenSpreader__106548462(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-106548462L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCursors()Ljava/util/List;", cancellable = true)

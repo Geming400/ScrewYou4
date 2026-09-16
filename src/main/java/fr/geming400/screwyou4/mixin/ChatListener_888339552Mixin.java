@@ -10,12 +10,24 @@ public class ChatListener_888339552Mixin {
         @Inject(at = @At("HEAD"), method = "queueSize()J", cancellable = true)
     private void queueSize__231376748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-231376748L))
-            info.setReturnValue(-1357807763859090555L);
+            info.setReturnValue(-1357807763812103255L);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
     private void tick_758655893(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(758655893L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleSystemMessage(Lnet/minecraft/network/chat/Component;Z)V", cancellable = true)
+    private void handleSystemMessage__1398056424(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1398056424L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleOverlay(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void handleOverlay__1143060962(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1143060962L))
             info.cancel();
     }
 
@@ -37,15 +49,15 @@ public class ChatListener_888339552Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "handleChatMessageError(Ljava/util/UUID;Lnet/minecraft/network/chat/MessageSignature;Lnet/minecraft/network/chat/ChatType$Bound;)V", cancellable = true)
-    private void handleChatMessageError__461308694(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-461308694L))
+    @Inject(at = @At("HEAD"), method = "flushQueue()V", cancellable = true)
+    private void flushQueue_633147077(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(633147077L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleDisguisedChatMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)V", cancellable = true)
-    private void handleDisguisedChatMessage__1411041831(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1411041831L))
+    @Inject(at = @At("HEAD"), method = "handleChatMessageError(Ljava/util/UUID;Lnet/minecraft/network/chat/MessageSignature;Lnet/minecraft/network/chat/ChatType$Bound;)V", cancellable = true)
+    private void handleChatMessageError__461308694(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-461308694L))
             info.cancel();
     }
 
@@ -55,21 +67,9 @@ public class ChatListener_888339552Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleSystemMessage(Lnet/minecraft/network/chat/Component;Z)V", cancellable = true)
-    private void handleSystemMessage__1398056424(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1398056424L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleOverlay(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void handleOverlay__1143060962(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1143060962L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "flushQueue()V", cancellable = true)
-    private void flushQueue_633147077(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(633147077L))
+    @Inject(at = @At("HEAD"), method = "handleDisguisedChatMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/ChatType$Bound;)V", cancellable = true)
+    private void handleDisguisedChatMessage__1411041831(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1411041831L))
             info.cancel();
     }
 

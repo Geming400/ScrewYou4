@@ -19,9 +19,9 @@ public class BlendingData2115412019Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOrUpdateBlendingData(Lnet/minecraft/server/level/WorldGenRegion;II)Lnet/minecraft/world/level/levelgen/blending/BlendingData;", cancellable = true)
-    private static void getOrUpdateBlendingData_66028936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(66028936L))
+    @Inject(at = @At("HEAD"), method = "sideByGenerationAge(Lnet/minecraft/world/level/WorldGenLevel;IIZ)Ljava/util/Set;", cancellable = true)
+    private static void sideByGenerationAge__638554895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-638554895L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class BlendingData2115412019Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sideByGenerationAge(Lnet/minecraft/world/level/WorldGenLevel;IIZ)Ljava/util/Set;", cancellable = true)
-    private static void sideByGenerationAge__638554895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-638554895L))
+    @Inject(at = @At("HEAD"), method = "getOrUpdateBlendingData(Lnet/minecraft/server/level/WorldGenRegion;II)Lnet/minecraft/world/level/levelgen/blending/BlendingData;", cancellable = true)
+    private static void getOrUpdateBlendingData_66028936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(66028936L))
             info.setReturnValue(null);
     }
 

@@ -13,9 +13,15 @@ public class WorldOpenFlows43455885Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "confirmWorldCreation(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;Lcom/mojang/serialization/Lifecycle;Ljava/lang/Runnable;Z)V", cancellable = true)
-    private static void confirmWorldCreation_934140756(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(934140756L))
+    @Inject(at = @At("HEAD"), method = "createLevelFromExistingSettings(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/server/ReloadableServerResources;Lnet/minecraft/core/LayeredRegistryAccess;Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;Ljava/util/Optional;)V", cancellable = true)
+    private void createLevelFromExistingSettings_1533432752(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1533432752L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "openWorld(Ljava/lang/String;Ljava/lang/Runnable;)V", cancellable = true)
+    private void openWorld_871952736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(871952736L))
             info.cancel();
     }
 
@@ -31,15 +37,9 @@ public class WorldOpenFlows43455885Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createLevelFromExistingSettings(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/server/ReloadableServerResources;Lnet/minecraft/core/LayeredRegistryAccess;Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;Ljava/util/Optional;)V", cancellable = true)
-    private void createLevelFromExistingSettings_1533432752(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1533432752L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "openWorld(Ljava/lang/String;Ljava/lang/Runnable;)V", cancellable = true)
-    private void openWorld_871952736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(871952736L))
+    @Inject(at = @At("HEAD"), method = "confirmWorldCreation(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/worldselection/CreateWorldScreen;Lcom/mojang/serialization/Lifecycle;Ljava/lang/Runnable;Z)V", cancellable = true)
+    private static void confirmWorldCreation_934140756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(934140756L))
             info.cancel();
     }
 

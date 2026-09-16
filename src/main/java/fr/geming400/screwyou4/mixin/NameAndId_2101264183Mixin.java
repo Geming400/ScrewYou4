@@ -28,7 +28,7 @@ public class NameAndId_2101264183Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1636351023(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1636351023L))
-            info.setReturnValue(-993774144);
+            info.setReturnValue(-1672104144);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/util/UUID;", cancellable = true)
@@ -43,15 +43,15 @@ public class NameAndId_2101264183Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/JsonObject;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
-    private static void fromJson__1695574640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1695574640L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createOffline(Ljava/lang/String;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
     private static void createOffline__253160377(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-253160377L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromJson(Lcom/google/gson/JsonObject;)Lnet/minecraft/server/players/NameAndId;", cancellable = true)
+    private static void fromJson__1695574640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1695574640L))
             info.setReturnValue(null);
     }
 

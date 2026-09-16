@@ -28,7 +28,7 @@ public class ServerboundPlayerActionPacket542581228Mixin {
     @Inject(at = @At("HEAD"), method = "getSequence()I", cancellable = true)
     private void getSequence__1348997893(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1348997893L))
-            info.setReturnValue(-1555827046);
+            info.setReturnValue(-1290389346);
     }
 
     @Inject(at = @At("HEAD"), method = "getDirection()Lnet/minecraft/core/Direction;", cancellable = true)

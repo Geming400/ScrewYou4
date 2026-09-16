@@ -28,7 +28,7 @@ public class Enum643981157Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1201333248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1201333248L))
-            info.setReturnValue(-179834172);
+            info.setReturnValue(-87069472);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -37,15 +37,15 @@ public class Enum643981157Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier_1000881428(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1000881428L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec__1160728383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1160728383L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier_1000881428(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1000881428L))
             info.setReturnValue(null);
     }
 

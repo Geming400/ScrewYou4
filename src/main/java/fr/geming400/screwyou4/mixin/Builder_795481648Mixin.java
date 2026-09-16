@@ -19,15 +19,15 @@ public class Builder_795481648Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/util/context/ContextMap$Builder;", cancellable = true)
-    private void withOptionalParameter_1950091779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1950091779L))
-            info.setReturnValue(new net.minecraft.util.context.ContextMap.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "withParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/util/context/ContextMap$Builder;", cancellable = true)
     private void withParameter__28335229(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-28335229L))
+            info.setReturnValue(new net.minecraft.util.context.ContextMap.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "withOptionalParameter(Lnet/minecraft/util/context/ContextKey;Ljava/lang/Object;)Lnet/minecraft/util/context/ContextMap$Builder;", cancellable = true)
+    private void withOptionalParameter_1950091779(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1950091779L))
             info.setReturnValue(new net.minecraft.util.context.ContextMap.Builder());
     }
 

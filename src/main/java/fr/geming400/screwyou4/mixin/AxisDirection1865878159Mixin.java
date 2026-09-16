@@ -22,7 +22,7 @@ public class AxisDirection1865878159Mixin {
     @Inject(at = @At("HEAD"), method = "getStep()I", cancellable = true)
     private void getStep__1146705293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1146705293L))
-            info.setReturnValue(1080025057);
+            info.setReturnValue(1459409257);
     }
 
 

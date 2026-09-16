@@ -22,19 +22,19 @@ public class SectionDraw_682401471Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1239753561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1239753561L))
-            info.setReturnValue(-1166835787);
+            info.setReturnValue(-1463900487);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
+    private void indexCount_1181096807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181096807L))
+            info.setReturnValue(852652080);
     }
 
     @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
     private void indexType__609978921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-609978921L))
             info.setReturnValue(com.mojang.blaze3d.IndexType.SHORT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
-    private void indexCount_1181096807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181096807L))
-            info.setReturnValue(1149716780);
     }
 
     @Inject(at = @At("HEAD"), method = "hasCustomIndexBuffer()Z", cancellable = true)

@@ -67,22 +67,10 @@ public class PoiManager1701902643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/Optional;", cancellable = true)
-    private void findClosest__249524625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-249524625L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/Optional;", cancellable = true)
-    private void findClosest__1520861730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1520861730L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sectionsToVillage(Lnet/minecraft/core/SectionPos;)I", cancellable = true)
-    private void sectionsToVillage_1783323368(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1783323368L))
-            info.setReturnValue(198145450);
+    @Inject(at = @At("HEAD"), method = "existsAtPosition(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void existsAtPosition__2669630(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2669630L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "findClosestWithType(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/Optional;", cancellable = true)
@@ -91,21 +79,21 @@ public class PoiManager1701902643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findAllWithType(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
-    private void findAllWithType_1221423570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1221423570L))
+    @Inject(at = @At("HEAD"), method = "sectionsToVillage(Lnet/minecraft/core/SectionPos;)I", cancellable = true)
+    private void sectionsToVillage_1783323368(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1783323368L))
+            info.setReturnValue(185433650);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/Optional;", cancellable = true)
+    private void findClosest__1520861730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1520861730L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/util/debug/DebugPoiInfo;", cancellable = true)
-    private void getDebugPoiInfo_1203694700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1203694700L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getInChunk(Ljava/util/function/Predicate;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
-    private void getInChunk_342520160(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(342520160L))
+    @Inject(at = @At("HEAD"), method = "findClosest(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/Optional;", cancellable = true)
+    private void findClosest__249524625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-249524625L))
             info.setReturnValue(null);
     }
 
@@ -115,21 +103,9 @@ public class PoiManager1701902643Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findAllClosestFirstWithType(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
-    private void findAllClosestFirstWithType__492911877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-492911877L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCountInRange(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)J", cancellable = true)
-    private void getCountInRange_498736062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(498736062L))
-            info.setReturnValue(-6241341914691184086L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getInSquare(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
-    private void getInSquare__759899629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-759899629L))
+    @Inject(at = @At("HEAD"), method = "findAllWithType(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
+    private void findAllWithType_1221423570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1221423570L))
             info.setReturnValue(null);
     }
 
@@ -145,10 +121,34 @@ public class PoiManager1701902643Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "existsAtPosition(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void existsAtPosition__2669630(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2669630L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getCountInRange(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)J", cancellable = true)
+    private void getCountInRange_498736062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(498736062L))
+            info.setReturnValue(-6241341914703895886L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInSquare(Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
+    private void getInSquare__759899629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759899629L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDebugPoiInfo(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/util/debug/DebugPoiInfo;", cancellable = true)
+    private void getDebugPoiInfo_1203694700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1203694700L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "findAllClosestFirstWithType(Ljava/util/function/Predicate;Ljava/util/function/Predicate;Lnet/minecraft/core/BlockPos;ILnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
+    private void findAllClosestFirstWithType__492911877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-492911877L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getInChunk(Ljava/util/function/Predicate;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy;)Ljava/util/stream/Stream;", cancellable = true)
+    private void getInChunk_342520160(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(342520160L))
+            info.setReturnValue(null);
     }
 
 

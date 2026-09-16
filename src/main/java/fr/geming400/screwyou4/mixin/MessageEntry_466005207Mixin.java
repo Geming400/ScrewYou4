@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.reporting.ChatSelectionScreen.ChatSelectionList.MessageEntry.class)
 public class MessageEntry_466005207Mixin {
-        @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__74500970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-74500970L))
-            info.setReturnValue(true);
+        @Inject(at = @At("HEAD"), method = "isSelected()Z", cancellable = true)
+    private void isSelected__256995384(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-256995384L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -19,21 +19,9 @@ public class MessageEntry_466005207Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSelected()Z", cancellable = true)
-    private void isSelected__256995384(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-256995384L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
-    private void extractContent_980762690(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(980762690L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canReport()Z", cancellable = true)
-    private void canReport_1947513833(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1947513833L))
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__74500970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-74500970L))
             info.setReturnValue(true);
     }
 
@@ -47,6 +35,18 @@ public class MessageEntry_466005207Mixin {
     private void canSelect__1885441759(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1885441759L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canReport()Z", cancellable = true)
+    private void canReport_1947513833(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1947513833L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
+    private void extractContent_980762690(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(980762690L))
+            info.cancel();
     }
 
 

@@ -19,15 +19,15 @@ public class ScreenEffectRenderer_170495290Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "displayItemActivation(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void displayItemActivation_423762994(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(423762994L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "resetItemActivation()V", cancellable = true)
     private void resetItemActivation__2011080908(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2011080908L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "displayItemActivation(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void displayItemActivation_423762994(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(423762994L))
             info.cancel();
     }
 

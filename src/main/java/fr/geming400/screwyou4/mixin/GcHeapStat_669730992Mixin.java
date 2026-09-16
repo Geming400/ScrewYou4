@@ -22,7 +22,7 @@ public class GcHeapStat_669730992Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1227083082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227083082L))
-            info.setReturnValue(-1588699758);
+            info.setReturnValue(-1832293258);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat;", cancellable = true)
@@ -52,7 +52,7 @@ public class GcHeapStat_669730992Mixin {
     @Inject(at = @At("HEAD"), method = "heapUsed()J", cancellable = true)
     private void heapUsed__777568211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-777568211L))
-            info.setReturnValue(-7323066765933861289L);
+            info.setReturnValue(-7323066766177454789L);
     }
 
 

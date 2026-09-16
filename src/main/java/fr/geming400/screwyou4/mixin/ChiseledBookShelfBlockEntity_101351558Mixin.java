@@ -7,22 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.ChiseledBookShelfBlockEntity.class)
 public class ChiseledBookShelfBlockEntity_101351558Mixin {
-        @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
-    private void getMaxStackSize__1034895568(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1034895568L))
-            info.setReturnValue(1206097543);
-    }
-
-    @Inject(at = @At("HEAD"), method = "acceptsItemType(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void acceptsItemType_1570708713(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1570708713L))
+        @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1932559613(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1932559613L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLastInteractedSlot()I", cancellable = true)
-    private void getLastInteractedSlot_2072598188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2072598188L))
-            info.setReturnValue(879637333);
+    @Inject(at = @At("HEAD"), method = "canTakeItem(Lnet/minecraft/world/Container;ILnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void canTakeItem__2092095767(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2092095767L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setItem(ILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -31,9 +25,21 @@ public class ChiseledBookShelfBlockEntity_101351558Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1932559613(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1932559613L))
+    @Inject(at = @At("HEAD"), method = "getMaxStackSize()I", cancellable = true)
+    private void getMaxStackSize__1034895568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1034895568L))
+            info.setReturnValue(1890582943);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastInteractedSlot()I", cancellable = true)
+    private void getLastInteractedSlot_2072598188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2072598188L))
+            info.setReturnValue(1564122733);
+    }
+
+    @Inject(at = @At("HEAD"), method = "acceptsItemType(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void acceptsItemType_1570708713(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1570708713L))
             info.setReturnValue(true);
     }
 
@@ -47,12 +53,6 @@ public class ChiseledBookShelfBlockEntity_101351558Mixin {
     private void removeComponentsFromTag__11476701(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-11476701L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTakeItem(Lnet/minecraft/world/Container;ILnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void canTakeItem__2092095767(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2092095767L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "removeItem(II)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

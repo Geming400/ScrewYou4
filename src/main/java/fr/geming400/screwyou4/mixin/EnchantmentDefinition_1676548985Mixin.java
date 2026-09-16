@@ -22,7 +22,7 @@ public class EnchantmentDefinition_1676548985Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2061066221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2061066221L))
-            info.setReturnValue(-1992575111);
+            info.setReturnValue(-2130530211);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Ljava/util/List;", cancellable = true)
@@ -34,19 +34,13 @@ public class EnchantmentDefinition_1676548985Mixin {
     @Inject(at = @At("HEAD"), method = "maxLevel()I", cancellable = true)
     private void maxLevel_658242782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(658242782L))
-            info.setReturnValue(-149938061);
+            info.setReturnValue(-287893161);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight__593266202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-593266202L))
-            info.setReturnValue(471452221);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxCost()Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
-    private void maxCost__667686994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-667686994L))
-            info.setReturnValue(null);
+            info.setReturnValue(333497121);
     }
 
     @Inject(at = @At("HEAD"), method = "minCost()Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
@@ -55,21 +49,27 @@ public class EnchantmentDefinition_1676548985Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "maxCost()Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
+    private void maxCost__667686994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-667686994L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "anvilCost()I", cancellable = true)
     private void anvilCost__2044613051(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2044613051L))
-            info.setReturnValue(1762925047);
-    }
-
-    @Inject(at = @At("HEAD"), method = "primaryItems()Ljava/util/Optional;", cancellable = true)
-    private void primaryItems__1411076604(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1411076604L))
-            info.setReturnValue(null);
+            info.setReturnValue(1624969947);
     }
 
     @Inject(at = @At("HEAD"), method = "supportedItems()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void supportedItems__1936518082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1936518082L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primaryItems()Ljava/util/Optional;", cancellable = true)
+    private void primaryItems__1411076604(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1411076604L))
             info.setReturnValue(null);
     }
 

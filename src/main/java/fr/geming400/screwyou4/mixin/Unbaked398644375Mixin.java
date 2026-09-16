@@ -28,13 +28,13 @@ public class Unbaked398644375Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_955996466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955996466L))
-            info.setReturnValue(-721939297);
+            info.setReturnValue(-615602797);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()F", cancellable = true)
     private void scale__2025073616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2025073616L))
-            info.setReturnValue(3.192896E8F);
+            info.setReturnValue(4.256261E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "entries()Ljava/util/List;", cancellable = true)

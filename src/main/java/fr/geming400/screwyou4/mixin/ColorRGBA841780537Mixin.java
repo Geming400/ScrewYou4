@@ -22,13 +22,13 @@ public class ColorRGBA841780537Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399132628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399132628L))
-            info.setReturnValue(-148090014);
+            info.setReturnValue(270541586);
     }
 
     @Inject(at = @At("HEAD"), method = "rgba()I", cancellable = true)
     private void rgba__332422549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-332422549L))
-            info.setReturnValue(1028015185);
+            info.setReturnValue(1446646785);
     }
 
 

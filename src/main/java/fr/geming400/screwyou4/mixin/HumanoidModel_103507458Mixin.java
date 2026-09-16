@@ -25,22 +25,22 @@ public class HumanoidModel_103507458Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createBabyArmorMeshSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
-    private static void createBabyArmorMeshSet__1220391939(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1220391939L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createArmorMeshSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
     private static void createArmorMeshSet_1925485173(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1925485173L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
-    private void setupAnim_787156002(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(787156002L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createBabyArmorMeshSet(Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/builders/CubeDeformation;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/renderer/entity/ArmorModelSet;", cancellable = true)
+    private static void createBabyArmorMeshSet__1220391939(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1220391939L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMesh(Lnet/minecraft/client/model/geom/builders/CubeDeformation;F)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
+    private static void createMesh_1371041364(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1371041364L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Lnet/minecraft/client/renderer/entity/state/HumanoidRenderState;)V", cancellable = true)
@@ -49,10 +49,10 @@ public class HumanoidModel_103507458Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createMesh(Lnet/minecraft/client/model/geom/builders/CubeDeformation;F)Lnet/minecraft/client/model/geom/builders/MeshDefinition;", cancellable = true)
-    private static void createMesh_1371041364(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1371041364L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)
+    private void setupAnim_787156002(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(787156002L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getArm(Lnet/minecraft/world/entity/HumanoidArm;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)

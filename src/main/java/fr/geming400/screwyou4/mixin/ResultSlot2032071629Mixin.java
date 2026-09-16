@@ -13,12 +13,6 @@ public class ResultSlot2032071629Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "safeClone(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void safeClone_1143252326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1143252326L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void mayPlace__1164320953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1164320953L))
@@ -29,6 +23,12 @@ public class ResultSlot2032071629Mixin {
     private void onTake__50332454(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-50332454L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "safeClone(Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void safeClone_1143252326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1143252326L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isFake()Z", cancellable = true)

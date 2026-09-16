@@ -25,12 +25,6 @@ public class SnifferEggBlock1007869173Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPathfindable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/pathfinder/PathComputationType;)Z", cancellable = true)
-    private void isPathfindable__830396524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-830396524L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V", cancellable = true)
     private void onPlace_882270999(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(882270999L))
@@ -40,7 +34,13 @@ public class SnifferEggBlock1007869173Mixin {
     @Inject(at = @At("HEAD"), method = "getHatchLevel(Lnet/minecraft/world/level/block/state/BlockState;)I", cancellable = true)
     private void getHatchLevel__762211920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-762211920L))
-            info.setReturnValue(1361573088);
+            info.setReturnValue(1462800988);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPathfindable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/pathfinder/PathComputationType;)Z", cancellable = true)
+    private void isPathfindable__830396524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-830396524L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hatchBoost(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)

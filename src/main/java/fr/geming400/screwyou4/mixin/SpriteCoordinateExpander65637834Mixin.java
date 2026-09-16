@@ -25,12 +25,6 @@ public class SpriteCoordinateExpander65637834Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setNormal(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
-    private void setNormal__235870145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-235870145L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addVertex(FFFIFFIIFFF)V", cancellable = true)
     private void addVertex__1132183531(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1132183531L))
@@ -49,15 +43,21 @@ public class SpriteCoordinateExpander65637834Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setUv2(II)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
-    private void setUv2_833151053(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(833151053L))
+    @Inject(at = @At("HEAD"), method = "setNormal(FFF)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
+    private void setNormal__235870145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-235870145L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setUv1(II)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
     private void setUv1_840910412(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(840910412L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setUv2(II)Lcom/mojang/blaze3d/vertex/VertexConsumer;", cancellable = true)
+    private void setUv2_833151053(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(833151053L))
             info.setReturnValue(null);
     }
 

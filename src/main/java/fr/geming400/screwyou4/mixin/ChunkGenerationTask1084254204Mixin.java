@@ -19,16 +19,16 @@ public class ChunkGenerationTask1084254204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "markForCancellation()V", cancellable = true)
-    private void markForCancellation__1668243408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1668243408L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "runUntilWait()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void runUntilWait__1248965695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1248965695L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "markForCancellation()V", cancellable = true)
+    private void markForCancellation__1668243408(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1668243408L))
+            info.cancel();
     }
 
 

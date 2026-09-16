@@ -22,7 +22,7 @@ public class FileMove_1259676707Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1817028797(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1817028797L))
-            info.setReturnValue(1696053909);
+            info.setReturnValue(1244933609);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Ljava/nio/file/Path;", cancellable = true)

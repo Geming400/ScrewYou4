@@ -22,7 +22,7 @@ public class CompositeFeatureConfiguration_98845879Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_656197969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(656197969L))
-            info.setReturnValue(642181320);
+            info.setReturnValue(322698420);
     }
 
     @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)

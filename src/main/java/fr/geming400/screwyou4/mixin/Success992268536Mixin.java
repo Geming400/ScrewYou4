@@ -22,19 +22,19 @@ public class Success992268536Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1549620627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1549620627L))
-            info.setReturnValue(383479819);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
-    private void withoutItem__1075421948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1075421948L))
-            info.setReturnValue(null);
+            info.setReturnValue(569788919);
     }
 
     @Inject(at = @At("HEAD"), method = "consumesAction()Z", cancellable = true)
     private void consumesAction__2035700286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2035700286L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withoutItem()Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
+    private void withoutItem__1075421948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1075421948L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "heldItemTransformedTo(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/InteractionResult$Success;", cancellable = true)
@@ -49,12 +49,6 @@ public class Success992268536Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
-    private void itemContext__688440310(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-688440310L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "wasItemInteraction()Z", cancellable = true)
     private void wasItemInteraction__1489322599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1489322599L))
@@ -65,6 +59,12 @@ public class Success992268536Mixin {
     private void swingSource__2063826160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2063826160L))
             info.setReturnValue(net.minecraft.world.InteractionResult.SwingSource.SERVER);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemContext()Lnet/minecraft/world/InteractionResult$ItemContext;", cancellable = true)
+    private void itemContext__688440310(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-688440310L))
+            info.setReturnValue(null);
     }
 
 

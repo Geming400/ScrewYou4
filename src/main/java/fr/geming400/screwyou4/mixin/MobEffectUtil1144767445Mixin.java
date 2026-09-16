@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.effect.MobEffectUtil.class)
 public class MobEffectUtil1144767445Mixin {
-        @Inject(at = @At("HEAD"), method = "getDigSpeedAmplification(Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
-    private static void getDigSpeedAmplification_451838910(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(451838910L))
-            info.setReturnValue(562672192);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasDigSpeed(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "hasDigSpeed(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
     private static void hasDigSpeed_315609235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(315609235L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDigSpeedAmplification(Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
+    private static void getDigSpeedAmplification_451838910(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(451838910L))
+            info.setReturnValue(124582592);
     }
 
     @Inject(at = @At("HEAD"), method = "hasWaterBreathing(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)

@@ -43,45 +43,15 @@ public class ServerData_1707481815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
-    private void setResourcePackStatus_1435495133(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1435495133L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getResourcePackStatus()Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;", cancellable = true)
     private void getResourcePackStatus__2114160717(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2114160717L))
             info.setReturnValue(net.minecraft.client.multiplayer.ServerData.ServerPackStatus.DISABLED);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
-    private void hasAcceptedCodeOfConduct__441929576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441929576L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "validateIcon([B)[B", cancellable = true)
-    private static void validateIcon__1713388260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1713388260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isLan()Z", cancellable = true)
-    private void isLan__759804450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-759804450L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRealm()Z", cancellable = true)
-    private void isRealm__1734306776(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1734306776L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "acceptCodeOfConduct(Ljava/lang/String;)V", cancellable = true)
-    private void acceptCodeOfConduct_1453060795(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1453060795L))
+    @Inject(at = @At("HEAD"), method = "setResourcePackStatus(Lnet/minecraft/client/multiplayer/ServerData$ServerPackStatus;)V", cancellable = true)
+    private void setResourcePackStatus_1435495133(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1435495133L))
             info.cancel();
     }
 
@@ -97,16 +67,46 @@ public class ServerData_1707481815Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getIconBytes()[B", cancellable = true)
-    private void getIconBytes_1169222936(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1169222936L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "acceptCodeOfConduct(Ljava/lang/String;)V", cancellable = true)
+    private void acceptCodeOfConduct_1453060795(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1453060795L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setIconBytes([B)V", cancellable = true)
     private void setIconBytes_2064410656(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2064410656L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIconBytes()[B", cancellable = true)
+    private void getIconBytes_1169222936(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1169222936L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isLan()Z", cancellable = true)
+    private void isLan__759804450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-759804450L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRealm()Z", cancellable = true)
+    private void isRealm__1734306776(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1734306776L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasAcceptedCodeOfConduct(Ljava/lang/String;)Z", cancellable = true)
+    private void hasAcceptedCodeOfConduct__441929576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441929576L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "validateIcon([B)[B", cancellable = true)
+    private static void validateIcon__1713388260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1713388260L))
+            info.setReturnValue(null);
     }
 
 

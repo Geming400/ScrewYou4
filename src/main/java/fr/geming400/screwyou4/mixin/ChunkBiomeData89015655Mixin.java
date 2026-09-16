@@ -22,7 +22,7 @@ public class ChunkBiomeData89015655Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_646367746(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(646367746L))
-            info.setReturnValue(1888016868);
+            info.setReturnValue(1637532668);
     }
 
     @Inject(at = @At("HEAD"), method = "buffer()[B", cancellable = true)

@@ -34,7 +34,7 @@ public class NativeModuleInfo_737053615Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1294405705(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1294405705L))
-            info.setReturnValue(705163536);
+            info.setReturnValue(-163662364);
     }
 
 

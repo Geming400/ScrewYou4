@@ -16,7 +16,7 @@ public class IntUniform1576652854Mixin {
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__728018101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-728018101L))
-            info.setReturnValue(-1280028180);
+            info.setReturnValue(-1505346080);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class IntUniform1576652854Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2134004945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134004945L))
-            info.setReturnValue(-109958429);
+            info.setReturnValue(-334276029);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

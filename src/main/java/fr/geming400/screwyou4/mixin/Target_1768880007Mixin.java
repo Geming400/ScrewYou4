@@ -13,10 +13,10 @@ public class Target_1768880007Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setReached()V", cancellable = true)
-    private void setReached__779634263(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-779634263L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getBestNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void getBestNode_1268149156(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1268149156L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "updateBest(FLnet/minecraft/world/level/pathfinder/Node;)V", cancellable = true)
@@ -25,16 +25,16 @@ public class Target_1768880007Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setReached()V", cancellable = true)
+    private void setReached__779634263(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-779634263L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "isReached()Z", cancellable = true)
     private void isReached_216739189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(216739189L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBestNode()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void getBestNode_1268149156(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1268149156L))
-            info.setReturnValue(null);
     }
 
 

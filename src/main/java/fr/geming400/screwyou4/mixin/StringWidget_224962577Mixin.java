@@ -13,6 +13,18 @@ public class StringWidget_224962577Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1712933914(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1712933914L))
+            info.setReturnValue(646627553);
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitLines(Lnet/minecraft/client/gui/ActiveTextCollector;)V", cancellable = true)
+    private void visitLines__553874072(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-553874072L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setMaxWidth(ILnet/minecraft/client/gui/components/StringWidget$TextOverflow;)Lnet/minecraft/client/gui/components/StringWidget;", cancellable = true)
     private void setMaxWidth__1601538653(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1601538653L))
@@ -23,18 +35,6 @@ public class StringWidget_224962577Mixin {
     private void setMaxWidth__1211742857(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1211742857L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1712933914(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1712933914L))
-            info.setReturnValue(417066553);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitLines(Lnet/minecraft/client/gui/ActiveTextCollector;)V", cancellable = true)
-    private void visitLines__553874072(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-553874072L))
-            info.cancel();
     }
 
 

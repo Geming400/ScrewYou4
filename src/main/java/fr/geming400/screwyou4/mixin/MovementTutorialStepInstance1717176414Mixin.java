@@ -19,15 +19,15 @@ public class MovementTutorialStepInstance1717176414Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onMouse(DD)V", cancellable = true)
-    private void onMouse__1453053749(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1453053749L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onInput(Lnet/minecraft/client/player/ClientInput;)V", cancellable = true)
     private void onInput_310294386(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(310294386L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onMouse(DD)V", cancellable = true)
+    private void onMouse__1453053749(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1453053749L))
             info.cancel();
     }
 

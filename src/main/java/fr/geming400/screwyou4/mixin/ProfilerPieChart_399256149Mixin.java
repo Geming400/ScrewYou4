@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.components.debugchart.ProfilerPieChart.class)
 public class ProfilerPieChart_399256149Mixin {
-        @Inject(at = @At("HEAD"), method = "setPieChartResults(Lnet/minecraft/util/profiling/ProfileResults;)V", cancellable = true)
-    private void setPieChartResults__757072527(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-757072527L))
+        @Inject(at = @At("HEAD"), method = "profilerPieChartKeyPress(I)V", cancellable = true)
+    private void profilerPieChartKeyPress_1976085823(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1976085823L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setBottomOffset(I)V", cancellable = true)
-    private void setBottomOffset_1170433440(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1170433440L))
+    @Inject(at = @At("HEAD"), method = "setPieChartResults(Lnet/minecraft/util/profiling/ProfileResults;)V", cancellable = true)
+    private void setPieChartResults__757072527(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-757072527L))
             info.cancel();
     }
 
@@ -25,9 +25,9 @@ public class ProfilerPieChart_399256149Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "profilerPieChartKeyPress(I)V", cancellable = true)
-    private void profilerPieChartKeyPress_1976085823(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1976085823L))
+    @Inject(at = @At("HEAD"), method = "setBottomOffset(I)V", cancellable = true)
+    private void setBottomOffset_1170433440(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1170433440L))
             info.cancel();
     }
 

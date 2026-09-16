@@ -22,7 +22,7 @@ public class DropChances2050426130Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1687189075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1687189075L))
-            info.setReturnValue(831732697);
+            info.setReturnValue(849380497);
     }
 
     @Inject(at = @At("HEAD"), method = "isPreserved(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
@@ -40,7 +40,7 @@ public class DropChances2050426130Mixin {
     @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
     private void byEquipment__22619684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-22619684L))
-            info.setReturnValue(4.485303E8F);
+            info.setReturnValue(4.661781E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "withGuaranteedDrop(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/DropChances;", cancellable = true)

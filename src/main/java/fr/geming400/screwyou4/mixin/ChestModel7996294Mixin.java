@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.model.object.chest.ChestModel.class)
 public class ChestModel7996294Mixin {
-        @Inject(at = @At("HEAD"), method = "createDoubleBodyRightLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createDoubleBodyRightLayer__667656474(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-667656474L))
+        @Inject(at = @At("HEAD"), method = "createSingleBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createSingleBodyLayer__1145379763(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145379763L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createSingleBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createSingleBodyLayer__1145379763(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145379763L))
+    @Inject(at = @At("HEAD"), method = "createDoubleBodyRightLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createDoubleBodyRightLayer__667656474(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-667656474L))
             info.setReturnValue(null);
     }
 

@@ -28,7 +28,13 @@ public class ContextScoreboardNameProvider_1205087263Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1762439353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1762439353L))
-            info.setReturnValue(-197523977);
+            info.setReturnValue(69982023);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_1984590490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1984590490L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -40,12 +46,6 @@ public class ContextScoreboardNameProvider_1205087263Mixin {
     @Inject(at = @At("HEAD"), method = "forTarget(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/providers/score/ScoreboardNameProvider;", cancellable = true)
     private static void forTarget_310106258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(310106258L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_1984590490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1984590490L))
             info.setReturnValue(null);
     }
 

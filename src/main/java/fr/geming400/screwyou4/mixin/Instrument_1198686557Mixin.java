@@ -22,13 +22,13 @@ public class Instrument_1198686557Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1756038647(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1756038647L))
-            info.setReturnValue(-17626760);
+            info.setReturnValue(242751240);
     }
 
     @Inject(at = @At("HEAD"), method = "range()F", cancellable = true)
     private void range__669429534(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-669429534L))
-            info.setReturnValue(1.190442E8F);
+            info.setReturnValue(3.794222E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,16 +37,16 @@ public class Instrument_1198686557Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "useDuration()F", cancellable = true)
+    private void useDuration_235288740(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(235288740L))
+            info.setReturnValue(3.80421E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
     private void soundEvent__1791175379(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1791175379L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "useDuration()F", cancellable = true)
-    private void useDuration_235288740(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(235288740L))
-            info.setReturnValue(1.190442E8F);
     }
 
 

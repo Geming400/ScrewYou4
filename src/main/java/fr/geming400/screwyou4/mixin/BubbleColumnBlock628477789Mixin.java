@@ -31,15 +31,15 @@ public class BubbleColumnBlock628477789Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void updateColumn__1601009639(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1601009639L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private static void updateColumn__1327847062(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1327847062L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void updateColumn__1601009639(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1601009639L))
             info.cancel();
     }
 

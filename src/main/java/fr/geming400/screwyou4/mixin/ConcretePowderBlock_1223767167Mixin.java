@@ -28,7 +28,7 @@ public class ConcretePowderBlock_1223767167Mixin {
     @Inject(at = @At("HEAD"), method = "getDustColor(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I", cancellable = true)
     private void getDustColor__628835887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-628835887L))
-            info.setReturnValue(1067567171);
+            info.setReturnValue(578400471);
     }
 
 

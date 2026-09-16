@@ -34,7 +34,7 @@ public class FlyTowardsPositionParticle_1246562088Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1263250465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263250465L))
-            info.setReturnValue(-1756348422);
+            info.setReturnValue(-1561606222);
     }
 
 

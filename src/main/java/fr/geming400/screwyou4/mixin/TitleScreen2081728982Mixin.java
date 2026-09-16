@@ -25,22 +25,10 @@ public class TitleScreen2081728982Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked_1541222806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1541222806L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
     private void shouldCloseOnEsc_1492632604(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1492632604L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
-    private void extractRenderState__1226358672(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1226358672L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "registerTextures(Lnet/minecraft/client/renderer/texture/TextureManager;)V", cancellable = true)
@@ -49,10 +37,16 @@ public class TitleScreen2081728982Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canInterruptWithAnotherScreen()Z", cancellable = true)
-    private void canInterruptWithAnotherScreen_322352983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(322352983L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_1541222806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1541222806L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
+    private void extractRenderState__1226358672(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1226358672L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
@@ -65,6 +59,12 @@ public class TitleScreen2081728982Mixin {
     private void extractBackground__811783781(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-811783781L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "canInterruptWithAnotherScreen()Z", cancellable = true)
+    private void canInterruptWithAnotherScreen_322352983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(322352983L))
+            info.setReturnValue(true);
     }
 
 

@@ -22,24 +22,12 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_994686347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(994686347L))
-            info.setReturnValue(651943589);
+            info.setReturnValue(200100689);
     }
 
     @Inject(at = @At("HEAD"), method = "inputs()Ljava/util/List;", cancellable = true)
     private void inputs__796020087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-796020087L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
-    private void uniforms__1101769671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1101769671L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void outputTarget_1513786409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1513786409L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +46,18 @@ public class Pass437334256Mixin {
     @Inject(at = @At("HEAD"), method = "vertexShaderId()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void vertexShaderId__1686843941(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1686843941L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outputTarget()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void outputTarget_1513786409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1513786409L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uniforms()Ljava/util/Map;", cancellable = true)
+    private void uniforms__1101769671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1101769671L))
             info.setReturnValue(null);
     }
 

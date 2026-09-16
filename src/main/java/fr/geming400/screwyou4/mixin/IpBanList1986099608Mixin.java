@@ -43,15 +43,15 @@ public class IpBanList1986099608Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBanned(Ljava/lang/String;)Z", cancellable = true)
-    private void isBanned__2050345615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2050345615L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isBanned(Ljava/net/SocketAddress;)Z", cancellable = true)
     private void isBanned_896923220(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(896923220L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBanned(Ljava/lang/String;)Z", cancellable = true)
+    private void isBanned__2050345615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2050345615L))
             info.setReturnValue(true);
     }
 

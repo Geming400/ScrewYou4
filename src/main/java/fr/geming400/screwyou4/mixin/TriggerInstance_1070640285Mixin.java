@@ -22,7 +22,7 @@ public class TriggerInstance_1070640285Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1627992375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1627992375L))
-            info.setReturnValue(-1158338541);
+            info.setReturnValue(-735275241);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/List;)Z", cancellable = true)
@@ -37,15 +37,9 @@ public class TriggerInstance_1070640285Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player__160012757(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-160012757L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lightning()Ljava/util/Optional;", cancellable = true)
-    private void lightning__1608305900(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1608305900L))
+    @Inject(at = @At("HEAD"), method = "bystander()Ljava/util/Optional;", cancellable = true)
+    private void bystander__1448648426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1448648426L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +49,15 @@ public class TriggerInstance_1070640285Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bystander()Ljava/util/Optional;", cancellable = true)
-    private void bystander__1448648426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1448648426L))
+    @Inject(at = @At("HEAD"), method = "lightning()Ljava/util/Optional;", cancellable = true)
+    private void lightning__1608305900(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1608305900L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player__160012757(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-160012757L))
             info.setReturnValue(null);
     }
 

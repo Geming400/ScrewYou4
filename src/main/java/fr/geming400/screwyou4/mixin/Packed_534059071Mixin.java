@@ -22,7 +22,7 @@ public class Packed_534059071Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1091411161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1091411161L))
-            info.setReturnValue(-2048513762);
+            info.setReturnValue(2111610634);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class Packed_534059071Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt_809498447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809498447L))
-            info.setReturnValue(-2291882946760972261L);
+            info.setReturnValue(-2291882946895815161L);
     }
 
     @Inject(at = @At("HEAD"), method = "timeStamp()Ljava/time/Instant;", cancellable = true)

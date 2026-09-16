@@ -28,7 +28,7 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_641828887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(641828887L))
-            info.setReturnValue(1646490241);
+            info.setReturnValue(1004655441);
     }
 
     @Inject(at = @At("HEAD"), method = "power()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -46,7 +46,7 @@ public class Exponent_84476797Mixin {
     @Inject(at = @At("HEAD"), method = "calculate(I)F", cancellable = true)
     private void calculate_1972243838(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1972243838L))
-            info.setReturnValue(8.741916E8F);
+            info.setReturnValue(2.323568E8F);
     }
 
 

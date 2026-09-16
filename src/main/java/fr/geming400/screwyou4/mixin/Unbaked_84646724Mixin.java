@@ -28,7 +28,7 @@ public class Unbaked_84646724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_641998814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(641998814L))
-            info.setReturnValue(730682901);
+            info.setReturnValue(120206801);
     }
 
     @Inject(at = @At("HEAD"), method = "transformation()Ljava/util/Optional;", cancellable = true)

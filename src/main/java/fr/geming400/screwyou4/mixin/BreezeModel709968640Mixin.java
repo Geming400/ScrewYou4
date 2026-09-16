@@ -13,6 +13,12 @@ public class BreezeModel709968640Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "wind()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void wind_1774301149(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1774301149L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "eyes()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
     private void eyes_731712579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(731712579L))
@@ -40,12 +46,6 @@ public class BreezeModel709968640Mixin {
     @Inject(at = @At("HEAD"), method = "rods()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
     private void rods_696481753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(696481753L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "wind()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void wind_1774301149(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1774301149L))
             info.setReturnValue(null);
     }
 

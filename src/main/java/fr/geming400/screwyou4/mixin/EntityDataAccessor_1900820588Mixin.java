@@ -19,12 +19,6 @@ public class EntityDataAccessor_1900820588Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getModifiedSuccess__1801509182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1801509182L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPrintSuccess(Lnet/minecraft/nbt/Tag;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getPrintSuccess_1040847410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1040847410L))
@@ -34,6 +28,12 @@ public class EntityDataAccessor_1900820588Mixin {
     @Inject(at = @At("HEAD"), method = "getPrintSuccess(Lnet/minecraft/commands/arguments/NbtPathArgument$NbtPath;DI)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getPrintSuccess__536553939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-536553939L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModifiedSuccess()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getModifiedSuccess__1801509182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1801509182L))
             info.setReturnValue(null);
     }
 

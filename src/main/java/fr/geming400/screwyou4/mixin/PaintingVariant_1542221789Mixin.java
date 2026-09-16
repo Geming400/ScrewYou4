@@ -22,25 +22,19 @@ public class PaintingVariant_1542221789Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2099573879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2099573879L))
-            info.setReturnValue(253435123);
+            info.setReturnValue(76387923);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__97926212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-97926212L))
-            info.setReturnValue(2031306526);
+            info.setReturnValue(1854259326);
     }
 
-    @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
-    private void title__805930014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-805930014L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "author()Ljava/util/Optional;", cancellable = true)
-    private void author__1612590571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1612590571L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_456873211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(456873211L))
+            info.setReturnValue(959814521);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -52,13 +46,19 @@ public class PaintingVariant_1542221789Mixin {
     @Inject(at = @At("HEAD"), method = "area()I", cancellable = true)
     private void area_1388561749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1388561749L))
-            info.setReturnValue(-280005154);
+            info.setReturnValue(-457052354);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_456873211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(456873211L))
-            info.setReturnValue(1136861721);
+    @Inject(at = @At("HEAD"), method = "author()Ljava/util/Optional;", cancellable = true)
+    private void author__1612590571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1612590571L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
+    private void title__805930014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-805930014L))
+            info.setReturnValue(null);
     }
 
 

@@ -55,22 +55,22 @@ public class EnumProperty_602473310Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
-    private void generateHashCode_230680211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(230680211L))
-            info.setReturnValue(1151950359);
-    }
-
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Comparable;)I", cancellable = true)
     private void getInternalIndex_1138263589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1138263589L))
-            info.setReturnValue(2093667041);
+            info.setReturnValue(1908545041);
     }
 
     @Inject(at = @At("HEAD"), method = "getInternalIndex(Ljava/lang/Enum;)I", cancellable = true)
     private void getInternalIndex_1336759646(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336759646L))
-            info.setReturnValue(-1697583183);
+            info.setReturnValue(-1882705183);
+    }
+
+    @Inject(at = @At("HEAD"), method = "generateHashCode()I", cancellable = true)
+    private void generateHashCode_230680211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(230680211L))
+            info.setReturnValue(966828359);
     }
 
     @Inject(at = @At("HEAD"), method = "getPossibleValues()Ljava/util/List;", cancellable = true)

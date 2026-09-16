@@ -10,7 +10,7 @@ public class PowderedSnowFogEnvironment1901156652Mixin {
         @Inject(at = @At("HEAD"), method = "getBaseColor(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Camera;IF)I", cancellable = true)
     private void getBaseColor__1760841582(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1760841582L))
-            info.setReturnValue(1536554217);
+            info.setReturnValue(-2085298079);
     }
 
     @Inject(at = @At("HEAD"), method = "isApplicable(Lnet/minecraft/world/level/material/FogType;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)

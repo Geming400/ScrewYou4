@@ -19,10 +19,10 @@ public class JukeboxSongPlayer1305100462Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSong()Lnet/minecraft/world/item/JukeboxSong;", cancellable = true)
-    private void getSong_1100451863(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1100451863L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isPlaying()Z", cancellable = true)
+    private void isPlaying__81959615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-81959615L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "play(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/Holder;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class JukeboxSongPlayer1305100462Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPlaying()Z", cancellable = true)
-    private void isPlaying__81959615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-81959615L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getTicksSinceSongStarted()J", cancellable = true)
+    private void getTicksSinceSongStarted_889886371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(889886371L))
+            info.setReturnValue(-2972626032869254770L);
     }
 
     @Inject(at = @At("HEAD"), method = "setSongWithoutPlaying(Lnet/minecraft/core/Holder;J)V", cancellable = true)
@@ -43,10 +43,10 @@ public class JukeboxSongPlayer1305100462Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicksSinceSongStarted()J", cancellable = true)
-    private void getTicksSinceSongStarted_889886371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(889886371L))
-            info.setReturnValue(-2972626033043460370L);
+    @Inject(at = @At("HEAD"), method = "getSong()Lnet/minecraft/world/item/JukeboxSong;", cancellable = true)
+    private void getSong_1100451863(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1100451863L))
+            info.setReturnValue(null);
     }
 
 

@@ -31,6 +31,12 @@ public class CustomBossEvents528407335Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getEvents()Ljava/util/Collection;", cancellable = true)
+    private void getEvents_1925629670(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1925629670L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onPlayerDisconnect(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
     private void onPlayerDisconnect__1493523578(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1493523578L))
@@ -41,12 +47,6 @@ public class CustomBossEvents528407335Mixin {
     private void onPlayerConnect__447490092(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-447490092L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEvents()Ljava/util/Collection;", cancellable = true)
-    private void getEvents_1925629670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1925629670L))
-            info.setReturnValue(null);
     }
 
 

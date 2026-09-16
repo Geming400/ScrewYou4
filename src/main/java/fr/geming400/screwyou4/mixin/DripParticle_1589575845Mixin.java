@@ -22,7 +22,7 @@ public class DripParticle_1589575845Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1606264222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1606264222L))
-            info.setReturnValue(348046258);
+            info.setReturnValue(560026158);
     }
 
 

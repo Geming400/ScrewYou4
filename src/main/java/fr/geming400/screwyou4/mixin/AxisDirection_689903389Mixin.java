@@ -31,16 +31,16 @@ public class AxisDirection_689903389Mixin {
             info.setReturnValue(net.minecraft.core.Direction.AxisDirection.NEGATIVE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStep()I", cancellable = true)
-    private void getStep_1972287232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1972287232L))
-            info.setReturnValue(618605428);
-    }
-
     @Inject(at = @At("HEAD"), method = "opposite()Lnet/minecraft/core/Direction$AxisDirection;", cancellable = true)
     private void opposite_1251065780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1251065780L))
             info.setReturnValue(net.minecraft.core.Direction.AxisDirection.POSITIVE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStep()I", cancellable = true)
+    private void getStep_1972287232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1972287232L))
+            info.setReturnValue(190068828);
     }
 
 

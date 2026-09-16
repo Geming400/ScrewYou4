@@ -22,18 +22,18 @@ public class TrimMaterialData_515226611Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1072578701(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1072578701L))
-            info.setReturnValue(1409892078);
-    }
-
-    @Inject(at = @At("HEAD"), method = "materialKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void materialKey_945653867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(945653867L))
-            info.setReturnValue(null);
+            info.setReturnValue(1691006178);
     }
 
     @Inject(at = @At("HEAD"), method = "assets()Lnet/minecraft/world/item/equipment/trim/MaterialAssetGroup;", cancellable = true)
     private void assets_732856300(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(732856300L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "materialKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void materialKey_945653867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(945653867L))
             info.setReturnValue(null);
     }
 

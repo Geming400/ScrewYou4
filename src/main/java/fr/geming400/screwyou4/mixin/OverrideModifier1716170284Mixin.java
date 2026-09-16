@@ -22,7 +22,7 @@ public class OverrideModifier1716170284Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2021444921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2021444921L))
-            info.setReturnValue(-1813512942);
+            info.setReturnValue(-2033434842);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)

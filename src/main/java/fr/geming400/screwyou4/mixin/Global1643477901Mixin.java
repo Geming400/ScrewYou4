@@ -22,19 +22,19 @@ public class Global1643477901Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2094137304(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2094137304L))
-            info.setReturnValue(-222655634);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
-    private void bitsInMemory__60697785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-60697785L))
-            info.setReturnValue(584280463);
+            info.setReturnValue(-398478334);
     }
 
     @Inject(at = @At("HEAD"), method = "alwaysRepack()Z", cancellable = true)
     private void alwaysRepack_553932905(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553932905L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bitsInMemory()I", cancellable = true)
+    private void bitsInMemory__60697785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-60697785L))
+            info.setReturnValue(408457763);
     }
 
     @Inject(at = @At("HEAD"), method = "createPalette(Lnet/minecraft/world/level/chunk/Strategy;Ljava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
@@ -46,7 +46,7 @@ public class Global1643477901Mixin {
     @Inject(at = @At("HEAD"), method = "bitsInStorage()I", cancellable = true)
     private void bitsInStorage_1808720963(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1808720963L))
-            info.setReturnValue(-1182991668);
+            info.setReturnValue(-1358814368);
     }
 
 

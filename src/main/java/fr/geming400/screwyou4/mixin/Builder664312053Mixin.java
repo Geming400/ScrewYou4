@@ -13,18 +13,6 @@ public class Builder664312053Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "newStructureSpawner(Lnet/minecraft/gametest/framework/GameTestRunner$StructureSpawner;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
-    private void newStructureSpawner__830553629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-830553629L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "haltOnError()Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
-    private void haltOnError_1898843358(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1898843358L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "clearBetweenBatches()Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
     private void clearBetweenBatches__931752199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-931752199L))
@@ -37,9 +25,21 @@ public class Builder664312053Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "newStructureSpawner(Lnet/minecraft/gametest/framework/GameTestRunner$StructureSpawner;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
+    private void newStructureSpawner__830553629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-830553629L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "fromBatches(Ljava/util/Collection;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
     private static void fromBatches_1910516258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1910516258L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "haltOnError()Lnet/minecraft/gametest/framework/GameTestRunner$Builder;", cancellable = true)
+    private void haltOnError_1898843358(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1898843358L))
             info.setReturnValue(null);
     }
 

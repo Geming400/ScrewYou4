@@ -22,7 +22,7 @@ public class DebugGoalInfo2026594390Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1711020815(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1711020815L))
-            info.setReturnValue(-524744872);
+            info.setReturnValue(-864896772);
     }
 
     @Inject(at = @At("HEAD"), method = "goals()Ljava/util/List;", cancellable = true)

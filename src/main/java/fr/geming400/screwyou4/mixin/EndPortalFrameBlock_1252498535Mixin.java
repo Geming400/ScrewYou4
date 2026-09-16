@@ -13,15 +13,15 @@ public class EndPortalFrameBlock_1252498535Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__1216689946(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1216689946L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getOrCreatePortalShape()Lnet/minecraft/world/level/block/state/pattern/BlockPattern;", cancellable = true)
     private static void getOrCreatePortalShape__373879794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-373879794L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__1216689946(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1216689946L))
             info.setReturnValue(null);
     }
 

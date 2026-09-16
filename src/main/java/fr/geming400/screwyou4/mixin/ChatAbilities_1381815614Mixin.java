@@ -13,10 +13,10 @@ public class ChatAbilities_1381815614Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasAnyRestrictions()Z", cancellable = true)
-    private void hasAnyRestrictions__1153362341(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1153362341L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "visibleMessagesFilter()Ljava/util/function/Predicate;", cancellable = true)
+    private void visibleMessagesFilter_1659060097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1659060097L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "canSendMessages()Z", cancellable = true)
@@ -31,15 +31,15 @@ public class ChatAbilities_1381815614Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "canReceiveSystemMessages()Z", cancellable = true)
-    private void canReceiveSystemMessages__1324744890(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1324744890L))
+    @Inject(at = @At("HEAD"), method = "hasAnyRestrictions()Z", cancellable = true)
+    private void hasAnyRestrictions__1153362341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1153362341L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "visibleMessagesFilter()Ljava/util/function/Predicate;", cancellable = true)
-    private void visibleMessagesFilter_1659060097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1659060097L))
+    @Inject(at = @At("HEAD"), method = "restrictions()Ljava/util/stream/Stream;", cancellable = true)
+    private void restrictions__2085669653(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2085669653L))
             info.setReturnValue(null);
     }
 
@@ -49,10 +49,10 @@ public class ChatAbilities_1381815614Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "restrictions()Ljava/util/stream/Stream;", cancellable = true)
-    private void restrictions__2085669653(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2085669653L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canReceiveSystemMessages()Z", cancellable = true)
+    private void canReceiveSystemMessages__1324744890(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1324744890L))
+            info.setReturnValue(false);
     }
 
 

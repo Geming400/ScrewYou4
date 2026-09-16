@@ -13,10 +13,10 @@ public class PotentSulfurBlockEntity_1315009965Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "geyserPositional(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private static void geyserPositional_1162298861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1162298861L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "resetCountdown()V", cancellable = true)
+    private void resetCountdown_1712279549(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1712279549L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "canBeReachedByNoxiousGas(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -25,10 +25,10 @@ public class PotentSulfurBlockEntity_1315009965Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "resetCountdown()V", cancellable = true)
-    private void resetCountdown_1712279549(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1712279549L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "geyserPositional(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private static void geyserPositional_1162298861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1162298861L))
+            info.setReturnValue(null);
     }
 
 

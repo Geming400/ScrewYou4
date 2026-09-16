@@ -22,18 +22,12 @@ public class BackgroundMusic1328029689Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1885381780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1885381780L))
-            info.setReturnValue(479639788);
+            info.setReturnValue(-23657712);
     }
 
     @Inject(at = @At("HEAD"), method = "select(ZZ)Ljava/util/Optional;", cancellable = true)
     private void select_1970944611(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1970944611L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "underwaterMusic()Ljava/util/Optional;", cancellable = true)
-    private void underwaterMusic__609918003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609918003L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +37,21 @@ public class BackgroundMusic1328029689Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withUnderwater(Lnet/minecraft/sounds/Music;)Lnet/minecraft/world/attribute/BackgroundMusic;", cancellable = true)
-    private void withUnderwater_192860262(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(192860262L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "creativeMusic()Ljava/util/Optional;", cancellable = true)
     private void creativeMusic_1579635549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1579635549L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "underwaterMusic()Ljava/util/Optional;", cancellable = true)
+    private void underwaterMusic__609918003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609918003L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withUnderwater(Lnet/minecraft/sounds/Music;)Lnet/minecraft/world/attribute/BackgroundMusic;", cancellable = true)
+    private void withUnderwater_192860262(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(192860262L))
             info.setReturnValue(null);
     }
 

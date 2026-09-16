@@ -31,16 +31,16 @@ public class ChatTrustLevel_337027384Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isNotSecure()Z", cancellable = true)
-    private void isNotSecure_1678082254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1678082254L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_425236005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(425236005L))
             info.setReturnValue("0f2S_z1CFqR%\u9A2FH\u6BD9\u7B04u,3\u7333k,hq^\u2E16\u62A6_\uFA0E\"\u1DB0\u6363+3RPG4^$|(%\u0305");
+    }
+
+    @Inject(at = @At("HEAD"), method = "isNotSecure()Z", cancellable = true)
+    private void isNotSecure_1678082254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1678082254L))
+            info.setReturnValue(true);
     }
 
 

@@ -25,9 +25,9 @@ public class Builder_2063582231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setWidth(I)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
-    private void setWidth_1721248573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1721248573L))
+    @Inject(at = @At("HEAD"), method = "setImage(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
+    private void setImage__1240329265(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1240329265L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class Builder_2063582231Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setImage(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
-    private void setImage__1240329265(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1240329265L))
+    @Inject(at = @At("HEAD"), method = "setWidth(I)Lnet/minecraft/client/gui/components/PopupScreen$Builder;", cancellable = true)
+    private void setWidth_1721248573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1721248573L))
             info.setReturnValue(null);
     }
 

@@ -16,7 +16,7 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
     @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index__2061786902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2061786902L))
-            info.setReturnValue(-1084983550);
+            info.setReturnValue(-1320030850);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -40,7 +40,7 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2096416049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2096416049L))
-            info.setReturnValue(1528308675);
+            info.setReturnValue(1293261375);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -61,21 +61,15 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "globalIndex()I", cancellable = true)
-    private void globalIndex__1639149331(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1639149331L))
-            info.setReturnValue(438827953);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void unsignedContent_2100028397(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2100028397L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "chatType()Lnet/minecraft/network/chat/ChatType$Bound;", cancellable = true)
     private void chatType_1550742234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1550742234L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterMask()Lnet/minecraft/network/chat/FilterMask;", cancellable = true)
+    private void filterMask_1936564912(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1936564912L))
             info.setReturnValue(null);
     }
 
@@ -85,15 +79,21 @@ public class ClientboundPlayerChatPacket1539063958Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "filterMask()Lnet/minecraft/network/chat/FilterMask;", cancellable = true)
-    private void filterMask_1936564912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1936564912L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sender()Ljava/util/UUID;", cancellable = true)
     private void sender_1658296414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1658296414L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "globalIndex()I", cancellable = true)
+    private void globalIndex__1639149331(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1639149331L))
+            info.setReturnValue(203780653);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unsignedContent()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void unsignedContent_2100028397(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2100028397L))
             info.setReturnValue(null);
     }
 

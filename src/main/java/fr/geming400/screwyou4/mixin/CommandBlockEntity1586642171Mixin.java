@@ -25,21 +25,21 @@ public class CommandBlockEntity1586642171Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
-    private void setPowered__353082406(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-353082406L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
     private void isPowered__113345768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-113345768L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_1473813913(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1473813913L))
+    @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
+    private void setPowered__353082406(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-353082406L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAutomatic(Z)V", cancellable = true)
+    private void setAutomatic__1483356959(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1483356959L))
             info.cancel();
     }
 
@@ -49,16 +49,16 @@ public class CommandBlockEntity1586642171Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
+    private void wasConditionMet__258539352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-258539352L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isConditional()Z", cancellable = true)
     private void isConditional__161704650(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-161704650L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setAutomatic(Z)V", cancellable = true)
-    private void setAutomatic__1483356959(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1483356959L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "markConditionMet()Z", cancellable = true)
@@ -67,10 +67,10 @@ public class CommandBlockEntity1586642171Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "wasConditionMet()Z", cancellable = true)
-    private void wasConditionMet__258539352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-258539352L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_1473813913(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1473813913L))
+            info.cancel();
     }
 
 

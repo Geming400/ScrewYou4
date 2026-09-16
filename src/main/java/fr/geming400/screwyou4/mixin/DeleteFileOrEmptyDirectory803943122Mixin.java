@@ -28,7 +28,7 @@ public class DeleteFileOrEmptyDirectory803943122Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1361295213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1361295213L))
-            info.setReturnValue(147426327);
+            info.setReturnValue(749465427);
     }
 
     @Inject(at = @At("HEAD"), method = "fix(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V", cancellable = true)

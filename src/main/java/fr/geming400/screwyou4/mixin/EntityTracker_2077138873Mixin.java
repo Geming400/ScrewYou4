@@ -25,16 +25,16 @@ public class EntityTracker_2077138873Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isVisibleBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
-    private void isVisibleBy_1744926782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1744926782L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntity()Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void getEntity__880630203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-880630203L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isVisibleBy(Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
+    private void isVisibleBy_1744926782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1744926782L))
+            info.setReturnValue(true);
     }
 
 

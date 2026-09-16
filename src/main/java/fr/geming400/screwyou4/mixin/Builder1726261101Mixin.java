@@ -13,27 +13,15 @@ public class Builder1726261101Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTextColor(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setTextColor_1982857454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1982857454L))
+    @Inject(at = @At("HEAD"), method = "setY(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setY__1360421429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1360421429L))
             info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setTextShadow(Z)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setTextShadow_124529250(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(124529250L))
-            info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "setShowDecorations(Z)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setShowDecorations_1237947181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1237947181L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPlaceholder(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setPlaceholder__770943656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-770943656L))
+    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setX_310092140(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(310092140L))
             info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
     }
 
@@ -49,15 +37,27 @@ public class Builder1726261101Mixin {
             info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setX(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setX_310092140(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(310092140L))
+    @Inject(at = @At("HEAD"), method = "setShowDecorations(Z)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setShowDecorations_1237947181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1237947181L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlaceholder(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setPlaceholder__770943656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-770943656L))
             info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "setY(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
-    private void setY__1360421429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1360421429L))
+    @Inject(at = @At("HEAD"), method = "setTextColor(I)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setTextColor_1982857454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1982857454L))
+            info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTextShadow(Z)Lnet/minecraft/client/gui/components/MultiLineEditBox$Builder;", cancellable = true)
+    private void setTextShadow_124529250(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(124529250L))
             info.setReturnValue(new net.minecraft.client.gui.components.MultiLineEditBox.Builder());
     }
 

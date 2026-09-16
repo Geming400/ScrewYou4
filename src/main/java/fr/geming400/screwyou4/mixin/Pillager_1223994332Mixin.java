@@ -25,16 +25,34 @@ public class Pillager_1223994332Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
-    private void getMaxSpawnClusterSize_976307603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(976307603L))
-            info.setReturnValue(-594604051);
+    @Inject(at = @At("HEAD"), method = "isChargingCrossbow()Z", cancellable = true)
+    private void isChargingCrossbow__1190676403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1190676403L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setChargingCrossbow(Z)V", cancellable = true)
+    private void setChargingCrossbow__1716455307(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1716455307L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onCrossbowAttackPerformed()V", cancellable = true)
+    private void onCrossbowAttackPerformed_1891220831(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1891220831L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack__1688039452(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1688039452L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
     private void getWalkTargetValue__316991851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-316991851L))
-            info.setReturnValue(7.03466E8F);
+            info.setReturnValue(7.630099E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getPreferredWeaponType()Lnet/minecraft/tags/TagKey;", cancellable = true)
@@ -49,22 +67,16 @@ public class Pillager_1223994332Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "onCrossbowAttackPerformed()V", cancellable = true)
-    private void onCrossbowAttackPerformed_1891220831(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1891220831L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getMaxSpawnClusterSize()I", cancellable = true)
+    private void getMaxSpawnClusterSize_976307603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(976307603L))
+            info.setReturnValue(-534058851);
     }
 
-    @Inject(at = @At("HEAD"), method = "setChargingCrossbow(Z)V", cancellable = true)
-    private void setChargingCrossbow__1716455307(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1716455307L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isChargingCrossbow()Z", cancellable = true)
-    private void isChargingCrossbow__1190676403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1190676403L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1974092640(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1974092640L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCelebrateSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -77,18 +89,6 @@ public class Pillager_1223994332Mixin {
     private void applyRaidBuffs_251522184(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(251522184L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack__1688039452(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1688039452L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1974092640(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1974092640L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getArmPose()Lnet/minecraft/world/entity/monster/illager/AbstractIllager$IllagerArmPose;", cancellable = true)

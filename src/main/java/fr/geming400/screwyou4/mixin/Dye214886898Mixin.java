@@ -28,19 +28,19 @@ public class Dye214886898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_772238989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772238989L))
-            info.setReturnValue(-1981598486);
+            info.setReturnValue(1847520210);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate__1005518386(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1005518386L))
-            info.setReturnValue(1938888100);
+            info.setReturnValue(1473039500);
     }
 
     @Inject(at = @At("HEAD"), method = "defaultColor()I", cancellable = true)
     private void defaultColor_1764248438(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1764248438L))
-            info.setReturnValue(-1456372145);
+            info.setReturnValue(-1922220745);
     }
 
 

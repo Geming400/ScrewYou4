@@ -10,7 +10,7 @@ public class FloatWithAlpha_570470132Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__1734203707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1734203707L))
-            info.setReturnValue(4.394599E8F);
+            info.setReturnValue(9.99511E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,13 +28,13 @@ public class FloatWithAlpha_570470132Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1127822222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1127822222L))
-            info.setReturnValue(1181678006);
+            info.setReturnValue(842169206);
     }
 
     @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
     private void alpha__695405832(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-695405832L))
-            info.setReturnValue(4.394599E8F);
+            info.setReturnValue(9.99511E7F);
     }
 
 

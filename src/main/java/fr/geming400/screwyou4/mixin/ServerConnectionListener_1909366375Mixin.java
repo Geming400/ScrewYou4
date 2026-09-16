@@ -25,6 +25,18 @@ public class ServerConnectionListener_1909366375Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getServer()Lnet/minecraft/server/MinecraftServer;", cancellable = true)
+    private void getServer_1910996309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1910996309L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
+    private void getConnections__55841995(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-55841995L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "startTcpServerListener(Ljava/net/InetAddress;I)V", cancellable = true)
     private void startTcpServerListener__1712057318(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1712057318L))
@@ -40,18 +52,6 @@ public class ServerConnectionListener_1909366375Mixin {
     @Inject(at = @At("HEAD"), method = "startMemoryChannel()Ljava/net/SocketAddress;", cancellable = true)
     private void startMemoryChannel__325859758(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-325859758L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getServer()Lnet/minecraft/server/MinecraftServer;", cancellable = true)
-    private void getServer_1910996309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1910996309L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
-    private void getConnections__55841995(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-55841995L))
             info.setReturnValue(null);
     }
 

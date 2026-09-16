@@ -40,7 +40,7 @@ public class ContextDimension_300550903Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_857902993(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(857902993L))
-            info.setReturnValue(-1345401257);
+            info.setReturnValue(-1333527757);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

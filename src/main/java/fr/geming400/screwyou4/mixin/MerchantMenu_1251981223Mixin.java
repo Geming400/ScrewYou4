@@ -13,33 +13,33 @@ public class MerchantMenu_1251981223Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "showProgressBar()Z", cancellable = true)
+    private void showProgressBar_572199828(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(572199828L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__781929948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-781929948L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canRestock()Z", cancellable = true)
+    private void canRestock_1971034730(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1971034730L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "setXp(I)V", cancellable = true)
     private void setXp__539741620(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-539741620L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTraderXp()I", cancellable = true)
-    private void getTraderXp_295876208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(295876208L))
-            info.setReturnValue(-614679618);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFutureTraderXp()I", cancellable = true)
-    private void getFutureTraderXp_1769614829(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1769614829L))
-            info.setReturnValue(751065785);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMerchantLevel(I)V", cancellable = true)
-    private void setMerchantLevel__940534612(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-940534612L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setShowProgressBar(Z)V", cancellable = true)
-    private void setShowProgressBar_1088304074(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1088304074L))
+    @Inject(at = @At("HEAD"), method = "setSelectionHint(I)V", cancellable = true)
+    private void setSelectionHint__1930582269(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1930582269L))
             info.cancel();
     }
 
@@ -49,27 +49,39 @@ public class MerchantMenu_1251981223Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTraderLevel()I", cancellable = true)
-    private void getTraderLevel__1016305108(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1016305108L))
-            info.setReturnValue(667800154);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setSelectionHint(I)V", cancellable = true)
-    private void setSelectionHint__1930582269(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1930582269L))
+    @Inject(at = @At("HEAD"), method = "setMerchantLevel(I)V", cancellable = true)
+    private void setMerchantLevel__940534612(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-940534612L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showProgressBar()Z", cancellable = true)
-    private void showProgressBar_572199828(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572199828L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getTraderLevel()I", cancellable = true)
+    private void getTraderLevel__1016305108(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1016305108L))
+            info.setReturnValue(830520954);
     }
 
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged__489624961(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-489624961L))
+    @Inject(at = @At("HEAD"), method = "getTraderXp()I", cancellable = true)
+    private void getTraderXp_295876208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(295876208L))
+            info.setReturnValue(-451958818);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setShowProgressBar(Z)V", cancellable = true)
+    private void setShowProgressBar_1088304074(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1088304074L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFutureTraderXp()I", cancellable = true)
+    private void getFutureTraderXp_1769614829(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1769614829L))
+            info.setReturnValue(913786585);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryMoveItems(I)V", cancellable = true)
+    private void tryMoveItems__1038405946(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1038405946L))
             info.cancel();
     }
 
@@ -85,22 +97,10 @@ public class MerchantMenu_1251981223Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canRestock()Z", cancellable = true)
-    private void canRestock_1971034730(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1971034730L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryMoveItems(I)V", cancellable = true)
-    private void tryMoveItems__1038405946(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1038405946L))
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged__489624961(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-489624961L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__781929948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-781929948L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getOffers()Lnet/minecraft/world/item/trading/MerchantOffers;", cancellable = true)

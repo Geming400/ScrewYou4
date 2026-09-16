@@ -22,7 +22,7 @@ public class IntermediaryFormat_1453337404Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2010689494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2010689494L))
-            info.setReturnValue(-431399795);
+            info.setReturnValue(-402039095);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Ljava/util/Optional;", cancellable = true)
@@ -55,16 +55,16 @@ public class IntermediaryFormat_1453337404Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "effectiveMinMajorVersion()I", cancellable = true)
+    private void effectiveMinMajorVersion_1924084663(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1924084663L))
+            info.setReturnValue(-180505889);
+    }
+
     @Inject(at = @At("HEAD"), method = "fromRange(Lnet/minecraft/util/InclusiveRange;I)Lnet/minecraft/server/packs/metadata/pack/PackFormat$IntermediaryFormat;", cancellable = true)
     private static void fromRange_1854434545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1854434545L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effectiveMinMajorVersion()I", cancellable = true)
-    private void effectiveMinMajorVersion_1924084663(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1924084663L))
-            info.setReturnValue(-209866589);
     }
 
 

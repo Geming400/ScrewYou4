@@ -22,13 +22,13 @@ public class ChargeCursor_933682922Mixin {
     @Inject(at = @At("HEAD"), method = "getDecayDelay()I", cancellable = true)
     private void getDecayDelay__355345840(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-355345840L))
-            info.setReturnValue(1035666929);
+            info.setReturnValue(1134816329);
     }
 
     @Inject(at = @At("HEAD"), method = "getCharge()I", cancellable = true)
     private void getCharge_1262184805(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262184805L))
-            info.setReturnValue(-397699027);
+            info.setReturnValue(-298549627);
     }
 
     @Inject(at = @At("HEAD"), method = "getFacingData()Ljava/util/Set;", cancellable = true)

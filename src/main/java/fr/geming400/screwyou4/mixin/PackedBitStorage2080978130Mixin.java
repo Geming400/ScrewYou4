@@ -10,7 +10,7 @@ public class PackedBitStorage2080978130Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
     private void get_1612063239(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1612063239L))
-            info.setReturnValue(-1495206924);
+            info.setReturnValue(-1217024024);
     }
 
     @Inject(at = @At("HEAD"), method = "set(II)V", cancellable = true)
@@ -22,7 +22,7 @@ public class PackedBitStorage2080978130Mixin {
     @Inject(at = @At("HEAD"), method = "getBits()I", cancellable = true)
     private void getBits__1747154244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1747154244L))
-            info.setReturnValue(-1850764530);
+            info.setReturnValue(-1572581630);
     }
 
     @Inject(at = @At("HEAD"), method = "getRaw()[J", cancellable = true)

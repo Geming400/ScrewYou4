@@ -37,27 +37,15 @@ public class PlacementUtils558471276Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createKey(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private static void createKey__1662777348(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1662777348L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onlyWhenEmpty(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void onlyWhenEmpty__1404530737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1404530737L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "filteredByBlockSurvival(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/placement/BlockPredicateFilter;", cancellable = true)
-    private static void filteredByBlockSurvival__343885990(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-343885990L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "countExtra(IFI)Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;", cancellable = true)
     private static void countExtra_11390762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(11390762L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createKey(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private static void createKey__1662777348(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1662777348L))
             info.setReturnValue(null);
     }
 
@@ -70,6 +58,18 @@ public class PlacementUtils558471276Mixin {
     @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
     private static void inlinePlaced_447832682(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447832682L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filteredByBlockSurvival(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/placement/BlockPredicateFilter;", cancellable = true)
+    private static void filteredByBlockSurvival__343885990(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-343885990L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onlyWhenEmpty(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void onlyWhenEmpty__1404530737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1404530737L))
             info.setReturnValue(null);
     }
 

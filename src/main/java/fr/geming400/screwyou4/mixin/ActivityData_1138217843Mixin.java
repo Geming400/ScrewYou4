@@ -22,7 +22,7 @@ public class ActivityData_1138217843Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1695569933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1695569933L))
-            info.setReturnValue(-1872284833);
+            info.setReturnValue(-2089540833);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/schedule/Activity;Lcom/google/common/collect/ImmutableList;Ljava/util/Set;Ljava/util/Set;)Lnet/minecraft/world/entity/ai/ActivityData;", cancellable = true)
@@ -67,6 +67,12 @@ public class ActivityData_1138217843Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "activityType()Lnet/minecraft/world/entity/schedule/Activity;", cancellable = true)
+    private void activityType_645174429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(645174429L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "behaviorPriorityPairs()Lcom/google/common/collect/ImmutableList;", cancellable = true)
     private void behaviorPriorityPairs_1797288148(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1797288148L))
@@ -82,12 +88,6 @@ public class ActivityData_1138217843Mixin {
     @Inject(at = @At("HEAD"), method = "createPriorityPairs(ILcom/google/common/collect/ImmutableList;)Lcom/google/common/collect/ImmutableList;", cancellable = true)
     private static void createPriorityPairs__780811627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-780811627L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activityType()Lnet/minecraft/world/entity/schedule/Activity;", cancellable = true)
-    private void activityType_645174429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(645174429L))
             info.setReturnValue(null);
     }
 

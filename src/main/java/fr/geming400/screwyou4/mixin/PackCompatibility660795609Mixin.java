@@ -31,16 +31,16 @@ public class PackCompatibility660795609Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "forVersion(Lnet/minecraft/util/InclusiveRange;Lnet/minecraft/server/packs/metadata/pack/PackFormat;)Lnet/minecraft/server/packs/repository/PackCompatibility;", cancellable = true)
-    private static void forVersion_1552451742(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1552451742L))
-            info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_NEW);
-    }
-
     @Inject(at = @At("HEAD"), method = "getConfirmation()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getConfirmation_740461143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(740461143L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forVersion(Lnet/minecraft/util/InclusiveRange;Lnet/minecraft/server/packs/metadata/pack/PackFormat;)Lnet/minecraft/server/packs/repository/PackCompatibility;", cancellable = true)
+    private static void forVersion_1552451742(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1552451742L))
+            info.setReturnValue(net.minecraft.server.packs.repository.PackCompatibility.TOO_NEW);
     }
 
 

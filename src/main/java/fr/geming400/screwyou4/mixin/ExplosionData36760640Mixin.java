@@ -22,13 +22,13 @@ public class ExplosionData36760640Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_594112731(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(594112731L))
-            info.setReturnValue(401819916);
+            info.setReturnValue(-21465484);
     }
 
     @Inject(at = @At("HEAD"), method = "power()I", cancellable = true)
     private void power_424678465(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(424678465L))
-            info.setReturnValue(489735058);
+            info.setReturnValue(66449658);
     }
 
     @Inject(at = @At("HEAD"), method = "causesFire()Z", cancellable = true)
@@ -40,7 +40,7 @@ public class ExplosionData36760640Mixin {
     @Inject(at = @At("HEAD"), method = "fuse()I", cancellable = true)
     private void fuse_23892837(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(23892837L))
-            info.setReturnValue(882373683);
+            info.setReturnValue(459088283);
     }
 
 

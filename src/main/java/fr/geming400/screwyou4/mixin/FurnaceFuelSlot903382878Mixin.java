@@ -10,7 +10,7 @@ public class FurnaceFuelSlot903382878Mixin {
         @Inject(at = @At("HEAD"), method = "getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I", cancellable = true)
     private void getMaxStackSize__28616274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-28616274L))
-            info.setReturnValue(652895825);
+            info.setReturnValue(842844825);
     }
 
     @Inject(at = @At("HEAD"), method = "mayPlace(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)

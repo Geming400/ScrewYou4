@@ -22,7 +22,7 @@ public class PagePredicate1938300124Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1799315081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1799315081L))
-            info.setReturnValue(723926235);
+            info.setReturnValue(139782535);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

@@ -22,7 +22,7 @@ public class CuboidModelElement_332284967Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_889637057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889637057L))
-            info.setReturnValue(-326102156);
+            info.setReturnValue(-261393156);
     }
 
     @Inject(at = @At("HEAD"), method = "from()Lorg/joml/Vector3fc;", cancellable = true)
@@ -43,22 +43,22 @@ public class CuboidModelElement_332284967Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation;", cancellable = true)
-    private void rotation__11823291(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-11823291L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "lightEmission()I", cancellable = true)
     private void lightEmission__184438929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-184438929L))
-            info.setReturnValue(-1871513161);
+            info.setReturnValue(-1806804161);
     }
 
     @Inject(at = @At("HEAD"), method = "shade()Z", cancellable = true)
     private void shade__1048846384(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1048846384L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rotation()Lnet/minecraft/client/resources/model/cuboid/CuboidRotation;", cancellable = true)
+    private void rotation__11823291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-11823291L))
+            info.setReturnValue(null);
     }
 
 

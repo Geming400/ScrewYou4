@@ -22,7 +22,7 @@ public class WaypointStyle1281011474Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1838363565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1838363565L))
-            info.setReturnValue(-1316481884);
+            info.setReturnValue(-1343682584);
     }
 
     @Inject(at = @At("HEAD"), method = "validate()Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -31,22 +31,22 @@ public class WaypointStyle1281011474Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spriteLocations()Ljava/util/List;", cancellable = true)
-    private void spriteLocations__1304078117(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1304078117L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "nearDistance()I", cancellable = true)
+    private void nearDistance__1613540645(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1613540645L))
+            info.setReturnValue(-848518221);
     }
 
     @Inject(at = @At("HEAD"), method = "farDistance()I", cancellable = true)
     private void farDistance__664286132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-664286132L))
-            info.setReturnValue(918408554);
+            info.setReturnValue(890206454);
     }
 
-    @Inject(at = @At("HEAD"), method = "nearDistance()I", cancellable = true)
-    private void nearDistance__1613540645(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1613540645L))
-            info.setReturnValue(-820316121);
+    @Inject(at = @At("HEAD"), method = "spriteLocations()Ljava/util/List;", cancellable = true)
+    private void spriteLocations__1304078117(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1304078117L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite(F)Lnet/minecraft/resources/Identifier;", cancellable = true)

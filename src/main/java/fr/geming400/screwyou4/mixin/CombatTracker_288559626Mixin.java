@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.damagesource.CombatTracker.class)
 public class CombatTracker_288559626Mixin {
-        @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
-    private void getCombatDuration_2032988433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032988433L))
-            info.setReturnValue(-101564961);
-    }
-
-    @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "recordDamage(Lnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
     private void recordDamage_1011872985(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1011872985L))
             info.cancel();
@@ -29,6 +23,12 @@ public class CombatTracker_288559626Mixin {
     private void recheckStatus__448231915(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-448231915L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCombatDuration()I", cancellable = true)
+    private void getCombatDuration_2032988433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032988433L))
+            info.setReturnValue(-407982061);
     }
 
 

@@ -7,15 +7,27 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.MushroomCowRenderer.class)
 public class MushroomCowRenderer902999848Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/MushroomCowRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__332756204(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-332756204L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_1156170827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1156170827L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/MushroomCowRenderState;", cancellable = true)
+    private void createRenderState_1362680247(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1362680247L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.MushroomCowRenderState());
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__1419452613(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1419452613L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/MushroomCowRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__332756204(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-332756204L))
             info.setReturnValue(null);
     }
 
@@ -35,18 +47,6 @@ public class MushroomCowRenderer902999848Mixin {
     private void extractRenderState__767473639(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-767473639L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_1156170827(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1156170827L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/MushroomCowRenderState;", cancellable = true)
-    private void createRenderState_1362680247(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1362680247L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.MushroomCowRenderState());
     }
 
 

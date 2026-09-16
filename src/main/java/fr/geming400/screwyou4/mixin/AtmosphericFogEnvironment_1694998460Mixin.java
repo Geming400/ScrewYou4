@@ -10,7 +10,7 @@ public class AtmosphericFogEnvironment_1694998460Mixin {
         @Inject(at = @At("HEAD"), method = "getBaseColor(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Camera;IF)I", cancellable = true)
     private void getBaseColor__1966999775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1966999775L))
-            info.setReturnValue(343281058);
+            info.setReturnValue(322995158);
     }
 
     @Inject(at = @At("HEAD"), method = "isApplicable(Lnet/minecraft/world/level/material/FogType;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)

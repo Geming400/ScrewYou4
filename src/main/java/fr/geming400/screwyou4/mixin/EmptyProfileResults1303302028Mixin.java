@@ -13,28 +13,16 @@ public class EmptyProfileResults1303302028Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStartTimeTicks()I", cancellable = true)
-    private void getStartTimeTicks__761149131(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-761149131L))
-            info.setReturnValue(148926010);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEndTimeTicks()I", cancellable = true)
-    private void getEndTimeTicks_1990946926(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1990946926L))
-            info.setReturnValue(1831518137);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStartTimeNano()J", cancellable = true)
-    private void getStartTimeNano_1158012774(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1158012774L))
-            info.setReturnValue(2604782289485539044L);
+    @Inject(at = @At("HEAD"), method = "getTimes(Ljava/lang/String;)Ljava/util/List;", cancellable = true)
+    private void getTimes__464433662(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-464433662L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getEndTimeNano()J", cancellable = true)
     private void getEndTimeNano__135923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-135923L))
-            info.setReturnValue(3722542824625043025L);
+            info.setReturnValue(3722542824216382225L);
     }
 
     @Inject(at = @At("HEAD"), method = "getProfilerResults()Ljava/lang/String;", cancellable = true)
@@ -43,10 +31,22 @@ public class EmptyProfileResults1303302028Mixin {
             info.setReturnValue("*y)GY_y;\u1DAAQ#]dz*\u3984MjisZ\uAE3Ca\u15C2Q(mVmF%;u: in+");
     }
 
-    @Inject(at = @At("HEAD"), method = "getTimes(Ljava/lang/String;)Ljava/util/List;", cancellable = true)
-    private void getTimes__464433662(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-464433662L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getEndTimeTicks()I", cancellable = true)
+    private void getEndTimeTicks_1990946926(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1990946926L))
+            info.setReturnValue(1422857337);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStartTimeTicks()I", cancellable = true)
+    private void getStartTimeTicks__761149131(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-761149131L))
+            info.setReturnValue(-259734790);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStartTimeNano()J", cancellable = true)
+    private void getStartTimeNano_1158012774(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1158012774L))
+            info.setReturnValue(2604782289076878244L);
     }
 
 

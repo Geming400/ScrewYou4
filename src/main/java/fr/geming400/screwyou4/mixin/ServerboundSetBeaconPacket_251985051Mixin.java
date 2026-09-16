@@ -28,7 +28,7 @@ public class ServerboundSetBeaconPacket_251985051Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_809337141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809337141L))
-            info.setReturnValue(585185270);
+            info.setReturnValue(626383070);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ServerboundSetBeaconPacket_251985051Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "primary()Ljava/util/Optional;", cancellable = true)
-    private void primary_276436554(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(276436554L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "secondary()Ljava/util/Optional;", cancellable = true)
     private void secondary__1731542084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1731542084L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primary()Ljava/util/Optional;", cancellable = true)
+    private void primary_276436554(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(276436554L))
             info.setReturnValue(null);
     }
 

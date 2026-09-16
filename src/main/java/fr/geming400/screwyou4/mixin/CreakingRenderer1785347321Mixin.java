@@ -7,9 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.CreakingRenderer.class)
 public class CreakingRenderer1785347321Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CreakingRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1068741098(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1068741098L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CreakingRenderState;", cancellable = true)
+    private void createRenderState_1178338075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1178338075L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CreakingRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_2038518300(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2038518300L))
             info.setReturnValue(null);
     }
 
@@ -19,15 +25,15 @@ public class CreakingRenderer1785347321Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/CreakingRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1068741098(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1068741098L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
     private void extractRenderState_1223125514(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1223125514L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_114873834(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(114873834L))
             info.cancel();
     }
 
@@ -37,16 +43,10 @@ public class CreakingRenderer1785347321Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_2038518300(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2038518300L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/CreakingRenderState;", cancellable = true)
-    private void createRenderState_1178338075(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1178338075L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.CreakingRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_114873834(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(114873834L))
+            info.cancel();
     }
 
 

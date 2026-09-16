@@ -22,7 +22,7 @@ public class AttributeTrack1721732463Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2015882742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2015882742L))
-            info.setReturnValue(-565576316);
+            info.setReturnValue(-333187616);
     }
 
     @Inject(at = @At("HEAD"), method = "modifier()Lnet/minecraft/world/attribute/modifier/AttributeModifier;", cancellable = true)
@@ -31,9 +31,9 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
-    private void bakeSampler__1895485992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1895485992L))
+    @Inject(at = @At("HEAD"), method = "createCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void createCodec_1673269061(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1673269061L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validatePeriod(Lnet/minecraft/world/timeline/AttributeTrack;I)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private static void validatePeriod_1431234189(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1431234189L))
+    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
+    private void bakeSampler__1895485992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1895485992L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void createCodec_1673269061(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1673269061L))
+    @Inject(at = @At("HEAD"), method = "validatePeriod(Lnet/minecraft/world/timeline/AttributeTrack;I)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private static void validatePeriod_1431234189(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1431234189L))
             info.setReturnValue(null);
     }
 

@@ -34,7 +34,7 @@ public class DyedSlotDemo399720629Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_957072720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(957072720L))
-            info.setReturnValue(1598661334);
+            info.setReturnValue(1148465834);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;)Ljava/util/stream/Stream;", cancellable = true)

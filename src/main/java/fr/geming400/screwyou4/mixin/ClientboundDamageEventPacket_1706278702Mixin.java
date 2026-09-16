@@ -28,7 +28,7 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2031336504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2031336504L))
-            info.setReturnValue(-506204916);
+            info.setReturnValue(-699862116);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -55,28 +55,28 @@ public class ClientboundDamageEventPacket_1706278702Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sourceDirectId()I", cancellable = true)
-    private void sourceDirectId__1912668076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1912668076L))
-            info.setReturnValue(1208549556);
-    }
-
-    @Inject(at = @At("HEAD"), method = "sourceCauseId()I", cancellable = true)
-    private void sourceCauseId__1483180054(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1483180054L))
-            info.setReturnValue(-121257555);
-    }
-
     @Inject(at = @At("HEAD"), method = "sourcePosition()Ljava/util/Optional;", cancellable = true)
     private void sourcePosition_55729983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(55729983L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "sourceCauseId()I", cancellable = true)
+    private void sourceCauseId__1483180054(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1483180054L))
+            info.setReturnValue(-314914755);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sourceDirectId()I", cancellable = true)
+    private void sourceDirectId__1912668076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1912668076L))
+            info.setReturnValue(1014892356);
+    }
+
     @Inject(at = @At("HEAD"), method = "entityId()I", cancellable = true)
     private void entityId__2105630859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2105630859L))
-            info.setReturnValue(-1292072159);
+            info.setReturnValue(-1485729359);
     }
 
 

@@ -37,16 +37,16 @@ public class CompositePackResources_1944845519Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private void listResources_627579986(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(627579986L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)
     private void getRootResource__1067263260(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1067263260L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listResources(Lnet/minecraft/server/packs/PackType;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private void listResources_627579986(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(627579986L))
+            info.cancel();
     }
 
 

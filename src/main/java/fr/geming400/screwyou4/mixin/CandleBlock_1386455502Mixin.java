@@ -19,16 +19,16 @@ public class CandleBlock_1386455502Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid__435005200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-435005200L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "canLight(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void canLight__326829627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-326829627L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid__435005200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-435005200L))
+            info.setReturnValue(true);
     }
 
 

@@ -22,7 +22,7 @@ public class MapPostProcessing_76474383Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1676257721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1676257721L))
-            info.setReturnValue(-1307518389);
+            info.setReturnValue(-1720473789);
     }
 
 

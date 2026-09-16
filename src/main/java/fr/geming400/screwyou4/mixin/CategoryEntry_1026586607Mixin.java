@@ -13,12 +13,6 @@ public class CategoryEntry_1026586607Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
-    private void narratables__1548159471(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1548159471L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "refreshEntry()V", cancellable = true)
     private void refreshEntry__1820473686(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1820473686L))
@@ -29,6 +23,12 @@ public class CategoryEntry_1026586607Mixin {
     private void extractContent_1541344090(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1541344090L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
+    private void narratables__1548159471(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1548159471L))
+            info.setReturnValue(null);
     }
 
 

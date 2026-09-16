@@ -10,7 +10,7 @@ public class OminousBottleAmplifier1373693919Mixin {
         @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__930977036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-930977036L))
-            info.setReturnValue(643438283);
+            info.setReturnValue(461762883);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class OminousBottleAmplifier1373693919Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1931046010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1931046010L))
-            info.setReturnValue(1227347756);
+            info.setReturnValue(1045672356);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

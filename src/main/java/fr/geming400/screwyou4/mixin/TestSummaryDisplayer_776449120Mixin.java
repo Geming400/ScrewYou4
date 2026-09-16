@@ -22,7 +22,7 @@ public class TestSummaryDisplayer_776449120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1333801210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1333801210L))
-            info.setReturnValue(-553474205);
+            info.setReturnValue(-682339605);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)

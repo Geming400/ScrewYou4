@@ -52,7 +52,7 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
     @Inject(at = @At("HEAD"), method = "getSeed()J", cancellable = true)
     private void getSeed_868844555(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(868844555L))
-            info.setReturnValue(5430981998790809687L);
+            info.setReturnValue(5430981998301102787L);
     }
 
     @Inject(at = @At("HEAD"), method = "getData()Ljava/lang/String;", cancellable = true)
@@ -73,16 +73,16 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(net.minecraft.world.level.block.state.properties.StructureMode.LOAD);
     }
 
-    @Inject(at = @At("HEAD"), method = "getIntegrity()F", cancellable = true)
-    private void getIntegrity_269601111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(269601111L))
-            info.setReturnValue(7.980103E8F);
+    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
+    private void isShowAir__2056427521(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2056427521L))
+            info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
-    private void isIgnoreEntities_1330554181(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1330554181L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_791926542(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(791926542L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
@@ -91,10 +91,16 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
             info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_791926542(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(791926542L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isIgnoreEntities()Z", cancellable = true)
+    private void isIgnoreEntities_1330554181(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1330554181L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getIntegrity()F", cancellable = true)
+    private void getIntegrity_269601111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(269601111L))
+            info.setReturnValue(3.083034E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdateType()Lnet/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType;", cancellable = true)
@@ -106,12 +112,6 @@ public class ServerboundSetStructureBlockPacket302360811Mixin {
     @Inject(at = @At("HEAD"), method = "isShowBoundingBox()Z", cancellable = true)
     private void isShowBoundingBox_1444756194(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1444756194L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isShowAir()Z", cancellable = true)
-    private void isShowAir__2056427521(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2056427521L))
             info.setReturnValue(false);
     }
 

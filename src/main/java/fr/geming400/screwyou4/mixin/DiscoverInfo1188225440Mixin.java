@@ -28,7 +28,7 @@ public class DiscoverInfo1188225440Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1745577531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1745577531L))
-            info.setReturnValue(947915158);
+            info.setReturnValue(213306658);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/lang/String;", cancellable = true)

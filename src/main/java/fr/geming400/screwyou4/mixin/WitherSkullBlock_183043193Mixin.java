@@ -13,27 +13,27 @@ public class WitherSkullBlock_183043193Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy_1687038146(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1687038146L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "canSpawnMob(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private static void canSpawnMob_308342268(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(308342268L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "checkSpawn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void checkSpawn__949275083(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-949275083L))
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy_1687038146(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1687038146L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "checkSpawn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/SkullBlockEntity;)V", cancellable = true)
     private static void checkSpawn__1658113337(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1658113337L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkSpawn(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void checkSpawn__949275083(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-949275083L))
             info.cancel();
     }
 

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.item.SmithingTemplateItem.class)
 public class SmithingTemplateItem995913336Mixin {
-        @Inject(at = @At("HEAD"), method = "getBaseSlotDescription()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getBaseSlotDescription__2060772574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2060772574L))
+        @Inject(at = @At("HEAD"), method = "getBaseSlotEmptyIcons()Ljava/util/List;", cancellable = true)
+    private void getBaseSlotEmptyIcons_704993594(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704993594L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,15 @@ public class SmithingTemplateItem995913336Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBaseSlotEmptyIcons()Ljava/util/List;", cancellable = true)
-    private void getBaseSlotEmptyIcons_704993594(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704993594L))
+    @Inject(at = @At("HEAD"), method = "getBaseSlotDescription()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getBaseSlotDescription__2060772574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2060772574L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAdditionalSlotEmptyIcons()Ljava/util/List;", cancellable = true)
+    private void getAdditionalSlotEmptyIcons__372644720(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-372644720L))
             info.setReturnValue(null);
     }
 
@@ -35,12 +41,6 @@ public class SmithingTemplateItem995913336Mixin {
     private void appendHoverText__516314504(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-516314504L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdditionalSlotEmptyIcons()Ljava/util/List;", cancellable = true)
-    private void getAdditionalSlotEmptyIcons__372644720(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-372644720L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createArmorTrimTemplate(Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/SmithingTemplateItem;", cancellable = true)

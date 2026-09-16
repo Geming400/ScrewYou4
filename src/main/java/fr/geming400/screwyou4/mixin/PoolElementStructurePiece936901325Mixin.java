@@ -31,28 +31,28 @@ public class PoolElementStructurePiece936901325Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess_260543005(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(260543005L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
     private void getRotation_42216179(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(42216179L))
             info.setReturnValue(net.minecraft.world.level.block.Rotation.CLOCKWISE_90);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
-    private void getGroundLevelDelta__1377756062(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1377756062L))
-            info.setReturnValue(861675168);
+    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void postProcess_260543005(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(260543005L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addJunction(Lnet/minecraft/world/level/levelgen/structure/pools/JigsawJunction;)V", cancellable = true)
     private void addJunction_1521518076(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1521518076L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getGroundLevelDelta()I", cancellable = true)
+    private void getGroundLevelDelta__1377756062(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1377756062L))
+            info.setReturnValue(809505068);
     }
 
     @Inject(at = @At("HEAD"), method = "getJunctions()Ljava/util/List;", cancellable = true)

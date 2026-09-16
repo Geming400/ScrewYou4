@@ -28,18 +28,18 @@ public class MetadataSectionType_1439041422Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1996393512(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1996393512L))
-            info.setReturnValue(999707205);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withValue(Ljava/lang/Object;)Lnet/minecraft/server/packs/metadata/MetadataSectionType$WithValue;", cancellable = true)
-    private void withValue_1264102878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1264102878L))
-            info.setReturnValue(null);
+            info.setReturnValue(662734605);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)
     private void codec__365668119(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-365668119L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withValue(Ljava/lang/Object;)Lnet/minecraft/server/packs/metadata/MetadataSectionType$WithValue;", cancellable = true)
+    private void withValue_1264102878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1264102878L))
             info.setReturnValue(null);
     }
 

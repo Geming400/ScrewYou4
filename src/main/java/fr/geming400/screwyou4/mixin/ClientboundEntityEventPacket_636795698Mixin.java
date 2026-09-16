@@ -25,16 +25,16 @@ public class ClientboundEntityEventPacket_636795698Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getEventId()B", cancellable = true)
-    private void getEventId_476371217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(476371217L))
-            info.setReturnValue(78);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntity(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
     private void getEntity_2076719807(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2076719807L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEventId()B", cancellable = true)
+    private void getEventId_476371217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(476371217L))
+            info.setReturnValue(78);
     }
 
 

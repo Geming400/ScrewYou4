@@ -28,7 +28,7 @@ public class ClientboundSetTimePacket929064246Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1486416337(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1486416337L))
-            info.setReturnValue(-344326059);
+            info.setReturnValue(-281070259);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ClientboundSetTimePacket929064246Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "gameTime()J", cancellable = true)
+    private void gameTime_1429850206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1429850206L))
+            info.setReturnValue(-6083269865725782021L);
+    }
+
     @Inject(at = @At("HEAD"), method = "clockUpdates()Ljava/util/Map;", cancellable = true)
     private void clockUpdates_410250690(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(410250690L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "gameTime()J", cancellable = true)
-    private void gameTime_1429850206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1429850206L))
-            info.setReturnValue(-6083269865789037821L);
     }
 
 

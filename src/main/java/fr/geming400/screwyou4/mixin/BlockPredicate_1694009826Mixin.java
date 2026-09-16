@@ -22,7 +22,7 @@ public class BlockPredicate_1694009826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2043605380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2043605380L))
-            info.setReturnValue(-490216165);
+            info.setReturnValue(-804430165);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
@@ -55,16 +55,16 @@ public class BlockPredicate_1694009826Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nbt()Ljava/util/Optional;", cancellable = true)
-    private void nbt__1350310705(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1350310705L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "requiresNbt()Z", cancellable = true)
     private void requiresNbt_548061222(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(548061222L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nbt()Ljava/util/Optional;", cancellable = true)
+    private void nbt__1350310705(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1350310705L))
+            info.setReturnValue(null);
     }
 
 

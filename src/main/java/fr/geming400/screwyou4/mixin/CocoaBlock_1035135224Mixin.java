@@ -25,16 +25,16 @@ public class CocoaBlock_1035135224Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isBonemealSuccess_1635388018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635388018L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private void performBonemeal_178351062(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(178351062L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isBonemealSuccess_1635388018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635388018L))
+            info.setReturnValue(false);
     }
 
 

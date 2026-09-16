@@ -16,7 +16,7 @@ public class RegistryOps_1148812313Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1706163907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706163907L))
-            info.setReturnValue(579370667);
+            info.setReturnValue(1274001867);
     }
 
     @Inject(at = @At("HEAD"), method = "owner(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
@@ -43,9 +43,9 @@ public class RegistryOps_1148812313Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "injectRegistryContext(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/core/HolderLookup$Provider;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void injectRegistryContext__1797588460(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1797588460L))
+    @Inject(at = @At("HEAD"), method = "withParent(Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/resources/RegistryOps;", cancellable = true)
+    private void withParent__1128802101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1128802101L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class RegistryOps_1148812313Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withParent(Lcom/mojang/serialization/DynamicOps;)Lnet/minecraft/resources/RegistryOps;", cancellable = true)
-    private void withParent__1128802101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1128802101L))
+    @Inject(at = @At("HEAD"), method = "injectRegistryContext(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/core/HolderLookup$Provider;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void injectRegistryContext__1797588460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1797588460L))
             info.setReturnValue(null);
     }
 

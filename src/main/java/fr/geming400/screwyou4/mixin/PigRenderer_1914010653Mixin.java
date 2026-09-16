@@ -25,6 +25,18 @@ public class PigRenderer_1914010653Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState__2127785665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2127785665L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PigRenderState;", cancellable = true)
+    private void createRenderState__1751440154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1751440154L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__408441809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-408441809L))
@@ -53,18 +65,6 @@ public class PigRenderer_1914010653Mixin {
     private void extractRenderState__936757947(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-936757947L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState__2127785665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2127785665L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/PigRenderState;", cancellable = true)
-    private void createRenderState__1751440154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1751440154L))
-            info.setReturnValue(null);
     }
 
 

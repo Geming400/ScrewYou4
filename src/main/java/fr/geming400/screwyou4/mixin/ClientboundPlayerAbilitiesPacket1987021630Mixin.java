@@ -25,22 +25,16 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
-    private void canInstabuild__1852695950(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1852695950L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
+    private void getFlyingSpeed_1278925151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278925151L))
+            info.setReturnValue(2.310685E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
     private void getWalkingSpeed__1265447011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1265447011L))
-            info.setReturnValue(2.110831E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
-    private void getFlyingSpeed_1278925151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278925151L))
-            info.setReturnValue(2.110831E8F);
+            info.setReturnValue(2.310685E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
@@ -59,6 +53,12 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
     private void canFly__644745134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-644745134L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canInstabuild()Z", cancellable = true)
+    private void canInstabuild__1852695950(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1852695950L))
+            info.setReturnValue(false);
     }
 
 

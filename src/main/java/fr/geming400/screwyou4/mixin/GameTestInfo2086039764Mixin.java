@@ -49,27 +49,15 @@ public class GameTestInfo2086039764Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTestOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getTestOrigin_1861567943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1861567943L))
+    @Inject(at = @At("HEAD"), method = "getTestInstanceBlockEntity()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity;", cancellable = true)
+    private void getTestInstanceBlockEntity__1562222694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1562222694L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTimeoutTicks()I", cancellable = true)
-    private void getTimeoutTicks__1377523313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1377523313L))
-            info.setReturnValue(-329419281);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setRunAtTickTime(JLjava/lang/Runnable;)V", cancellable = true)
-    private void setRunAtTickTime__998621051(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-998621051L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTestBlockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getTestBlockPos_236454022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(236454022L))
+    @Inject(at = @At("HEAD"), method = "startExecution(I)Lnet/minecraft/gametest/framework/GameTestInfo;", cancellable = true)
+    private void startExecution__1117583123(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1117583123L))
             info.setReturnValue(null);
     }
 
@@ -85,22 +73,16 @@ public class GameTestInfo2086039764Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTestBlockPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getTestBlockPos_236454022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(236454022L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hasSucceeded()Z", cancellable = true)
     private void hasSucceeded__506600956(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-506600956L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startExecution(I)Lnet/minecraft/gametest/framework/GameTestInfo;", cancellable = true)
-    private void startExecution__1117583123(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1117583123L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTestInstanceBlockEntity()Lnet/minecraft/world/level/block/entity/TestInstanceBlockEntity;", cancellable = true)
-    private void getTestInstanceBlockEntity__1562222694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1562222694L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getListeners()Ljava/util/stream/Stream;", cancellable = true)
@@ -119,6 +101,30 @@ public class GameTestInfo2086039764Mixin {
     private void createSequence_486957422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(486957422L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOptional()Z", cancellable = true)
+    private void isOptional_572239393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(572239393L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isRequired()Z", cancellable = true)
+    private void isRequired_966925634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(966925634L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "succeed()V", cancellable = true)
+    private void succeed_1411371653(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1411371653L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
+    private void getRotation_1191354618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1191354618L))
+            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
     }
 
     @Inject(at = @At("HEAD"), method = "placeStructure()V", cancellable = true)
@@ -145,28 +151,16 @@ public class GameTestInfo2086039764Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getRotation()Lnet/minecraft/world/level/block/Rotation;", cancellable = true)
-    private void getRotation_1191354618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1191354618L))
-            info.setReturnValue(net.minecraft.world.level.block.Rotation.COUNTERCLOCKWISE_90);
-    }
-
     @Inject(at = @At("HEAD"), method = "requiredSuccesses()I", cancellable = true)
     private void requiredSuccesses_1399780072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399780072L))
-            info.setReturnValue(-1024103042);
+            info.setReturnValue(-1055800742);
     }
 
     @Inject(at = @At("HEAD"), method = "maxAttempts()I", cancellable = true)
     private void maxAttempts__1435973584(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1435973584L))
-            info.setReturnValue(257478587);
-    }
-
-    @Inject(at = @At("HEAD"), method = "succeed()V", cancellable = true)
-    private void succeed_1411371653(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1411371653L))
-            info.cancel();
+            info.setReturnValue(225780887);
     }
 
     @Inject(at = @At("HEAD"), method = "getTest()Lnet/minecraft/gametest/framework/GameTestInstance;", cancellable = true)
@@ -178,30 +172,12 @@ public class GameTestInfo2086039764Mixin {
     @Inject(at = @At("HEAD"), method = "getTick()I", cancellable = true)
     private void getTick_1946738823(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946738823L))
-            info.setReturnValue(-1612711147);
+            info.setReturnValue(-1644408847);
     }
 
     @Inject(at = @At("HEAD"), method = "getStructure()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getStructure_1301058008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301058008L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isRequired()Z", cancellable = true)
-    private void isRequired_966925634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(966925634L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isOptional()Z", cancellable = true)
-    private void isOptional_572239393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(572239393L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getError()Lnet/minecraft/gametest/framework/GameTestException;", cancellable = true)
-    private void getError_831403729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(831403729L))
             info.setReturnValue(null);
     }
 
@@ -220,7 +196,7 @@ public class GameTestInfo2086039764Mixin {
     @Inject(at = @At("HEAD"), method = "getRunTime()J", cancellable = true)
     private void getRunTime__990817287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-990817287L))
-            info.setReturnValue(1419069535571454213L);
+            info.setReturnValue(1419069535539756513L);
     }
 
     @Inject(at = @At("HEAD"), method = "isFlaky()Z", cancellable = true)
@@ -232,6 +208,30 @@ public class GameTestInfo2086039764Mixin {
     @Inject(at = @At("HEAD"), method = "copyReset()Lnet/minecraft/gametest/framework/GameTestInfo;", cancellable = true)
     private void copyReset_2046121284(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2046121284L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getError()Lnet/minecraft/gametest/framework/GameTestException;", cancellable = true)
+    private void getError_831403729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(831403729L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setRunAtTickTime(JLjava/lang/Runnable;)V", cancellable = true)
+    private void setRunAtTickTime__998621051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-998621051L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTimeoutTicks()I", cancellable = true)
+    private void getTimeoutTicks__1377523313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1377523313L))
+            info.setReturnValue(-359107181);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTestOrigin()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getTestOrigin_1861567943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1861567943L))
             info.setReturnValue(null);
     }
 

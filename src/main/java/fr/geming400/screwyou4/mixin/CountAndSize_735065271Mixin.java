@@ -22,7 +22,7 @@ public class CountAndSize_735065271Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1292417361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1292417361L))
-            info.setReturnValue(1275263524);
+            info.setReturnValue(1705414924);
     }
 
     @Inject(at = @At("HEAD"), method = "add(Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;)Lnet/minecraft/util/profiling/jfr/stats/IoSummary$CountAndSize;", cancellable = true)
@@ -34,19 +34,19 @@ public class CountAndSize_735065271Mixin {
     @Inject(at = @At("HEAD"), method = "totalSize()J", cancellable = true)
     private void totalSize_1999026200(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999026200L))
-            info.setReturnValue(-741222692121947961L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "averageSize()F", cancellable = true)
-    private void averageSize_658754139(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(658754139L))
-            info.setReturnValue(1.589906E8F);
+            info.setReturnValue(-741222691691796561L);
     }
 
     @Inject(at = @At("HEAD"), method = "totalCount()J", cancellable = true)
     private void totalCount__695828206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-695828206L))
-            info.setReturnValue(-5884030572725515131L);
+            info.setReturnValue(-5884030572295363731L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "averageSize()F", cancellable = true)
+    private void averageSize_658754139(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(658754139L))
+            info.setReturnValue(5.89142E8F);
     }
 
 

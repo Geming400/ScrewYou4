@@ -34,7 +34,7 @@ public class IVec3Uniform_1874039331Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1863575875(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1863575875L))
-            info.setReturnValue(1623617037);
+            info.setReturnValue(1899484337);
     }
 
     @Inject(at = @At("HEAD"), method = "writeTo(Lcom/mojang/blaze3d/buffers/Std140Builder;)V", cancellable = true)

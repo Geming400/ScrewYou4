@@ -13,6 +13,12 @@ public class ExplorationMapFunction10108959Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_789612187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(789612187L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1076554213(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1076554213L))
@@ -23,12 +29,6 @@ public class ExplorationMapFunction10108959Mixin {
     private static void makeExplorationMap__170022143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-170022143L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_789612187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(789612187L))
-            info.setReturnValue(null);
     }
 
 

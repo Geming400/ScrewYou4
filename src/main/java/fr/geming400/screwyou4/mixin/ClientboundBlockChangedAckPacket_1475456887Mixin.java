@@ -28,7 +28,7 @@ public class ClientboundBlockChangedAckPacket_1475456887Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2032808977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2032808977L))
-            info.setReturnValue(-2074873853);
+            info.setReturnValue(2019085843);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundBlockChangedAckPacket_1475456887Mixin {
     @Inject(at = @At("HEAD"), method = "sequence()I", cancellable = true)
     private void sequence_701677115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(701677115L))
-            info.setReturnValue(1365219616);
+            info.setReturnValue(1164212016);
     }
 
 

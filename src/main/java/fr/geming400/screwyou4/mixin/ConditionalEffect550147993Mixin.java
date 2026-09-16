@@ -22,7 +22,7 @@ public class ConditionalEffect550147993Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1107500084(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1107500084L))
-            info.setReturnValue(-221391567);
+            info.setReturnValue(-363970267);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -37,15 +37,15 @@ public class ConditionalEffect550147993Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void codec_901796806(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(901796806L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "effect()Ljava/lang/Object;", cancellable = true)
     private void effect_1595499525(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1595499525L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void codec_901796806(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(901796806L))
             info.setReturnValue(null);
     }
 

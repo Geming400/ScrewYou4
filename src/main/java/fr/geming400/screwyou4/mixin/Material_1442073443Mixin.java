@@ -22,7 +22,7 @@ public class Material_1442073443Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1999425533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999425533L))
-            info.setReturnValue(425668877);
+            info.setReturnValue(715284777);
     }
 
     @Inject(at = @At("HEAD"), method = "forceTranslucent()Z", cancellable = true)

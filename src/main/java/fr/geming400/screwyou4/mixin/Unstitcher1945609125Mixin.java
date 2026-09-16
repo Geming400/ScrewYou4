@@ -28,7 +28,7 @@ public class Unstitcher1945609125Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1792006080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1792006080L))
-            info.setReturnValue(-2073360444);
+            info.setReturnValue(1740324252);
     }
 
     @Inject(at = @At("HEAD"), method = "resource()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -52,13 +52,13 @@ public class Unstitcher1945609125Mixin {
     @Inject(at = @At("HEAD"), method = "yDivisor()D", cancellable = true)
     private void yDivisor_362394625(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(362394625L))
-            info.setReturnValue(8.969426001289165E8D);
+            info.setReturnValue(4.1566000012891656E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "xDivisor()D", cancellable = true)
     private void xDivisor_655797632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(655797632L))
-            info.setReturnValue(8.969426003646367E8D);
+            info.setReturnValue(4.1566000036463666E8D);
     }
 
 

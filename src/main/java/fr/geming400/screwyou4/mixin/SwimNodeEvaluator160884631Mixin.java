@@ -25,16 +25,16 @@ public class SwimNodeEvaluator160884631Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
-    private void getNeighbors_388411187(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(388411187L))
-            info.setReturnValue(525286767);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private void getPathType_1336539476(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1336539476L))
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.POWDER_SNOW);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
+    private void getNeighbors_388411187(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(388411187L))
+            info.setReturnValue(416326867);
     }
 
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)

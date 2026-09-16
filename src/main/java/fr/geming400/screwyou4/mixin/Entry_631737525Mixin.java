@@ -28,7 +28,7 @@ public class Entry_631737525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1189089615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1189089615L))
-            info.setReturnValue(2119278141);
+            info.setReturnValue(1227331041);
     }
 
     @Inject(at = @At("HEAD"), method = "displayName()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,13 +40,7 @@ public class Entry_631737525Mixin {
     @Inject(at = @At("HEAD"), method = "latency()I", cancellable = true)
     private void latency__401308580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-401308580L))
-            info.setReturnValue(-9863555);
-    }
-
-    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
-    private void profileId_987433323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(987433323L))
-            info.setReturnValue(null);
+            info.setReturnValue(-901810655);
     }
 
     @Inject(at = @At("HEAD"), method = "gameMode()Lnet/minecraft/world/level/GameType;", cancellable = true)
@@ -61,22 +55,28 @@ public class Entry_631737525Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
+    private void showHat__103781683(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-103781683L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
+    private void listOrder__803005622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-803005622L))
+            info.setReturnValue(-1609809681);
+    }
+
     @Inject(at = @At("HEAD"), method = "listed()Z", cancellable = true)
     private void listed_1623892686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1623892686L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "listOrder()I", cancellable = true)
-    private void listOrder__803005622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-803005622L))
-            info.setReturnValue(-717862581);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showHat()Z", cancellable = true)
-    private void showHat__103781683(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-103781683L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "profileId()Ljava/util/UUID;", cancellable = true)
+    private void profileId_987433323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(987433323L))
+            info.setReturnValue(null);
     }
 
 

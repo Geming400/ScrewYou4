@@ -19,16 +19,10 @@ public class ThrownItemRenderer_773903470Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState_211681662(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(211681662L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/ThrownItemRenderState;F)V", cancellable = true)
-    private void extractRenderState_163202470(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(163202470L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ThrownItemRenderState;", cancellable = true)
+    private void createRenderState__2144877464(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2144877464L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
@@ -37,10 +31,16 @@ public class ThrownItemRenderer_773903470Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.EntityRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/ThrownItemRenderState;", cancellable = true)
-    private void createRenderState__2144877464(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2144877464L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/ThrownItemRenderState;F)V", cancellable = true)
+    private void extractRenderState_163202470(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(163202470L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState_211681662(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(211681662L))
+            info.cancel();
     }
 
 

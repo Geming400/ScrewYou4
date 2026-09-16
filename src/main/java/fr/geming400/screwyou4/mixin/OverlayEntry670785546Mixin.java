@@ -22,7 +22,7 @@ public class OverlayEntry670785546Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1228137637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1228137637L))
-            info.setReturnValue(-1980325297);
+            info.setReturnValue(-1985100097);
     }
 
     @Inject(at = @At("HEAD"), method = "format()Lnet/minecraft/util/InclusiveRange;", cancellable = true)

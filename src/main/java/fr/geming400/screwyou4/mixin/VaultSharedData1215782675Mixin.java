@@ -13,16 +13,16 @@ public class VaultSharedData1215782675Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDisplayItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getDisplayItem__1207349770(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207349770L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "hasDisplayItem()Z", cancellable = true)
     private void hasDisplayItem_938480047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(938480047L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDisplayItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getDisplayItem__1207349770(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1207349770L))
+            info.setReturnValue(null);
     }
 
 

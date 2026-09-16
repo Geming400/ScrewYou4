@@ -34,7 +34,7 @@ public class ClientboundEntityPositionSyncPacket1543890084Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2101242175(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2101242175L))
-            info.setReturnValue(-1503495018);
+            info.setReturnValue(-1735966718);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/protocol/game/ClientboundEntityPositionSyncPacket;", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundEntityPositionSyncPacket1543890084Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1151293873(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1151293873L))
-            info.setReturnValue(-1707528895);
+            info.setReturnValue(-1940000595);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

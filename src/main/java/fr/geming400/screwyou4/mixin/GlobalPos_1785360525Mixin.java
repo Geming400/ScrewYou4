@@ -22,7 +22,7 @@ public class GlobalPos_1785360525Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1952254681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1952254681L))
-            info.setReturnValue(-1565375402);
+            info.setReturnValue(-1534686102);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/GlobalPos;", cancellable = true)

@@ -25,16 +25,16 @@ public class LanguageManager531970951Mixin {
             info.setReturnValue("lcGL5\u725Ef\u1E87,\uBD41&O\u70BD\u37B59M8");
     }
 
-    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
-    private void onResourceManagerReload_785215112(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(785215112L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getLanguages()Ljava/util/SortedMap;", cancellable = true)
     private void getLanguages_288077191(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(288077191L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
+    private void onResourceManagerReload_785215112(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(785215112L))
+            info.cancel();
     }
 
 

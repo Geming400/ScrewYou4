@@ -28,7 +28,7 @@ public class Texture2087095830Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1650519375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1650519375L))
-            info.setReturnValue(1828244652);
+            info.setReturnValue(-2067056044);
     }
 
     @Inject(at = @At("HEAD"), method = "sampler()Lcom/mojang/blaze3d/textures/GpuSampler;", cancellable = true)

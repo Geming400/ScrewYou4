@@ -16,7 +16,7 @@ public class FilterMask_843717538Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1401069132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1401069132L))
-            info.setReturnValue(-2023358790);
+            info.setReturnValue(-1145558290);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

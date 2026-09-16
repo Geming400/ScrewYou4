@@ -25,21 +25,15 @@ public class Builder867009689Mixin {
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnPotentialsDefinition(Lnet/minecraft/util/random/WeightedList;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
-    private void spawnPotentialsDefinition_1570829897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1570829897L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ticksBetweenSpawn(I)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
     private void ticksBetweenSpawn_699468235(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(699468235L))
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "totalMobs(F)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
-    private void totalMobs__475125120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-475125120L))
+    @Inject(at = @At("HEAD"), method = "spawnPotentialsDefinition(Lnet/minecraft/util/random/WeightedList;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
+    private void spawnPotentialsDefinition_1570829897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1570829897L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +43,27 @@ public class Builder867009689Mixin {
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 
+    @Inject(at = @At("HEAD"), method = "totalMobs(F)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
+    private void totalMobs__475125120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-475125120L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "itemsToDropWhenOminous(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
     private void itemsToDropWhenOminous__186870429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-186870429L))
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "simultaneousMobs(F)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
-    private void simultaneousMobs_34564905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(34564905L))
-            info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "totalMobsAddedPerPlayer(F)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
     private void totalMobsAddedPerPlayer__509213662(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-509213662L))
+            info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "simultaneousMobs(F)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawnerConfig$Builder;", cancellable = true)
+    private void simultaneousMobs_34564905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(34564905L))
             info.setReturnValue(new net.minecraft.world.level.block.entity.trialspawner.TrialSpawnerConfig.Builder());
     }
 

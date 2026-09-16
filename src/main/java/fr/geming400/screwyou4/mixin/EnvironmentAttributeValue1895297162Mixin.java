@@ -22,13 +22,13 @@ public class EnvironmentAttributeValue1895297162Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1842318043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1842318043L))
-            info.setReturnValue(-421836355);
+            info.setReturnValue(-397096055);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_1665826342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1665826342L))
-            info.setReturnValue(7.98344E7F);
+            info.setReturnValue(1.045747E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "attribute()Lnet/minecraft/world/attribute/EnvironmentAttribute;", cancellable = true)
@@ -37,15 +37,15 @@ public class EnvironmentAttributeValue1895297162Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1333224880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1333224880L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1620166906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1620166906L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1333224880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1333224880L))
             info.setReturnValue(null);
     }
 

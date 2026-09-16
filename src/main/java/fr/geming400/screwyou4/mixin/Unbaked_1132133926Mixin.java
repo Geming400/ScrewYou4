@@ -22,7 +22,7 @@ public class Unbaked_1132133926Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1689486016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1689486016L))
-            info.setReturnValue(-1192493255);
+            info.setReturnValue(-504139955);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/block/model/properties/conditional/ConditionalBlockModelProperty;", cancellable = true)
@@ -37,9 +37,9 @@ public class Unbaked_1132133926Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/block/model/BlockModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/block/model/BlockModel;", cancellable = true)
-    private void bake__1556991341(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1556991341L))
+    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
+    private void onFalse__1564351447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1564351447L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class Unbaked_1132133926Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
-    private void onFalse__1564351447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1564351447L))
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/block/model/BlockModel$BakingContext;Lorg/joml/Matrix4fc;)Lnet/minecraft/client/renderer/block/model/BlockModel;", cancellable = true)
+    private void bake__1556991341(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1556991341L))
             info.setReturnValue(null);
     }
 

@@ -13,22 +13,22 @@ public class ShipwreckPiece_276786419Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isTooBigToFitInWorldGenRegion()Z", cancellable = true)
+    private void isTooBigToFitInWorldGenRegion__414118638(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-414118638L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "calculateBeachedPosition(ILnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void calculateBeachedPosition__2046294214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2046294214L))
-            info.setReturnValue(-767727288);
+            info.setReturnValue(-906234388);
     }
 
     @Inject(at = @At("HEAD"), method = "adjustPositionHeight(I)V", cancellable = true)
     private void adjustPositionHeight_1889513981(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1889513981L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isTooBigToFitInWorldGenRegion()Z", cancellable = true)
-    private void isTooBigToFitInWorldGenRegion__414118638(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-414118638L))
-            info.setReturnValue(false);
     }
 
 

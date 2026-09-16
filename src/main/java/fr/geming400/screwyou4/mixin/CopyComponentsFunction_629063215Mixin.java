@@ -13,27 +13,27 @@ public class CopyComponentsFunction_629063215Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1695508468(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1695508468L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
-    private static void copyComponentsFromEntity_1033304779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1033304779L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams_1408566442(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1408566442L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1695508468(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1695508468L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "copyComponentsFromBlockEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
     private static void copyComponentsFromBlockEntity_1450724910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1450724910L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyComponentsFromEntity(Lnet/minecraft/util/context/ContextKey;)Lnet/minecraft/world/level/storage/loot/functions/CopyComponentsFunction$Builder;", cancellable = true)
+    private static void copyComponentsFromEntity_1033304779(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1033304779L))
             info.setReturnValue(null);
     }
 

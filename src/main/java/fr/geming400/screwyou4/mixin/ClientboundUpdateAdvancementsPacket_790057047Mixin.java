@@ -25,18 +25,6 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldReset()Z", cancellable = true)
-    private void shouldReset_1842475057(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1842475057L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldShowAdvancements()Z", cancellable = true)
-    private void shouldShowAdvancements_1912942826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1912942826L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getProgress()Ljava/util/Map;", cancellable = true)
     private void getProgress__1388228933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1388228933L))
@@ -53,6 +41,18 @@ public class ClientboundUpdateAdvancementsPacket_790057047Mixin {
     private void getRemoved_141937166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(141937166L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldReset()Z", cancellable = true)
+    private void shouldReset_1842475057(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1842475057L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldShowAdvancements()Z", cancellable = true)
+    private void shouldShowAdvancements_1912942826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1912942826L))
+            info.setReturnValue(false);
     }
 
 

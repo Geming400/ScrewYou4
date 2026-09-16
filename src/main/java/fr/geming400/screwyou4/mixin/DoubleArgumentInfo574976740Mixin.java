@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.synchronization.brigadier.DoubleArgumentInfo.class)
 public class DoubleArgumentInfo574976740Mixin {
-        @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_539546174(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(539546174L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
+    private void unpack_2100085371(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2100085371L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_2014472157(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2014472157L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/DoubleArgumentType;)Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;", cancellable = true)
+    private void unpack__1446400083(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1446400083L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
@@ -31,9 +31,15 @@ public class DoubleArgumentInfo574976740Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
-    private void serializeToJson__972224392(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-972224392L))
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_539546174(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(539546174L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_2014472157(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2014472157L))
             info.cancel();
     }
 
@@ -43,16 +49,10 @@ public class DoubleArgumentInfo574976740Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/DoubleArgumentType;)Lnet/minecraft/commands/synchronization/brigadier/DoubleArgumentInfo$Template;", cancellable = true)
-    private void unpack__1446400083(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1446400083L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
-    private void unpack_2100085371(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2100085371L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "serializeToJson(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lcom/google/gson/JsonObject;)V", cancellable = true)
+    private void serializeToJson__972224392(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-972224392L))
+            info.cancel();
     }
 
 

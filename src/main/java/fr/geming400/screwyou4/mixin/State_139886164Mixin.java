@@ -28,7 +28,7 @@ public class State_139886164Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_697238254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(697238254L))
-            info.setReturnValue(-1519543091);
+            info.setReturnValue(-1677455991);
     }
 
     @Inject(at = @At("HEAD"), method = "reloadCount()Ljava/util/concurrent/atomic/AtomicLong;", cancellable = true)

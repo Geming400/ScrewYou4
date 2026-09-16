@@ -13,16 +13,16 @@ public class TestInstanceBlockEditScreen_1018694802Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/network/chat/Component;Ljava/util/Optional;)V", cancellable = true)
-    private void setStatus_218714131(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(218714131L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
     private void isInGameUi_506208371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(506208371L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/network/chat/Component;Ljava/util/Optional;)V", cancellable = true)
+    private void setStatus_218714131(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(218714131L))
+            info.cancel();
     }
 
 

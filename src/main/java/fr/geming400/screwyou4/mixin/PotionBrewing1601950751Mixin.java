@@ -31,9 +31,15 @@ public class PotionBrewing1601950751Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBrewablePotion(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void isBrewablePotion_1778739070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1778739070L))
+    @Inject(at = @At("HEAD"), method = "hasContainerMix(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void hasContainerMix_847401963(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(847401963L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isContainerIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isContainerIngredient_586057043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(586057043L))
             info.setReturnValue(true);
     }
 
@@ -43,21 +49,15 @@ public class PotionBrewing1601950751Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isContainerIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isContainerIngredient_586057043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(586057043L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPotionIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void isPotionIngredient_889326253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889326253L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasContainerMix(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void hasContainerMix_847401963(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(847401963L))
+    @Inject(at = @At("HEAD"), method = "isBrewablePotion(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void isBrewablePotion_1778739070(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1778739070L))
             info.setReturnValue(true);
     }
 

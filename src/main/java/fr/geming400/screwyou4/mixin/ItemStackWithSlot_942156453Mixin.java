@@ -10,7 +10,7 @@ public class ItemStackWithSlot_942156453Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot_1576183116(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1576183116L))
-            info.setReturnValue(-1888185546);
+            info.setReturnValue(2046741250);
     }
 
     @Inject(at = @At("HEAD"), method = "stack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -34,7 +34,7 @@ public class ItemStackWithSlot_942156453Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1499508543(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1499508543L))
-            info.setReturnValue(825393866);
+            info.setReturnValue(465353366);
     }
 
     @Inject(at = @At("HEAD"), method = "isValidInContainer(I)Z", cancellable = true)

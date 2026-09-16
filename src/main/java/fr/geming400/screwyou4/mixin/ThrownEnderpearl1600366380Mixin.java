@@ -25,15 +25,21 @@ public class ThrownEnderpearl1600366380Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "onAboveBubbleColumn(ZLnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void onAboveBubbleColumn__147019575(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-147019575L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "canTeleport(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/Level;)Z", cancellable = true)
     private void canTeleport_486743880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(486743880L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onAboveBubbleColumn(ZLnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void onAboveBubbleColumn__147019575(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-147019575L))
+    @Inject(at = @At("HEAD"), method = "onRemoval(Lnet/minecraft/world/entity/Entity$RemovalReason;)V", cancellable = true)
+    private void onRemoval__2110180231(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2110180231L))
             info.cancel();
     }
 
@@ -41,12 +47,6 @@ public class ThrownEnderpearl1600366380Mixin {
     private void teleport_612117133(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(612117133L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onRemoval(Lnet/minecraft/world/entity/Entity$RemovalReason;)V", cancellable = true)
-    private void onRemoval__2110180231(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2110180231L))
-            info.cancel();
     }
 
 

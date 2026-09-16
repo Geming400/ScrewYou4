@@ -22,7 +22,7 @@ public class SetBlockProperties337554656Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_894906747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894906747L))
-            info.setReturnValue(-451241864);
+            info.setReturnValue(-783388264);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/level/ServerLevel;ILnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class SetBlockProperties337554656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
-    private void triggerGameEvent__1598233218(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1598233218L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1403999910(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403999910L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggerGameEvent()Ljava/util/Optional;", cancellable = true)
+    private void triggerGameEvent__1598233218(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1598233218L))
             info.setReturnValue(null);
     }
 

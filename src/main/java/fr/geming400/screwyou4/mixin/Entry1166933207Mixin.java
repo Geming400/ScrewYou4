@@ -22,13 +22,13 @@ public class Entry1166933207Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1724285298(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1724285298L))
-            info.setReturnValue(-509683817);
+            info.setReturnValue(-264687117);
     }
 
     @Inject(at = @At("HEAD"), method = "threshold()F", cancellable = true)
     private void threshold__1340543505(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1340543505L))
-            info.setReturnValue(7.31538E8F);
+            info.setReturnValue(9.765347E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "model()Lnet/minecraft/client/renderer/item/ItemModel$Unbaked;", cancellable = true)

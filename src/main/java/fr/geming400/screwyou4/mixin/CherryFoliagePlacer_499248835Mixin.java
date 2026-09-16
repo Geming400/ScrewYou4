@@ -10,7 +10,7 @@ public class CherryFoliagePlacer_499248835Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight_31478880(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(31478880L))
-            info.setReturnValue(-1978714137);
+            info.setReturnValue(1943170059);
     }
 
 

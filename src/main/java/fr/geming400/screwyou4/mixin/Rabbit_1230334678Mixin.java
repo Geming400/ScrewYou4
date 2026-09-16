@@ -19,15 +19,33 @@ public class Rabbit_1230334678Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.rabbit.Rabbit.Variant.EVIL);
     }
 
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1433335052(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1433335052L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setJumping(Z)V", cancellable = true)
+    private void setJumping_708676164(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(708676164L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__1689530629(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1689530629L))
             info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "playAttackSound()V", cancellable = true)
-    private void playAttackSound_1236824469(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1236824469L))
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__1550375420(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1550375420L))
+            info.setReturnValue(net.minecraft.sounds.SoundSource.VOICE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1984082793(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1984082793L))
             info.cancel();
     }
 
@@ -37,9 +55,9 @@ public class Rabbit_1230334678Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1984082793(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1984082793L))
+    @Inject(at = @At("HEAD"), method = "playAttackSound()V", cancellable = true)
+    private void playAttackSound_1236824469(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1236824469L))
             info.cancel();
     }
 
@@ -55,10 +73,22 @@ public class Rabbit_1230334678Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__1550375420(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1550375420L))
-            info.setReturnValue(net.minecraft.sounds.SoundSource.VOICE);
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
+    private void getBreedOffspring_1370218777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1370218777L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/rabbit/Rabbit;", cancellable = true)
+    private void getBreedOffspring__604715196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-604715196L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customServerAiStep(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
+    private void customServerAiStep__998450671(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-998450671L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setLeashData(Lnet/minecraft/world/entity/Leashable$LeashData;)V", cancellable = true)
@@ -73,34 +103,10 @@ public class Rabbit_1230334678Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__1433335052(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1433335052L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setJumping(Z)V", cancellable = true)
-    private void setJumping_708676164(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(708676164L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/rabbit/Rabbit;", cancellable = true)
-    private void getBreedOffspring__604715196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-604715196L))
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn_1980432986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1980432986L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
-    private void getBreedOffspring_1370218777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1370218777L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "customServerAiStep(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void customServerAiStep__998450671(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-998450671L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -109,22 +115,16 @@ public class Rabbit_1230334678Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSpeedModifier(D)V", cancellable = true)
-    private void setSpeedModifier__1544879496(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1544879496L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "startJumping()V", cancellable = true)
     private void startJumping__1620315498(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1620315498L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getJumpCompletion(F)F", cancellable = true)
-    private void getJumpCompletion__339200242(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-339200242L))
-            info.setReturnValue(7.24008E7F);
+    @Inject(at = @At("HEAD"), method = "setSpeedModifier(D)V", cancellable = true)
+    private void setSpeedModifier__1544879496(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1544879496L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "checkRabbitSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
@@ -133,10 +133,10 @@ public class Rabbit_1230334678Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn_1980432986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1980432986L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getJumpCompletion(F)F", cancellable = true)
+    private void getJumpCompletion__339200242(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-339200242L))
+            info.setReturnValue(6.151967E8F);
     }
 
 

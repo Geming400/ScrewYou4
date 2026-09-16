@@ -13,16 +13,16 @@ public class Entry_1428220958Mixin {
             info.setReturnValue(net.minecraft.client.multiplayer.chat.report.ReportReason.SEXUALLY_INAPPROPRIATE);
     }
 
-    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked_887714781(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(887714781L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getNarration_2146385564(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2146385564L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked_887714781(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(887714781L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)

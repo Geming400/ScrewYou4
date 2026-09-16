@@ -13,15 +13,21 @@ public class SetNameFunction_188090985Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
+    private static void setName__370056539(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-370056539L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void setName__1481653398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1481653398L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setName(Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/level/storage/loot/functions/SetNameFunction$Target;Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
-    private static void setName__370056539(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-370056539L))
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_967594212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(967594212L))
             info.setReturnValue(null);
     }
 
@@ -34,12 +40,6 @@ public class SetNameFunction_188090985Mixin {
     @Inject(at = @At("HEAD"), method = "createResolver(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;)Ljava/util/function/UnaryOperator;", cancellable = true)
     private static void createResolver_1940704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1940704L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_967594212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(967594212L))
             info.setReturnValue(null);
     }
 

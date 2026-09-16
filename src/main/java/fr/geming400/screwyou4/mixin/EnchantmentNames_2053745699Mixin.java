@@ -13,16 +13,16 @@ public class EnchantmentNames_2053745699Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "initSeed(J)V", cancellable = true)
-    private void initSeed__617984592(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-617984592L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getRandomName(Lnet/minecraft/client/gui/Font;I)Lnet/minecraft/network/chat/FormattedText;", cancellable = true)
     private void getRandomName_617502360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(617502360L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "initSeed(J)V", cancellable = true)
+    private void initSeed__617984592(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-617984592L))
+            info.cancel();
     }
 
 

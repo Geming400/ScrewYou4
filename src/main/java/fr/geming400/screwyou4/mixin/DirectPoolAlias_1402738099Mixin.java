@@ -28,7 +28,7 @@ public class DirectPoolAlias_1402738099Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1960090189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1960090189L))
-            info.setReturnValue(2131397293);
+            info.setReturnValue(-1732558503);
     }
 
     @Inject(at = @At("HEAD"), method = "alias()Lnet/minecraft/resources/ResourceKey;", cancellable = true)

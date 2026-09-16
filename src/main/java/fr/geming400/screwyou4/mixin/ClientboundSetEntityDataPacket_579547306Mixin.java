@@ -28,13 +28,13 @@ public class ClientboundSetEntityDataPacket_579547306Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1136899396(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1136899396L))
-            info.setReturnValue(-1083548615);
+            info.setReturnValue(-1282479015);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__2115636652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2115636652L))
-            info.setReturnValue(-263953372);
+            info.setReturnValue(-462883772);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V", cancellable = true)

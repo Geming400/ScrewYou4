@@ -22,7 +22,7 @@ public class GlobalPalette469119562Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_903246361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(903246361L))
-            info.setReturnValue(-193981131);
+            info.setReturnValue(279853769);
     }
 
     @Inject(at = @At("HEAD"), method = "read(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/core/IdMap;)V", cancellable = true)
@@ -34,13 +34,13 @@ public class GlobalPalette469119562Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
     private void getSerializedSize_1351579839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1351579839L))
-            info.setReturnValue(-711475413);
+            info.setReturnValue(-238639813);
     }
 
-    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
-    private void idFor__1569539480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1569539480L))
-            info.setReturnValue(522295597);
+    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
+    private void maybeHas__1289572034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1289572034L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
@@ -49,10 +49,10 @@ public class GlobalPalette469119562Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)
-    private void maybeHas__1289572034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1289572034L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
+    private void idFor__1569539480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1569539480L))
+            info.setReturnValue(995131197);
     }
 
 

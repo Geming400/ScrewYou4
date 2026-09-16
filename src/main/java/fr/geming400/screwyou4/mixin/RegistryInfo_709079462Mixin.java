@@ -22,7 +22,7 @@ public class RegistryInfo_709079462Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1266431552(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1266431552L))
-            info.setReturnValue(-1652227187);
+            info.setReturnValue(-1450136087);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Lnet/minecraft/core/HolderOwner;", cancellable = true)
@@ -37,15 +37,15 @@ public class RegistryInfo_709079462Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "elementsLifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
-    private void elementsLifecycle_7795146(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(7795146L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromRegistryLookup(Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/resources/RegistryOps$RegistryInfo;", cancellable = true)
     private static void fromRegistryLookup_400538718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(400538718L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "elementsLifecycle()Lcom/mojang/serialization/Lifecycle;", cancellable = true)
+    private void elementsLifecycle_7795146(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(7795146L))
             info.setReturnValue(null);
     }
 

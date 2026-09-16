@@ -16,7 +16,7 @@ public class EntityBlockStateFix_1170735136Mixin {
     @Inject(at = @At("HEAD"), method = "getBlockId(Ljava/lang/String;)I", cancellable = true)
     private static void getBlockId_2016664693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2016664693L))
-            info.setReturnValue(-803395111);
+            info.setReturnValue(-1358613911);
     }
 
 

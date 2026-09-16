@@ -22,7 +22,7 @@ public class TriggerInstance_284184044Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_841536134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(841536134L))
-            info.setReturnValue(-118271639);
+            info.setReturnValue(-891575239);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -37,18 +37,6 @@ public class TriggerInstance_284184044Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player__946468998(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-946468998L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
-    private void villager_384286431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(384286431L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "zombie()Ljava/util/Optional;", cancellable = true)
     private void zombie__1095130177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1095130177L))
@@ -58,6 +46,18 @@ public class TriggerInstance_284184044Mixin {
     @Inject(at = @At("HEAD"), method = "curedZombieVillager()Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
     private static void curedZombieVillager_3903783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(3903783L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player__946468998(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-946468998L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "villager()Ljava/util/Optional;", cancellable = true)
+    private void villager_384286431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(384286431L))
             info.setReturnValue(null);
     }
 

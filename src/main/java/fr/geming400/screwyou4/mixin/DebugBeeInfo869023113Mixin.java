@@ -22,19 +22,19 @@ public class DebugBeeInfo869023113Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426375204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426375204L))
-            info.setReturnValue(582465221);
+            info.setReturnValue(940682521);
+    }
+
+    @Inject(at = @At("HEAD"), method = "travelTicks()I", cancellable = true)
+    private void travelTicks__744944269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744944269L))
+            info.setReturnValue(584792438);
     }
 
     @Inject(at = @At("HEAD"), method = "blacklistedHives()Ljava/util/List;", cancellable = true)
     private void blacklistedHives__854385632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-854385632L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "travelTicks()I", cancellable = true)
-    private void travelTicks__744944269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744944269L))
-            info.setReturnValue(226575138);
     }
 
     @Inject(at = @At("HEAD"), method = "hivePos()Ljava/util/Optional;", cancellable = true)

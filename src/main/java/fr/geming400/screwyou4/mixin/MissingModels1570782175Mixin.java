@@ -22,7 +22,7 @@ public class MissingModels1570782175Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2128134266(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2128134266L))
-            info.setReturnValue(-891232036);
+            info.setReturnValue(-743332336);
     }
 
     @Inject(at = @At("HEAD"), method = "block()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;", cancellable = true)
@@ -37,12 +37,6 @@ public class MissingModels1570782175Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ResolvedModel;Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelBaker$Interner;)Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
-    private static void bake__291878550(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-291878550L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fluid()Lnet/minecraft/client/renderer/block/FluidModel;", cancellable = true)
     private void fluid__328156998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-328156998L))
@@ -52,6 +46,12 @@ public class MissingModels1570782175Mixin {
     @Inject(at = @At("HEAD"), method = "blockPart()Lnet/minecraft/client/renderer/block/dispatch/BlockStateModelPart;", cancellable = true)
     private void blockPart__75853428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-75853428L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/resources/model/ResolvedModel;Lnet/minecraft/client/resources/model/sprite/MaterialBaker;Lnet/minecraft/client/resources/model/ModelBaker$Interner;)Lnet/minecraft/client/resources/model/ModelBakery$MissingModels;", cancellable = true)
+    private static void bake__291878550(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-291878550L))
             info.setReturnValue(null);
     }
 

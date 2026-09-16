@@ -22,7 +22,7 @@ public class DamageSourceCondition_35739181Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_593091271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593091271L))
-            info.setReturnValue(-1341746893);
+            info.setReturnValue(-1529049993);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -43,6 +43,12 @@ public class DamageSourceCondition_35739181Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_815242408(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(815242408L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1102184434(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1102184434L))
@@ -52,12 +58,6 @@ public class DamageSourceCondition_35739181Mixin {
     @Inject(at = @At("HEAD"), method = "hasDamageSource(Lnet/minecraft/advancements/predicates/DamageSourcePredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void hasDamageSource_2109202671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109202671L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_815242408(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(815242408L))
             info.setReturnValue(null);
     }
 

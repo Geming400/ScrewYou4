@@ -43,15 +43,15 @@ public class RegionFile1501492730Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getChunkDataOutputStream(Lnet/minecraft/world/level/ChunkPos;)Ljava/io/DataOutputStream;", cancellable = true)
-    private void getChunkDataOutputStream_1831947191(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831947191L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getChunkDataInputStream(Lnet/minecraft/world/level/ChunkPos;)Ljava/io/DataInputStream;", cancellable = true)
     private void getChunkDataInputStream_778893309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(778893309L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getChunkDataOutputStream(Lnet/minecraft/world/level/ChunkPos;)Ljava/io/DataOutputStream;", cancellable = true)
+    private void getChunkDataOutputStream_1831947191(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831947191L))
             info.setReturnValue(null);
     }
 

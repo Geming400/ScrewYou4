@@ -13,15 +13,15 @@ public class SetComponentsFunction1857836386Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1370685656(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1370685656L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setComponent(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;", cancellable = true)
     private static void setComponent__624485112(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-624485112L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1370685656(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1370685656L))
             info.setReturnValue(null);
     }
 

@@ -22,12 +22,12 @@ public class JukeboxPlayable_873626826Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1430978916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430978916L))
-            info.setReturnValue(279748771);
+            info.setReturnValue(-470367229);
     }
 
-    @Inject(at = @At("HEAD"), method = "song()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void song_581246224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(581246224L))
+    @Inject(at = @At("HEAD"), method = "tryInsertIntoJukebox(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private static void tryInsertIntoJukebox_1340680666(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1340680666L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class JukeboxPlayable_873626826Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryInsertIntoJukebox(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private static void tryInsertIntoJukebox_1340680666(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1340680666L))
+    @Inject(at = @At("HEAD"), method = "song()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void song_581246224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(581246224L))
             info.setReturnValue(null);
     }
 

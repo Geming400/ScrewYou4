@@ -19,16 +19,16 @@ public class DialogAction_1647144102Mixin {
             info.setReturnValue(net.minecraft.server.dialog.DialogAction.CLOSE);
     }
 
-    @Inject(at = @At("HEAD"), method = "willUnpause()Z", cancellable = true)
-    private void willUnpause__2095455631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2095455631L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_1735352723(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1735352723L))
             info.setReturnValue("Kjc\u8D2CHe\u704ANe\u2343Y$A$>zg2UT9n\u76EC\u3822c?!@\uC8D7wxCX9+\u393E5QiDy{TX|bvyUFRN(&aBh\u865BPZ\u87FBG\u693B70o@\"");
+    }
+
+    @Inject(at = @At("HEAD"), method = "willUnpause()Z", cancellable = true)
+    private void willUnpause__2095455631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2095455631L))
+            info.setReturnValue(false);
     }
 
 

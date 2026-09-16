@@ -22,7 +22,7 @@ public class DataLoadContext15655466Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_573007557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(573007557L))
-            info.setReturnValue(-1853020704);
+            info.setReturnValue(2029136892);
     }
 
     @Inject(at = @At("HEAD"), method = "resources()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)

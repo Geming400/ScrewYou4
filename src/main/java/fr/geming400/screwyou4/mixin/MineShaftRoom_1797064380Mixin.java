@@ -13,15 +13,15 @@ public class MineShaftRoom_1797064380Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private void postProcess_1120706059(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1120706059L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addChildren(Lnet/minecraft/world/level/levelgen/structure/StructurePiece;Lnet/minecraft/world/level/levelgen/structure/StructurePieceAccessor;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
     private void addChildren__1781226411(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1781226411L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "postProcess(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private void postProcess_1120706059(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1120706059L))
             info.cancel();
     }
 

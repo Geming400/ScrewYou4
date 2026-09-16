@@ -13,6 +13,12 @@ public class ClientboundLevelChunkPacketData_65862848Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getHeightmaps()Ljava/util/Map;", cancellable = true)
+    private void getHeightmaps__867400973(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-867400973L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractChunkData(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/world/level/chunk/LevelChunk;)V", cancellable = true)
     private static void extractChunkData_1399271508(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1399271508L))
@@ -28,12 +34,6 @@ public class ClientboundLevelChunkPacketData_65862848Mixin {
     @Inject(at = @At("HEAD"), method = "getReadBuffer()Lnet/minecraft/network/FriendlyByteBuf;", cancellable = true)
     private void getReadBuffer__115035764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-115035764L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeightmaps()Ljava/util/Map;", cancellable = true)
-    private void getHeightmaps__867400973(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-867400973L))
             info.setReturnValue(null);
     }
 

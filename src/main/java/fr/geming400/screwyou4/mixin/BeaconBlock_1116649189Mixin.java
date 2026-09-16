@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.BeaconBlock.class)
 public class BeaconBlock_1116649189Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__2111872854(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2111872854L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void getColor_1744640349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1744640349L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.LIME);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__2111872854(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2111872854L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)

@@ -16,13 +16,19 @@ public class SpacerElement_1978758622Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY__1412771360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1412771360L))
-            info.setReturnValue(1891185358);
+            info.setReturnValue(1135114458);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX__1441400511(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1441400511L))
-            info.setReturnValue(-1309342649);
+            info.setReturnValue(-2065413549);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/layouts/SpacerElement;", cancellable = true)
+    private static void height_1157971421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1157971421L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "visitWidgets(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -34,19 +40,7 @@ public class SpacerElement_1978758622Mixin {
     @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
     private void getWidth_40862131(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(40862131L))
-            info.setReturnValue(-1076512880);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight_253141446(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(253141446L))
-            info.setReturnValue(1963269948);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
-    private void setX_997633215(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(997633215L))
-            info.cancel();
+            info.setReturnValue(-1832583780);
     }
 
     @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
@@ -55,10 +49,16 @@ public class SpacerElement_1978758622Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "height(I)Lnet/minecraft/client/gui/layouts/SpacerElement;", cancellable = true)
-    private static void height_1157971421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1157971421L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
+    private void setX_997633215(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(997633215L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight_253141446(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(253141446L))
+            info.setReturnValue(1207199048);
     }
 
 

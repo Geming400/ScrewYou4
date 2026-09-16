@@ -43,6 +43,12 @@ public class TextureManager_418265666Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "dumpAllSheets(Ljava/nio/file/Path;)V", cancellable = true)
+    private void dumpAllSheets_819587346(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(819587346L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "registerAndLoad(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/ReloadableTexture;)V", cancellable = true)
     private void registerAndLoad__1547972955(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1547972955L))
@@ -52,12 +58,6 @@ public class TextureManager_418265666Mixin {
     @Inject(at = @At("HEAD"), method = "registerForNextReload(Lnet/minecraft/resources/Identifier;)V", cancellable = true)
     private void registerForNextReload__809704566(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-809704566L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dumpAllSheets(Ljava/nio/file/Path;)V", cancellable = true)
-    private void dumpAllSheets_819587346(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(819587346L))
             info.cancel();
     }
 

@@ -28,7 +28,7 @@ public class GeyserBaseParticleOptions_771199068Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1328551158(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1328551158L))
-            info.setReturnValue(-725870958);
+            info.setReturnValue(-154915858);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
@@ -43,22 +43,22 @@ public class GeyserBaseParticleOptions_771199068Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__148060994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-148060994L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "burstImpulseBase()F", cancellable = true)
     private void burstImpulseBase_1081612952(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1081612952L))
-            info.setReturnValue(3.71857E7F);
+            info.setReturnValue(6.081408E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "waterBlocks()I", cancellable = true)
     private void waterBlocks__1096303900(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1096303900L))
-            info.setReturnValue(-524600791);
+            info.setReturnValue(46354309);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__148060994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-148060994L))
+            info.setReturnValue(null);
     }
 
 

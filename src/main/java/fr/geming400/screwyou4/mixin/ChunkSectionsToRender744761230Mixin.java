@@ -22,24 +22,18 @@ public class ChunkSectionsToRender744761230Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1302113321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1302113321L))
-            info.setReturnValue(-617319668);
+            info.setReturnValue(-998441768);
     }
 
     @Inject(at = @At("HEAD"), method = "maxIndicesRequired()I", cancellable = true)
     private void maxIndicesRequired__2144581550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2144581550L))
-            info.setReturnValue(-573566082);
+            info.setReturnValue(-954688182);
     }
 
     @Inject(at = @At("HEAD"), method = "drawGroupsPerLayer()Ljava/util/EnumMap;", cancellable = true)
     private void drawGroupsPerLayer_621808971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(621808971L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void textureView_1793322268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1793322268L))
             info.setReturnValue(null);
     }
 
@@ -53,6 +47,12 @@ public class ChunkSectionsToRender744761230Mixin {
     private void renderGroup__1203800214(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1203800214L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void textureView_1793322268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1793322268L))
+            info.setReturnValue(null);
     }
 
 

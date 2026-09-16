@@ -28,7 +28,7 @@ public class Submit_710540377Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1267892467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1267892467L))
-            info.setReturnValue(2064669943);
+            info.setReturnValue(-2142778453);
     }
 
     @Inject(at = @At("HEAD"), method = "camera()Lnet/minecraft/client/renderer/state/level/CameraRenderState;", cancellable = true)

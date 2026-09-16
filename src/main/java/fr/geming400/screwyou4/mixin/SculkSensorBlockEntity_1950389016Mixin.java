@@ -19,24 +19,6 @@ public class SculkSensorBlockEntity_1950389016Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setLastVibrationFrequency(I)V", cancellable = true)
-    private void setLastVibrationFrequency__1319979035(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1319979035L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
-    private void createVibrationUser_292910337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(292910337L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLastVibrationFrequency()I", cancellable = true)
-    private void getLastVibrationFrequency__924195929(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-924195929L))
-            info.setReturnValue(-1491650870);
-    }
-
     @Inject(at = @At("HEAD"), method = "getVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
     private void getVibrationUser_1096217563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1096217563L))
@@ -47,6 +29,24 @@ public class SculkSensorBlockEntity_1950389016Mixin {
     private void getVibrationData_847105693(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(847105693L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastVibrationFrequency()I", cancellable = true)
+    private void getLastVibrationFrequency__924195929(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-924195929L))
+            info.setReturnValue(1921012426);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createVibrationUser()Lnet/minecraft/world/level/gameevent/vibrations/VibrationSystem$User;", cancellable = true)
+    private void createVibrationUser_292910337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(292910337L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setLastVibrationFrequency(I)V", cancellable = true)
+    private void setLastVibrationFrequency__1319979035(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1319979035L))
+            info.cancel();
     }
 
 

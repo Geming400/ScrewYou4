@@ -172,7 +172,7 @@ public class Generator {
 
         try {
             // Snapshot thingy idk
-            Path foundClassesFiles = this.resourceFolder.resolve("foundMethods.json");
+            Path foundClassesFiles = this.resourceFolder.resolve("assets/screw-you-4/found_methods.json");
 
             Files.writeString(foundClassesFiles, new Gson().toJson(this.foundMethods));
         } catch (IOException e) {

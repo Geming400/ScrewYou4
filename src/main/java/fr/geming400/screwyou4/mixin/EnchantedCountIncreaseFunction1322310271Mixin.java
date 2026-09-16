@@ -19,6 +19,12 @@ public class EnchantedCountIncreaseFunction1322310271Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_2101813499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2101813499L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1906211771(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1906211771L))
@@ -28,12 +34,6 @@ public class EnchantedCountIncreaseFunction1322310271Mixin {
     @Inject(at = @At("HEAD"), method = "lootingMultiplier(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/storage/loot/providers/number/NumberProvider;)Lnet/minecraft/world/level/storage/loot/functions/EnchantedCountIncreaseFunction$Builder;", cancellable = true)
     private static void lootingMultiplier__1035601508(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1035601508L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_2101813499(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2101813499L))
             info.setReturnValue(null);
     }
 

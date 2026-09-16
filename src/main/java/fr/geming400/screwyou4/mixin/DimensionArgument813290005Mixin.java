@@ -7,21 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.DimensionArgument.class)
 public class DimensionArgument813290005Mixin {
-        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse_1774550099(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1774550099L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void parse__1827278977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827278977L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_61732214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(61732214L))
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parse_1774550099(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1774550099L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/commands/arguments/DimensionArgument;", cancellable = true)
+    private static void dimension__1605233142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1605233142L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class DimensionArgument813290005Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dimension()Lnet/minecraft/commands/arguments/DimensionArgument;", cancellable = true)
-    private static void dimension__1605233142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1605233142L))
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_61732214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(61732214L))
             info.setReturnValue(null);
     }
 

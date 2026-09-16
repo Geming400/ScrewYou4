@@ -31,15 +31,21 @@ public class JsonRPCUtils_763334Mixin {
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 
-    @Inject(at = @At("HEAD"), method = "createSuccessResult(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void createSuccessResult_1213497260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213497260L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void getError_504534350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(504534350L))
+            info.setReturnValue(new com.google.gson.JsonObject());
     }
 
     @Inject(at = @At("HEAD"), method = "getRequestId(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonElement;", cancellable = true)
     private static void getRequestId__963697375(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-963697375L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createSuccessResult(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonElement;)Lcom/google/gson/JsonObject;", cancellable = true)
+    private static void createSuccessResult_1213497260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213497260L))
             info.setReturnValue(null);
     }
 
@@ -52,12 +58,6 @@ public class JsonRPCUtils_763334Mixin {
     @Inject(at = @At("HEAD"), method = "createRequest(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/List;)Lcom/google/gson/JsonObject;", cancellable = true)
     private static void createRequest_305282029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(305282029L))
-            info.setReturnValue(new com.google.gson.JsonObject());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getError(Lcom/google/gson/JsonObject;)Lcom/google/gson/JsonObject;", cancellable = true)
-    private static void getError_504534350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(504534350L))
             info.setReturnValue(new com.google.gson.JsonObject());
     }
 

@@ -22,13 +22,13 @@ public class Context531046882Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1088398973(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1088398973L))
-            info.setReturnValue(-1633483064);
+            info.setReturnValue(-1598904664);
     }
 
     @Inject(at = @At("HEAD"), method = "seed()J", cancellable = true)
     private void seed_1107135416(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1107135416L))
-            info.setReturnValue(-736521652939512538L);
+            info.setReturnValue(-736521652903933138L);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)
@@ -49,6 +49,12 @@ public class Context531046882Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
+    private void heightAccessor_1259788994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1259788994L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "chunkGenerator()Lnet/minecraft/world/level/chunk/ChunkGenerator;", cancellable = true)
     private void chunkGenerator__1168265166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1168265166L))
@@ -58,12 +64,6 @@ public class Context531046882Mixin {
     @Inject(at = @At("HEAD"), method = "structureTemplateManager()Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;", cancellable = true)
     private void structureTemplateManager_1946231405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1946231405L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "heightAccessor()Lnet/minecraft/world/level/LevelHeightAccessor;", cancellable = true)
-    private void heightAccessor_1259788994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1259788994L))
             info.setReturnValue(null);
     }
 

@@ -19,6 +19,12 @@ public class User353095039Mixin {
             info.setReturnValue("3A&;\u5112GpTN!,3:\uC935=1ul1m-88vRQ\u6F51T\" %DGg\u2315n>v<xp,\u3C8F?ro\uC615l\u4E8EG>%jOH\"\uB870GYt\u8C89\u4858*(eOYv81<\uC1D8`o9\u6E73o[Q6;");
     }
 
+    @Inject(at = @At("HEAD"), method = "getAccessToken()Ljava/lang/String;", cancellable = true)
+    private void getAccessToken__1140408953(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1140408953L))
+            info.setReturnValue("v!(k.Ip\u7BC0t4\u3BE0\u7D8A1|;H\u2887#\u23CBkl3od\uAD6Em\u8516|^ib<Gc\uBE73+c#&MIt4RW\u5B4Em_N!76\u21A6_,|+\uD5AARs<^  {I0-eaOLc|\u28F2%KZh\u6E54/eW{:c5yhHKs,KK;m");
+    }
+
     @Inject(at = @At("HEAD"), method = "getClientId()Ljava/util/Optional;", cancellable = true)
     private void getClientId_1320959721(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1320959721L))
@@ -35,12 +41,6 @@ public class User353095039Mixin {
     private void getXuid__393122181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-393122181L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAccessToken()Ljava/lang/String;", cancellable = true)
-    private void getAccessToken__1140408953(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1140408953L))
-            info.setReturnValue("v!(k.Ip\u7BC0t4\u3BE0\u7D8A1|;H\u2887#\u23CBkl3od\uAD6Em\u8516|^ib<Gc\uBE73+c#&MIt4RW\u5B4Em_N!76\u21A6_,|+\uD5AARs<^  {I0-eaOLc|\u28F2%KZh\u6E54/eW{:c5yhHKs,KK;m");
     }
 
 

@@ -22,7 +22,7 @@ public class TriggerInstance1288839692Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1846191783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846191783L))
-            info.setReturnValue(842610023);
+            info.setReturnValue(1470560623);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/ItemStack;I)Z", cancellable = true)
@@ -43,9 +43,9 @@ public class TriggerInstance1288839692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
-    private void player_58186651(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(58186651L))
+    @Inject(at = @At("HEAD"), method = "beesInside()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void beesInside__742577235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-742577235L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class TriggerInstance1288839692Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "beesInside()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void beesInside__742577235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-742577235L))
+    @Inject(at = @At("HEAD"), method = "player()Ljava/util/Optional;", cancellable = true)
+    private void player_58186651(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(58186651L))
             info.setReturnValue(null);
     }
 

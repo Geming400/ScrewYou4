@@ -34,19 +34,13 @@ public class BlockSetType_771783205Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1329135295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1329135295L))
-            info.setReturnValue(-71177729);
+            info.setReturnValue(133892871);
     }
 
     @Inject(at = @At("HEAD"), method = "soundType()Lnet/minecraft/world/level/block/SoundType;", cancellable = true)
     private void soundType_377945332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377945332L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canButtonBeActivatedByArrows()Z", cancellable = true)
-    private void canButtonBeActivatedByArrows__107937074(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-107937074L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "doorClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -73,6 +67,24 @@ public class BlockSetType_771783205Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "trapdoorOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void trapdoorOpen__598869983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-598869983L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "trapdoorClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void trapdoorClose__629686775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-629686775L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pressurePlateClickOff()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void pressurePlateClickOff__216439922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-216439922L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "pressurePlateSensitivity()Lnet/minecraft/world/level/block/state/properties/BlockSetType$PressurePlateSensitivity;", cancellable = true)
     private void pressurePlateSensitivity__1866888739(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1866888739L))
@@ -82,12 +94,6 @@ public class BlockSetType_771783205Mixin {
     @Inject(at = @At("HEAD"), method = "pressurePlateClickOn()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void pressurePlateClickOn_2003373968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2003373968L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "trapdoorOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void trapdoorOpen__598869983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-598869983L))
             info.setReturnValue(null);
     }
 
@@ -103,16 +109,10 @@ public class BlockSetType_771783205Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "pressurePlateClickOff()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void pressurePlateClickOff__216439922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-216439922L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "trapdoorClose()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void trapdoorClose__629686775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-629686775L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "canButtonBeActivatedByArrows()Z", cancellable = true)
+    private void canButtonBeActivatedByArrows__107937074(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-107937074L))
+            info.setReturnValue(true);
     }
 
 

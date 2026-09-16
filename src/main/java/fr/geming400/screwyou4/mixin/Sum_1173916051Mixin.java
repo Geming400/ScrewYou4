@@ -22,19 +22,19 @@ public class Sum_1173916051Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1731268141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1731268141L))
-            info.setReturnValue(-1876845303);
+            info.setReturnValue(-1596085603);
     }
 
     @Inject(at = @At("HEAD"), method = "getInt(Lnet/minecraft/world/level/storage/loot/LootContext;)I", cancellable = true)
     private void getInt_1905875390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1905875390L))
-            info.setReturnValue(-779169822);
+            info.setReturnValue(-498410122);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_944445230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944445230L))
-            info.setReturnValue(3.939041E8F);
+            info.setReturnValue(6.746638E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "validate(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V", cancellable = true)

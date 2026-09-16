@@ -22,19 +22,19 @@ public class SimpleBlockConfiguration667303355Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1224655446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1224655446L))
-            info.setReturnValue(-121305226);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toPlace()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
-    private void toPlace_2013859650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2013859650L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1151026);
     }
 
     @Inject(at = @At("HEAD"), method = "scheduleTick()Z", cancellable = true)
     private void scheduleTick__1918041314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1918041314L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toPlace()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
+    private void toPlace_2013859650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2013859650L))
+            info.setReturnValue(null);
     }
 
 

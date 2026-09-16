@@ -22,7 +22,7 @@ public class LookAtPosition_1109166953Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1666519043(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1666519043L))
-            info.setReturnValue(1176399400);
+            info.setReturnValue(1319824600);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

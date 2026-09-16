@@ -13,6 +13,12 @@ public class EnchantmentScreen_2050392907Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
+    private void tickBook_1368328087(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1368328087L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
     private void mouseClicked_1509886730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1509886730L))
@@ -28,12 +34,6 @@ public class EnchantmentScreen_2050392907Mixin {
     @Inject(at = @At("HEAD"), method = "extractBackground(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractBackground__843119857(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-843119857L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
-    private void tickBook_1368328087(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1368328087L))
             info.cancel();
     }
 

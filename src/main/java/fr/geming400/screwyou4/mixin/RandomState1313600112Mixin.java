@@ -19,9 +19,9 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void oreRandom__727611561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-727611561L))
+    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
+    private void router__1892716821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1892716821L))
             info.setReturnValue(null);
     }
 
@@ -31,21 +31,21 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOrCreateRandomFactory(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void getOrCreateRandomFactory__1265631972(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265631972L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
-    private void router__1892716821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1892716821L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "surfaceSystem()Lnet/minecraft/world/level/levelgen/SurfaceSystem;", cancellable = true)
     private void surfaceSystem_531568261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(531568261L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void oreRandom__727611561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-727611561L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getOrCreateNoise(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)
+    private void getOrCreateNoise_216125020(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(216125020L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getOrCreateNoise(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/levelgen/synth/NormalNoise;", cancellable = true)
-    private void getOrCreateNoise_216125020(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(216125020L))
+    @Inject(at = @At("HEAD"), method = "getOrCreateRandomFactory(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void getOrCreateRandomFactory__1265631972(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265631972L))
             info.setReturnValue(null);
     }
 

@@ -13,15 +13,15 @@ public class ClipBlockStateContext582901229Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTargetBlock()Ljava/util/function/Predicate;", cancellable = true)
-    private void isTargetBlock_1907047981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1907047981L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTo()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getTo__1299994155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1299994155L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTargetBlock()Ljava/util/function/Predicate;", cancellable = true)
+    private void isTargetBlock_1907047981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1907047981L))
             info.setReturnValue(null);
     }
 

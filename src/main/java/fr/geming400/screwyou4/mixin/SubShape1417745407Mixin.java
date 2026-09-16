@@ -22,13 +22,13 @@ public class SubShape1417745407Mixin {
     @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
     private void lastFull_1714203423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1714203423L))
-            info.setReturnValue(-146927167);
+            info.setReturnValue(-663188367);
     }
 
     @Inject(at = @At("HEAD"), method = "firstFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
     private void firstFull_1455205433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1455205433L))
-            info.setReturnValue(-233313381);
+            info.setReturnValue(-749574581);
     }
 
 

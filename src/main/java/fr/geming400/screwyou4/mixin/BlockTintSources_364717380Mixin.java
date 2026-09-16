@@ -31,24 +31,6 @@ public class BlockTintSources_364717380Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sugarCane()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private static void sugarCane__42945329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-42945329L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "grassBlock()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private static void grassBlock__529524901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-529524901L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dryFoliage()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private static void dryFoliage__2109849934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2109849934L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "grass()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
     private static void grass__149987494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-149987494L))
@@ -58,6 +40,12 @@ public class BlockTintSources_364717380Mixin {
     @Inject(at = @At("HEAD"), method = "stem()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
     private static void stem__1948174291(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1948174291L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "redstone()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private static void redstone__1936927336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1936927336L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +61,21 @@ public class BlockTintSources_364717380Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "redstone()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
-    private static void redstone__1936927336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1936927336L))
+    @Inject(at = @At("HEAD"), method = "grassBlock()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private static void grassBlock__529524901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-529524901L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dryFoliage()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private static void dryFoliage__2109849934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2109849934L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "sugarCane()Lnet/minecraft/client/color/block/BlockTintSource;", cancellable = true)
+    private static void sugarCane__42945329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-42945329L))
             info.setReturnValue(null);
     }
 

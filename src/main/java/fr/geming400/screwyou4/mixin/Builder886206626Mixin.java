@@ -13,16 +13,16 @@ public class Builder886206626Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasContent()Z", cancellable = true)
-    private void hasContent__1475214022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1475214022L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkBuildable()Lnet/minecraft/client/multiplayer/chat/report/Report$CannotBuildReason;", cancellable = true)
     private void checkBuildable_761508542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(761508542L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasContent()Z", cancellable = true)
+    private void hasContent__1475214022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475214022L))
+            info.setReturnValue(false);
     }
 
 

@@ -13,16 +13,16 @@ public class StairBlock_1448777400Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
-    private void getExplosionResistance__133419422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-133419422L))
-            info.setReturnValue(6.787219E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1020411081(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1020411081L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
+    private void getExplosionResistance__133419422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-133419422L))
+            info.setReturnValue(3.726215E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isStairs(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)

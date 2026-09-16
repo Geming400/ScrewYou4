@@ -22,7 +22,7 @@ public class SulfurCubeArchetype_279337763Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_836689853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836689853L))
-            info.setReturnValue(-1995925485);
+            info.setReturnValue(-1253712985);
     }
 
     @Inject(at = @At("HEAD"), method = "items()Lnet/minecraft/core/HolderSet;", cancellable = true)
@@ -37,9 +37,9 @@ public class SulfurCubeArchetype_279337763Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "knockbackModifiers()Lnet/minecraft/world/entity/SulfurCubeArchetype$KnockbackModifiers;", cancellable = true)
-    private void knockbackModifiers_1550773248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1550773248L))
+    @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
+    private void contactDamage__765824129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-765824129L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +49,21 @@ public class SulfurCubeArchetype_279337763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "contactDamage()Ljava/util/Optional;", cancellable = true)
-    private void contactDamage__765824129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-765824129L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
-    private void explosion_1048137957(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1048137957L))
+    @Inject(at = @At("HEAD"), method = "knockbackModifiers()Lnet/minecraft/world/entity/SulfurCubeArchetype$KnockbackModifiers;", cancellable = true)
+    private void knockbackModifiers_1550773248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1550773248L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "attributeModifiers()Ljava/util/List;", cancellable = true)
     private void attributeModifiers__930208110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-930208110L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "explosion()Ljava/util/Optional;", cancellable = true)
+    private void explosion_1048137957(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1048137957L))
             info.setReturnValue(null);
     }
 

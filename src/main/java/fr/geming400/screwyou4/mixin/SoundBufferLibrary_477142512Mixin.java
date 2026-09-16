@@ -19,12 +19,6 @@ public class SoundBufferLibrary_477142512Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getCompleteBuffer(Lnet/minecraft/resources/Identifier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void getCompleteBuffer_175831635(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(175831635L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getStream(Lnet/minecraft/resources/Identifier;Z)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void getStream_1248316308(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1248316308L))
@@ -34,6 +28,12 @@ public class SoundBufferLibrary_477142512Mixin {
     @Inject(at = @At("HEAD"), method = "preload(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void preload_558643460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(558643460L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompleteBuffer(Lnet/minecraft/resources/Identifier;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void getCompleteBuffer_175831635(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(175831635L))
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 

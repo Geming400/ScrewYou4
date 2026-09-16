@@ -19,33 +19,39 @@ public class ServerScoreboard_726455941Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onTeamRemoved(Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
-    private void onTeamRemoved__798144873(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-798144873L))
+    @Inject(at = @At("HEAD"), method = "getObjectiveDisplaySlotCount(Lnet/minecraft/world/scores/Objective;)I", cancellable = true)
+    private void getObjectiveDisplaySlotCount__1146774901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1146774901L))
+            info.setReturnValue(-1321009212);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStartTrackingPackets(Lnet/minecraft/world/scores/Objective;)Ljava/util/List;", cancellable = true)
+    private void getStartTrackingPackets_923386665(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(923386665L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStopTrackingPackets(Lnet/minecraft/world/scores/Objective;)Ljava/util/List;", cancellable = true)
+    private void getStopTrackingPackets_942727901(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(942727901L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startTrackingObjective(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
+    private void startTrackingObjective_1836995146(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1836995146L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onTeamAdded(Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
-    private void onTeamAdded__2071711689(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2071711689L))
+    @Inject(at = @At("HEAD"), method = "stopTrackingObjective(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
+    private void stopTrackingObjective_1865377258(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1865377258L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onObjectiveChanged(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
-    private void onObjectiveChanged_802218704(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(802218704L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDisplayObjective(Lnet/minecraft/world/scores/DisplaySlot;Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
-    private void setDisplayObjective_507856925(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(507856925L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removePlayerFromTeam(Ljava/lang/String;Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
-    private void removePlayerFromTeam_159792437(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(159792437L))
+    @Inject(at = @At("HEAD"), method = "storeToSaveDataIfDirty(Lnet/minecraft/world/scores/ScoreboardSaveData;)V", cancellable = true)
+    private void storeToSaveDataIfDirty_90294856(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(90294856L))
             info.cancel();
     }
 
@@ -67,46 +73,40 @@ public class ServerScoreboard_726455941Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setDisplayObjective(Lnet/minecraft/world/scores/DisplaySlot;Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
+    private void setDisplayObjective_507856925(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(507856925L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "onObjectiveRemoved(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
     private void onObjectiveRemoved_1663031716(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1663031716L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getStopTrackingPackets(Lnet/minecraft/world/scores/Objective;)Ljava/util/List;", cancellable = true)
-    private void getStopTrackingPackets_942727901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(942727901L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStartTrackingPackets(Lnet/minecraft/world/scores/Objective;)Ljava/util/List;", cancellable = true)
-    private void getStartTrackingPackets_923386665(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(923386665L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopTrackingObjective(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
-    private void stopTrackingObjective_1865377258(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1865377258L))
+    @Inject(at = @At("HEAD"), method = "onTeamAdded(Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
+    private void onTeamAdded__2071711689(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2071711689L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "storeToSaveDataIfDirty(Lnet/minecraft/world/scores/ScoreboardSaveData;)V", cancellable = true)
-    private void storeToSaveDataIfDirty_90294856(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(90294856L))
+    @Inject(at = @At("HEAD"), method = "onTeamRemoved(Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
+    private void onTeamRemoved__798144873(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-798144873L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "startTrackingObjective(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
-    private void startTrackingObjective_1836995146(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1836995146L))
+    @Inject(at = @At("HEAD"), method = "removePlayerFromTeam(Ljava/lang/String;Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)
+    private void removePlayerFromTeam_159792437(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(159792437L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getObjectiveDisplaySlotCount(Lnet/minecraft/world/scores/Objective;)I", cancellable = true)
-    private void getObjectiveDisplaySlotCount__1146774901(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1146774901L))
-            info.setReturnValue(-1228681712);
+    @Inject(at = @At("HEAD"), method = "onObjectiveChanged(Lnet/minecraft/world/scores/Objective;)V", cancellable = true)
+    private void onObjectiveChanged_802218704(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(802218704L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "onTeamChanged(Lnet/minecraft/world/scores/PlayerTeam;)V", cancellable = true)

@@ -10,7 +10,7 @@ public class UnexpectedListElementTypeProblem_1240873111Mixin {
         @Inject(at = @At("HEAD"), method = "index()I", cancellable = true)
     private void index_1934989546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1934989546L))
-            info.setReturnValue(-759696016);
+            info.setReturnValue(-1341392816);
     }
 
     @Inject(at = @At("HEAD"), method = "name()Ljava/lang/String;", cancellable = true)
@@ -34,7 +34,7 @@ public class UnexpectedListElementTypeProblem_1240873111Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1798225201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1798225201L))
-            info.setReturnValue(1104678805);
+            info.setReturnValue(521970905);
     }
 
     @Inject(at = @At("HEAD"), method = "expected()Lnet/minecraft/nbt/TagType;", cancellable = true)

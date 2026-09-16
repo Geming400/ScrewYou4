@@ -22,7 +22,7 @@ public class Point_1986080808Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1751534398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1751534398L))
-            info.setReturnValue(-15233583);
+            info.setReturnValue(359451517);
     }
 
     @Inject(at = @At("HEAD"), method = "context()Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;", cancellable = true)

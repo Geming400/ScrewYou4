@@ -25,12 +25,6 @@ public class ReportReason_1106061300Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void title__856433442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-856433442L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "backendName()Ljava/lang/String;", cancellable = true)
     private void backendName__2045810309(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2045810309L))
@@ -40,6 +34,12 @@ public class ReportReason_1106061300Mixin {
     @Inject(at = @At("HEAD"), method = "getIncompatibleCategories(Lnet/minecraft/client/multiplayer/chat/report/ReportType;)Ljava/util/List;", cancellable = true)
     private static void getIncompatibleCategories_998726768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998726768L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void title__856433442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-856433442L))
             info.setReturnValue(null);
     }
 

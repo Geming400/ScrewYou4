@@ -22,7 +22,7 @@ public class UniformInt_1907103997Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1830511209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1830511209L))
-            info.setReturnValue(-579485377);
+            info.setReturnValue(-983955677);
     }
 
     @Inject(at = @At("HEAD"), method = "of(II)Lnet/minecraft/util/valueproviders/UniformInt;", cancellable = true)
@@ -37,22 +37,22 @@ public class UniformInt_1907103997Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive__62735622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-62735622L))
-            info.setReturnValue(-721329047);
-    }
-
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive__2042657944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2042657944L))
-            info.setReturnValue(928440616);
+            info.setReturnValue(523970316);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive__62735622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-62735622L))
+            info.setReturnValue(-1125799347);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample_874042028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874042028L))
-            info.setReturnValue(-627172077);
+            info.setReturnValue(-1031642377);
     }
 
 

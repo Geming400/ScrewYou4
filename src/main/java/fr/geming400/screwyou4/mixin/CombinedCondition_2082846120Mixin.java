@@ -22,7 +22,7 @@ public class CombinedCondition_2082846120Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1654769086(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1654769086L))
-            info.setReturnValue(-1071685299);
+            info.setReturnValue(-547143399);
     }
 
     @Inject(at = @At("HEAD"), method = "instantiate(Lnet/minecraft/world/level/block/state/StateDefinition;)Ljava/util/function/Predicate;", cancellable = true)

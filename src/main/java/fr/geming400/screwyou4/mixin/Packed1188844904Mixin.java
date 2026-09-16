@@ -28,7 +28,7 @@ public class Packed1188844904Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1746196995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1746196995L))
-            info.setReturnValue(1754190160);
+            info.setReturnValue(2052752560);
     }
 
     @Inject(at = @At("HEAD"), method = "color()Ljava/util/Optional;", cancellable = true)
@@ -43,9 +43,9 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)
-    private void players__1949222838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1949222838L))
+    @Inject(at = @At("HEAD"), method = "memberNamePrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void memberNamePrefix__123104142(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-123104142L))
             info.setReturnValue(null);
     }
 
@@ -55,16 +55,10 @@ public class Packed1188844904Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "memberNamePrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void memberNamePrefix__123104142(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-123104142L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "seeFriendlyInvisibles()Z", cancellable = true)
-    private void seeFriendlyInvisibles_1345402491(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1345402491L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "deathMessageVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void deathMessageVisibility__1306233345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1306233345L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
     }
 
     @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
@@ -73,22 +67,28 @@ public class Packed1188844904Mixin {
             info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
     }
 
+    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
+    private void nameTagVisibility_157809947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(157809947L))
+            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "seeFriendlyInvisibles()Z", cancellable = true)
+    private void seeFriendlyInvisibles_1345402491(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1345402491L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "allowFriendlyFire()Z", cancellable = true)
     private void allowFriendlyFire_1980376565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1980376565L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "deathMessageVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void deathMessageVisibility__1306233345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1306233345L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nameTagVisibility()Lnet/minecraft/world/scores/Team$Visibility;", cancellable = true)
-    private void nameTagVisibility_157809947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(157809947L))
-            info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
+    @Inject(at = @At("HEAD"), method = "players()Ljava/util/List;", cancellable = true)
+    private void players__1949222838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1949222838L))
+            info.setReturnValue(null);
     }
 
 

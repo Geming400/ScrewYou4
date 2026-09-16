@@ -22,7 +22,7 @@ public class EnchantmentsByCost_1956965310Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1780649896(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1780649896L))
-            info.setReturnValue(1037895184);
+            info.setReturnValue(1162694484);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

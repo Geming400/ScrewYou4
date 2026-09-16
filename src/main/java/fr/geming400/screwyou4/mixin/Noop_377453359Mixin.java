@@ -13,51 +13,9 @@ public class Noop_377453359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/util/worldupdate/UpgradeProgress$Status;)V", cancellable = true)
-    private void setStatus__1951818638(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1951818638L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addTotalFileFixOperations(I)V", cancellable = true)
-    private void addTotalFileFixOperations_645855676(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(645855676L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "incrementFinishedOperations()V", cancellable = true)
-    private void incrementFinishedOperations_1405837876(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1405837876L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "incrementFinishedOperationsBy(I)V", cancellable = true)
-    private void incrementFinishedOperationsBy__808464290(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-808464290L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDimensionProgress(Lnet/minecraft/resources/ResourceKey;F)V", cancellable = true)
-    private void setDimensionProgress_575052226(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(575052226L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setFinished(Z)V", cancellable = true)
     private void setFinished__416855585(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-416855585L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setTotalProgress(F)V", cancellable = true)
-    private void setTotalProgress_509805798(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(509805798L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "incrementRunningFileFixer()V", cancellable = true)
-    private void incrementRunningFileFixer_1959664043(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1959664043L))
             info.cancel();
     }
 
@@ -67,9 +25,33 @@ public class Noop_377453359Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "setTotalProgress(F)V", cancellable = true)
+    private void setTotalProgress_509805798(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(509805798L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setApplicableFixerAmount(I)V", cancellable = true)
     private void setApplicableFixerAmount_2049643955(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2049643955L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTotalChunks(I)V", cancellable = true)
+    private void addTotalChunks_2119770179(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2119770179L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "incrementRunningFileFixer()V", cancellable = true)
+    private void incrementRunningFileFixer_1959664043(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1959664043L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setDimensionProgress(Lnet/minecraft/resources/ResourceKey;F)V", cancellable = true)
+    private void setDimensionProgress_575052226(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(575052226L))
             info.cancel();
     }
 
@@ -85,9 +67,27 @@ public class Noop_377453359Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addTotalChunks(I)V", cancellable = true)
-    private void addTotalChunks_2119770179(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2119770179L))
+    @Inject(at = @At("HEAD"), method = "incrementFinishedOperationsBy(I)V", cancellable = true)
+    private void incrementFinishedOperationsBy__808464290(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-808464290L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "incrementFinishedOperations()V", cancellable = true)
+    private void incrementFinishedOperations_1405837876(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1405837876L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addTotalFileFixOperations(I)V", cancellable = true)
+    private void addTotalFileFixOperations_645855676(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(645855676L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setStatus(Lnet/minecraft/util/worldupdate/UpgradeProgress$Status;)V", cancellable = true)
+    private void setStatus__1951818638(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1951818638L))
             info.cancel();
     }
 

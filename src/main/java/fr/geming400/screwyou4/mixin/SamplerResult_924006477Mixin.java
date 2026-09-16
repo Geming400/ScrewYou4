@@ -10,19 +10,19 @@ public class SamplerResult_924006477Mixin {
         @Inject(at = @At("HEAD"), method = "getFirstTick()I", cancellable = true)
     private void getFirstTick_1755141851(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1755141851L))
-            info.setReturnValue(-1924682033);
+            info.setReturnValue(-1720855333);
     }
 
     @Inject(at = @At("HEAD"), method = "valueAtTick(I)D", cancellable = true)
     private void valueAtTick_248810599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(248810599L))
-            info.setReturnValue(7.604879001785395E8D);
+            info.setReturnValue(9.643146001785395E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastTick()I", cancellable = true)
     private void getLastTick__2117859063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2117859063L))
-            info.setReturnValue(45536141);
+            info.setReturnValue(249362841);
     }
 
 

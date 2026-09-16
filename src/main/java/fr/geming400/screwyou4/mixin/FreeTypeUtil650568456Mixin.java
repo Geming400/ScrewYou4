@@ -10,7 +10,7 @@ public class FreeTypeUtil650568456Mixin {
         @Inject(at = @At("HEAD"), method = "x(Lorg/lwjgl/util/freetype/FT_Vector;)F", cancellable = true)
     private static void x__690058064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-690058064L))
-            info.setReturnValue(5.348444E8F);
+            info.setReturnValue(5.873138E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "destroy()V", cancellable = true)
@@ -25,12 +25,6 @@ public class FreeTypeUtil650568456Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "assertError(ILjava/lang/String;)V", cancellable = true)
-    private static void assertError_986554200(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(986554200L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setVector(Lorg/lwjgl/util/freetype/FT_Vector;FF)Lorg/lwjgl/util/freetype/FT_Vector;", cancellable = true)
     private static void setVector_967340764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(967340764L))
@@ -40,7 +34,13 @@ public class FreeTypeUtil650568456Mixin {
     @Inject(at = @At("HEAD"), method = "getLibrary()J", cancellable = true)
     private static void getLibrary_514451522(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(514451522L))
-            info.setReturnValue(-7633111565511781218L);
+            info.setReturnValue(-7633111565459311818L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assertError(ILjava/lang/String;)V", cancellable = true)
+    private static void assertError_986554200(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(986554200L))
+            info.cancel();
     }
 
 

@@ -19,16 +19,16 @@ public class DamageEffects_1865231563Mixin {
             info.setReturnValue(net.minecraft.world.damagesource.DamageEffects.BURNING);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
-    private void getSerializedName_1953440184(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1953440184L))
-            info.setReturnValue("3\uD6F5NEG\u4C74<QKkACf\uA64CEcS7sH\u8EAC\u71E3ro%\uA2273>j*l`\u9745q-4\u4535X?0S\u0773gP\u1072@-ngg)]YZ\uB87B<v]cd\u21E1S4M`j*!H\u9F76r>q\uC6DB");
-    }
-
     @Inject(at = @At("HEAD"), method = "sound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
     private void sound_795903293(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(795903293L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
+    private void getSerializedName_1953440184(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1953440184L))
+            info.setReturnValue("3\uD6F5NEG\u4C74<QKkACf\uA64CEcS7sH\u8EAC\u71E3ro%\uA2273>j*l`\u9745q-4\u4535X?0S\u0773gP\u1072@-ngg)]YZ\uB87B<v]cd\u21E1S4M`j*!H\u9F76r>q\uC6DB");
     }
 
 

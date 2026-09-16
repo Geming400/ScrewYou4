@@ -19,12 +19,6 @@ public class PartDefinition_1790973780Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "retainPartsAndChildren(Ljava/util/Set;)V", cancellable = true)
-    private void retainPartsAndChildren_1372551574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1372551574L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "retainExactParts(Ljava/util/Set;)V", cancellable = true)
     private void retainExactParts_436782849(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(436782849L))
@@ -47,6 +41,12 @@ public class PartDefinition_1790973780Mixin {
     private void transformed_609830047(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(609830047L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "retainPartsAndChildren(Ljava/util/Set;)V", cancellable = true)
+    private void retainPartsAndChildren_1372551574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1372551574L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "clearRecursively()Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)

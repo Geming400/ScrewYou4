@@ -43,10 +43,28 @@ public class Cat_1422725592Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__863086177(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-863086177L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getCollarColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getCollarColor__1675177843(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1675177843L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRelaxStateOneAmount(F)F", cancellable = true)
+    private void getRelaxStateOneAmount__1127691913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1127691913L))
+            info.setReturnValue(4.171075E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLieDownAmount(F)F", cancellable = true)
+    private void getLieDownAmount_719220220(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(719220220L))
+            info.setReturnValue(4.171075E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLieDownAmountTail(F)F", cancellable = true)
+    private void getLieDownAmountTail_499342444(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(499342444L))
+            info.setReturnValue(4.171075E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/feline/Cat;", cancellable = true)
@@ -61,10 +79,10 @@ public class Cat_1422725592Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getAmbientSoundInterval()I", cancellable = true)
-    private void getAmbientSoundInterval_1243603787(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1243603787L))
-            info.setReturnValue(1767715453);
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__863086177(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-863086177L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "customServerAiStep(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
@@ -73,10 +91,28 @@ public class Cat_1422725592Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getAmbientSoundInterval()I", cancellable = true)
+    private void getAmbientSoundInterval_1243603787(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1243603787L))
+            info.setReturnValue(1196229453);
+    }
+
     @Inject(at = @At("HEAD"), method = "removeWhenFarAway(D)Z", cancellable = true)
     private void removeWhenFarAway_764195881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(764195881L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__2122143396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2122143396L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTame(ZZ)V", cancellable = true)
+    private void setTame__871520349(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-871520349L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -91,22 +127,10 @@ public class Cat_1422725592Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "setTame(ZZ)V", cancellable = true)
-    private void setTame__871520349(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-871520349L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isLyingOnTopOfSleepingPlayer()Z", cancellable = true)
-    private void isLyingOnTopOfSleepingPlayer__596281728(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-596281728L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__2122143396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2122143396L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "isLying()Z", cancellable = true)
+    private void isLying_31480387(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(31480387L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "setLying(Z)V", cancellable = true)
@@ -121,34 +145,10 @@ public class Cat_1422725592Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isLying()Z", cancellable = true)
-    private void isLying_31480387(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(31480387L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCollarColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getCollarColor__1675177843(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1675177843L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLieDownAmountTail(F)F", cancellable = true)
-    private void getLieDownAmountTail_499342444(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(499342444L))
-            info.setReturnValue(9.885935E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLieDownAmount(F)F", cancellable = true)
-    private void getLieDownAmount_719220220(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(719220220L))
-            info.setReturnValue(9.885935E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRelaxStateOneAmount(F)F", cancellable = true)
-    private void getRelaxStateOneAmount__1127691913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1127691913L))
-            info.setReturnValue(9.885935E8F);
+    @Inject(at = @At("HEAD"), method = "isLyingOnTopOfSleepingPlayer()Z", cancellable = true)
+    private void isLyingOnTopOfSleepingPlayer__596281728(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-596281728L))
+            info.setReturnValue(false);
     }
 
 

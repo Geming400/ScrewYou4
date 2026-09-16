@@ -22,7 +22,7 @@ public class GlyphRenderTypes_1331232369Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1888584459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1888584459L))
-            info.setReturnValue(-913988059);
+            info.setReturnValue(-1109417659);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
@@ -37,21 +37,9 @@ public class GlyphRenderTypes_1331232369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "polygonOffset()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void polygonOffset_1511597076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1511597076L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "guiPipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
-    private void guiPipeline_1113891649(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1113891649L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createForGrayscaleTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
-    private static void createForGrayscaleTexture__1692020676(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1692020676L))
+    @Inject(at = @At("HEAD"), method = "seeThrough()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void seeThrough__648542417(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-648542417L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +49,21 @@ public class GlyphRenderTypes_1331232369Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "seeThrough()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
-    private void seeThrough__648542417(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-648542417L))
+    @Inject(at = @At("HEAD"), method = "guiPipeline()Lcom/mojang/blaze3d/pipeline/RenderPipeline;", cancellable = true)
+    private void guiPipeline_1113891649(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1113891649L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "polygonOffset()Lnet/minecraft/client/renderer/rendertype/RenderType;", cancellable = true)
+    private void polygonOffset_1511597076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1511597076L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createForGrayscaleTexture(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/gui/font/GlyphRenderTypes;", cancellable = true)
+    private static void createForGrayscaleTexture__1692020676(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1692020676L))
             info.setReturnValue(null);
     }
 

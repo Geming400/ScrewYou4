@@ -28,7 +28,7 @@ public class ValueCheckCondition_246781882Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_804133972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(804133972L))
-            info.setReturnValue(959628787);
+            info.setReturnValue(186767787);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

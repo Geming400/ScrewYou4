@@ -16,7 +16,7 @@ public class ScrollWheelHandler1931744912Mixin {
     @Inject(at = @At("HEAD"), method = "getNextScrollWheelSelection(DII)I", cancellable = true)
     private static void getNextScrollWheelSelection_1759179049(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1759179049L))
-            info.setReturnValue(-1325020430);
+            info.setReturnValue(-1310355830);
     }
 
 

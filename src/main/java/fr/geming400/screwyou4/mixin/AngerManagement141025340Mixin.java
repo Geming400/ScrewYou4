@@ -19,22 +19,22 @@ public class AngerManagement141025340Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getActiveAnger(Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
+    private void getActiveAnger_615556710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(615556710L))
+            info.setReturnValue(-2136366787);
+    }
+
     @Inject(at = @At("HEAD"), method = "increaseAnger(Lnet/minecraft/world/entity/Entity;I)I", cancellable = true)
     private void increaseAnger_676135069(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(676135069L))
-            info.setReturnValue(-878841878);
+            info.setReturnValue(-1229451278);
     }
 
     @Inject(at = @At("HEAD"), method = "getActiveEntity()Ljava/util/Optional;", cancellable = true)
     private void getActiveEntity__989263383(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-989263383L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getActiveAnger(Lnet/minecraft/world/entity/Entity;)I", cancellable = true)
-    private void getActiveAnger_615556710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(615556710L))
-            info.setReturnValue(-1785757387);
     }
 
     @Inject(at = @At("HEAD"), method = "codec(Ljava/util/function/Predicate;)Lcom/mojang/serialization/Codec;", cancellable = true)

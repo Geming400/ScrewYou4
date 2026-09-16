@@ -22,7 +22,7 @@ public class ChunkGenStat_169789045Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_727141135(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(727141135L))
-            info.setReturnValue(854462110);
+            info.setReturnValue(1112256110);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/ChunkGenStat;", cancellable = true)

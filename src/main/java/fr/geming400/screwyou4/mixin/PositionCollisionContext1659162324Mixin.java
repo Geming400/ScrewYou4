@@ -13,16 +13,16 @@ public class PositionCollisionContext1659162324Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDescending()Z", cancellable = true)
-    private void isDescending__1891121655(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1891121655L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCollisionShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)
     private void getCollisionShape_1403351630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403351630L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDescending()Z", cancellable = true)
+    private void isDescending__1891121655(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1891121655L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isHoldingItem(Lnet/minecraft/world/item/Item;)Z", cancellable = true)

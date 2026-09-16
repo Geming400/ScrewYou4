@@ -19,10 +19,10 @@ public class ShieldSpecialRenderer_2051313563Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;", cancellable = true)
-    private void extractArgument_642836046(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(642836046L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents_1711544714(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1711544714L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)
@@ -31,10 +31,10 @@ public class ShieldSpecialRenderer_2051313563Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents_1711544714(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1711544714L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "extractArgument(Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;", cancellable = true)
+    private void extractArgument_642836046(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(642836046L))
+            info.setReturnValue(new java.lang.Object());
     }
 
 

@@ -25,15 +25,15 @@ public class TestBlockEditScreen_1620775805Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen__1938369093(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1938369093L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
     private void isInGameUi_1108289374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1108289374L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen__1938369093(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1938369093L))
             info.setReturnValue(true);
     }
 

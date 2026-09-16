@@ -13,10 +13,10 @@ public class Registries_1371520871Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "levelStemToLevel(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private static void levelStemToLevel_1443285935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1443285935L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "elementsDirPath(Lnet/minecraft/resources/ResourceKey;)Ljava/lang/String;", cancellable = true)
+    private static void elementsDirPath__1666073176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1666073176L))
+            info.setReturnValue("6jDc4tyCj1HacU\u2A0AG/g");
     }
 
     @Inject(at = @At("HEAD"), method = "tagsDirPath(Lnet/minecraft/resources/ResourceKey;)Ljava/lang/String;", cancellable = true)
@@ -31,10 +31,10 @@ public class Registries_1371520871Mixin {
             info.setReturnValue("$e7x}uzq\u46E7w\u12CElrEKaw\u8124\u6DAFV!?v4fzbCL=e_>l7");
     }
 
-    @Inject(at = @At("HEAD"), method = "elementsDirPath(Lnet/minecraft/resources/ResourceKey;)Ljava/lang/String;", cancellable = true)
-    private static void elementsDirPath__1666073176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1666073176L))
-            info.setReturnValue("6jDc4tyCj1HacU\u2A0AG/g");
+    @Inject(at = @At("HEAD"), method = "levelStemToLevel(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private static void levelStemToLevel_1443285935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1443285935L))
+            info.setReturnValue(null);
     }
 
 

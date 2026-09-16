@@ -22,18 +22,36 @@ public class Preparations_1152348974Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1709701064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1709701064L))
-            info.setReturnValue(-1404705320);
+            info.setReturnValue(-1876261720);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__487799027(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-487799027L))
-            info.setReturnValue(124953782);
+            info.setReturnValue(-346602618);
     }
 
     @Inject(at = @At("HEAD"), method = "regions()Ljava/util/Map;", cancellable = true)
     private void regions_1701430198(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1701430198L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_67000396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(67000396L))
+            info.setReturnValue(333345076);
+    }
+
+    @Inject(at = @At("HEAD"), method = "readyForUpload()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void readyForUpload__867260783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-867260783L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    }
+
+    @Inject(at = @At("HEAD"), method = "missing()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
+    private void missing_1377079196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1377079196L))
             info.setReturnValue(null);
     }
 
@@ -43,28 +61,10 @@ public class Preparations_1152348974Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_67000396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(67000396L))
-            info.setReturnValue(804901476);
-    }
-
-    @Inject(at = @At("HEAD"), method = "missing()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void missing_1377079196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1377079196L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "readyForUpload()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void readyForUpload__867260783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-867260783L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "mipLevel()I", cancellable = true)
     private void mipLevel__1637553789(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1637553789L))
-            info.setReturnValue(-1032076846);
+            info.setReturnValue(-1503633246);
     }
 
 

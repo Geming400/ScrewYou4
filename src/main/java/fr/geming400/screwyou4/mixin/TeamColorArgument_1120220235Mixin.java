@@ -31,16 +31,16 @@ public class TeamColorArgument_1120220235Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_368662443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(368662443L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1450133063(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450133063L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_368662443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(368662443L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

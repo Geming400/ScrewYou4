@@ -22,7 +22,7 @@ public class Submit584363778Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141715869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141715869L))
-            info.setReturnValue(-208795563);
+            info.setReturnValue(183944937);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lcom/mojang/blaze3d/vertex/PoseStack$Pose;", cancellable = true)
@@ -31,15 +31,15 @@ public class Submit584363778Mixin {
             info.setReturnValue(new com.mojang.blaze3d.vertex.PoseStack.Pose());
     }
 
-    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
-    private void featureType_391940024(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(391940024L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "customGeometryRenderer()Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;", cancellable = true)
     private void customGeometryRenderer_700554595(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(700554595L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
+    private void featureType_391940024(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(391940024L))
             info.setReturnValue(null);
     }
 

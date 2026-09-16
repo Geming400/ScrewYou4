@@ -13,6 +13,12 @@ public class CopperGolemModel_1880673564Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "applyBlockOnAntennaTransform(Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
+    private void applyBlockOnAntennaTransform__847179531(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-847179531L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "translateToHand(Lnet/minecraft/client/renderer/entity/state/CopperGolemRenderState;Lnet/minecraft/world/entity/HumanoidArm;Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
     private void translateToHand_1484607370(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1484607370L))
@@ -37,12 +43,6 @@ public class CopperGolemModel_1880673564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createSittingPoseBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createSittingPoseBodyLayer_69655237(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69655237L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createStarPoseBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createStarPoseBodyLayer_1324715719(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1324715719L))
@@ -61,10 +61,10 @@ public class CopperGolemModel_1880673564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyBlockOnAntennaTransform(Lcom/mojang/blaze3d/vertex/PoseStack;)V", cancellable = true)
-    private void applyBlockOnAntennaTransform__847179531(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-847179531L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createSittingPoseBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createSittingPoseBodyLayer_69655237(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69655237L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setupAnim(Ljava/lang/Object;)V", cancellable = true)

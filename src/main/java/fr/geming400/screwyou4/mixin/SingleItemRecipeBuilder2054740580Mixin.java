@@ -25,12 +25,6 @@ public class SingleItemRecipeBuilder2054740580Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void defaultId_33813465(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(33813465L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "stonecutting(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;I)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;", cancellable = true)
     private static void stonecutting__2143428286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2143428286L))
@@ -46,6 +40,12 @@ public class SingleItemRecipeBuilder2054740580Mixin {
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;", cancellable = true)
     private void unlockedBy__1363524087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1363524087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultId()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void defaultId_33813465(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(33813465L))
             info.setReturnValue(null);
     }
 

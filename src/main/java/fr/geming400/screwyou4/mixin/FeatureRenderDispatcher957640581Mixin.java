@@ -13,16 +13,16 @@ public class FeatureRenderDispatcher957640581Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "renderAllFeatures(Lnet/minecraft/client/renderer/SubmitNodeStorage;)V", cancellable = true)
-    private void renderAllFeatures__662650190(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-662650190L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "prepareFrame(Lnet/minecraft/client/renderer/SubmitNodeStorage;)Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;", cancellable = true)
     private void prepareFrame__900137033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900137033L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderAllFeatures(Lnet/minecraft/client/renderer/SubmitNodeStorage;)V", cancellable = true)
+    private void renderAllFeatures__662650190(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-662650190L))
+            info.cancel();
     }
 
 

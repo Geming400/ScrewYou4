@@ -16,7 +16,7 @@ public class SortedArraySet1298784556Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1742516145(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1742516145L))
-            info.setReturnValue(942875075);
+            info.setReturnValue(889668175);
     }
 
     @Inject(at = @At("HEAD"), method = "get(Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)

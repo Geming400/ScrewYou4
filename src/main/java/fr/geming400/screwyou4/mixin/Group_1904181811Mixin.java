@@ -22,7 +22,7 @@ public class Group_1904181811Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1833433395(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1833433395L))
-            info.setReturnValue(1236152667);
+            info.setReturnValue(1052216967);
     }
 
     @Inject(at = @At("HEAD"), method = "lines()Ljava/util/List;", cancellable = true)
@@ -49,15 +49,15 @@ public class Group_1904181811Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texts()Ljava/util/List;", cancellable = true)
-    private void texts__1988206008(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1988206008L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "quads()Ljava/util/List;", cancellable = true)
     private void quads__1439303058(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1439303058L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texts()Ljava/util/List;", cancellable = true)
+    private void texts__1988206008(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1988206008L))
             info.setReturnValue(null);
     }
 

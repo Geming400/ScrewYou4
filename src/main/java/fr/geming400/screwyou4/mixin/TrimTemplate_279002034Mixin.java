@@ -22,7 +22,7 @@ public class TrimTemplate_279002034Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_836354124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836354124L))
-            info.setReturnValue(-1280983174);
+            info.setReturnValue(-1147953474);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/world/item/Item;", cancellable = true)

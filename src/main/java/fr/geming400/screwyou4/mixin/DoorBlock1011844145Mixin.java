@@ -25,12 +25,6 @@ public class DoorBlock1011844145Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy__1779128197(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1779128197L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__1457344335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1457344335L))
@@ -41,6 +35,12 @@ public class DoorBlock1011844145Mixin {
     private void playerWillDestroy_1338906743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1338906743L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy__1779128197(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1779128197L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setOpen(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Z)V", cancellable = true)

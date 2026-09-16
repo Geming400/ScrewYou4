@@ -7,16 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.BedBlock.class)
 public class BedBlock1882377040Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1346145002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1346145002L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "findStandUpPosition(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;F)Ljava/util/Optional;", cancellable = true)
-    private static void findStandUpPosition__1588774198(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1588774198L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void getColor__1784599095(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1784599095L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.BLUE);
     }
 
     @Inject(at = @At("HEAD"), method = "getBedOrientation(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/Direction;", cancellable = true)
@@ -25,16 +19,16 @@ public class BedBlock1882377040Mixin {
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void setPlacedBy__908595302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-908595302L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "findStandUpPosition(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/CollisionGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;F)Ljava/util/Optional;", cancellable = true)
+    private static void findStandUpPosition__1588774198(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1588774198L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void getColor__1784599095(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1784599095L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.BLUE);
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1346145002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1346145002L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -49,9 +43,9 @@ public class BedBlock1882377040Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
-    private void fallOn__165856518(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-165856518L))
+    @Inject(at = @At("HEAD"), method = "setPlacedBy(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void setPlacedBy__908595302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-908595302L))
             info.cancel();
     }
 
@@ -65,6 +59,12 @@ public class BedBlock1882377040Mixin {
     private static void getConnectedDirection_450238064(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(450238064L))
             info.setReturnValue(net.minecraft.core.Direction.EAST);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fallOn(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;D)V", cancellable = true)
+    private void fallOn__165856518(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-165856518L))
+            info.cancel();
     }
 
 

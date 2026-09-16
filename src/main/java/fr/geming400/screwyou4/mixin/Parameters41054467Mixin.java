@@ -22,7 +22,7 @@ public class Parameters41054467Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_598406558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598406558L))
-            info.setReturnValue(888967822);
+            info.setReturnValue(927555622);
     }
 
     @Inject(at = @At("HEAD"), method = "options()B", cancellable = true)
@@ -43,21 +43,15 @@ public class Parameters41054467Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerPrefix__2112387415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2112387415L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "collisionRule()Lnet/minecraft/world/scores/Team$CollisionRule;", cancellable = true)
     private void collisionRule_242189429(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(242189429L))
             info.setReturnValue(net.minecraft.world.scores.Team.CollisionRule.NEVER);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void playerSuffix_1230859432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1230859432L))
+    @Inject(at = @At("HEAD"), method = "playerPrefix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerPrefix__2112387415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2112387415L))
             info.setReturnValue(null);
     }
 
@@ -65,6 +59,12 @@ public class Parameters41054467Mixin {
     private void nameTagVisibility__989980490(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-989980490L))
             info.setReturnValue(net.minecraft.world.scores.Team.Visibility.ALWAYS);
+    }
+
+    @Inject(at = @At("HEAD"), method = "playerSuffix()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void playerSuffix_1230859432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1230859432L))
+            info.setReturnValue(null);
     }
 
 

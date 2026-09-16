@@ -13,6 +13,12 @@ public class CampfireBlock_1796040696Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__510783960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-510783960L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void getStateForPlacement__673147785(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-673147785L))
@@ -23,24 +29,6 @@ public class CampfireBlock_1796040696Mixin {
     private void animateTick__2094245068(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2094245068L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__510783960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-510783960L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid__25420006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-25420006L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void newBlockEntity_1937616080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1937616080L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "dowse(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -55,9 +43,27 @@ public class CampfireBlock_1796040696Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void newBlockEntity_1937616080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1937616080L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid__25420006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-25420006L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isLitCampfire(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void isLitCampfire__1929054991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1929054991L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSmokeyPos(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private static void isSmokeyPos__950705685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950705685L))
             info.setReturnValue(true);
     }
 
@@ -65,12 +71,6 @@ public class CampfireBlock_1796040696Mixin {
     private static void makeParticles_1615708392(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1615708392L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSmokeyPos(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private static void isSmokeyPos__950705685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950705685L))
-            info.setReturnValue(true);
     }
 
 

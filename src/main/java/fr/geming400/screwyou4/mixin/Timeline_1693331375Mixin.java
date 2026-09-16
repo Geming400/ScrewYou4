@@ -25,6 +25,18 @@ public class Timeline_1693331375Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
+    private void getTotalTicks__1943674709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1943674709L))
+            info.setReturnValue(-6123261392516704795L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
+    private void periodTicks_1878949777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1878949777L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "registerTimeMarkers(Ljava/util/function/BiConsumer;)V", cancellable = true)
     private void registerTimeMarkers_1465309325(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1465309325L))
@@ -40,7 +52,7 @@ public class Timeline_1693331375Mixin {
     @Inject(at = @At("HEAD"), method = "getCurrentTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
     private void getCurrentTicks_186294560(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186294560L))
-            info.setReturnValue(8509233629091331286L);
+            info.setReturnValue(8509233629149087386L);
     }
 
     @Inject(at = @At("HEAD"), method = "createTrackSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
@@ -49,22 +61,10 @@ public class Timeline_1693331375Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "periodTicks()Ljava/util/Optional;", cancellable = true)
-    private void periodTicks_1878949777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1878949777L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalTicks(Lnet/minecraft/world/clock/ClockManager;)J", cancellable = true)
-    private void getTotalTicks__1943674709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1943674709L))
-            info.setReturnValue(-6123261392574460895L);
-    }
-
     @Inject(at = @At("HEAD"), method = "getPeriodCount(Lnet/minecraft/world/clock/ClockManager;)I", cancellable = true)
     private void getPeriodCount__1350898214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1350898214L))
-            info.setReturnValue(527159577);
+            info.setReturnValue(584915677);
     }
 
 

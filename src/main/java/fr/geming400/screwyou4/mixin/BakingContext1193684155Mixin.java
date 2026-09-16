@@ -22,12 +22,12 @@ public class BakingContext1193684155Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1751036246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1751036246L))
-            info.setReturnValue(-288233966);
+            info.setReturnValue(237419034);
     }
 
-    @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
-    private void entityModelSet__1003031540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1003031540L))
+    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
+    private void playerSkinRenderCache__691398145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-691398145L))
             info.setReturnValue(null);
     }
 
@@ -37,15 +37,15 @@ public class BakingContext1193684155Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "modelGetter()Ljava/util/function/Function;", cancellable = true)
-    private void modelGetter__554626724(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-554626724L))
+    @Inject(at = @At("HEAD"), method = "entityModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
+    private void entityModelSet__1003031540(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1003031540L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
-    private void playerSkinRenderCache__691398145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-691398145L))
+    @Inject(at = @At("HEAD"), method = "modelGetter()Ljava/util/function/Function;", cancellable = true)
+    private void modelGetter__554626724(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-554626724L))
             info.setReturnValue(null);
     }
 

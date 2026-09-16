@@ -22,7 +22,7 @@ public class WrittenBookPredicate884591841Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1441943932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1441943932L))
-            info.setReturnValue(-2100947571);
+            info.setReturnValue(-1705841571);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -55,12 +55,6 @@ public class WrittenBookPredicate884591841Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
-    private void title__1463559961(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1463559961L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/Optional;", cancellable = true)
     private void pages__1047453101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1047453101L))
@@ -70,6 +64,12 @@ public class WrittenBookPredicate884591841Mixin {
     @Inject(at = @At("HEAD"), method = "author()Ljava/util/Optional;", cancellable = true)
     private void author_2024746778(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2024746778L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
+    private void title__1463559961(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1463559961L))
             info.setReturnValue(null);
     }
 

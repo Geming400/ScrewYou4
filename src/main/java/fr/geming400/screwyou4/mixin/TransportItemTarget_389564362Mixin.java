@@ -22,7 +22,7 @@ public class TransportItemTarget_389564362Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_946916452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(946916452L))
-            info.setReturnValue(1607486821);
+            info.setReturnValue(1593797721);
     }
 
     @Inject(at = @At("HEAD"), method = "container()Lnet/minecraft/world/Container;", cancellable = true)
@@ -49,15 +49,15 @@ public class TransportItemTarget_389564362Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tryCreatePossibleTarget(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget;", cancellable = true)
-    private static void tryCreatePossibleTarget__1914655495(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1914655495L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tryCreatePossibleTarget(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget;", cancellable = true)
     private static void tryCreatePossibleTarget__7625262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-7625262L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryCreatePossibleTarget(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget;", cancellable = true)
+    private static void tryCreatePossibleTarget__1914655495(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1914655495L))
             info.setReturnValue(null);
     }
 

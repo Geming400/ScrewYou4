@@ -19,15 +19,15 @@ public class Builder131674696Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "looping()Lnet/minecraft/client/animation/AnimationDefinition$Builder;", cancellable = true)
-    private void looping_361762913(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(361762913L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withLength(F)Lnet/minecraft/client/animation/AnimationDefinition$Builder;", cancellable = true)
     private static void withLength__1515997927(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1515997927L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "looping()Lnet/minecraft/client/animation/AnimationDefinition$Builder;", cancellable = true)
+    private void looping_361762913(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(361762913L))
             info.setReturnValue(null);
     }
 

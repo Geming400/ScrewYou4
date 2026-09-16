@@ -22,7 +22,7 @@ public class EntityFlagsPredicate551048793Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1108400884(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1108400884L))
-            info.setReturnValue(-1011955329);
+            info.setReturnValue(-1214236829);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -37,27 +37,9 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
-    private void isOnGround_1824157591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1824157591L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isFallFlying()Ljava/util/Optional;", cancellable = true)
-    private void isFallFlying__1450461509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450461509L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isCrouching()Ljava/util/Optional;", cancellable = true)
-    private void isCrouching_340942821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(340942821L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSprinting()Ljava/util/Optional;", cancellable = true)
-    private void isSprinting_676009861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(676009861L))
+    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
+    private void isSwimming__1926505170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1926505170L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +55,21 @@ public class EntityFlagsPredicate551048793Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSwimming()Ljava/util/Optional;", cancellable = true)
-    private void isSwimming__1926505170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1926505170L))
+    @Inject(at = @At("HEAD"), method = "isCrouching()Ljava/util/Optional;", cancellable = true)
+    private void isCrouching_340942821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(340942821L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFallFlying()Ljava/util/Optional;", cancellable = true)
+    private void isFallFlying__1450461509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450461509L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSprinting()Ljava/util/Optional;", cancellable = true)
+    private void isSprinting_676009861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(676009861L))
             info.setReturnValue(null);
     }
 
@@ -88,6 +82,12 @@ public class EntityFlagsPredicate551048793Mixin {
     @Inject(at = @At("HEAD"), method = "isFlying()Ljava/util/Optional;", cancellable = true)
     private void isFlying_1553879392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1553879392L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isOnGround()Ljava/util/Optional;", cancellable = true)
+    private void isOnGround_1824157591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1824157591L))
             info.setReturnValue(null);
     }
 

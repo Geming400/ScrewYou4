@@ -13,15 +13,15 @@ public class SetLoreFunction1655765058Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1572756984(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1572756984L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
     private void getReferencedContextParams__1859699010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1859699010L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1572756984(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1572756984L))
             info.setReturnValue(null);
     }
 

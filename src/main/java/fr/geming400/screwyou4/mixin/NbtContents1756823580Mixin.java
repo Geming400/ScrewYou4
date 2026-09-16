@@ -22,7 +22,7 @@ public class NbtContents1756823580Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1980791625(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1980791625L))
-            info.setReturnValue(536885192);
+            info.setReturnValue(245851792);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -43,9 +43,9 @@ public class NbtContents1756823580Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "dataSource()Lnet/minecraft/network/chat/contents/data/DataSource;", cancellable = true)
-    private void dataSource_1125776548(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1125776548L))
+    @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/util/CompilableString;", cancellable = true)
+    private void nbtPath_1198468709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1198468709L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class NbtContents1756823580Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nbtPath()Lnet/minecraft/util/CompilableString;", cancellable = true)
-    private void nbtPath_1198468709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1198468709L))
+    @Inject(at = @At("HEAD"), method = "dataSource()Lnet/minecraft/network/chat/contents/data/DataSource;", cancellable = true)
+    private void dataSource_1125776548(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1125776548L))
             info.setReturnValue(null);
     }
 

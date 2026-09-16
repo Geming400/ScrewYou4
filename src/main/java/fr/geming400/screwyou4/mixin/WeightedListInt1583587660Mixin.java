@@ -13,22 +13,22 @@ public class WeightedListInt1583587660Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive__386251958(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-386251958L))
-            info.setReturnValue(-1363257851);
-    }
-
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_1928793016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1928793016L))
-            info.setReturnValue(-856409607);
+            info.setReturnValue(-731517007);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive__386251958(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386251958L))
+            info.setReturnValue(-1238365251);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample_550525692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(550525692L))
-            info.setReturnValue(1242712318);
+            info.setReturnValue(1367604918);
     }
 
 

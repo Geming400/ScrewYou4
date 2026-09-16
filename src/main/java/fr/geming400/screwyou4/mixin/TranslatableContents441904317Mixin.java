@@ -22,7 +22,7 @@ public class TranslatableContents441904317Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_999255912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(999255912L))
-            info.setReturnValue(-696423485);
+            info.setReturnValue(-595583885);
     }
 
     @Inject(at = @At("HEAD"), method = "getKey()Ljava/lang/String;", cancellable = true)

@@ -22,7 +22,7 @@ public class WorldDataConfiguration_1961541620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1776073586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1776073586L))
-            info.setReturnValue(1668839220);
+            info.setReturnValue(1580573720);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)

@@ -19,6 +19,12 @@ public class MapExtendingRecipe_537124726Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
+    private void getSerializer_1102011049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1102011049L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_2105180310(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2105180310L))
@@ -28,12 +34,6 @@ public class MapExtendingRecipe_537124726Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_2044793354(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044793354L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
-    private void getSerializer_1102011049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1102011049L))
             info.setReturnValue(null);
     }
 

@@ -31,27 +31,27 @@ public class MapItem1309796737Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void useOn_394679504(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(394679504L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "renderBiomePreviewMap(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
     private static void renderBiomePreviewMap_929344420(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(929344420L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onCraftedPostProcess(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;)V", cancellable = true)
-    private void onCraftedPostProcess_1677767565(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1677767565L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void useOn_394679504(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(394679504L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
     private void inventoryTick__1004511506(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1004511506L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onCraftedPostProcess(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;)V", cancellable = true)
+    private void onCraftedPostProcess_1677767565(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1677767565L))
             info.cancel();
     }
 

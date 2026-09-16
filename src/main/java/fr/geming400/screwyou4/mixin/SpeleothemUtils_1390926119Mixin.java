@@ -13,15 +13,15 @@ public class SpeleothemUtils_1390926119Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "isEmptyOrWaterOrLava(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private static void isEmptyOrWaterOrLava_513226896(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(513226896L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "isEmptyOrWater(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private static void isEmptyOrWater__1024997709(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1024997709L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isBaseOrLava(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z", cancellable = true)
-    private static void isBaseOrLava_1864307585(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1864307585L))
             info.setReturnValue(true);
     }
 
@@ -31,10 +31,10 @@ public class SpeleothemUtils_1390926119Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEmptyOrWaterOrLava(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private static void isEmptyOrWaterOrLava_513226896(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(513226896L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "isBaseOrLava(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z", cancellable = true)
+    private static void isBaseOrLava_1864307585(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1864307585L))
+            info.setReturnValue(true);
     }
 
 

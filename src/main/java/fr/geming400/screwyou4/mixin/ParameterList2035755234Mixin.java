@@ -25,15 +25,15 @@ public class ParameterList2035755234Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "findValueIndex(Lnet/minecraft/world/level/biome/Climate$TargetPoint;)Ljava/lang/Object;", cancellable = true)
-    private void findValueIndex__1914894111(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1914894111L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
     @Inject(at = @At("HEAD"), method = "findValueBruteForce(Lnet/minecraft/world/level/biome/Climate$TargetPoint;)Ljava/lang/Object;", cancellable = true)
     private void findValueBruteForce_1128404206(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1128404206L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "findValueIndex(Lnet/minecraft/world/level/biome/Climate$TargetPoint;)Ljava/lang/Object;", cancellable = true)
+    private void findValueIndex__1914894111(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1914894111L))
             info.setReturnValue(new java.lang.Object());
     }
 

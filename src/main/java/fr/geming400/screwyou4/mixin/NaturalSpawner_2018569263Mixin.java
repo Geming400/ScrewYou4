@@ -7,10 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.NaturalSpawner.class)
 public class NaturalSpawner_2018569263Mixin {
-        @Inject(at = @At("HEAD"), method = "createState(ILjava/lang/Iterable;Lnet/minecraft/world/level/NaturalSpawner$ChunkGetter;Lnet/minecraft/world/level/LocalMobCapCalculator;)Lnet/minecraft/world/level/NaturalSpawner$SpawnState;", cancellable = true)
-    private static void createState_824868744(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(824868744L))
-            info.setReturnValue(null);
+        @Inject(at = @At("HEAD"), method = "spawnMobsForChunkGeneration(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private static void spawnMobsForChunkGeneration__1968294477(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1968294477L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "spawnCategoryForPosition(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V", cancellable = true)
@@ -31,24 +31,6 @@ public class NaturalSpawner_2018569263Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "spawnForChunk(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnState;Ljava/util/List;)V", cancellable = true)
-    private static void spawnForChunk_473445256(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(473445256L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "spawnMobsForChunkGeneration(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private static void spawnMobsForChunkGeneration__1968294477(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1968294477L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFilteredSpawningCategories(Lnet/minecraft/world/level/NaturalSpawner$SpawnState;ZZ)Ljava/util/List;", cancellable = true)
-    private static void getFilteredSpawningCategories_942905230(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(942905230L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "spawnCategoryForChunk(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V", cancellable = true)
     private static void spawnCategoryForChunk_1285524281(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1285524281L))
@@ -59,6 +41,24 @@ public class NaturalSpawner_2018569263Mixin {
     private static void isInNetherFortressBounds__834762175(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-834762175L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createState(ILjava/lang/Iterable;Lnet/minecraft/world/level/NaturalSpawner$ChunkGetter;Lnet/minecraft/world/level/LocalMobCapCalculator;)Lnet/minecraft/world/level/NaturalSpawner$SpawnState;", cancellable = true)
+    private static void createState_824868744(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(824868744L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "spawnForChunk(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnState;Ljava/util/List;)V", cancellable = true)
+    private static void spawnForChunk_473445256(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(473445256L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFilteredSpawningCategories(Lnet/minecraft/world/level/NaturalSpawner$SpawnState;ZZ)Ljava/util/List;", cancellable = true)
+    private static void getFilteredSpawningCategories_942905230(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(942905230L))
+            info.setReturnValue(null);
     }
 
 

@@ -13,6 +13,12 @@ public class MagmaCube634594190Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
+    private void isOnFire__1145467354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1145467354L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_2009696180(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2009696180L))
@@ -25,18 +31,6 @@ public class MagmaCube634594190Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
-    private void isOnFire__1145467354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1145467354L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue__1587290094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1587290094L))
-            info.setReturnValue(6.846935E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkMagmaCubeSpawnRules(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private static void checkMagmaCubeSpawnRules_1695687888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1695687888L))
@@ -47,6 +41,12 @@ public class MagmaCube634594190Mixin {
     private void finalizeSpawn_1384692499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1384692499L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue__1587290094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1587290094L))
+            info.setReturnValue(8.524682E8F);
     }
 
 

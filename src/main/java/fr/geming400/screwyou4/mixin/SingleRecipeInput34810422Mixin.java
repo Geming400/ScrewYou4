@@ -10,7 +10,7 @@ public class SingleRecipeInput34810422Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_478542011(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(478542011L))
-            info.setReturnValue(769915666);
+            info.setReturnValue(724902866);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class SingleRecipeInput34810422Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_592162513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(592162513L))
-            info.setReturnValue(-1168563658);
+            info.setReturnValue(-1213576458);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

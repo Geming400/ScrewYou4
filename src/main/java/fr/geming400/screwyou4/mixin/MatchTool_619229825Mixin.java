@@ -22,13 +22,7 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1176581915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1176581915L))
-            info.setReturnValue(-1982833938);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__1117741887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1117741887L))
-            info.setReturnValue(true);
+            info.setReturnValue(-1560986138);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
@@ -37,9 +31,21 @@ public class MatchTool_619229825Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test__1117741887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1117741887L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "predicate()Ljava/util/Optional;", cancellable = true)
     private void predicate_848091365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(848091365L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams_1398733052(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1398733052L))
             info.setReturnValue(null);
     }
 
@@ -52,12 +58,6 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "toolMatches(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void toolMatches_1146011843(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1146011843L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams_1398733052(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1398733052L))
             info.setReturnValue(null);
     }
 

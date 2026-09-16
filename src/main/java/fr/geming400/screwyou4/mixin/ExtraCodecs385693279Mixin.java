@@ -7,27 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.ExtraCodecs.class)
 public class ExtraCodecs385693279Mixin {
-        @Inject(at = @At("HEAD"), method = "converter(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void converter__1730949753(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1730949753L))
+        @Inject(at = @At("HEAD"), method = "intRange(II)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void intRange__1521136501(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1521136501L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "relaiveNormalizedSubPathCodec(Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void relaiveNormalizedSubPathCodec__570396579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-570396579L))
+    @Inject(at = @At("HEAD"), method = "longRange(II)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void longRange__1482070050(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1482070050L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionalAlwaysPresentFieldOf(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/Object;Z)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void optionalAlwaysPresentFieldOf_988799637(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(988799637L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "optionalAlwaysPresentFieldOf(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void optionalAlwaysPresentFieldOf__113818661(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-113818661L))
+    @Inject(at = @At("HEAD"), method = "floatRange(FF)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void floatRange_579353694(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(579353694L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +37,27 @@ public class ExtraCodecs385693279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "floatRange(FF)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void floatRange_579353694(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(579353694L))
+    @Inject(at = @At("HEAD"), method = "converter(Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void converter__1730949753(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1730949753L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "intRange(II)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void intRange__1521136501(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1521136501L))
+    @Inject(at = @At("HEAD"), method = "relaiveNormalizedSubPathCodec(Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void relaiveNormalizedSubPathCodec__570396579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-570396579L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "longRange(II)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void longRange__1482070050(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1482070050L))
+    @Inject(at = @At("HEAD"), method = "optionalAlwaysPresentFieldOf(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/Object;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void optionalAlwaysPresentFieldOf__113818661(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-113818661L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "optionalAlwaysPresentFieldOf(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/Object;Z)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void optionalAlwaysPresentFieldOf_988799637(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(988799637L))
             info.setReturnValue(null);
     }
 
@@ -85,9 +85,15 @@ public class ExtraCodecs385693279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "temporalCodec(Ljava/time/format/DateTimeFormatter;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void temporalCodec_546208238(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(546208238L))
+    @Inject(at = @At("HEAD"), method = "nonEmptyList(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void nonEmptyList_873944500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(873944500L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nonEmptyHolderSet(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void nonEmptyHolderSet__1076853012(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1076853012L))
             info.setReturnValue(null);
     }
 
@@ -97,21 +103,15 @@ public class ExtraCodecs385693279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dispatchOptionalValue(Ljava/lang/String;Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void dispatchOptionalValue__2126665193(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2126665193L))
+    @Inject(at = @At("HEAD"), method = "retrieveContext(Ljava/util/function/Function;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void retrieveContext_1426618190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1426618190L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "nonEmptyList(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void nonEmptyList_873944500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(873944500L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "optionalEmptyMap(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void optionalEmptyMap__1426346427(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1426346427L))
+    @Inject(at = @At("HEAD"), method = "catchDecoderException(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void catchDecoderException__731088964(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-731088964L))
             info.setReturnValue(null);
     }
 
@@ -127,57 +127,21 @@ public class ExtraCodecs385693279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "guardedPathCodec(Ljava/nio/file/Path;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void guardedPathCodec__619678549(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-619678549L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "intervalCodec(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void intervalCodec__993155802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-993155802L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "retrieveContext(Ljava/util/function/Function;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void retrieveContext_1426618190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1426618190L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ensureHomogenous(Ljava/util/function/Function;)Ljava/util/function/Function;", cancellable = true)
     private static void ensureHomogenous__13729256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-13729256L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asOptionalLong(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private static void asOptionalLong_1254887792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1254887792L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "nonEmptyHolderSet(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void nonEmptyHolderSet__1076853012(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1076853012L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "catchDecoderException(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void catchDecoderException__731088964(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-731088964L))
+    @Inject(at = @At("HEAD"), method = "orCompressed(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void orCompressed_1670466323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1670466323L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "orCompressed(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private static void orCompressed__442268593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-442268593L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "orCompressed(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
-    private static void orCompressed_1670466323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1670466323L))
             info.setReturnValue(null);
     }
 
@@ -199,9 +163,45 @@ public class ExtraCodecs385693279Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "asOptionalLong(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void asOptionalLong_1254887792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1254887792L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "object2BooleanMap(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void object2BooleanMap__1677836483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1677836483L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "temporalCodec(Ljava/time/format/DateTimeFormatter;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void temporalCodec_546208238(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(546208238L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "optionalEmptyMap(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void optionalEmptyMap__1426346427(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1426346427L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "guardedPathCodec(Ljava/nio/file/Path;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void guardedPathCodec__619678549(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-619678549L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "intervalCodec(Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/String;Ljava/util/function/BiFunction;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;", cancellable = true)
+    private static void intervalCodec__993155802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-993155802L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dispatchOptionalValue(Ljava/lang/String;Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private static void dispatchOptionalValue__2126665193(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2126665193L))
             info.setReturnValue(null);
     }
 

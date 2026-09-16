@@ -10,7 +10,7 @@ public class WaterFogEnvironment711539102Mixin {
         @Inject(at = @At("HEAD"), method = "getBaseColor(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/Camera;IF)I", cancellable = true)
     private void getBaseColor_1344508164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1344508164L))
-            info.setReturnValue(531887802);
+            info.setReturnValue(-180906198);
     }
 
     @Inject(at = @At("HEAD"), method = "isApplicable(Lnet/minecraft/world/level/material/FogType;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)

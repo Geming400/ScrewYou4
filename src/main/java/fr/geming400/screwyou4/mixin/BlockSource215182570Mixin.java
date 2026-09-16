@@ -22,7 +22,7 @@ public class BlockSource215182570Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_772534661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(772534661L))
-            info.setReturnValue(2026537047);
+            info.setReturnValue(1743577547);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -43,15 +43,15 @@ public class BlockSource215182570Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/DispenserBlockEntity;", cancellable = true)
-    private void blockEntity_897032981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(897032981L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "center()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void center_205053550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(205053550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockEntity()Lnet/minecraft/world/level/block/entity/DispenserBlockEntity;", cancellable = true)
+    private void blockEntity_897032981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(897032981L))
             info.setReturnValue(null);
     }
 

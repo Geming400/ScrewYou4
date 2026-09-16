@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.CodRenderer.class)
 public class CodRenderer_524355763Mixin {
-        @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1798225659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1798225659L))
+        @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_777526741(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777526741L))
             info.setReturnValue(null);
     }
 
@@ -19,9 +19,9 @@ public class CodRenderer_524355763Mixin {
             info.setReturnValue(new net.minecraft.client.renderer.entity.state.LivingEntityRenderState());
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_777526741(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777526741L))
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1798225659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1798225659L))
             info.setReturnValue(null);
     }
 

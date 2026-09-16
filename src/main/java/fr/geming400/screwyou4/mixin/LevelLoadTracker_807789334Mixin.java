@@ -25,16 +25,16 @@ public class LevelLoadTracker_807789334Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "serverProgress()F", cancellable = true)
-    private void serverProgress_1769563432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1769563432L))
-            info.setReturnValue(3.017782E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "isLevelReady()Z", cancellable = true)
     private void isLevelReady__1015217885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1015217885L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "serverProgress()F", cancellable = true)
+    private void serverProgress_1769563432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1769563432L))
+            info.setReturnValue(1.541223E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "setServerChunkStatusView(Lnet/minecraft/server/level/progress/ChunkLoadStatusView;)V", cancellable = true)
@@ -43,9 +43,21 @@ public class LevelLoadTracker_807789334Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "hasProgress()Z", cancellable = true)
+    private void hasProgress__1322077627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1322077627L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPlayerCompiledSectionCallback()Ljava/lang/Runnable;", cancellable = true)
     private void getPlayerCompiledSectionCallback__1466634380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1466634380L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "statusView()Lnet/minecraft/server/level/progress/ChunkLoadStatusView;", cancellable = true)
+    private void statusView__1201388841(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1201388841L))
             info.setReturnValue(null);
     }
 
@@ -71,18 +83,6 @@ public class LevelLoadTracker_807789334Mixin {
     private void updateFocus__333468281(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-333468281L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasProgress()Z", cancellable = true)
-    private void hasProgress__1322077627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1322077627L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "statusView()Lnet/minecraft/server/level/progress/ChunkLoadStatusView;", cancellable = true)
-    private void statusView__1201388841(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1201388841L))
-            info.setReturnValue(null);
     }
 
 

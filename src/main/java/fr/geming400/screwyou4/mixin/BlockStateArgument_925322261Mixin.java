@@ -31,15 +31,15 @@ public class BlockStateArgument_925322261Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void listSuggestions_173764469(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(173764469L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getExamples()Ljava/util/Collection;", cancellable = true)
     private void getExamples__1645031037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1645031037L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void listSuggestions_173764469(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(173764469L))
             info.setReturnValue(null);
     }
 

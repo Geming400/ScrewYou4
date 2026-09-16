@@ -19,6 +19,12 @@ public class ExplosionCondition_1657856314Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
+    private void getReferencedContextParams__1857607755(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1857607755L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1570665729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1570665729L))
@@ -28,12 +34,6 @@ public class ExplosionCondition_1657856314Mixin {
     @Inject(at = @At("HEAD"), method = "survivesExplosion()Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;", cancellable = true)
     private static void survivesExplosion_1767463750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1767463750L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getReferencedContextParams()Ljava/util/Set;", cancellable = true)
-    private void getReferencedContextParams__1857607755(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1857607755L))
             info.setReturnValue(null);
     }
 

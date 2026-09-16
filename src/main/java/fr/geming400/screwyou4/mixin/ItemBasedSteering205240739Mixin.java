@@ -22,7 +22,7 @@ public class ItemBasedSteering205240739Mixin {
     @Inject(at = @At("HEAD"), method = "boostFactor()F", cancellable = true)
     private void boostFactor_1346041012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1346041012L))
-            info.setReturnValue(7.806463E8F);
+            info.setReturnValue(3.656245E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "boost(Lnet/minecraft/util/RandomSource;)Z", cancellable = true)

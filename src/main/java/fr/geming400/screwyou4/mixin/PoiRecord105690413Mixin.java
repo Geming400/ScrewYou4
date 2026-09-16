@@ -16,7 +16,7 @@ public class PoiRecord105690413Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_663042008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663042008L))
-            info.setReturnValue(1481213970);
+            info.setReturnValue(1013689670);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()Lnet/minecraft/world/entity/ai/village/poi/PoiRecord$Packed;", cancellable = true)
@@ -25,21 +25,15 @@ public class PoiRecord105690413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_595256144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(595256144L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getFreeTickets()I", cancellable = true)
     private void getFreeTickets__1947050866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1947050866L))
-            info.setReturnValue(-660867071);
+            info.setReturnValue(-1128391371);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void getPoiType_1952572155(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1952572155L))
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_595256144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(595256144L))
             info.setReturnValue(null);
     }
 
@@ -53,6 +47,12 @@ public class PoiRecord105690413Mixin {
     private void isOccupied_723431932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(723431932L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void getPoiType_1952572155(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1952572155L))
+            info.setReturnValue(null);
     }
 
 

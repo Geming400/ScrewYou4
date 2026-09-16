@@ -10,7 +10,7 @@ public class BatchConfig_1533102069Mixin {
         @Inject(at = @At("HEAD"), method = "maxSize()I", cancellable = true)
     private void maxSize_553542005(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(553542005L))
-            info.setReturnValue(-1943076177);
+            info.setReturnValue(1803240519);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class BatchConfig_1533102069Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2090454159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2090454159L))
-            info.setReturnValue(-2120037874);
+            info.setReturnValue(1626278822);
     }
 
     @Inject(at = @At("HEAD"), method = "proxy()Ljava/net/Proxy;", cancellable = true)

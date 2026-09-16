@@ -19,12 +19,6 @@ public class PresenceSharing_821044381Mixin {
             info.setReturnValue(net.minecraft.client.PresenceSharing.LIMITED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTooltip()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTooltip__1359994692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1359994692L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)
     private void getSerializedName_909253002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(909253002L))
@@ -34,6 +28,12 @@ public class PresenceSharing_821044381Mixin {
     @Inject(at = @At("HEAD"), method = "getTranslation()Lnet/minecraft/network/chat/Component;", cancellable = true)
     private void getTranslation__1419225878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1419225878L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTooltip()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTooltip__1359994692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1359994692L))
             info.setReturnValue(null);
     }
 

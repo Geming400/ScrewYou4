@@ -19,6 +19,12 @@ public class CreativeModeTabs70736700Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "allTabs()Ljava/util/List;", cancellable = true)
+    private static void allTabs__1641816669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1641816669L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "searchTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
     private static void searchTab_666125975(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(666125975L))
@@ -28,12 +34,6 @@ public class CreativeModeTabs70736700Mixin {
     @Inject(at = @At("HEAD"), method = "tabs()Ljava/util/List;", cancellable = true)
     private static void tabs__628174110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-628174110L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allTabs()Ljava/util/List;", cancellable = true)
-    private static void allTabs__1641816669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1641816669L))
             info.setReturnValue(null);
     }
 

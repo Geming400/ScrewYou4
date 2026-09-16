@@ -22,7 +22,7 @@ public class PackSelectionConfig_1289557609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1846909699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846909699L))
-            info.setReturnValue(988784023);
+            info.setReturnValue(932289023);
     }
 
     @Inject(at = @At("HEAD"), method = "required()Z", cancellable = true)

@@ -19,9 +19,9 @@ public class PlacementInfo_1982869851Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFromOptionals(Ljava/util/List;)Lnet/minecraft/world/item/crafting/PlacementInfo;", cancellable = true)
-    private static void createFromOptionals__1308557943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1308557943L))
+    @Inject(at = @At("HEAD"), method = "slotsToIngredientIndex()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
+    private void slotsToIngredientIndex__283527422(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-283527422L))
             info.setReturnValue(null);
     }
 
@@ -31,9 +31,9 @@ public class PlacementInfo_1982869851Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "slotsToIngredientIndex()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
-    private void slotsToIngredientIndex__283527422(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-283527422L))
+    @Inject(at = @At("HEAD"), method = "createFromOptionals(Ljava/util/List;)Lnet/minecraft/world/item/crafting/PlacementInfo;", cancellable = true)
+    private static void createFromOptionals__1308557943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1308557943L))
             info.setReturnValue(null);
     }
 

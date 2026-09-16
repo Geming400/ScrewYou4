@@ -22,7 +22,7 @@ public class TradeRebalanceChestLoot1377729190Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1935081281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1935081281L))
-            info.setReturnValue(986967402);
+            info.setReturnValue(1060700102);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -31,10 +31,10 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "pillagerOutpostLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private void pillagerOutpostLootTable__1985403342(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1985403342L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
+    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
+    private void registries__1187995940(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1187995940L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "jungleTempleLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
@@ -49,15 +49,15 @@ public class TradeRebalanceChestLoot1377729190Mixin {
             info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
     }
 
+    @Inject(at = @At("HEAD"), method = "pillagerOutpostLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private void pillagerOutpostLootTable__1985403342(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1985403342L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
+    }
+
     @Inject(at = @At("HEAD"), method = "desertPyramidLootTable()Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
     private void desertPyramidLootTable_449713113(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(449713113L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
-    private void registries__1187995940(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1187995940L))
             info.setReturnValue(null);
     }
 

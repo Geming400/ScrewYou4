@@ -13,10 +13,10 @@ public class ChannelAccess_567101063Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createHandle(Lcom/mojang/blaze3d/audio/Library$Pool;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void createHandle__1630082543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1630082543L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
+    @Inject(at = @At("HEAD"), method = "scheduleTick()V", cancellable = true)
+    private void scheduleTick__2018247451(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2018247451L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "executeOnChannels(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -25,10 +25,10 @@ public class ChannelAccess_567101063Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scheduleTick()V", cancellable = true)
-    private void scheduleTick__2018247451(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2018247451L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "createHandle(Lcom/mojang/blaze3d/audio/Library$Pool;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void createHandle__1630082543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1630082543L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
 

@@ -19,15 +19,15 @@ public class SocialInteractionsPlayerList_518780565Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
-    private void addPlayer__92957738(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-92957738L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "removePlayer(Ljava/util/UUID;)V", cancellable = true)
     private void removePlayer_522878902(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(522878902L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addPlayer(Lnet/minecraft/client/multiplayer/PlayerInfo;Lnet/minecraft/client/gui/screens/social/SocialInteractionsScreen$Page;)V", cancellable = true)
+    private void addPlayer__92957738(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-92957738L))
             info.cancel();
     }
 

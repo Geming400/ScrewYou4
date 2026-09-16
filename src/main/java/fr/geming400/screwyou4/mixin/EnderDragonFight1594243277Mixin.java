@@ -19,21 +19,21 @@ public class EnderDragonFight1594243277Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryRespawn()V", cancellable = true)
-    private void tryRespawn__393690957(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-393690957L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/world/level/dimension/end/EnderDragonFight;", cancellable = true)
     private static void createDefault_762492106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(762492106L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
-    private void onCrystalDestroyed__310075934(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-310075934L))
+    @Inject(at = @At("HEAD"), method = "dragonUUID()Ljava/util/UUID;", cancellable = true)
+    private void dragonUUID_219928622(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(219928622L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateDragon(Lnet/minecraft/world/entity/boss/enderdragon/EnderDragon;)V", cancellable = true)
+    private void updateDragon_1130803731(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1130803731L))
             info.cancel();
     }
 
@@ -43,22 +43,28 @@ public class EnderDragonFight1594243277Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateDragon(Lnet/minecraft/world/entity/boss/enderdragon/EnderDragon;)V", cancellable = true)
-    private void updateDragon_1130803731(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1130803731L))
+    @Inject(at = @At("HEAD"), method = "hasPreviouslyKilledDragon()Z", cancellable = true)
+    private void hasPreviouslyKilledDragon_899326518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(899326518L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onCrystalDestroyed(Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;Lnet/minecraft/world/damagesource/DamageSource;)V", cancellable = true)
+    private void onCrystalDestroyed__310075934(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-310075934L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "aliveCrystals()I", cancellable = true)
     private void aliveCrystals__2015023863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2015023863L))
-            info.setReturnValue(2103969035);
+            info.setReturnValue(-1954019461);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasPreviouslyKilledDragon()Z", cancellable = true)
-    private void hasPreviouslyKilledDragon_899326518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(899326518L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "tryRespawn()V", cancellable = true)
+    private void tryRespawn__393690957(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-393690957L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "skipArenaLoadedCheck()V", cancellable = true)
@@ -77,12 +83,6 @@ public class EnderDragonFight1594243277Mixin {
     private void removeAllGateways__354620748(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-354620748L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dragonUUID()Ljava/util/UUID;", cancellable = true)
-    private void dragonUUID_219928622(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(219928622L))
-            info.setReturnValue(null);
     }
 
 
