@@ -22,13 +22,7 @@ public class LocationBasedEffects1957746586Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1779868619(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1779868619L))
-            info.setReturnValue(-1042585917);
-    }
-
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1270775456(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1270775456L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1350999817);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
@@ -41,6 +35,12 @@ public class LocationBasedEffects1957746586Mixin {
     private void onChangedBlock_829381415(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(829381415L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1270775456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1270775456L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onDeactivated(Lnet/minecraft/world/item/enchantment/EnchantedItemInUse;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;I)V", cancellable = true)

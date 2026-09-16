@@ -22,7 +22,7 @@ public class Variant784267203Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__1910916754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1910916754L))
-            info.setReturnValue(1128868774);
+            info.setReturnValue(1002171274);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/world/entity/animal/rabbit/Rabbit$Variant;", cancellable = true)

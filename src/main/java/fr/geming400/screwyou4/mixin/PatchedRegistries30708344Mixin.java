@@ -22,7 +22,7 @@ public class PatchedRegistries30708344Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_588060435(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(588060435L))
-            info.setReturnValue(1195040987);
+            info.setReturnValue(1214354687);
     }
 
     @Inject(at = @At("HEAD"), method = "patches()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)

@@ -13,16 +13,16 @@ public class CategoryRuleEntry_1510571499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
-    private void narratables__1064174579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1064174579L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "extractContent(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIZF)V", cancellable = true)
     private void extractContent_2025328982(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2025328982L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "narratables()Ljava/util/List;", cancellable = true)
+    private void narratables__1064174579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1064174579L))
+            info.setReturnValue(null);
     }
 
 

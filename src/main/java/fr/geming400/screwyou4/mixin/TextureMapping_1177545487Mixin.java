@@ -55,6 +55,174 @@ public class TextureMapping_1177545487Mixin {
             info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
+    @Inject(at = @At("HEAD"), method = "commandBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void commandBlock_1701179019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701179019L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cross_1394031433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1394031433L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cross__722016001(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-722016001L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "cube(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cube__1414397442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1414397442L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cube(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cube_1121534378(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1121534378L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "customParticle(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void customParticle__1781935520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1781935520L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "bed(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/BedPart;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void bed_1003447429(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1003447429L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "campfire(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void campfire_643954048(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(643954048L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cauldron(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cauldron__640570979(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-640570979L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "crop(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void crop_1546612911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1546612911L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "door(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void door_1281817399(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1281817399L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "door(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void door__441020209(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441020209L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "stem(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void stem__134152302(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-134152302L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "torch(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void torch__1541429243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1541429243L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "torch(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void torch__2086146877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2086146877L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rail(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void rail_1464142363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1464142363L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "rail(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void rail__1151640595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1151640595L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "lantern(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void lantern_705106703(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(705106703L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "vault(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void vault__315635229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-315635229L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void particle__2129604593(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2129604593L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void particle__1594593415(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1594593415L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "trialSpawner(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void trialSpawner_1755665807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1755665807L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "crossEmissive(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void crossEmissive_1760821248(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1760821248L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "plantEmissive(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void plantEmissive_2136638571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2136638571L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockTexture(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
+    private static void getBlockTexture_317731629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(317731629L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockTexture(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
+    private static void getBlockTexture_491352567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(491352567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultTexture(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void defaultTexture_1964488739(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1964488739L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultTexture(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void defaultTexture_816176357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(816176357L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
     @Inject(at = @At("HEAD"), method = "copyAndUpdate(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
     private void copyAndUpdate_1878044104(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1878044104L))
@@ -79,291 +247,9 @@ public class TextureMapping_1177545487Mixin {
             info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockTexture(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;)Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
-    private static void getBlockTexture_317731629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(317731629L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockTexture(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/resources/model/sprite/Material;", cancellable = true)
-    private static void getBlockTexture_491352567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(491352567L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultTexture(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void defaultTexture_816176357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(816176357L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultTexture(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void defaultTexture_1964488739(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1964488739L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "driedGhast(Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void driedGhast__466497276(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-466497276L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "fire1(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void fire1_426261764(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(426261764L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "candleCake(Lnet/minecraft/world/level/block/Block;Z)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void candleCake_812274942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(812274942L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "snifferEgg(Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void snifferEgg_981123681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(981123681L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "layered(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void layered__141860597(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-141860597L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "layered(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void layered_870327437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(870327437L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "logColumn(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void logColumn__1192602557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1192602557L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void layer0__921856480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-921856480L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void layer0__2134241208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2134241208L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void layer0_1678966937(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1678966937L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "fan(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void fan_1402970460(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1402970460L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyForced(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/data/models/model/TextureSlot;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private void copyForced_755076531(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(755076531L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "flowerbed(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void flowerbed__241823281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-241823281L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pane(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void pane_1572928601(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1572928601L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "cubeTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cubeTop__1978361879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1978361879L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "fire0(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void fire0__89258685(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-89258685L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cross__722016001(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-722016001L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "cross(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cross_1394031433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1394031433L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "cube(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cube__1414397442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1414397442L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cube(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cube_1121534378(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1121534378L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "commandBlock(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void commandBlock_1701179019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701179019L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void particle__1594593415(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1594593415L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void particle__2129604593(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2129604593L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "campfire(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void campfire_643954048(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(643954048L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bed(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/state/properties/BedPart;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void bed_1003447429(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1003447429L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "crop(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void crop_1546612911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1546612911L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cauldron(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cauldron__640570979(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-640570979L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rail(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void rail__1151640595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1151640595L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "rail(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void rail_1464142363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1464142363L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "door(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void door_1281817399(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1281817399L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "door(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void door__441020209(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441020209L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "lantern(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void lantern_705106703(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(705106703L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "stem(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void stem__134152302(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-134152302L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "torch(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void torch__1541429243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1541429243L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "torch(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void torch__2086146877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2086146877L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "vault(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void vault__315635229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-315635229L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "bars(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void bars_627902921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(627902921L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateSlots(Ljava/util/function/BiFunction;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private void updateSlots__547694922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-547694922L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "cubeBottomTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cubeBottomTop__1203834818(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1203834818L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "cubeBottomTopWithWall(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void cubeBottomTopWithWall_791265038(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(791265038L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "columnWithWall(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void columnWithWall__496230737(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-496230737L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "orientableCubeOnlyTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void orientableCubeOnlyTop_172441918(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(172441918L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
     @Inject(at = @At("HEAD"), method = "sculkShrieker(Z)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
     private static void sculkShrieker__1598352530(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1598352530L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
-    }
-
-    @Inject(at = @At("HEAD"), method = "craftingTable(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void craftingTable__2113959659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2113959659L))
             info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
@@ -379,6 +265,18 @@ public class TextureMapping_1177545487Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "orientableCubeSameEnds(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void orientableCubeSameEnds_856487707(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(856487707L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "craftingTable(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void craftingTable__2113959659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2113959659L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
     @Inject(at = @At("HEAD"), method = "fletchingTable(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
     private static void fletchingTable_955546459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(955546459L))
@@ -389,30 +287,6 @@ public class TextureMapping_1177545487Mixin {
     private static void orientableCube__994166275(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-994166275L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "orientableCubeSameEnds(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void orientableCubeSameEnds_856487707(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(856487707L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "crossEmissive(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void crossEmissive_1760821248(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1760821248L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "plantEmissive(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void plantEmissive_2136638571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2136638571L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "trialSpawner(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void trialSpawner_1755665807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1755665807L))
-            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
     @Inject(at = @At("HEAD"), method = "plant(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
@@ -445,15 +319,147 @@ public class TextureMapping_1177545487Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "customParticle(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void customParticle__1781935520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1781935520L))
+    @Inject(at = @At("HEAD"), method = "bars(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void bars_627902921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(627902921L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateSlots(Ljava/util/function/BiFunction;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private void updateSlots__547694922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-547694922L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cubeBottomTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cubeBottomTop__1203834818(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1203834818L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "cubeBottomTopWithWall(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cubeBottomTopWithWall_791265038(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(791265038L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "orientableCubeOnlyTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void orientableCubeOnlyTop_172441918(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(172441918L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "columnWithWall(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void columnWithWall__496230737(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-496230737L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "layered(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void layered_870327437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(870327437L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "layered(Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void layered__141860597(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-141860597L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "fan(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void fan_1402970460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1402970460L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "logColumn(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void logColumn__1192602557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1192602557L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void layer0__2134241208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2134241208L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/world/item/Item;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void layer0_1678966937(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1678966937L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "layer0(Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void layer0__921856480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-921856480L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "flowerbed(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void flowerbed__241823281(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-241823281L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pane(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void pane_1572928601(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1572928601L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyForced(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/data/models/model/TextureSlot;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private void copyForced_755076531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(755076531L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cubeTop(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void cubeTop__1978361879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1978361879L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "fire0(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void fire0__89258685(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-89258685L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "fire1(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void fire1_426261764(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(426261764L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "driedGhast(Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void driedGhast__466497276(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-466497276L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "snifferEgg(Ljava/lang/String;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void snifferEgg_981123681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(981123681L))
+            info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
+    }
+
+    @Inject(at = @At("HEAD"), method = "candleCake(Lnet/minecraft/world/level/block/Block;Z)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void candleCake_812274942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(812274942L))
             info.setReturnValue(new net.minecraft.client.data.models.model.TextureMapping());
     }
 
     @Inject(at = @At("HEAD"), method = "getForced()Ljava/util/stream/Stream;", cancellable = true)
     private void getForced__1480016876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1480016876L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "singleSlot(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
+    private static void singleSlot_2065072837(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2065072837L))
             info.setReturnValue(null);
     }
 
@@ -466,12 +472,6 @@ public class TextureMapping_1177545487Mixin {
     @Inject(at = @At("HEAD"), method = "copySlot(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/data/models/model/TextureSlot;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
     private void copySlot__650570962(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-650570962L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "singleSlot(Lnet/minecraft/client/data/models/model/TextureSlot;Lnet/minecraft/client/resources/model/sprite/Material;)Lnet/minecraft/client/data/models/model/TextureMapping;", cancellable = true)
-    private static void singleSlot_2065072837(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2065072837L))
             info.setReturnValue(null);
     }
 

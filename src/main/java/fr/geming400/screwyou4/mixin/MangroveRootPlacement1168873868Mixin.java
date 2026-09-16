@@ -22,31 +22,31 @@ public class MangroveRootPlacement1168873868Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1726225959(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1726225959L))
-            info.setReturnValue(-1497592404);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxRootLength()I", cancellable = true)
-    private void maxRootLength__1522968570(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1522968570L))
-            info.setReturnValue(2098866762);
+            info.setReturnValue(2119009992);
     }
 
     @Inject(at = @At("HEAD"), method = "maxRootWidth()I", cancellable = true)
     private void maxRootWidth__609269134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-609269134L))
-            info.setReturnValue(-1134711912);
-    }
-
-    @Inject(at = @At("HEAD"), method = "randomSkewChance()F", cancellable = true)
-    private void randomSkewChance_875994830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(875994830L))
-            info.setReturnValue(9.383492E8F);
+            info.setReturnValue(-1813076812);
     }
 
     @Inject(at = @At("HEAD"), method = "muddyRootsIn()Lnet/minecraft/core/HolderSet;", cancellable = true)
     private void muddyRootsIn__1207322587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1207322587L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "randomSkewChance()F", cancellable = true)
+    private void randomSkewChance_875994830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(875994830L))
+            info.setReturnValue(2.599843E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxRootLength()I", cancellable = true)
+    private void maxRootLength__1522968570(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1522968570L))
+            info.setReturnValue(1420501862);
     }
 
     @Inject(at = @At("HEAD"), method = "muddyRootsProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)

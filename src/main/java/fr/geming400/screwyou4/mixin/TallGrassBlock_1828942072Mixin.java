@@ -13,12 +13,6 @@ public class TallGrassBlock_1828942072Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_1791984251(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1791984251L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess__1865772430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1865772430L))
@@ -29,6 +23,12 @@ public class TallGrassBlock_1828942072Mixin {
     private void performBonemeal_972157910(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(972157910L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_1791984251(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1791984251L))
+            info.setReturnValue(true);
     }
 
 

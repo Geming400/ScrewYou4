@@ -22,19 +22,19 @@ public class MatchTool_619229825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1176581915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1176581915L))
-            info.setReturnValue(-1982833938);
-    }
-
-    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
-    private void test__1117741887(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1117741887L))
-            info.setReturnValue(true);
+            info.setReturnValue(2059115658);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)
     private void test__786382652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-786382652L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
+    private void test__1117741887(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1117741887L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "predicate()Ljava/util/Optional;", cancellable = true)

@@ -28,7 +28,7 @@ public class SourceFilter_1295372319Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1852724409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1852724409L))
-            info.setReturnValue(-578622924);
+            info.setReturnValue(-708434024);
     }
 
     @Inject(at = @At("HEAD"), method = "filter()Lnet/minecraft/util/IdentifierPattern;", cancellable = true)

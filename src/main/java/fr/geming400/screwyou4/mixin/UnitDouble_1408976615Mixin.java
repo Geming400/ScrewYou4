@@ -19,28 +19,22 @@ public class UnitDouble_1408976615Mixin {
             info.setReturnValue(net.minecraft.client.OptionInstance.UnitDouble.INSTANCE);
     }
 
-    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
-    private void validateValue_2023762291(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2023762291L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Double;)Ljava/util/Optional;", cancellable = true)
     private void validateValue__1994853307(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1994853307L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
-    private void toSliderValue__1410347236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1410347236L))
-            info.setReturnValue(3.855394004329202E8D);
+    @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
+    private void validateValue_2023762291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2023762291L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
-    private void toSliderValue__1069673426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1069673426L))
-            info.setReturnValue(3.8553940078535587E8D);
+    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
+    private void fromSliderValue__1617720825(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1617720825L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Double;", cancellable = true)
@@ -49,10 +43,16 @@ public class UnitDouble_1408976615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromSliderValue(D)Ljava/lang/Object;", cancellable = true)
-    private void fromSliderValue__1617720825(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1617720825L))
-            info.setReturnValue(new java.lang.Object());
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Double;)D", cancellable = true)
+    private void toSliderValue__1410347236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1410347236L))
+            info.setReturnValue(5.101233004329202E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toSliderValue(Ljava/lang/Object;)D", cancellable = true)
+    private void toSliderValue__1069673426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1069673426L))
+            info.setReturnValue(5.1012330078535587E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/Codec;", cancellable = true)

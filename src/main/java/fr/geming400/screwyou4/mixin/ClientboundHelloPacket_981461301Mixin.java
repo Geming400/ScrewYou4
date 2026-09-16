@@ -37,16 +37,16 @@ public class ClientboundHelloPacket_981461301Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldAuthenticate()Z", cancellable = true)
-    private void shouldAuthenticate__1927758909(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1927758909L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getServerId()Ljava/lang/String;", cancellable = true)
     private void getServerId_1781021425(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1781021425L))
             info.setReturnValue("\uD7E1\u0C3D;5nd\uFCF70OH I4\uC7E1Km>k]");
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldAuthenticate()Z", cancellable = true)
+    private void shouldAuthenticate__1927758909(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927758909L))
+            info.setReturnValue(false);
     }
 
 

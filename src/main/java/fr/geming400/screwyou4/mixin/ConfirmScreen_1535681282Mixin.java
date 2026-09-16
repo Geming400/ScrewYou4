@@ -13,15 +13,9 @@ public class ConfirmScreen_1535681282Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarrationMessage__136161457(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-136161457L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
-    private void shouldCloseOnEsc_946584903(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(946584903L))
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_1504627650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1504627650L))
             info.setReturnValue(true);
     }
 
@@ -31,9 +25,15 @@ public class ConfirmScreen_1535681282Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_1504627650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1504627650L))
+    @Inject(at = @At("HEAD"), method = "getNarrationMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarrationMessage__136161457(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-136161457L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldCloseOnEsc()Z", cancellable = true)
+    private void shouldCloseOnEsc_946584903(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(946584903L))
             info.setReturnValue(true);
     }
 

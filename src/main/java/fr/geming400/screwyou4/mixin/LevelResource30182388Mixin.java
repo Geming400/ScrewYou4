@@ -22,7 +22,7 @@ public class LevelResource30182388Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_587534479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(587534479L))
-            info.setReturnValue(1477568793);
+            info.setReturnValue(1351371393);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Ljava/lang/String;", cancellable = true)

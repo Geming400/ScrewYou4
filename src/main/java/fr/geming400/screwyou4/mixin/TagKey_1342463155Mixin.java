@@ -22,7 +22,7 @@ public class TagKey_1342463155Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1899815245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1899815245L))
-            info.setReturnValue(-680721299);
+            info.setReturnValue(-203954599);
     }
 
     @Inject(at = @At("HEAD"), method = "cast(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;", cancellable = true)
@@ -55,16 +55,16 @@ public class TagKey_1342463155Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec__151891232(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-151891232L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFor(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void isFor__1097037972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1097037972L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec__151891232(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-151891232L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hashedCodec(Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/serialization/Codec;", cancellable = true)

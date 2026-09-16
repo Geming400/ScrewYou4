@@ -22,7 +22,7 @@ public class Messages_1169843092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1727195182(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1727195182L))
-            info.setReturnValue(1643516808);
+            info.setReturnValue(988004108);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Ljava/lang/String;)Lnet/minecraft/util/worldupdate/UpgradeStatusTranslator$Messages;", cancellable = true)

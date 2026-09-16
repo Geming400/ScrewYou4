@@ -22,7 +22,7 @@ public class TryEmptyHandInteraction_1847044378Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1890570828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1890570828L))
-            info.setReturnValue(-158489005);
+            info.setReturnValue(264377595);
     }
 
 

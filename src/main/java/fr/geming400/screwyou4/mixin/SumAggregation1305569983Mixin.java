@@ -13,15 +13,15 @@ public class SumAggregation1305569983Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "commitEvent()V", cancellable = true)
-    private void commitEvent__2039956561(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2039956561L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "trackSentPacket(I)V", cancellable = true)
     private void trackSentPacket_140760982(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(140760982L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "commitEvent()V", cancellable = true)
+    private void commitEvent__2039956561(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2039956561L))
             info.cancel();
     }
 

@@ -5,6 +5,7 @@ import net.minecraft.SharedConstants;
 import net.minecraft.server.Bootstrap;
 import org.apache.commons.io.FileUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
@@ -16,10 +17,14 @@ class GeneratorEntrypoint {
     static void main(String[] args) {
         if (args.length == 2) {
             try {
-                Path mixinPath = Path.of(args[0]);
+                Path rootPackagePath = Path.of(args[0]);
                 Path resourcePath = Path.of(args[1]);
+                Path mixinPath = rootPackagePath.resolve("mixin");
+                File foundMethodsFile = rootPackagePath.resolve("FoundMethods.java").toFile();
+                ScrewYou4.LOGGER.info("Root package is {}", rootPackagePath);
                 ScrewYou4.LOGGER.info("Mixin folder is {}", mixinPath);
                 ScrewYou4.LOGGER.info("Resource folder is {}", resourcePath);
+                ScrewYou4.LOGGER.info("FoundMethods.java location is {}", foundMethodsFile.getPath());
 
                 if (Files.exists(mixinPath)) {
                     ScrewYou4.LOGGER.info("Cleaning mixin folders");
@@ -43,7 +48,7 @@ class GeneratorEntrypoint {
                     SharedConstants.tryDetectVersion();
                     Bootstrap.bootStrap();
 
-                    new Generator(mixinPath, resourcePath).generate();
+                    new Generator(mixinPath, resourcePath, foundMethodsFile).generate();
                 } else {
                     ScrewYou4.LOGGER.error("Path {} doesn't exist !", mixinPath.toAbsolutePath());
                 }
@@ -54,7 +59,7 @@ class GeneratorEntrypoint {
                 throw new RuntimeException(e);
             }
         } else {
-            ScrewYou4.LOGGER.error("You are required to add 2 path arguments: the mixin folder and the resource folder");
+            ScrewYou4.LOGGER.error("You are required to add 2 path arguments: the root package folder (ex: 'fr/geming400/screwyou4') and the resource folder");
         }
     }
 }

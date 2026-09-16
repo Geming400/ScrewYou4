@@ -25,12 +25,6 @@ public class DecoratedPotRenderer_1752001853Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "modelTransformation(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
-    private static void modelTransformation__379996569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-379996569L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createSidesLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
     private static void createSidesLayer_417137033(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(417137033L))
@@ -55,6 +49,18 @@ public class DecoratedPotRenderer_1752001853Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
+    private void getExtents_1412233004(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1412233004L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "modelTransformation(Lnet/minecraft/core/Direction;)Lcom/mojang/math/Transformation;", cancellable = true)
+    private static void modelTransformation__379996569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-379996569L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/DecoratedPotRenderState;", cancellable = true)
     private void createRenderState_603875965(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(603875965L))
@@ -65,12 +71,6 @@ public class DecoratedPotRenderer_1752001853Mixin {
     private void createRenderState_2134764677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2134764677L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getExtents(Ljava/util/function/Consumer;)V", cancellable = true)
-    private void getExtents_1412233004(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1412233004L))
-            info.cancel();
     }
 
 

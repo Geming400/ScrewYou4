@@ -28,7 +28,7 @@ public class FurnaceRecipeDisplay_1942632364Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1794982842(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1794982842L))
-            info.setReturnValue(-2111979661);
+            info.setReturnValue(1846772335);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -46,19 +46,19 @@ public class FurnaceRecipeDisplay_1942632364Mixin {
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_2030247037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2030247037L))
-            info.setReturnValue(356409063);
-    }
-
-    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void craftingStation__455413624(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-455413624L))
-            info.setReturnValue(null);
+            info.setReturnValue(20193763);
     }
 
     @Inject(at = @At("HEAD"), method = "experience()F", cancellable = true)
     private void experience__283313372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-283313372L))
-            info.setReturnValue(7.979572E8F);
+            info.setReturnValue(4.617419E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ingredient()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void ingredient__895273879(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-895273879L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "fuel()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -67,9 +67,9 @@ public class FurnaceRecipeDisplay_1942632364Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ingredient()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void ingredient__895273879(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-895273879L))
+    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void craftingStation__455413624(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-455413624L))
             info.setReturnValue(null);
     }
 

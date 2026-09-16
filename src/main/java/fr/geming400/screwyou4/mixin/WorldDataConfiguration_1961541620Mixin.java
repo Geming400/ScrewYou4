@@ -22,7 +22,7 @@ public class WorldDataConfiguration_1961541620Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1776073586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1776073586L))
-            info.setReturnValue(1668839220);
+            info.setReturnValue(1705905520);
     }
 
     @Inject(at = @At("HEAD"), method = "enabledFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
@@ -31,15 +31,15 @@ public class WorldDataConfiguration_1961541620Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dataPacks()Lnet/minecraft/world/level/DataPackConfig;", cancellable = true)
-    private void dataPacks_1020476592(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1020476592L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "expandFeatures(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/WorldDataConfiguration;", cancellable = true)
     private void expandFeatures__2021244209(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2021244209L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dataPacks()Lnet/minecraft/world/level/DataPackConfig;", cancellable = true)
+    private void dataPacks_1020476592(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1020476592L))
             info.setReturnValue(null);
     }
 

@@ -43,6 +43,18 @@ public class PlacementUtils558471276Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void inlinePlaced_447832682(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(447832682L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void inlinePlaced_243167695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(243167695L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "onlyWhenEmpty(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;)Lnet/minecraft/core/Holder;", cancellable = true)
     private static void onlyWhenEmpty__1404530737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1404530737L))
@@ -58,18 +70,6 @@ public class PlacementUtils558471276Mixin {
     @Inject(at = @At("HEAD"), method = "countExtra(IFI)Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;", cancellable = true)
     private static void countExtra_11390762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(11390762L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/world/level/levelgen/feature/Feature;Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void inlinePlaced_243167695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(243167695L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "inlinePlaced(Lnet/minecraft/core/Holder;[Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void inlinePlaced_447832682(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(447832682L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class Parameters5129318Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_562481409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562481409L))
-            info.setReturnValue(312017825);
+            info.setReturnValue(91607725);
     }
 
     @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix3x2fc;", cancellable = true)
@@ -34,7 +34,7 @@ public class Parameters5129318Mixin {
     @Inject(at = @At("HEAD"), method = "opacity()F", cancellable = true)
     private void opacity__987863586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-987863586L))
-            info.setReturnValue(8.799184E8F);
+            info.setReturnValue(6.595083E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "withOpacity(F)Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
@@ -61,15 +61,15 @@ public class Parameters5129318Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "scissor()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
-    private void scissor__2130973022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2130973022L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withPose(Lorg/joml/Matrix3x2fc;)Lnet/minecraft/client/gui/ActiveTextCollector$Parameters;", cancellable = true)
     private void withPose__158693087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-158693087L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scissor()Lnet/minecraft/client/gui/navigation/ScreenRectangle;", cancellable = true)
+    private void scissor__2130973022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2130973022L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class EntityExactDataComponentsPredicate466599393Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1023951484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1023951484L))
-            info.setReturnValue(295746997);
+            info.setReturnValue(208010197);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

@@ -19,12 +19,6 @@ public class Builder1544105576Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSprinting(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setSprinting_1866686954(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1866686954L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "setOnGround(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
     private void setOnGround__914790676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-914790676L))
@@ -37,9 +31,9 @@ public class Builder1544105576Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setIsFlying(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
-    private void setIsFlying__1877369281(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1877369281L))
+    @Inject(at = @At("HEAD"), method = "setSprinting(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setSprinting_1866686954(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1866686954L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate.Builder());
     }
 
@@ -58,6 +52,12 @@ public class Builder1544105576Mixin {
     @Inject(at = @At("HEAD"), method = "setIsFallFlying(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
     private void setIsFallFlying_390276314(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(390276314L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setIsFlying(Ljava/lang/Boolean;)Lnet/minecraft/advancements/predicates/entity/EntityFlagsPredicate$Builder;", cancellable = true)
+    private void setIsFlying__1877369281(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1877369281L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityFlagsPredicate.Builder());
     }
 

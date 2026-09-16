@@ -28,7 +28,7 @@ public class CuboidRotation573599876Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1130951967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1130951967L))
-            info.setReturnValue(1348049508);
+            info.setReturnValue(1195470708);
     }
 
     @Inject(at = @At("HEAD"), method = "transform()Lorg/joml/Matrix4fc;", cancellable = true)

@@ -10,7 +10,7 @@ public class Constant205311339Mixin {
         @Inject(at = @At("HEAD"), method = "value()F", cancellable = true)
     private void value__2099362499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2099362499L))
-            info.setReturnValue(6.11895E8F);
+            info.setReturnValue(9.5964E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,31 +28,31 @@ public class Constant205311339Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_762663430(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(762663430L))
-            info.setReturnValue(-501500923);
+            info.setReturnValue(-1017431923);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_1023236545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1023236545L))
-            info.setReturnValue(6.11895E8F);
+            info.setReturnValue(9.5964E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
     private void minValue__1449424593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1449424593L))
-            info.setReturnValue(6.11895E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)
-    private void parityString_2095190354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2095190354L))
-            info.setReturnValue("n&+PH\uFB4B$%\u523EUya:.t-XPH\u1E86\u655F0^f?\u6EF9\u93B4R\"W|DGGJI=[");
+            info.setReturnValue(9.5964E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "mapCoordinates(Ljava/util/function/UnaryOperator;)Lnet/minecraft/util/CubicSpline;", cancellable = true)
     private void mapCoordinates_1729607747(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1729607747L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parityString()Ljava/lang/String;", cancellable = true)
+    private void parityString_2095190354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2095190354L))
+            info.setReturnValue("n&+PH\uFB4B$%\u523EUya:.t-XPH\u1E86\u655F0^f?\u6EF9\u93B4R\"W|DGGJI=[");
     }
 
 

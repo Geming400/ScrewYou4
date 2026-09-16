@@ -16,30 +16,12 @@ public class ManagementServer_1411902644Mixin {
     @Inject(at = @At("HEAD"), method = "getPort()I", cancellable = true)
     private void getPort__1830239230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1830239230L))
-            info.setReturnValue(1237228614);
+            info.setReturnValue(1855753714);
     }
 
     @Inject(at = @At("HEAD"), method = "tick()V", cancellable = true)
     private void tick_1282218985(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1282218985L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDisconnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
-    private void onDisconnected_580904207(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(580904207L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "scheduleHeartbeat(Lnet/minecraft/server/notifications/NotificationManager;J)Z", cancellable = true)
-    private void scheduleHeartbeat__281641731(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-281641731L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startWithoutTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;)V", cancellable = true)
-    private void startWithoutTls__1882663255(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1882663255L))
             info.cancel();
     }
 
@@ -53,6 +35,24 @@ public class ManagementServer_1411902644Mixin {
     private void startWithTls__1588013669(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1588013669L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "startWithoutTls(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;)V", cancellable = true)
+    private void startWithoutTls__1882663255(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1882663255L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onDisconnected(Lnet/minecraft/server/jsonrpc/Connection;)V", cancellable = true)
+    private void onDisconnected_580904207(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(580904207L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scheduleHeartbeat(Lnet/minecraft/server/notifications/NotificationManager;J)Z", cancellable = true)
+    private void scheduleHeartbeat__281641731(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-281641731L))
+            info.setReturnValue(false);
     }
 
 

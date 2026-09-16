@@ -22,7 +22,13 @@ public class Moves_2107996610Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1629618596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629618596L))
-            info.setReturnValue(687916755);
+            info.setReturnValue(1208287055);
+    }
+
+    @Inject(at = @At("HEAD"), method = "preexistingFiles()Ljava/util/List;", cancellable = true)
+    private void preexistingFiles_1770363738(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1770363738L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "directories()Ljava/util/List;", cancellable = true)
@@ -34,12 +40,6 @@ public class Moves_2107996610Mixin {
     @Inject(at = @At("HEAD"), method = "copiedFiles()Ljava/util/List;", cancellable = true)
     private void copiedFiles__129528188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-129528188L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "preexistingFiles()Ljava/util/List;", cancellable = true)
-    private void preexistingFiles_1770363738(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1770363738L))
             info.setReturnValue(null);
     }
 

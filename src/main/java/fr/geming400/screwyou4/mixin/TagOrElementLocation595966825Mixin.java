@@ -22,7 +22,7 @@ public class TagOrElementLocation595966825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1153318916(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1153318916L))
-            info.setReturnValue(1486025775);
+            info.setReturnValue(1898171475);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

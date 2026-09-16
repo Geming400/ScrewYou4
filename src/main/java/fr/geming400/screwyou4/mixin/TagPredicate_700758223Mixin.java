@@ -22,7 +22,7 @@ public class TagPredicate_700758223Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1258110313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1258110313L))
-            info.setReturnValue(1376033203);
+            info.setReturnValue(-2132241193);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/core/Holder;)Z", cancellable = true)

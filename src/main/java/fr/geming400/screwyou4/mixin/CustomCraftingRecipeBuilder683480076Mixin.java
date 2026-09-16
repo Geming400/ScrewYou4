@@ -25,15 +25,15 @@ public class CustomCraftingRecipeBuilder683480076Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "customCrafting(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder$Factory;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;", cancellable = true)
-    private static void customCrafting__1872103962(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1872103962L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;", cancellable = true)
     private void unlockedBy__42511991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-42511991L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "customCrafting(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder$Factory;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;", cancellable = true)
+    private static void customCrafting__1872103962(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1872103962L))
             info.setReturnValue(null);
     }
 

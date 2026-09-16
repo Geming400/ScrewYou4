@@ -43,28 +43,28 @@ public class ZombieNautilusRenderer_514559504Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;F)V", cancellable = true)
-    private void extractRenderState_1080003471(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1080003471L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
     private void extractRenderState__1155913984(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1155913984L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;", cancellable = true)
-    private void createRenderState_1945539746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1945539746L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.NautilusRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;F)V", cancellable = true)
+    private void extractRenderState_1080003471(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1080003471L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_767730482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(767730482L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/NautilusRenderState;", cancellable = true)
+    private void createRenderState_1945539746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1945539746L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.NautilusRenderState());
     }
 
 

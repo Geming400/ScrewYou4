@@ -22,7 +22,7 @@ public class LoadedModels_1439850173Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1997202263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1997202263L))
-            info.setReturnValue(1677022742);
+            info.setReturnValue(1993005142);
     }
 
     @Inject(at = @At("HEAD"), method = "models()Ljava/util/Map;", cancellable = true)

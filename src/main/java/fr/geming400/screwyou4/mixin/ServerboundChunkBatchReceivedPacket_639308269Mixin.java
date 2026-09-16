@@ -28,7 +28,7 @@ public class ServerboundChunkBatchReceivedPacket_639308269Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1196660359(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1196660359L))
-            info.setReturnValue(340900333);
+            info.setReturnValue(282987933);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ServerboundChunkBatchReceivedPacket_639308269Mixin {
     @Inject(at = @At("HEAD"), method = "desiredChunksPerTick()F", cancellable = true)
     private void desiredChunksPerTick__501726347(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-501726347L))
-            info.setReturnValue(3.494544E8F);
+            info.setReturnValue(2.91542E8F);
     }
 
 

@@ -10,7 +10,7 @@ public class BarrelBlockEntity_807924836Mixin {
         @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
     private void getContainerSize__1247839907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1247839907L))
-            info.setReturnValue(-1684443881);
+            info.setReturnValue(1859867915);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntitiesWithContainerOpen()Ljava/util/List;", cancellable = true)

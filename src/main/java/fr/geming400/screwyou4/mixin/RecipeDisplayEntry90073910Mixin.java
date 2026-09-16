@@ -28,7 +28,7 @@ public class RecipeDisplayEntry90073910Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_647426001(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(647426001L))
-            info.setReturnValue(-1412982063);
+            info.setReturnValue(-1367382263);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;", cancellable = true)
@@ -55,16 +55,16 @@ public class RecipeDisplayEntry90073910Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resultItems(Lnet/minecraft/util/context/ContextMap;)Ljava/util/List;", cancellable = true)
-    private void resultItems__1710850606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1710850606L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/entity/player/StackedItemContents;)Z", cancellable = true)
     private void canCraft_780774035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(780774035L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resultItems(Lnet/minecraft/util/context/ContextMap;)Ljava/util/List;", cancellable = true)
+    private void resultItems__1710850606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1710850606L))
+            info.setReturnValue(null);
     }
 
 

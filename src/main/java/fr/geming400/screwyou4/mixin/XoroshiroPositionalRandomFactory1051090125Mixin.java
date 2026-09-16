@@ -19,15 +19,15 @@ public class XoroshiroPositionalRandomFactory1051090125Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromHashOf(Ljava/lang/String;)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private void fromHashOf__1778168587(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1778168587L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromSeed(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
     private void fromSeed_1014420111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1014420111L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromHashOf(Ljava/lang/String;)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private void fromHashOf__1778168587(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1778168587L))
             info.setReturnValue(null);
     }
 

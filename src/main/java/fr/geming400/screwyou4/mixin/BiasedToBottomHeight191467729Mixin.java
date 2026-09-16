@@ -28,7 +28,7 @@ public class BiasedToBottomHeight191467729Mixin {
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;)I", cancellable = true)
     private void sample_1872852024(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1872852024L))
-            info.setReturnValue(-380086009);
+            info.setReturnValue(-452634209);
     }
 
 

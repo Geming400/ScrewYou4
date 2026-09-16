@@ -13,16 +13,16 @@ public class MinecartSpawner599839303Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_654768639(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(654768639L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
     private void handleEntityEvent_1353587419(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1353587419L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_654768639(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(654768639L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getSpawner()Lnet/minecraft/world/level/BaseSpawner;", cancellable = true)

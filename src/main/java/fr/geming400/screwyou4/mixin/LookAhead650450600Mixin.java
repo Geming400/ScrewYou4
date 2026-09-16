@@ -22,7 +22,7 @@ public class LookAhead650450600Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1207802691(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207802691L))
-            info.setReturnValue(-204367163);
+            info.setReturnValue(-528309463);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)

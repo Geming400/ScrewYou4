@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.Blocks.class)
 public class Blocks_1875100662Mixin {
-        @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/ResourceKey;Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private static void register__623263219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-623263219L))
+        @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private static void register_1728720103(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1728720103L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
-    private static void register_1728720103(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1728720103L))
+    @Inject(at = @At("HEAD"), method = "register(Lnet/minecraft/resources/ResourceKey;Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;", cancellable = true)
+    private static void register__623263219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-623263219L))
             info.setReturnValue(null);
     }
 
@@ -49,21 +49,9 @@ public class Blocks_1875100662Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void buttonProperties_1150221633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1150221633L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "netherStemProperties(Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void netherStemProperties__1950373058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1950373058L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "leavesProperties(Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
-    private static void leavesProperties_458047105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(458047105L))
+    @Inject(at = @At("HEAD"), method = "litBlockEmission(I)Ljava/util/function/ToIntFunction;", cancellable = true)
+    private static void litBlockEmission_952898576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(952898576L))
             info.setReturnValue(null);
     }
 
@@ -73,9 +61,21 @@ public class Blocks_1875100662Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "litBlockEmission(I)Ljava/util/function/ToIntFunction;", cancellable = true)
-    private static void litBlockEmission_952898576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(952898576L))
+    @Inject(at = @At("HEAD"), method = "netherStemProperties(Lnet/minecraft/world/level/material/MapColor;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void netherStemProperties__1950373058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1950373058L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "buttonProperties()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void buttonProperties_1150221633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1150221633L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "leavesProperties(Lnet/minecraft/world/level/block/SoundType;)Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;", cancellable = true)
+    private static void leavesProperties_458047105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(458047105L))
             info.setReturnValue(null);
     }
 

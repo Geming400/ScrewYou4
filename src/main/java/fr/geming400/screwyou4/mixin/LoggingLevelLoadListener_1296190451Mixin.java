@@ -25,10 +25,10 @@ public class LoggingLevelLoadListener_1296190451Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "forDedicatedServer()Lnet/minecraft/server/level/progress/LoggingLevelLoadListener;", cancellable = true)
-    private static void forDedicatedServer_2048233827(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2048233827L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateFocus(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void updateFocus_154932836(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(154932836L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "forSingleplayer()Lnet/minecraft/server/level/progress/LoggingLevelLoadListener;", cancellable = true)
@@ -37,10 +37,10 @@ public class LoggingLevelLoadListener_1296190451Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateFocus(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void updateFocus_154932836(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(154932836L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "forDedicatedServer()Lnet/minecraft/server/level/progress/LoggingLevelLoadListener;", cancellable = true)
+    private static void forDedicatedServer_2048233827(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2048233827L))
+            info.setReturnValue(null);
     }
 
 

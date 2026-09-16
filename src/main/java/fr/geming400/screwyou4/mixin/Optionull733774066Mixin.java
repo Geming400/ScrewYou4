@@ -25,9 +25,9 @@ public class Optionull733774066Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "mapOrElse(Ljava/lang/Object;Ljava/util/function/Function;Ljava/util/function/Supplier;)Ljava/lang/Object;", cancellable = true)
-    private static void mapOrElse__422160747(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-422160747L))
+    @Inject(at = @At("HEAD"), method = "firstOrDefault(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private static void firstOrDefault__1099849306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1099849306L))
             info.setReturnValue(new java.lang.Object());
     }
 
@@ -43,9 +43,9 @@ public class Optionull733774066Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "firstOrDefault(Ljava/util/Collection;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private static void firstOrDefault__1099849306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1099849306L))
+    @Inject(at = @At("HEAD"), method = "mapOrElse(Ljava/lang/Object;Ljava/util/function/Function;Ljava/util/function/Supplier;)Ljava/lang/Object;", cancellable = true)
+    private static void mapOrElse__422160747(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-422160747L))
             info.setReturnValue(new java.lang.Object());
     }
 

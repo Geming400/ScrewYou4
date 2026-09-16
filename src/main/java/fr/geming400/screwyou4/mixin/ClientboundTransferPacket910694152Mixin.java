@@ -28,7 +28,7 @@ public class ClientboundTransferPacket910694152Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1468046243(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1468046243L))
-            info.setReturnValue(1204236524);
+            info.setReturnValue(1747456124);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/common/ClientCommonPacketListener;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class ClientboundTransferPacket910694152Mixin {
     @Inject(at = @At("HEAD"), method = "port()I", cancellable = true)
     private void port_1973124365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1973124365L))
-            info.setReturnValue(2722513);
+            info.setReturnValue(545942113);
     }
 
     @Inject(at = @At("HEAD"), method = "host()Ljava/lang/String;", cancellable = true)

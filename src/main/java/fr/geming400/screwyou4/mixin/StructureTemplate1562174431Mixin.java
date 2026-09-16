@@ -31,21 +31,15 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSize(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/core/Vec3i;", cancellable = true)
-    private void getSize__1148448573(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1148448573L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getSize()Lnet/minecraft/core/Vec3i;", cancellable = true)
     private void getSize_998231446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(998231446L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getJigsaws(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Ljava/util/List;", cancellable = true)
-    private void getJigsaws__1718870804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1718870804L))
+    @Inject(at = @At("HEAD"), method = "getSize(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/core/Vec3i;", cancellable = true)
+    private void getSize__1148448573(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1148448573L))
             info.setReturnValue(null);
     }
 
@@ -58,6 +52,24 @@ public class StructureTemplate1562174431Mixin {
     @Inject(at = @At("HEAD"), method = "processBlockInfos(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Ljava/util/List;)Ljava/util/List;", cancellable = true)
     private static void processBlockInfos__1555948433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1555948433L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox_159201883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(159201883L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
+    private void getBoundingBox__300826567(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-300826567L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getJigsaws(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;)Ljava/util/List;", cancellable = true)
+    private void getJigsaws__1718870804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1718870804L))
             info.setReturnValue(null);
     }
 
@@ -91,24 +103,6 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(net.minecraft.world.level.block.entity.JigsawBlockEntity.JointType.ROLLABLE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox_159201883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(159201883L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBoundingBox(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
-    private void getBoundingBox__300826567(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-300826567L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "calculateRelativePosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void calculateRelativePosition__139556718(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-139556718L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "filterBlocks(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/world/level/block/Block;Z)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
     private void filterBlocks__1863885628(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1863885628L))
@@ -121,16 +115,16 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateShapeAtEdge(Lnet/minecraft/world/level/LevelAccessor;ILnet/minecraft/world/phys/shapes/DiscreteVoxelShape;III)V", cancellable = true)
-    private static void updateShapeAtEdge__1977122352(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1977122352L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "calculateRelativePosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void calculateRelativePosition__139556718(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-139556718L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateShapeAtEdge(Lnet/minecraft/world/level/LevelAccessor;ILnet/minecraft/world/phys/shapes/DiscreteVoxelShape;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
-    private static void updateShapeAtEdge__131435509(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-131435509L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "calculateConnectedPosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void calculateConnectedPosition__1205784780(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1205784780L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getZeroPositionWithTransform(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Mirror;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/core/BlockPos;", cancellable = true)
@@ -145,10 +139,16 @@ public class StructureTemplate1562174431Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "calculateConnectedPosition(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void calculateConnectedPosition__1205784780(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1205784780L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateShapeAtEdge(Lnet/minecraft/world/level/LevelAccessor;ILnet/minecraft/world/phys/shapes/DiscreteVoxelShape;Lnet/minecraft/core/BlockPos;)V", cancellable = true)
+    private static void updateShapeAtEdge__131435509(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-131435509L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateShapeAtEdge(Lnet/minecraft/world/level/LevelAccessor;ILnet/minecraft/world/phys/shapes/DiscreteVoxelShape;III)V", cancellable = true)
+    private static void updateShapeAtEdge__1977122352(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1977122352L))
+            info.cancel();
     }
 
 

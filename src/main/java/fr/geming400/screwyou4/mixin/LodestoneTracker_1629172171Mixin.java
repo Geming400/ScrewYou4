@@ -28,7 +28,7 @@ public class LodestoneTracker_1629172171Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2108443035(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2108443035L))
-            info.setReturnValue(-307451180);
+            info.setReturnValue(-430356980);
     }
 
     @Inject(at = @At("HEAD"), method = "tick(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/item/component/LodestoneTracker;", cancellable = true)

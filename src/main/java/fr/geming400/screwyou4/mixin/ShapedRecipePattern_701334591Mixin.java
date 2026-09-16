@@ -28,19 +28,19 @@ public class ShapedRecipePattern_701334591Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__938813410(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-938813410L))
-            info.setReturnValue(-656109961);
+            info.setReturnValue(-1240426061);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__384013987(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-384013987L))
+            info.setReturnValue(-821738530);
     }
 
     @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
     private void ingredients__1114683856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1114683856L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__384013987(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-384013987L))
-            info.setReturnValue(-237422430);
     }
 
 

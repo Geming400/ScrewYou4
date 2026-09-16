@@ -22,7 +22,7 @@ public class Bounds1098944092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1656296183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1656296183L))
-            info.setReturnValue(748376303);
+            info.setReturnValue(496035303);
     }
 
     @Inject(at = @At("HEAD"), method = "min()Ljava/util/Optional;", cancellable = true)
@@ -61,12 +61,6 @@ public class Bounds1098944092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "validateSwappedBoundsInCodec()Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void validateSwappedBoundsInCodec_649871509(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(649871509L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "atMost(Ljava/lang/Number;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
     private static void atMost_1220010733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1220010733L))
@@ -85,22 +79,10 @@ public class Bounds1098944092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "asRange()Lcom/google/common/collect/Range;", cancellable = true)
-    private void asRange__1170213671(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1170213671L))
+    @Inject(at = @At("HEAD"), method = "validateSwappedBoundsInCodec()Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void validateSwappedBoundsInCodec_649871509(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(649871509L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
-    private static void fromReader__1073689260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1073689260L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "areSwapped()Z", cancellable = true)
-    private void areSwapped_487261035(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(487261035L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "asPoint()Ljava/util/Optional;", cancellable = true)
@@ -119,6 +101,24 @@ public class Bounds1098944092Mixin {
     private void isAny__96852751(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-96852751L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "asRange()Lcom/google/common/collect/Range;", cancellable = true)
+    private void asRange__1170213671(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1170213671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "areSwapped()Z", cancellable = true)
+    private void areSwapped_487261035(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(487261035L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromReader(Lcom/mojang/brigadier/StringReader;Ljava/util/function/Function;Ljava/util/function/Supplier;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;", cancellable = true)
+    private static void fromReader__1073689260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1073689260L))
+            info.setReturnValue(null);
     }
 
 

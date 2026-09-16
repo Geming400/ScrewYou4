@@ -22,13 +22,7 @@ public class TargetInput1997438372Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1740176833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1740176833L))
-            info.setReturnValue(-1723703631);
-    }
-
-    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
-    private void texture_1332676668(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1332676668L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1578454631);
     }
 
     @Inject(at = @At("HEAD"), method = "targetId()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -37,16 +31,22 @@ public class TargetInput1997438372Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "addToPass(Lcom/mojang/blaze3d/framegraph/FramePass;Ljava/util/Map;)V", cancellable = true)
+    private void addToPass_137555241(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(137555241L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "bilinear()Z", cancellable = true)
     private void bilinear_1895433391(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1895433391L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToPass(Lcom/mojang/blaze3d/framegraph/FramePass;Ljava/util/Map;)V", cancellable = true)
-    private void addToPass_137555241(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(137555241L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "texture(Ljava/util/Map;)Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)
+    private void texture_1332676668(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1332676668L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "depthBuffer()Z", cancellable = true)

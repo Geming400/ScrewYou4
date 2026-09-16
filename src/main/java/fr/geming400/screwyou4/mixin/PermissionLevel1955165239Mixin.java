@@ -22,7 +22,7 @@ public class PermissionLevel1955165239Mixin {
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id__740018718(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-740018718L))
-            info.setReturnValue(-1384639092);
+            info.setReturnValue(-1979348392);
     }
 
     @Inject(at = @At("HEAD"), method = "byId(I)Lnet/minecraft/server/permissions/PermissionLevel;", cancellable = true)

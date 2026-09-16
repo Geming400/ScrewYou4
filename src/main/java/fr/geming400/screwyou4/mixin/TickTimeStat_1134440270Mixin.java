@@ -22,7 +22,7 @@ public class TickTimeStat_1134440270Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1691792360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1691792360L))
-            info.setReturnValue(1384444611);
+            info.setReturnValue(857596311);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/TickTimeStat;", cancellable = true)

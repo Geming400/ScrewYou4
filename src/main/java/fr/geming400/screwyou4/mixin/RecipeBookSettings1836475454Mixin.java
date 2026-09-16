@@ -25,9 +25,9 @@ public class RecipeBookSettings1836475454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFiltering(Lnet/minecraft/world/inventory/RecipeBookType;Z)V", cancellable = true)
-    private void setFiltering__147224151(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-147224151L))
+    @Inject(at = @At("HEAD"), method = "replaceFrom(Lnet/minecraft/stats/RecipeBookSettings;)V", cancellable = true)
+    private void replaceFrom_1183863460(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1183863460L))
             info.cancel();
     }
 
@@ -37,9 +37,9 @@ public class RecipeBookSettings1836475454Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceFrom(Lnet/minecraft/stats/RecipeBookSettings;)V", cancellable = true)
-    private void replaceFrom_1183863460(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1183863460L))
+    @Inject(at = @At("HEAD"), method = "setFiltering(Lnet/minecraft/world/inventory/RecipeBookType;Z)V", cancellable = true)
+    private void setFiltering__147224151(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-147224151L))
             info.cancel();
     }
 

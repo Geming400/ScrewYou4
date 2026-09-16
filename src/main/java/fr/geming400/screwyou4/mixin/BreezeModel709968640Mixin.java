@@ -13,33 +13,15 @@ public class BreezeModel709968640Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "eyes()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void eyes_731712579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(731712579L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createBodyLayer__1193685969(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1193685969L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createEyesLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createEyesLayer__505523857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-505523857L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWindLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
-    private static void createWindLayer__1638456311(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1638456311L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "rods()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
     private void rods_696481753(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(696481753L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "eyes()Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void eyes_731712579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(731712579L))
             info.setReturnValue(null);
     }
 
@@ -59,6 +41,24 @@ public class BreezeModel709968640Mixin {
     private void setupAnim__11991198(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-11991198L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWindLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createWindLayer__1638456311(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1638456311L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createBodyLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createBodyLayer__1193685969(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1193685969L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createEyesLayer()Lnet/minecraft/client/model/geom/builders/LayerDefinition;", cancellable = true)
+    private static void createEyesLayer__505523857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-505523857L))
+            info.setReturnValue(null);
     }
 
 

@@ -10,7 +10,7 @@ public class CompassAngle_221995991Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__1266801250(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1266801250L))
-            info.setReturnValue(4.928296E8F);
+            info.setReturnValue(6.638097E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)

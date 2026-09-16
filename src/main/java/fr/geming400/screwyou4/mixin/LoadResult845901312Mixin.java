@@ -22,7 +22,7 @@ public class LoadResult845901312Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1403253403(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1403253403L))
-            info.setReturnValue(1776699816);
+            info.setReturnValue(1760793216);
     }
 
     @Inject(at = @At("HEAD"), method = "layers()Lnet/minecraft/core/LayeredRegistryAccess;", cancellable = true)

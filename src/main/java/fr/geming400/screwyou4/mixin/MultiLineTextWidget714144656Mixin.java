@@ -7,7 +7,19 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.components.MultiLineTextWidget.class)
 public class MultiLineTextWidget714144656Mixin {
-        @Inject(at = @At("HEAD"), method = "setMaxWidth(I)Lnet/minecraft/client/gui/components/MultiLineTextWidget;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__1011472519(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1011472519L))
+            info.setReturnValue(1247941096);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1223751834(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1223751834L))
+            info.setReturnValue(-1489337162);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMaxWidth(I)Lnet/minecraft/client/gui/components/MultiLineTextWidget;", cancellable = true)
     private void setMaxWidth_527650728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(527650728L))
             info.setReturnValue(null);
@@ -19,28 +31,16 @@ public class MultiLineTextWidget714144656Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1223751834(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1223751834L))
-            info.setReturnValue(-1036163462);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__1011472519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1011472519L))
-            info.setReturnValue(1701114796);
+    @Inject(at = @At("HEAD"), method = "setMaxRows(I)Lnet/minecraft/client/gui/components/MultiLineTextWidget;", cancellable = true)
+    private void setMaxRows_1522687679(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1522687679L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "visitLines(Lnet/minecraft/client/gui/ActiveTextCollector;)V", cancellable = true)
     private void visitLines__64691992(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-64691992L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setMaxRows(I)Lnet/minecraft/client/gui/components/MultiLineTextWidget;", cancellable = true)
-    private void setMaxRows_1522687679(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1522687679L))
-            info.setReturnValue(null);
     }
 
 

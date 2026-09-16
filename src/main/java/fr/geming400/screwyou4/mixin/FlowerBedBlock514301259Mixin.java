@@ -19,45 +19,21 @@ public class FlowerBedBlock514301259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec_1580746513(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1580746513L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__1954887221(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1954887221L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
     private void mirror_733298071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(733298071L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
-    private void canBeReplaced_803168051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(803168051L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getShapeHeight()D", cancellable = true)
-    private void getShapeHeight__1235955526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1235955526L))
-            info.setReturnValue(6.310327003253188E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSegmentAmountProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;", cancellable = true)
-    private void getSegmentAmountProperty__492882576(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-492882576L))
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec_1580746513(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1580746513L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_477343439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(477343439L))
+    @Inject(at = @At("HEAD"), method = "canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z", cancellable = true)
+    private void canBeReplaced_803168051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(803168051L))
             info.setReturnValue(false);
     }
 
@@ -71,6 +47,30 @@ public class FlowerBedBlock514301259Mixin {
     private void performBonemeal__342482902(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-342482902L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_477343439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(477343439L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getShapeHeight()D", cancellable = true)
+    private void getShapeHeight__1235955526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1235955526L))
+            info.setReturnValue(8.780265003253188E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSegmentAmountProperty()Lnet/minecraft/world/level/block/state/properties/IntegerProperty;", cancellable = true)
+    private void getSegmentAmountProperty__492882576(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-492882576L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__1954887221(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1954887221L))
+            info.setReturnValue(null);
     }
 
 

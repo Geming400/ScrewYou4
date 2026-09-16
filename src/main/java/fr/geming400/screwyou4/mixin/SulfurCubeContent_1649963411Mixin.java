@@ -22,7 +22,7 @@ public class SulfurCubeContent_1649963411Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2087651795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2087651795L))
-            info.setReturnValue(311036224);
+            info.setReturnValue(502394224);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
@@ -31,15 +31,15 @@ public class SulfurCubeContent_1649963411Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "absorbedBlockItemStack()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
-    private void absorbedBlockItemStack_1238337200(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1238337200L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "ofNonEmpty(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/component/SulfurCubeContent;", cancellable = true)
     private static void ofNonEmpty_1330961500(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1330961500L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "absorbedBlockItemStack()Lnet/minecraft/world/item/ItemStackTemplate;", cancellable = true)
+    private void absorbedBlockItemStack_1238337200(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1238337200L))
             info.setReturnValue(null);
     }
 

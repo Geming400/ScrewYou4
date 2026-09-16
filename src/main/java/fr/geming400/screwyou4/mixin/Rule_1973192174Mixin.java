@@ -22,7 +22,7 @@ public class Rule_1973192174Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1764423032(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1764423032L))
-            info.setReturnValue(1983610715);
+            info.setReturnValue(1735953815);
     }
 
     @Inject(at = @At("HEAD"), method = "blocks()Lnet/minecraft/core/HolderSet;", cancellable = true)
@@ -37,12 +37,6 @@ public class Rule_1973192174Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "correctForDrops()Ljava/util/Optional;", cancellable = true)
-    private void correctForDrops_270558016(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(270558016L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "deniesDrops(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
     private static void deniesDrops_962694573(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(962694573L))
@@ -52,6 +46,12 @@ public class Rule_1973192174Mixin {
     @Inject(at = @At("HEAD"), method = "overrideSpeed(Lnet/minecraft/core/HolderSet;F)Lnet/minecraft/world/item/component/Tool$Rule;", cancellable = true)
     private static void overrideSpeed__1589709332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1589709332L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "correctForDrops()Ljava/util/Optional;", cancellable = true)
+    private void correctForDrops_270558016(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(270558016L))
             info.setReturnValue(null);
     }
 

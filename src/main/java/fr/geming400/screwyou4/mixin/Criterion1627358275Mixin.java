@@ -22,7 +22,7 @@ public class Criterion1627358275Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2110256930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2110256930L))
-            info.setReturnValue(-738978042);
+            info.setReturnValue(44749558);
     }
 
     @Inject(at = @At("HEAD"), method = "trigger()Lnet/minecraft/advancements/triggers/CriterionTrigger;", cancellable = true)

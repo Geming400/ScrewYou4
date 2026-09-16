@@ -10,7 +10,7 @@ public class LongTag_1677120480Mixin {
         @Inject(at = @At("HEAD"), method = "value()J", cancellable = true)
     private void value__627549515(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-627549515L))
-            info.setReturnValue(-6553249288628353853L);
+            info.setReturnValue(-6553249289158929553L);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class LongTag_1677120480Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2060494726(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2060494726L))
-            info.setReturnValue(788216488);
+            info.setReturnValue(257640788);
     }
 
     @Inject(at = @At("HEAD"), method = "byteValue()B", cancellable = true)
@@ -46,25 +46,25 @@ public class LongTag_1677120480Mixin {
     @Inject(at = @At("HEAD"), method = "intValue()I", cancellable = true)
     private void intValue__350360509(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-350360509L))
-            info.setReturnValue(-215946878);
+            info.setReturnValue(-746522578);
     }
 
     @Inject(at = @At("HEAD"), method = "longValue()J", cancellable = true)
     private void longValue_1008996945(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1008996945L))
-            info.setReturnValue(7384577709202887928L);
+            info.setReturnValue(7384577708672312228L);
     }
 
     @Inject(at = @At("HEAD"), method = "floatValue()F", cancellable = true)
     private void floatValue_891815725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(891815725L))
-            info.setReturnValue(8.924765E8F);
+            info.setReturnValue(3.619008E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doubleValue()D", cancellable = true)
     private void doubleValue__365311264(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-365311264L))
-            info.setReturnValue(8.924765002222955E8D);
+            info.setReturnValue(3.619008002222956E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(J)Lnet/minecraft/nbt/LongTag;", cancellable = true)
@@ -124,7 +124,7 @@ public class LongTag_1677120480Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_1131884000(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1131884000L))
-            info.setReturnValue(-1558897530);
+            info.setReturnValue(-2089473230);
     }
 
 

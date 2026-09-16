@@ -22,7 +22,7 @@ public class IncomingIpBanDto_860554788Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1417906878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1417906878L))
-            info.setReturnValue(-1896628858);
+            info.setReturnValue(-1921286458);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Ljava/util/Optional;", cancellable = true)

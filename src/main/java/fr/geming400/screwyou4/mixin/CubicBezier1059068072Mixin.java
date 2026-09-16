@@ -22,13 +22,13 @@ public class CubicBezier1059068072Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1616419667(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1616419667L))
-            info.setReturnValue(215899575);
+            info.setReturnValue(196742075);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(F)F", cancellable = true)
     private void apply__2082785745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2082785745L))
-            info.setReturnValue(4.677164E8F);
+            info.setReturnValue(4.485589E8F);
     }
 
 

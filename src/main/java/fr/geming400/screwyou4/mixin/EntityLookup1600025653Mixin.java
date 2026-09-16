@@ -22,13 +22,7 @@ public class EntityLookup1600025653Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_511855212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(511855212L))
-            info.setReturnValue(199336256);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAllEntities()Ljava/lang/Iterable;", cancellable = true)
-    private void getAllEntities_697381577(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(697381577L))
-            info.setReturnValue(null);
+            info.setReturnValue(-25837344);
     }
 
     @Inject(at = @At("HEAD"), method = "getEntities(Lnet/minecraft/world/level/entity/EntityTypeTest;Lnet/minecraft/util/AbortableIterationConsumer;)V", cancellable = true)
@@ -46,6 +40,12 @@ public class EntityLookup1600025653Mixin {
     @Inject(at = @At("HEAD"), method = "getEntity(I)Lnet/minecraft/world/level/entity/EntityAccess;", cancellable = true)
     private void getEntity__1890675468(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1890675468L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAllEntities()Ljava/lang/Iterable;", cancellable = true)
+    private void getAllEntities_697381577(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(697381577L))
             info.setReturnValue(null);
     }
 

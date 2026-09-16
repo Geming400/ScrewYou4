@@ -13,15 +13,15 @@ public class PerformanceMetricsEvent_1959057111Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "sendEvent(Lnet/minecraft/client/telemetry/TelemetryEventSender;)V", cancellable = true)
-    private void sendEvent_798747670(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(798747670L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "takeSample()V", cancellable = true)
     private void takeSample__461927656(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-461927656L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "sendEvent(Lnet/minecraft/client/telemetry/TelemetryEventSender;)V", cancellable = true)
+    private void sendEvent_798747670(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(798747670L))
             info.cancel();
     }
 

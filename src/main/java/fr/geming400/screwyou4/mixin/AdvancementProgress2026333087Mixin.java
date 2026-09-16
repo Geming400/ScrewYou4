@@ -13,16 +13,16 @@ public class AdvancementProgress2026333087Mixin {
             info.setReturnValue("_S5eDuq]bF?\u9E6D4Xl\u7715!\u9707!CbX\u95A0\uFAB0LHjC%w_\uA4937}JM)jbwKZ'\uFC76uRB'ga(Z\u68C4E'k=tYPUx'{\uA06Fb\\");
     }
 
-    @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
-    private void compareTo_134229153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(134229153L))
-            info.setReturnValue(-917971959);
-    }
-
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/advancements/AdvancementProgress;)I", cancellable = true)
     private void compareTo_1496033007(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1496033007L))
-            info.setReturnValue(1242678935);
+            info.setReturnValue(1350522235);
+    }
+
+    @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
+    private void compareTo_134229153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(134229153L))
+            info.setReturnValue(-810128659);
     }
 
     @Inject(at = @At("HEAD"), method = "update(Lnet/minecraft/advancements/AdvancementRequirements;)V", cancellable = true)
@@ -40,7 +40,7 @@ public class AdvancementProgress2026333087Mixin {
     @Inject(at = @At("HEAD"), method = "getPercent()F", cancellable = true)
     private void getPercent__1814675565(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1814675565L))
-            info.setReturnValue(3.952965E8F);
+            info.setReturnValue(5.031398E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -53,6 +53,18 @@ public class AdvancementProgress2026333087Mixin {
     private void getCriterion__1697852792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1697852792L))
             info.setReturnValue(new net.minecraft.advancements.CriterionProgress());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRemainingCriteria()Ljava/lang/Iterable;", cancellable = true)
+    private void getRemainingCriteria__2042126170(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2042126170L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getCompletedCriteria()Ljava/lang/Iterable;", cancellable = true)
+    private void getCompletedCriteria_1414616315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1414616315L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getFirstProgressDate()Ljava/time/Instant;", cancellable = true)
@@ -73,12 +85,6 @@ public class AdvancementProgress2026333087Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "fromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/advancements/AdvancementProgress;", cancellable = true)
-    private static void fromNetwork_1733467664(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1733467664L))
-            info.setReturnValue(new net.minecraft.advancements.AdvancementProgress());
-    }
-
     @Inject(at = @At("HEAD"), method = "revokeProgress(Ljava/lang/String;)Z", cancellable = true)
     private void revokeProgress_312854829(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(312854829L))
@@ -91,16 +97,10 @@ public class AdvancementProgress2026333087Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRemainingCriteria()Ljava/lang/Iterable;", cancellable = true)
-    private void getRemainingCriteria__2042126170(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2042126170L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getCompletedCriteria()Ljava/lang/Iterable;", cancellable = true)
-    private void getCompletedCriteria_1414616315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1414616315L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "fromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/advancements/AdvancementProgress;", cancellable = true)
+    private static void fromNetwork_1733467664(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1733467664L))
+            info.setReturnValue(new net.minecraft.advancements.AdvancementProgress());
     }
 
 

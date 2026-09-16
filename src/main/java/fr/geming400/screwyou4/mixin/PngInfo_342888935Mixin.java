@@ -22,13 +22,13 @@ public class PngInfo_342888935Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_900241025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(900241025L))
-            info.setReturnValue(-463938424);
+            info.setReturnValue(-82026424);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1297259066(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1297259066L))
-            info.setReturnValue(1218515252);
+            info.setReturnValue(1600427252);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStream(Ljava/io/InputStream;)Lnet/minecraft/util/PngInfo;", cancellable = true)
@@ -40,19 +40,19 @@ public class PngInfo_342888935Mixin {
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height__742459643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-742459643L))
-            info.setReturnValue(-1911876396);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromBytes([B)Lnet/minecraft/util/PngInfo;", cancellable = true)
-    private static void fromBytes__301984280(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-301984280L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1528955796);
     }
 
     @Inject(at = @At("HEAD"), method = "validateHeader(Ljava/nio/ByteBuffer;)V", cancellable = true)
     private static void validateHeader__1814982949(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1814982949L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromBytes([B)Lnet/minecraft/util/PngInfo;", cancellable = true)
+    private static void fromBytes__301984280(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-301984280L))
+            info.setReturnValue(null);
     }
 
 

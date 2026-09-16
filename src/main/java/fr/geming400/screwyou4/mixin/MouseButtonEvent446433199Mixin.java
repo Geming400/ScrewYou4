@@ -10,7 +10,7 @@ public class MouseButtonEvent446433199Mixin {
         @Inject(at = @At("HEAD"), method = "modifiers()I", cancellable = true)
     private void modifiers_977498777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(977498777L))
-            info.setReturnValue(1403695217);
+            info.setReturnValue(-2030509279);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,25 +28,25 @@ public class MouseButtonEvent446433199Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1003785290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1003785290L))
-            info.setReturnValue(-1523867836);
+            info.setReturnValue(-663105036);
     }
 
     @Inject(at = @At("HEAD"), method = "x()D", cancellable = true)
     private void x__374778536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-374778536L))
-            info.setReturnValue(1.3249150069098394E8D);
+            info.setReturnValue(9.932543006909839E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "input()I", cancellable = true)
     private void input_1780077579(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1780077579L))
-            info.setReturnValue(-1700468062);
+            info.setReturnValue(-839705262);
     }
 
     @Inject(at = @At("HEAD"), method = "y()D", cancellable = true)
     private void y__346149385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-346149385L))
-            info.setReturnValue(1.3249150031708898E8D);
+            info.setReturnValue(9.93254300317089E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "buttonInfo()Lnet/minecraft/client/input/MouseButtonInfo;", cancellable = true)
@@ -58,7 +58,7 @@ public class MouseButtonEvent446433199Mixin {
     @Inject(at = @At("HEAD"), method = "button()I", cancellable = true)
     private void button__1366006365(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1366006365L))
-            info.setReturnValue(-889194353);
+            info.setReturnValue(-28431553);
     }
 
 

@@ -22,18 +22,12 @@ public class AnimationMetadataSection149941778Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_707293869(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(707293869L))
-            info.setReturnValue(-2089103553);
+            info.setReturnValue(-1922638153);
     }
 
     @Inject(at = @At("HEAD"), method = "frames()Ljava/util/Optional;", cancellable = true)
     private void frames__2061905306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2061905306L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "frameHeight()Ljava/util/Optional;", cancellable = true)
-    private void frameHeight_768566452(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(768566452L))
             info.setReturnValue(null);
     }
 
@@ -43,21 +37,27 @@ public class AnimationMetadataSection149941778Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "defaultFrameTime()I", cancellable = true)
+    private void defaultFrameTime__1553266945(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1553266945L))
+            info.setReturnValue(642290069);
+    }
+
     @Inject(at = @At("HEAD"), method = "interpolatedFrames()Z", cancellable = true)
     private void interpolatedFrames_585701216(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(585701216L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "defaultFrameTime()I", cancellable = true)
-    private void defaultFrameTime__1553266945(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1553266945L))
-            info.setReturnValue(475824669);
-    }
-
     @Inject(at = @At("HEAD"), method = "calculateFrameSize(II)Lnet/minecraft/client/resources/metadata/animation/FrameSize;", cancellable = true)
     private void calculateFrameSize_730403473(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730403473L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "frameHeight()Ljava/util/Optional;", cancellable = true)
+    private void frameHeight_768566452(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(768566452L))
             info.setReturnValue(null);
     }
 

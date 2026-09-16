@@ -22,7 +22,7 @@ public class MultiActionDialog_12163015Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_569515105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(569515105L))
-            info.setReturnValue(1561051711);
+            info.setReturnValue(1752709011);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -52,7 +52,7 @@ public class MultiActionDialog_12163015Mixin {
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_405485551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(405485551L))
-            info.setReturnValue(-635278465);
+            info.setReturnValue(-442621065);
     }
 
 

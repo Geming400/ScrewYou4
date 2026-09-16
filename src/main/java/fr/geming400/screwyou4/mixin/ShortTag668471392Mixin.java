@@ -28,7 +28,7 @@ public class ShortTag668471392Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1225823483(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1225823483L))
-            info.setReturnValue(2025590103);
+            info.setReturnValue(2077665903);
     }
 
     @Inject(at = @At("HEAD"), method = "byteValue()B", cancellable = true)
@@ -46,25 +46,25 @@ public class ShortTag668471392Mixin {
     @Inject(at = @At("HEAD"), method = "intValue()I", cancellable = true)
     private void intValue__1359009596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1359009596L))
-            info.setReturnValue(-1310627962);
+            info.setReturnValue(-1258552162);
     }
 
     @Inject(at = @At("HEAD"), method = "longValue()J", cancellable = true)
     private void longValue_347858(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(347858L))
-            info.setReturnValue(-5458915614157731877L);
+            info.setReturnValue(-5458915614105656077L);
     }
 
     @Inject(at = @At("HEAD"), method = "floatValue()F", cancellable = true)
     private void floatValue__116833362(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-116833362L))
-            info.setReturnValue(7.177384E8F);
+            info.setReturnValue(7.698142E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "doubleValue()D", cancellable = true)
     private void doubleValue__1373960351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1373960351L))
-            info.setReturnValue(7.177384004923198E8D);
+            info.setReturnValue(7.698142004923198E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "valueOf(S)Lnet/minecraft/nbt/ShortTag;", cancellable = true)
@@ -124,7 +124,7 @@ public class ShortTag668471392Mixin {
     @Inject(at = @At("HEAD"), method = "sizeInBytes()I", cancellable = true)
     private void sizeInBytes_123234913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(123234913L))
-            info.setReturnValue(1862089826);
+            info.setReturnValue(1914165626);
     }
 
 

@@ -13,15 +13,15 @@ public class RailState_1407286575Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
-    private void getConnections__557921795(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-557921795L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "place(ZZLnet/minecraft/world/level/block/state/properties/RailShape;)Lnet/minecraft/world/level/block/RailState;", cancellable = true)
     private void place_2059909162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2059909162L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getConnections()Ljava/util/List;", cancellable = true)
+    private void getConnections__557921795(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-557921795L))
             info.setReturnValue(null);
     }
 

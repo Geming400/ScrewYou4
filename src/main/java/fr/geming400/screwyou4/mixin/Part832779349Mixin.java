@@ -22,19 +22,19 @@ public class Part832779349Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1390131440(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1390131440L))
-            info.setReturnValue(1072647700);
+            info.setReturnValue(547665000);
     }
 
     @Inject(at = @At("HEAD"), method = "end()I", cancellable = true)
     private void end__1789668800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1789668800L))
-            info.setReturnValue(-1485527671);
+            info.setReturnValue(-2010510371);
     }
 
     @Inject(at = @At("HEAD"), method = "start()I", cancellable = true)
     private void start__793398503(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-793398503L))
-            info.setReturnValue(629553795);
+            info.setReturnValue(104571095);
     }
 
     @Inject(at = @At("HEAD"), method = "selector()Lnet/minecraft/commands/arguments/selector/EntitySelector;", cancellable = true)

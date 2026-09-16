@@ -28,7 +28,7 @@ public class ServerboundClientTickEndPacket1134498898Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1691850989(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1691850989L))
-            info.setReturnValue(80870167);
+            info.setReturnValue(395694467);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

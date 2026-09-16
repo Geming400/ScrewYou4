@@ -28,7 +28,7 @@ public class ClientboundChunksBiomesPacket_94397674Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_651749764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(651749764L))
-            info.setReturnValue(-1313090986);
+            info.setReturnValue(-1299790886);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

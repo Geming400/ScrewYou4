@@ -10,7 +10,7 @@ public class LocalSampleLogger_264342761Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_708074349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(708074349L))
-            info.setReturnValue(-992142274);
+            info.setReturnValue(-390652674);
     }
 
     @Inject(at = @At("HEAD"), method = "reset()V", cancellable = true)
@@ -22,19 +22,19 @@ public class LocalSampleLogger_264342761Mixin {
     @Inject(at = @At("HEAD"), method = "get(II)J", cancellable = true)
     private void get__1359341159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1359341159L))
-            info.setReturnValue(4991097451853505860L);
+            info.setReturnValue(4991097452454995460L);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)J", cancellable = true)
     private void get__204571170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-204571170L))
-            info.setReturnValue(7745648901639214780L);
+            info.setReturnValue(7745648902240704380L);
     }
 
     @Inject(at = @At("HEAD"), method = "capacity()I", cancellable = true)
     private void capacity__1517931948(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1517931948L))
-            info.setReturnValue(-1546682405);
+            info.setReturnValue(-945192805);
     }
 
 

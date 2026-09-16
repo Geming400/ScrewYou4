@@ -28,7 +28,7 @@ public class Entry778288551Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1335640642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1335640642L))
-            info.setReturnValue(548220844);
+            info.setReturnValue(832093244);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/world/item/crafting/display/RecipeDisplayEntry;", cancellable = true)
@@ -37,15 +37,15 @@ public class Entry778288551Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "highlight()Z", cancellable = true)
-    private void highlight_1241913130(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1241913130L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "notification()Z", cancellable = true)
     private void notification__846650029(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-846650029L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "highlight()Z", cancellable = true)
+    private void highlight_1241913130(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1241913130L))
             info.setReturnValue(true);
     }
 

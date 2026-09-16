@@ -13,9 +13,9 @@ public class EntityRenderers_999706529Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createEntityRenderers(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)Ljava/util/Map;", cancellable = true)
-    private static void createEntityRenderers_1067931350(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1067931350L))
+    @Inject(at = @At("HEAD"), method = "createAvatarRenderers(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)Ljava/util/Map;", cancellable = true)
+    private static void createAvatarRenderers_219623456(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(219623456L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class EntityRenderers_999706529Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAvatarRenderers(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)Ljava/util/Map;", cancellable = true)
-    private static void createAvatarRenderers_219623456(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(219623456L))
+    @Inject(at = @At("HEAD"), method = "createEntityRenderers(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;)Ljava/util/Map;", cancellable = true)
+    private static void createEntityRenderers_1067931350(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1067931350L))
             info.setReturnValue(null);
     }
 

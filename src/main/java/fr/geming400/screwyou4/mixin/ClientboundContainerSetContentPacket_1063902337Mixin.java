@@ -28,7 +28,7 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1621254427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1621254427L))
-            info.setReturnValue(1579012867);
+            info.setReturnValue(1975455067);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -52,13 +52,13 @@ public class ClientboundContainerSetContentPacket_1063902337Mixin {
     @Inject(at = @At("HEAD"), method = "containerId()I", cancellable = true)
     private void containerId_153486954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(153486954L))
-            info.setReturnValue(-2091726797);
+            info.setReturnValue(-1695284597);
     }
 
     @Inject(at = @At("HEAD"), method = "stateId()I", cancellable = true)
     private void stateId__1458021286(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1458021286L))
-            info.setReturnValue(2065389644);
+            info.setReturnValue(-1833135452);
     }
 
     @Inject(at = @At("HEAD"), method = "carriedItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)

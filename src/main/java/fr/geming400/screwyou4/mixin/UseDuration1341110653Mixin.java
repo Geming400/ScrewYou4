@@ -10,7 +10,7 @@ public class UseDuration1341110653Mixin {
         @Inject(at = @At("HEAD"), method = "get(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/ItemOwner;I)F", cancellable = true)
     private void get__147686587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-147686587L))
-            info.setReturnValue(5.649755E8F);
+            info.setReturnValue(7.117784E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -34,7 +34,7 @@ public class UseDuration1341110653Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1898462744(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1898462744L))
-            info.setReturnValue(930712241);
+            info.setReturnValue(1077515141);
     }
 
     @Inject(at = @At("HEAD"), method = "remaining()Z", cancellable = true)
@@ -46,7 +46,7 @@ public class UseDuration1341110653Mixin {
     @Inject(at = @At("HEAD"), method = "useDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private static void useDuration_354616833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354616833L))
-            info.setReturnValue(-476189121);
+            info.setReturnValue(-329386221);
     }
 
 

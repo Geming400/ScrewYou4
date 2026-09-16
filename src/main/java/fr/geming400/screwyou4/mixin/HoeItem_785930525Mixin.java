@@ -13,15 +13,15 @@ public class HoeItem_785930525Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "changeIntoState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/function/Consumer;", cancellable = true)
-    private static void changeIntoState_1026237881(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1026237881L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "changeIntoStateAndDropItem(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/ItemLike;)Ljava/util/function/Consumer;", cancellable = true)
     private static void changeIntoStateAndDropItem__1122487765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1122487765L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "changeIntoState(Lnet/minecraft/world/level/block/state/BlockState;)Ljava/util/function/Consumer;", cancellable = true)
+    private static void changeIntoState_1026237881(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1026237881L))
             info.setReturnValue(null);
     }
 

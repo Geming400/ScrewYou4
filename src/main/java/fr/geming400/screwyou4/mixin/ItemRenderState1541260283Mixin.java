@@ -22,19 +22,19 @@ public class ItemRenderState1541260283Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2098612374(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2098612374L))
-            info.setReturnValue(237604438);
-    }
-
-    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void itemStack__1047940524(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1047940524L))
-            info.setReturnValue(null);
+            info.setReturnValue(802499738);
     }
 
     @Inject(at = @At("HEAD"), method = "itemTransform()Lnet/minecraft/world/item/ItemDisplayContext;", cancellable = true)
     private void itemTransform_649096059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649096059L))
             info.setReturnValue(net.minecraft.world.item.ItemDisplayContext.THIRD_PERSON_RIGHT_HAND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void itemStack__1047940524(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1047940524L))
+            info.setReturnValue(null);
     }
 
 

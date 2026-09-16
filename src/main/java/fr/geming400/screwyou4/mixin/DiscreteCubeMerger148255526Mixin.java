@@ -10,7 +10,7 @@ public class DiscreteCubeMerger148255526Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_591987115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(591987115L))
-            info.setReturnValue(-800875905);
+            info.setReturnValue(-1447340605);
     }
 
     @Inject(at = @At("HEAD"), method = "getList()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)

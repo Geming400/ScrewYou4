@@ -22,7 +22,7 @@ public class BannerPattern_500565082Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1057917172(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1057917172L))
-            info.setReturnValue(1035624638);
+            info.setReturnValue(840095038);
     }
 
     @Inject(at = @At("HEAD"), method = "assetId()Lnet/minecraft/resources/Identifier;", cancellable = true)

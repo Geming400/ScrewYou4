@@ -28,7 +28,7 @@ public class ClientboundSetCursorItemPacket802389170Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1359741261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1359741261L))
-            info.setReturnValue(1317511557);
+            info.setReturnValue(1780300657);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

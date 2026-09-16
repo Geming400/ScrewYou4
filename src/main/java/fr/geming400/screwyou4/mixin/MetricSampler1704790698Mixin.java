@@ -22,7 +22,7 @@ public class MetricSampler1704790698Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2032825003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2032825003L))
-            info.setReturnValue(1105344186);
+            info.setReturnValue(1053391886);
     }
 
     @Inject(at = @At("HEAD"), method = "builder(Ljava/lang/String;Lnet/minecraft/util/profiling/metrics/MetricCategory;Ljava/util/function/ToDoubleFunction;Ljava/lang/Object;)Lnet/minecraft/util/profiling/metrics/MetricSampler$MetricSamplerBuilder;", cancellable = true)
@@ -55,22 +55,16 @@ public class MetricSampler1704790698Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "createExtractSampler(Ljava/lang/String;Lnet/minecraft/util/profiling/metrics/MetricCategory;Ljava/util/function/DoubleSupplier;)Lnet/minecraft/util/profiling/metrics/MetricSampler;", cancellable = true)
+    private static void createExtractSampler_242417015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(242417015L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getCategory()Lnet/minecraft/util/profiling/metrics/MetricCategory;", cancellable = true)
     private void getCategory__314970754(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-314970754L))
             info.setReturnValue(net.minecraft.util.profiling.metrics.MetricCategory.EVENT_LOOPS);
-    }
-
-    @Inject(at = @At("HEAD"), method = "triggersThreshold()Z", cancellable = true)
-    private void triggersThreshold__1605414543(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1605414543L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "samplingPhase()Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;", cancellable = true)
-    private void samplingPhase__2065673998(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2065673998L))
-            info.setReturnValue(net.minecraft.util.profiling.metrics.MetricSampler.SamplingPhase.END_TICK);
     }
 
     @Inject(at = @At("HEAD"), method = "onEndTick(I)V", cancellable = true)
@@ -85,10 +79,16 @@ public class MetricSampler1704790698Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createExtractSampler(Ljava/lang/String;Lnet/minecraft/util/profiling/metrics/MetricCategory;Ljava/util/function/DoubleSupplier;)Lnet/minecraft/util/profiling/metrics/MetricSampler;", cancellable = true)
-    private static void createExtractSampler_242417015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(242417015L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "samplingPhase()Lnet/minecraft/util/profiling/metrics/MetricSampler$SamplingPhase;", cancellable = true)
+    private void samplingPhase__2065673998(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2065673998L))
+            info.setReturnValue(net.minecraft.util.profiling.metrics.MetricSampler.SamplingPhase.END_TICK);
+    }
+
+    @Inject(at = @At("HEAD"), method = "triggersThreshold()Z", cancellable = true)
+    private void triggersThreshold__1605414543(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1605414543L))
+            info.setReturnValue(false);
     }
 
 

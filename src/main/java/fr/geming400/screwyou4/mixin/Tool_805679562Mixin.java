@@ -22,7 +22,7 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1363031652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1363031652L))
-            info.setReturnValue(-2099559058);
+            info.setReturnValue(-1816421258);
     }
 
     @Inject(at = @At("HEAD"), method = "rules()Ljava/util/List;", cancellable = true)
@@ -34,13 +34,7 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "damagePerBlock()I", cancellable = true)
     private void damagePerBlock__1233972976(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1233972976L))
-            info.setReturnValue(59150002);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultMiningSpeed()F", cancellable = true)
-    private void defaultMiningSpeed__446088874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-446088874L))
-            info.setReturnValue(1.74112E8F);
+            info.setReturnValue(341783602);
     }
 
     @Inject(at = @At("HEAD"), method = "isCorrectForDrops(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -52,13 +46,19 @@ public class Tool_805679562Mixin {
     @Inject(at = @At("HEAD"), method = "getMiningSpeed(Lnet/minecraft/world/level/block/state/BlockState;)F", cancellable = true)
     private void getMiningSpeed_1924466138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1924466138L))
-            info.setReturnValue(1.74112E8F);
+            info.setReturnValue(4.567456E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "canDestroyBlocksInCreative()Z", cancellable = true)
     private void canDestroyBlocksInCreative_1949412796(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1949412796L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultMiningSpeed()F", cancellable = true)
+    private void defaultMiningSpeed__446088874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-446088874L))
+            info.setReturnValue(4.567456E8F);
     }
 
 

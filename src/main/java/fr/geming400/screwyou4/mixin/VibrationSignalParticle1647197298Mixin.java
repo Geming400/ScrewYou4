@@ -28,7 +28,7 @@ public class VibrationSignalParticle1647197298Mixin {
     @Inject(at = @At("HEAD"), method = "getLightCoords(F)I", cancellable = true)
     private void getLightCoords_1663885676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1663885676L))
-            info.setReturnValue(-474105571);
+            info.setReturnValue(-921532571);
     }
 
 

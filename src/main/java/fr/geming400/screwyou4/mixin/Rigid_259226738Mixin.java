@@ -22,7 +22,7 @@ public class Rigid_259226738Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_816578828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(816578828L))
-            info.setReturnValue(-347553989);
+            info.setReturnValue(24716911);
     }
 
     @Inject(at = @At("HEAD"), method = "box()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)
@@ -34,7 +34,7 @@ public class Rigid_259226738Mixin {
     @Inject(at = @At("HEAD"), method = "groundLevelDelta()I", cancellable = true)
     private void groundLevelDelta_2043726780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043726780L))
-            info.setReturnValue(2051429057);
+            info.setReturnValue(-1871267339);
     }
 
     @Inject(at = @At("HEAD"), method = "terrainAdjustment()Lnet/minecraft/world/level/levelgen/structure/TerrainAdjustment;", cancellable = true)

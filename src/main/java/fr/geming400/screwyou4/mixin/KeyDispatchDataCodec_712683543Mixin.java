@@ -22,7 +22,7 @@ public class KeyDispatchDataCodec_712683543Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1270035633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1270035633L))
-            info.setReturnValue(92288422);
+            info.setReturnValue(268282522);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lcom/mojang/serialization/MapCodec;)Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)

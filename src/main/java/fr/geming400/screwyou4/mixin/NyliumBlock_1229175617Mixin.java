@@ -19,12 +19,6 @@ public class NyliumBlock_1229175617Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_1192217796(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1192217796L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess_1829428411(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1829428411L))
@@ -35,6 +29,12 @@ public class NyliumBlock_1229175617Mixin {
     private void performBonemeal_372391455(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(372391455L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_1192217796(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1192217796L))
+            info.setReturnValue(true);
     }
 
 

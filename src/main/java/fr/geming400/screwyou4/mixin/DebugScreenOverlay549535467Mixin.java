@@ -19,28 +19,16 @@ public class DebugScreenOverlay549535467Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "showFpsCharts()Z", cancellable = true)
-    private void showFpsCharts__1140071135(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1140071135L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showNetworkCharts()Z", cancellable = true)
-    private void showNetworkCharts_711332924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(711332924L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "clearChunkCache()V", cancellable = true)
+    private void clearChunkCache_1355911068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1355911068L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "showLightmapTexture()Z", cancellable = true)
     private void showLightmapTexture__1220988246(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1220988246L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBandwidthLogger()Lnet/minecraft/util/debugchart/LocalSampleLogger;", cancellable = true)
-    private void getBandwidthLogger__886252022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-886252022L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getTickTimeLogger()Lnet/minecraft/util/debugchart/LocalSampleLogger;", cancellable = true)
@@ -55,10 +43,28 @@ public class DebugScreenOverlay549535467Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getBandwidthLogger()Lnet/minecraft/util/debugchart/LocalSampleLogger;", cancellable = true)
+    private void getBandwidthLogger__886252022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-886252022L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "logRemoteSample([JLnet/minecraft/util/debugchart/RemoteDebugSampleType;)V", cancellable = true)
     private void logRemoteSample_1530184372(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1530184372L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "showFpsCharts()Z", cancellable = true)
+    private void showFpsCharts__1140071135(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1140071135L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "showNetworkCharts()Z", cancellable = true)
+    private void showNetworkCharts_711332924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(711332924L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V", cancellable = true)
@@ -67,15 +73,21 @@ public class DebugScreenOverlay549535467Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "toggleLightmapTexture()V", cancellable = true)
-    private void toggleLightmapTexture_1309504125(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1309504125L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "showDebugScreen()Z", cancellable = true)
+    private void showDebugScreen__1020957568(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1020957568L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "toggleProfilerChart()V", cancellable = true)
     private void toggleProfilerChart__134550595(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-134550595L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "toggleLightmapTexture()V", cancellable = true)
+    private void toggleLightmapTexture_1309504125(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1309504125L))
             info.cancel();
     }
 
@@ -91,28 +103,16 @@ public class DebugScreenOverlay549535467Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getProfilerPieChart()Lnet/minecraft/client/gui/components/debugchart/ProfilerPieChart;", cancellable = true)
-    private void getProfilerPieChart_267427700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(267427700L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "showProfilerChart()Z", cancellable = true)
     private void showProfilerChart_595780138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(595780138L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "showDebugScreen()Z", cancellable = true)
-    private void showDebugScreen__1020957568(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1020957568L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clearChunkCache()V", cancellable = true)
-    private void clearChunkCache_1355911068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1355911068L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getProfilerPieChart()Lnet/minecraft/client/gui/components/debugchart/ProfilerPieChart;", cancellable = true)
+    private void getProfilerPieChart_267427700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(267427700L))
+            info.setReturnValue(null);
     }
 
 

@@ -16,7 +16,7 @@ public class ComparatorBlockEntity1777935724Mixin {
     @Inject(at = @At("HEAD"), method = "getOutputSignal()I", cancellable = true)
     private void getOutputSignal_1572049203(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1572049203L))
-            info.setReturnValue(1588033028);
+            info.setReturnValue(1058500028);
     }
 
 

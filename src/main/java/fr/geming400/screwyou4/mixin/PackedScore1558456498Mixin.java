@@ -22,7 +22,7 @@ public class PackedScore1558456498Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2115808589(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2115808589L))
-            info.setReturnValue(1829235098);
+            info.setReturnValue(1272790498);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Ljava/lang/String;", cancellable = true)
@@ -31,16 +31,16 @@ public class PackedScore1558456498Mixin {
             info.setReturnValue("\u5106I pjVY*OdW}M%pS4-REq'=BE}_<]PLx]vTJ");
     }
 
-    @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
-    private void score__1860562243(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1860562243L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "objective()Ljava/lang/String;", cancellable = true)
     private void objective_817332404(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(817332404L))
             info.setReturnValue("uR8W\u72FF+h:k}3Qqt6{\uC82A8mn.J\uCE2EddMpz\u477Br}*\u2CD1]w<$o-BJ\u1B8A\"xBalCD@0&9FlQ\u324E\u837EBzp+BVV=cE\uB85D.,Rz1CxzlT\u0B0B5HBCI");
+    }
+
+    @Inject(at = @At("HEAD"), method = "score()Lnet/minecraft/world/scores/Score$Packed;", cancellable = true)
+    private void score__1860562243(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1860562243L))
+            info.setReturnValue(null);
     }
 
 

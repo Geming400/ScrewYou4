@@ -22,7 +22,7 @@ public class Text1862201609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1875413596(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1875413596L))
-            info.setReturnValue(-29847160);
+            info.setReturnValue(-121842260);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

@@ -28,7 +28,7 @@ public class GuiMessage_827247088Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1384599178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1384599178L))
-            info.setReturnValue(689070194);
+            info.setReturnValue(1420882394);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/client/multiplayer/chat/GuiMessageSource;", cancellable = true)
@@ -58,7 +58,7 @@ public class GuiMessage_827247088Mixin {
     @Inject(at = @At("HEAD"), method = "addedTime()I", cancellable = true)
     private void addedTime__1806801912(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1806801912L))
-            info.setReturnValue(836610572);
+            info.setReturnValue(1567423172);
     }
 
 

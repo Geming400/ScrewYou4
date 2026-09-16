@@ -22,7 +22,7 @@ public class LegacyStructureData_852809987Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1410162077(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1410162077L))
-            info.setReturnValue(-2124917962);
+            info.setReturnValue(-1817726362);
     }
 
     @Inject(at = @At("HEAD"), method = "indexes()Ljava/util/Map;", cancellable = true)
@@ -31,15 +31,15 @@ public class LegacyStructureData_852809987Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addStart(Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)V", cancellable = true)
-    private void addStart__904438692(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-904438692L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addIndex(Ljava/lang/String;J)V", cancellable = true)
     private void addIndex__451348842(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-451348842L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addStart(Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)V", cancellable = true)
+    private void addStart__904438692(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-904438692L))
             info.cancel();
     }
 

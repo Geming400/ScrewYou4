@@ -22,7 +22,7 @@ public class TextureMetadataSection1135161133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1692513224(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692513224L))
-            info.setReturnValue(217209255);
+            info.setReturnValue(-26347745);
     }
 
     @Inject(at = @At("HEAD"), method = "clamp()Z", cancellable = true)
@@ -31,10 +31,10 @@ public class TextureMetadataSection1135161133Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "alphaCutoffBias()F", cancellable = true)
-    private void alphaCutoffBias__2142613492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142613492L))
-            info.setReturnValue(6.134899E8F);
+    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
+    private void blur__891011875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-891011875L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "mipmapStrategy()Lnet/minecraft/client/renderer/texture/MipmapStrategy;", cancellable = true)
@@ -43,10 +43,10 @@ public class TextureMetadataSection1135161133Mixin {
             info.setReturnValue(net.minecraft.client.renderer.texture.MipmapStrategy.CUTOUT);
     }
 
-    @Inject(at = @At("HEAD"), method = "blur()Z", cancellable = true)
-    private void blur__891011875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-891011875L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "alphaCutoffBias()F", cancellable = true)
+    private void alphaCutoffBias__2142613492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142613492L))
+            info.setReturnValue(3.699329E8F);
     }
 
 

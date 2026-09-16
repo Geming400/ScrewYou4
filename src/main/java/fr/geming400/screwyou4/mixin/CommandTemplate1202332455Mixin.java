@@ -22,7 +22,7 @@ public class CommandTemplate1202332455Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1759684546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1759684546L))
-            info.setReturnValue(-1498869439);
+            info.setReturnValue(-716055339);
     }
 
     @Inject(at = @At("HEAD"), method = "template()Lnet/minecraft/server/dialog/action/ParsedTemplate;", cancellable = true)
@@ -31,15 +31,15 @@ public class CommandTemplate1202332455Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
-    private void createAction_1812319528(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1812319528L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__2026189587(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2026189587L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAction(Ljava/util/Map;)Ljava/util/Optional;", cancellable = true)
+    private void createAction_1812319528(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1812319528L))
             info.setReturnValue(null);
     }
 

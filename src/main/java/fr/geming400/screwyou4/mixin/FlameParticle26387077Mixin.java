@@ -28,7 +28,7 @@ public class FlameParticle26387077Mixin {
     @Inject(at = @At("HEAD"), method = "encode()I", cancellable = true)
     private void encode_1896192021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896192021L))
-            info.setReturnValue(1821921218);
+            info.setReturnValue(1849800518);
     }
 
 

@@ -28,7 +28,7 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2077212123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2077212123L))
-            info.setReturnValue(-489227549);
+            info.setReturnValue(-14025849);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()B", cancellable = true)
@@ -49,24 +49,6 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
-    private void locked_1682010669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1682010669L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
-    private void applyToMap__2049192547(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2049192547L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Optional;", cancellable = true)
-    private void decorations__2130333775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2130333775L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "colorPatch()Ljava/util/Optional;", cancellable = true)
     private void colorPatch__87330157(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-87330157L))
@@ -77,6 +59,24 @@ public class ClientboundMapItemDataPacket1519860032Mixin {
     private void mapId__267098004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-267098004L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
+    private void locked_1682010669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1682010669L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "decorations()Ljava/util/Optional;", cancellable = true)
+    private void decorations__2130333775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2130333775L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)
+    private void applyToMap__2049192547(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2049192547L))
+            info.cancel();
     }
 
 

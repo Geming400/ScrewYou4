@@ -13,22 +13,22 @@ public class SlotArgument636601413Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;", cancellable = true)
-    private void parse_1681057948(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1681057948L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
     private void parse_1597861507(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597861507L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Integer;", cancellable = true)
+    private void parse_1681057948(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1681057948L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getSlot(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I", cancellable = true)
     private static void getSlot_2052720219(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2052720219L))
-            info.setReturnValue(-461355159);
+            info.setReturnValue(106548641);
     }
 
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)

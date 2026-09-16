@@ -22,25 +22,25 @@ public class TwistingVinesConfig975483858Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1532835949(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1532835949L))
-            info.setReturnValue(-536207313);
+            info.setReturnValue(-827140813);
     }
 
     @Inject(at = @At("HEAD"), method = "maxHeight()I", cancellable = true)
     private void maxHeight__2093542163(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2093542163L))
-            info.setReturnValue(11064685);
+            info.setReturnValue(-281373815);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadWidth()I", cancellable = true)
     private void spreadWidth__1244405371(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1244405371L))
-            info.setReturnValue(-1146783304);
+            info.setReturnValue(-1439221804);
     }
 
     @Inject(at = @At("HEAD"), method = "spreadHeight()I", cancellable = true)
     private void spreadHeight__901973634(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-901973634L))
-            info.setReturnValue(92843252);
+            info.setReturnValue(-199595248);
     }
 
 

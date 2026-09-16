@@ -19,6 +19,12 @@ public class ParticleArgument_1443587891Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getParticle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
+    private static void getParticle_1992968254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1992968254L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "particle(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ParticleArgument;", cancellable = true)
     private static void particle__158595633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-158595633L))
@@ -40,12 +46,6 @@ public class ParticleArgument_1443587891Mixin {
     @Inject(at = @At("HEAD"), method = "readParticle(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
     private static void readParticle__948313188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-948313188L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getParticle(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
-    private static void getParticle_1992968254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1992968254L))
             info.setReturnValue(null);
     }
 

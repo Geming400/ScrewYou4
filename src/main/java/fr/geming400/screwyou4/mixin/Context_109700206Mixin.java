@@ -31,10 +31,10 @@ public class Context_109700206Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "leaves()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void leaves__761848915(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-761848915L))
-            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
+    @Inject(at = @At("HEAD"), method = "placeVine(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/BooleanProperty;)V", cancellable = true)
+    private void placeVine__1311053545(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1311053545L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
@@ -43,22 +43,22 @@ public class Context_109700206Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "logs()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
-    private void logs__1475791942(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1475791942L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isAir(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void isAir__1305797704(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1305797704L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "placeVine(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/properties/BooleanProperty;)V", cancellable = true)
-    private void placeVine__1311053545(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1311053545L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "leaves()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void leaves__761848915(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-761848915L))
+            info.setReturnValue(new it.unimi.dsi.fastutil.objects.ObjectArrayList());
+    }
+
+    @Inject(at = @At("HEAD"), method = "logs()Lit/unimi/dsi/fastutil/objects/ObjectArrayList;", cancellable = true)
+    private void logs__1475791942(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1475791942L))
+            info.setReturnValue(null);
     }
 
 

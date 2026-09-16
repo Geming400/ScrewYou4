@@ -25,18 +25,6 @@ public class LightningBolt149596977Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
-    private void shouldRenderAtSqrDistance_1103839017(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1103839017L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setVisualOnly(Z)V", cancellable = true)
-    private void setVisualOnly__1854529412(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1854529412L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
     private void hurtServer__665690380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-665690380L))
@@ -49,16 +37,28 @@ public class LightningBolt149596977Mixin {
             info.setReturnValue(net.minecraft.sounds.SoundSource.BLOCKS);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlocksSetOnFire()I", cancellable = true)
-    private void getBlocksSetOnFire_1467623260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1467623260L))
-            info.setReturnValue(1976928206);
+    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
+    private void shouldRenderAtSqrDistance_1103839017(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1103839017L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setVisualOnly(Z)V", cancellable = true)
+    private void setVisualOnly__1854529412(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1854529412L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getHitEntities()Ljava/util/stream/Stream;", cancellable = true)
     private void getHitEntities_1124645160(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1124645160L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlocksSetOnFire()I", cancellable = true)
+    private void getBlocksSetOnFire_1467623260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1467623260L))
+            info.setReturnValue(1434349206);
     }
 
 

@@ -28,7 +28,7 @@ public class ClientboundGameTestHighlightPosPacket766197953Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1323550044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1323550044L))
-            info.setReturnValue(-1030939836);
+            info.setReturnValue(-657645136);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class ClientboundGameTestHighlightPosPacket766197953Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void absolutePos__2129383291(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2129383291L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "relativePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void relativePos_1301141338(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301141338L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "absolutePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void absolutePos__2129383291(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2129383291L))
             info.setReturnValue(null);
     }
 

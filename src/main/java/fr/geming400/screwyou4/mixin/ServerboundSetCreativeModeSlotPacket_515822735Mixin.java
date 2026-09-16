@@ -28,7 +28,7 @@ public class ServerboundSetCreativeModeSlotPacket_515822735Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1073174825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1073174825L))
-            info.setReturnValue(-1563739573);
+            info.setReturnValue(-1042108973);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -43,16 +43,16 @@ public class ServerboundSetCreativeModeSlotPacket_515822735Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void itemStack__2073378073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2073378073L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "slotNum()S", cancellable = true)
     private void slotNum_251582550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(251582550L))
             info.setReturnValue((short) 22369);
+    }
+
+    @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void itemStack__2073378073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2073378073L))
+            info.setReturnValue(null);
     }
 
 

@@ -19,15 +19,15 @@ public class LegacyPositionalRandomFactory549021275Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "fromHashOf(Ljava/lang/String;)Lnet/minecraft/util/RandomSource;", cancellable = true)
-    private void fromHashOf_2014729859(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2014729859L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fromSeed(J)Lnet/minecraft/util/RandomSource;", cancellable = true)
     private void fromSeed_512351261(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(512351261L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromHashOf(Ljava/lang/String;)Lnet/minecraft/util/RandomSource;", cancellable = true)
+    private void fromHashOf_2014729859(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2014729859L))
             info.setReturnValue(null);
     }
 

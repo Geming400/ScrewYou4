@@ -25,22 +25,16 @@ public class Builder1191688577Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chest(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
-    private void chest_933948905(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(933948905L))
-            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "equipment()Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
     private static void equipment_1712217643(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1712217643L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "legs(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
-    private void legs_1179950861(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1179950861L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "chest(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
+    private void chest_933948905(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(933948905L))
+            info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "offhand(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
@@ -59,6 +53,12 @@ public class Builder1191688577Mixin {
     private void feet__49405290(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-49405290L))
             info.setReturnValue(new net.minecraft.advancements.predicates.entity.EntityEquipmentPredicate.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "legs(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;", cancellable = true)
+    private void legs_1179950861(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1179950861L))
+            info.setReturnValue(null);
     }
 
 

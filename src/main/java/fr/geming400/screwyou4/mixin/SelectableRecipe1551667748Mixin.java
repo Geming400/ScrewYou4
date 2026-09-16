@@ -22,7 +22,7 @@ public class SelectableRecipe1551667748Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2109019839(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2109019839L))
-            info.setReturnValue(-2065381560);
+            info.setReturnValue(1773779436);
     }
 
     @Inject(at = @At("HEAD"), method = "recipe()Ljava/util/Optional;", cancellable = true)

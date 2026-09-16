@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.piston.PistonBaseBlock.class)
 public class PistonBaseBlock_1498914411Mixin {
-        @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "isPushable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;ZLnet/minecraft/core/Direction;)Z", cancellable = true)
+    private static void isPushable_445696173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(445696173L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec__1729607632(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1729607632L))
             info.setReturnValue(null);
@@ -23,12 +29,6 @@ public class PistonBaseBlock_1498914411Mixin {
     private void getStateForPlacement__970274070(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-970274070L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPushable(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;ZLnet/minecraft/core/Direction;)Z", cancellable = true)
-    private static void isPushable_445696173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(445696173L))
-            info.setReturnValue(true);
     }
 
 

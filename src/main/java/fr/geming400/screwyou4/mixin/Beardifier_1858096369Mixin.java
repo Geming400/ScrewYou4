@@ -10,31 +10,31 @@ public class Beardifier_1858096369Mixin {
         @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute__1505081315(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1505081315L))
-            info.setReturnValue(8.904300019984525E7D);
+            info.setReturnValue(6.4520400199845254E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue__1618947644(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1618947644L))
-            info.setReturnValue(8.904300007290572E7D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
-    private void minValue_203358514(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(203358514L))
-            info.setReturnValue(8.90430007435704E7D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
-    private void fillArray__1866231408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1866231408L))
-            info.cancel();
+            info.setReturnValue(6.452040007290572E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "forStructuresInChunk(Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/levelgen/Beardifier;", cancellable = true)
     private static void forStructuresInChunk__954078270(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-954078270L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
+    private void minValue_203358514(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(203358514L))
+            info.setReturnValue(6.45204007435704E7D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillArray([DLnet/minecraft/world/level/levelgen/DensityFunction$ContextProvider;)V", cancellable = true)
+    private void fillArray__1866231408(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1866231408L))
+            info.cancel();
     }
 
 

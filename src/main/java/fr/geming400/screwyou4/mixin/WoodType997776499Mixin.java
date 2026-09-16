@@ -34,7 +34,7 @@ public class WoodType997776499Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1555128590(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1555128590L))
-            info.setReturnValue(480493725);
+            info.setReturnValue(-394018575);
     }
 
     @Inject(at = @At("HEAD"), method = "setType()Lnet/minecraft/world/level/block/state/properties/BlockSetType;", cancellable = true)
@@ -49,9 +49,9 @@ public class WoodType997776499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hangingSignSoundType()Lnet/minecraft/world/level/block/SoundType;", cancellable = true)
-    private void hangingSignSoundType_99671152(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(99671152L))
+    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void fenceGateOpen_854908751(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(854908751L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class WoodType997776499Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fenceGateOpen()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void fenceGateOpen_854908751(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(854908751L))
+    @Inject(at = @At("HEAD"), method = "hangingSignSoundType()Lnet/minecraft/world/level/block/SoundType;", cancellable = true)
+    private void hangingSignSoundType_99671152(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(99671152L))
             info.setReturnValue(null);
     }
 

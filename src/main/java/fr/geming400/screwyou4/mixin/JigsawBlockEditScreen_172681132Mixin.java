@@ -19,15 +19,21 @@ public class JigsawBlockEditScreen_172681132Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_141627500(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(141627500L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState_1159560773(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1159560773L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_141627500(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(141627500L))
+    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
+    private void isInGameUi__339805299(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-339805299L))
             info.setReturnValue(true);
     }
 
@@ -35,12 +41,6 @@ public class JigsawBlockEditScreen_172681132Mixin {
     private static void isValidIdentifier__1450579767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1450579767L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isInGameUi()Z", cancellable = true)
-    private void isInGameUi__339805299(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-339805299L))
-            info.setReturnValue(true);
     }
 
 

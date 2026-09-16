@@ -28,7 +28,7 @@ public class AnimationChannel2005109111Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1732506094(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1732506094L))
-            info.setReturnValue(-1779729639);
+            info.setReturnValue(-1808484939);
     }
 
     @Inject(at = @At("HEAD"), method = "keyframes()[Lnet/minecraft/client/animation/Keyframe;", cancellable = true)

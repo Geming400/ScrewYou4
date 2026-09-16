@@ -22,7 +22,7 @@ public class TabInfo_2125689169Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1611926037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1611926037L))
-            info.setReturnValue(-2057822415);
+            info.setReturnValue(1259461581);
     }
 
     @Inject(at = @At("HEAD"), method = "category()Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;", cancellable = true)

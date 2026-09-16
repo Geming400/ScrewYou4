@@ -22,7 +22,7 @@ public class Update_1919538108Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1818077098(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1818077098L))
-            info.setReturnValue(1517775920);
+            info.setReturnValue(1078612020);
     }
 
     @Inject(at = @At("HEAD"), method = "update()Lnet/minecraft/network/chat/LastSeenMessages$Update;", cancellable = true)

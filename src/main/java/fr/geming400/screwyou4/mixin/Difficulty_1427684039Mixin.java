@@ -22,7 +22,7 @@ public class Difficulty_1427684039Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__230639557(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-230639557L))
-            info.setReturnValue(1505552165);
+            info.setReturnValue(1334953965);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)

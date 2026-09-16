@@ -13,15 +13,15 @@ public class TrialSpawnerBlock_172360979Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__2134463677(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2134463677L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity_313936363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(313936363L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__2134463677(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2134463677L))
             info.setReturnValue(null);
     }
 

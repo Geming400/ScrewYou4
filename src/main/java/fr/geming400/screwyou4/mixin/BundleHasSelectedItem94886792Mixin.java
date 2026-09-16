@@ -34,7 +34,7 @@ public class BundleHasSelectedItem94886792Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_652238883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(652238883L))
-            info.setReturnValue(-1439891781);
+            info.setReturnValue(-1613151481);
     }
 
 

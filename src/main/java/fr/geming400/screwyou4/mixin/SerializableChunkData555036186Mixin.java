@@ -22,7 +22,7 @@ public class SerializableChunkData555036186Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1112388277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1112388277L))
-            info.setReturnValue(322926311);
+            info.setReturnValue(52815511);
     }
 
     @Inject(at = @At("HEAD"), method = "copyOf(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/world/level/chunk/storage/SerializableChunkData;", cancellable = true)
@@ -55,33 +55,21 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastUpdateTime()J", cancellable = true)
-    private void lastUpdateTime__568849195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-568849195L))
-            info.setReturnValue(8447174866130647977L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "blockEntities()Ljava/util/List;", cancellable = true)
-    private void blockEntities__1391809352(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1391809352L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "minSectionY()I", cancellable = true)
-    private void minSectionY__410111686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-410111686L))
-            info.setReturnValue(-1320845411);
-    }
-
     @Inject(at = @At("HEAD"), method = "getChunkStatusFromTag(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
     private static void getChunkStatusFromTag__925135122(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-925135122L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "heightmaps()Ljava/util/Map;", cancellable = true)
-    private void heightmaps__1175270396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1175270396L))
+    @Inject(at = @At("HEAD"), method = "entities()Ljava/util/List;", cancellable = true)
+    private void entities__1910441589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1910441589L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blockEntities()Ljava/util/List;", cancellable = true)
+    private void blockEntities__1391809352(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1391809352L))
             info.setReturnValue(null);
     }
 
@@ -91,21 +79,15 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
     }
 
+    @Inject(at = @At("HEAD"), method = "minSectionY()I", cancellable = true)
+    private void minSectionY__410111686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-410111686L))
+            info.setReturnValue(-1590956211);
+    }
+
     @Inject(at = @At("HEAD"), method = "carvingMask()[J", cancellable = true)
     private void carvingMask__1440250316(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1440250316L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chunkStatus()Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
-    private void chunkStatus__1784403897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1784403897L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "packedTicks()Lnet/minecraft/world/level/chunk/ChunkAccess$PackedTicks;", cancellable = true)
-    private void packedTicks_1097802259(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1097802259L))
             info.setReturnValue(null);
     }
 
@@ -127,15 +109,15 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inhabitedTime()J", cancellable = true)
-    private void inhabitedTime__2116774810(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2116774810L))
-            info.setReturnValue(-1995959252526455867L);
+    @Inject(at = @At("HEAD"), method = "chunkStatus()Lnet/minecraft/world/level/chunk/status/ChunkStatus;", cancellable = true)
+    private void chunkStatus__1784403897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1784403897L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "blendingData()Lnet/minecraft/world/level/levelgen/blending/BlendingData$Packed;", cancellable = true)
-    private void blendingData_1720111609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1720111609L))
+    @Inject(at = @At("HEAD"), method = "packedTicks()Lnet/minecraft/world/level/chunk/ChunkAccess$PackedTicks;", cancellable = true)
+    private void packedTicks_1097802259(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1097802259L))
             info.setReturnValue(null);
     }
 
@@ -145,9 +127,21 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "inhabitedTime()J", cancellable = true)
+    private void inhabitedTime__2116774810(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2116774810L))
+            info.setReturnValue(-1995959252796566667L);
+    }
+
     @Inject(at = @At("HEAD"), method = "upgradeData()Lnet/minecraft/world/level/chunk/UpgradeData;", cancellable = true)
     private void upgradeData__35903088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-35903088L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "blendingData()Lnet/minecraft/world/level/levelgen/blending/BlendingData$Packed;", cancellable = true)
+    private void blendingData_1720111609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1720111609L))
             info.setReturnValue(null);
     }
 
@@ -157,10 +151,16 @@ public class SerializableChunkData555036186Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "entities()Ljava/util/List;", cancellable = true)
-    private void entities__1910441589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1910441589L))
+    @Inject(at = @At("HEAD"), method = "heightmaps()Ljava/util/Map;", cancellable = true)
+    private void heightmaps__1175270396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1175270396L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastUpdateTime()J", cancellable = true)
+    private void lastUpdateTime__568849195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-568849195L))
+            info.setReturnValue(8447174865860537177L);
     }
 
 

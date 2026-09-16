@@ -10,31 +10,31 @@ public class QuartPos543516721Mixin {
         @Inject(at = @At("HEAD"), method = "toSection(I)I", cancellable = true)
     private static void toSection_1212276722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1212276722L))
-            info.setReturnValue(1259909826);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toBlock(I)I", cancellable = true)
-    private static void toBlock__703408934(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-703408934L))
-            info.setReturnValue(1560449320);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fromBlock(I)I", cancellable = true)
-    private static void fromBlock__2142205877(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2142205877L))
-            info.setReturnValue(-700184351);
+            info.setReturnValue(1814496226);
     }
 
     @Inject(at = @At("HEAD"), method = "quartLocal(I)I", cancellable = true)
     private static void quartLocal_1995629428(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1995629428L))
-            info.setReturnValue(949802768);
+            info.setReturnValue(1504389168);
     }
 
     @Inject(at = @At("HEAD"), method = "fromSection(I)I", cancellable = true)
     private static void fromSection_1507883811(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1507883811L))
-            info.setReturnValue(2144626243);
+            info.setReturnValue(-1595754653);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toBlock(I)I", cancellable = true)
+    private static void toBlock__703408934(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-703408934L))
+            info.setReturnValue(2115035720);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fromBlock(I)I", cancellable = true)
+    private static void fromBlock__2142205877(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2142205877L))
+            info.setReturnValue(-145597951);
     }
 
 

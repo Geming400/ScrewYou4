@@ -22,7 +22,7 @@ public class AmbientSounds50119454Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_607471545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607471545L))
-            info.setReturnValue(-1190926102);
+            info.setReturnValue(-1788409102);
     }
 
     @Inject(at = @At("HEAD"), method = "loop()Ljava/util/Optional;", cancellable = true)
@@ -31,15 +31,15 @@ public class AmbientSounds50119454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "additions()Ljava/util/List;", cancellable = true)
-    private void additions_651900101(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(651900101L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "mood()Ljava/util/Optional;", cancellable = true)
     private void mood__455230781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-455230781L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "additions()Ljava/util/List;", cancellable = true)
+    private void additions_651900101(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(651900101L))
             info.setReturnValue(null);
     }
 

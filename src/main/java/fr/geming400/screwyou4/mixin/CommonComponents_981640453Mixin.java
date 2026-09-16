@@ -43,9 +43,9 @@ public class CommonComponents_981640453Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionStatus(Lnet/minecraft/network/chat/Component;Z)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void optionStatus_1650677700(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1650677700L))
+    @Inject(at = @At("HEAD"), method = "disconnectButtonLabel(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void disconnectButtonLabel_2004155487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2004155487L))
             info.setReturnValue(null);
     }
 
@@ -55,15 +55,15 @@ public class CommonComponents_981640453Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "optionNameValue(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void optionNameValue__1853139042(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1853139042L))
+    @Inject(at = @At("HEAD"), method = "optionStatus(Lnet/minecraft/network/chat/Component;Z)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void optionStatus_1650677700(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1650677700L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "disconnectButtonLabel(Z)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void disconnectButtonLabel_2004155487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2004155487L))
+    @Inject(at = @At("HEAD"), method = "optionNameValue(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void optionNameValue__1853139042(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1853139042L))
             info.setReturnValue(null);
     }
 

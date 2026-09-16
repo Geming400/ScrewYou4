@@ -16,7 +16,7 @@ public class Constant_817710972Mixin {
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__1486959984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1486959984L))
-            info.setReturnValue(-971311044);
+            info.setReturnValue(-1171125444);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,13 +34,13 @@ public class Constant_817710972Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1375063062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1375063062L))
-            info.setReturnValue(-1102540547);
+            info.setReturnValue(-1302354947);
     }
 
     @Inject(at = @At("HEAD"), method = "calculate(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void calculate__402694313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-402694313L))
-            info.setReturnValue(1319913215);
+            info.setReturnValue(1120098815);
     }
 
 

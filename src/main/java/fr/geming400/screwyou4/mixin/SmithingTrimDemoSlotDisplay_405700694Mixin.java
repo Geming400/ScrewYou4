@@ -34,7 +34,7 @@ public class SmithingTrimDemoSlotDisplay_405700694Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_963052784(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(963052784L))
-            info.setReturnValue(-1467106956);
+            info.setReturnValue(-1871193556);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/core/Holder;", cancellable = true)

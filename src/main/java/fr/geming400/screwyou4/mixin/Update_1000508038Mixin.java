@@ -22,13 +22,13 @@ public class Update_1000508038Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1557860128(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1557860128L))
-            info.setReturnValue(362405125);
+            info.setReturnValue(617732625);
     }
 
     @Inject(at = @At("HEAD"), method = "offset()I", cancellable = true)
     private void offset__2071339080(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2071339080L))
-            info.setReturnValue(861326346);
+            info.setReturnValue(1116653846);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)

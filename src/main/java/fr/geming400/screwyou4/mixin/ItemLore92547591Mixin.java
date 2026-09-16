@@ -22,7 +22,7 @@ public class ItemLore92547591Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_649899682(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(649899682L))
-            info.setReturnValue(1986232928);
+            info.setReturnValue(2036181528);
     }
 
     @Inject(at = @At("HEAD"), method = "lines()Ljava/util/List;", cancellable = true)
@@ -37,15 +37,15 @@ public class ItemLore92547591Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "styledLines()Ljava/util/List;", cancellable = true)
-    private void styledLines__975619037(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-975619037L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "withLineAdded(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/component/ItemLore;", cancellable = true)
     private void withLineAdded__1749475277(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1749475277L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "styledLines()Ljava/util/List;", cancellable = true)
+    private void styledLines__975619037(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-975619037L))
             info.setReturnValue(null);
     }
 

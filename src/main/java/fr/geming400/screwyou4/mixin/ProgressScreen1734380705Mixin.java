@@ -13,15 +13,15 @@ public class ProgressScreen1734380705Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "progressStart(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void progressStart__514423021(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-514423021L))
+    @Inject(at = @At("HEAD"), method = "progressStage(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void progressStage__795607305(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-795607305L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "progressStagePercentage(I)V", cancellable = true)
-    private void progressStagePercentage__694390312(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-694390312L))
+    @Inject(at = @At("HEAD"), method = "progressStartNoAbort(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void progressStartNoAbort__1254501842(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1254501842L))
             info.cancel();
     }
 
@@ -37,15 +37,15 @@ public class ProgressScreen1734380705Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "progressStage(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void progressStage__795607305(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-795607305L))
+    @Inject(at = @At("HEAD"), method = "progressStart(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void progressStart__514423021(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-514423021L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "progressStartNoAbort(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void progressStartNoAbort__1254501842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1254501842L))
+    @Inject(at = @At("HEAD"), method = "progressStagePercentage(I)V", cancellable = true)
+    private void progressStagePercentage__694390312(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-694390312L))
             info.cancel();
     }
 

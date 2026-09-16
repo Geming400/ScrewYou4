@@ -19,22 +19,22 @@ public class StackedContents_2091745485Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tryPick(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
-    private void tryPick_1467661407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1467661407L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getResultUpperBound(Ljava/util/List;)I", cancellable = true)
+    private void getResultUpperBound_405052244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(405052244L))
+            info.setReturnValue(-900919750);
     }
 
     @Inject(at = @At("HEAD"), method = "tryPickAll(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
     private void tryPickAll_410067351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(410067351L))
-            info.setReturnValue(276219116);
+            info.setReturnValue(257942816);
     }
 
-    @Inject(at = @At("HEAD"), method = "getResultUpperBound(Ljava/util/List;)I", cancellable = true)
-    private void getResultUpperBound_405052244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(405052244L))
-            info.setReturnValue(-882643450);
+    @Inject(at = @At("HEAD"), method = "tryPick(Ljava/util/List;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)
+    private void tryPick_1467661407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1467661407L))
+            info.setReturnValue(true);
     }
 
 

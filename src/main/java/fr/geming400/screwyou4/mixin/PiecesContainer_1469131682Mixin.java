@@ -22,7 +22,7 @@ public class PiecesContainer_1469131682Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2026483772(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2026483772L))
-            info.setReturnValue(1872014262);
+            info.setReturnValue(1418943562);
     }
 
     @Inject(at = @At("HEAD"), method = "load(Lnet/minecraft/nbt/ListTag;Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceSerializationContext;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;", cancellable = true)

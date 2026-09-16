@@ -22,7 +22,7 @@ public class BlockPattern727936701Mixin {
     @Inject(at = @At("HEAD"), method = "getDepth()I", cancellable = true)
     private void getDepth_602567606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(602567606L))
-            info.setReturnValue(1321762464);
+            info.setReturnValue(1672901864);
     }
 
     @Inject(at = @At("HEAD"), method = "getPattern()[[[Ljava/util/function/Predicate;", cancellable = true)
@@ -31,16 +31,16 @@ public class BlockPattern727936701Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1209959789(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1209959789L))
-            info.setReturnValue(-1253917620);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__997680474(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-997680474L))
-            info.setReturnValue(-1616879017);
+            info.setReturnValue(-1265739617);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1209959789(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1209959789L))
+            info.setReturnValue(-902778220);
     }
 
     @Inject(at = @At("HEAD"), method = "createLevelCache(Lnet/minecraft/world/level/LevelReader;Z)Lcom/google/common/cache/LoadingCache;", cancellable = true)

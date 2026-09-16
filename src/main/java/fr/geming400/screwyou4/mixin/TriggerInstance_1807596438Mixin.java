@@ -22,7 +22,7 @@ public class TriggerInstance_1807596438Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1930018768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1930018768L))
-            info.setReturnValue(-219581748);
+            info.setReturnValue(321111352);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Ljava/util/Collection;ILnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -43,24 +43,6 @@ public class TriggerInstance_1807596438Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "crossbowKilled(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void crossbowKilled__822554478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-822554478L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "crossbowKilled(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
-    private static void crossbowKilled__544463071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-544463071L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "uniqueEntityTypes()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
-    private void uniqueEntityTypes_2119032318(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2119032318L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "firedFromWeapon()Ljava/util/Optional;", cancellable = true)
     private void firedFromWeapon_1856064311(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1856064311L))
@@ -70,6 +52,24 @@ public class TriggerInstance_1807596438Mixin {
     @Inject(at = @At("HEAD"), method = "victims()Ljava/util/List;", cancellable = true)
     private void victims__1483761360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1483761360L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "uniqueEntityTypes()Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;", cancellable = true)
+    private void uniqueEntityTypes_2119032318(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2119032318L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "crossbowKilled(Lnet/minecraft/core/HolderGetter;[Lnet/minecraft/advancements/predicates/entity/EntityPredicate$Builder;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void crossbowKilled__544463071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-544463071L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "crossbowKilled(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/advancements/triggers/Criterion;", cancellable = true)
+    private static void crossbowKilled__822554478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-822554478L))
             info.setReturnValue(null);
     }
 

@@ -13,22 +13,10 @@ public class TutorialToast1017815419Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
-    private void getWantedVisibility_1609993611(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1609993611L))
-            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
-    }
-
-    @Inject(at = @At("HEAD"), method = "updateProgress(F)V", cancellable = true)
-    private void updateProgress_509239226(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(509239226L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
-    private void extractRenderState__499635501(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-499635501L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height__67533158(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-67533158L))
+            info.setReturnValue(2072276916);
     }
 
     @Inject(at = @At("HEAD"), method = "hide()V", cancellable = true)
@@ -37,10 +25,22 @@ public class TutorialToast1017815419Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height__67533158(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-67533158L))
-            info.setReturnValue(-2106603480);
+    @Inject(at = @At("HEAD"), method = "getWantedVisibility()Lnet/minecraft/client/gui/components/toasts/Toast$Visibility;", cancellable = true)
+    private void getWantedVisibility_1609993611(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1609993611L))
+            info.setReturnValue(net.minecraft.client.gui.components.toasts.Toast.Visibility.HIDE);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;J)V", cancellable = true)
+    private void extractRenderState__499635501(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-499635501L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateProgress(F)V", cancellable = true)
+    private void updateProgress_509239226(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(509239226L))
+            info.cancel();
     }
 
 

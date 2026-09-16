@@ -28,7 +28,7 @@ public class PalettedPermutations1570695172Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2128047263(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2128047263L))
-            info.setReturnValue(767139007);
+            info.setReturnValue(795256007);
     }
 
     @Inject(at = @At("HEAD"), method = "separator()Ljava/lang/String;", cancellable = true)
@@ -37,9 +37,9 @@ public class PalettedPermutations1570695172Mixin {
             info.setReturnValue("aEjyB[9.kHB2F9x[s^>bS*\u37E7`d9\u0251u\uCD87v.uUDJgx(&!DY\u0D66Bn\u6FD03Z\u2188R55_4c'\uC7FB\u93E100vE\u4F8BOQlk;*naQfG[{nRmJI\u27DA?\u4EAAmt\u666E\u9F62<d");
     }
 
-    @Inject(at = @At("HEAD"), method = "permutations()Ljava/util/Map;", cancellable = true)
-    private void permutations__940127393(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-940127393L))
+    @Inject(at = @At("HEAD"), method = "paletteKey()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void paletteKey__1558073041(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1558073041L))
             info.setReturnValue(null);
     }
 
@@ -55,9 +55,9 @@ public class PalettedPermutations1570695172Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "paletteKey()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void paletteKey__1558073041(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1558073041L))
+    @Inject(at = @At("HEAD"), method = "permutations()Ljava/util/Map;", cancellable = true)
+    private void permutations__940127393(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-940127393L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class FireworkExplosion_769144720Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1326496810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1326496810L))
-            info.setReturnValue(927729714);
+            info.setReturnValue(901737414);
     }
 
     @Inject(at = @At("HEAD"), method = "shape()Lnet/minecraft/world/item/component/FireworkExplosion$Shape;", cancellable = true)
@@ -37,27 +37,9 @@ public class FireworkExplosion_769144720Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasTwinkle()Z", cancellable = true)
-    private void hasTwinkle_2011263812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2011263812L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "fadeColors()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
-    private void fadeColors_511777138(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(511777138L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasTrail()Z", cancellable = true)
-    private void hasTrail__670751430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-670751430L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withFadeColors(Lit/unimi/dsi/fastutil/ints/IntList;)Lnet/minecraft/world/item/component/FireworkExplosion;", cancellable = true)
-    private void withFadeColors_1810701670(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1810701670L))
+    @Inject(at = @At("HEAD"), method = "colors()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
+    private void colors_1147072470(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1147072470L))
             info.setReturnValue(null);
     }
 
@@ -67,9 +49,27 @@ public class FireworkExplosion_769144720Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "colors()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
-    private void colors_1147072470(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1147072470L))
+    @Inject(at = @At("HEAD"), method = "withFadeColors(Lit/unimi/dsi/fastutil/ints/IntList;)Lnet/minecraft/world/item/component/FireworkExplosion;", cancellable = true)
+    private void withFadeColors_1810701670(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1810701670L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasTwinkle()Z", cancellable = true)
+    private void hasTwinkle_2011263812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2011263812L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasTrail()Z", cancellable = true)
+    private void hasTrail__670751430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-670751430L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fadeColors()Lit/unimi/dsi/fastutil/ints/IntList;", cancellable = true)
+    private void fadeColors_511777138(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(511777138L))
             info.setReturnValue(null);
     }
 

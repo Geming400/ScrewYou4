@@ -28,7 +28,7 @@ public class CustomModelData_1700509340Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2037105866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2037105866L))
-            info.setReturnValue(-1222960338);
+            info.setReturnValue(-1494520338);
     }
 
     @Inject(at = @At("HEAD"), method = "getBoolean(I)Ljava/lang/Boolean;", cancellable = true)
@@ -61,15 +61,15 @@ public class CustomModelData_1700509340Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "floats()Ljava/util/List;", cancellable = true)
-    private void floats_1175067874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1175067874L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "colors()Ljava/util/List;", cancellable = true)
     private void colors__625653189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-625653189L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "floats()Ljava/util/List;", cancellable = true)
+    private void floats_1175067874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1175067874L))
             info.setReturnValue(null);
     }
 

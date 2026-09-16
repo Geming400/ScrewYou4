@@ -49,22 +49,10 @@ public class TestBlockEntity_1140274768Mixin {
             info.setReturnValue(net.minecraft.world.level.block.state.properties.TestBlockMode.START);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasTriggered()Z", cancellable = true)
-    private void hasTriggered__664576183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-664576183L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
-    private void setPowered__799449810(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-799449810L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
-    private void isPowered__559713172(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-559713172L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__982499102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-982499102L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
@@ -73,16 +61,28 @@ public class TestBlockEntity_1140274768Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__982499102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-982499102L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getUpdateTag_562134888(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(562134888L))
             info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasTriggered()Z", cancellable = true)
+    private void hasTriggered__664576183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-664576183L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPowered()Z", cancellable = true)
+    private void isPowered__559713172(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-559713172L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPowered(Z)V", cancellable = true)
+    private void setPowered__799449810(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-799449810L))
+            info.cancel();
     }
 
 

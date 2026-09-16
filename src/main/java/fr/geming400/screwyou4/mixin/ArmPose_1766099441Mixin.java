@@ -19,10 +19,10 @@ public class ArmPose_1766099441Mixin {
             info.setReturnValue(net.minecraft.client.model.HumanoidModel.ArmPose.CROSSBOW_HOLD);
     }
 
-    @Inject(at = @At("HEAD"), method = "affectsOffhandPose()Z", cancellable = true)
-    private void affectsOffhandPose__825157354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-825157354L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "animateUseItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void animateUseItem__761667698(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-761667698L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "isTwoHanded()Z", cancellable = true)
@@ -31,10 +31,10 @@ public class ArmPose_1766099441Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateUseItem(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;FLnet/minecraft/world/entity/HumanoidArm;Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void animateUseItem__761667698(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-761667698L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "affectsOffhandPose()Z", cancellable = true)
+    private void affectsOffhandPose__825157354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-825157354L))
+            info.setReturnValue(false);
     }
 
 

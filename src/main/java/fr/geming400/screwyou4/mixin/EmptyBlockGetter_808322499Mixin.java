@@ -19,9 +19,15 @@ public class EmptyBlockGetter_808322499Mixin {
             info.setReturnValue(net.minecraft.world.level.EmptyBlockGetter.INSTANCE);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
-    private void getBlockEntity__1950872864(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1950872864L))
+    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
+    private void getMinY_1093582091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1093582091L))
+            info.setReturnValue(-467166206);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getBlockState__1946762206(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1946762206L))
             info.setReturnValue(null);
     }
 
@@ -34,18 +40,12 @@ public class EmptyBlockGetter_808322499Mixin {
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__917294677(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-917294677L))
-            info.setReturnValue(818511414);
+            info.setReturnValue(1618368814);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMinY()I", cancellable = true)
-    private void getMinY_1093582091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1093582091L))
-            info.setReturnValue(-1267023606);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getBlockState__1946762206(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1946762206L))
+    @Inject(at = @At("HEAD"), method = "getBlockEntity(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
+    private void getBlockEntity__1950872864(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1950872864L))
             info.setReturnValue(null);
     }
 

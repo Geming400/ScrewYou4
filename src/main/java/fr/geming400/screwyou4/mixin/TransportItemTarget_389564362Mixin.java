@@ -22,7 +22,7 @@ public class TransportItemTarget_389564362Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_946916452(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(946916452L))
-            info.setReturnValue(1607486821);
+            info.setReturnValue(1110173021);
     }
 
     @Inject(at = @At("HEAD"), method = "container()Lnet/minecraft/world/Container;", cancellable = true)

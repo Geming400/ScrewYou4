@@ -13,15 +13,15 @@ public class RabbitJumpControl_1798479421Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "wantJump()Z", cancellable = true)
-    private void wantJump_2098596949(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2098596949L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "canJump()Z", cancellable = true)
     private void canJump_1681626773(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1681626773L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wantJump()Z", cancellable = true)
+    private void wantJump_2098596949(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2098596949L))
             info.setReturnValue(false);
     }
 

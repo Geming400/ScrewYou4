@@ -19,27 +19,9 @@ public class FlatLevelGeneratorSettings_1317981581Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setAddLakes()V", cancellable = true)
-    private void setAddLakes__312938438(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-312938438L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDecoration()V", cancellable = true)
-    private void setDecoration__2004257587(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2004257587L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDefaultBiome(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/core/Holder;", cancellable = true)
-    private static void getDefaultBiome_1019041625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1019041625L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createLakesList(Lnet/minecraft/core/HolderGetter;)Ljava/util/List;", cancellable = true)
-    private static void createLakesList_1472809354(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1472809354L))
+    @Inject(at = @At("HEAD"), method = "structureOverrides()Ljava/util/Optional;", cancellable = true)
+    private void structureOverrides_2062050606(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2062050606L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +31,15 @@ public class FlatLevelGeneratorSettings_1317981581Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "structureOverrides()Ljava/util/Optional;", cancellable = true)
-    private void structureOverrides_2062050606(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2062050606L))
+    @Inject(at = @At("HEAD"), method = "getDefaultBiome(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/core/Holder;", cancellable = true)
+    private static void getDefaultBiome_1019041625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1019041625L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withBiomeAndLayers(Ljava/util/List;Ljava/util/Optional;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
+    private void withBiomeAndLayers_793759186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(793759186L))
             info.setReturnValue(null);
     }
 
@@ -61,10 +49,22 @@ public class FlatLevelGeneratorSettings_1317981581Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withBiomeAndLayers(Ljava/util/List;Ljava/util/Optional;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/flat/FlatLevelGeneratorSettings;", cancellable = true)
-    private void withBiomeAndLayers_793759186(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(793759186L))
+    @Inject(at = @At("HEAD"), method = "setDecoration()V", cancellable = true)
+    private void setDecoration__2004257587(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2004257587L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLakesList(Lnet/minecraft/core/HolderGetter;)Ljava/util/List;", cancellable = true)
+    private static void createLakesList_1472809354(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1472809354L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setAddLakes()V", cancellable = true)
+    private void setAddLakes__312938438(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-312938438L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getLayers()Ljava/util/List;", cancellable = true)

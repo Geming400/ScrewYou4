@@ -22,13 +22,7 @@ public class PiercingWeapon1646310751Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2091304454(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2091304454L))
-            info.setReturnValue(-1767352779);
-    }
-
-    @Inject(at = @At("HEAD"), method = "dealsKnockback()Z", cancellable = true)
-    private void dealsKnockback_1469157794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1469157794L))
-            info.setReturnValue(true);
+            info.setReturnValue(1947691717);
     }
 
     @Inject(at = @At("HEAD"), method = "attack(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/EquipmentSlot;)V", cancellable = true)
@@ -43,28 +37,34 @@ public class PiercingWeapon1646310751Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "dismounts()Z", cancellable = true)
-    private void dismounts_1533466254(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1533466254L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "makeSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void makeSound__899632468(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-899632468L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hitSound()Ljava/util/Optional;", cancellable = true)
-    private void hitSound_367639625(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(367639625L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "dealsKnockback()Z", cancellable = true)
+    private void dealsKnockback_1469157794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1469157794L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dismounts()Z", cancellable = true)
+    private void dismounts_1533466254(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1533466254L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canHitEntity(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
     private static void canHitEntity_908809800(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(908809800L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hitSound()Ljava/util/Optional;", cancellable = true)
+    private void hitSound_367639625(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(367639625L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "makeHitSound(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)

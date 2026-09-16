@@ -13,10 +13,10 @@ public class Builder_1135007148Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSource(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
-    private void withSource__1115424258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1115424258L))
-            info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
+    @Inject(at = @At("HEAD"), method = "withObjectInfoValidator(Ljava/util/function/Predicate;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
+    private void withObjectInfoValidator_705751633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(705751633L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setDepthLimitBehavior(Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
@@ -31,10 +31,10 @@ public class Builder_1135007148Mixin {
             info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "withObjectInfoValidator(Ljava/util/function/Predicate;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
-    private void withObjectInfoValidator_705751633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(705751633L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "withSource(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)
+    private void withSource__1115424258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1115424258L))
+            info.setReturnValue(new net.minecraft.network.chat.ResolutionContext.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "withEntityOverride(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/ResolutionContext$Builder;", cancellable = true)

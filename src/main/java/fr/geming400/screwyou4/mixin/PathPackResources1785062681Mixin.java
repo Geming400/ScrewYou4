@@ -25,15 +25,27 @@ public class PathPackResources1785062681Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNamespaces(Ljava/nio/file/Path;)Ljava/util/Set;", cancellable = true)
-    private static void getNamespaces__1573084892(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1573084892L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
+    private static void listPath__1222746736(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1222746736L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "validatePath(Ljava/nio/file/Path;)Z", cancellable = true)
+    private static void validatePath__1135342804(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1135342804L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getNamespaces(Lnet/minecraft/server/packs/PackType;)Ljava/util/Set;", cancellable = true)
     private void getNamespaces__1884669920(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1884669920L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNamespaces(Ljava/nio/file/Path;)Ljava/util/Set;", cancellable = true)
+    private static void getNamespaces__1573084892(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1573084892L))
             info.setReturnValue(null);
     }
 
@@ -47,18 +59,6 @@ public class PathPackResources1785062681Mixin {
     private void listResources_467797149(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(467797149L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "listPath(Ljava/lang/String;Ljava/nio/file/Path;Ljava/util/List;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V", cancellable = true)
-    private static void listPath__1222746736(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1222746736L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "validatePath(Ljava/nio/file/Path;)Z", cancellable = true)
-    private static void validatePath__1135342804(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1135342804L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getRootResource([Ljava/lang/String;)Lnet/minecraft/server/packs/resources/IoSupplier;", cancellable = true)

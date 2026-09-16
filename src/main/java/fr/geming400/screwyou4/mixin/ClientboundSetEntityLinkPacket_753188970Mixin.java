@@ -28,13 +28,13 @@ public class ClientboundSetEntityLinkPacket_753188970Mixin {
     @Inject(at = @At("HEAD"), method = "getSourceId()I", cancellable = true)
     private void getSourceId_1329736131(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1329736131L))
-            info.setReturnValue(522377660);
+            info.setReturnValue(419256460);
     }
 
     @Inject(at = @At("HEAD"), method = "getDestId()I", cancellable = true)
     private void getDestId_6555612(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(6555612L))
-            info.setReturnValue(-1291471991);
+            info.setReturnValue(-1393594491);
     }
 
 

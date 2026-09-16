@@ -19,18 +19,6 @@ public class FileFixerUpper_1152417332Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
-    private static void worldVersionToFileFixerVersion__1172625923(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1172625923L))
-            info.setReturnValue(-616236323);
-    }
-
-    @Inject(at = @At("HEAD"), method = "detectFileSystemCapabilities(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileSystemCapabilities;", cancellable = true)
-    private static void detectFileSystemCapabilities_1457284154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1457284154L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "requiresFileFixing(I)Z", cancellable = true)
     private void requiresFileFixing__440297030(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-440297030L))
@@ -41,6 +29,18 @@ public class FileFixerUpper_1152417332Mixin {
     private void applyFileFixers_1940690557(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1940690557L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldVersionToFileFixerVersion(I)I", cancellable = true)
+    private static void worldVersionToFileFixerVersion__1172625923(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1172625923L))
+            info.setReturnValue(-491317923);
+    }
+
+    @Inject(at = @At("HEAD"), method = "detectFileSystemCapabilities(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileSystemCapabilities;", cancellable = true)
+    private static void detectFileSystemCapabilities_1457284154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1457284154L))
+            info.setReturnValue(null);
     }
 
 

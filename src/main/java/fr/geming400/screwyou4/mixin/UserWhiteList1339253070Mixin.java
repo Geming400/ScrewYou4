@@ -37,16 +37,16 @@ public class UserWhiteList1339253070Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getUserList()[Ljava/lang/String;", cancellable = true)
-    private void getUserList__1256279695(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1256279695L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isWhiteListed(Lnet/minecraft/server/players/NameAndId;)Z", cancellable = true)
     private void isWhiteListed_520445350(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(520445350L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUserList()[Ljava/lang/String;", cancellable = true)
+    private void getUserList__1256279695(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1256279695L))
+            info.setReturnValue(null);
     }
 
 

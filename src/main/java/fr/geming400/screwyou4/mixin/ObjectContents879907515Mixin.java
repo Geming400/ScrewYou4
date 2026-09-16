@@ -22,7 +22,7 @@ public class ObjectContents879907515Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1437259606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1437259606L))
-            info.setReturnValue(1313945817);
+            info.setReturnValue(1715399117);
     }
 
     @Inject(at = @At("HEAD"), method = "resolve(Lnet/minecraft/network/chat/ResolutionContext;I)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)

@@ -28,7 +28,7 @@ public class CubeMobPredicate1644926674Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2092688531(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2092688531L))
-            info.setReturnValue(-927234235);
+            info.setReturnValue(-907205435);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

@@ -22,7 +22,7 @@ public class GeneratedTest1239734691Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1797086782(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1797086782L))
-            info.setReturnValue(858560390);
+            info.setReturnValue(586831090);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Ljava/util/function/Consumer;", cancellable = true)
@@ -31,15 +31,15 @@ public class GeneratedTest1239734691Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "functionKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
-    private void functionKey__1915605171(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1915605171L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "tests()Ljava/util/Map;", cancellable = true)
     private void tests_2042907850(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2042907850L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "functionKey()Lnet/minecraft/resources/ResourceKey;", cancellable = true)
+    private void functionKey__1915605171(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1915605171L))
             info.setReturnValue(null);
     }
 

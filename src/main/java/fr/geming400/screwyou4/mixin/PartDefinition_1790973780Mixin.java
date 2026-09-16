@@ -19,36 +19,6 @@ public class PartDefinition_1790973780Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "retainPartsAndChildren(Ljava/util/Set;)V", cancellable = true)
-    private void retainPartsAndChildren_1372551574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1372551574L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "retainExactParts(Ljava/util/Set;)V", cancellable = true)
-    private void retainExactParts_436782849(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(436782849L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addOrReplaceChild(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/PartDefinition;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
-    private void addOrReplaceChild__956644432(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-956644432L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addOrReplaceChild(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/CubeListBuilder;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
-    private void addOrReplaceChild_553715908(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(553715908L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "transformed(Ljava/util/function/UnaryOperator;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
-    private void transformed_609830047(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(609830047L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "clearRecursively()Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
     private void clearRecursively__922541499(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-922541499L))
@@ -65,6 +35,36 @@ public class PartDefinition_1790973780Mixin {
     private void clearChild__229408494(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-229408494L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "transformed(Ljava/util/function/UnaryOperator;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
+    private void transformed_609830047(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(609830047L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOrReplaceChild(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/CubeListBuilder;Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
+    private void addOrReplaceChild_553715908(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(553715908L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOrReplaceChild(Ljava/lang/String;Lnet/minecraft/client/model/geom/builders/PartDefinition;)Lnet/minecraft/client/model/geom/builders/PartDefinition;", cancellable = true)
+    private void addOrReplaceChild__956644432(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-956644432L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "retainExactParts(Ljava/util/Set;)V", cancellable = true)
+    private void retainExactParts_436782849(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(436782849L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "retainPartsAndChildren(Ljava/util/Set;)V", cancellable = true)
+    private void retainPartsAndChildren_1372551574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1372551574L))
+            info.cancel();
     }
 
 

@@ -19,10 +19,10 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
-    private void onSyncedDataUpdated_1853365707(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1853365707L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
+    private void canUseSlot_1222204831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1222204831L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
@@ -43,28 +43,16 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "onSyncedDataUpdated(Lnet/minecraft/network/syncher/EntityDataAccessor;)V", cancellable = true)
+    private void onSyncedDataUpdated_1853365707(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1853365707L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "thunderHit(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LightningBolt;)V", cancellable = true)
     private void thunderHit_245558559(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(245558559L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getLeashOffset__1608152994(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1608152994L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canUseSlot(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
-    private void canUseSlot_1222204831(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1222204831L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
-    private void mobInteract__1139180409(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1139180409L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;", cancellable = true)
@@ -79,16 +67,28 @@ public class Pig_1146631360Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isFood_1122504947(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1122504947L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;", cancellable = true)
+    private void mobInteract__1139180409(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1139180409L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getLeashOffset__1608152994(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1608152994L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "boost()Z", cancellable = true)
     private void boost__1469385549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1469385549L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isFood(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isFood_1122504947(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1122504947L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)

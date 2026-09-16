@@ -13,10 +13,10 @@ public class StatsScreen_910252163Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "onStatsUpdated()V", cancellable = true)
-    private void onStatsUpdated__1427265158(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1427265158L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_879198531(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(879198531L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
@@ -25,10 +25,10 @@ public class StatsScreen_910252163Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_879198531(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(879198531L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "onStatsUpdated()V", cancellable = true)
+    private void onStatsUpdated__1427265158(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1427265158L))
+            info.cancel();
     }
 
 

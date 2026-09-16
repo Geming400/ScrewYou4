@@ -25,15 +25,15 @@ public class ClientAdvancements689077594Mixin {
             info.setReturnValue(new net.minecraft.advancements.AdvancementTree());
     }
 
-    @Inject(at = @At("HEAD"), method = "setSelectedTab(Lnet/minecraft/advancements/AdvancementHolder;Z)V", cancellable = true)
-    private void setSelectedTab_194654756(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(194654756L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "setListener(Lnet/minecraft/client/multiplayer/ClientAdvancements$Listener;)V", cancellable = true)
     private void setListener__1240773327(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1240773327L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSelectedTab(Lnet/minecraft/advancements/AdvancementHolder;Z)V", cancellable = true)
+    private void setSelectedTab_194654756(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(194654756L))
             info.cancel();
     }
 

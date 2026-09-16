@@ -22,7 +22,7 @@ public class State_1128358947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1685711037(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1685711037L))
-            info.setReturnValue(-1071945250);
+            info.setReturnValue(-771287250);
     }
 
     @Inject(at = @At("HEAD"), method = "shakeDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -34,7 +34,7 @@ public class State_1128358947Mixin {
     @Inject(at = @At("HEAD"), method = "ticks()F", cancellable = true)
     private void ticks__747739633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-747739633L))
-            info.setReturnValue(1.629894E8F);
+            info.setReturnValue(4.636474E8F);
     }
 
 

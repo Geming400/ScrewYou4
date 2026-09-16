@@ -22,7 +22,7 @@ public class TemplateFeatureConfiguration1621418234Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2116196971(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2116196971L))
-            info.setReturnValue(1352217142);
+            info.setReturnValue(913899342);
     }
 
     @Inject(at = @At("HEAD"), method = "templates()Lnet/minecraft/util/random/WeightedList;", cancellable = true)

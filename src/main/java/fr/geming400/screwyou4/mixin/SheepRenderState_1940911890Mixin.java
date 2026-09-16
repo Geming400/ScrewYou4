@@ -10,7 +10,7 @@ public class SheepRenderState_1940911890Mixin {
         @Inject(at = @At("HEAD"), method = "getWoolColor()I", cancellable = true)
     private void getWoolColor__1304816385(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1304816385L))
-            info.setReturnValue(-1469999780);
+            info.setReturnValue(-1603152680);
     }
 
 

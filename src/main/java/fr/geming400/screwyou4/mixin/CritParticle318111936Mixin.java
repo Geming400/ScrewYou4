@@ -22,7 +22,7 @@ public class CritParticle318111936Mixin {
     @Inject(at = @At("HEAD"), method = "getQuadSize(F)F", cancellable = true)
     private void getQuadSize_1982963255(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1982963255L))
-            info.setReturnValue(2.678299E8F);
+            info.setReturnValue(4.503819E8F);
     }
 
 

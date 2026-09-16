@@ -37,15 +37,15 @@ public class RandomPos_270368125Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "moveUpOutOfSolid(Lnet/minecraft/core/BlockPos;ILjava/util/function/Predicate;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private static void moveUpOutOfSolid__1736727081(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1736727081L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "moveUpToAboveSolid(Lnet/minecraft/core/BlockPos;IILjava/util/function/Predicate;)Lnet/minecraft/core/BlockPos;", cancellable = true)
     private static void moveUpToAboveSolid_447290765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(447290765L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "moveUpOutOfSolid(Lnet/minecraft/core/BlockPos;ILjava/util/function/Predicate;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private static void moveUpOutOfSolid__1736727081(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1736727081L))
             info.setReturnValue(null);
     }
 

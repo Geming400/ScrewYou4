@@ -28,7 +28,7 @@ public class MapBanner2097523850Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1640091355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1640091355L))
-            info.setReturnValue(-1355987264);
+            info.setReturnValue(-1484618464);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()Ljava/lang/String;", cancellable = true)

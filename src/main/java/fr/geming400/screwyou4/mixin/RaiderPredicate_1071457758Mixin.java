@@ -22,7 +22,7 @@ public class RaiderPredicate_1071457758Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1628809848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1628809848L))
-            info.setReturnValue(-599484380);
+            info.setReturnValue(-84914980);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)
@@ -31,15 +31,15 @@ public class RaiderPredicate_1071457758Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "hasRaid()Z", cancellable = true)
-    private void hasRaid__1052348208(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1052348208L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isCaptain()Z", cancellable = true)
     private void isCaptain_1387792698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1387792698L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasRaid()Z", cancellable = true)
+    private void hasRaid__1052348208(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1052348208L))
             info.setReturnValue(true);
     }
 

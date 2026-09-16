@@ -22,7 +22,7 @@ public class VanillaEquipmentLoot41123533Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_598475624(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(598475624L))
-            info.setReturnValue(-1493949368);
+            info.setReturnValue(-1613145168);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)
@@ -31,16 +31,16 @@ public class VanillaEquipmentLoot41123533Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "trialChamberEquipment(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/equipment/trim/ArmorTrim;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
-    private static void trialChamberEquipment_1774291450(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1774291450L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "registries()Lnet/minecraft/core/HolderLookup$Provider;", cancellable = true)
     private void registries_1770365699(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1770365699L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "trialChamberEquipment(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/equipment/trim/ArmorTrim;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;", cancellable = true)
+    private static void trialChamberEquipment_1774291450(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1774291450L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.LootTable.Builder());
     }
 
 

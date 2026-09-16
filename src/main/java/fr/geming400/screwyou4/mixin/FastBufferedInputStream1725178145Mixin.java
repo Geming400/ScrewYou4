@@ -16,25 +16,25 @@ public class FastBufferedInputStream1725178145Mixin {
     @Inject(at = @At("HEAD"), method = "read([BII)I", cancellable = true)
     private void read__1185061544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1185061544L))
-            info.setReturnValue(1073260198);
+            info.setReturnValue(269953798);
     }
 
     @Inject(at = @At("HEAD"), method = "read()I", cancellable = true)
     private void read_558705457(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(558705457L))
-            info.setReturnValue(-1811978103);
+            info.setReturnValue(1679682793);
     }
 
     @Inject(at = @At("HEAD"), method = "skip(J)J", cancellable = true)
     private void skip_619347201(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(619347201L))
-            info.setReturnValue(-6690004873901656887L);
+            info.setReturnValue(-6690004874704963287L);
     }
 
     @Inject(at = @At("HEAD"), method = "available()I", cancellable = true)
     private void available__381763106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-381763106L))
-            info.setReturnValue(2014609533);
+            info.setReturnValue(1211303133);
     }
 
 

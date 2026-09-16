@@ -13,9 +13,15 @@ public class MusicManager1214631948Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setMinutesBetweenSongs(Lnet/minecraft/client/sounds/MusicManager$MusicFrequency;)V", cancellable = true)
-    private void setMinutesBetweenSongs__819253871(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-819253871L))
+    @Inject(at = @At("HEAD"), method = "stopPlaying()V", cancellable = true)
+    private void stopPlaying__2125112205(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2125112205L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "stopPlaying(Lnet/minecraft/sounds/Music;)V", cancellable = true)
+    private void stopPlaying_481448148(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(481448148L))
             info.cancel();
     }
 
@@ -31,18 +37,6 @@ public class MusicManager1214631948Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "stopPlaying(Lnet/minecraft/sounds/Music;)V", cancellable = true)
-    private void stopPlaying_481448148(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(481448148L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "stopPlaying()V", cancellable = true)
-    private void stopPlaying__2125112205(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2125112205L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "showNowPlayingToastIfNeeded()V", cancellable = true)
     private void showNowPlayingToastIfNeeded_1718956059(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1718956059L))
@@ -53,6 +47,12 @@ public class MusicManager1214631948Mixin {
     private void getCurrentMusicTranslationKey_301421765(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(301421765L))
             info.setReturnValue("p@:k12R#hH\uD6C7\uBBF7yW[=]CMovTf$(USst@\uA45E6e%F< +Ya[N {;+\uCCD5OB\u88FA\u8A0979}4\u167Ao\uA2B0*");
+    }
+
+    @Inject(at = @At("HEAD"), method = "setMinutesBetweenSongs(Lnet/minecraft/client/sounds/MusicManager$MusicFrequency;)V", cancellable = true)
+    private void setMinutesBetweenSongs__819253871(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-819253871L))
+            info.cancel();
     }
 
 

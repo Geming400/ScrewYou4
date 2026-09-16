@@ -22,7 +22,7 @@ public class DifficultyButtons_2103613944Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1634001262(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1634001262L))
-            info.setReturnValue(810130510);
+            info.setReturnValue(1564083310);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/Level;Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/screens/options/DifficultyButtons;", cancellable = true)

@@ -22,24 +22,12 @@ public class AttributeTrack1721732463Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2015882742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2015882742L))
-            info.setReturnValue(-565576316);
+            info.setReturnValue(206744284);
     }
 
     @Inject(at = @At("HEAD"), method = "modifier()Lnet/minecraft/world/attribute/modifier/AttributeModifier;", cancellable = true)
     private void modifier_1713389205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1713389205L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
-    private void bakeSampler__1895485992(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1895485992L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
-    private void argumentTrack_149081287(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(149081287L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +37,21 @@ public class AttributeTrack1721732463Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "bakeSampler(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;Ljava/util/Optional;Lnet/minecraft/world/clock/ClockManager;)Lnet/minecraft/world/timeline/AttributeTrackSampler;", cancellable = true)
+    private void bakeSampler__1895485992(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1895485992L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createCodec(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/Codec;", cancellable = true)
     private static void createCodec_1673269061(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1673269061L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "argumentTrack()Lnet/minecraft/util/KeyframeTrack;", cancellable = true)
+    private void argumentTrack_149081287(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(149081287L))
             info.setReturnValue(null);
     }
 

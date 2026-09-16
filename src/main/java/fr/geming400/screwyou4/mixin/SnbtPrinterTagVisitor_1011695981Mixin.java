@@ -19,15 +19,33 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
             info.setReturnValue("DYi_&S<\u0A4B_lGl\u0D9B[^lgx\u4F0C\u311DR3");
     }
 
-    @Inject(at = @At("HEAD"), method = "visitDouble(Lnet/minecraft/nbt/DoubleTag;)V", cancellable = true)
-    private void visitDouble_1027628300(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1027628300L))
+    @Inject(at = @At("HEAD"), method = "visitCompound(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
+    private void visitCompound__35047872(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-35047872L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitList(Lnet/minecraft/nbt/ListTag;)V", cancellable = true)
+    private void visitList_626022694(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(626022694L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitByte(Lnet/minecraft/nbt/ByteTag;)V", cancellable = true)
+    private void visitByte_729909242(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(729909242L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "visitByteArray(Lnet/minecraft/nbt/ByteArrayTag;)V", cancellable = true)
     private void visitByteArray_1590592796(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1590592796L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "visitDouble(Lnet/minecraft/nbt/DoubleTag;)V", cancellable = true)
+    private void visitDouble_1027628300(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1027628300L))
             info.cancel();
     }
 
@@ -49,21 +67,15 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "visitCompound(Lnet/minecraft/nbt/CompoundTag;)V", cancellable = true)
-    private void visitCompound__35047872(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-35047872L))
+    @Inject(at = @At("HEAD"), method = "visitLong(Lnet/minecraft/nbt/LongTag;)V", cancellable = true)
+    private void visitLong_692375266(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(692375266L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "visitFloat(Lnet/minecraft/nbt/FloatTag;)V", cancellable = true)
     private void visitFloat_1272666748(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1272666748L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitLong(Lnet/minecraft/nbt/LongTag;)V", cancellable = true)
-    private void visitLong_692375266(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(692375266L))
             info.cancel();
     }
 
@@ -82,18 +94,6 @@ public class SnbtPrinterTagVisitor_1011695981Mixin {
     @Inject(at = @At("HEAD"), method = "visitShort(Lnet/minecraft/nbt/ShortTag;)V", cancellable = true)
     private void visitShort__107741572(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-107741572L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitList(Lnet/minecraft/nbt/ListTag;)V", cancellable = true)
-    private void visitList_626022694(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(626022694L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitByte(Lnet/minecraft/nbt/ByteTag;)V", cancellable = true)
-    private void visitByte_729909242(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(729909242L))
             info.cancel();
     }
 

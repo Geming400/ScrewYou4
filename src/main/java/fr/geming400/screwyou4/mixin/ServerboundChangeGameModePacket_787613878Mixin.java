@@ -34,7 +34,7 @@ public class ServerboundChangeGameModePacket_787613878Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1344965968(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1344965968L))
-            info.setReturnValue(-442964036);
+            info.setReturnValue(-735324436);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

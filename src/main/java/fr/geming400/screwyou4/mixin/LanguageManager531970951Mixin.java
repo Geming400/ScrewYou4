@@ -13,12 +13,6 @@ public class LanguageManager531970951Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setSelected(Ljava/lang/String;)V", cancellable = true)
-    private void setSelected_1239833735(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1239833735L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getSelected()Ljava/lang/String;", cancellable = true)
     private void getSelected_1894701153(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1894701153L))
@@ -28,6 +22,12 @@ public class LanguageManager531970951Mixin {
     @Inject(at = @At("HEAD"), method = "onResourceManagerReload(Lnet/minecraft/server/packs/resources/ResourceManager;)V", cancellable = true)
     private void onResourceManagerReload_785215112(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(785215112L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setSelected(Ljava/lang/String;)V", cancellable = true)
+    private void setSelected_1239833735(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1239833735L))
             info.cancel();
     }
 

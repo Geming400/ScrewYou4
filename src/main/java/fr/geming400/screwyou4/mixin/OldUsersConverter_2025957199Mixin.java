@@ -19,21 +19,15 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "convertWhiteList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertWhiteList__1977828032(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1977828032L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "convertOpsList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
     private static void convertOpsList__1993427881(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1993427881L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "areOldUserlistsRemoved()Z", cancellable = true)
-    private static void areOldUserlistsRemoved_145250292(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(145250292L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertIpBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertIpBanlist_334689857(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(334689857L))
             info.setReturnValue(true);
     }
 
@@ -43,10 +37,16 @@ public class OldUsersConverter_2025957199Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "convertWhiteList(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
-    private static void convertWhiteList__1977828032(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1977828032L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "convertIpBanlist(Lnet/minecraft/server/MinecraftServer;)Z", cancellable = true)
+    private static void convertIpBanlist_334689857(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(334689857L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "areOldUserlistsRemoved()Z", cancellable = true)
+    private static void areOldUserlistsRemoved_145250292(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(145250292L))
+            info.setReturnValue(true);
     }
 
 

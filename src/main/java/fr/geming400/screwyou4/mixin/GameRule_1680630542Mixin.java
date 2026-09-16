@@ -49,6 +49,12 @@ public class GameRule_1680630542Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "deserialize(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void deserialize__1622843609(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1622843609L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "serialize(Ljava/lang/Object;)Ljava/lang/String;", cancellable = true)
     private void serialize__2004947110(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2004947110L))
@@ -61,27 +67,21 @@ public class GameRule_1680630542Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "requiredFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
+    private void requiredFeatures_777011875(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777011875L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getDescriptionId()Ljava/lang/String;", cancellable = true)
     private void getDescriptionId_343512663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(343512663L))
             info.setReturnValue("S\u8419O=Rf_l;\"=zgw.b\uF91AsRz\uB440n");
     }
 
-    @Inject(at = @At("HEAD"), method = "getCommandResult(Ljava/lang/Object;)I", cancellable = true)
-    private void getCommandResult_676597437(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(676597437L))
-            info.setReturnValue(-1056754274);
-    }
-
-    @Inject(at = @At("HEAD"), method = "gameRuleType()Lnet/minecraft/world/level/gamerules/GameRuleType;", cancellable = true)
-    private void gameRuleType_1833470517(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1833470517L))
-            info.setReturnValue(net.minecraft.world.level.gamerules.GameRuleType.INT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requiredFeatures()Lnet/minecraft/world/flag/FeatureFlagSet;", cancellable = true)
-    private void requiredFeatures_777011875(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777011875L))
+    @Inject(at = @At("HEAD"), method = "getIdentifierWithFallback()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getIdentifierWithFallback_1718004571(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1718004571L))
             info.setReturnValue(null);
     }
 
@@ -91,16 +91,16 @@ public class GameRule_1680630542Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getIdentifierWithFallback()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getIdentifierWithFallback_1718004571(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1718004571L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getCommandResult(Ljava/lang/Object;)I", cancellable = true)
+    private void getCommandResult_676597437(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(676597437L))
+            info.setReturnValue(-1179465774);
     }
 
-    @Inject(at = @At("HEAD"), method = "deserialize(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void deserialize__1622843609(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1622843609L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "gameRuleType()Lnet/minecraft/world/level/gamerules/GameRuleType;", cancellable = true)
+    private void gameRuleType_1833470517(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1833470517L))
+            info.setReturnValue(net.minecraft.world.level.gamerules.GameRuleType.INT);
     }
 
 

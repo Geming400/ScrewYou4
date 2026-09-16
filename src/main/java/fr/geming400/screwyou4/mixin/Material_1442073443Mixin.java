@@ -22,13 +22,7 @@ public class Material_1442073443Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1999425533(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1999425533L))
-            info.setReturnValue(425668877);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forceTranslucent()Z", cancellable = true)
-    private void forceTranslucent_278375019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(278375019L))
-            info.setReturnValue(true);
+            info.setReturnValue(745565677);
     }
 
     @Inject(at = @At("HEAD"), method = "sprite()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -41,6 +35,12 @@ public class Material_1442073443Mixin {
     private void withForceTranslucent__1572256575(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1572256575L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forceTranslucent()Z", cancellable = true)
+    private void forceTranslucent_278375019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(278375019L))
+            info.setReturnValue(true);
     }
 
 

@@ -19,15 +19,15 @@ public class Builder556686770Mixin {
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "withEnchantment(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
-    private void withEnchantment_1572695315(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1572695315L))
-            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "withOneOf(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
     private void withOneOf_399903093(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(399903093L))
+            info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "withEnchantment(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction$Builder;", cancellable = true)
+    private void withEnchantment_1572695315(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1572695315L))
             info.setReturnValue(new net.minecraft.world.level.storage.loot.functions.EnchantRandomlyFunction.Builder());
     }
 

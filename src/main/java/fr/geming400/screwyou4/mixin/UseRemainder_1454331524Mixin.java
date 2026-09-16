@@ -22,7 +22,7 @@ public class UseRemainder_1454331524Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2011683614(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2011683614L))
-            info.setReturnValue(-315356698);
+            info.setReturnValue(436134102);
     }
 
     @Inject(at = @At("HEAD"), method = "convertIntoRemainder(Lnet/minecraft/world/item/ItemStack;IZLnet/minecraft/world/item/component/UseRemainder$OnExtraCreatedRemainder;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)

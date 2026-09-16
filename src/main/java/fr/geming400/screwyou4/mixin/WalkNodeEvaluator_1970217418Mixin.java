@@ -25,10 +25,16 @@ public class WalkNodeEvaluator_1970217418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
-    private void getNeighbors__2097223323(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2097223323L))
-            info.setReturnValue(-760219687);
+    @Inject(at = @At("HEAD"), method = "getFloorLevel(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)D", cancellable = true)
+    private static void getFloorLevel__2032288627(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2032288627L))
+            info.setReturnValue(8.404354007871387E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private void getPathType__1149095034(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1149095034L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
     }
 
     @Inject(at = @At("HEAD"), method = "getPathTypeStatic(Lnet/minecraft/world/level/pathfinder/PathfindingContext;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
@@ -43,16 +49,10 @@ public class WalkNodeEvaluator_1970217418Mixin {
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
     }
 
-    @Inject(at = @At("HEAD"), method = "getFloorLevel(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)D", cancellable = true)
-    private static void getFloorLevel__2032288627(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2032288627L))
-            info.setReturnValue(2.9410900078713864E8D);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPathType(Lnet/minecraft/world/level/pathfinder/PathfindingContext;III)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private void getPathType__1149095034(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1149095034L))
-            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.BLOCKED);
+    @Inject(at = @At("HEAD"), method = "getNeighbors([Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)I", cancellable = true)
+    private void getNeighbors__2097223323(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2097223323L))
+            info.setReturnValue(-213893287);
     }
 
     @Inject(at = @At("HEAD"), method = "getStart()Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
@@ -67,16 +67,16 @@ public class WalkNodeEvaluator_1970217418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPathTypeOfMob(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/entity/Mob;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
-    private void getPathTypeOfMob__1450669231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1450669231L))
-            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.TRAPDOOR);
-    }
-
     @Inject(at = @At("HEAD"), method = "checkNeighbourBlocks(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/level/pathfinder/PathType;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
     private static void checkNeighbourBlocks_809223028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(809223028L))
             info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.RAIL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPathTypeOfMob(Lnet/minecraft/world/level/pathfinder/PathfindingContext;IIILnet/minecraft/world/entity/Mob;)Lnet/minecraft/world/level/pathfinder/PathType;", cancellable = true)
+    private void getPathTypeOfMob__1450669231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1450669231L))
+            info.setReturnValue(net.minecraft.world.level.pathfinder.PathType.TRAPDOOR);
     }
 
 

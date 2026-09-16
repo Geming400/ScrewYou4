@@ -28,7 +28,7 @@ public class ExpirableValue_1220955493Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1778307583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1778307583L))
-            info.setReturnValue(-604139118);
+            info.setReturnValue(-234183418);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;", cancellable = true)

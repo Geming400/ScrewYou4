@@ -22,7 +22,7 @@ public class BorderStatus_400653964Mixin {
     @Inject(at = @At("HEAD"), method = "getColor()I", cancellable = true)
     private void getColor_1339556580(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1339556580L))
-            info.setReturnValue(1108742300);
+            info.setReturnValue(1566521900);
     }
 
 

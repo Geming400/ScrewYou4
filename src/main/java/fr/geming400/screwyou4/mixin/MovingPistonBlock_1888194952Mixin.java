@@ -19,12 +19,6 @@ public class MovingPistonBlock_1888194952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
-    private void getTicker__418629704(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-418629704L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "newBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private void newBlockEntity_2029770336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2029770336L))
@@ -34,6 +28,12 @@ public class MovingPistonBlock_1888194952Mixin {
     @Inject(at = @At("HEAD"), method = "newMovingBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;ZZ)Lnet/minecraft/world/level/block/entity/BlockEntity;", cancellable = true)
     private static void newMovingBlockEntity__594759637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-594759637L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTicker(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntityType;)Lnet/minecraft/world/level/block/entity/BlockEntityTicker;", cancellable = true)
+    private void getTicker__418629704(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-418629704L))
             info.setReturnValue(null);
     }
 

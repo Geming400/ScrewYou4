@@ -22,7 +22,7 @@ public class FullConfig_1629517843Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2108097363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2108097363L))
-            info.setReturnValue(780513371);
+            info.setReturnValue(532244171);
     }
 
     @Inject(at = @At("HEAD"), method = "normal()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -31,22 +31,22 @@ public class FullConfig_1629517843Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requiredPlayerRange()I", cancellable = true)
-    private void requiredPlayerRange__1090472357(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1090472357L))
-            info.setReturnValue(-860617190);
-    }
-
     @Inject(at = @At("HEAD"), method = "ominous()Lnet/minecraft/core/Holder;", cancellable = true)
     private void ominous_1607832036(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1607832036L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "requiredPlayerRange()I", cancellable = true)
+    private void requiredPlayerRange__1090472357(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1090472357L))
+            info.setReturnValue(-1108886390);
+    }
+
     @Inject(at = @At("HEAD"), method = "targetCooldownLength()I", cancellable = true)
     private void targetCooldownLength_88438038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(88438038L))
-            info.setReturnValue(-870334532);
+            info.setReturnValue(-1118603732);
     }
 
     @Inject(at = @At("HEAD"), method = "overrideEntity(Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner$FullConfig;", cancellable = true)

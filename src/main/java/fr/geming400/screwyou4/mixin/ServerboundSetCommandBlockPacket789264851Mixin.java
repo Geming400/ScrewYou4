@@ -19,15 +19,15 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
-    private void handle_1426625025(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1426625025L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
     private void handle_493552988(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(493552988L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V", cancellable = true)
+    private void handle_1426625025(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1426625025L))
             info.cancel();
     }
 
@@ -43,12 +43,6 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
-    private void isTrackOutput_1255405096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1255405096L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
     private void getCommand_181135025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(181135025L))
@@ -59,6 +53,12 @@ public class ServerboundSetCommandBlockPacket789264851Mixin {
     private void isConditional__959081970(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-959081970L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
+    private void isTrackOutput_1255405096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1255405096L))
+            info.setReturnValue(true);
     }
 
 

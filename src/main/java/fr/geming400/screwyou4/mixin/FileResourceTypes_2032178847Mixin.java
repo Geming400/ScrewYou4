@@ -13,15 +13,15 @@ public class FileResourceTypes_2032178847Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "savedData(Lcom/mojang/datafixers/DSL$TypeReference;Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;)Lnet/minecraft/util/filefix/access/FileResourceType;", cancellable = true)
-    private static void savedData__1136649486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1136649486L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "savedData(Lcom/mojang/datafixers/DSL$TypeReference;)Lnet/minecraft/util/filefix/access/FileResourceType;", cancellable = true)
     private static void savedData_1087427105(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1087427105L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "savedData(Lcom/mojang/datafixers/DSL$TypeReference;Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;)Lnet/minecraft/util/filefix/access/FileResourceType;", cancellable = true)
+    private static void savedData__1136649486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1136649486L))
             info.setReturnValue(null);
     }
 

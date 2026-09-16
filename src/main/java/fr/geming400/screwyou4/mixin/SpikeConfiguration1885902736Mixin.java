@@ -22,7 +22,7 @@ public class SpikeConfiguration1885902736Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1851712469(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1851712469L))
-            info.setReturnValue(-1366159742);
+            info.setReturnValue(-1363388242);
     }
 
     @Inject(at = @At("HEAD"), method = "state()Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
@@ -31,15 +31,15 @@ public class SpikeConfiguration1885902736Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canPlaceOn()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
-    private void canPlaceOn_1947570631(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1947570631L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canReplace()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
     private void canReplace__545803111(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-545803111L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canPlaceOn()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
+    private void canPlaceOn_1947570631(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1947570631L))
             info.setReturnValue(null);
     }
 

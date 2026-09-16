@@ -19,16 +19,16 @@ public class Variant153425900Mixin {
             info.setReturnValue(net.minecraft.data.BlockFamily.Variant.CUT);
     }
 
-    @Inject(at = @At("HEAD"), method = "getRecipeGroup()Ljava/lang/String;", cancellable = true)
-    private void getRecipeGroup__120319600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-120319600L))
-            info.setReturnValue("\u5D40C\u608EH]%3kDaaj6oq\u4BDE,rB'#M8d%>c\uCB75YyDa24*R0PR\uC5D3pON|Y6-b][v\uC401RGU*@hD\u0E41(\u9E6FdDu\u9FB9RNALE\u2231\u23D7{8BM`3,,&8e\uCF3E1@(t9cQ");
-    }
-
     @Inject(at = @At("HEAD"), method = "getPrefixedRecipeGroup(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
     private void getPrefixedRecipeGroup_1817809301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1817809301L))
             info.setReturnValue("ar@_t\u588A\uAC9Dz8Xd4'8P\uCB1EreZ#k@r6MpEflzs'p\uD142!V|GFC\u2B80EP]\u4B0F\u26FB\u5D20;\u31A5rcF_b\u54FCV\uF9DE");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRecipeGroup()Ljava/lang/String;", cancellable = true)
+    private void getRecipeGroup__120319600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-120319600L))
+            info.setReturnValue("\u5D40C\u608EH]%3kDaaj6oq\u4BDE,rB'#M8d%>c\uCB75YyDa24*R0PR\uC5D3pON|Y6-b][v\uC401RGU*@hD\u0E41(\u9E6FdDu\u9FB9RNALE\u2231\u23D7{8BM`3,,&8e\uCF3E1@(t9cQ");
     }
 
     @Inject(at = @At("HEAD"), method = "getBaseVariantForCrafting()Lnet/minecraft/data/BlockFamily$Variant;", cancellable = true)

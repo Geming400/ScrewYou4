@@ -22,7 +22,7 @@ public class DialogListDialog_751658454Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1309010544(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1309010544L))
-            info.setReturnValue(-280582916);
+            info.setReturnValue(-92123716);
     }
 
     @Inject(at = @At("HEAD"), method = "common()Lnet/minecraft/server/dialog/CommonDialogData;", cancellable = true)
@@ -43,22 +43,22 @@ public class DialogListDialog_751658454Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
-    private void buttonWidth_1764025991(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1764025991L))
-            info.setReturnValue(135787734);
-    }
-
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void codec_1818103707(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1818103707L))
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "buttonWidth()I", cancellable = true)
+    private void buttonWidth_1764025991(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1764025991L))
+            info.setReturnValue(324246934);
+    }
+
     @Inject(at = @At("HEAD"), method = "columns()I", cancellable = true)
     private void columns_1144980990(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1144980990L))
-            info.setReturnValue(-120008619);
+            info.setReturnValue(68450581);
     }
 
 

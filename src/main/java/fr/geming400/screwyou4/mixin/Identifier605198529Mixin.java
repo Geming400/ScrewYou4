@@ -22,19 +22,19 @@ public class Identifier605198529Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1162550124(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1162550124L))
-            info.setReturnValue(756812405);
+            info.setReturnValue(1356839205);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/resources/Identifier;)I", cancellable = true)
     private void compareTo__2072055569(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2072055569L))
-            info.setReturnValue(-1924528136);
+            info.setReturnValue(-1324501336);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__1286905405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1286905405L))
-            info.setReturnValue(71034967);
+            info.setReturnValue(671061767);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -79,9 +79,21 @@ public class Identifier605198529Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getNamespace()Ljava/lang/String;", cancellable = true)
+    private void getNamespace_1827988783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1827988783L))
+            info.setReturnValue(")\u519C?@RHy%aoi(oi=");
+    }
+
     @Inject(at = @At("HEAD"), method = "fromNamespaceAndPath(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private static void fromNamespaceAndPath__773593353(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-773593353L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withDefaultNamespace(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void withDefaultNamespace__315492938(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-315492938L))
             info.setReturnValue(null);
     }
 
@@ -91,81 +103,15 @@ public class Identifier605198529Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "readNonEmpty(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void readNonEmpty__918929472(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-918929472L))
+    @Inject(at = @At("HEAD"), method = "tryBuild(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void tryBuild__386953249(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-386953249L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "resolveAgainst(Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)
-    private void resolveAgainst__997733483(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-997733483L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "bySeparator(Ljava/lang/String;C)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void bySeparator__1907070295(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1907070295L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isAllowedInIdentifier(C)Z", cancellable = true)
-    private static void isAllowedInIdentifier__755012145(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-755012145L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "toLanguageKey(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private void toLanguageKey_522947746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(522947746L))
-            info.setReturnValue("h!ki>^@lG6?mA';AQ5dj;fIMAt0 !dDl\u8BD3=1/m[\">|MJhgR\uB676\uA6CAb\u16639+GY \u3D7Dtu\uF90F\u1372]z\u4EA0\u0CF1<h\uA263'xO\u1E7Dj))DO9%\u9DC9\u461BdP");
-    }
-
-    @Inject(at = @At("HEAD"), method = "toLanguageKey(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
-    private void toLanguageKey__1711491092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1711491092L))
-            info.setReturnValue("l\u3F50yawZMv0%\uF9064R`__");
-    }
-
-    @Inject(at = @At("HEAD"), method = "toLanguageKey()Ljava/lang/String;", cancellable = true)
-    private void toLanguageKey_1451033014(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1451033014L))
-            info.setReturnValue("\uCC2E<|7k*@I\u7E9D/Rg/cNL|3L\u9244\u21DCCW4 ,^Y}gJ9V7oplX6{rj\"r#h`O9>$\uB38BV2/ 4)u\u7E14hyp&\u7461.-kg,Ym`c|t");
-    }
-
-    @Inject(at = @At("HEAD"), method = "toDebugFileName()Ljava/lang/String;", cancellable = true)
-    private void toDebugFileName_36132329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(36132329L))
-            info.setReturnValue(" hPgXim,!{XUiWP,>c");
-    }
-
-    @Inject(at = @At("HEAD"), method = "toShortLanguageKey()Ljava/lang/String;", cancellable = true)
-    private void toShortLanguageKey_1288099376(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1288099376L))
-            info.setReturnValue("M2\"],F-ib$Y!o9f$Q96ig=\uD1C8i/\u5C33FcKRiMADSjQunduv\u2B2C [Z6\u3A803Sx9=rR{F1Q03TU2\u38715@fb'c$&z=\u1687b*M\uC6F7-");
-    }
-
-    @Inject(at = @At("HEAD"), method = "validPathChar(C)Z", cancellable = true)
-    private static void validPathChar_1582696154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1582696154L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tryBySeparator(Ljava/lang/String;C)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void tryBySeparator_144263236(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(144263236L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidNamespace(Ljava/lang/String;)Z", cancellable = true)
-    private static void isValidNamespace_1464473809(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1464473809L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withDefaultNamespace(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void withDefaultNamespace__315492938(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-315492938L))
+    @Inject(at = @At("HEAD"), method = "tryParse(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void tryParse__461855634(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-461855634L))
             info.setReturnValue(null);
     }
 
@@ -181,22 +127,76 @@ public class Identifier605198529Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tryBuild(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void tryBuild__386953249(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-386953249L))
+    @Inject(at = @At("HEAD"), method = "validPathChar(C)Z", cancellable = true)
+    private static void validPathChar_1582696154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1582696154L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidNamespace(Ljava/lang/String;)Z", cancellable = true)
+    private static void isValidNamespace_1464473809(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1464473809L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "bySeparator(Ljava/lang/String;C)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void bySeparator__1907070295(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1907070295L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "tryParse(Ljava/lang/String;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private static void tryParse__461855634(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-461855634L))
+    @Inject(at = @At("HEAD"), method = "toShortLanguageKey()Ljava/lang/String;", cancellable = true)
+    private void toShortLanguageKey_1288099376(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1288099376L))
+            info.setReturnValue("M2\"],F-ib$Y!o9f$Q96ig=\uD1C8i/\u5C33FcKRiMADSjQunduv\u2B2C [Z6\u3A803Sx9=rR{F1Q03TU2\u38715@fb'c$&z=\u1687b*M\uC6F7-");
+    }
+
+    @Inject(at = @At("HEAD"), method = "toDebugFileName()Ljava/lang/String;", cancellable = true)
+    private void toDebugFileName_36132329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(36132329L))
+            info.setReturnValue(" hPgXim,!{XUiWP,>c");
+    }
+
+    @Inject(at = @At("HEAD"), method = "resolveAgainst(Ljava/nio/file/Path;)Ljava/nio/file/Path;", cancellable = true)
+    private void resolveAgainst__997733483(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-997733483L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNamespace()Ljava/lang/String;", cancellable = true)
-    private void getNamespace_1827988783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1827988783L))
-            info.setReturnValue(")\u519C?@RHy%aoi(oi=");
+    @Inject(at = @At("HEAD"), method = "readNonEmpty(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void readNonEmpty__918929472(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-918929472L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "toLanguageKey()Ljava/lang/String;", cancellable = true)
+    private void toLanguageKey_1451033014(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1451033014L))
+            info.setReturnValue("\uCC2E<|7k*@I\u7E9D/Rg/cNL|3L\u9244\u21DCCW4 ,^Y}gJ9V7oplX6{rj\"r#h`O9>$\uB38BV2/ 4)u\u7E14hyp&\u7461.-kg,Ym`c|t");
+    }
+
+    @Inject(at = @At("HEAD"), method = "toLanguageKey(Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private void toLanguageKey__1711491092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1711491092L))
+            info.setReturnValue("l\u3F50yawZMv0%\uF9064R`__");
+    }
+
+    @Inject(at = @At("HEAD"), method = "toLanguageKey(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;", cancellable = true)
+    private void toLanguageKey_522947746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(522947746L))
+            info.setReturnValue("h!ki>^@lG6?mA';AQ5dj;fIMAt0 !dDl\u8BD3=1/m[\">|MJhgR\uB676\uA6CAb\u16639+GY \u3D7Dtu\uF90F\u1372]z\u4EA0\u0CF1<h\uA263'xO\u1E7Dj))DO9%\u9DC9\u461BdP");
+    }
+
+    @Inject(at = @At("HEAD"), method = "tryBySeparator(Ljava/lang/String;C)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private static void tryBySeparator_144263236(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(144263236L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isAllowedInIdentifier(C)Z", cancellable = true)
+    private static void isAllowedInIdentifier__755012145(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-755012145L))
+            info.setReturnValue(false);
     }
 
 

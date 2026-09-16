@@ -22,7 +22,7 @@ public class FileToIdConverter300772848Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_858124939(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(858124939L))
-            info.setReturnValue(1811567288);
+            info.setReturnValue(1875490788);
     }
 
     @Inject(at = @At("HEAD"), method = "prefix()Ljava/lang/String;", cancellable = true)
@@ -37,30 +37,6 @@ public class FileToIdConverter300772848Mixin {
             info.setReturnValue("0`^tzBgUbN\u4C50[[bo$5f\uB9932r\u9A70,[WXmTP_\uBAB4/,#af\"b\u64CF6MY\u4164l=Q(bXV.V:\uD270#>=\u51E9|pN");
     }
 
-    @Inject(at = @At("HEAD"), method = "listMatchingResourceStacks(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;", cancellable = true)
-    private void listMatchingResourceStacks_1849783403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1849783403L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "json(Ljava/lang/String;)Lnet/minecraft/resources/FileToIdConverter;", cancellable = true)
-    private static void json_1706908190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1706908190L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "registry(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/FileToIdConverter;", cancellable = true)
-    private static void registry_1076982205(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1076982205L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "extensionMatches(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
-    private void extensionMatches_1727075003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1727075003L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "fileToId(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void fileToId__973087423(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-973087423L))
@@ -73,9 +49,33 @@ public class FileToIdConverter300772848Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "registry(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/FileToIdConverter;", cancellable = true)
+    private static void registry_1076982205(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1076982205L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "listMatchingResources(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;", cancellable = true)
     private void listMatchingResources_592057269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(592057269L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "json(Ljava/lang/String;)Lnet/minecraft/resources/FileToIdConverter;", cancellable = true)
+    private static void json_1706908190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1706908190L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "extensionMatches(Lnet/minecraft/resources/Identifier;)Z", cancellable = true)
+    private void extensionMatches_1727075003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1727075003L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "listMatchingResourceStacks(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;", cancellable = true)
+    private void listMatchingResourceStacks_1849783403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1849783403L))
             info.setReturnValue(null);
     }
 

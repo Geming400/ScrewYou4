@@ -19,12 +19,6 @@ public class WorldSessionTelemetryManager1215626710Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "worldSessionStart()V", cancellable = true)
-    private void worldSessionStart_765444907(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(765444907L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onAdvancementDone(Lnet/minecraft/world/level/Level;Lnet/minecraft/advancements/AdvancementHolder;)V", cancellable = true)
     private void onAdvancementDone__1304360474(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1304360474L))
@@ -46,6 +40,12 @@ public class WorldSessionTelemetryManager1215626710Mixin {
     @Inject(at = @At("HEAD"), method = "onPlayerInfoReceived(Lnet/minecraft/world/level/GameType;Z)V", cancellable = true)
     private void onPlayerInfoReceived__667679301(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-667679301L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "worldSessionStart()V", cancellable = true)
+    private void worldSessionStart_765444907(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(765444907L))
             info.cancel();
     }
 

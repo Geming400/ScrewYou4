@@ -7,7 +7,13 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.entity.animal.golem.SnowGolem.class)
 public class SnowGolem_668910117Mixin {
-        @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1994759613(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1994759613L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes_2044012106(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2044012106L))
             info.setReturnValue(null);
@@ -25,27 +31,15 @@ public class SnowGolem_668910117Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setPumpkin(Z)V", cancellable = true)
-    private void setPumpkin_860333319(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(860333319L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPumpkin()Z", cancellable = true)
-    private void hasPumpkin__1817210579(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1817210579L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getLeashOffset()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
     private void getLeashOffset__2085874237(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2085874237L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__1994759613(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1994759613L))
+    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
+    private void performRangedAttack_2051843629(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2051843629L))
             info.cancel();
     }
 
@@ -55,9 +49,15 @@ public class SnowGolem_668910117Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V", cancellable = true)
-    private void performRangedAttack_2051843629(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2051843629L))
+    @Inject(at = @At("HEAD"), method = "hasPumpkin()Z", cancellable = true)
+    private void hasPumpkin__1817210579(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1817210579L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setPumpkin(Z)V", cancellable = true)
+    private void setPumpkin_860333319(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(860333319L))
             info.cancel();
     }
 

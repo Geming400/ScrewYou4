@@ -19,6 +19,12 @@ public class TeleportToTeamMenuCategory_1507211248Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getPrompt()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getPrompt__244603812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-244603812L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;FF)V", cancellable = true)
     private void extractIcon_1961175409(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1961175409L))
@@ -35,12 +41,6 @@ public class TeleportToTeamMenuCategory_1507211248Mixin {
     private void selectItem_2069314136(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(2069314136L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPrompt()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getPrompt__244603812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-244603812L))
-            info.setReturnValue(null);
     }
 
 

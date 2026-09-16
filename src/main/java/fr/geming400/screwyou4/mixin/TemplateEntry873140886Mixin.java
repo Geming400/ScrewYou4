@@ -22,7 +22,7 @@ public class TemplateEntry873140886Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1430492977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430492977L))
-            info.setReturnValue(1051332367);
+            info.setReturnValue(780148467);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry;", cancellable = true)

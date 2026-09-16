@@ -22,7 +22,13 @@ public class DebugBeeInfo869023113Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1426375204(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1426375204L))
-            info.setReturnValue(582465221);
+            info.setReturnValue(941968221);
+    }
+
+    @Inject(at = @At("HEAD"), method = "travelTicks()I", cancellable = true)
+    private void travelTicks__744944269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-744944269L))
+            info.setReturnValue(586078138);
     }
 
     @Inject(at = @At("HEAD"), method = "blacklistedHives()Ljava/util/List;", cancellable = true)
@@ -31,15 +37,9 @@ public class DebugBeeInfo869023113Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "travelTicks()I", cancellable = true)
-    private void travelTicks__744944269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-744944269L))
-            info.setReturnValue(226575138);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hivePos()Ljava/util/Optional;", cancellable = true)
-    private void hivePos_761235451(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(761235451L))
+    @Inject(at = @At("HEAD"), method = "flowerPos()Ljava/util/Optional;", cancellable = true)
+    private void flowerPos__573738448(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-573738448L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +49,9 @@ public class DebugBeeInfo869023113Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "flowerPos()Ljava/util/Optional;", cancellable = true)
-    private void flowerPos__573738448(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-573738448L))
+    @Inject(at = @At("HEAD"), method = "hivePos()Ljava/util/Optional;", cancellable = true)
+    private void hivePos_761235451(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(761235451L))
             info.setReturnValue(null);
     }
 

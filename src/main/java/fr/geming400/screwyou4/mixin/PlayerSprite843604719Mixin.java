@@ -28,7 +28,7 @@ public class PlayerSprite843604719Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1400956810(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1400956810L))
-            info.setReturnValue(650476906);
+            info.setReturnValue(562743806);
     }
 
     @Inject(at = @At("HEAD"), method = "hat()Z", cancellable = true)

@@ -28,7 +28,7 @@ public class TridentItem_1390597033Mixin {
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration__1112492162(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1112492162L))
-            info.setReturnValue(1526864013);
+            info.setReturnValue(1639635613);
     }
 
     @Inject(at = @At("HEAD"), method = "asProjectile(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/Position;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/entity/projectile/Projectile;", cancellable = true)

@@ -34,7 +34,7 @@ public class ClientboundTagQueryPacket_1045396037Mixin {
     @Inject(at = @At("HEAD"), method = "getTransactionId()I", cancellable = true)
     private void getTransactionId__1934422745(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1934422745L))
-            info.setReturnValue(-1461341905);
+            info.setReturnValue(-1099815105);
     }
 
     @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)

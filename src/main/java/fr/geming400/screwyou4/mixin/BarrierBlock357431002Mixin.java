@@ -13,12 +13,6 @@ public class BarrierBlock357431002Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__2111757478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2111757478L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
     private void canPlaceLiquid_324861101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(324861101L))
@@ -28,6 +22,12 @@ public class BarrierBlock357431002Mixin {
     @Inject(at = @At("HEAD"), method = "pickupBlock(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void pickupBlock__609249022(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-609249022L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__2111757478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2111757478L))
             info.setReturnValue(null);
     }
 

@@ -7,16 +7,10 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.BrushableBlockEntity.class)
 public class BrushableBlockEntity207392466Mixin {
-        @Inject(at = @At("HEAD"), method = "brush(JLnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void brush__1138651451(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1138651451L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "checkReset(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
-    private void checkReset__1444299377(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1444299377L))
-            info.cancel();
+        @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem__286772865(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-286772865L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
@@ -49,10 +43,16 @@ public class BrushableBlockEntity207392466Mixin {
             info.setReturnValue(net.minecraft.core.Direction.EAST);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItem()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem__286772865(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-286772865L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "brush(JLnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void brush__1138651451(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1138651451L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "checkReset(Lnet/minecraft/server/level/ServerLevel;)V", cancellable = true)
+    private void checkReset__1444299377(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1444299377L))
+            info.cancel();
     }
 
 

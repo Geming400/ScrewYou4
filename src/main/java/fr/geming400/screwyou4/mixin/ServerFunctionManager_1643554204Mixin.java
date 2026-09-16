@@ -31,16 +31,10 @@ public class ServerFunctionManager_1643554204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "replaceLibrary(Lnet/minecraft/server/ServerFunctionLibrary;)V", cancellable = true)
-    private void replaceLibrary__1859743282(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1859743282L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;", cancellable = true)
-    private void getDispatcher__448649043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-448649043L))
-            info.setReturnValue(new com.mojang.brigadier.CommandDispatcher());
+    @Inject(at = @At("HEAD"), method = "getGameLoopSender()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)
+    private void getGameLoopSender__1948734935(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1948734935L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getFunctionNames()Ljava/lang/Iterable;", cancellable = true)
@@ -55,10 +49,16 @@ public class ServerFunctionManager_1643554204Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getGameLoopSender()Lnet/minecraft/commands/CommandSourceStack;", cancellable = true)
-    private void getGameLoopSender__1948734935(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1948734935L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "replaceLibrary(Lnet/minecraft/server/ServerFunctionLibrary;)V", cancellable = true)
+    private void replaceLibrary__1859743282(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1859743282L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDispatcher()Lcom/mojang/brigadier/CommandDispatcher;", cancellable = true)
+    private void getDispatcher__448649043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-448649043L))
+            info.setReturnValue(new com.mojang.brigadier.CommandDispatcher());
     }
 
 

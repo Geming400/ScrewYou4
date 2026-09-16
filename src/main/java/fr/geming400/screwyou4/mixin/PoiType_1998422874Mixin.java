@@ -22,7 +22,7 @@ public class PoiType_1998422874Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1739192332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1739192332L))
-            info.setReturnValue(-1519580807);
+            info.setReturnValue(-1670650407);
     }
 
     @Inject(at = @At("HEAD"), method = "is(Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
@@ -40,13 +40,13 @@ public class PoiType_1998422874Mixin {
     @Inject(at = @At("HEAD"), method = "maxTickets()I", cancellable = true)
     private void maxTickets__540697028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-540697028L))
-            info.setReturnValue(487409561);
+            info.setReturnValue(336339961);
     }
 
     @Inject(at = @At("HEAD"), method = "validRange()I", cancellable = true)
     private void validRange_1866202942(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1866202942L))
-            info.setReturnValue(964536838);
+            info.setReturnValue(813467238);
     }
 
 

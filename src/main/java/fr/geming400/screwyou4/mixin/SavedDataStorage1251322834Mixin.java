@@ -31,16 +31,16 @@ public class SavedDataStorage1251322834Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "scheduleSave()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
-    private void scheduleSave__711124317(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-711124317L))
-            info.setReturnValue(new java.util.concurrent.CompletableFuture());
-    }
-
     @Inject(at = @At("HEAD"), method = "saveAndJoin()V", cancellable = true)
     private void saveAndJoin__1827534431(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1827534431L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "scheduleSave()Ljava/util/concurrent/CompletableFuture;", cancellable = true)
+    private void scheduleSave__711124317(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-711124317L))
+            info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
     @Inject(at = @At("HEAD"), method = "readTagFromDisk(Ljava/nio/file/Path;Lnet/minecraft/util/datafix/DataFixTypes;I)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)

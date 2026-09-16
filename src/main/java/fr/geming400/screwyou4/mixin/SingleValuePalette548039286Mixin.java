@@ -22,7 +22,7 @@ public class SingleValuePalette548039286Mixin {
     @Inject(at = @At("HEAD"), method = "getSize()I", cancellable = true)
     private void getSize_982166085(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(982166085L))
-            info.setReturnValue(391959554);
+            info.setReturnValue(1205623254);
     }
 
     @Inject(at = @At("HEAD"), method = "create(ILjava/util/List;)Lnet/minecraft/world/level/chunk/Palette;", cancellable = true)
@@ -40,19 +40,19 @@ public class SingleValuePalette548039286Mixin {
     @Inject(at = @At("HEAD"), method = "getSerializedSize(Lnet/minecraft/core/IdMap;)I", cancellable = true)
     private void getSerializedSize_1430499563(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1430499563L))
-            info.setReturnValue(-1985232876);
-    }
-
-    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
-    private void idFor__1490619756(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1490619756L))
-            info.setReturnValue(-51415914);
+            info.setReturnValue(-1171569176);
     }
 
     @Inject(at = @At("HEAD"), method = "valueFor(I)Ljava/lang/Object;", cancellable = true)
     private void valueFor__2005277664(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2005277664L))
             info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "idFor(Ljava/lang/Object;Lnet/minecraft/world/level/chunk/PaletteResize;)I", cancellable = true)
+    private void idFor__1490619756(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1490619756L))
+            info.setReturnValue(762247786);
     }
 
     @Inject(at = @At("HEAD"), method = "maybeHas(Ljava/util/function/Predicate;)Z", cancellable = true)

@@ -25,22 +25,22 @@ public class ClientboundSetTitlesAnimationPacket1055951252Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getStay()I", cancellable = true)
+    private void getStay__954017269(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-954017269L))
+            info.setReturnValue(-1356782713);
+    }
+
     @Inject(at = @At("HEAD"), method = "getFadeOut()I", cancellable = true)
     private void getFadeOut_183673342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(183673342L))
-            info.setReturnValue(-2088652038);
+            info.setReturnValue(-1595951838);
     }
 
     @Inject(at = @At("HEAD"), method = "getFadeIn()I", cancellable = true)
     private void getFadeIn__1242577373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1242577373L))
-            info.setReturnValue(147358598);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStay()I", cancellable = true)
-    private void getStay__954017269(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-954017269L))
-            info.setReturnValue(-1849482913);
+            info.setReturnValue(640058798);
     }
 
 

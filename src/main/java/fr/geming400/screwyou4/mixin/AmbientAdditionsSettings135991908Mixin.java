@@ -22,19 +22,19 @@ public class AmbientAdditionsSettings135991908Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_693343999(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(693343999L))
-            info.setReturnValue(319982918);
+            info.setReturnValue(-77182482);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tickChance()D", cancellable = true)
+    private void tickChance_24429812(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(24429812L))
+            info.setReturnValue(2.211320001807343E7D);
     }
 
     @Inject(at = @At("HEAD"), method = "soundEvent()Lnet/minecraft/core/Holder;", cancellable = true)
     private void soundEvent_1441097269(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1441097269L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tickChance()D", cancellable = true)
-    private void tickChance_24429812(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(24429812L))
-            info.setReturnValue(4.1927860001807344E8D);
     }
 
 

@@ -22,7 +22,7 @@ public class SingleEnchantment1493561905Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2050913996(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2050913996L))
-            info.setReturnValue(-1463513372);
+            info.setReturnValue(-1856820172);
     }
 
     @Inject(at = @At("HEAD"), method = "level()Lnet/minecraft/util/valueproviders/IntProvider;", cancellable = true)

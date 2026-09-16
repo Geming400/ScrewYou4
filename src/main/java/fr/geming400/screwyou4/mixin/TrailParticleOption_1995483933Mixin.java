@@ -28,13 +28,13 @@ public class TrailParticleOption_1995483933Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1742131273(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1742131273L))
-            info.setReturnValue(-1285237728);
+            info.setReturnValue(-1083625628);
     }
 
     @Inject(at = @At("HEAD"), method = "duration()I", cancellable = true)
     private void duration_2083098606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2083098606L))
-            info.setReturnValue(-2025101515);
+            info.setReturnValue(-1823489415);
     }
 
     @Inject(at = @At("HEAD"), method = "getType()Lnet/minecraft/core/particles/ParticleType;", cancellable = true)
@@ -46,7 +46,7 @@ public class TrailParticleOption_1995483933Mixin {
     @Inject(at = @At("HEAD"), method = "color()I", cancellable = true)
     private void color__1062832257(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1062832257L))
-            info.setReturnValue(1178016325);
+            info.setReturnValue(1379628425);
     }
 
 

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.blockentity.StandingSignRenderer.class)
 public class StandingSignRenderer1496902990Mixin {
-        @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SignBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/StandingSignRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_1892911574(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1892911574L))
+        @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SignBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/SignRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_723498882(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(723498882L))
             info.cancel();
     }
 
@@ -19,9 +19,9 @@ public class StandingSignRenderer1496902990Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SignBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/SignRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState_723498882(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(723498882L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/SignBlockEntity;Lnet/minecraft/client/renderer/blockentity/state/StandingSignRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState_1892911574(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1892911574L))
             info.cancel();
     }
 

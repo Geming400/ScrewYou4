@@ -22,18 +22,18 @@ public class Configs_1513291169Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2070643259(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2070643259L))
-            info.setReturnValue(371072970);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shaderSources()Ljava/util/Map;", cancellable = true)
-    private void shaderSources__1457535595(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1457535595L))
-            info.setReturnValue(null);
+            info.setReturnValue(1051413170);
     }
 
     @Inject(at = @At("HEAD"), method = "postChains()Ljava/util/Map;", cancellable = true)
     private void postChains__1333210954(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1333210954L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shaderSources()Ljava/util/Map;", cancellable = true)
+    private void shaderSources__1457535595(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1457535595L))
             info.setReturnValue(null);
     }
 

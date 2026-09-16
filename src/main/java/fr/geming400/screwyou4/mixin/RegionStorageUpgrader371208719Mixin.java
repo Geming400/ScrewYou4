@@ -22,7 +22,7 @@ public class RegionStorageUpgrader371208719Mixin {
     @Inject(at = @At("HEAD"), method = "fileAmount()I", cancellable = true)
     private void fileAmount_1207229313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1207229313L))
-            info.setReturnValue(-1932737572);
+            info.setReturnValue(-1832870172);
     }
 
 

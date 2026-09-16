@@ -22,31 +22,31 @@ public class MapPatch1023846712Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1581198803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1581198803L))
-            info.setReturnValue(1740286782);
+            info.setReturnValue(1987549582);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__616301288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-616301288L))
-            info.setReturnValue(1242920177);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
-    private void startX__771528536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-771528536L))
-            info.setReturnValue(613818556);
-    }
-
-    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
-    private void startY__742899385(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-742899385L))
-            info.setReturnValue(-1488702770);
+            info.setReturnValue(1490182977);
     }
 
     @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
     private void height__61501865(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-61501865L))
-            info.setReturnValue(-1742491927);
+            info.setReturnValue(-1495229127);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startX()I", cancellable = true)
+    private void startX__771528536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-771528536L))
+            info.setReturnValue(861081356);
+    }
+
+    @Inject(at = @At("HEAD"), method = "startY()I", cancellable = true)
+    private void startY__742899385(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-742899385L))
+            info.setReturnValue(-1241439970);
     }
 
     @Inject(at = @At("HEAD"), method = "applyToMap(Lnet/minecraft/world/level/saveddata/maps/MapItemSavedData;)V", cancellable = true)

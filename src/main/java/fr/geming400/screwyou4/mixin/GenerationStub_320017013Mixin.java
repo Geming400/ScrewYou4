@@ -22,7 +22,7 @@ public class GenerationStub_320017013Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_877369103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(877369103L))
-            info.setReturnValue(933233889);
+            info.setReturnValue(865666689);
     }
 
     @Inject(at = @At("HEAD"), method = "position()Lnet/minecraft/core/BlockPos;", cancellable = true)

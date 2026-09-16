@@ -13,6 +13,12 @@ public class VegetationPlacements1101945916Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "worldSurfaceSquaredWithCount(I)Ljava/util/List;", cancellable = true)
+    private static void worldSurfaceSquaredWithCount__527259058(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-527259058L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "treePlacement(Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;)Ljava/util/List;", cancellable = true)
     private static void treePlacement_2139130983(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2139130983L))
@@ -22,12 +28,6 @@ public class VegetationPlacements1101945916Mixin {
     @Inject(at = @At("HEAD"), method = "treePlacement(Lnet/minecraft/world/level/levelgen/placement/PlacementModifier;Lnet/minecraft/world/level/block/Block;)Ljava/util/List;", cancellable = true)
     private static void treePlacement_999732921(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(999732921L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "worldSurfaceSquaredWithCount(I)Ljava/util/List;", cancellable = true)
-    private static void worldSurfaceSquaredWithCount__527259058(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-527259058L))
             info.setReturnValue(null);
     }
 

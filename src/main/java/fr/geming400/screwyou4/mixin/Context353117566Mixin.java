@@ -13,15 +13,45 @@ public class Context353117566Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getItemModelResolver()Lnet/minecraft/client/renderer/item/ItemModelResolver;", cancellable = true)
-    private void getItemModelResolver__1081646922(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1081646922L))
+    @Inject(at = @At("HEAD"), method = "getPlayerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
+    private void getPlayerSkinRenderCache__1528483912(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1528483912L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
+    private void getModelSet__972213822(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-972213822L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEquipmentRenderer()Lnet/minecraft/client/renderer/entity/layers/EquipmentLayerRenderer;", cancellable = true)
+    private void getEquipmentRenderer__1207442492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1207442492L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEquipmentAssets()Lnet/minecraft/client/resources/model/EquipmentAssetManager;", cancellable = true)
+    private void getEquipmentAssets__17595876(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-17595876L))
+            info.setReturnValue(new net.minecraft.client.resources.model.EquipmentAssetManager());
+    }
+
+    @Inject(at = @At("HEAD"), method = "bakeLayer(Lnet/minecraft/client/model/geom/ModelLayerLocation;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
+    private void bakeLayer_1361232224(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1361232224L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getMapRenderer()Lnet/minecraft/client/renderer/MapRenderer;", cancellable = true)
     private void getMapRenderer_1625571606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1625571606L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemModelResolver()Lnet/minecraft/client/renderer/item/ItemModelResolver;", cancellable = true)
+    private void getItemModelResolver__1081646922(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1081646922L))
             info.setReturnValue(null);
     }
 
@@ -40,36 +70,6 @@ public class Context353117566Mixin {
     @Inject(at = @At("HEAD"), method = "getResourceManager()Lnet/minecraft/server/packs/resources/ResourceManager;", cancellable = true)
     private void getResourceManager__551520883(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-551520883L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getModelSet()Lnet/minecraft/client/model/geom/EntityModelSet;", cancellable = true)
-    private void getModelSet__972213822(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-972213822L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEquipmentRenderer()Lnet/minecraft/client/renderer/entity/layers/EquipmentLayerRenderer;", cancellable = true)
-    private void getEquipmentRenderer__1207442492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1207442492L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getPlayerSkinRenderCache()Lnet/minecraft/client/renderer/PlayerSkinRenderCache;", cancellable = true)
-    private void getPlayerSkinRenderCache__1528483912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1528483912L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEquipmentAssets()Lnet/minecraft/client/resources/model/EquipmentAssetManager;", cancellable = true)
-    private void getEquipmentAssets__17595876(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-17595876L))
-            info.setReturnValue(new net.minecraft.client.resources.model.EquipmentAssetManager());
-    }
-
-    @Inject(at = @At("HEAD"), method = "bakeLayer(Lnet/minecraft/client/model/geom/ModelLayerLocation;)Lnet/minecraft/client/model/geom/ModelPart;", cancellable = true)
-    private void bakeLayer_1361232224(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1361232224L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class SplitResult349215214Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_906567305(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(906567305L))
-            info.setReturnValue(2131214527);
+            info.setReturnValue(2080908727);
     }
 
     @Inject(at = @At("HEAD"), method = "added()Lnet/minecraft/core/component/DataComponentMap;", cancellable = true)

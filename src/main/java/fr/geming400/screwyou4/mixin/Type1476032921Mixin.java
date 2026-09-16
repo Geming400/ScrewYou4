@@ -22,7 +22,7 @@ public class Type1476032921Mixin {
     @Inject(at = @At("HEAD"), method = "getColor(Lnet/minecraft/world/item/DyeColor;)I", cancellable = true)
     private void getColor_1493797685(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493797685L))
-            info.setReturnValue(-1828312868);
+            info.setReturnValue(-1956458368);
     }
 
 

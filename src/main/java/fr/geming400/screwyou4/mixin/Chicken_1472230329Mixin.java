@@ -25,6 +25,12 @@ public class Chicken_1472230329Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1191439401(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1191439401L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
     private static void createAttributes__1447634978(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1447634978L))
@@ -35,12 +41,6 @@ public class Chicken_1472230329Mixin {
     private void getDefaultDimensions__1827525676(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1827525676L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__1191439401(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1191439401L))
-            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/animal/chicken/Chicken;", cancellable = true)
@@ -67,10 +67,10 @@ public class Chicken_1472230329Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "setChickenJockey(Z)V", cancellable = true)
-    private void setChickenJockey_1517024809(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1517024809L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
+    private void finalizeSpawn__2072638659(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2072638659L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "isChickenJockey()Z", cancellable = true)
@@ -79,10 +79,10 @@ public class Chicken_1472230329Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData;", cancellable = true)
-    private void finalizeSpawn__2072638659(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2072638659L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "setChickenJockey(Z)V", cancellable = true)
+    private void setChickenJockey_1517024809(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1517024809L))
+            info.cancel();
     }
 
 

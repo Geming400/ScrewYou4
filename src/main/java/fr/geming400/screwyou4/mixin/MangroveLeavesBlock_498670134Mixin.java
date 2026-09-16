@@ -13,18 +13,6 @@ public class MangroveLeavesBlock_498670134Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getParticlePos__1569424830(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1569424830L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void isValidBonemealTarget_461712313(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(461712313L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
     private void isBonemealSuccess_1098922928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1098922928L))
@@ -35,6 +23,18 @@ public class MangroveLeavesBlock_498670134Mixin {
     private void performBonemeal__358114028(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-358114028L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void isValidBonemealTarget_461712313(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(461712313L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getParticlePos(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getParticlePos__1569424830(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1569424830L))
+            info.setReturnValue(null);
     }
 
 

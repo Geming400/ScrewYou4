@@ -28,7 +28,7 @@ public class EnvironmentAttributeMap729963061Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1287314656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1287314656L))
-            info.setReturnValue(-176545811);
+            info.setReturnValue(-294612511);
     }
 
     @Inject(at = @At("HEAD"), method = "builder()Lnet/minecraft/world/attribute/EnvironmentAttributeMap$Builder;", cancellable = true)

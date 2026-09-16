@@ -22,7 +22,7 @@ public class LevelCandidates_361737918Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_919090008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(919090008L))
-            info.setReturnValue(1846104808);
+            info.setReturnValue(1964553308);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)

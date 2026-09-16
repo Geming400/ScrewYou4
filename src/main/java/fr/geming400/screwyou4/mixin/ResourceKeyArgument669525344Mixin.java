@@ -43,18 +43,6 @@ public class ResourceKeyArgument669525344Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getStructure_384263214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(384263214L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAdvancement(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
-    private static void getAdvancement__245367692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-245367692L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getStructureTemplatePool(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void getStructureTemplatePool_802706052(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(802706052L))
@@ -64,6 +52,18 @@ public class ResourceKeyArgument669525344Mixin {
     @Inject(at = @At("HEAD"), method = "getRegistryKey(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;)Lnet/minecraft/resources/ResourceKey;", cancellable = true)
     private static void getRegistryKey_57997953(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(57997953L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getStructure_384263214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(384263214L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAdvancement(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/advancements/AdvancementHolder;", cancellable = true)
+    private static void getAdvancement__245367692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-245367692L))
             info.setReturnValue(null);
     }
 

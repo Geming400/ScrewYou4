@@ -16,7 +16,7 @@ public class ServerboundPlayerCommandPacket964649657Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__693673938(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-693673938L))
-            info.setReturnValue(-1676554340);
+            info.setReturnValue(-1636069440);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)
@@ -34,7 +34,7 @@ public class ServerboundPlayerCommandPacket964649657Mixin {
     @Inject(at = @At("HEAD"), method = "getData()I", cancellable = true)
     private void getData_538637439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(538637439L))
-            info.setReturnValue(1716024489);
+            info.setReturnValue(1756509389);
     }
 
     @Inject(at = @At("HEAD"), method = "getAction()Lnet/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action;", cancellable = true)

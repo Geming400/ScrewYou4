@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.nbt.visitors.CollectFields.class)
 public class CollectFields_390846283Mixin {
-        @Inject(at = @At("HEAD"), method = "getMissingFieldCount()I", cancellable = true)
-    private void getMissingFieldCount_1550692043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1550692043L))
-            info.setReturnValue(-220696307);
-    }
-
-    @Inject(at = @At("HEAD"), method = "visitRootEntry(Lnet/minecraft/nbt/TagType;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "visitRootEntry(Lnet/minecraft/nbt/TagType;)Lnet/minecraft/nbt/StreamTagVisitor$ValueResult;", cancellable = true)
     private void visitRootEntry__699907764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-699907764L))
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.ValueResult.BREAK);
@@ -35,6 +29,12 @@ public class CollectFields_390846283Mixin {
     private void visitEntry__843994903(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-843994903L))
             info.setReturnValue(net.minecraft.nbt.StreamTagVisitor.EntryResult.HALT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getMissingFieldCount()I", cancellable = true)
+    private void getMissingFieldCount_1550692043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1550692043L))
+            info.setReturnValue(-281849107);
     }
 
 

@@ -28,7 +28,7 @@ public class TypedEntityData1633837145Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2103778556(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2103778556L))
-            info.setReturnValue(-1273677380);
+            info.setReturnValue(-1586108380);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Ljava/lang/Object;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)

@@ -10,7 +10,7 @@ public class CpuStats1635970307Mixin {
         @Inject(at = @At("HEAD"), method = "loadForCpu(I)D", cancellable = true)
     private void loadForCpu_1775831426(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1775831426L))
-            info.setReturnValue(5.2525370050193655E8D);
+            info.setReturnValue(1.9409580050193655E8D);
     }
 
 

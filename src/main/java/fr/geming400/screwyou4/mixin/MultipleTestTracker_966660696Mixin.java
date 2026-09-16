@@ -25,46 +25,10 @@ public class MultipleTestTracker_966660696Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgressBar()Ljava/lang/String;", cancellable = true)
-    private void getProgressBar__405841072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-405841072L))
-            info.setReturnValue("IiLlJR+{qfX\u2C4A0\u11DE.qOUc1oRh\"\u8814y-\u15F6D\uD177`Aw%\uCB22[B@J'T/#2$j8{\u2D8D{oz\u1EF2W5#8XYL(i@7\u5EB9#Xcp*2L}rOs>]_:u\u3B57c\uA569X\u18BEyn1g;2");
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFailedRequiredCount()I", cancellable = true)
-    private void getFailedRequiredCount__721853920(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-721853920L))
-            info.setReturnValue(1077751550);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFailedRequired()Ljava/util/Collection;", cancellable = true)
-    private void getFailedRequired__508266439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-508266439L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFailedOptionalCount()I", cancellable = true)
-    private void getFailedOptionalCount__2038266719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2038266719L))
-            info.setReturnValue(706519503);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasFailedOptional()Z", cancellable = true)
-    private void hasFailedOptional__1392113033(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1392113033L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTotalCount()I", cancellable = true)
-    private void getTotalCount__927585092(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-927585092L))
-            info.setReturnValue(249569160);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasFailedRequired()Z", cancellable = true)
-    private void hasFailedRequired__997426792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-997426792L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "addListener(Lnet/minecraft/gametest/framework/GameTestListener;)V", cancellable = true)
+    private void addListener__1336688234(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1336688234L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "addTestToTrack(Lnet/minecraft/gametest/framework/GameTestInfo;)V", cancellable = true)
@@ -82,7 +46,31 @@ public class MultipleTestTracker_966660696Mixin {
     @Inject(at = @At("HEAD"), method = "getDoneCount()I", cancellable = true)
     private void getDoneCount_271432358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(271432358L))
-            info.setReturnValue(1720789202);
+            info.setReturnValue(-1957476194);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getProgressBar()Ljava/lang/String;", cancellable = true)
+    private void getProgressBar__405841072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-405841072L))
+            info.setReturnValue("IiLlJR+{qfX\u2C4A0\u11DE.qOUc1oRh\"\u8814y-\u15F6D\uD177`Aw%\uCB22[B@J'T/#2$j8{\u2D8D{oz\u1EF2W5#8XYL(i@7\u5EB9#Xcp*2L}rOs>]_:u\u3B57c\uA569X\u18BEyn1g;2");
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFailedRequiredCount()I", cancellable = true)
+    private void getFailedRequiredCount__721853920(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-721853920L))
+            info.setReturnValue(1694453450);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFailedRequired()Z", cancellable = true)
+    private void hasFailedRequired__997426792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-997426792L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFailedOptionalCount()I", cancellable = true)
+    private void getFailedOptionalCount__2038266719(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2038266719L))
+            info.setReturnValue(1323221403);
     }
 
     @Inject(at = @At("HEAD"), method = "addFailureListener(Ljava/util/function/Consumer;)V", cancellable = true)
@@ -91,10 +79,22 @@ public class MultipleTestTracker_966660696Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addListener(Lnet/minecraft/gametest/framework/GameTestListener;)V", cancellable = true)
-    private void addListener__1336688234(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1336688234L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getTotalCount()I", cancellable = true)
+    private void getTotalCount__927585092(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-927585092L))
+            info.setReturnValue(866271060);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFailedRequired()Ljava/util/Collection;", cancellable = true)
+    private void getFailedRequired__508266439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-508266439L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasFailedOptional()Z", cancellable = true)
+    private void hasFailedOptional__1392113033(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1392113033L))
+            info.setReturnValue(false);
     }
 
 

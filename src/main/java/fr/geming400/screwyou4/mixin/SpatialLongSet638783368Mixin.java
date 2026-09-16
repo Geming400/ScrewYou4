@@ -10,7 +10,7 @@ public class SpatialLongSet638783368Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1082514957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1082514957L))
-            info.setReturnValue(-1494987113);
+            info.setReturnValue(-1778942513);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -34,7 +34,7 @@ public class SpatialLongSet638783368Mixin {
     @Inject(at = @At("HEAD"), method = "removeFirstLong()J", cancellable = true)
     private void removeFirstLong__1671646969(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1671646969L))
-            info.setReturnValue(-1087244005738415529L);
+            info.setReturnValue(-1087244006022878329L);
     }
 
 

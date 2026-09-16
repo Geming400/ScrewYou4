@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.DifficultyInstance.class)
 public class DifficultyInstance749341598Mixin {
-        @Inject(at = @At("HEAD"), method = "getEffectiveDifficulty()F", cancellable = true)
-    private void getEffectiveDifficulty_16529461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(16529461L))
-            info.setReturnValue(4.502321E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getDifficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getDifficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void getDifficulty__491597583(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-491597583L))
             info.setReturnValue(net.minecraft.world.Difficulty.PEACEFUL);
@@ -22,7 +16,13 @@ public class DifficultyInstance749341598Mixin {
     @Inject(at = @At("HEAD"), method = "getSpecialMultiplier()F", cancellable = true)
     private void getSpecialMultiplier__404681187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-404681187L))
-            info.setReturnValue(4.502321E8F);
+            info.setReturnValue(4.089563E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectiveDifficulty()F", cancellable = true)
+    private void getEffectiveDifficulty_16529461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(16529461L))
+            info.setReturnValue(4.089563E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isHarderThan(F)Z", cancellable = true)

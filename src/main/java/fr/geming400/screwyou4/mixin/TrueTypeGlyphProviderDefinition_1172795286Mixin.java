@@ -10,7 +10,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
         @Inject(at = @At("HEAD"), method = "size()F", cancellable = true)
     private void size_1616523991(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1616523991L))
-            info.setReturnValue(1.657399E8F);
+            info.setReturnValue(4.850432E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/client/gui/font/providers/GlyphProviderType;", cancellable = true)
@@ -34,7 +34,7 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1730147376(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1730147376L))
-            info.setReturnValue(-1018487658);
+            info.setReturnValue(-700690758);
     }
 
     @Inject(at = @At("HEAD"), method = "location()Lnet/minecraft/resources/Identifier;", cancellable = true)
@@ -55,16 +55,16 @@ public class TrueTypeGlyphProviderDefinition_1172795286Mixin {
             info.setReturnValue("\u3C9DSPUT\u983EEe5Rr\u575D&!\u9029WK\u1B7E\u5819C1Q_PS=^}\uBD62%<G+C8Z}0c')\uB6856}nk\u3443g/tVH\u1ACBk&z:\u5C01`xD/+\uD35AELwu0*e4k&#w\u708DrJ-f}\u9597,zs>+L\u7E3D\u2DD4Sk");
     }
 
+    @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
+    private void oversample__452201094(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-452201094L))
+            info.setReturnValue(4.850432E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "unpack()Lcom/mojang/datafixers/util/Either;", cancellable = true)
     private void unpack__915034566(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-915034566L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "oversample()F", cancellable = true)
-    private void oversample__452201094(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-452201094L))
-            info.setReturnValue(1.672463E8F);
     }
 
 

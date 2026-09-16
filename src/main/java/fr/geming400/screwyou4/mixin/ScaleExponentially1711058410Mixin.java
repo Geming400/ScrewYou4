@@ -28,7 +28,7 @@ public class ScaleExponentially1711058410Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2026556795(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2026556795L))
-            info.setReturnValue(-616463320);
+            info.setReturnValue(42326180);
     }
 
     @Inject(at = @At("HEAD"), method = "exponent()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)
@@ -40,7 +40,7 @@ public class ScaleExponentially1711058410Mixin {
     @Inject(at = @At("HEAD"), method = "process(ILnet/minecraft/util/RandomSource;F)F", cancellable = true)
     private void process__164950389(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-164950389L))
-            info.setReturnValue(2.174544E8F);
+            info.setReturnValue(8.762439E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

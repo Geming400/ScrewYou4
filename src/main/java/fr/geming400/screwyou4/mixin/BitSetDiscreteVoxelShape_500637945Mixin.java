@@ -31,18 +31,6 @@ public class BitSetDiscreteVoxelShape_500637945Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
-    private void lastFull_797095960(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(797095960L))
-            info.setReturnValue(-2124473093);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
-    private void firstFull_538097970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(538097970L))
-            info.setReturnValue(-206436395);
-    }
-
     @Inject(at = @At("HEAD"), method = "isInterior(III)Z", cancellable = true)
     private void isInterior__1647857918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1647857918L))
@@ -53,6 +41,18 @@ public class BitSetDiscreteVoxelShape_500637945Mixin {
     private static void withFilledBounds__237110482(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-237110482L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lastFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
+    private void lastFull_797095960(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(797095960L))
+            info.setReturnValue(-1536164993);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstFull(Lnet/minecraft/core/Direction$Axis;)I", cancellable = true)
+    private void firstFull_538097970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(538097970L))
+            info.setReturnValue(381871705);
     }
 
 

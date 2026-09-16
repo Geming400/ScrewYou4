@@ -25,15 +25,15 @@ public class ImbueRecipe1368562030Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble__1358349681(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1358349681L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1418736637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1418736637L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble__1358349681(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1358349681L))
             info.setReturnValue(null);
     }
 

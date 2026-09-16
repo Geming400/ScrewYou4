@@ -22,7 +22,7 @@ public class WrappedTerm920945959Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1478298050(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1478298050L))
-            info.setReturnValue(404802514);
+            info.setReturnValue(-554355186);
     }
 
     @Inject(at = @At("HEAD"), method = "action()Lnet/minecraft/util/parsing/packrat/Rule$RuleAction;", cancellable = true)

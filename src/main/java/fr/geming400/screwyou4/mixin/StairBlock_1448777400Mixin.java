@@ -16,7 +16,7 @@ public class StairBlock_1448777400Mixin {
     @Inject(at = @At("HEAD"), method = "getExplosionResistance()F", cancellable = true)
     private void getExplosionResistance__133419422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-133419422L))
-            info.setReturnValue(6.787219E8F);
+            info.setReturnValue(2.309195E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)

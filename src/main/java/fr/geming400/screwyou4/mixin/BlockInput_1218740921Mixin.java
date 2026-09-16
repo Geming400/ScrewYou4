@@ -31,16 +31,16 @@ public class BlockInput_1218740921Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefinedProperties()Ljava/util/Set;", cancellable = true)
-    private void getDefinedProperties_2105907124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2105907124L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;I)Z", cancellable = true)
     private void place_1127952446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1127952446L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDefinedProperties()Ljava/util/Set;", cancellable = true)
+    private void getDefinedProperties_2105907124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2105907124L))
+            info.setReturnValue(null);
     }
 
 

@@ -22,7 +22,7 @@ public class Dynamic_876973477Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1434325071(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1434325071L))
-            info.setReturnValue(113765421);
+            info.setReturnValue(194466021);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

@@ -22,19 +22,19 @@ public class NoiseParameters_1583843011Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2141195101(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2141195101L))
-            info.setReturnValue(577844706);
+            info.setReturnValue(1079951806);
+    }
+
+    @Inject(at = @At("HEAD"), method = "firstOctave()I", cancellable = true)
+    private void firstOctave_1454503976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1454503976L))
+            info.setReturnValue(752035095);
     }
 
     @Inject(at = @At("HEAD"), method = "amplitudes()Lit/unimi/dsi/fastutil/doubles/DoubleList;", cancellable = true)
     private void amplitudes_2060167791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2060167791L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "firstOctave()I", cancellable = true)
-    private void firstOctave_1454503976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1454503976L))
-            info.setReturnValue(249927995);
     }
 
 

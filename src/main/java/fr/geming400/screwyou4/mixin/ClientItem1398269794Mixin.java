@@ -22,7 +22,7 @@ public class ClientItem1398269794Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1955621885(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1955621885L))
-            info.setReturnValue(802198439);
+            info.setReturnValue(574202739);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/renderer/item/ClientItem$Properties;", cancellable = true)

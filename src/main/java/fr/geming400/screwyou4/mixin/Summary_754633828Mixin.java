@@ -22,7 +22,7 @@ public class Summary_754633828Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1311985918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1311985918L))
-            info.setReturnValue(879762596);
+            info.setReturnValue(951761396);
     }
 
     @Inject(at = @At("HEAD"), method = "allocationsPerSecondByThread()Ljava/util/Map;", cancellable = true)

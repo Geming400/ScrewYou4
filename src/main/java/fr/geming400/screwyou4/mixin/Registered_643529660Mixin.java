@@ -22,7 +22,7 @@ public class Registered_643529660Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1200881750(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1200881750L))
-            info.setReturnValue(166708187);
+            info.setReturnValue(-34435213);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)
@@ -31,15 +31,15 @@ public class Registered_643529660Mixin {
             info.setReturnValue(net.minecraft.world.entity.ai.memory.MemoryStatus.VALUE_PRESENT);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
-    private void createAccessor__2106395424(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2106395424L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "memory()Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;", cancellable = true)
     private void memory_583848853(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(583848853L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
+    private void createAccessor__2106395424(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2106395424L))
             info.setReturnValue(null);
     }
 

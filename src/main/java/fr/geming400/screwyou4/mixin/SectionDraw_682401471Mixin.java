@@ -22,25 +22,25 @@ public class SectionDraw_682401471Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1239753561(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1239753561L))
-            info.setReturnValue(-1166835787);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
-    private void indexType__609978921(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609978921L))
-            info.setReturnValue(com.mojang.blaze3d.IndexType.SHORT);
-    }
-
-    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
-    private void indexCount_1181096807(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1181096807L))
-            info.setReturnValue(1149716780);
+            info.setReturnValue(-1694801187);
     }
 
     @Inject(at = @At("HEAD"), method = "hasCustomIndexBuffer()Z", cancellable = true)
     private void hasCustomIndexBuffer_2016521422(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2016521422L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexCount()I", cancellable = true)
+    private void indexCount_1181096807(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1181096807L))
+            info.setReturnValue(621751380);
+    }
+
+    @Inject(at = @At("HEAD"), method = "indexType()Lcom/mojang/blaze3d/IndexType;", cancellable = true)
+    private void indexType__609978921(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609978921L))
+            info.setReturnValue(com.mojang.blaze3d.IndexType.SHORT);
     }
 
 

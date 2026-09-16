@@ -19,15 +19,15 @@ public class CanyonWorldCarver_601645621Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/world/level/levelgen/carver/CanyonCarverConfiguration;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
-    private void isStartChunk_1574741125(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1574741125L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/world/level/levelgen/carver/CarverConfiguration;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
     private void isStartChunk__1886943187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1886943187L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isStartChunk(Lnet/minecraft/world/level/levelgen/carver/CanyonCarverConfiguration;Lnet/minecraft/util/RandomSource;)Z", cancellable = true)
+    private void isStartChunk_1574741125(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1574741125L))
             info.setReturnValue(false);
     }
 

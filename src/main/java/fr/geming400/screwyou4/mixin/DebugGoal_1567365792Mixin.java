@@ -16,7 +16,7 @@ public class DebugGoal_1567365792Mixin {
     @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority__1939219103(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1939219103L))
-            info.setReturnValue(-1468345458);
+            info.setReturnValue(-992804758);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class DebugGoal_1567365792Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2124717882(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2124717882L))
-            info.setReturnValue(211931339);
+            info.setReturnValue(687472039);
     }
 
     @Inject(at = @At("HEAD"), method = "isRunning()Z", cancellable = true)

@@ -28,7 +28,7 @@ public class Unbaked_1809494123Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1928121083(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1928121083L))
-            info.setReturnValue(1974974056);
+            info.setReturnValue(1828445856);
     }
 
     @Inject(at = @At("HEAD"), method = "bake(Lnet/minecraft/client/renderer/special/SpecialModelRenderer$BakingContext;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;", cancellable = true)
@@ -43,16 +43,16 @@ public class Unbaked_1809494123Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
+    private void openness_626793484(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(626793484L))
+            info.setReturnValue(4.988065E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void texture__1654271540(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1654271540L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "openness()F", cancellable = true)
-    private void openness_626793484(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(626793484L))
-            info.setReturnValue(6.453347E8F);
     }
 
 

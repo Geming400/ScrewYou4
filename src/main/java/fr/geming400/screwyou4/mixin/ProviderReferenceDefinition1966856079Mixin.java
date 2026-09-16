@@ -28,7 +28,7 @@ public class ProviderReferenceDefinition1966856079Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1770759126(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1770759126L))
-            info.setReturnValue(-56627689);
+            info.setReturnValue(-28616189);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

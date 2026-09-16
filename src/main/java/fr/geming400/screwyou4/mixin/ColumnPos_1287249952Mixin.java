@@ -22,37 +22,37 @@ public class ColumnPos_1287249952Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1844601546(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1844601546L))
-            info.setReturnValue(2116871064);
+            info.setReturnValue(2073869664);
     }
 
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_466043021(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(466043021L))
-            info.setReturnValue(1095916155);
+            info.setReturnValue(1052914755);
     }
 
     @Inject(at = @At("HEAD"), method = "z()I", cancellable = true)
     private void z_523301323(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(523301323L))
-            info.setReturnValue(1722360181);
+            info.setReturnValue(1679358781);
     }
 
     @Inject(at = @At("HEAD"), method = "toLong()J", cancellable = true)
     private void toLong_740215951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(740215951L))
-            info.setReturnValue(3001517189842453606L);
+            info.setReturnValue(3001517189799452206L);
     }
 
     @Inject(at = @At("HEAD"), method = "getX(J)I", cancellable = true)
     private static void getX__1629769415(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1629769415L))
-            info.setReturnValue(-419003923);
+            info.setReturnValue(-462005323);
     }
 
     @Inject(at = @At("HEAD"), method = "getZ(J)I", cancellable = true)
     private static void getZ_145237947(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(145237947L))
-            info.setReturnValue(1611292460);
+            info.setReturnValue(1568291060);
     }
 
     @Inject(at = @At("HEAD"), method = "toChunkPos()Lnet/minecraft/world/level/ChunkPos;", cancellable = true)
@@ -64,7 +64,7 @@ public class ColumnPos_1287249952Mixin {
     @Inject(at = @At("HEAD"), method = "asLong(II)J", cancellable = true)
     private static void asLong__2037487536(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2037487536L))
-            info.setReturnValue(-6744927706349108864L);
+            info.setReturnValue(-6744927706392110264L);
     }
 
 

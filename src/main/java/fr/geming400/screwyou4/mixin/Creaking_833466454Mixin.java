@@ -37,33 +37,15 @@ public class Creaking_833466454Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
-    private static void createAttributes__2086398853(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2086398853L))
-            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
-    private void doHurtTarget_1749125599(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1749125599L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playAttackSound()V", cancellable = true)
-    private void playAttackSound_839956245(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(839956245L))
+    @Inject(at = @At("HEAD"), method = "knockback(DDDLnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
+    private void knockback__586173068(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-586173068L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
-    private void canUsePortal__26123591(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-26123591L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
-    private void handleEntityEvent_1587214569(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1587214569L))
+    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
+    private void aiStep__1830203276(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1830203276L))
             info.cancel();
     }
 
@@ -73,22 +55,10 @@ public class Creaking_833466454Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "knockback(DDDLnet/minecraft/world/damagesource/DamageSource;F)V", cancellable = true)
-    private void knockback__586173068(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-586173068L))
+    @Inject(at = @At("HEAD"), method = "handleEntityEvent(B)V", cancellable = true)
+    private void handleEntityEvent_1587214569(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1587214569L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "activate(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
-    private void activate_1115124784(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1115124784L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "fireImmune()Z", cancellable = true)
-    private void fireImmune_1603848019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1603848019L))
-            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isPushable()Z", cancellable = true)
@@ -97,9 +67,63 @@ public class Creaking_833466454Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
+    private void getBrain_647564527(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(647564527L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;", cancellable = true)
+    private static void createAttributes__2086398853(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2086398853L))
+            info.setReturnValue(new net.minecraft.world.entity.ai.attributes.AttributeSupplier.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "playAttackSound()V", cancellable = true)
+    private void playAttackSound_839956245(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(839956245L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "doHurtTarget(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
+    private void doHurtTarget_1749125599(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1749125599L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canUsePortal(Z)Z", cancellable = true)
+    private void canUsePortal__26123591(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-26123591L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fireImmune()Z", cancellable = true)
+    private void fireImmune_1603848019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1603848019L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "activate(Lnet/minecraft/world/entity/player/Player;)V", cancellable = true)
+    private void activate_1115124784(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1115124784L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
+    private void getWalkTargetValue__707519729(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-707519729L))
+            info.setReturnValue(2.375667E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "tearDown()V", cancellable = true)
     private void tearDown_1129419620(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1129419620L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setTearingDown()V", cancellable = true)
+    private void setTearingDown_537864648(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(537864648L))
             info.cancel();
     }
 
@@ -121,30 +145,6 @@ public class Creaking_833466454Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setTearingDown()V", cancellable = true)
-    private void setTearingDown_537864648(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(537864648L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
-    private void aiStep__1830203276(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1830203276L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getBrain()Lnet/minecraft/world/entity/ai/Brain;", cancellable = true)
-    private void getBrain_647564527(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(647564527L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWalkTargetValue(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/LevelReader;)F", cancellable = true)
-    private void getWalkTargetValue__707519729(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-707519729L))
-            info.setReturnValue(3.193007E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHomePos()Lnet/minecraft/core/BlockPos;", cancellable = true)
     private void getHomePos__605824777(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-605824777L))
@@ -163,10 +163,22 @@ public class Creaking_833466454Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "isHeartBound()Z", cancellable = true)
+    private void isHeartBound_1758980522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1758980522L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "checkCanMove()Z", cancellable = true)
     private void checkCanMove__1654154221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1654154221L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasGlowingEyes()Z", cancellable = true)
+    private void hasGlowingEyes__579098129(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-579098129L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "checkEyeBlink()V", cancellable = true)
@@ -175,21 +187,9 @@ public class Creaking_833466454Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isHeartBound()Z", cancellable = true)
-    private void isHeartBound_1758980522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1758980522L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isTearingDown()Z", cancellable = true)
     private void isTearingDown_2116221332(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116221332L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasGlowingEyes()Z", cancellable = true)
-    private void hasGlowingEyes__579098129(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-579098129L))
             info.setReturnValue(true);
     }
 

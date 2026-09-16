@@ -25,18 +25,6 @@ public class TextureAtlas128851868Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dumpContents(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;)V", cancellable = true)
-    private void dumpContents__1752116792(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1752116792L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "missingSprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
-    private void missingSprite_1982182320(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1982182320L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "upload(Lnet/minecraft/client/renderer/texture/SpriteLoader$Preparations;)V", cancellable = true)
     private void upload_267137135(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(267137135L))
@@ -52,7 +40,13 @@ public class TextureAtlas128851868Mixin {
     @Inject(at = @At("HEAD"), method = "maxSupportedTextureSize()I", cancellable = true)
     private void maxSupportedTextureSize__1945921776(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1945921776L))
-            info.setReturnValue(1651486857);
+            info.setReturnValue(967707557);
+    }
+
+    @Inject(at = @At("HEAD"), method = "cycleAnimationFrames()V", cancellable = true)
+    private void cycleAnimationFrames__290133685(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-290133685L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "clearTextureData()V", cancellable = true)
@@ -61,9 +55,15 @@ public class TextureAtlas128851868Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "cycleAnimationFrames()V", cancellable = true)
-    private void cycleAnimationFrames__290133685(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-290133685L))
+    @Inject(at = @At("HEAD"), method = "missingSprite()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;", cancellable = true)
+    private void missingSprite_1982182320(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1982182320L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "dumpContents(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;)V", cancellable = true)
+    private void dumpContents__1752116792(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1752116792L))
             info.cancel();
     }
 

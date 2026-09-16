@@ -16,7 +16,7 @@ public class Packed481241096Mixin {
     @Inject(at = @At("HEAD"), method = "value()I", cancellable = true)
     private void value__1823429859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1823429859L))
-            info.setReturnValue(2004169571);
+            info.setReturnValue(1742978571);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -34,13 +34,13 @@ public class Packed481241096Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1038593187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1038593187L))
-            info.setReturnValue(-68692913);
+            info.setReturnValue(-329883913);
     }
 
     @Inject(at = @At("HEAD"), method = "max()I", cancellable = true)
     private void max_836310794(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(836310794L))
-            info.setReturnValue(2074253106);
+            info.setReturnValue(1813062106);
     }
 
     @Inject(at = @At("HEAD"), method = "color()Lnet/minecraft/world/BossEvent$BossBarColor;", cancellable = true)
@@ -55,6 +55,24 @@ public class Packed481241096Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "overlay()Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
+    private void overlay_1587856116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1587856116L))
+            info.setReturnValue(net.minecraft.world.BossEvent.BossBarOverlay.NOTCHED_6);
+    }
+
+    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Set;", cancellable = true)
+    private void players__1917126856(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1917126856L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createWorldFog()Z", cancellable = true)
+    private void createWorldFog_55430615(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(55430615L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "playBossMusic()Z", cancellable = true)
     private void playBossMusic_1473805915(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1473805915L))
@@ -65,24 +83,6 @@ public class Packed481241096Mixin {
     private void darkenScreen_1215137972(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1215137972L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWorldFog()Z", cancellable = true)
-    private void createWorldFog_55430615(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(55430615L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "players()Ljava/util/Set;", cancellable = true)
-    private void players__1917126856(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1917126856L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overlay()Lnet/minecraft/world/BossEvent$BossBarOverlay;", cancellable = true)
-    private void overlay_1587856116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1587856116L))
-            info.setReturnValue(net.minecraft.world.BossEvent.BossBarOverlay.NOTCHED_6);
     }
 
 

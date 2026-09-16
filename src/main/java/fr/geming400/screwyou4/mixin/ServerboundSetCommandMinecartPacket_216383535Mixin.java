@@ -25,12 +25,6 @@ public class ServerboundSetCommandMinecartPacket_216383535Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
-    private void isTrackOutput_682523779(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(682523779L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getCommand()Ljava/lang/String;", cancellable = true)
     private void getCommand__391746292(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-391746292L))
@@ -41,6 +35,12 @@ public class ServerboundSetCommandMinecartPacket_216383535Mixin {
     private void getCommandBlock_1115892678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1115892678L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTrackOutput()Z", cancellable = true)
+    private void isTrackOutput_682523779(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(682523779L))
+            info.setReturnValue(false);
     }
 
 

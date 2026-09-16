@@ -28,7 +28,7 @@ public class ServerboundContainerClosePacket622081708Mixin {
     @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
     private void getContainerId__1767323636(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1767323636L))
-            info.setReturnValue(-2109631010);
+            info.setReturnValue(-1253042210);
     }
 
 

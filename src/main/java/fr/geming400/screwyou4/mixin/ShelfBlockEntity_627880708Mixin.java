@@ -19,46 +19,10 @@ public class ShelfBlockEntity_627880708Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
-    private void getVisualRotationYInDegrees_1233442569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1233442569L))
-            info.setReturnValue(3.892196E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "swapItemNoUpdate(ILnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void swapItemNoUpdate__1813469447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1813469447L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getAlignItemsToBottom()Z", cancellable = true)
-    private void getAlignItemsToBottom__1244077117(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1244077117L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
-    private void setChanged__807766780(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-807766780L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setChanged(Lnet/minecraft/core/Holder$Reference;)V", cancellable = true)
-    private void setChanged_1613947088(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1613947088L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
     private void stillValid__1406030463(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1406030463L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItems()Lnet/minecraft/core/NonNullList;", cancellable = true)
-    private void getItems_1051214405(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1051214405L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
@@ -73,6 +37,24 @@ public class ShelfBlockEntity_627880708Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getVisualRotationYInDegrees()F", cancellable = true)
+    private void getVisualRotationYInDegrees_1233442569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1233442569L))
+            info.setReturnValue(2.085278E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "swapItemNoUpdate(ILnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void swapItemNoUpdate__1813469447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1813469447L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getAlignItemsToBottom()Z", cancellable = true)
+    private void getAlignItemsToBottom__1244077117(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1244077117L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
     private void getUpdateTag_49740828(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(49740828L))
@@ -83,6 +65,24 @@ public class ShelfBlockEntity_627880708Mixin {
     private void removeComponentsFromTag_515052449(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(515052449L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setChanged()V", cancellable = true)
+    private void setChanged__807766780(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-807766780L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setChanged(Lnet/minecraft/core/Holder$Reference;)V", cancellable = true)
+    private void setChanged_1613947088(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1613947088L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItems()Lnet/minecraft/core/NonNullList;", cancellable = true)
+    private void getItems_1051214405(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1051214405L))
+            info.setReturnValue(null);
     }
 
 

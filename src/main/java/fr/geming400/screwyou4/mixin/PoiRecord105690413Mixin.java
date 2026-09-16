@@ -16,7 +16,7 @@ public class PoiRecord105690413Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_663042008(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(663042008L))
-            info.setReturnValue(1481213970);
+            info.setReturnValue(1623526770);
     }
 
     @Inject(at = @At("HEAD"), method = "pack()Lnet/minecraft/world/entity/ai/village/poi/PoiRecord$Packed;", cancellable = true)
@@ -31,22 +31,22 @@ public class PoiRecord105690413Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasSpace()Z", cancellable = true)
+    private void hasSpace_1246757848(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1246757848L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "getFreeTickets()I", cancellable = true)
     private void getFreeTickets__1947050866(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1947050866L))
-            info.setReturnValue(-660867071);
+            info.setReturnValue(-518554271);
     }
 
     @Inject(at = @At("HEAD"), method = "getPoiType()Lnet/minecraft/core/Holder;", cancellable = true)
     private void getPoiType_1952572155(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1952572155L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasSpace()Z", cancellable = true)
-    private void hasSpace_1246757848(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1246757848L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isOccupied()Z", cancellable = true)

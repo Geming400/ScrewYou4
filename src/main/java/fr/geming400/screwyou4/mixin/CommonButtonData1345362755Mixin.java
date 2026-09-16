@@ -22,13 +22,13 @@ public class CommonButtonData1345362755Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1902714846(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1902714846L))
-            info.setReturnValue(126309834);
+            info.setReturnValue(469090034);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__294785245(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-294785245L))
-            info.setReturnValue(-1685742183);
+            info.setReturnValue(-1342961983);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)

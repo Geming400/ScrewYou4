@@ -25,12 +25,6 @@ public class PresetFlatWorldScreen_1632334152Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateButtonValidity(Z)V", cancellable = true)
-    private void updateButtonValidity_1930892273(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1930892273L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "mouseScrolled(DDDD)Z", cancellable = true)
     private void mouseScrolled__1834917075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1834917075L))
@@ -40,6 +34,12 @@ public class PresetFlatWorldScreen_1632334152Mixin {
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIF)V", cancellable = true)
     private void extractRenderState__1675753503(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1675753503L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateButtonValidity(Z)V", cancellable = true)
+    private void updateButtonValidity_1930892273(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1930892273L))
             info.cancel();
     }
 

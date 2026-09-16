@@ -22,7 +22,7 @@ public class WritableBookContent_317153166Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_874505256(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(874505256L))
-            info.setReturnValue(-1106078507);
+            info.setReturnValue(-594214207);
     }
 
     @Inject(at = @At("HEAD"), method = "pages()Ljava/util/List;", cancellable = true)

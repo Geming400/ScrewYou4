@@ -10,7 +10,7 @@ public class ChunkHeightAndBiomeFix_2029840230Mixin {
         @Inject(at = @At("HEAD"), method = "ceillog2(I)I", cancellable = true)
     private static void ceillog2__1520508817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1520508817L))
-            info.setReturnValue(-1594005694);
+            info.setReturnValue(-948468794);
     }
 
 

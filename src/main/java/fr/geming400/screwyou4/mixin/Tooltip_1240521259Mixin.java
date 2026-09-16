@@ -43,15 +43,15 @@ public class Tooltip_1240521259Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "splitTooltip(Lnet/minecraft/client/Minecraft;Lnet/minecraft/network/chat/Component;)Ljava/util/List;", cancellable = true)
-    private static void splitTooltip__1046275499(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046275499L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "toCharSequence(Lnet/minecraft/client/Minecraft;)Ljava/util/List;", cancellable = true)
     private void toCharSequence__466492550(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-466492550L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "splitTooltip(Lnet/minecraft/client/Minecraft;Lnet/minecraft/network/chat/Component;)Ljava/util/List;", cancellable = true)
+    private static void splitTooltip__1046275499(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1046275499L))
             info.setReturnValue(null);
     }
 

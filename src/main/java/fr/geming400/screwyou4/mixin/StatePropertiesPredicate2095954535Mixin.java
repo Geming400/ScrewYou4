@@ -22,7 +22,7 @@ public class StatePropertiesPredicate2095954535Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1641660670(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1641660670L))
-            info.setReturnValue(-534212744);
+            info.setReturnValue(-594812644);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)

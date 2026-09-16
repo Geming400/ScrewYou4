@@ -28,13 +28,13 @@ public class ClientboundPongResponsePacket_203180970Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_760533060(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(760533060L))
-            info.setReturnValue(-161886529);
+            info.setReturnValue(-383619629);
     }
 
     @Inject(at = @At("HEAD"), method = "time()J", cancellable = true)
     private void time_186813091(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(186813091L))
-            info.setReturnValue(9025337403101677620L);
+            info.setReturnValue(9025337402879944520L);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

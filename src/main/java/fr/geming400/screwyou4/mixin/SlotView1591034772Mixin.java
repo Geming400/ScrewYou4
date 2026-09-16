@@ -22,31 +22,31 @@ public class SlotView1591034772Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2146580433(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2146580433L))
-            info.setReturnValue(-1697384169);
+            info.setReturnValue(-1663662769);
     }
 
     @Inject(at = @At("HEAD"), method = "v1()F", cancellable = true)
     private void v1_383374492(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(383374492L))
-            info.setReturnValue(1.172692E8F);
+            info.setReturnValue(1.509906E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u1()F", cancellable = true)
     private void u1__504129189(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-504129189L))
-            info.setReturnValue(1.172692E8F);
+            info.setReturnValue(1.509906E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "v0()F", cancellable = true)
     private void v0_354745341(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(354745341L))
-            info.setReturnValue(1.172692E8F);
+            info.setReturnValue(1.509906E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "u0()F", cancellable = true)
     private void u0__532758340(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-532758340L))
-            info.setReturnValue(1.172692E8F);
+            info.setReturnValue(1.509906E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;", cancellable = true)

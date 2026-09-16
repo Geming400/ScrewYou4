@@ -31,24 +31,6 @@ public class TagBuilder1419110649Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setReplace(Z)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
-    private void setReplace_606080214(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(606080214L))
-            info.setReturnValue(new net.minecraft.tags.TagBuilder());
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldReplace()Z", cancellable = true)
-    private void shouldReplace__578465329(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-578465329L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addOptionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
-    private void addOptionalTag__575806711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-575806711L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "addTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
     private void addTag__942177143(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-942177143L))
@@ -59,6 +41,24 @@ public class TagBuilder1419110649Mixin {
     private void addOptionalElement_397932775(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(397932775L))
             info.setReturnValue(new net.minecraft.tags.TagBuilder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "setReplace(Z)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
+    private void setReplace_606080214(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(606080214L))
+            info.setReturnValue(new net.minecraft.tags.TagBuilder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "addOptionalTag(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/tags/TagBuilder;", cancellable = true)
+    private void addOptionalTag__575806711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-575806711L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "shouldReplace()Z", cancellable = true)
+    private void shouldReplace__578465329(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-578465329L))
+            info.setReturnValue(false);
     }
 
 

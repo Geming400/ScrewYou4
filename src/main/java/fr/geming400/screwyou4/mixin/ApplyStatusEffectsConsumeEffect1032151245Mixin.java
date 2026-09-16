@@ -22,7 +22,7 @@ public class ApplyStatusEffectsConsumeEffect1032151245Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1589503336(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1589503336L))
-            info.setReturnValue(-1823468228);
+            info.setReturnValue(-1368585728);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)Z", cancellable = true)
@@ -46,7 +46,7 @@ public class ApplyStatusEffectsConsumeEffect1032151245Mixin {
     @Inject(at = @At("HEAD"), method = "probability()F", cancellable = true)
     private void probability_1000959067(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1000959067L))
-            info.setReturnValue(8.87059E7F);
+            info.setReturnValue(5.435884E8F);
     }
 
 

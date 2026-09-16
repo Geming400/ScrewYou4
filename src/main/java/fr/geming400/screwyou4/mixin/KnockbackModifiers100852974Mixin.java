@@ -22,19 +22,19 @@ public class KnockbackModifiers100852974Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_658205065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(658205065L))
-            info.setReturnValue(-1956315297);
-    }
-
-    @Inject(at = @At("HEAD"), method = "verticalPower()F", cancellable = true)
-    private void verticalPower__939136574(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-939136574L))
-            info.setReturnValue(4.26612E8F);
+            info.setReturnValue(-1592081997);
     }
 
     @Inject(at = @At("HEAD"), method = "horizontalPower()F", cancellable = true)
     private void horizontalPower__900494096(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-900494096L))
-            info.setReturnValue(4.26612E8F);
+            info.setReturnValue(7.908453E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "verticalPower()F", cancellable = true)
+    private void verticalPower__939136574(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-939136574L))
+            info.setReturnValue(7.908453E8F);
     }
 
 

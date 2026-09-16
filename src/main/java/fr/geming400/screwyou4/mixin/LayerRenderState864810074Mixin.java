@@ -13,24 +13,6 @@ public class LayerRenderState864810074Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setupSpecialModel(Lnet/minecraft/client/renderer/special/SpecialModelRenderer;Ljava/lang/Object;)V", cancellable = true)
-    private void setupSpecialModel__1888285402(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1888285402L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setItemTransform(Lnet/minecraft/client/resources/model/cuboid/ItemTransform;)V", cancellable = true)
-    private void setItemTransform_1470836759(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1470836759L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "prepareQuadList()Ljava/util/List;", cancellable = true)
-    private void prepareQuadList__1461544650(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1461544650L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setLocalTransform(Lorg/joml/Matrix4fc;)V", cancellable = true)
     private void setLocalTransform__1115066935(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1115066935L))
@@ -43,15 +25,27 @@ public class LayerRenderState864810074Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "prepareQuadList()Ljava/util/List;", cancellable = true)
+    private void prepareQuadList__1461544650(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1461544650L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "setParticleMaterial(Lnet/minecraft/client/resources/model/sprite/Material$Baked;)V", cancellable = true)
+    private void setParticleMaterial__833386795(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-833386795L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setUsesBlockLight(Z)V", cancellable = true)
     private void setUsesBlockLight_1542419534(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1542419534L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setParticleMaterial(Lnet/minecraft/client/resources/model/sprite/Material$Baked;)V", cancellable = true)
-    private void setParticleMaterial__833386795(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-833386795L))
+    @Inject(at = @At("HEAD"), method = "setExtents(Ljava/util/function/Supplier;)V", cancellable = true)
+    private void setExtents__809816408(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-809816408L))
             info.cancel();
     }
 
@@ -61,9 +55,15 @@ public class LayerRenderState864810074Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setExtents(Ljava/util/function/Supplier;)V", cancellable = true)
-    private void setExtents__809816408(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-809816408L))
+    @Inject(at = @At("HEAD"), method = "setItemTransform(Lnet/minecraft/client/resources/model/cuboid/ItemTransform;)V", cancellable = true)
+    private void setItemTransform_1470836759(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1470836759L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setupSpecialModel(Lnet/minecraft/client/renderer/special/SpecialModelRenderer;Ljava/lang/Object;)V", cancellable = true)
+    private void setupSpecialModel__1888285402(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1888285402L))
             info.cancel();
     }
 

@@ -13,10 +13,22 @@ public class ShulkerBullet_1100858656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
-    private void recreateFromPacket_2112519372(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2112519372L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable__451675727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-451675727L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
+    private void hurtServer_285570802(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(285570802L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
+    private void getSoundSource__1679851442(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1679851442L))
+            info.setReturnValue(net.minecraft.sounds.SoundSource.UI);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
@@ -31,16 +43,16 @@ public class ShulkerBullet_1100858656Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
-    private void hurtServer_285570802(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(285570802L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
+    private void getLightLevelDependentMagicValue__1121025629(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1121025629L))
+            info.setReturnValue(3.640072E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
-    private void isOnFire__679202889(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-679202889L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "recreateFromPacket(Lnet/minecraft/network/protocol/game/ClientboundAddEntityPacket;)V", cancellable = true)
+    private void recreateFromPacket_2112519372(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2112519372L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
@@ -49,22 +61,10 @@ public class ShulkerBullet_1100858656Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable__451675727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-451675727L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getSoundSource()Lnet/minecraft/sounds/SoundSource;", cancellable = true)
-    private void getSoundSource__1679851442(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1679851442L))
-            info.setReturnValue(net.minecraft.sounds.SoundSource.UI);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLightLevelDependentMagicValue()F", cancellable = true)
-    private void getLightLevelDependentMagicValue__1121025629(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1121025629L))
-            info.setReturnValue(1.298596E8F);
+    @Inject(at = @At("HEAD"), method = "isOnFire()Z", cancellable = true)
+    private void isOnFire__679202889(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-679202889L))
+            info.setReturnValue(false);
     }
 
 

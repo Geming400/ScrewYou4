@@ -28,7 +28,7 @@ public class TextRenderState1813814087Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1923801118(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1923801118L))
-            info.setReturnValue(1008710433);
+            info.setReturnValue(1623766033);
     }
 
     @Inject(at = @At("HEAD"), method = "text()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -37,16 +37,16 @@ public class TextRenderState1813814087Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "lineWidth()I", cancellable = true)
-    private void lineWidth__1425401285(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1425401285L))
-            info.setReturnValue(-223555010);
-    }
-
     @Inject(at = @At("HEAD"), method = "backgroundColor()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)
     private void backgroundColor_952538097(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(952538097L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lineWidth()I", cancellable = true)
+    private void lineWidth__1425401285(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1425401285L))
+            info.setReturnValue(391500590);
     }
 
     @Inject(at = @At("HEAD"), method = "textOpacity()Lnet/minecraft/world/entity/Display$IntInterpolator;", cancellable = true)

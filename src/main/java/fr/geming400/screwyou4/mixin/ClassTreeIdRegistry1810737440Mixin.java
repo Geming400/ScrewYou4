@@ -10,19 +10,19 @@ public class ClassTreeIdRegistry1810737440Mixin {
         @Inject(at = @At("HEAD"), method = "getCount(Ljava/lang/Class;)I", cancellable = true)
     private void getCount_894756306(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(894756306L))
-            info.setReturnValue(1916412051);
+            info.setReturnValue(1445811851);
     }
 
     @Inject(at = @At("HEAD"), method = "define(Ljava/lang/Class;)I", cancellable = true)
     private void define__1757744460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1757744460L))
-            info.setReturnValue(635668149);
+            info.setReturnValue(165067949);
     }
 
     @Inject(at = @At("HEAD"), method = "getLastIdFor(Ljava/lang/Class;)I", cancellable = true)
     private void getLastIdFor_47506363(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(47506363L))
-            info.setReturnValue(646670376);
+            info.setReturnValue(176070176);
     }
 
 

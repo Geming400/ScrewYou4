@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.core.UUIDUtil.class)
 public class UUIDUtil_141250471Mixin {
-        @Inject(at = @At("HEAD"), method = "uuidFromIntArray([I)Ljava/util/UUID;", cancellable = true)
-    private static void uuidFromIntArray_1578497586(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1578497586L))
+        @Inject(at = @At("HEAD"), method = "readUUID(Lcom/mojang/serialization/Dynamic;)Ljava/util/UUID;", cancellable = true)
+    private static void readUUID_1854987844(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1854987844L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uuidToIntArray(Ljava/util/UUID;)[I", cancellable = true)
-    private static void uuidToIntArray_1827249015(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1827249015L))
+    @Inject(at = @At("HEAD"), method = "uuidFromIntArray([I)Ljava/util/UUID;", cancellable = true)
+    private static void uuidFromIntArray_1578497586(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1578497586L))
             info.setReturnValue(null);
     }
 
@@ -25,9 +25,9 @@ public class UUIDUtil_141250471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "uuidToByteArray(Ljava/util/UUID;)[B", cancellable = true)
-    private static void uuidToByteArray_864369867(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(864369867L))
+    @Inject(at = @At("HEAD"), method = "uuidToIntArray(Ljava/util/UUID;)[I", cancellable = true)
+    private static void uuidToIntArray_1827249015(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1827249015L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class UUIDUtil_141250471Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readUUID(Lcom/mojang/serialization/Dynamic;)Ljava/util/UUID;", cancellable = true)
-    private static void readUUID_1854987844(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1854987844L))
+    @Inject(at = @At("HEAD"), method = "uuidToByteArray(Ljava/util/UUID;)[B", cancellable = true)
+    private static void uuidToByteArray_864369867(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(864369867L))
             info.setReturnValue(null);
     }
 

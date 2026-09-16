@@ -7,15 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.util.debug.TrackingDebugSynchronizer.SourceSynchronizer.class)
 public class SourceSynchronizer167516103Mixin {
-        @Inject(at = @At("HEAD"), method = "registerBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/debug/DebugValueSource$ValueGetter;)V", cancellable = true)
-    private void registerBlockEntity__1768393302(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1768393302L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "dropChunk(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
-    private void dropChunk_355453288(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(355453288L))
+        @Inject(at = @At("HEAD"), method = "dropEntity(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
+    private void dropEntity_800786437(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(800786437L))
             info.cancel();
     }
 
@@ -31,9 +25,15 @@ public class SourceSynchronizer167516103Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "dropEntity(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
-    private void dropEntity_800786437(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(800786437L))
+    @Inject(at = @At("HEAD"), method = "registerBlockEntity(Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/debug/DebugValueSource$ValueGetter;)V", cancellable = true)
+    private void registerBlockEntity__1768393302(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1768393302L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "dropChunk(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
+    private void dropChunk_355453288(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(355453288L))
             info.cancel();
     }
 

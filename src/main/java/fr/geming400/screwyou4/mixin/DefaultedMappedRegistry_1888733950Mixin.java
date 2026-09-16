@@ -28,7 +28,7 @@ public class DefaultedMappedRegistry_1888733950Mixin {
     @Inject(at = @At("HEAD"), method = "getId(Ljava/lang/Object;)I", cancellable = true)
     private void getId_1025099854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1025099854L))
-            info.setReturnValue(720732180);
+            info.setReturnValue(240814080);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandom(Lnet/minecraft/util/RandomSource;)Ljava/util/Optional;", cancellable = true)

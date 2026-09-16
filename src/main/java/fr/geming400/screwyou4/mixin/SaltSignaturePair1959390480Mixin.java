@@ -28,7 +28,7 @@ public class SaltSignaturePair1959390480Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1778224725(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1778224725L))
-            info.setReturnValue(105691654);
+            info.setReturnValue(770111454);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;Lnet/minecraft/util/Crypt$SaltSignaturePair;)V", cancellable = true)
@@ -46,7 +46,7 @@ public class SaltSignaturePair1959390480Mixin {
     @Inject(at = @At("HEAD"), method = "salt()J", cancellable = true)
     private void salt__2060137439(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2060137439L))
-            info.setReturnValue(-2337870571437969526L);
+            info.setReturnValue(-2337870570773549726L);
     }
 
     @Inject(at = @At("HEAD"), method = "saltAsBytes()[B", cancellable = true)

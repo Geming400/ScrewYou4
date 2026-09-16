@@ -22,7 +22,7 @@ public class OpenFile_1410674142Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1968026232(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1968026232L))
-            info.setReturnValue(-169110869);
+            info.setReturnValue(-478570869);
     }
 
     @Inject(at = @At("HEAD"), method = "file()Ljava/io/File;", cancellable = true)

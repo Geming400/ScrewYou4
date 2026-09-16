@@ -13,12 +13,6 @@ public class BubbleColumnBlock628477789Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
-    private void animateTick_1033159322(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1033159322L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getPickupSound()Ljava/util/Optional;", cancellable = true)
     private void getPickupSound__531604280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-531604280L))
@@ -31,15 +25,21 @@ public class BubbleColumnBlock628477789Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
+    private static void updateColumn__1327847062(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1327847062L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
     private static void updateColumn__1601009639(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1601009639L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "updateColumn(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V", cancellable = true)
-    private static void updateColumn__1327847062(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1327847062L))
+    @Inject(at = @At("HEAD"), method = "animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V", cancellable = true)
+    private void animateTick_1033159322(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1033159322L))
             info.cancel();
     }
 

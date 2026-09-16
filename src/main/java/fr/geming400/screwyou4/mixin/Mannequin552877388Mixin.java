@@ -19,16 +19,16 @@ public class Mannequin552877388Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isEffectiveAi()Z", cancellable = true)
-    private void isEffectiveAi__911937154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-911937154L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "aiStep()V", cancellable = true)
     private void aiStep__2110792341(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2110792341L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isEffectiveAi()Z", cancellable = true)
+    private void isEffectiveAi__911937154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-911937154L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getProfile()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)

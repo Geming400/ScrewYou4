@@ -16,7 +16,7 @@ public class BeetrootBlock2064781707Mixin {
     @Inject(at = @At("HEAD"), method = "getMaxAge()I", cancellable = true)
     private void getMaxAge_564126240(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(564126240L))
-            info.setReturnValue(-747649022);
+            info.setReturnValue(-281438622);
     }
 
 

@@ -16,7 +16,7 @@ public class FilterMask_843717538Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1401069132(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1401069132L))
-            info.setReturnValue(-2023358790);
+            info.setReturnValue(-1751454490);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -43,10 +43,10 @@ public class FilterMask_843717538Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFiltered(I)V", cancellable = true)
-    private void setFiltered__954538842(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-954538842L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
+    private void isFullyFiltered_925178049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(925178049L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "applyWithFormatting(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -55,10 +55,10 @@ public class FilterMask_843717538Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isFullyFiltered()Z", cancellable = true)
-    private void isFullyFiltered_925178049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(925178049L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "setFiltered(I)V", cancellable = true)
+    private void setFiltered__954538842(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-954538842L))
+            info.cancel();
     }
 
 

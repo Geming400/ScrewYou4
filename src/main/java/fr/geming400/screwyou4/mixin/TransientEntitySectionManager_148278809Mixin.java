@@ -10,7 +10,7 @@ public class TransientEntitySectionManager_148278809Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count__939891633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-939891633L))
-            info.setReturnValue(-523361493);
+            info.setReturnValue(-44449193);
     }
 
     @Inject(at = @At("HEAD"), method = "startTicking(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)

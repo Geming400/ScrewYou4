@@ -10,7 +10,7 @@ public class ColorLerper1499827577Mixin {
         @Inject(at = @At("HEAD"), method = "getLerpedColor(Lnet/minecraft/client/color/ColorLerper$Type;F)I", cancellable = true)
     private static void getLerpedColor_1531899730(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1531899730L))
-            info.setReturnValue(-317611784);
+            info.setReturnValue(160618316);
     }
 
 

@@ -22,7 +22,7 @@ public class ClientInformation_41960605Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_599312695(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(599312695L))
-            info.setReturnValue(179861127);
+            info.setReturnValue(-26731973);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -37,16 +37,10 @@ public class ClientInformation_41960605Mixin {
             info.setReturnValue("V&BuYE ja&\uBAB3r:Y|gHsR\u0927z&asQnqof\u1627K{AU\u750B)v1^sHb=+#`BHe?2|JUWHpb&\u7292\uC2EC!. eupD4p\u1BFDjR>X6\"");
     }
 
-    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
-    private void viewDistance_844228872(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(844228872L))
-            info.setReturnValue(49853340);
-    }
-
-    @Inject(at = @At("HEAD"), method = "chatVisibility()Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
-    private void chatVisibility_1943449190(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1943449190L))
-            info.setReturnValue(net.minecraft.world.entity.player.ChatVisiblity.FULL);
+    @Inject(at = @At("HEAD"), method = "textFilteringEnabled()Z", cancellable = true)
+    private void textFilteringEnabled_1022535439(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1022535439L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "particleStatus()Lnet/minecraft/server/level/ParticleStatus;", cancellable = true)
@@ -61,10 +55,22 @@ public class ClientInformation_41960605Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "textFilteringEnabled()Z", cancellable = true)
-    private void textFilteringEnabled_1022535439(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1022535439L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "chatVisibility()Lnet/minecraft/world/entity/player/ChatVisiblity;", cancellable = true)
+    private void chatVisibility_1943449190(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1943449190L))
+            info.setReturnValue(net.minecraft.world.entity.player.ChatVisiblity.FULL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mainHand()Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
+    private void mainHand_1299179022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1299179022L))
+            info.setReturnValue(net.minecraft.world.entity.HumanoidArm.RIGHT);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chatColors()Z", cancellable = true)
+    private void chatColors_819499115(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(819499115L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "createDefault()Lnet/minecraft/server/level/ClientInformation;", cancellable = true)
@@ -76,19 +82,13 @@ public class ClientInformation_41960605Mixin {
     @Inject(at = @At("HEAD"), method = "modelCustomisation()I", cancellable = true)
     private void modelCustomisation__345499055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-345499055L))
-            info.setReturnValue(-1891428423);
+            info.setReturnValue(-2097019523);
     }
 
-    @Inject(at = @At("HEAD"), method = "chatColors()Z", cancellable = true)
-    private void chatColors_819499115(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(819499115L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mainHand()Lnet/minecraft/world/entity/HumanoidArm;", cancellable = true)
-    private void mainHand_1299179022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1299179022L))
-            info.setReturnValue(net.minecraft.world.entity.HumanoidArm.RIGHT);
+    @Inject(at = @At("HEAD"), method = "viewDistance()I", cancellable = true)
+    private void viewDistance_844228872(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(844228872L))
+            info.setReturnValue(-155737760);
     }
 
 

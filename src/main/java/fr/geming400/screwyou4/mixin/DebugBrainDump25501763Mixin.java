@@ -28,7 +28,7 @@ public class DebugBrainDump25501763Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_582853854(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(582853854L))
-            info.setReturnValue(-134657054);
+            info.setReturnValue(-527291054);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -40,19 +40,7 @@ public class DebugBrainDump25501763Mixin {
     @Inject(at = @At("HEAD"), method = "xp()I", cancellable = true)
     private void xp__1898479055(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1898479055L))
-            info.setReturnValue(-2084964708);
-    }
-
-    @Inject(at = @At("HEAD"), method = "maxHealth()F", cancellable = true)
-    private void maxHealth_371883526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(371883526L))
-            info.setReturnValue(8.80551E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasPoi(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void hasPoi_200962334(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(200962334L))
-            info.setReturnValue(false);
+            info.setReturnValue(1817368588);
     }
 
     @Inject(at = @At("HEAD"), method = "inventory()Ljava/lang/String;", cancellable = true)
@@ -61,16 +49,40 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue("pf<Dc5m<>x;IS{g(#n%P\u47D5cXx[|.g\uC9D8YZ/}TC@Jn=2X/y](ro\u2841,<o1Z\u494E`/}K/P0\uD100]J\u63A3em\u9D22VH\u2CA3\u4A83>\uD321/@XF\u809ELc:EO5\uD541!T\u8C27Y5");
     }
 
+    @Inject(at = @At("HEAD"), method = "health()F", cancellable = true)
+    private void health__1939406326(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1939406326L))
+            info.setReturnValue(4.87917E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "behaviors()Ljava/util/List;", cancellable = true)
+    private void behaviors_947235924(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(947235924L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "wantsGolem()Z", cancellable = true)
+    private void wantsGolem__1355017711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1355017711L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "angerLevel()I", cancellable = true)
+    private void angerLevel__392485748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-392485748L))
+            info.setReturnValue(-950430392);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hasPoi(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void hasPoi_200962334(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(200962334L))
+            info.setReturnValue(false);
+    }
+
     @Inject(at = @At("HEAD"), method = "pois()Ljava/util/Set;", cancellable = true)
     private void pois__1767950244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1767950244L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "health()F", cancellable = true)
-    private void health__1939406326(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1939406326L))
-            info.setReturnValue(8.80551E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "takeBrainDump(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/util/debug/DebugBrainDump;", cancellable = true)
@@ -79,10 +91,10 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "profession()Ljava/lang/String;", cancellable = true)
-    private void profession_1470045128(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1470045128L))
-            info.setReturnValue("BLBeeB\uB323Hpl8FJt9=EfYThU\u2778^A,z,dUMt\u3A17%\u3AFA+");
+    @Inject(at = @At("HEAD"), method = "potentialPois()Ljava/util/Set;", cancellable = true)
+    private void potentialPois_752815710(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(752815710L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "hasPotentialPoi(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
@@ -91,9 +103,9 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "potentialPois()Ljava/util/Set;", cancellable = true)
-    private void potentialPois_752815710(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(752815710L))
+    @Inject(at = @At("HEAD"), method = "activities()Ljava/util/List;", cancellable = true)
+    private void activities__1421864480(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1421864480L))
             info.setReturnValue(null);
     }
 
@@ -109,28 +121,16 @@ public class DebugBrainDump25501763Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wantsGolem()Z", cancellable = true)
-    private void wantsGolem__1355017711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1355017711L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "maxHealth()F", cancellable = true)
+    private void maxHealth_371883526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(371883526L))
+            info.setReturnValue(4.87917E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "angerLevel()I", cancellable = true)
-    private void angerLevel__392485748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-392485748L))
-            info.setReturnValue(-557796392);
-    }
-
-    @Inject(at = @At("HEAD"), method = "behaviors()Ljava/util/List;", cancellable = true)
-    private void behaviors_947235924(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(947235924L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "activities()Ljava/util/List;", cancellable = true)
-    private void activities__1421864480(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1421864480L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "profession()Ljava/lang/String;", cancellable = true)
+    private void profession_1470045128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1470045128L))
+            info.setReturnValue("BLBeeB\uB323Hpl8FJt9=EfYThU\u2778^A,z,dUMt\u3A17%\u3AFA+");
     }
 
 

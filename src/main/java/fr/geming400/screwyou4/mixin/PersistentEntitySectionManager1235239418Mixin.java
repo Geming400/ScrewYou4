@@ -10,7 +10,7 @@ public class PersistentEntitySectionManager1235239418Mixin {
         @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_147068977(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(147068977L))
-            info.setReturnValue(934137890);
+            info.setReturnValue(1398282190);
     }
 
     @Inject(at = @At("HEAD"), method = "close()V", cancellable = true)
@@ -55,15 +55,21 @@ public class PersistentEntitySectionManager1235239418Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "areEntitiesLoaded(J)Z", cancellable = true)
-    private void areEntitiesLoaded__821762363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-821762363L))
+    @Inject(at = @At("HEAD"), method = "canPositionTick(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
+    private void canPositionTick_86372359(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(86372359L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canPositionTick(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
+    private void canPositionTick_993240667(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(993240667L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "dumpSections(Ljava/io/Writer;)V", cancellable = true)
-    private void dumpSections__35053557(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-35053557L))
+    @Inject(at = @At("HEAD"), method = "addLegacyChunkEntities(Ljava/util/stream/Stream;)V", cancellable = true)
+    private void addLegacyChunkEntities__660400231(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-660400231L))
             info.cancel();
     }
 
@@ -73,21 +79,9 @@ public class PersistentEntitySectionManager1235239418Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "canPositionTick(Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
-    private void canPositionTick_993240667(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(993240667L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canPositionTick(Lnet/minecraft/world/level/ChunkPos;)Z", cancellable = true)
-    private void canPositionTick_86372359(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(86372359L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addLegacyChunkEntities(Ljava/util/stream/Stream;)V", cancellable = true)
-    private void addLegacyChunkEntities__660400231(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-660400231L))
+    @Inject(at = @At("HEAD"), method = "dumpSections(Ljava/io/Writer;)V", cancellable = true)
+    private void dumpSections__35053557(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-35053557L))
             info.cancel();
     }
 
@@ -101,6 +95,12 @@ public class PersistentEntitySectionManager1235239418Mixin {
     private void processPendingLoads__1940448568(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1940448568L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "areEntitiesLoaded(J)Z", cancellable = true)
+    private void areEntitiesLoaded__821762363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-821762363L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "saveAll()V", cancellable = true)

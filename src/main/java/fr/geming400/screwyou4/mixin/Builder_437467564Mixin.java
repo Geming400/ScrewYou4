@@ -13,6 +13,12 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "icon(Ljava/util/function/Supplier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void icon_464727709(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(464727709L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "title(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void title__228418930(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-228418930L))
@@ -25,15 +31,9 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "icon(Ljava/util/function/Supplier;)Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void icon_464727709(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(464727709L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hideTitle()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void hideTitle_1831445632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1831445632L))
+    @Inject(at = @At("HEAD"), method = "noScrollBar()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void noScrollBar__2001494449(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2001494449L))
             info.setReturnValue(null);
     }
 
@@ -43,15 +43,15 @@ public class Builder_437467564Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "noScrollBar()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
-    private void noScrollBar__2001494449(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2001494449L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "alignedRight()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
     private void alignedRight_1325372130(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1325372130L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hideTitle()Lnet/minecraft/world/item/CreativeModeTab$Builder;", cancellable = true)
+    private void hideTitle_1831445632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1831445632L))
             info.setReturnValue(null);
     }
 

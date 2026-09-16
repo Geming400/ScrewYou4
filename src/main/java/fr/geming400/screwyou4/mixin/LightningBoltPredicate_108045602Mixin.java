@@ -22,7 +22,7 @@ public class LightningBoltPredicate_108045602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_665397692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(665397692L))
-            info.setReturnValue(1746847);
+            info.setReturnValue(-482887653);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

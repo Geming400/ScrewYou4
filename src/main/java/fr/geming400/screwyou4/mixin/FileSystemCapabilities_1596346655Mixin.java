@@ -22,13 +22,13 @@ public class FileSystemCapabilities_1596346655Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2141268551(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2141268551L))
-            info.setReturnValue(-554002540);
+            info.setReturnValue(-229275540);
     }
 
-    @Inject(at = @At("HEAD"), method = "hardLinks()Z", cancellable = true)
-    private void hardLinks__222841337(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-222841337L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "atomicMove()Z", cancellable = true)
+    private void atomicMove__1284968519(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1284968519L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getMoveOptions()[Ljava/nio/file/CopyOption;", cancellable = true)
@@ -37,10 +37,10 @@ public class FileSystemCapabilities_1596346655Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "atomicMove()Z", cancellable = true)
-    private void atomicMove__1284968519(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1284968519L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "hardLinks()Z", cancellable = true)
+    private void hardLinks__222841337(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-222841337L))
+            info.setReturnValue(false);
     }
 
 

@@ -28,7 +28,7 @@ public class TimeCheck_842071235Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1399423325(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1399423325L))
-            info.setReturnValue(1412459458);
+            info.setReturnValue(1379530358);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

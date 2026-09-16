@@ -10,7 +10,7 @@ public class Border982311671Mixin {
         @Inject(at = @At("HEAD"), method = "bottom()I", cancellable = true)
     private void bottom_320323986(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(320323986L))
-            info.setReturnValue(-964679249);
+            info.setReturnValue(-998484749);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,25 +28,25 @@ public class Border982311671Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1539663762(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1539663762L))
-            info.setReturnValue(1471923527);
+            info.setReturnValue(1438118027);
     }
 
     @Inject(at = @At("HEAD"), method = "top()I", cancellable = true)
     private void top__36731736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-36731736L))
-            info.setReturnValue(-805932250);
+            info.setReturnValue(-839737750);
     }
 
     @Inject(at = @At("HEAD"), method = "left()I", cancellable = true)
     private void left__1623718602(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1623718602L))
-            info.setReturnValue(-1482056568);
+            info.setReturnValue(-1515862068);
     }
 
     @Inject(at = @At("HEAD"), method = "right()I", cancellable = true)
     private void right__458364863(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-458364863L))
-            info.setReturnValue(1204111290);
+            info.setReturnValue(1170305790);
     }
 
 

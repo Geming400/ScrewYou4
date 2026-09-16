@@ -22,7 +22,7 @@ public class RecipeSerializer_2127303840Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1610311366(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1610311366L))
-            info.setReturnValue(653707878);
+            info.setReturnValue(927123278);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

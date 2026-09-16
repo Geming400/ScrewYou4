@@ -13,16 +13,10 @@ public class CartographyTableMenu_2141435259Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
-    private void slotsChanged_399829075(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(399829075L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
-    private void canTakeItemForPickAll__230435518(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-230435518L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid_107524088(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(107524088L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -31,10 +25,16 @@ public class CartographyTableMenu_2141435259Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid_107524088(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(107524088L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "canTakeItemForPickAll(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/inventory/Slot;)Z", cancellable = true)
+    private void canTakeItemForPickAll__230435518(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-230435518L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "slotsChanged(Lnet/minecraft/world/Container;)V", cancellable = true)
+    private void slotsChanged_399829075(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(399829075L))
+            info.cancel();
     }
 
 

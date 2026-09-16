@@ -28,7 +28,7 @@ public class Custom_1097580691Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1654932781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1654932781L))
-            info.setReturnValue(-289042023);
+            info.setReturnValue(399134177);
     }
 
     @Inject(at = @At("HEAD"), method = "id()Lnet/minecraft/resources/Identifier;", cancellable = true)

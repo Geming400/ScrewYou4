@@ -22,7 +22,7 @@ public class EntityNbtPredicate_386854080Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_944206170(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(944206170L))
-            info.setReturnValue(-346557802);
+            info.setReturnValue(-637235902);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/phys/Vec3;)Z", cancellable = true)

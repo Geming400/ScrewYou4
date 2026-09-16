@@ -22,7 +22,7 @@ public class SpreadPos_2092759747Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1644855459(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1644855459L))
-            info.setReturnValue(420543815);
+            info.setReturnValue(143861915);
     }
 
     @Inject(at = @At("HEAD"), method = "pos()Lnet/minecraft/core/BlockPos;", cancellable = true)

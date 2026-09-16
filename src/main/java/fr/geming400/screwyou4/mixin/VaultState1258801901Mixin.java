@@ -34,7 +34,7 @@ public class VaultState1258801901Mixin {
     @Inject(at = @At("HEAD"), method = "lightLevel()I", cancellable = true)
     private void lightLevel__434846331(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-434846331L))
-            info.setReturnValue(1762587953);
+            info.setReturnValue(1285649753);
     }
 
     @Inject(at = @At("HEAD"), method = "tickAndGetNext(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/entity/vault/VaultConfig;Lnet/minecraft/world/level/block/entity/vault/VaultServerData;Lnet/minecraft/world/level/block/entity/vault/VaultSharedData;)Lnet/minecraft/world/level/block/entity/vault/VaultState;", cancellable = true)

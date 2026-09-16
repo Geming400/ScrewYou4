@@ -22,7 +22,7 @@ public class Occupant15183853Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_572535944(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(572535944L))
-            info.setReturnValue(1442478035);
+            info.setReturnValue(842436535);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/level/block/entity/BeehiveBlockEntity$Occupant;", cancellable = true)
@@ -37,6 +37,12 @@ public class Occupant15183853Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createEntity(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
+    private void createEntity_1366118361(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1366118361L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "entityData()Lnet/minecraft/world/item/component/TypedEntityData;", cancellable = true)
     private void entityData__577046706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-577046706L))
@@ -46,19 +52,13 @@ public class Occupant15183853Mixin {
     @Inject(at = @At("HEAD"), method = "ticksInHive()I", cancellable = true)
     private void ticksInHive_1551210600(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1551210600L))
-            info.setReturnValue(347572491);
+            info.setReturnValue(-252974309);
     }
 
     @Inject(at = @At("HEAD"), method = "minTicksInHive()I", cancellable = true)
     private void minTicksInHive_77111002(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(77111002L))
-            info.setReturnValue(747316891);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createEntity(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/Entity;", cancellable = true)
-    private void createEntity_1366118361(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1366118361L))
-            info.setReturnValue(null);
+            info.setReturnValue(146770091);
     }
 
 

@@ -22,7 +22,7 @@ public class GcHeapStat_669730992Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1227083082(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1227083082L))
-            info.setReturnValue(-1588699758);
+            info.setReturnValue(-2025702858);
     }
 
     @Inject(at = @At("HEAD"), method = "from(Ljdk/jfr/consumer/RecordedEvent;)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat;", cancellable = true)
@@ -37,12 +37,6 @@ public class GcHeapStat_669730992Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
-    private static void summary__1197166396(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1197166396L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "timing()Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Timing;", cancellable = true)
     private void timing_487285984(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(487285984L))
@@ -52,7 +46,13 @@ public class GcHeapStat_669730992Mixin {
     @Inject(at = @At("HEAD"), method = "heapUsed()J", cancellable = true)
     private void heapUsed__777568211(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-777568211L))
-            info.setReturnValue(-7323066765933861289L);
+            info.setReturnValue(-7323066766370864389L);
+    }
+
+    @Inject(at = @At("HEAD"), method = "summary(Ljava/time/Duration;Ljava/util/List;Ljava/time/Duration;I)Lnet/minecraft/util/profiling/jfr/stats/GcHeapStat$Summary;", cancellable = true)
+    private static void summary__1197166396(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1197166396L))
+            info.setReturnValue(null);
     }
 
 

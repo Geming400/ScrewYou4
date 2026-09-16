@@ -19,15 +19,15 @@ public class FireworkRocketRecipe_862716615Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble__1864195097(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1864195097L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1924582053(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1924582053L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble__1864195097(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1864195097L))
             info.setReturnValue(null);
     }
 

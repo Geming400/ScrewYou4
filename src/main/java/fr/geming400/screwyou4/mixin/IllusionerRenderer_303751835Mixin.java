@@ -37,15 +37,15 @@ public class IllusionerRenderer_303751835Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__258469973(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-258469973L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/monster/illager/Illusioner;Lnet/minecraft/client/renderer/entity/state/IllusionerRenderState;F)V", cancellable = true)
     private void extractRenderState_338317331(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(338317331L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/entity/state/EntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__258469973(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-258469973L))
             info.cancel();
     }
 

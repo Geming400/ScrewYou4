@@ -37,15 +37,15 @@ public class StatType1149058370Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private void streamCodec_10312264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(10312264L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getRegistry()Lnet/minecraft/core/Registry;", cancellable = true)
     private void getRegistry__979516934(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-979516934L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec()Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private void streamCodec_10312264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(10312264L))
             info.setReturnValue(null);
     }
 

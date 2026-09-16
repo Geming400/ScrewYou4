@@ -34,7 +34,7 @@ public class FishingRodCast_923340062Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1480692152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1480692152L))
-            info.setReturnValue(559090197);
+            info.setReturnValue(310939497);
     }
 
 

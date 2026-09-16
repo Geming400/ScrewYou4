@@ -10,7 +10,7 @@ public class Plane_1458334495Mixin {
         @Inject(at = @At("HEAD"), method = "length()I", cancellable = true)
     private void length__1250630178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1250630178L))
-            info.setReturnValue(490127932);
+            info.setReturnValue(1062422232);
     }
 
     @Inject(at = @At("HEAD"), method = "values()[Lnet/minecraft/core/Direction$Plane;", cancellable = true)

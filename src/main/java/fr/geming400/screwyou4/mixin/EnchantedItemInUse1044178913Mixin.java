@@ -22,7 +22,7 @@ public class EnchantedItemInUse1044178913Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1601531004(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1601531004L))
-            info.setReturnValue(1317878935);
+            info.setReturnValue(1314003235);
     }
 
     @Inject(at = @At("HEAD"), method = "owner()Lnet/minecraft/world/entity/LivingEntity;", cancellable = true)
@@ -31,10 +31,10 @@ public class EnchantedItemInUse1044178913Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onBreak()Ljava/util/function/Consumer;", cancellable = true)
-    private void onBreak_1779402840(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1779402840L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "inSlot()Lnet/minecraft/world/entity/EquipmentSlot;", cancellable = true)
+    private void inSlot_2032121569(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2032121569L))
+            info.setReturnValue(net.minecraft.world.entity.EquipmentSlot.LEGS);
     }
 
     @Inject(at = @At("HEAD"), method = "itemStack()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -43,10 +43,10 @@ public class EnchantedItemInUse1044178913Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "inSlot()Lnet/minecraft/world/entity/EquipmentSlot;", cancellable = true)
-    private void inSlot_2032121569(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2032121569L))
-            info.setReturnValue(net.minecraft.world.entity.EquipmentSlot.LEGS);
+    @Inject(at = @At("HEAD"), method = "onBreak()Ljava/util/function/Consumer;", cancellable = true)
+    private void onBreak_1779402840(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1779402840L))
+            info.setReturnValue(null);
     }
 
 

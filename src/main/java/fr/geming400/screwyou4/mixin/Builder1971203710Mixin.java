@@ -19,12 +19,6 @@ public class Builder1971203710Mixin {
             info.setReturnValue(new net.minecraft.core.component.DataComponentType.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreSwapAnimation()Lnet/minecraft/core/component/DataComponentType$Builder;", cancellable = true)
-    private void ignoreSwapAnimation__841681195(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-841681195L))
-            info.setReturnValue(new net.minecraft.core.component.DataComponentType.Builder());
-    }
-
     @Inject(at = @At("HEAD"), method = "cacheEncoding()Lnet/minecraft/core/component/DataComponentType$Builder;", cancellable = true)
     private void cacheEncoding_1291885131(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1291885131L))
@@ -34,6 +28,12 @@ public class Builder1971203710Mixin {
     @Inject(at = @At("HEAD"), method = "networkSynchronized(Lnet/minecraft/network/codec/StreamCodec;)Lnet/minecraft/core/component/DataComponentType$Builder;", cancellable = true)
     private void networkSynchronized__962145019(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-962145019L))
+            info.setReturnValue(new net.minecraft.core.component.DataComponentType.Builder());
+    }
+
+    @Inject(at = @At("HEAD"), method = "ignoreSwapAnimation()Lnet/minecraft/core/component/DataComponentType$Builder;", cancellable = true)
+    private void ignoreSwapAnimation__841681195(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-841681195L))
             info.setReturnValue(new net.minecraft.core.component.DataComponentType.Builder());
     }
 

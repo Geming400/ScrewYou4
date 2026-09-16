@@ -31,12 +31,6 @@ public class ExtraDataFixUtils378117896Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "readAndSet(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/Typed;", cancellable = true)
-    private static void readAndSet__1907313421(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1907313421L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "fixBlockPos(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void fixBlockPos__1340953605(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1340953605L))
@@ -61,15 +55,21 @@ public class ExtraDataFixUtils378117896Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "fixInlineBlockPos(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
+    private static void fixInlineBlockPos_1544309196(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1544309196L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "createBlockPos(Lcom/mojang/serialization/Dynamic;III)Lcom/mojang/serialization/Dynamic;", cancellable = true)
     private static void createBlockPos_1428596287(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1428596287L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "fixInlineBlockPos(Lcom/mojang/serialization/Dynamic;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;", cancellable = true)
-    private static void fixInlineBlockPos_1544309196(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1544309196L))
+    @Inject(at = @At("HEAD"), method = "readAndSet(Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/datafixers/Typed;", cancellable = true)
+    private static void readAndSet__1907313421(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1907313421L))
             info.setReturnValue(null);
     }
 

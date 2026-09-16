@@ -25,22 +25,22 @@ public class StackedItemContents_1031637210Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
-    private void getBiggestCraftableStack_1737475167(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1737475167L))
-            info.setReturnValue(-841762794);
+    @Inject(at = @At("HEAD"), method = "accountSimpleStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
+    private void accountSimpleStack_1835262024(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1835262024L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
     private void getBiggestCraftableStack_17706056(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(17706056L))
-            info.setReturnValue(1770871641);
+            info.setReturnValue(-2039762755);
     }
 
-    @Inject(at = @At("HEAD"), method = "accountSimpleStack(Lnet/minecraft/world/item/ItemStack;)V", cancellable = true)
-    private void accountSimpleStack_1835262024(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1835262024L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getBiggestCraftableStack(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/world/entity/player/StackedContents$Output;)I", cancellable = true)
+    private void getBiggestCraftableStack_1737475167(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1737475167L))
+            info.setReturnValue(-357429894);
     }
 
     @Inject(at = @At("HEAD"), method = "canCraft(Lnet/minecraft/world/item/crafting/Recipe;ILnet/minecraft/world/entity/player/StackedContents$Output;)Z", cancellable = true)

@@ -34,7 +34,7 @@ public class EncodeToFieldFailedProblem194927183Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_752279274(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(752279274L))
-            info.setReturnValue(1962421939);
+            info.setReturnValue(1977065839);
     }
 
     @Inject(at = @At("HEAD"), method = "error()Lcom/mojang/serialization/DataResult$Error;", cancellable = true)

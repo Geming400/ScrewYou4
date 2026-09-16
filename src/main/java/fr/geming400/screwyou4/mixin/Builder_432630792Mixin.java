@@ -19,10 +19,10 @@ public class Builder_432630792Mixin {
             info.setReturnValue(new net.minecraft.world.item.ProjectileItem.DispenseConfig.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "positionFunction(Lnet/minecraft/world/item/ProjectileItem$PositionFunction;)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
-    private void positionFunction__1237779022(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1237779022L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent(I)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
+    private void overrideDispenseEvent_1575512824(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1575512824L))
+            info.setReturnValue(new net.minecraft.world.item.ProjectileItem.DispenseConfig.Builder());
     }
 
     @Inject(at = @At("HEAD"), method = "uncertainty(F)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
@@ -31,10 +31,10 @@ public class Builder_432630792Mixin {
             info.setReturnValue(new net.minecraft.world.item.ProjectileItem.DispenseConfig.Builder());
     }
 
-    @Inject(at = @At("HEAD"), method = "overrideDispenseEvent(I)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
-    private void overrideDispenseEvent_1575512824(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1575512824L))
-            info.setReturnValue(new net.minecraft.world.item.ProjectileItem.DispenseConfig.Builder());
+    @Inject(at = @At("HEAD"), method = "positionFunction(Lnet/minecraft/world/item/ProjectileItem$PositionFunction;)Lnet/minecraft/world/item/ProjectileItem$DispenseConfig$Builder;", cancellable = true)
+    private void positionFunction__1237779022(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1237779022L))
+            info.setReturnValue(null);
     }
 
 

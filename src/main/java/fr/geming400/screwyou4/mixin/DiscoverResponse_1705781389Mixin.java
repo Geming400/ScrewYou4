@@ -22,7 +22,7 @@ public class DiscoverResponse_1705781389Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2031833817(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2031833817L))
-            info.setReturnValue(-757660408);
+            info.setReturnValue(-557512308);
     }
 
     @Inject(at = @At("HEAD"), method = "methods()Ljava/util/List;", cancellable = true)
@@ -37,16 +37,16 @@ public class DiscoverResponse_1705781389Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "discoverInfo()Lnet/minecraft/server/jsonrpc/methods/DiscoveryService$DiscoverInfo;", cancellable = true)
-    private void discoverInfo__1002055838(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1002055838L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "jsonRpcProtocolVersion()Ljava/lang/String;", cancellable = true)
     private void jsonRpcProtocolVersion_1421456728(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1421456728L))
             info.setReturnValue("Rkzprx-vX75Uu*b{G\uA69B$NRdI2oK9[&\u6E80Dn\uA267gY\u4C13_\uD7C1Ms!$\"R[9[");
+    }
+
+    @Inject(at = @At("HEAD"), method = "discoverInfo()Lnet/minecraft/server/jsonrpc/methods/DiscoveryService$DiscoverInfo;", cancellable = true)
+    private void discoverInfo__1002055838(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1002055838L))
+            info.setReturnValue(null);
     }
 
 

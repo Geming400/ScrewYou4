@@ -10,7 +10,7 @@ public class ItemEnchantments_927632215Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1371363803(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1371363803L))
-            info.setReturnValue(-208660936);
+            info.setReturnValue(-504049236);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class ItemEnchantments_927632215Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1484983809(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1484983809L))
-            info.setReturnValue(-1371880854);
+            info.setReturnValue(-1667269154);
     }
 
     @Inject(at = @At("HEAD"), method = "isEmpty()Z", cancellable = true)
@@ -52,7 +52,7 @@ public class ItemEnchantments_927632215Mixin {
     @Inject(at = @At("HEAD"), method = "getLevel(Lnet/minecraft/core/Holder;)I", cancellable = true)
     private void getLevel_1452030681(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1452030681L))
-            info.setReturnValue(861516763);
+            info.setReturnValue(567130463);
     }
 
     @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)

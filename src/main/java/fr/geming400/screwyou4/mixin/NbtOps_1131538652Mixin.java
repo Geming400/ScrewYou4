@@ -97,16 +97,16 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "createLong(J)Ljava/lang/Object;", cancellable = true)
-    private void createLong__1236346652(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1236346652L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
     @Inject(at = @At("HEAD"), method = "createLong(J)Lnet/minecraft/nbt/Tag;", cancellable = true)
     private void createLong__692640742(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-692640742L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLong(J)Ljava/lang/Object;", cancellable = true)
+    private void createLong__1236346652(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1236346652L))
+            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "createString(Ljava/lang/String;)Lnet/minecraft/nbt/Tag;", cancellable = true)
@@ -121,63 +121,117 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createIntList(Ljava/util/stream/IntStream;)Ljava/lang/Object;", cancellable = true)
-    private void createIntList__348391912(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-348391912L))
+    @Inject(at = @At("HEAD"), method = "getStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getStream_1213883520(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213883520L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createIntList(Ljava/util/stream/IntStream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createIntList__2093996186(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2093996186L))
+    @Inject(at = @At("HEAD"), method = "getStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getStream_1744857072(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1744857072L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getIntStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getIntStream_2144382883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2144382883L))
+    @Inject(at = @At("HEAD"), method = "getList(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getList_267131678(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(267131678L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getIntStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getIntStream__50695443(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-50695443L))
+    @Inject(at = @At("HEAD"), method = "getList(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getList_1199736466(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1199736466L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFloat(F)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createFloat_1989338686(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1989338686L))
+    @Inject(at = @At("HEAD"), method = "createList(Ljava/util/stream/Stream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createList__1839088886(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1839088886L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createFloat(F)Ljava/lang/Object;", cancellable = true)
-    private void createFloat_413356096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(413356096L))
+    @Inject(at = @At("HEAD"), method = "createList(Ljava/util/stream/Stream;)Ljava/lang/Object;", cancellable = true)
+    private void createList__918705164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-918705164L))
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "getLongStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getLongStream_919666460(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(919666460L))
+    @Inject(at = @At("HEAD"), method = "mapBuilder()Lcom/mojang/serialization/RecordBuilder;", cancellable = true)
+    private void mapBuilder_878471116(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(878471116L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getLongStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getLongStream_386046932(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(386046932L))
+    @Inject(at = @At("HEAD"), method = "createInt(I)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createInt_2008452244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2008452244L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBooleanValue(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getBooleanValue_1285393447(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1285393447L))
+    @Inject(at = @At("HEAD"), method = "createInt(I)Ljava/lang/Object;", cancellable = true)
+    private void createInt__954561494(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-954561494L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__1693116633(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1693116633L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getBooleanValue(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getBooleanValue__1976677719(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1976677719L))
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__1937034894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1937034894L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__2075077476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2075077476L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__53528515(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-53528515L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__1131376173(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1131376173L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToMap__651158091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-651158091L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertTo(Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
+    private void convertTo_1843244502(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1843244502L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "convertTo(Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/nbt/Tag;)Ljava/lang/Object;", cancellable = true)
+    private void convertTo__950475526(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-950475526L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createByte(B)Ljava/lang/Object;", cancellable = true)
+    private void createByte_2022853600(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2022853600L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createByte(B)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createByte_1020276382(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1020276382L))
             info.setReturnValue(null);
     }
 
@@ -193,15 +247,87 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMapValues(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getMapValues__1046265794(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1046265794L))
+    @Inject(at = @At("HEAD"), method = "createIntList(Ljava/util/stream/IntStream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createIntList__2093996186(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2093996186L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getMapValues(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getMapValues__1076327182(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1076327182L))
+    @Inject(at = @At("HEAD"), method = "createIntList(Ljava/util/stream/IntStream;)Ljava/lang/Object;", cancellable = true)
+    private void createIntList__348391912(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-348391912L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLongList(Ljava/util/stream/LongStream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createLongList__1838174454(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1838174454L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createLongList(Ljava/util/stream/LongStream;)Ljava/lang/Object;", cancellable = true)
+    private void createLongList__850970636(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-850970636L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToList(Lnet/minecraft/nbt/Tag;Ljava/util/List;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToList_551297612(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(551297612L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToList(Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToList__56887911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-56887911L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToList(Ljava/lang/Object;Ljava/util/List;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToList_235563430(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(235563430L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mergeToList(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void mergeToList__1417438127(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1417438127L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createFloat(F)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createFloat_1989338686(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1989338686L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createFloat(F)Ljava/lang/Object;", cancellable = true)
+    private void createFloat_413356096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(413356096L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBooleanValue(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getBooleanValue_1285393447(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1285393447L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getBooleanValue(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getBooleanValue__1976677719(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1976677719L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createNumeric(Ljava/lang/Number;)Ljava/lang/Object;", cancellable = true)
+    private void createNumeric_365074965(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(365074965L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createNumeric(Ljava/lang/Number;)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createNumeric__770606711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-770606711L))
             info.setReturnValue(null);
     }
 
@@ -229,9 +355,15 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStringValue(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getStringValue_1121664180(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1121664180L))
+    @Inject(at = @At("HEAD"), method = "createShort(S)Ljava/lang/Object;", cancellable = true)
+    private void createShort_167511091(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(167511091L))
+            info.setReturnValue(new java.lang.Object());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createShort(S)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createShort__1369722325(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1369722325L))
             info.setReturnValue(null);
     }
 
@@ -241,40 +373,34 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mergeToList(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToList__1417438127(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1417438127L))
+    @Inject(at = @At("HEAD"), method = "getStringValue(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getStringValue_1121664180(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1121664180L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mergeToList(Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToList__56887911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-56887911L))
+    @Inject(at = @At("HEAD"), method = "getMapValues(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getMapValues__1046265794(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1046265794L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mergeToList(Lnet/minecraft/nbt/Tag;Ljava/util/List;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToList_551297612(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(551297612L))
+    @Inject(at = @At("HEAD"), method = "getMapValues(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getMapValues__1076327182(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1076327182L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mergeToList(Ljava/lang/Object;Ljava/util/List;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToList_235563430(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(235563430L))
+    @Inject(at = @At("HEAD"), method = "getIntStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getIntStream__50695443(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-50695443L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createBoolean(Z)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createBoolean__586937314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-586937314L))
+    @Inject(at = @At("HEAD"), method = "getIntStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getIntStream_2144382883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2144382883L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createBoolean(Z)Ljava/lang/Object;", cancellable = true)
-    private void createBoolean__607519136(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-607519136L))
-            info.setReturnValue(new java.lang.Object());
     }
 
     @Inject(at = @At("HEAD"), method = "getNumberValue(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
@@ -289,153 +415,27 @@ public class NbtOps_1131538652Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createNumeric(Ljava/lang/Number;)Ljava/lang/Object;", cancellable = true)
-    private void createNumeric_365074965(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(365074965L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createNumeric(Ljava/lang/Number;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createNumeric__770606711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-770606711L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createShort(S)Ljava/lang/Object;", cancellable = true)
-    private void createShort_167511091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(167511091L))
+    @Inject(at = @At("HEAD"), method = "createBoolean(Z)Ljava/lang/Object;", cancellable = true)
+    private void createBoolean__607519136(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-607519136L))
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "createShort(S)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createShort__1369722325(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1369722325L))
+    @Inject(at = @At("HEAD"), method = "createBoolean(Z)Lnet/minecraft/nbt/Tag;", cancellable = true)
+    private void createBoolean__586937314(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-586937314L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createLongList(Ljava/util/stream/LongStream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createLongList__1838174454(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1838174454L))
+    @Inject(at = @At("HEAD"), method = "getLongStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getLongStream_919666460(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(919666460L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createLongList(Ljava/util/stream/LongStream;)Ljava/lang/Object;", cancellable = true)
-    private void createLongList__850970636(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-850970636L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createList(Ljava/util/stream/Stream;)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createList__1839088886(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1839088886L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createList(Ljava/util/stream/Stream;)Ljava/lang/Object;", cancellable = true)
-    private void createList__918705164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-918705164L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStream(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getStream_1213883520(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213883520L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getStream_1744857072(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1744857072L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertTo(Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/nbt/Tag;)Ljava/lang/Object;", cancellable = true)
-    private void convertTo__950475526(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-950475526L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "convertTo(Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;)Ljava/lang/Object;", cancellable = true)
-    private void convertTo_1843244502(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1843244502L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "createInt(I)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createInt_2008452244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2008452244L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createInt(I)Ljava/lang/Object;", cancellable = true)
-    private void createInt__954561494(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-954561494L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__651158091(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-651158091L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__53528515(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-53528515L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Lcom/mojang/serialization/MapLike;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__1693116633(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1693116633L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__2075077476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2075077476L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__1131376173(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1131376173L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mergeToMap(Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void mergeToMap__1937034894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1937034894L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mapBuilder()Lcom/mojang/serialization/RecordBuilder;", cancellable = true)
-    private void mapBuilder_878471116(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(878471116L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createByte(B)Lnet/minecraft/nbt/Tag;", cancellable = true)
-    private void createByte_1020276382(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1020276382L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createByte(B)Ljava/lang/Object;", cancellable = true)
-    private void createByte_2022853600(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2022853600L))
-            info.setReturnValue(new java.lang.Object());
-    }
-
-    @Inject(at = @At("HEAD"), method = "getList(Lnet/minecraft/nbt/Tag;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getList_267131678(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(267131678L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getList(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private void getList_1199736466(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1199736466L))
+    @Inject(at = @At("HEAD"), method = "getLongStream(Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private void getLongStream_386046932(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(386046932L))
             info.setReturnValue(null);
     }
 

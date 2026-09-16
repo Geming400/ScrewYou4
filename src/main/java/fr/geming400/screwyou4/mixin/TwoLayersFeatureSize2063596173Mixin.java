@@ -10,7 +10,7 @@ public class TwoLayersFeatureSize2063596173Mixin {
         @Inject(at = @At("HEAD"), method = "getSizeAtHeight(II)I", cancellable = true)
     private void getSizeAtHeight__83335774(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-83335774L))
-            info.setReturnValue(-1958112308);
+            info.setReturnValue(1871895488);
     }
 
 

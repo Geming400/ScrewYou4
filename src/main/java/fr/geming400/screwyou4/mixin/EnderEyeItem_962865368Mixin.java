@@ -16,7 +16,7 @@ public class EnderEyeItem_962865368Mixin {
     @Inject(at = @At("HEAD"), method = "getUseDuration(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;)I", cancellable = true)
     private void getUseDuration__1540223827(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1540223827L))
-            info.setReturnValue(1592297934);
+            info.setReturnValue(1678445834);
     }
 
     @Inject(at = @At("HEAD"), method = "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;", cancellable = true)

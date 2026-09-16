@@ -22,13 +22,7 @@ public class WolfSoundSet_1508532309Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2065884399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2065884399L))
-            info.setReturnValue(-1074283017);
-    }
-
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void deathSound__1071478283(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1071478283L))
-            info.setReturnValue(null);
+            info.setReturnValue(-803178417);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -37,9 +31,9 @@ public class WolfSoundSet_1508532309Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void ambientSound__819025895(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-819025895L))
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void deathSound__1071478283(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1071478283L))
             info.setReturnValue(null);
     }
 
@@ -49,9 +43,15 @@ public class WolfSoundSet_1508532309Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "whineSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void whineSound__92266128(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-92266128L))
+    @Inject(at = @At("HEAD"), method = "ambientSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void ambientSound__819025895(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-819025895L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "growlSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void growlSound_1127018426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1127018426L))
             info.setReturnValue(null);
     }
 
@@ -61,9 +61,9 @@ public class WolfSoundSet_1508532309Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "growlSound()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void growlSound_1127018426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1127018426L))
+    @Inject(at = @At("HEAD"), method = "whineSound()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void whineSound__92266128(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-92266128L))
             info.setReturnValue(null);
     }
 

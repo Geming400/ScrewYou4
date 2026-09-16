@@ -7,21 +7,21 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.world.level.block.entity.EnderChestBlockEntity.class)
 public class EnderChestBlockEntity_867430903Mixin {
-        @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
-    private void triggerEvent__524928821(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-524928821L))
+        @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1166480268(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1166480268L))
             info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "getOpenNess(F)F", cancellable = true)
     private void getOpenNess_289963654(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(289963654L))
-            info.setReturnValue(1.000818E8F);
+            info.setReturnValue(1.925368E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1166480268(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1166480268L))
+    @Inject(at = @At("HEAD"), method = "triggerEvent(II)Z", cancellable = true)
+    private void triggerEvent__524928821(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-524928821L))
             info.setReturnValue(false);
     }
 

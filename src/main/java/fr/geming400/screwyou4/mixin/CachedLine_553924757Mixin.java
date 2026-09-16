@@ -22,13 +22,13 @@ public class CachedLine_553924757Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1111276847(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1111276847L))
-            info.setReturnValue(1212733908);
+            info.setReturnValue(1328619308);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__1086223244(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1086223244L))
-            info.setReturnValue(-1522899076);
+            info.setReturnValue(-1407013676);
     }
 
     @Inject(at = @At("HEAD"), method = "contents()Lnet/minecraft/util/FormattedCharSequence;", cancellable = true)

@@ -19,12 +19,6 @@ public class LecternScreen_485873035Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
-    private void isPauseScreen_1221695433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1221695433L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "getMenu()Lnet/minecraft/world/inventory/LecternMenu;", cancellable = true)
     private void getMenu_529662631(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(529662631L))
@@ -35,6 +29,12 @@ public class LecternScreen_485873035Mixin {
     private void getMenu__464929(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-464929L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isPauseScreen()Z", cancellable = true)
+    private void isPauseScreen_1221695433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1221695433L))
+            info.setReturnValue(false);
     }
 
 

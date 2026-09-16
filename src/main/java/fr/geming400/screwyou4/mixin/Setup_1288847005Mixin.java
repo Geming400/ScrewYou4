@@ -22,31 +22,19 @@ public class Setup_1288847005Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1846199095(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846199095L))
-            info.setReturnValue(-1807274952);
+            info.setReturnValue(-1685692252);
+    }
+
+    @Inject(at = @At("HEAD"), method = "airPocketProbability()F", cancellable = true)
+    private void airPocketProbability__1171134006(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1171134006L))
+            info.setReturnValue(4.169928E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "weight()F", cancellable = true)
     private void weight__980971065(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-980971065L))
-            info.setReturnValue(2.954101E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
-    private void overgrown_855285324(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(855285324L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
-    private void mossiness__1477835775(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1477835775L))
-            info.setReturnValue(2.954101E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canBeCold()Z", cancellable = true)
-    private void canBeCold__300242692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-300242692L))
-            info.setReturnValue(false);
+            info.setReturnValue(4.169928E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "vines()Z", cancellable = true)
@@ -67,10 +55,22 @@ public class Setup_1288847005Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "airPocketProbability()F", cancellable = true)
-    private void airPocketProbability__1171134006(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1171134006L))
-            info.setReturnValue(2.954101E8F);
+    @Inject(at = @At("HEAD"), method = "canBeCold()Z", cancellable = true)
+    private void canBeCold__300242692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-300242692L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overgrown()Z", cancellable = true)
+    private void overgrown_855285324(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(855285324L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "mossiness()F", cancellable = true)
+    private void mossiness__1477835775(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1477835775L))
+            info.setReturnValue(4.169928E8F);
     }
 
 

@@ -10,13 +10,13 @@ public class ListenerInfo638432420Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__1253671514(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1253671514L))
-            info.setReturnValue(1632642348);
+            info.setReturnValue(1742805948);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/world/level/gameevent/GameEvent$ListenerInfo;)I", cancellable = true)
     private void compareTo_259390616(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(259390616L))
-            info.setReturnValue(-374048592);
+            info.setReturnValue(-263884992);
     }
 
     @Inject(at = @At("HEAD"), method = "source()Lnet/minecraft/world/phys/Vec3;", cancellable = true)

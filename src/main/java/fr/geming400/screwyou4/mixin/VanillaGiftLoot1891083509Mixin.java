@@ -22,7 +22,7 @@ public class VanillaGiftLoot1891083509Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1846531696(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1846531696L))
-            info.setReturnValue(359025925);
+            info.setReturnValue(-235561775);
     }
 
     @Inject(at = @At("HEAD"), method = "generate(Ljava/util/function/BiConsumer;)V", cancellable = true)

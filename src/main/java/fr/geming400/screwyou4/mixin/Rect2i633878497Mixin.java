@@ -16,13 +16,13 @@ public class Rect2i633878497Mixin {
     @Inject(at = @At("HEAD"), method = "getY()I", cancellable = true)
     private void getY_1537315812(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1537315812L))
-            info.setReturnValue(1535011592);
+            info.setReturnValue(1689827392);
     }
 
     @Inject(at = @At("HEAD"), method = "getX()I", cancellable = true)
     private void getX_1508686661(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1508686661L))
-            info.setReturnValue(-1729476383);
+            info.setReturnValue(-1574660583);
     }
 
     @Inject(at = @At("HEAD"), method = "intersect(Lnet/minecraft/client/renderer/Rect2i;)Lnet/minecraft/client/renderer/Rect2i;", cancellable = true)
@@ -31,22 +31,10 @@ public class Rect2i633878497Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setPosition(II)V", cancellable = true)
-    private void setPosition_666120105(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(666120105L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1304017993(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1304017993L))
-            info.setReturnValue(1778806730);
-    }
-
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__1091738678(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1091738678L))
-            info.setReturnValue(1741434837);
+            info.setReturnValue(1896250637);
     }
 
     @Inject(at = @At("HEAD"), method = "setX(I)V", cancellable = true)
@@ -55,21 +43,33 @@ public class Rect2i633878497Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1304017993(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1304017993L))
+            info.setReturnValue(1933622530);
+    }
+
     @Inject(at = @At("HEAD"), method = "setY(I)V", cancellable = true)
     private void setY_540256772(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(540256772L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setWidth(I)V", cancellable = true)
-    private void setWidth__1055319407(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1055319407L))
+    @Inject(at = @At("HEAD"), method = "setPosition(II)V", cancellable = true)
+    private void setPosition_666120105(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(666120105L))
             info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setHeight(I)V", cancellable = true)
     private void setHeight__382106506(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-382106506L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "setWidth(I)V", cancellable = true)
+    private void setWidth__1055319407(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1055319407L))
             info.cancel();
     }
 

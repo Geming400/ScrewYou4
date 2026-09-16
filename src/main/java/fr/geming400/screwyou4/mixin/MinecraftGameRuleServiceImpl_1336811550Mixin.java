@@ -13,15 +13,15 @@ public class MinecraftGameRuleServiceImpl_1336811550Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getTypedRule(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;", cancellable = true)
-    private void getTypedRule_1364021792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1364021792L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "updateGameRule(Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;", cancellable = true)
     private void updateGameRule__151743804(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-151743804L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTypedRule(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)Lnet/minecraft/server/jsonrpc/methods/GameRulesService$GameRuleUpdate;", cancellable = true)
+    private void getTypedRule_1364021792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1364021792L))
             info.setReturnValue(null);
     }
 

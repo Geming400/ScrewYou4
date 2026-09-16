@@ -22,18 +22,18 @@ public class BatchResult_1288752602Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1846104692(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1846104692L))
-            info.setReturnValue(294337476);
-    }
-
-    @Inject(at = @At("HEAD"), method = "failed()Ljava/util/Set;", cancellable = true)
-    private void failed__1443565410(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1443565410L))
-            info.setReturnValue(null);
+            info.setReturnValue(-248880224);
     }
 
     @Inject(at = @At("HEAD"), method = "downloaded()Ljava/util/Map;", cancellable = true)
     private void downloaded__119365062(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-119365062L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "failed()Ljava/util/Set;", cancellable = true)
+    private void failed__1443565410(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1443565410L))
             info.setReturnValue(null);
     }
 

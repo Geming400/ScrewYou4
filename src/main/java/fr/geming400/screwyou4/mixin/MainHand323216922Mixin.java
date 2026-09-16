@@ -40,7 +40,7 @@ public class MainHand323216922Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_880569013(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(880569013L))
-            info.setReturnValue(-1360372970);
+            info.setReturnValue(-807272370);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

@@ -7,13 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.renderer.entity.PufferfishRenderer.class)
 public class PufferfishRenderer_48656991Mixin {
-        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/PufferfishRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
-    private void submit_1470801219(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1470801219L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/EntityRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
     private void submit__1028835830(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1028835830L))
             info.cancel();
@@ -25,15 +19,21 @@ public class PufferfishRenderer_48656991Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PufferfishRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1925837933(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1925837933L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "submit(Lnet/minecraft/client/renderer/entity/state/PufferfishRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/CameraRenderState;)V", cancellable = true)
+    private void submit_1470801219(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1470801219L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation_2021171825(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2021171825L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/PufferfishRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1925837933(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1925837933L))
             info.setReturnValue(null);
     }
 

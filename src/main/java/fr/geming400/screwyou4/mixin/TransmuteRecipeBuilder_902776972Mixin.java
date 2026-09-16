@@ -31,18 +31,6 @@ public class TransmuteRecipeBuilder_902776972Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "setMaterialCount(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
-    private void setMaterialCount_2040648431(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2040648431L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addMaterialCountToOutput()Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
-    private void addMaterialCountToOutput__1890604603(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1890604603L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "unlockedBy(Ljava/lang/String;Lnet/minecraft/advancements/triggers/Criterion;)Lnet/minecraft/data/recipes/RecipeBuilder;", cancellable = true)
     private void unlockedBy__770429995(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-770429995L))
@@ -55,15 +43,27 @@ public class TransmuteRecipeBuilder_902776972Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "transmute(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
+    private static void transmute__1600026476(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1600026476L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "transmute(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/Item;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
     private static void transmute__1970430928(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1970430928L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "transmute(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
-    private static void transmute__1600026476(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1600026476L))
+    @Inject(at = @At("HEAD"), method = "setMaterialCount(Lnet/minecraft/advancements/predicates/MinMaxBounds$Ints;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
+    private void setMaterialCount_2040648431(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2040648431L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addMaterialCountToOutput()Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;", cancellable = true)
+    private void addMaterialCountToOutput__1890604603(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1890604603L))
             info.setReturnValue(null);
     }
 

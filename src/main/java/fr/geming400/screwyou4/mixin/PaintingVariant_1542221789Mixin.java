@@ -22,13 +22,19 @@ public class PaintingVariant_1542221789Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2099573879(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2099573879L))
-            info.setReturnValue(253435123);
+            info.setReturnValue(630687023);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__97926212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-97926212L))
-            info.setReturnValue(2031306526);
+            info.setReturnValue(-1886408870);
+    }
+
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_456873211(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(456873211L))
+            info.setReturnValue(1514113621);
     }
 
     @Inject(at = @At("HEAD"), method = "title()Ljava/util/Optional;", cancellable = true)
@@ -52,13 +58,7 @@ public class PaintingVariant_1542221789Mixin {
     @Inject(at = @At("HEAD"), method = "area()I", cancellable = true)
     private void area_1388561749(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1388561749L))
-            info.setReturnValue(-280005154);
-    }
-
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_456873211(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(456873211L))
-            info.setReturnValue(1136861721);
+            info.setReturnValue(97246746);
     }
 
 

@@ -22,13 +22,19 @@ public class DropChances2050426130Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1687189075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1687189075L))
-            info.setReturnValue(831732697);
+            info.setReturnValue(776909697);
     }
 
     @Inject(at = @At("HEAD"), method = "isPreserved(Lnet/minecraft/world/entity/EquipmentSlot;)Z", cancellable = true)
     private void isPreserved__569119367(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-569119367L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withGuaranteedDrop(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/DropChances;", cancellable = true)
+    private void withGuaranteedDrop__474803010(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-474803010L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "byEquipment()Ljava/util/Map;", cancellable = true)
@@ -40,13 +46,7 @@ public class DropChances2050426130Mixin {
     @Inject(at = @At("HEAD"), method = "byEquipment(Lnet/minecraft/world/entity/EquipmentSlot;)F", cancellable = true)
     private void byEquipment__22619684(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-22619684L))
-            info.setReturnValue(4.485303E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "withGuaranteedDrop(Lnet/minecraft/world/entity/EquipmentSlot;)Lnet/minecraft/world/entity/DropChances;", cancellable = true)
-    private void withGuaranteedDrop__474803010(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-474803010L))
-            info.setReturnValue(null);
+            info.setReturnValue(3.937073E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "withEquipmentChance(Lnet/minecraft/world/entity/EquipmentSlot;F)Lnet/minecraft/world/entity/DropChances;", cancellable = true)

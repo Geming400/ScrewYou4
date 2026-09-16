@@ -28,7 +28,7 @@ public class CuboidModel978081841Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1535433932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1535433932L))
-            info.setReturnValue(-1762058531);
+            info.setReturnValue(-1955871331);
     }
 
     @Inject(at = @At("HEAD"), method = "fromStream(Ljava/io/Reader;)Lnet/minecraft/client/resources/model/cuboid/CuboidModel;", cancellable = true)
@@ -43,16 +43,16 @@ public class CuboidModel978081841Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ambientOcclusion()Ljava/lang/Boolean;", cancellable = true)
-    private void ambientOcclusion__466746260(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-466746260L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "textureSlots()Lnet/minecraft/client/resources/model/sprite/TextureSlots$Data;", cancellable = true)
     private void textureSlots_1706999057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1706999057L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "guiLight()Lnet/minecraft/client/resources/model/UnbakedModel$GuiLight;", cancellable = true)
+    private void guiLight__1346540558(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1346540558L))
+            info.setReturnValue(net.minecraft.client.resources.model.UnbakedModel.GuiLight.SIDE);
     }
 
     @Inject(at = @At("HEAD"), method = "geometry()Lnet/minecraft/client/resources/model/geometry/UnbakedGeometry;", cancellable = true)
@@ -61,10 +61,10 @@ public class CuboidModel978081841Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "guiLight()Lnet/minecraft/client/resources/model/UnbakedModel$GuiLight;", cancellable = true)
-    private void guiLight__1346540558(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1346540558L))
-            info.setReturnValue(net.minecraft.client.resources.model.UnbakedModel.GuiLight.SIDE);
+    @Inject(at = @At("HEAD"), method = "ambientOcclusion()Ljava/lang/Boolean;", cancellable = true)
+    private void ambientOcclusion__466746260(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-466746260L))
+            info.setReturnValue(null);
     }
 
 

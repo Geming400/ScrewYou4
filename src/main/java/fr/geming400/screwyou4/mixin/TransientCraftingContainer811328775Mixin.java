@@ -13,10 +13,22 @@ public class TransientCraftingContainer811328775Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "removeItem(II)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void removeItem_47001346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(47001346L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getItem_724914345(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(724914345L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getContainerSize()I", cancellable = true)
     private void getContainerSize__1244435967(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1244435967L))
-            info.setReturnValue(-410654805);
+            info.setReturnValue(-363262605);
     }
 
     @Inject(at = @At("HEAD"), method = "removeItemNoUpdate(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
@@ -25,16 +37,28 @@ public class TransientCraftingContainer811328775Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1126567715(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1126567715L))
-            info.setReturnValue(720967456);
+    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
+    private void stillValid__1222582395(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1222582395L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
     private void getHeight__914288400(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-914288400L))
-            info.setReturnValue(-1444327933);
+            info.setReturnValue(-1396935733);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1126567715(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1126567715L))
+            info.setReturnValue(768359656);
+    }
+
+    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
+    private void clearContent_46176718(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(46176718L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "fillStackedContents(Lnet/minecraft/world/entity/player/StackedItemContents;)V", cancellable = true)
@@ -55,33 +79,9 @@ public class TransientCraftingContainer811328775Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "stillValid(Lnet/minecraft/world/entity/player/Player;)Z", cancellable = true)
-    private void stillValid__1222582395(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1222582395L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getItems()Ljava/util/List;", cancellable = true)
     private void getItems_9304129(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(9304129L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "clearContent()V", cancellable = true)
-    private void clearContent_46176718(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(46176718L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItem(I)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getItem_724914345(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(724914345L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeItem(II)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void removeItem_47001346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(47001346L))
             info.setReturnValue(null);
     }
 

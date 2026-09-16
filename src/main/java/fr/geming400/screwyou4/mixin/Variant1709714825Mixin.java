@@ -22,7 +22,7 @@ public class Variant1709714825Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2027900380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2027900380L))
-            info.setReturnValue(-1142568891);
+            info.setReturnValue(-1390461091);
     }
 
     @Inject(at = @At("HEAD"), method = "pattern()Lnet/minecraft/world/entity/animal/fish/TropicalFish$Pattern;", cancellable = true)
@@ -31,22 +31,22 @@ public class Variant1709714825Mixin {
             info.setReturnValue(net.minecraft.world.entity.animal.fish.TropicalFish.Pattern.BLOCKFISH);
     }
 
-    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
-    private void patternColor__2080375492(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2080375492L))
-            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
-    }
-
     @Inject(at = @At("HEAD"), method = "baseColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
     private void baseColor__14025987(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-14025987L))
             info.setReturnValue(net.minecraft.world.item.DyeColor.LIME);
     }
 
+    @Inject(at = @At("HEAD"), method = "patternColor()Lnet/minecraft/world/item/DyeColor;", cancellable = true)
+    private void patternColor__2080375492(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2080375492L))
+            info.setReturnValue(net.minecraft.world.item.DyeColor.GREEN);
+    }
+
     @Inject(at = @At("HEAD"), method = "getPackedId()I", cancellable = true)
     private void getPackedId__342458394(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-342458394L))
-            info.setReturnValue(-1707738998);
+            info.setReturnValue(-1955631198);
     }
 
 

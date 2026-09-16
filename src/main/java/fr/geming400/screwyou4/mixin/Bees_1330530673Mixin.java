@@ -22,7 +22,7 @@ public class Bees_1330530673Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1887882763(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1887882763L))
-            info.setReturnValue(-1053392858);
+            info.setReturnValue(-392183458);
     }
 
     @Inject(at = @At("HEAD"), method = "bees()Ljava/util/List;", cancellable = true)

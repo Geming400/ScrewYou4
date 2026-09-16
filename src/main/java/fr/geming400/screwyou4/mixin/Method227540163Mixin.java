@@ -22,7 +22,7 @@ public class Method227540163Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_784892254(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(784892254L))
-            info.setReturnValue(1737934983);
+            info.setReturnValue(-2112064713);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/server/jsonrpc/internalapi/MinecraftApi;Lcom/google/gson/JsonElement;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)Lcom/google/gson/JsonElement;", cancellable = true)

@@ -22,25 +22,37 @@ public class AdvancementTabType_811172303Mixin {
     @Inject(at = @At("HEAD"), method = "getY(I)I", cancellable = true)
     private void getY__1219267152(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1219267152L))
-            info.setReturnValue(-1511647894);
+            info.setReturnValue(-1955294594);
     }
 
     @Inject(at = @At("HEAD"), method = "getX(I)I", cancellable = true)
     private void getX__2106770833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2106770833L))
-            info.setReturnValue(1214158608);
+            info.setReturnValue(770511908);
     }
 
     @Inject(at = @At("HEAD"), method = "getMax()I", cancellable = true)
     private void getMax__1050825146(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1050825146L))
-            info.setReturnValue(1039241530);
+            info.setReturnValue(595594830);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
+    private void getHeight__914444873(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-914444873L))
+            info.setReturnValue(-750982720);
     }
 
     @Inject(at = @At("HEAD"), method = "isMouseOver(IIIDD)Z", cancellable = true)
     private void isMouseOver__1065466003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1065466003L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
+    private void getWidth__1126724188(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1126724188L))
+            info.setReturnValue(867588295);
     }
 
     @Inject(at = @At("HEAD"), method = "extractIcon(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IIILnet/minecraft/world/item/ItemStack;)V", cancellable = true)
@@ -53,18 +65,6 @@ public class AdvancementTabType_811172303Mixin {
     private void extractRenderState_1939653215(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1939653215L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getWidth()I", cancellable = true)
-    private void getWidth__1126724188(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1126724188L))
-            info.setReturnValue(1311234995);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight()I", cancellable = true)
-    private void getHeight__914444873(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-914444873L))
-            info.setReturnValue(-307336020);
     }
 
 

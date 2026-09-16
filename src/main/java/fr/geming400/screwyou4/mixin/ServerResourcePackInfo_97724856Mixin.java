@@ -22,7 +22,7 @@ public class ServerResourcePackInfo_97724856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_655076946(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(655076946L))
-            info.setReturnValue(-636341634);
+            info.setReturnValue(-788157134);
     }
 
     @Inject(at = @At("HEAD"), method = "hash()Ljava/lang/String;", cancellable = true)

@@ -22,7 +22,7 @@ public class ItemCost1690312022Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2047303183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2047303183L))
-            info.setReturnValue(-352550896);
+            info.setReturnValue(-1807996);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
@@ -34,7 +34,7 @@ public class ItemCost1690312022Mixin {
     @Inject(at = @At("HEAD"), method = "count()I", cancellable = true)
     private void count_602141581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(602141581L))
-            info.setReturnValue(1021373403);
+            info.setReturnValue(1372116303);
     }
 
     @Inject(at = @At("HEAD"), method = "item()Lnet/minecraft/core/Holder;", cancellable = true)

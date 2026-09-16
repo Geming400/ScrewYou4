@@ -13,12 +13,6 @@ public class ClientInput_696209263Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "makeJump()V", cancellable = true)
-    private void makeJump__615992219(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-615992219L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getMoveVector()Lnet/minecraft/world/phys/Vec2;", cancellable = true)
     private void getMoveVector_1746753630(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1746753630L))
@@ -29,6 +23,12 @@ public class ClientInput_696209263Mixin {
     private void hasForwardImpulse_760832955(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(760832955L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "makeJump()V", cancellable = true)
+    private void makeJump__615992219(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-615992219L))
+            info.cancel();
     }
 
 

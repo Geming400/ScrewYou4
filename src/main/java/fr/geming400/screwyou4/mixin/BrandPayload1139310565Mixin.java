@@ -28,7 +28,7 @@ public class BrandPayload1139310565Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1696662656(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1696662656L))
-            info.setReturnValue(1251094322);
+            info.setReturnValue(1983396522);
     }
 
     @Inject(at = @At("HEAD"), method = "brand()Ljava/lang/String;", cancellable = true)

@@ -10,7 +10,7 @@ public class CorruptedLevelSummary_2032800388Mixin {
         @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo_140696453(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(140696453L))
-            info.setReturnValue(-1609924806);
+            info.setReturnValue(-1208049506);
     }
 
     @Inject(at = @At("HEAD"), method = "getInfo()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -25,28 +25,10 @@ public class CorruptedLevelSummary_2032800388Mixin {
             info.setReturnValue("\u60EFm%b2.\u27BFH0:I:zTVs\uD3B3Op|:\u5D9E\u7C86j^TYl3lY\u8A68X \"pOI\u08CBok_JmwEl|$:m\uC555S$+/\u53AC\u29B6B/GtRwDq 1p/UnaA^\u0862>H>ze");
     }
 
-    @Inject(at = @At("HEAD"), method = "primaryActionMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void primaryActionMessage__554346907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-554346907L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "primaryActionActive()Z", cancellable = true)
-    private void primaryActionActive_2109218556(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2109218556L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
-    private void canRecreate_477940411(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(477940411L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
-    private void getLastPlayed__434984309(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-434984309L))
-            info.setReturnValue(6799051584182192360L);
+    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
+    private void isDisabled__520588748(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-520588748L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canEdit()Z", cancellable = true)
@@ -61,10 +43,28 @@ public class CorruptedLevelSummary_2032800388Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isDisabled()Z", cancellable = true)
-    private void isDisabled__520588748(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-520588748L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "primaryActionActive()Z", cancellable = true)
+    private void primaryActionActive_2109218556(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2109218556L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "canRecreate()Z", cancellable = true)
+    private void canRecreate_477940411(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(477940411L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "primaryActionMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void primaryActionMessage__554346907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-554346907L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getLastPlayed()J", cancellable = true)
+    private void getLastPlayed__434984309(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-434984309L))
+            info.setReturnValue(6799051584584067660L);
     }
 
 

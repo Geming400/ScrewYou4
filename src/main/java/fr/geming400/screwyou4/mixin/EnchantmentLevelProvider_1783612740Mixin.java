@@ -22,13 +22,13 @@ public class EnchantmentLevelProvider_1783612740Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1954002466(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1954002466L))
-            info.setReturnValue(1678070509);
+            info.setReturnValue(1879782209);
     }
 
     @Inject(at = @At("HEAD"), method = "getFloat(Lnet/minecraft/world/level/storage/loot/LootContext;)F", cancellable = true)
     private void getFloat_1554141919(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1554141919L))
-            info.setReturnValue(1.012076E8F);
+            info.setReturnValue(3.029193E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "amount()Lnet/minecraft/world/item/enchantment/LevelBasedValue;", cancellable = true)

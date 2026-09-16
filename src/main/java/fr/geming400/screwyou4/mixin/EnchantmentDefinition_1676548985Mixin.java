@@ -22,7 +22,7 @@ public class EnchantmentDefinition_1676548985Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2061066221(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2061066221L))
-            info.setReturnValue(-1992575111);
+            info.setReturnValue(1486316485);
     }
 
     @Inject(at = @At("HEAD"), method = "slots()Ljava/util/List;", cancellable = true)
@@ -31,16 +31,22 @@ public class EnchantmentDefinition_1676548985Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxLevel()I", cancellable = true)
-    private void maxLevel_658242782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(658242782L))
-            info.setReturnValue(-149938061);
-    }
-
     @Inject(at = @At("HEAD"), method = "weight()I", cancellable = true)
     private void weight__593266202(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-593266202L))
-            info.setReturnValue(471452221);
+            info.setReturnValue(-344623479);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxLevel()I", cancellable = true)
+    private void maxLevel_658242782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(658242782L))
+            info.setReturnValue(-966013761);
+    }
+
+    @Inject(at = @At("HEAD"), method = "anvilCost()I", cancellable = true)
+    private void anvilCost__2044613051(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2044613051L))
+            info.setReturnValue(946849347);
     }
 
     @Inject(at = @At("HEAD"), method = "maxCost()Lnet/minecraft/world/item/enchantment/Enchantment$Cost;", cancellable = true)
@@ -53,12 +59,6 @@ public class EnchantmentDefinition_1676548985Mixin {
     private void minCost_1449492736(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1449492736L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "anvilCost()I", cancellable = true)
-    private void anvilCost__2044613051(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2044613051L))
-            info.setReturnValue(1762925047);
     }
 
     @Inject(at = @At("HEAD"), method = "primaryItems()Ljava/util/Optional;", cancellable = true)

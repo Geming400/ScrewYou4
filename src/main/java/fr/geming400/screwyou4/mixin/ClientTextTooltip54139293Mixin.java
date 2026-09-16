@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.tooltip.ClientTextTooltip.class)
 public class ClientTextTooltip54139293Mixin {
-        @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
-    private void getWidth_584851959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(584851959L))
-            info.setReturnValue(1123840749);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "getHeight(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
     private void getHeight_1692778372(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1692778372L))
-            info.setReturnValue(-1249690006);
+            info.setReturnValue(-1246557206);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getWidth(Lnet/minecraft/client/gui/Font;)I", cancellable = true)
+    private void getWidth_584851959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(584851959L))
+            info.setReturnValue(1126973549);
     }
 
     @Inject(at = @At("HEAD"), method = "extractText(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;II)V", cancellable = true)

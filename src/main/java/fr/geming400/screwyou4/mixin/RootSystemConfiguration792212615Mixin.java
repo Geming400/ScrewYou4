@@ -22,31 +22,55 @@ public class RootSystemConfiguration792212615Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1349564706(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1349564706L))
-            info.setReturnValue(-37000679);
+            info.setReturnValue(-61806879);
     }
 
     @Inject(at = @At("HEAD"), method = "rootRadius()I", cancellable = true)
     private void rootRadius__1001337127(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1001337127L))
-            info.setReturnValue(1539039663);
+            info.setReturnValue(1514233463);
     }
 
-    @Inject(at = @At("HEAD"), method = "hangingRootRadius()I", cancellable = true)
-    private void hangingRootRadius_1187460745(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1187460745L))
-            info.setReturnValue(1930119060);
+    @Inject(at = @At("HEAD"), method = "allowedVerticalWaterForTree()I", cancellable = true)
+    private void allowedVerticalWaterForTree_1461074911(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1461074911L))
+            info.setReturnValue(483078382);
+    }
+
+    @Inject(at = @At("HEAD"), method = "requiredVerticalSpaceForTree()I", cancellable = true)
+    private void requiredVerticalSpaceForTree__1379196105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1379196105L))
+            info.setReturnValue(-1910370291);
+    }
+
+    @Inject(at = @At("HEAD"), method = "hangingRootPlacementAttempts()I", cancellable = true)
+    private void hangingRootPlacementAttempts_690371028(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(690371028L))
+            info.setReturnValue(659145925);
+    }
+
+    @Inject(at = @At("HEAD"), method = "levelTestDistance()I", cancellable = true)
+    private void levelTestDistance__172378878(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-172378878L))
+            info.setReturnValue(1595578998);
+    }
+
+    @Inject(at = @At("HEAD"), method = "rootColumnMaxHeight()I", cancellable = true)
+    private void rootColumnMaxHeight__388229478(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-388229478L))
+            info.setReturnValue(-241585440);
+    }
+
+    @Inject(at = @At("HEAD"), method = "treeFeature()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void treeFeature__377287669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-377287669L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "maxLevelDeviation()I", cancellable = true)
     private void maxLevelDeviation_1070853932(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1070853932L))
-            info.setReturnValue(-683981533);
-    }
-
-    @Inject(at = @At("HEAD"), method = "rootReplaceable()Lnet/minecraft/core/HolderSet;", cancellable = true)
-    private void rootReplaceable__1987790105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1987790105L))
-            info.setReturnValue(null);
+            info.setReturnValue(-708787733);
     }
 
     @Inject(at = @At("HEAD"), method = "rootStateProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -55,10 +79,10 @@ public class RootSystemConfiguration792212615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "hangingRootsVerticalSpan()I", cancellable = true)
-    private void hangingRootsVerticalSpan_1954152716(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1954152716L))
-            info.setReturnValue(-867600739);
+    @Inject(at = @At("HEAD"), method = "hangingRootRadius()I", cancellable = true)
+    private void hangingRootRadius_1187460745(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1187460745L))
+            info.setReturnValue(1905312860);
     }
 
     @Inject(at = @At("HEAD"), method = "allowedTreePosition()Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;", cancellable = true)
@@ -70,13 +94,7 @@ public class RootSystemConfiguration792212615Mixin {
     @Inject(at = @At("HEAD"), method = "rootPlacementAttempts()I", cancellable = true)
     private void rootPlacementAttempts__307146876(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-307146876L))
-            info.setReturnValue(-1159754908);
-    }
-
-    @Inject(at = @At("HEAD"), method = "treeFeature()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void treeFeature__377287669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-377287669L))
-            info.setReturnValue(null);
+            info.setReturnValue(-1184561108);
     }
 
     @Inject(at = @At("HEAD"), method = "hangingRootStateProvider()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;", cancellable = true)
@@ -85,34 +103,16 @@ public class RootSystemConfiguration792212615Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "rootColumnMaxHeight()I", cancellable = true)
-    private void rootColumnMaxHeight__388229478(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-388229478L))
-            info.setReturnValue(-216779240);
+    @Inject(at = @At("HEAD"), method = "rootReplaceable()Lnet/minecraft/core/HolderSet;", cancellable = true)
+    private void rootReplaceable__1987790105(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1987790105L))
+            info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "levelTestDistance()I", cancellable = true)
-    private void levelTestDistance__172378878(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-172378878L))
-            info.setReturnValue(1620385198);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hangingRootPlacementAttempts()I", cancellable = true)
-    private void hangingRootPlacementAttempts_690371028(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(690371028L))
-            info.setReturnValue(683952125);
-    }
-
-    @Inject(at = @At("HEAD"), method = "allowedVerticalWaterForTree()I", cancellable = true)
-    private void allowedVerticalWaterForTree_1461074911(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1461074911L))
-            info.setReturnValue(507884582);
-    }
-
-    @Inject(at = @At("HEAD"), method = "requiredVerticalSpaceForTree()I", cancellable = true)
-    private void requiredVerticalSpaceForTree__1379196105(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1379196105L))
-            info.setReturnValue(-1885564091);
+    @Inject(at = @At("HEAD"), method = "hangingRootsVerticalSpan()I", cancellable = true)
+    private void hangingRootsVerticalSpan_1954152716(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1954152716L))
+            info.setReturnValue(-892406939);
     }
 
 

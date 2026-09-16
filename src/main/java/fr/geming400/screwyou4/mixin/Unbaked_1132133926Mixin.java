@@ -22,7 +22,7 @@ public class Unbaked_1132133926Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1689486016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1689486016L))
-            info.setReturnValue(-1192493255);
+            info.setReturnValue(-590326455);
     }
 
     @Inject(at = @At("HEAD"), method = "property()Lnet/minecraft/client/renderer/block/model/properties/conditional/ConditionalBlockModelProperty;", cancellable = true)
@@ -43,15 +43,15 @@ public class Unbaked_1132133926Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onTrue()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
-    private void onTrue_1394073458(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1394073458L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "onFalse()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
     private void onFalse__1564351447(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1564351447L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onTrue()Lnet/minecraft/client/renderer/block/model/BlockModel$Unbaked;", cancellable = true)
+    private void onTrue_1394073458(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1394073458L))
             info.setReturnValue(null);
     }
 

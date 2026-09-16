@@ -22,7 +22,7 @@ public class JukeboxPlayablePredicate_1196711283Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1754063373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1754063373L))
-            info.setReturnValue(-1338384812);
+            info.setReturnValue(-832333612);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)

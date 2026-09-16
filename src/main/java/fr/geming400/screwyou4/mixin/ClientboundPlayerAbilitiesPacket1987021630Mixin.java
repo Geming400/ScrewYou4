@@ -31,16 +31,10 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
-    private void getWalkingSpeed__1265447011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1265447011L))
-            info.setReturnValue(2.110831E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
-    private void getFlyingSpeed_1278925151(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1278925151L))
-            info.setReturnValue(2.110831E8F);
+    @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
+    private void canFly__644745134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-644745134L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isInvulnerable()Z", cancellable = true)
@@ -49,16 +43,22 @@ public class ClientboundPlayerAbilitiesPacket1987021630Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "getWalkingSpeed()F", cancellable = true)
+    private void getWalkingSpeed__1265447011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1265447011L))
+            info.setReturnValue(8.458434E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFlyingSpeed()F", cancellable = true)
+    private void getFlyingSpeed_1278925151(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1278925151L))
+            info.setReturnValue(8.458434E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "isFlying()Z", cancellable = true)
     private void isFlying__1590973380(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1590973380L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "canFly()Z", cancellable = true)
-    private void canFly__644745134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-644745134L))
-            info.setReturnValue(true);
     }
 
 

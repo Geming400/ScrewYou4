@@ -34,7 +34,7 @@ public class ComponentContents1968875161Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1768740044(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1768740044L))
-            info.setReturnValue(-2023143868);
+            info.setReturnValue(-1613497568);
     }
 
     @Inject(at = @At("HEAD"), method = "componentType()Lnet/minecraft/core/component/DataComponentType;", cancellable = true)
@@ -43,15 +43,15 @@ public class ComponentContents1968875161Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
-    private void valueCodec_2002426244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2002426244L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "castType()Lnet/minecraft/client/renderer/item/properties/select/SelectItemModelProperty$Type;", cancellable = true)
     private static void castType_162278326(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(162278326L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)
+    private void valueCodec_2002426244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2002426244L))
             info.setReturnValue(null);
     }
 

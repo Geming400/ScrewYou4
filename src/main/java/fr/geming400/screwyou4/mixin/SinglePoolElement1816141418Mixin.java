@@ -25,6 +25,18 @@ public class SinglePoolElement1816141418Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;Z)Z", cancellable = true)
+    private void place_506279336(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(506279336L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
+    private void getShuffledJigsawBlocks_258319869(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(258319869L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "getTemplateLocation()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTemplateLocation_1980765814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1980765814L))
@@ -41,18 +53,6 @@ public class SinglePoolElement1816141418Mixin {
     private void getBoundingBox__563068408(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-563068408L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getShuffledJigsawBlocks(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/util/RandomSource;)Ljava/util/List;", cancellable = true)
-    private void getShuffledJigsawBlocks_258319869(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(258319869L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/structure/templatesystem/LiquidSettings;Z)Z", cancellable = true)
-    private void place_506279336(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(506279336L))
-            info.setReturnValue(false);
     }
 
 

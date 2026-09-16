@@ -19,15 +19,15 @@ public class NoticeWithLinkScreen286898188Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createPackSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
-    private static void createPackSymlinkWarningScreen__30965102(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-30965102L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createWorldSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
     private static void createWorldSymlinkWarningScreen_143412849(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(143412849L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createPackSymlinkWarningScreen(Ljava/lang/Runnable;)Lnet/minecraft/client/gui/screens/Screen;", cancellable = true)
+    private static void createPackSymlinkWarningScreen__30965102(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-30965102L))
             info.setReturnValue(null);
     }
 

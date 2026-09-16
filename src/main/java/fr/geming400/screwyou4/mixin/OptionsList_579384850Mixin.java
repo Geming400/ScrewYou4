@@ -13,33 +13,9 @@ public class OptionsList_579384850Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyUnsavedChanges()V", cancellable = true)
-    private void applyUnsavedChanges_429401153(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(429401153L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetOption(Lnet/minecraft/client/OptionInstance;)V", cancellable = true)
-    private void resetOption_605256357(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(605256357L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
-    private void getRowWidth__1213836363(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1213836363L))
-            info.setReturnValue(-2136456745);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void addHeader_1228582538(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1228582538L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/OptionInstance;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
-    private void addSmall__1977144729(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1977144729L))
+    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
+    private void addSmall__593192122(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-593192122L))
             info.cancel();
     }
 
@@ -49,9 +25,9 @@ public class OptionsList_579384850Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
-    private void addSmall__593192122(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-593192122L))
+    @Inject(at = @At("HEAD"), method = "addSmall(Lnet/minecraft/client/gui/components/AbstractWidget;Lnet/minecraft/client/OptionInstance;Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
+    private void addSmall__1977144729(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1977144729L))
             info.cancel();
     }
 
@@ -61,15 +37,39 @@ public class OptionsList_579384850Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "addBig(Lnet/minecraft/client/OptionInstance;)V", cancellable = true)
+    private void addBig_1106211552(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1106211552L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "addBig(Lnet/minecraft/client/gui/components/AbstractWidget;)V", cancellable = true)
     private void addBig__81753383(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-81753383L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addBig(Lnet/minecraft/client/OptionInstance;)V", cancellable = true)
-    private void addBig_1106211552(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1106211552L))
+    @Inject(at = @At("HEAD"), method = "addHeader(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void addHeader_1228582538(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1228582538L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRowWidth()I", cancellable = true)
+    private void getRowWidth__1213836363(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1213836363L))
+            info.setReturnValue(1918776851);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyUnsavedChanges()V", cancellable = true)
+    private void applyUnsavedChanges_429401153(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(429401153L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetOption(Lnet/minecraft/client/OptionInstance;)V", cancellable = true)
+    private void resetOption_605256357(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(605256357L))
             info.cancel();
     }
 

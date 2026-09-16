@@ -22,7 +22,7 @@ public class SpawnContext_305183198Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_862535288(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(862535288L))
-            info.setReturnValue(-984236053);
+            info.setReturnValue(-772904153);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/variant/SpawnContext;", cancellable = true)
@@ -43,15 +43,15 @@ public class SpawnContext_305183198Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "biome()Lnet/minecraft/core/Holder;", cancellable = true)
-    private void biome__297323207(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-297323207L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "environmentAttributes()Lnet/minecraft/world/attribute/EnvironmentAttributeReader;", cancellable = true)
     private void environmentAttributes_667107141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(667107141L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "biome()Lnet/minecraft/core/Holder;", cancellable = true)
+    private void biome__297323207(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-297323207L))
             info.setReturnValue(null);
     }
 

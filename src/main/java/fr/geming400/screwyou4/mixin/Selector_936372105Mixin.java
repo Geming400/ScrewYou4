@@ -22,7 +22,7 @@ public class Selector_936372105Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1493724195(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1493724195L))
-            info.setReturnValue(1317523936);
+            info.setReturnValue(1582302736);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)

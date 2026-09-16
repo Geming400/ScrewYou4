@@ -22,7 +22,7 @@ public class VibrationParticleOption2001230943Mixin {
     @Inject(at = @At("HEAD"), method = "getArrivalInTicks()I", cancellable = true)
     private void getArrivalInTicks__1999253513(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1999253513L))
-            info.setReturnValue(-48987869);
+            info.setReturnValue(-253601169);
     }
 
 

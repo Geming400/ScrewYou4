@@ -28,7 +28,7 @@ public class Event54048816Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_611400907(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(611400907L))
-            info.setReturnValue(-1641851325);
+            info.setReturnValue(-1638855625);
     }
 
     @Inject(at = @At("HEAD"), method = "subscription()Lnet/minecraft/util/debug/DebugSubscription;", cancellable = true)

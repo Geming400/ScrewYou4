@@ -22,7 +22,7 @@ public class LootParams_370941674Mixin {
     @Inject(at = @At("HEAD"), method = "getLuck()F", cancellable = true)
     private void getLuck_1245259205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1245259205L))
-            info.setReturnValue(5.705509E8F);
+            info.setReturnValue(5.96384E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "addDynamicDrops(Lnet/minecraft/resources/Identifier;Ljava/util/function/Consumer;)V", cancellable = true)

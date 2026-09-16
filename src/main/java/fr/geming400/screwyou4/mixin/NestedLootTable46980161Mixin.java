@@ -25,15 +25,15 @@ public class NestedLootTable46980161Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "lootTableReference(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
-    private static void lootTableReference__620883073(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-620883073L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "inlineLootTable(Lnet/minecraft/world/level/storage/loot/LootTable;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
     private static void inlineLootTable_1750498729(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1750498729L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "lootTableReference(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer$Builder;", cancellable = true)
+    private static void lootTableReference__620883073(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-620883073L))
             info.setReturnValue(null);
     }
 

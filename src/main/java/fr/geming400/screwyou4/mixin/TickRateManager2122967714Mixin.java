@@ -19,28 +19,10 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
-    private void nanosecondsPerTick_2086872346(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2086872346L))
-            info.setReturnValue(7768643965380996763L);
-    }
-
-    @Inject(at = @At("HEAD"), method = "frozenTicksToRun()I", cancellable = true)
-    private void frozenTicksToRun_1566531790(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1566531790L))
-            info.setReturnValue(-721539618);
-    }
-
-    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
-    private void millisecondsPerTick__1764294563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1764294563L))
-            info.setReturnValue(6.187477E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isSteppingForward()Z", cancellable = true)
-    private void isSteppingForward__75525540(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-75525540L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
+    private void setFrozenTicksToRun_404573514(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(404573514L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setTickRate(F)V", cancellable = true)
@@ -49,9 +31,9 @@ public class TickRateManager2122967714Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setFrozenTicksToRun(I)V", cancellable = true)
-    private void setFrozenTicksToRun_404573514(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(404573514L))
+    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
+    private void setFrozen_149457281(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(149457281L))
             info.cancel();
     }
 
@@ -59,6 +41,12 @@ public class TickRateManager2122967714Mixin {
     private void runsNormally_178409917(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(178409917L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "millisecondsPerTick()F", cancellable = true)
+    private void millisecondsPerTick__1764294563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1764294563L))
+            info.setReturnValue(3.008973E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "isEntityFrozen(Lnet/minecraft/world/entity/Entity;)Z", cancellable = true)
@@ -70,13 +58,25 @@ public class TickRateManager2122967714Mixin {
     @Inject(at = @At("HEAD"), method = "tickrate()F", cancellable = true)
     private void tickrate_1923654504(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1923654504L))
-            info.setReturnValue(6.187477E8F);
+            info.setReturnValue(3.008973E8F);
     }
 
-    @Inject(at = @At("HEAD"), method = "setFrozen(Z)V", cancellable = true)
-    private void setFrozen_149457281(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(149457281L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "frozenTicksToRun()I", cancellable = true)
+    private void frozenTicksToRun_1566531790(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1566531790L))
+            info.setReturnValue(-1039390018);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isSteppingForward()Z", cancellable = true)
+    private void isSteppingForward__75525540(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-75525540L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "nanosecondsPerTick()J", cancellable = true)
+    private void nanosecondsPerTick_2086872346(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2086872346L))
+            info.setReturnValue(7768643965063146363L);
     }
 
 

@@ -22,7 +22,7 @@ public class OverlayEntry670785546Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1228137637(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1228137637L))
-            info.setReturnValue(-1980325297);
+            info.setReturnValue(-1251255297);
     }
 
     @Inject(at = @At("HEAD"), method = "format()Lnet/minecraft/util/InclusiveRange;", cancellable = true)
@@ -31,16 +31,16 @@ public class OverlayEntry670785546Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "overlay()Ljava/lang/String;", cancellable = true)
-    private void overlay__1871263773(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1871263773L))
-            info.setReturnValue("DQ6@s}\u7B5F8snUJX>\u39F3h=vZ_'tuL&`ywmc0\u940B[g4:%::i7Rn'ik{R;vjKi1");
-    }
-
     @Inject(at = @At("HEAD"), method = "isApplicable(Lnet/minecraft/server/packs/metadata/pack/PackFormat;)Z", cancellable = true)
     private void isApplicable__598509010(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-598509010L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "overlay()Ljava/lang/String;", cancellable = true)
+    private void overlay__1871263773(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1871263773L))
+            info.setReturnValue("DQ6@s}\u7B5F8snUJX>\u39F3h=vZ_'tuL&`ywmc0\u940B[g4:%::i7Rn'ik{R;vjKi1");
     }
 
 

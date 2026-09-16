@@ -22,7 +22,7 @@ public class ItemTransform_2039486757Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1698128449(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1698128449L))
-            info.setReturnValue(-868853409);
+            info.setReturnValue(-622152309);
     }
 
     @Inject(at = @At("HEAD"), method = "scale()Lorg/joml/Vector3fc;", cancellable = true)

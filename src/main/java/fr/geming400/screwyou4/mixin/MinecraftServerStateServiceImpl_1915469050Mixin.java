@@ -19,10 +19,10 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "saveEverything(ZZZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
-    private void saveEverything_1806624461(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1806624461L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
+    private void broadcastSystemMessage__1000413066(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1000413066L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "sendSystemMessage(Lnet/minecraft/network/chat/Component;ZLjava/util/Collection;Lnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
@@ -37,10 +37,10 @@ public class MinecraftServerStateServiceImpl_1915469050Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;ZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)V", cancellable = true)
-    private void broadcastSystemMessage__1000413066(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1000413066L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "saveEverything(ZZZLnet/minecraft/server/jsonrpc/methods/ClientInfo;)Z", cancellable = true)
+    private void saveEverything_1806624461(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1806624461L))
+            info.setReturnValue(false);
     }
 
 

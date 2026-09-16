@@ -34,7 +34,7 @@ public class JigsawBlockInfo2108733357Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1628881848(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1628881848L))
-            info.setReturnValue(1050993479);
+            info.setReturnValue(1652852579);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$JigsawBlockInfo;", cancellable = true)
@@ -70,13 +70,13 @@ public class JigsawBlockInfo2108733357Mixin {
     @Inject(at = @At("HEAD"), method = "placementPriority()I", cancellable = true)
     private void placementPriority_767701898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(767701898L))
-            info.setReturnValue(1702580418);
+            info.setReturnValue(-1990527778);
     }
 
     @Inject(at = @At("HEAD"), method = "selectionPriority()I", cancellable = true)
     private void selectionPriority_954145859(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(954145859L))
-            info.setReturnValue(-1922929666);
+            info.setReturnValue(-1321070566);
     }
 
 

@@ -28,7 +28,7 @@ public class AltEnum_14325252Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_571677342(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(571677342L))
-            info.setReturnValue(-1223050135);
+            info.setReturnValue(-1579169935);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue(Ljava/lang/Object;)Ljava/util/Optional;", cancellable = true)
@@ -37,9 +37,9 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
-    private void altCondition__1087449658(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1087449658L))
+    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
+    private void altValues_1142300894(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1142300894L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +49,15 @@ public class AltEnum_14325252Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
-    private void valueListSupplier_371225522(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(371225522L))
+    @Inject(at = @At("HEAD"), method = "altCondition()Ljava/util/function/BooleanSupplier;", cancellable = true)
+    private void altCondition__1087449658(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1087449658L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "altValues()Ljava/util/List;", cancellable = true)
-    private void altValues_1142300894(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1142300894L))
+    @Inject(at = @At("HEAD"), method = "valueListSupplier()Lnet/minecraft/client/gui/components/CycleButton$ValueListSupplier;", cancellable = true)
+    private void valueListSupplier_371225522(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(371225522L))
             info.setReturnValue(null);
     }
 

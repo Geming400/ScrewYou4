@@ -22,25 +22,25 @@ public class ExplosionParticleInfo522208299Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1079560390(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1079560390L))
-            info.setReturnValue(-1480554895);
+            info.setReturnValue(-1461298695);
+    }
+
+    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
+    private void speed_1101472487(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1101472487L))
+            info.setReturnValue(5.705292E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "scaling()F", cancellable = true)
+    private void scaling_1298476967(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1298476967L))
+            info.setReturnValue(5.705292E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "particle()Lnet/minecraft/core/particles/ParticleOptions;", cancellable = true)
     private void particle_491056645(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(491056645L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "speed()F", cancellable = true)
-    private void speed_1101472487(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1101472487L))
-            info.setReturnValue(5.51273E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "scaling()F", cancellable = true)
-    private void scaling_1298476967(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1298476967L))
-            info.setReturnValue(5.51273E8F);
     }
 
 

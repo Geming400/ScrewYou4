@@ -19,16 +19,16 @@ public class Action935056626Mixin {
             info.setReturnValue(net.minecraft.network.chat.ClickEvent.Action.CUSTOM);
     }
 
-    @Inject(at = @At("HEAD"), method = "filterForSerialization(Lnet/minecraft/network/chat/ClickEvent$Action;)Lcom/mojang/serialization/DataResult;", cancellable = true)
-    private static void filterForSerialization_1701343971(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1701343971L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isAllowedFromServer()Z", cancellable = true)
     private void isAllowedFromServer__1587995074(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1587995074L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "filterForSerialization(Lnet/minecraft/network/chat/ClickEvent$Action;)Lcom/mojang/serialization/DataResult;", cancellable = true)
+    private static void filterForSerialization_1701343971(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1701343971L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)

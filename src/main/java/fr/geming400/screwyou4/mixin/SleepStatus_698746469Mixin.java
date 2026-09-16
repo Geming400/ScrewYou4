@@ -13,28 +13,28 @@ public class SleepStatus_698746469Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "areEnoughDeepSleeping(ILjava/util/List;)Z", cancellable = true)
-    private void areEnoughDeepSleeping_192118976(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(192118976L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "areEnoughSleeping(I)Z", cancellable = true)
     private void areEnoughSleeping__715930621(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-715930621L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "amountSleeping()I", cancellable = true)
-    private void amountSleeping_1750104071(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1750104071L))
-            info.setReturnValue(2101798350);
+    @Inject(at = @At("HEAD"), method = "areEnoughDeepSleeping(ILjava/util/List;)Z", cancellable = true)
+    private void areEnoughDeepSleeping_192118976(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(192118976L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "sleepersNeeded(I)I", cancellable = true)
     private void sleepersNeeded__1996520057(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1996520057L))
-            info.setReturnValue(1046070577);
+            info.setReturnValue(1059663177);
+    }
+
+    @Inject(at = @At("HEAD"), method = "amountSleeping()I", cancellable = true)
+    private void amountSleeping_1750104071(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1750104071L))
+            info.setReturnValue(2115390950);
     }
 
     @Inject(at = @At("HEAD"), method = "removeAllSleepers()V", cancellable = true)

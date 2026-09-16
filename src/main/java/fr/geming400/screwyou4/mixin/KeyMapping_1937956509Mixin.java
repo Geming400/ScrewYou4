@@ -22,25 +22,25 @@ public class KeyMapping_1937956509Mixin {
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/client/KeyMapping;)I", cancellable = true)
     private void compareTo__1111128358(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1111128358L))
-            info.setReturnValue(701907546);
+            info.setReturnValue(1148128146);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo_45852574(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(45852574L))
-            info.setReturnValue(1667350159);
-    }
-
-    @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void matches__1714653235(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1714653235L))
-            info.setReturnValue(true);
+            info.setReturnValue(2113570759);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(Lcom/mojang/blaze3d/platform/InputConstants$Key;)Z", cancellable = true)
     private void matches__1734268610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1734268610L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "matches(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void matches__1714653235(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1714653235L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "set(Lcom/mojang/blaze3d/platform/InputConstants$Key;Z)V", cancellable = true)
@@ -73,40 +73,46 @@ public class KeyMapping_1937956509Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "matchesMouse(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
-    private void matchesMouse__1619939868(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1619939868L))
-            info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getTranslatedKeyMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getTranslatedKeyMessage__363428669(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-363428669L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "resetMapping()V", cancellable = true)
-    private static void resetMapping_1822495016(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1822495016L))
+    @Inject(at = @At("HEAD"), method = "setDown(Z)V", cancellable = true)
+    private void setDown__1809318275(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1809318275L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "consumeClick()Z", cancellable = true)
-    private void consumeClick__763989785(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-763989785L))
+    @Inject(at = @At("HEAD"), method = "isUnbound()Z", cancellable = true)
+    private void isUnbound_1948536632(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1948536632L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "releaseAll()V", cancellable = true)
+    private static void releaseAll_1318837869(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1318837869L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isDown()Z", cancellable = true)
+    private void isDown_69248743(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(69248743L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "saveString()Ljava/lang/String;", cancellable = true)
+    private void saveString_529109907(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(529109907L))
+            info.setReturnValue("no");
+    }
+
+    @Inject(at = @At("HEAD"), method = "click(Lcom/mojang/blaze3d/platform/InputConstants$Key;)V", cancellable = true)
+    private static void click__2008520195(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2008520195L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "resetToggleKeys()V", cancellable = true)
     private static void resetToggleKeys__209934704(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-209934704L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createNameSupplier(Ljava/lang/String;)Ljava/util/function/Supplier;", cancellable = true)
-    private static void createNameSupplier_268094060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(268094060L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getCategory()Lnet/minecraft/client/KeyMapping$Category;", cancellable = true)
@@ -127,40 +133,34 @@ public class KeyMapping_1937956509Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "isDown()Z", cancellable = true)
-    private void isDown_69248743(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(69248743L))
+    @Inject(at = @At("HEAD"), method = "createNameSupplier(Ljava/lang/String;)Ljava/util/function/Supplier;", cancellable = true)
+    private static void createNameSupplier_268094060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(268094060L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTranslatedKeyMessage()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getTranslatedKeyMessage__363428669(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-363428669L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "resetMapping()V", cancellable = true)
+    private static void resetMapping_1822495016(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1822495016L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "matchesMouse(Lnet/minecraft/client/input/MouseButtonEvent;)Z", cancellable = true)
+    private void matchesMouse__1619939868(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1619939868L))
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "click(Lcom/mojang/blaze3d/platform/InputConstants$Key;)V", cancellable = true)
-    private static void click__2008520195(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2008520195L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isUnbound()Z", cancellable = true)
-    private void isUnbound_1948536632(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1948536632L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "releaseAll()V", cancellable = true)
-    private static void releaseAll_1318837869(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1318837869L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "setDown(Z)V", cancellable = true)
-    private void setDown__1809318275(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1809318275L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "saveString()Ljava/lang/String;", cancellable = true)
-    private void saveString_529109907(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(529109907L))
-            info.setReturnValue("no");
+    @Inject(at = @At("HEAD"), method = "consumeClick()Z", cancellable = true)
+    private void consumeClick__763989785(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-763989785L))
+            info.setReturnValue(false);
     }
 
 

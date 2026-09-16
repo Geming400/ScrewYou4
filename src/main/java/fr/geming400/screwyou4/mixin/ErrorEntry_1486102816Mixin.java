@@ -22,7 +22,7 @@ public class ErrorEntry_1486102816Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2043454906(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2043454906L))
-            info.setReturnValue(-1769818572);
+            info.setReturnValue(-1739337672);
     }
 
     @Inject(at = @At("HEAD"), method = "reason()Ljava/lang/Object;", cancellable = true)
@@ -34,7 +34,7 @@ public class ErrorEntry_1486102816Mixin {
     @Inject(at = @At("HEAD"), method = "cursor()I", cancellable = true)
     private void cursor__136672913(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-136672913L))
-            info.setReturnValue(1010047505);
+            info.setReturnValue(1040528405);
     }
 
     @Inject(at = @At("HEAD"), method = "suggestions()Lnet/minecraft/util/parsing/packrat/SuggestionSupplier;", cancellable = true)

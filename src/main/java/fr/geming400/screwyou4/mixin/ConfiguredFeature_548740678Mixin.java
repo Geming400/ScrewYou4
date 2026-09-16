@@ -22,7 +22,7 @@ public class ConfiguredFeature_548740678Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1106092768(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1106092768L))
-            info.setReturnValue(949651660);
+            info.setReturnValue(1014238260);
     }
 
     @Inject(at = @At("HEAD"), method = "config()Lnet/minecraft/world/level/levelgen/feature/configurations/FeatureConfiguration;", cancellable = true)
@@ -37,16 +37,16 @@ public class ConfiguredFeature_548740678Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
-    private void getSubFeatures__258400589(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-258400589L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void place_2091465743(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2091465743L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getSubFeatures()Ljava/util/stream/Stream;", cancellable = true)
+    private void getSubFeatures__258400589(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-258400589L))
+            info.setReturnValue(null);
     }
 
 

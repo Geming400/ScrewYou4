@@ -28,7 +28,7 @@ public class LazyEnum431840121Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_989192212(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(989192212L))
-            info.setReturnValue(-2136255696);
+            info.setReturnValue(-1728670196);
     }
 
     @Inject(at = @At("HEAD"), method = "validateValue()Ljava/util/function/Function;", cancellable = true)

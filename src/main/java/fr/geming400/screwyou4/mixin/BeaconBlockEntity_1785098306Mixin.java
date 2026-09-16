@@ -31,9 +31,9 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
-    private void setCustomName__1591932502(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1591932502L))
+    @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;)V", cancellable = true)
+    private static void playSound__1815246153(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1815246153L))
             info.cancel();
     }
 
@@ -43,15 +43,45 @@ public class BeaconBlockEntity_1785098306Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "playSound(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/sounds/SoundEvent;)V", cancellable = true)
-    private static void playSound__1815246153(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1815246153L))
+    @Inject(at = @At("HEAD"), method = "setCustomName(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
+    private void setCustomName__1591932502(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1591932502L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
+    private void createMenu__1927504832(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1927504832L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
+    private void getUpdatePacket__337675564(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-337675564L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
+    private void getUpdatePacket_1251703916(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1251703916L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "setRemoved()V", cancellable = true)
     private void setRemoved__411686890(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-411686890L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
+    private void getUpdateTag_1206958426(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1206958426L))
+            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
+    private void removeComponentsFromTag_1672270047(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1672270047L))
             info.cancel();
     }
 
@@ -65,36 +95,6 @@ public class BeaconBlockEntity_1785098306Mixin {
     private void getBeamSections__795971484(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-795971484L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;", cancellable = true)
-    private void createMenu__1927504832(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1927504832L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/game/ClientboundBlockEntityDataPacket;", cancellable = true)
-    private void getUpdatePacket_1251703916(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1251703916L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdatePacket()Lnet/minecraft/network/protocol/Packet;", cancellable = true)
-    private void getUpdatePacket__337675564(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-337675564L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getUpdateTag(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/nbt/CompoundTag;", cancellable = true)
-    private void getUpdateTag_1206958426(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1206958426L))
-            info.setReturnValue(new net.minecraft.nbt.CompoundTag());
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeComponentsFromTag(Lnet/minecraft/world/level/storage/ValueOutput;)V", cancellable = true)
-    private void removeComponentsFromTag_1672270047(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1672270047L))
-            info.cancel();
     }
 
 

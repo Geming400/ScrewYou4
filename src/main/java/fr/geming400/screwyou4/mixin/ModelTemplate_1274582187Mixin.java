@@ -25,9 +25,9 @@ public class ModelTemplate_1274582187Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWithOverride(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lnet/minecraft/client/data/models/model/TextureMapping;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void createWithOverride__609586212(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-609586212L))
+    @Inject(at = @At("HEAD"), method = "createWithSuffix(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lnet/minecraft/client/data/models/model/TextureMapping;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void createWithSuffix__172921289(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-172921289L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +37,9 @@ public class ModelTemplate_1274582187Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createWithSuffix(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lnet/minecraft/client/data/models/model/TextureMapping;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void createWithSuffix__172921289(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-172921289L))
+    @Inject(at = @At("HEAD"), method = "createWithOverride(Lnet/minecraft/world/level/block/Block;Ljava/lang/String;Lnet/minecraft/client/data/models/model/TextureMapping;Ljava/util/function/BiConsumer;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void createWithOverride__609586212(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-609586212L))
             info.setReturnValue(null);
     }
 

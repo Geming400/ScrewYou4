@@ -25,15 +25,15 @@ public class DyeRecipe1091398480Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void assemble__1635513231(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1635513231L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1695900187(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1695900187L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void assemble__1635513231(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1635513231L))
             info.setReturnValue(null);
     }
 

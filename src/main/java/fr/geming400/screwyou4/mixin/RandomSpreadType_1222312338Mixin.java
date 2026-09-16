@@ -22,7 +22,7 @@ public class RandomSpreadType_1222312338Mixin {
     @Inject(at = @At("HEAD"), method = "evaluate(Lnet/minecraft/util/RandomSource;I)I", cancellable = true)
     private void evaluate_1291007895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1291007895L))
-            info.setReturnValue(-1575812409);
+            info.setReturnValue(-1853669209);
     }
 
     @Inject(at = @At("HEAD"), method = "getSerializedName()Ljava/lang/String;", cancellable = true)

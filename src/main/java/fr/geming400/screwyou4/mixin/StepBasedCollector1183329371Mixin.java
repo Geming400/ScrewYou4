@@ -13,15 +13,15 @@ public class StepBasedCollector1183329371Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "advanceStep(I)V", cancellable = true)
-    private void advanceStep__201057419(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-201057419L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "applyAndClear(Lnet/minecraft/world/entity/Entity;)V", cancellable = true)
     private void applyAndClear_855918379(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(855918379L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "advanceStep(I)V", cancellable = true)
+    private void advanceStep__201057419(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-201057419L))
             info.cancel();
     }
 

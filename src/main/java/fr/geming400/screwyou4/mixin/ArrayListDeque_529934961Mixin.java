@@ -16,7 +16,7 @@ public class ArrayListDeque_529934961Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_973666549(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(973666549L))
-            info.setReturnValue(-169887219);
+            info.setReturnValue(-599111119);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Ljava/lang/Object;", cancellable = true)
@@ -52,7 +52,7 @@ public class ArrayListDeque_529934961Mixin {
     @Inject(at = @At("HEAD"), method = "capacity()I", cancellable = true)
     private void capacity__1252339748(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1252339748L))
-            info.setReturnValue(1222426752);
+            info.setReturnValue(793202852);
     }
 
     @Inject(at = @At("HEAD"), method = "removeIf(Ljava/util/function/Predicate;)Z", cancellable = true)
@@ -97,27 +97,27 @@ public class ArrayListDeque_529934961Mixin {
             info.setReturnValue(new java.lang.Object());
     }
 
-    @Inject(at = @At("HEAD"), method = "reversed()Ljava/util/List;", cancellable = true)
-    private void reversed__414210782(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-414210782L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "reversed()Lnet/minecraft/util/ListAndDeque;", cancellable = true)
     private void reversed_1947086610(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1947086610L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "reversed()Ljava/util/Deque;", cancellable = true)
-    private void reversed_953769490(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(953769490L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "reversed()Ljava/util/SequencedCollection;", cancellable = true)
     private void reversed__1910786671(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1910786671L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "reversed()Ljava/util/List;", cancellable = true)
+    private void reversed__414210782(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-414210782L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "reversed()Ljava/util/Deque;", cancellable = true)
+    private void reversed_953769490(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(953769490L))
             info.setReturnValue(null);
     }
 

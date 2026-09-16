@@ -22,7 +22,7 @@ public class PermissionProviderCheck1128181642Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1685533733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1685533733L))
-            info.setReturnValue(-1806958727);
+            info.setReturnValue(-1638541527);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/server/permissions/PermissionSetSupplier;)Z", cancellable = true)

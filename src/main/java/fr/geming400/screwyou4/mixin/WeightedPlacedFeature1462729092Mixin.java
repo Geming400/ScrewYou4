@@ -22,7 +22,7 @@ public class WeightedPlacedFeature1462729092Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2020081183(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2020081183L))
-            info.setReturnValue(-1091301841);
+            info.setReturnValue(-729212341);
     }
 
     @Inject(at = @At("HEAD"), method = "feature()Lnet/minecraft/core/Holder;", cancellable = true)
@@ -31,16 +31,16 @@ public class WeightedPlacedFeature1462729092Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "chance()F", cancellable = true)
-    private void chance_500175219(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(500175219L))
-            info.setReturnValue(1.218826E8F);
-    }
-
     @Inject(at = @At("HEAD"), method = "place(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private void place__1289513138(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1289513138L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "chance()F", cancellable = true)
+    private void chance_500175219(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(500175219L))
+            info.setReturnValue(4.839721E8F);
     }
 
 

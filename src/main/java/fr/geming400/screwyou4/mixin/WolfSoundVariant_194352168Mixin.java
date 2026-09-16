@@ -22,18 +22,18 @@ public class WolfSoundVariant_194352168Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_751704258(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(751704258L))
-            info.setReturnValue(279631091);
-    }
-
-    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
-    private void adultSounds_1964961783(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1964961783L))
-            info.setReturnValue(null);
+            info.setReturnValue(366494391);
     }
 
     @Inject(at = @At("HEAD"), method = "babySounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
     private void babySounds__1370604781(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1370604781L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "adultSounds()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;", cancellable = true)
+    private void adultSounds_1964961783(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1964961783L))
             info.setReturnValue(null);
     }
 

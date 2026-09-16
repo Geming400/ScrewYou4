@@ -22,25 +22,13 @@ public class Submit_2134650996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1602964210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1602964210L))
-            info.setReturnValue(-1852892686);
+            info.setReturnValue(2077263110);
     }
 
     @Inject(at = @At("HEAD"), method = "distanceToCameraSq()F", cancellable = true)
     private void distanceToCameraSq__1364849373(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1364849373L))
-            info.setReturnValue(4.109514E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
-    private void pose_409473826(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(409473826L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
-    private void outlineColor_845149880(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(845149880L))
-            info.setReturnValue(1065517729);
+            info.setReturnValue(4.61399E7F);
     }
 
     @Inject(at = @At("HEAD"), method = "featureType()Lnet/minecraft/client/renderer/feature/FeatureRendererType;", cancellable = true)
@@ -53,6 +41,18 @@ public class Submit_2134650996Mixin {
     private void movingBlockRenderState_1577833571(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1577833571L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "pose()Lorg/joml/Matrix4fc;", cancellable = true)
+    private void pose_409473826(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(409473826L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "outlineColor()I", cancellable = true)
+    private void outlineColor_845149880(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(845149880L))
+            info.setReturnValue(700706229);
     }
 
 

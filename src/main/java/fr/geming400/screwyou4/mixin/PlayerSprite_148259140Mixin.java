@@ -22,19 +22,13 @@ public class PlayerSprite_148259140Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_705611230(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(705611230L))
-            info.setReturnValue(134046732);
+            info.setReturnValue(165712232);
     }
 
     @Inject(at = @At("HEAD"), method = "player()Lnet/minecraft/world/item/component/ResolvableProfile;", cancellable = true)
     private void player_1627288249(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1627288249L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
-    private void defaultFallback__1003508529(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1003508529L))
-            info.setReturnValue("S49CS\u2556@`6(w@L;dv_SNvP\u68FB0M8wO=\u605D)O9%,7Zc}v=x\u5D982h\u54F0d[VOo3/W$8gFv\uCC7C)`?G]=^fgOl<%HPS1H\u0CDE\u7475uMXW\u758AyhWgEC9]s");
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
@@ -53,6 +47,12 @@ public class PlayerSprite_148259140Mixin {
     private void hat_264711487(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(264711487L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "defaultFallback()Ljava/lang/String;", cancellable = true)
+    private void defaultFallback__1003508529(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1003508529L))
+            info.setReturnValue("S49CS\u2556@`6(w@L;dv_SNvP\u68FB0M8wO=\u605D)O9%,7Zc}v=x\u5D982h\u54F0d[VOo3/W$8gFv\uCC7C)`?G]=^fgOl<%HPS1H\u0CDE\u7475uMXW\u758AyhWgEC9]s");
     }
 
 

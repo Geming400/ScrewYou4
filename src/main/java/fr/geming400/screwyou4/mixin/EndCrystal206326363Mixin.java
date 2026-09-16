@@ -19,16 +19,10 @@ public class EndCrystal206326363Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private void getPickResult_261255699(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(261255699L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
-    private void shouldRenderAtSqrDistance_1160568403(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1160568403L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
+    private void isPickable__1346208019(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1346208019L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtServer(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)Z", cancellable = true)
@@ -37,15 +31,21 @@ public class EndCrystal206326363Mixin {
             info.setReturnValue(true);
     }
 
+    @Inject(at = @At("HEAD"), method = "shouldRenderAtSqrDistance(D)Z", cancellable = true)
+    private void shouldRenderAtSqrDistance_1160568403(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1160568403L))
+            info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getPickResult()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private void getPickResult_261255699(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(261255699L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "hurtClient(Lnet/minecraft/world/damagesource/DamageSource;)Z", cancellable = true)
     private void hurtClient_1781516181(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1781516181L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "isPickable()Z", cancellable = true)
-    private void isPickable__1346208019(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1346208019L))
             info.setReturnValue(true);
     }
 
@@ -53,12 +53,6 @@ public class EndCrystal206326363Mixin {
     private void getBeamTarget__1777913722(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1777913722L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "showsBottom()Z", cancellable = true)
-    private void showsBottom_1623892433(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1623892433L))
-            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "setBeamTarget(Lnet/minecraft/core/BlockPos;)V", cancellable = true)
@@ -71,6 +65,12 @@ public class EndCrystal206326363Mixin {
     private void setShowBottom_1091659554(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1091659554L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "showsBottom()Z", cancellable = true)
+    private void showsBottom_1623892433(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1623892433L))
+            info.setReturnValue(false);
     }
 
 

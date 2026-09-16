@@ -22,7 +22,7 @@ public class WorldCoordinates_739632279Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1296984369(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1296984369L))
-            info.setReturnValue(483727307);
+            info.setReturnValue(339398307);
     }
 
     @Inject(at = @At("HEAD"), method = "x()Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;", cancellable = true)
@@ -79,16 +79,16 @@ public class WorldCoordinates_739632279Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
-    private void isYRelative_1058136786(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1058136786L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "isZRelative()Z", cancellable = true)
     private void isZRelative_552578161(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(552578161L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isYRelative()Z", cancellable = true)
+    private void isYRelative_1058136786(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1058136786L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "isXRelative()Z", cancellable = true)

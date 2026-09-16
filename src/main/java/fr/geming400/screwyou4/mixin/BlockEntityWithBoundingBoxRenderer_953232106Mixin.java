@@ -31,10 +31,10 @@ public class BlockEntityWithBoundingBoxRenderer_953232106Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
-    private void extractRenderState__1396524511(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1396524511L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
+    private void getViewDistance__1143515489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1143515489L))
+            info.setReturnValue(-1514468429);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
@@ -43,22 +43,22 @@ public class BlockEntityWithBoundingBoxRenderer_953232106Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getViewDistance()I", cancellable = true)
-    private void getViewDistance__1143515489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1143515489L))
-            info.setReturnValue(-1754135629);
-    }
-
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
-    private void createRenderState_1335994930(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1335994930L))
-            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;FLnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V", cancellable = true)
+    private void extractRenderState__1396524511(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1396524511L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityWithBoundingBoxRenderState;", cancellable = true)
     private void createRenderState__1576733123(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1576733123L))
             info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityWithBoundingBoxRenderState());
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/blockentity/state/BlockEntityRenderState;", cancellable = true)
+    private void createRenderState_1335994930(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1335994930L))
+            info.setReturnValue(new net.minecraft.client.renderer.blockentity.state.BlockEntityRenderState());
     }
 
 

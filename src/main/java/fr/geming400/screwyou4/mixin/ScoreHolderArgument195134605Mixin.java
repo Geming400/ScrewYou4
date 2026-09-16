@@ -61,15 +61,15 @@ public class ScoreHolderArgument195134605Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNamesWithDefaultWildcard(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
-    private static void getNamesWithDefaultWildcard__231860114(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-231860114L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "scoreHolders()Lnet/minecraft/commands/arguments/ScoreHolderArgument;", cancellable = true)
     private static void scoreHolders__1560183431(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1560183431L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNamesWithDefaultWildcard(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;", cancellable = true)
+    private static void getNamesWithDefaultWildcard__231860114(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-231860114L))
             info.setReturnValue(null);
     }
 

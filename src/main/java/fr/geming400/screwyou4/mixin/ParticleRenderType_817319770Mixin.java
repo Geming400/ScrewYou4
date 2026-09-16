@@ -28,7 +28,7 @@ public class ParticleRenderType_817319770Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1374671860(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1374671860L))
-            info.setReturnValue(-952716367);
+            info.setReturnValue(-765192467);
     }
 
     @Inject(at = @At("HEAD"), method = "shorthand()Ljava/lang/String;", cancellable = true)

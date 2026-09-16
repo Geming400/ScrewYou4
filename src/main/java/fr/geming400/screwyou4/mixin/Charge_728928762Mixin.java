@@ -40,7 +40,7 @@ public class Charge_728928762Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1286280852(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1286280852L))
-            info.setReturnValue(567616833);
+            info.setReturnValue(797123733);
     }
 
     @Inject(at = @At("HEAD"), method = "valueCodec()Lcom/mojang/serialization/Codec;", cancellable = true)

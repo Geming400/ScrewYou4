@@ -28,7 +28,7 @@ public class EntryPredicate_1459744860Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2017096950(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2017096950L))
-            info.setReturnValue(-78017541);
+            info.setReturnValue(253900259);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

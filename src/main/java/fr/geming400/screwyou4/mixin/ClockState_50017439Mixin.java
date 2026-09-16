@@ -22,19 +22,19 @@ public class ClockState_50017439Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_607369529(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(607369529L))
-            info.setReturnValue(1463248557);
+            info.setReturnValue(1320857757);
     }
 
     @Inject(at = @At("HEAD"), method = "rate()F", cancellable = true)
     private void rate_213565025(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(213565025L))
-            info.setReturnValue(5.041143E8F);
+            info.setReturnValue(3.617235E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "partialTick()F", cancellable = true)
     private void partialTick_2018090819(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2018090819L))
-            info.setReturnValue(5.041143E8F);
+            info.setReturnValue(3.617235E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "paused()Z", cancellable = true)
@@ -46,7 +46,7 @@ public class ClockState_50017439Mixin {
     @Inject(at = @At("HEAD"), method = "totalTicks()J", cancellable = true)
     private void totalTicks_2126166003(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2126166003L))
-            info.setReturnValue(5972639228064994945L);
+            info.setReturnValue(5972639227923605945L);
     }
 
 

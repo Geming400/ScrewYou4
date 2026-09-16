@@ -25,28 +25,28 @@ public class TurtleRenderer340121235Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
-    private void extractRenderState__1330352252(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1330352252L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/animal/turtle/Turtle;Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;F)V", cancellable = true)
     private void extractRenderState_1342827300(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1342827300L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;", cancellable = true)
-    private void createRenderState_838121871(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(838121871L))
-            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TurtleRenderState());
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;F)V", cancellable = true)
+    private void extractRenderState__1330352252(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1330352252L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
     private void createRenderState_593292214(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593292214L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;", cancellable = true)
+    private void createRenderState_838121871(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(838121871L))
+            info.setReturnValue(new net.minecraft.client.renderer.entity.state.TurtleRenderState());
     }
 
 

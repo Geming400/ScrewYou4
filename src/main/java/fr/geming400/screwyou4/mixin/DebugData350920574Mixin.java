@@ -22,7 +22,7 @@ public class DebugData350920574Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_908272665(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(908272665L))
-            info.setReturnValue(-347687438);
+            info.setReturnValue(-267467038);
     }
 
     @Inject(at = @At("HEAD"), method = "write(Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
@@ -43,15 +43,15 @@ public class DebugData350920574Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "closedSet()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
-    private void closedSet__861691883(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-861691883L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "openSet()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
     private void openSet_1033681527(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1033681527L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "closedSet()[Lnet/minecraft/world/level/pathfinder/Node;", cancellable = true)
+    private void closedSet__861691883(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-861691883L))
             info.setReturnValue(null);
     }
 

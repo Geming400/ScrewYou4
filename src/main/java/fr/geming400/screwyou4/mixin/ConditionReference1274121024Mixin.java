@@ -28,7 +28,7 @@ public class ConditionReference1274121024Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1831473115(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1831473115L))
-            info.setReturnValue(-104237629);
+            info.setReturnValue(627030671);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)

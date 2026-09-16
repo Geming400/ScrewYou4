@@ -22,7 +22,7 @@ public class BiomeSpecialEffects_909290389Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1466642479(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1466642479L))
-            info.setReturnValue(-122402379);
+            info.setReturnValue(-410986579);
     }
 
     @Inject(at = @At("HEAD"), method = "grassColorOverride()Ljava/util/Optional;", cancellable = true)
@@ -52,7 +52,7 @@ public class BiomeSpecialEffects_909290389Mixin {
     @Inject(at = @At("HEAD"), method = "waterColor()I", cancellable = true)
     private void waterColor__1156650898(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1156650898L))
-            info.setReturnValue(1749571942);
+            info.setReturnValue(1459977242);
     }
 
 

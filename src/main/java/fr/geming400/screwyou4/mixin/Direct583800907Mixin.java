@@ -28,7 +28,7 @@ public class Direct583800907Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1141152998(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1141152998L))
-            info.setReturnValue(-414112703);
+            info.setReturnValue(-121980903);
     }
 
     @Inject(at = @At("HEAD"), method = "kind()Lnet/minecraft/core/Holder$Kind;", cancellable = true)
@@ -91,6 +91,12 @@ public class Direct583800907Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
+    private void unwrapKey_1105613557(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1105613557L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canSerializeIn(Lnet/minecraft/core/HolderOwner;)Z", cancellable = true)
     private void canSerializeIn__1938476783(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1938476783L))
@@ -101,12 +107,6 @@ public class Direct583800907Mixin {
     private void areComponentsBound_1897229166(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1897229166L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "unwrapKey()Ljava/util/Optional;", cancellable = true)
-    private void unwrapKey_1105613557(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1105613557L))
-            info.setReturnValue(null);
     }
 
 

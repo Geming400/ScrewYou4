@@ -10,7 +10,7 @@ public class SimulationChunkTracker_1835335862Mixin {
         @Inject(at = @At("HEAD"), method = "getLevel(Lnet/minecraft/world/level/ChunkPos;)I", cancellable = true)
     private void getLevel_465482361(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(465482361L))
-            info.setReturnValue(1169490039);
+            info.setReturnValue(902779539);
     }
 
     @Inject(at = @At("HEAD"), method = "runAllUpdates()V", cancellable = true)

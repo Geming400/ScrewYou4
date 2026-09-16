@@ -31,22 +31,22 @@ public class ClientboundBlockEventPacket_931393350Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_1420959080(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1420959080L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "getB0()I", cancellable = true)
+    private void getB0_161762727(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(161762727L))
+            info.setReturnValue(1308701592);
     }
 
     @Inject(at = @At("HEAD"), method = "getB1()I", cancellable = true)
     private void getB1_190391878(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(190391878L))
-            info.setReturnValue(-690570807);
+            info.setReturnValue(-692686907);
     }
 
-    @Inject(at = @At("HEAD"), method = "getB0()I", cancellable = true)
-    private void getB0_161762727(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(161762727L))
-            info.setReturnValue(1310817692);
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_1420959080(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1420959080L))
+            info.setReturnValue(null);
     }
 
 

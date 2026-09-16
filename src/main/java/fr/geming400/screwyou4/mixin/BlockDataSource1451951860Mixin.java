@@ -22,7 +22,7 @@ public class BlockDataSource1451951860Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2009303951(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2009303951L))
-            info.setReturnValue(2028739274);
+            info.setReturnValue(1546997474);
     }
 
     @Inject(at = @At("HEAD"), method = "coordinates()Lnet/minecraft/util/CompilableString;", cancellable = true)

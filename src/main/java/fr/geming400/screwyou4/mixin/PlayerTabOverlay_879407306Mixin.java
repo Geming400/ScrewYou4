@@ -13,12 +13,6 @@ public class PlayerTabOverlay_879407306Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNameForDisplay(Lnet/minecraft/client/multiplayer/PlayerInfo;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNameForDisplay__474314049(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-474314049L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "setFooter(Lnet/minecraft/network/chat/Component;)V", cancellable = true)
     private void setFooter_964367315(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(964367315L))
@@ -29,6 +23,12 @@ public class PlayerTabOverlay_879407306Mixin {
     private void setHeader__226688095(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-226688095L))
             info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNameForDisplay(Lnet/minecraft/client/multiplayer/PlayerInfo;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNameForDisplay__474314049(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-474314049L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;ILnet/minecraft/world/scores/Scoreboard;Lnet/minecraft/world/scores/Objective;)V", cancellable = true)

@@ -13,18 +13,6 @@ public class SmithingTrimRecipe1270685887Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "applyTrim(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
-    private static void applyTrim__1093746362(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1093746362L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "baseIngredient()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private void baseIngredient__1333924356(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1333924356L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "templateIngredient()Ljava/util/Optional;", cancellable = true)
     private void templateIngredient_274172760(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(274172760L))
@@ -37,6 +25,12 @@ public class SmithingTrimRecipe1270685887Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "baseIngredient()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
+    private void baseIngredient__1333924356(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1333924356L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/SmithingRecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble_311418901(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(311418901L))
@@ -46,6 +40,12 @@ public class SmithingTrimRecipe1270685887Mixin {
     @Inject(at = @At("HEAD"), method = "assemble(Lnet/minecraft/world/item/crafting/RecipeInput;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void assemble__1516612780(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1516612780L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "applyTrim(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/ItemStack;", cancellable = true)
+    private static void applyTrim__1093746362(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1093746362L))
             info.setReturnValue(null);
     }
 

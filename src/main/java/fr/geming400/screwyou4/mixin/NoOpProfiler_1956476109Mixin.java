@@ -31,46 +31,10 @@ public class NoOpProfiler_1956476109Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onWorldLoadedStarted_770541381(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(770541381L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onServerTick(F)V", cancellable = true)
-    private void onServerTick_1400423668(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1400423668L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
-    private void onPacketReceived__1995711884(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1995711884L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onPacketSent(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
-    private void onPacketSent_963210205(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(963210205L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "onClientTick(I)V", cancellable = true)
     private void onClientTick_1460520447(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(1460520447L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onStructureGenerate__505176306(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-505176306L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
-    private void onChunkGenerate_1896312343(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1896312343L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "onRegionFileRead(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
@@ -82,6 +46,42 @@ public class NoOpProfiler_1956476109Mixin {
     @Inject(at = @At("HEAD"), method = "onRegionFileWrite(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/storage/RegionFileVersion;I)V", cancellable = true)
     private void onRegionFileWrite__1494963865(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1494963865L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onChunkGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onChunkGenerate_1896312343(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1896312343L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onStructureGenerate(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/Holder;)Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onStructureGenerate__505176306(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-505176306L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPacketSent(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
+    private void onPacketSent_963210205(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(963210205L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onPacketReceived(Lnet/minecraft/network/ConnectionProtocol;Lnet/minecraft/network/protocol/PacketType;Ljava/net/SocketAddress;I)V", cancellable = true)
+    private void onPacketReceived__1995711884(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1995711884L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "onWorldLoadedStarted()Lnet/minecraft/util/profiling/jfr/callback/ProfiledDuration;", cancellable = true)
+    private void onWorldLoadedStarted_770541381(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(770541381L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "onServerTick(F)V", cancellable = true)
+    private void onServerTick_1400423668(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1400423668L))
             info.cancel();
     }
 

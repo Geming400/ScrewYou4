@@ -25,15 +25,15 @@ public class SulfurCubeRenderer1944053029Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void getTextureLocation__1822004394(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1822004394L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/LivingEntityRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void getTextureLocation__378399432(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-378399432L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getTextureLocation(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void getTextureLocation__1822004394(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1822004394L))
             info.setReturnValue(null);
     }
 

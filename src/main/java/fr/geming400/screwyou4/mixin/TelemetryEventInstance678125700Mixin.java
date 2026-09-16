@@ -28,7 +28,7 @@ public class TelemetryEventInstance678125700Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1235477791(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1235477791L))
-            info.setReturnValue(1300065784);
+            info.setReturnValue(603916384);
     }
 
     @Inject(at = @At("HEAD"), method = "properties()Lnet/minecraft/client/telemetry/TelemetryPropertyMap;", cancellable = true)

@@ -10,7 +10,7 @@ public class SimpleContainerData_2062862069Mixin {
         @Inject(at = @At("HEAD"), method = "get(I)I", cancellable = true)
     private void get_1593947177(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1593947177L))
-            info.setReturnValue(780512193);
+            info.setReturnValue(1513876093);
     }
 
     @Inject(at = @At("HEAD"), method = "set(II)V", cancellable = true)
@@ -22,7 +22,7 @@ public class SimpleContainerData_2062862069Mixin {
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private void getCount_676943137(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(676943137L))
-            info.setReturnValue(-374747233);
+            info.setReturnValue(358616667);
     }
 
 

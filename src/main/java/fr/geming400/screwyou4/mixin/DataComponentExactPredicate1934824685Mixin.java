@@ -22,7 +22,7 @@ public class DataComponentExactPredicate1934824685Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1802791016(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1802791016L))
-            info.setReturnValue(-2021041787);
+            info.setReturnValue(2008624909);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Ljava/lang/Object;)Z", cancellable = true)
@@ -67,16 +67,16 @@ public class DataComponentExactPredicate1934824685Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "alwaysMatches()Z", cancellable = true)
-    private void alwaysMatches_1603186944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1603186944L))
-            info.setReturnValue(false);
-    }
-
     @Inject(at = @At("HEAD"), method = "someOf(Lnet/minecraft/core/component/DataComponentMap;[Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentExactPredicate;", cancellable = true)
     private static void someOf__461641402(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-461641402L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alwaysMatches()Z", cancellable = true)
+    private void alwaysMatches_1603186944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1603186944L))
+            info.setReturnValue(false);
     }
 
 

@@ -34,7 +34,7 @@ public class ClientboundOpenScreenPacket_1428120317Mixin {
     @Inject(at = @At("HEAD"), method = "getContainerId()I", cancellable = true)
     private void getContainerId__961285028(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-961285028L))
-            info.setReturnValue(282577258);
+            info.setReturnValue(54743558);
     }
 
     @Inject(at = @At("HEAD"), method = "getTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)

@@ -22,7 +22,7 @@ public class PackedData980801549Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1538153640(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1538153640L))
-            info.setReturnValue(1657243558);
+            info.setReturnValue(-2129273938);
     }
 
     @Inject(at = @At("HEAD"), method = "storage()Ljava/util/Optional;", cancellable = true)
@@ -40,7 +40,7 @@ public class PackedData980801549Mixin {
     @Inject(at = @At("HEAD"), method = "bitsPerEntry()I", cancellable = true)
     private void bitsPerEntry__1396535720(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1396535720L))
-            info.setReturnValue(-1748555503);
+            info.setReturnValue(-1240105703);
     }
 
 

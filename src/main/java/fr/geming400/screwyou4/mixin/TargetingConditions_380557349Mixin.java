@@ -31,18 +31,6 @@ public class TargetingConditions_380557349Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ignoreLineOfSight()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private void ignoreLineOfSight__545442391(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-545442391L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
-    private static void forNonCombat__991635831(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-991635831L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "forCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
     private static void forCombat_1254418276(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1254418276L))
@@ -52,6 +40,18 @@ public class TargetingConditions_380557349Mixin {
     @Inject(at = @At("HEAD"), method = "ignoreInvisibilityTesting()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
     private void ignoreInvisibilityTesting_510474210(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(510474210L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ignoreLineOfSight()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private void ignoreLineOfSight__545442391(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-545442391L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "forNonCombat()Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;", cancellable = true)
+    private static void forNonCombat__991635831(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-991635831L))
             info.setReturnValue(null);
     }
 

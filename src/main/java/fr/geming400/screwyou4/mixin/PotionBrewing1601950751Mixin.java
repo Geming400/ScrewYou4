@@ -31,27 +31,15 @@ public class PotionBrewing1601950751Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "isBrewablePotion(Lnet/minecraft/core/Holder;)Z", cancellable = true)
-    private void isBrewablePotion_1778739070(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1778739070L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "addVanillaMixes(Lnet/minecraft/world/item/alchemy/PotionBrewing$Builder;)V", cancellable = true)
-    private static void addVanillaMixes__861008930(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-861008930L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "isContainerIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
-    private void isContainerIngredient_586057043(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(586057043L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "isPotionIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
     private void isPotionIngredient_889326253(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(889326253L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isBrewablePotion(Lnet/minecraft/core/Holder;)Z", cancellable = true)
+    private void isBrewablePotion_1778739070(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1778739070L))
             info.setReturnValue(true);
     }
 
@@ -65,6 +53,18 @@ public class PotionBrewing1601950751Mixin {
     private void hasPotionMix_824614321(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(824614321L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "addVanillaMixes(Lnet/minecraft/world/item/alchemy/PotionBrewing$Builder;)V", cancellable = true)
+    private static void addVanillaMixes__861008930(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-861008930L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "isContainerIngredient(Lnet/minecraft/world/item/ItemStack;)Z", cancellable = true)
+    private void isContainerIngredient_586057043(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(586057043L))
+            info.setReturnValue(true);
     }
 
 

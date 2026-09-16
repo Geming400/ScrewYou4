@@ -16,7 +16,7 @@ public class NonNullList_533141660Mixin {
     @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_976873248(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(976873248L))
-            info.setReturnValue(120770968);
+            info.setReturnValue(207982068);
     }
 
     @Inject(at = @At("HEAD"), method = "get(I)Ljava/lang/Object;", cancellable = true)
@@ -55,15 +55,15 @@ public class NonNullList_533141660Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "withSize(ILjava/lang/Object;)Lnet/minecraft/core/NonNullList;", cancellable = true)
-    private static void withSize_415897999(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(415897999L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createWithCapacity(I)Lnet/minecraft/core/NonNullList;", cancellable = true)
     private static void createWithCapacity_1301581558(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1301581558L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "withSize(ILjava/lang/Object;)Lnet/minecraft/core/NonNullList;", cancellable = true)
+    private static void withSize_415897999(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(415897999L))
             info.setReturnValue(null);
     }
 

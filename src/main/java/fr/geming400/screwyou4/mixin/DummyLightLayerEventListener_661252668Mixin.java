@@ -25,16 +25,10 @@ public class DummyLightLayerEventListener_661252668Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getDataLayerData(Lnet/minecraft/core/SectionPos;)Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
-    private void getDataLayerData__407178275(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-407178275L))
-            info.setReturnValue(new net.minecraft.world.level.chunk.DataLayer());
-    }
-
     @Inject(at = @At("HEAD"), method = "runLightUpdates()I", cancellable = true)
     private void runLightUpdates_991359618(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(991359618L))
-            info.setReturnValue(-1528848595);
+            info.setReturnValue(-1249488095);
     }
 
     @Inject(at = @At("HEAD"), method = "setLightEnabled(Lnet/minecraft/world/level/ChunkPos;Z)V", cancellable = true)
@@ -43,10 +37,10 @@ public class DummyLightLayerEventListener_661252668Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getLightValue(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
-    private void getLightValue__1831335002(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1831335002L))
-            info.setReturnValue(-1235044383);
+    @Inject(at = @At("HEAD"), method = "hasLightWork()Z", cancellable = true)
+    private void hasLightWork__1614149563(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1614149563L))
+            info.setReturnValue(false);
     }
 
     @Inject(at = @At("HEAD"), method = "propagateLightSources(Lnet/minecraft/world/level/ChunkPos;)V", cancellable = true)
@@ -55,10 +49,16 @@ public class DummyLightLayerEventListener_661252668Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "hasLightWork()Z", cancellable = true)
-    private void hasLightWork__1614149563(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1614149563L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "getLightValue(Lnet/minecraft/core/BlockPos;)I", cancellable = true)
+    private void getLightValue__1831335002(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1831335002L))
+            info.setReturnValue(-955683883);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getDataLayerData(Lnet/minecraft/core/SectionPos;)Lnet/minecraft/world/level/chunk/DataLayer;", cancellable = true)
+    private void getDataLayerData__407178275(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-407178275L))
+            info.setReturnValue(new net.minecraft.world.level.chunk.DataLayer());
     }
 
     @Inject(at = @At("HEAD"), method = "updateSectionStatus(Lnet/minecraft/core/SectionPos;Z)V", cancellable = true)

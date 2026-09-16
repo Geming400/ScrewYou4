@@ -10,7 +10,7 @@ public class Selector_84413192Mixin {
         @Inject(at = @At("HEAD"), method = "priority()I", cancellable = true)
     private void priority_872795593(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(872795593L))
-            info.setReturnValue(555543992);
+            info.setReturnValue(-178148608);
     }
 
     @Inject(at = @At("HEAD"), method = "equals(Ljava/lang/Object;)Z", cancellable = true)
@@ -28,7 +28,7 @@ public class Selector_84413192Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_641765282(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(641765282L))
-            info.setReturnValue(1681771865);
+            info.setReturnValue(948079265);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Ljava/util/Optional;", cancellable = true)

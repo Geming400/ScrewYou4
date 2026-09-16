@@ -22,19 +22,19 @@ public class DifficultySettings_1051797771Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1609149861(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1609149861L))
-            info.setReturnValue(761735626);
-    }
-
-    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
-    private void locked_1213948407(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1213948407L))
-            info.setReturnValue(true);
+            info.setReturnValue(-14041574);
     }
 
     @Inject(at = @At("HEAD"), method = "difficulty()Lnet/minecraft/world/Difficulty;", cancellable = true)
     private void difficulty_1258518887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1258518887L))
             info.setReturnValue(net.minecraft.world.Difficulty.PEACEFUL);
+    }
+
+    @Inject(at = @At("HEAD"), method = "locked()Z", cancellable = true)
+    private void locked_1213948407(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1213948407L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "hardcore()Z", cancellable = true)

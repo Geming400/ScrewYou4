@@ -19,12 +19,6 @@ public class RandomState1313600112Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
-    private void oreRandom__727611561(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-727611561L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "sampler()Lnet/minecraft/world/level/biome/Climate$Sampler;", cancellable = true)
     private void sampler_1409230606(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1409230606L))
@@ -40,6 +34,12 @@ public class RandomState1313600112Mixin {
     @Inject(at = @At("HEAD"), method = "router()Lnet/minecraft/world/level/levelgen/NoiseRouter;", cancellable = true)
     private void router__1892716821(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1892716821L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "oreRandom()Lnet/minecraft/world/level/levelgen/PositionalRandomFactory;", cancellable = true)
+    private void oreRandom__727611561(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-727611561L))
             info.setReturnValue(null);
     }
 

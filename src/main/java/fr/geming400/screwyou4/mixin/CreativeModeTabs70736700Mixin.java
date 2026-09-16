@@ -19,15 +19,9 @@ public class CreativeModeTabs70736700Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "searchTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
-    private static void searchTab_666125975(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(666125975L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "tabs()Ljava/util/List;", cancellable = true)
-    private static void tabs__628174110(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-628174110L))
+    @Inject(at = @At("HEAD"), method = "getDefaultTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
+    private static void getDefaultTab__389654380(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-389654380L))
             info.setReturnValue(null);
     }
 
@@ -37,9 +31,15 @@ public class CreativeModeTabs70736700Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getDefaultTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
-    private static void getDefaultTab__389654380(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-389654380L))
+    @Inject(at = @At("HEAD"), method = "searchTab()Lnet/minecraft/world/item/CreativeModeTab;", cancellable = true)
+    private static void searchTab_666125975(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(666125975L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "tabs()Ljava/util/List;", cancellable = true)
+    private static void tabs__628174110(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-628174110L))
             info.setReturnValue(null);
     }
 

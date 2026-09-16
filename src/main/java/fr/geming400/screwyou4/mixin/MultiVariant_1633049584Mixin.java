@@ -22,7 +22,7 @@ public class MultiVariant_1633049584Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__2104565622(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-2104565622L))
-            info.setReturnValue(1388931388);
+            info.setReturnValue(1613018888);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Lnet/minecraft/client/renderer/block/dispatch/VariantMutator;)Lnet/minecraft/client/data/models/MultiVariant;", cancellable = true)

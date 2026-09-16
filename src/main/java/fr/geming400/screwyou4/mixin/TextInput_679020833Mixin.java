@@ -22,13 +22,13 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1236372923(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1236372923L))
-            info.setReturnValue(-326495131);
+            info.setReturnValue(-784141731);
     }
 
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__961127168(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-961127168L))
-            info.setReturnValue(-1241127179);
+            info.setReturnValue(-1698773779);
     }
 
     @Inject(at = @At("HEAD"), method = "label()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -40,7 +40,7 @@ public class TextInput_679020833Mixin {
     @Inject(at = @At("HEAD"), method = "maxLength()I", cancellable = true)
     private void maxLength_281346012(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(281346012L))
-            info.setReturnValue(-927027001);
+            info.setReturnValue(-1384673601);
     }
 
     @Inject(at = @At("HEAD"), method = "multiline()Ljava/util/Optional;", cancellable = true)
@@ -55,16 +55,16 @@ public class TextInput_679020833Mixin {
             info.setReturnValue(" \"\uA35B\uAD2DU8b-\uC19A\u2E0C[QY\u7063Tkx}W\u8C78wHqcPnij,c$K?5`\u0E82aH.mm)\"U2ahd!Cdf-y\u7907`d1Cvy`mD[\uA214`^n%#");
     }
 
-    @Inject(at = @At("HEAD"), method = "labelVisible()Z", cancellable = true)
-    private void labelVisible__1028805959(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1028805959L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "mapCodec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
     private void mapCodec__64974238(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-64974238L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "labelVisible()Z", cancellable = true)
+    private void labelVisible__1028805959(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1028805959L))
+            info.setReturnValue(true);
     }
 
 

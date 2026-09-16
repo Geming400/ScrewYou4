@@ -25,6 +25,12 @@ public class GameModeArgument1366567996Mixin {
             info.setReturnValue(new net.minecraft.commands.arguments.GameModeArgument());
     }
 
+    @Inject(at = @At("HEAD"), method = "getGameMode(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
+    private static void getGameMode__1928081077(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928081077L))
+            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
+    }
+
     @Inject(at = @At("HEAD"), method = "listSuggestions(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;", cancellable = true)
     private void listSuggestions_615010205(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(615010205L))
@@ -35,12 +41,6 @@ public class GameModeArgument1366567996Mixin {
     private void getExamples__1203785301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1203785301L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getGameMode(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/level/GameType;", cancellable = true)
-    private static void getGameMode__1928081077(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1928081077L))
-            info.setReturnValue(net.minecraft.world.level.GameType.ADVENTURE);
     }
 
 

@@ -28,7 +28,7 @@ public class ConversionParams1894912856Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1842702349(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1842702349L))
-            info.setReturnValue(-63881370);
+            info.setReturnValue(315297630);
     }
 
     @Inject(at = @At("HEAD"), method = "single(Lnet/minecraft/world/entity/Mob;ZZ)Lnet/minecraft/world/entity/ConversionParams;", cancellable = true)
@@ -43,15 +43,15 @@ public class ConversionParams1894912856Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "keepEquipment()Z", cancellable = true)
-    private void keepEquipment__94800090(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-94800090L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "preserveCanPickUpLoot()Z", cancellable = true)
     private void preserveCanPickUpLoot__1461804633(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1461804633L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "keepEquipment()Z", cancellable = true)
+    private void keepEquipment__94800090(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-94800090L))
             info.setReturnValue(true);
     }
 

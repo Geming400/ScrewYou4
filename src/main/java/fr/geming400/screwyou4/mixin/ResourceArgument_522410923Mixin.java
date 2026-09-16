@@ -55,12 +55,6 @@ public class ResourceArgument_522410923Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
-    private static void getStructure_237148792(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(237148792L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "getEntityType(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void getEntityType__1542679698(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1542679698L))
@@ -88,6 +82,12 @@ public class ResourceArgument_522410923Mixin {
     @Inject(at = @At("HEAD"), method = "getSummonableEntityType(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
     private static void getSummonableEntityType__343870199(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-343870199L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getStructure(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;", cancellable = true)
+    private static void getStructure_237148792(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(237148792L))
             info.setReturnValue(null);
     }
 

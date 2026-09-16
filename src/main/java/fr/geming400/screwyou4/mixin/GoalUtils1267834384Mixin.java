@@ -25,6 +25,12 @@ public class GoalUtils1267834384Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
+    private static void hasGroundPathNavigation__1708093777(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1708093777L))
+            info.setReturnValue(true);
+    }
+
     @Inject(at = @At("HEAD"), method = "isSolid(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/core/BlockPos;)Z", cancellable = true)
     private static void isSolid_243438335(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(243438335L))
@@ -53,12 +59,6 @@ public class GoalUtils1267834384Mixin {
     private static void isOutsideLimits__1878269957(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1878269957L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "hasGroundPathNavigation(Lnet/minecraft/world/entity/Mob;)Z", cancellable = true)
-    private static void hasGroundPathNavigation__1708093777(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1708093777L))
-            info.setReturnValue(true);
     }
 
 

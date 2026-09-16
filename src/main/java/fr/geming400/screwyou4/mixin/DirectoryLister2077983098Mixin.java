@@ -28,13 +28,13 @@ public class DirectoryLister2077983098Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1659632107(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1659632107L))
-            info.setReturnValue(-689289021);
+            info.setReturnValue(-1217726621);
     }
 
-    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
-    private void codec__1150538944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1150538944L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "sourcePath()Ljava/lang/String;", cancellable = true)
+    private void sourcePath__399830045(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-399830045L))
+            info.setReturnValue("7A\"\uB4DB9kuf\uB960Dz6m\uA149=y_mxp==?cW\uBA56Gt(t\u5535}%U6(|!O&acS!9B\u73C9\u8B57#n*NfDR^D\uBC7B \u7CDFkk");
     }
 
     @Inject(at = @At("HEAD"), method = "idPrefix()Ljava/lang/String;", cancellable = true)
@@ -43,10 +43,10 @@ public class DirectoryLister2077983098Mixin {
             info.setReturnValue("\"sI`K+@{+*]':ylfP<]r\u5E05\u57DEBz|1f\uB4A3\u51B9s|z8Rf=H]A-cvF$K\u6560?\uC56AQlXLc{7G}iy*70%MB\u9C22@4ufj.0oz");
     }
 
-    @Inject(at = @At("HEAD"), method = "sourcePath()Ljava/lang/String;", cancellable = true)
-    private void sourcePath__399830045(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-399830045L))
-            info.setReturnValue("7A\"\uB4DB9kuf\uB960Dz6m\uA149=y_mxp==?cW\uBA56Gt(t\u5535}%U6(|!O&acS!9B\u73C9\u8B57#n*NfDR^D\uBC7B \u7CDFkk");
+    @Inject(at = @At("HEAD"), method = "codec()Lcom/mojang/serialization/MapCodec;", cancellable = true)
+    private void codec__1150538944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1150538944L))
+            info.setReturnValue(null);
     }
 
 

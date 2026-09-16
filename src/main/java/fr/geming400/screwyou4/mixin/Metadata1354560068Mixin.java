@@ -22,7 +22,7 @@ public class Metadata1354560068Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1911912159(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1911912159L))
-            info.setReturnValue(-1979552930);
+            info.setReturnValue(-1554708930);
     }
 
     @Inject(at = @At("HEAD"), method = "description()Lnet/minecraft/network/chat/Component;", cancellable = true)

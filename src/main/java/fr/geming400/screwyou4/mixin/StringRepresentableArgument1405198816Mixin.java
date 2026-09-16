@@ -7,15 +7,15 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.commands.arguments.StringRepresentableArgument.class)
 public class StringRepresentableArgument1405198816Mixin {
-        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Enum;", cancellable = true)
-    private void parse_777825372(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(777825372L))
+        @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
+    private void parse__1928508386(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1928508386L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;", cancellable = true)
-    private void parse__1928508386(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1928508386L))
+    @Inject(at = @At("HEAD"), method = "parse(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Enum;", cancellable = true)
+    private void parse_777825372(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(777825372L))
             info.setReturnValue(null);
     }
 

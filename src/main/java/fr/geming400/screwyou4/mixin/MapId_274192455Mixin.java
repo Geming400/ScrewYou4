@@ -22,13 +22,13 @@ public class MapId_274192455Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_831544545(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(831544545L))
-            info.setReturnValue(281080273);
+            info.setReturnValue(244415673);
     }
 
     @Inject(at = @At("HEAD"), method = "id()I", cancellable = true)
     private void id_1873975793(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1873975793L))
-            info.setReturnValue(925687998);
+            info.setReturnValue(889023398);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Ljava/lang/String;", cancellable = true)

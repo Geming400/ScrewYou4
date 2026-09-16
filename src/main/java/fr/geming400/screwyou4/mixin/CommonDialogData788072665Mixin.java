@@ -22,7 +22,7 @@ public class CommonDialogData788072665Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1345424756(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1345424756L))
-            info.setReturnValue(-527182265);
+            info.setReturnValue(-648938665);
     }
 
     @Inject(at = @At("HEAD"), method = "body()Ljava/util/List;", cancellable = true)
@@ -43,16 +43,16 @@ public class CommonDialogData788072665Mixin {
             info.setReturnValue(false);
     }
 
+    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void title__1174422076(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1174422076L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canCloseWithEscape()Z", cancellable = true)
     private void canCloseWithEscape__507609887(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-507609887L))
             info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "externalTitle()Ljava/util/Optional;", cancellable = true)
-    private void externalTitle_863508692(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(863508692L))
-            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "computeExternalTitle()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -67,9 +67,9 @@ public class CommonDialogData788072665Mixin {
             info.setReturnValue(net.minecraft.server.dialog.DialogAction.CLOSE);
     }
 
-    @Inject(at = @At("HEAD"), method = "title()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void title__1174422076(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1174422076L))
+    @Inject(at = @At("HEAD"), method = "externalTitle()Ljava/util/Optional;", cancellable = true)
+    private void externalTitle_863508692(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(863508692L))
             info.setReturnValue(null);
     }
 

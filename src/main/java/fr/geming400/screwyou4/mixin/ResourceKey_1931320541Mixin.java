@@ -67,16 +67,16 @@ public class ResourceKey_1931320541Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
-    private static void streamCodec_436966154(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(436966154L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "isFor(Lnet/minecraft/resources/ResourceKey;)Z", cancellable = true)
     private void isFor__508180586(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-508180586L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "streamCodec(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/codec/StreamCodec;", cancellable = true)
+    private static void streamCodec_436966154(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(436966154L))
+            info.setReturnValue(null);
     }
 
 

@@ -7,9 +7,9 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.inventory.EnchantmentScreen.class)
 public class EnchantmentScreen_2050392907Mixin {
-        @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
-    private void containerTick__903608577(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-903608577L))
+        @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
+    private void tickBook_1368328087(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1368328087L))
             info.cancel();
     }
 
@@ -31,9 +31,9 @@ public class EnchantmentScreen_2050392907Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "tickBook()V", cancellable = true)
-    private void tickBook_1368328087(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1368328087L))
+    @Inject(at = @At("HEAD"), method = "containerTick()V", cancellable = true)
+    private void containerTick__903608577(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-903608577L))
             info.cancel();
     }
 

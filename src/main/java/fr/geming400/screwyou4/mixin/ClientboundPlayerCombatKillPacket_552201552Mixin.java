@@ -28,7 +28,7 @@ public class ClientboundPlayerCombatKillPacket_552201552Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1109553642(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1109553642L))
-            info.setReturnValue(-913025587);
+            info.setReturnValue(-384715587);
     }
 
     @Inject(at = @At("HEAD"), method = "message()Lnet/minecraft/network/chat/Component;", cancellable = true)
@@ -49,16 +49,16 @@ public class ClientboundPlayerCombatKillPacket_552201552Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "playerId()I", cancellable = true)
+    private void playerId_509992153(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(509992153L))
+            info.setReturnValue(44764491);
+    }
+
     @Inject(at = @At("HEAD"), method = "isSkippable()Z", cancellable = true)
     private void isSkippable_216731141(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(216731141L))
             info.setReturnValue(false);
-    }
-
-    @Inject(at = @At("HEAD"), method = "playerId()I", cancellable = true)
-    private void playerId_509992153(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(509992153L))
-            info.setReturnValue(-483545509);
     }
 
 

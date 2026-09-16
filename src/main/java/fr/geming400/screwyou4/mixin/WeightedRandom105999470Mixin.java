@@ -10,7 +10,7 @@ public class WeightedRandom105999470Mixin {
         @Inject(at = @At("HEAD"), method = "getTotalWeight(Ljava/util/List;Ljava/util/function/ToIntFunction;)I", cancellable = true)
     private static void getTotalWeight__366318895(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-366318895L))
-            info.setReturnValue(1574279166);
+            info.setReturnValue(-2083974530);
     }
 
     @Inject(at = @At("HEAD"), method = "getRandomItem(Lnet/minecraft/util/RandomSource;Ljava/util/List;Ljava/util/function/ToIntFunction;)Ljava/util/Optional;", cancellable = true)

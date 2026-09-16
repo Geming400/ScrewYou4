@@ -55,21 +55,15 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isTranslationResolvable(Lnet/minecraft/network/chat/Component;)Z", cancellable = true)
-    private static void isTranslationResolvable__441599750(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-441599750L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "wrapInSquareBrackets(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void wrapInSquareBrackets__207327183(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-207327183L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "formatAndSortList(Ljava/util/Collection;Ljava/util/function/Function;)Lnet/minecraft/network/chat/Component;", cancellable = true)
     private static void formatAndSortList__1681135351(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1681135351L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "copyOnClickText(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void copyOnClickText__1968759459(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1968759459L))
             info.setReturnValue(null);
     }
 
@@ -79,10 +73,16 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "mergeStyles(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private static void mergeStyles_1169335618(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1169335618L))
+    @Inject(at = @At("HEAD"), method = "copyOnClickText(Ljava/lang/String;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
+    private static void copyOnClickText__1968759459(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1968759459L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isTranslationResolvable(Lnet/minecraft/network/chat/Component;)Z", cancellable = true)
+    private static void isTranslationResolvable__441599750(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-441599750L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "mergeStyles(Lnet/minecraft/network/chat/MutableComponent;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
@@ -91,9 +91,9 @@ public class ComponentUtils_1235954290Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "wrapInSquareBrackets(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;", cancellable = true)
-    private static void wrapInSquareBrackets__207327183(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-207327183L))
+    @Inject(at = @At("HEAD"), method = "mergeStyles(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private static void mergeStyles_1169335618(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1169335618L))
             info.setReturnValue(null);
     }
 

@@ -22,7 +22,7 @@ public class MovementPredicate_639750998Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1197103088(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1197103088L))
-            info.setReturnValue(-603576792);
+            info.setReturnValue(-941721592);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDD)Z", cancellable = true)

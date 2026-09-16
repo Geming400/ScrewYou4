@@ -22,7 +22,7 @@ public class DamageSourceCondition_35739181Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_593091271(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(593091271L))
-            info.setReturnValue(-1341746893);
+            info.setReturnValue(-894647093);
     }
 
     @Inject(at = @At("HEAD"), method = "test(Lnet/minecraft/world/level/storage/loot/LootContext;)Z", cancellable = true)

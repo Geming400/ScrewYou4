@@ -13,10 +13,10 @@ public class SlabBlock2131282469Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
-    private void getStateForPlacement__337906011(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-337906011L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
+    private void placeLiquid_309821768(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(309821768L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "canPlaceLiquid(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/Fluid;)Z", cancellable = true)
@@ -25,10 +25,10 @@ public class SlabBlock2131282469Mixin {
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "placeLiquid(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)
-    private void placeLiquid_309821768(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(309821768L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;", cancellable = true)
+    private void getStateForPlacement__337906011(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-337906011L))
+            info.setReturnValue(null);
     }
 
 

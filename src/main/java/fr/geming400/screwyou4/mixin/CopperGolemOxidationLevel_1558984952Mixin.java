@@ -22,13 +22,7 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2116337042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2116337042L))
-            info.setReturnValue(281607482);
-    }
-
-    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void deathSound_1292447486(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1292447486L))
-            info.setReturnValue(null);
+            info.setReturnValue(-310614218);
     }
 
     @Inject(at = @At("HEAD"), method = "hurtSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
@@ -37,9 +31,9 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "spinHeadSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
-    private void spinHeadSound_1320846412(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1320846412L))
+    @Inject(at = @At("HEAD"), method = "deathSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void deathSound_1292447486(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1292447486L))
             info.setReturnValue(null);
     }
 
@@ -49,15 +43,21 @@ public class CopperGolemOxidationLevel_1558984952Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
-    private void texture__1904780711(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1904780711L))
+    @Inject(at = @At("HEAD"), method = "spinHeadSound()Lnet/minecraft/sounds/SoundEvent;", cancellable = true)
+    private void spinHeadSound_1320846412(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1320846412L))
             info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "eyeTexture()Lnet/minecraft/resources/Identifier;", cancellable = true)
     private void eyeTexture__870530072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-870530072L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "texture()Lnet/minecraft/resources/Identifier;", cancellable = true)
+    private void texture__1904780711(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1904780711L))
             info.setReturnValue(null);
     }
 

@@ -10,7 +10,7 @@ public class SectionUpdateTracker_1153533122Mixin {
         @Inject(at = @At("HEAD"), method = "size()I", cancellable = true)
     private void size_1597264710(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1597264710L))
-            info.setReturnValue(1074571553);
+            info.setReturnValue(797493853);
     }
 
     @Inject(at = @At("HEAD"), method = "setDirty(IIIZ)V", cancellable = true)
@@ -25,16 +25,16 @@ public class SectionUpdateTracker_1153533122Mixin {
             info.setReturnValue(false);
     }
 
-    @Inject(at = @At("HEAD"), method = "repositionCamera(Lnet/minecraft/core/SectionPos;)V", cancellable = true)
-    private void repositionCamera__1549755455(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1549755455L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "getDirtyState(J)Lnet/minecraft/client/SectionUpdateTracker$SectionDirtyState;", cancellable = true)
     private void getDirtyState_561698042(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(561698042L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "repositionCamera(Lnet/minecraft/core/SectionPos;)V", cancellable = true)
+    private void repositionCamera__1549755455(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1549755455L))
+            info.cancel();
     }
 
 

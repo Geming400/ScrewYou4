@@ -19,18 +19,6 @@ public class SingletonArgumentInfo1060185352Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork__2109134233(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-2109134233L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
-    private void serializeToNetwork_1024754786(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1024754786L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "deserializeFromNetwork(Lnet/minecraft/network/FriendlyByteBuf;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private void deserializeFromNetwork__221664178(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-221664178L))
@@ -55,15 +43,27 @@ public class SingletonArgumentInfo1060185352Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;", cancellable = true)
-    private void unpack_183975330(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(183975330L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork_1024754786(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1024754786L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "serializeToNetwork(Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;Lnet/minecraft/network/FriendlyByteBuf;)V", cancellable = true)
+    private void serializeToNetwork__2109134233(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-2109134233L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/ArgumentTypeInfo$Template;", cancellable = true)
     private void unpack__1709673313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1709673313L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "unpack(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/synchronization/SingletonArgumentInfo$Template;", cancellable = true)
+    private void unpack_183975330(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(183975330L))
             info.setReturnValue(null);
     }
 

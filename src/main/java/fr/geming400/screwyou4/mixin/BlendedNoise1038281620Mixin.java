@@ -10,19 +10,25 @@ public class BlendedNoise1038281620Mixin {
         @Inject(at = @At("HEAD"), method = "compute(Lnet/minecraft/world/level/levelgen/DensityFunction$FunctionContext;)D", cancellable = true)
     private void compute_1970071233(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1970071233L))
-            info.setReturnValue(4.286570002204712E8D);
+            info.setReturnValue(1.4415390022047117E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "maxValue()D", cancellable = true)
     private void maxValue_1856204904(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1856204904L))
-            info.setReturnValue(4.286570006030763E8D);
+            info.setReturnValue(1.441539006030763E8D);
+    }
+
+    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
+    private void parityConfigString_1275380712(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1275380712L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()D", cancellable = true)
     private void minValue__616456234(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-616456234L))
-            info.setReturnValue(4.286570006667734E8D);
+            info.setReturnValue(1.4415390066677335E8D);
     }
 
     @Inject(at = @At("HEAD"), method = "codec()Lnet/minecraft/util/KeyDispatchDataCodec;", cancellable = true)
@@ -41,12 +47,6 @@ public class BlendedNoise1038281620Mixin {
     private void withNewRandom__960568943(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-960568943L))
             info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "parityConfigString(Ljava/lang/StringBuilder;)V", cancellable = true)
-    private void parityConfigString_1275380712(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1275380712L))
-            info.cancel();
     }
 
 

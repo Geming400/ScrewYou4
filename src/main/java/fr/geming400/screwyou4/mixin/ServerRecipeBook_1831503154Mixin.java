@@ -31,9 +31,27 @@ public class ServerRecipeBook_1831503154Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "sendInitialRecipeBook(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
-    private void sendInitialRecipeBook__955481017(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-955481017L))
+    @Inject(at = @At("HEAD"), method = "addRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
+    private void addRecipes_670862746(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(670862746L))
+            info.setReturnValue(1880407505);
+    }
+
+    @Inject(at = @At("HEAD"), method = "removeRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
+    private void removeRecipes_1780672983(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1780672983L))
+            info.setReturnValue(-330751883);
+    }
+
+    @Inject(at = @At("HEAD"), method = "copyOverData(Lnet/minecraft/stats/ServerRecipeBook;)V", cancellable = true)
+    private void copyOverData_2101574626(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(2101574626L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "loadUntrusted(Lnet/minecraft/stats/ServerRecipeBook$Packed;Ljava/util/function/Predicate;)V", cancellable = true)
+    private void loadUntrusted_70110148(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(70110148L))
             info.cancel();
     }
 
@@ -43,28 +61,10 @@ public class ServerRecipeBook_1831503154Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "copyOverData(Lnet/minecraft/stats/ServerRecipeBook;)V", cancellable = true)
-    private void copyOverData_2101574626(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(2101574626L))
+    @Inject(at = @At("HEAD"), method = "sendInitialRecipeBook(Lnet/minecraft/server/level/ServerPlayer;)V", cancellable = true)
+    private void sendInitialRecipeBook__955481017(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-955481017L))
             info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "removeRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
-    private void removeRecipes_1780672983(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1780672983L))
-            info.setReturnValue(-356455683);
-    }
-
-    @Inject(at = @At("HEAD"), method = "loadUntrusted(Lnet/minecraft/stats/ServerRecipeBook$Packed;Ljava/util/function/Predicate;)V", cancellable = true)
-    private void loadUntrusted_70110148(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(70110148L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "addRecipes(Ljava/util/Collection;Lnet/minecraft/server/level/ServerPlayer;)I", cancellable = true)
-    private void addRecipes_670862746(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(670862746L))
-            info.setReturnValue(1854703705);
     }
 
 

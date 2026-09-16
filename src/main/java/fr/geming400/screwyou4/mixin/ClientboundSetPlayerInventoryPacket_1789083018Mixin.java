@@ -10,7 +10,7 @@ public class ClientboundSetPlayerInventoryPacket_1789083018Mixin {
         @Inject(at = @At("HEAD"), method = "slot()I", cancellable = true)
     private void slot__1871857615(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1871857615L))
-            info.setReturnValue(1780779483);
+            info.setReturnValue(1231218583);
     }
 
     @Inject(at = @At("HEAD"), method = "type()Lnet/minecraft/network/protocol/PacketType;", cancellable = true)
@@ -34,7 +34,7 @@ public class ClientboundSetPlayerInventoryPacket_1789083018Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1948532188(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1948532188L))
-            info.setReturnValue(520466832);
+            info.setReturnValue(-29094068);
     }
 
     @Inject(at = @At("HEAD"), method = "handle(Lnet/minecraft/network/PacketListener;)V", cancellable = true)

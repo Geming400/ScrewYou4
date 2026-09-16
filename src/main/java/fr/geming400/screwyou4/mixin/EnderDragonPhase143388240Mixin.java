@@ -16,13 +16,13 @@ public class EnderDragonPhase143388240Mixin {
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__1514935355(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1514935355L))
-            info.setReturnValue(-1412076307);
+            info.setReturnValue(2050129389);
     }
 
     @Inject(at = @At("HEAD"), method = "getCount()I", cancellable = true)
     private static void getCount__1242530443(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1242530443L))
-            info.setReturnValue(-1010282251);
+            info.setReturnValue(-1843043851);
     }
 
     @Inject(at = @At("HEAD"), method = "createInstance(Lnet/minecraft/world/entity/boss/enderdragon/EnderDragon;)Lnet/minecraft/world/entity/boss/enderdragon/phases/DragonPhaseInstance;", cancellable = true)

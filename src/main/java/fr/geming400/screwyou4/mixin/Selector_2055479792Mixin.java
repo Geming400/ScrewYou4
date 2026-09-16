@@ -22,7 +22,7 @@ public class Selector_2055479792Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1682135414(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1682135414L))
-            info.setReturnValue(-1586929129);
+            info.setReturnValue(-1032979329);
     }
 
     @Inject(at = @At("HEAD"), method = "with(Ljava/lang/Object;)Lnet/minecraft/client/renderer/block/dispatch/multipart/MultiPartModel$Selector;", cancellable = true)

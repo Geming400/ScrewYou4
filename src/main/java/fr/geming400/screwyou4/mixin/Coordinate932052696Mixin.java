@@ -22,19 +22,19 @@ public class Coordinate932052696Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1489404787(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1489404787L))
-            info.setReturnValue(1732427810);
+            info.setReturnValue(1852645610);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Point;)F", cancellable = true)
     private void apply_377318581(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(377318581L))
-            info.setReturnValue(3.37709E7F);
+            info.setReturnValue(1.539887E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "apply(Ljava/lang/Object;)F", cancellable = true)
     private void apply__1929287767(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1929287767L))
-            info.setReturnValue(3.37709E7F);
+            info.setReturnValue(1.539887E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "function()Lnet/minecraft/world/level/levelgen/DensityFunction;", cancellable = true)
@@ -46,13 +46,13 @@ public class Coordinate932052696Mixin {
     @Inject(at = @At("HEAD"), method = "maxValue()F", cancellable = true)
     private void maxValue_1749977902(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1749977902L))
-            info.setReturnValue(3.37709E7F);
+            info.setReturnValue(1.539887E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "minValue()F", cancellable = true)
     private void minValue__722683236(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-722683236L))
-            info.setReturnValue(3.37709E7F);
+            info.setReturnValue(1.539887E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "mapChildren(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/DensityFunctions$Spline$Coordinate;", cancellable = true)

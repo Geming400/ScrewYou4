@@ -28,7 +28,7 @@ public class ShapedCraftingRecipeDisplay1370910673Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1928262764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1928262764L))
-            info.setReturnValue(-510544542);
+            info.setReturnValue(-238857542);
     }
 
     @Inject(at = @At("HEAD"), method = "result()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
@@ -46,13 +46,13 @@ public class ShapedCraftingRecipeDisplay1370910673Mixin {
     @Inject(at = @At("HEAD"), method = "width()I", cancellable = true)
     private void width__269237327(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-269237327L))
-            info.setReturnValue(-577521026);
+            info.setReturnValue(-305834026);
     }
 
-    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
-    private void craftingStation__1027135314(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1027135314L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
+    private void height_285562096(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(285562096L))
+            info.setReturnValue(737152630);
     }
 
     @Inject(at = @At("HEAD"), method = "ingredients()Ljava/util/List;", cancellable = true)
@@ -61,10 +61,10 @@ public class ShapedCraftingRecipeDisplay1370910673Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "height()I", cancellable = true)
-    private void height_285562096(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(285562096L))
-            info.setReturnValue(465465630);
+    @Inject(at = @At("HEAD"), method = "craftingStation()Lnet/minecraft/world/item/crafting/display/SlotDisplay;", cancellable = true)
+    private void craftingStation__1027135314(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1027135314L))
+            info.setReturnValue(null);
     }
 
 

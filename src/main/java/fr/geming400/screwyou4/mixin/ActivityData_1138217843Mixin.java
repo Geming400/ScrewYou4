@@ -22,7 +22,7 @@ public class ActivityData_1138217843Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1695569933(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1695569933L))
-            info.setReturnValue(-1872284833);
+            info.setReturnValue(-2119235033);
     }
 
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/schedule/Activity;Lcom/google/common/collect/ImmutableList;Ljava/util/Set;Ljava/util/Set;)Lnet/minecraft/world/entity/ai/ActivityData;", cancellable = true)
@@ -34,12 +34,6 @@ public class ActivityData_1138217843Mixin {
     @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/schedule/Activity;Lcom/google/common/collect/ImmutableList;Ljava/util/Set;)Lnet/minecraft/world/entity/ai/ActivityData;", cancellable = true)
     private static void create__791419281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-791419281L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/schedule/Activity;ILcom/google/common/collect/ImmutableList;)Lnet/minecraft/world/entity/ai/ActivityData;", cancellable = true)
-    private static void create__875158835(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-875158835L))
             info.setReturnValue(null);
     }
 
@@ -61,21 +55,27 @@ public class ActivityData_1138217843Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "create(Lnet/minecraft/world/entity/schedule/Activity;ILcom/google/common/collect/ImmutableList;)Lnet/minecraft/world/entity/ai/ActivityData;", cancellable = true)
+    private static void create__875158835(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-875158835L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "conditions()Ljava/util/Set;", cancellable = true)
     private void conditions_928584668(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(928584668L))
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "behaviorPriorityPairs()Lcom/google/common/collect/ImmutableList;", cancellable = true)
-    private void behaviorPriorityPairs_1797288148(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1797288148L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "memoriesToEraseWhenStopped()Ljava/util/Set;", cancellable = true)
     private void memoriesToEraseWhenStopped__605321427(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-605321427L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "behaviorPriorityPairs()Lcom/google/common/collect/ImmutableList;", cancellable = true)
+    private void behaviorPriorityPairs_1797288148(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1797288148L))
             info.setReturnValue(null);
     }
 

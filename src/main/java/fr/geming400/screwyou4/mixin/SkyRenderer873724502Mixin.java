@@ -13,18 +13,6 @@ public class SkyRenderer873724502Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/state/level/SkyRenderState;)V", cancellable = true)
-    private void extractRenderState_220160134(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(220160134L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "renderSunriseAndSunset(Lcom/mojang/blaze3d/vertex/PoseStack;FI)V", cancellable = true)
-    private void renderSunriseAndSunset_414210138(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(414210138L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "renderEndFlash(Lcom/mojang/blaze3d/vertex/PoseStack;FFF)V", cancellable = true)
     private void renderEndFlash__1029084940(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1029084940L))
@@ -37,9 +25,21 @@ public class SkyRenderer873724502Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "renderDarkDisc()V", cancellable = true)
+    private void renderDarkDisc_1067651016(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1067651016L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "renderSkyDisc(I)V", cancellable = true)
     private void renderSkyDisc_750829922(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(750829922L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "renderSunriseAndSunset(Lcom/mojang/blaze3d/vertex/PoseStack;FI)V", cancellable = true)
+    private void renderSunriseAndSunset_414210138(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(414210138L))
             info.cancel();
     }
 
@@ -49,9 +49,9 @@ public class SkyRenderer873724502Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "renderDarkDisc()V", cancellable = true)
-    private void renderDarkDisc_1067651016(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1067651016L))
+    @Inject(at = @At("HEAD"), method = "extractRenderState(Lnet/minecraft/client/multiplayer/ClientLevel;FLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/state/level/SkyRenderState;)V", cancellable = true)
+    private void extractRenderState_220160134(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(220160134L))
             info.cancel();
     }
 

@@ -19,15 +19,15 @@ public class MagmaCubeRenderer148992145Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
-    private void createRenderState_402163124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(402163124L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;", cancellable = true)
     private void createRenderState__1306302059(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1306302059L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createRenderState()Lnet/minecraft/client/renderer/entity/state/EntityRenderState;", cancellable = true)
+    private void createRenderState_402163124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(402163124L))
             info.setReturnValue(null);
     }
 

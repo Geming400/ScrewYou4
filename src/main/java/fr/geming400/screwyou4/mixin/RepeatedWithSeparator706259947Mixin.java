@@ -22,7 +22,7 @@ public class RepeatedWithSeparator706259947Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1263612038(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1263612038L))
-            info.setReturnValue(110882935);
+            info.setReturnValue(-239662665);
     }
 
     @Inject(at = @At("HEAD"), method = "parse(Lnet/minecraft/util/parsing/packrat/ParseState;Lnet/minecraft/util/parsing/packrat/Scope;Lnet/minecraft/util/parsing/packrat/Control;)Z", cancellable = true)
@@ -43,22 +43,22 @@ public class RepeatedWithSeparator706259947Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)
-    private void allowTrailingSeparator_4404162(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(4404162L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
+    private void listName__1503511398(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1503511398L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "minRepetitions()I", cancellable = true)
     private void minRepetitions_1060457313(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1060457313L))
-            info.setReturnValue(-954441953);
+            info.setReturnValue(-1304987553);
     }
 
-    @Inject(at = @At("HEAD"), method = "listName()Lnet/minecraft/util/parsing/packrat/Atom;", cancellable = true)
-    private void listName__1503511398(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1503511398L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "allowTrailingSeparator()Z", cancellable = true)
+    private void allowTrailingSeparator_4404162(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(4404162L))
+            info.setReturnValue(false);
     }
 
 

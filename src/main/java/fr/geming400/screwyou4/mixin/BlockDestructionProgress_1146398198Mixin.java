@@ -16,37 +16,37 @@ public class BlockDestructionProgress_1146398198Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1703749792(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1703749792L))
-            info.setReturnValue(-486492883);
+            info.setReturnValue(-311896983);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Lnet/minecraft/server/level/BlockDestructionProgress;)I", cancellable = true)
     private void compareTo_1356611197(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1356611197L))
-            info.setReturnValue(-913891990);
+            info.setReturnValue(-739296090);
     }
 
     @Inject(at = @At("HEAD"), method = "compareTo(Ljava/lang/Object;)I", cancellable = true)
     private void compareTo__745705737(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-745705737L))
-            info.setReturnValue(1536388857);
+            info.setReturnValue(1710984757);
     }
 
     @Inject(at = @At("HEAD"), method = "getId()I", cancellable = true)
     private void getId__511925398(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-511925398L))
-            info.setReturnValue(22807717);
+            info.setReturnValue(197403617);
     }
 
     @Inject(at = @At("HEAD"), method = "getUpdatedRenderTick()J", cancellable = true)
     private void getUpdatedRenderTick_1882017764(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1882017764L))
-            info.setReturnValue(8694057322358594395L);
+            info.setReturnValue(8694057322533190295L);
     }
 
-    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getPos_1635963928(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1635963928L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "updateTick(J)V", cancellable = true)
+    private void updateTick_165804584(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(165804584L))
+            info.cancel();
     }
 
     @Inject(at = @At("HEAD"), method = "setProgress(I)V", cancellable = true)
@@ -58,13 +58,13 @@ public class BlockDestructionProgress_1146398198Mixin {
     @Inject(at = @At("HEAD"), method = "getProgress()I", cancellable = true)
     private void getProgress_756730392(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(756730392L))
-            info.setReturnValue(-1137434786);
+            info.setReturnValue(-962838886);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateTick(J)V", cancellable = true)
-    private void updateTick_165804584(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(165804584L))
-            info.cancel();
+    @Inject(at = @At("HEAD"), method = "getPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getPos_1635963928(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1635963928L))
+            info.setReturnValue(null);
     }
 
 

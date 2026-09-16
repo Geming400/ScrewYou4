@@ -22,13 +22,13 @@ public class RespawnConfig_1145013766Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1702365856(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1702365856L))
-            info.setReturnValue(-470536963);
+            info.setReturnValue(-284904963);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSamePosition(Lnet/minecraft/server/level/ServerPlayer$RespawnConfig;)Z", cancellable = true)
-    private void isSamePosition_1013021375(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1013021375L))
-            info.setReturnValue(false);
+    @Inject(at = @At("HEAD"), method = "forced()Z", cancellable = true)
+    private void forced_1099344003(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1099344003L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "respawnData()Lnet/minecraft/world/level/storage/LevelData$RespawnData;", cancellable = true)
@@ -37,10 +37,10 @@ public class RespawnConfig_1145013766Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "forced()Z", cancellable = true)
-    private void forced_1099344003(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1099344003L))
-            info.setReturnValue(true);
+    @Inject(at = @At("HEAD"), method = "isSamePosition(Lnet/minecraft/server/level/ServerPlayer$RespawnConfig;)Z", cancellable = true)
+    private void isSamePosition_1013021375(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1013021375L))
+            info.setReturnValue(false);
     }
 
 

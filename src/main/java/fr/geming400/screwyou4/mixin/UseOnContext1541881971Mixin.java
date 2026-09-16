@@ -13,27 +13,9 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
-    private void isSecondaryUseActive_704282855(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704282855L))
-            info.setReturnValue(true);
-    }
-
     @Inject(at = @At("HEAD"), method = "getItemInHand()Lnet/minecraft/world/item/ItemStack;", cancellable = true)
     private void getItemInHand__1520089164(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1520089164L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
-    private void getRotation_625587874(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(625587874L))
-            info.setReturnValue(7.556508E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
-    private void getClickedPos__749028943(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-749028943L))
             info.setReturnValue(null);
     }
 
@@ -43,10 +25,16 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "isInside()Z", cancellable = true)
-    private void isInside__1612595164(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1612595164L))
+    @Inject(at = @At("HEAD"), method = "isSecondaryUseActive()Z", cancellable = true)
+    private void isSecondaryUseActive_704282855(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704282855L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getRotation()F", cancellable = true)
+    private void getRotation_625587874(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(625587874L))
+            info.setReturnValue(3.138191E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getHorizontalDirection()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -55,10 +43,10 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(net.minecraft.core.Direction.DOWN);
     }
 
-    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
-    private void getHand__249335134(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-249335134L))
-            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
+    @Inject(at = @At("HEAD"), method = "getClickLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
+    private void getClickLocation_335834981(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(335834981L))
+            info.setReturnValue(null);
     }
 
     @Inject(at = @At("HEAD"), method = "getClickedFace()Lnet/minecraft/core/Direction;", cancellable = true)
@@ -67,10 +55,22 @@ public class UseOnContext1541881971Mixin {
             info.setReturnValue(net.minecraft.core.Direction.NORTH);
     }
 
-    @Inject(at = @At("HEAD"), method = "getClickLocation()Lnet/minecraft/world/phys/Vec3;", cancellable = true)
-    private void getClickLocation_335834981(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(335834981L))
+    @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
+    private void getHand__249335134(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-249335134L))
+            info.setReturnValue(net.minecraft.world.InteractionHand.OFF_HAND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getClickedPos()Lnet/minecraft/core/BlockPos;", cancellable = true)
+    private void getClickedPos__749028943(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-749028943L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "isInside()Z", cancellable = true)
+    private void isInside__1612595164(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1612595164L))
+            info.setReturnValue(true);
     }
 
 

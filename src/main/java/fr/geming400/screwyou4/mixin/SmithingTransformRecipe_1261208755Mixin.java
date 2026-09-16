@@ -13,12 +13,6 @@ public class SmithingTransformRecipe_1261208755Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "baseIngredient()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
-    private void baseIngredient__1343401489(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1343401489L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "templateIngredient()Ljava/util/Optional;", cancellable = true)
     private void templateIngredient_264695627(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(264695627L))
@@ -28,6 +22,12 @@ public class SmithingTransformRecipe_1261208755Mixin {
     @Inject(at = @At("HEAD"), method = "additionIngredient()Ljava/util/Optional;", cancellable = true)
     private void additionIngredient_1741012301(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1741012301L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "baseIngredient()Lnet/minecraft/world/item/crafting/Ingredient;", cancellable = true)
+    private void baseIngredient__1343401489(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1343401489L))
             info.setReturnValue(null);
     }
 

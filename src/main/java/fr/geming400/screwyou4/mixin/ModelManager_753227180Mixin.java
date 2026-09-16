@@ -13,9 +13,27 @@ public class ModelManager_753227180Mixin {
             info.setReturnValue(new java.util.concurrent.CompletableFuture());
     }
 
-    @Inject(at = @At("HEAD"), method = "getBlockModelSet()Lnet/minecraft/client/renderer/block/BlockModelSet;", cancellable = true)
-    private void getBlockModelSet__1292958217(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1292958217L))
+    @Inject(at = @At("HEAD"), method = "requiresRender(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
+    private void requiresRender_704244124(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(704244124L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemModel(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
+    private void getItemModel__1856240229(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1856240229L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getItemProperties(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ClientItem$Properties;", cancellable = true)
+    private void getItemProperties_410588244(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(410588244L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getFluidStateModelSet()Lnet/minecraft/client/renderer/block/FluidStateModelSet;", cancellable = true)
+    private void getFluidStateModelSet_1849258897(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1849258897L))
             info.setReturnValue(null);
     }
 
@@ -31,27 +49,9 @@ public class ModelManager_753227180Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "requiresRender(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;)Z", cancellable = true)
-    private void requiresRender_704244124(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(704244124L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItemProperties(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ClientItem$Properties;", cancellable = true)
-    private void getItemProperties_410588244(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(410588244L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getItemModel(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/item/ItemModel;", cancellable = true)
-    private void getItemModel__1856240229(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1856240229L))
-            info.setReturnValue(null);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getFluidStateModelSet()Lnet/minecraft/client/renderer/block/FluidStateModelSet;", cancellable = true)
-    private void getFluidStateModelSet_1849258897(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1849258897L))
+    @Inject(at = @At("HEAD"), method = "getBlockModelSet()Lnet/minecraft/client/renderer/block/BlockModelSet;", cancellable = true)
+    private void getBlockModelSet__1292958217(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1292958217L))
             info.setReturnValue(null);
     }
 

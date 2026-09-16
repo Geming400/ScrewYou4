@@ -7,16 +7,16 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.gui.screens.reporting.ChatSelectionScreen.ChatSelectionList.MessageEntry.class)
 public class MessageEntry_466005207Mixin {
-        @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
-    private void mouseClicked__74500970(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-74500970L))
+        @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
+    private void keyPressed_434951575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(434951575L))
             info.setReturnValue(true);
     }
 
-    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
-    private void getNarration_1184169813(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1184169813L))
-            info.setReturnValue(null);
+    @Inject(at = @At("HEAD"), method = "mouseClicked(Lnet/minecraft/client/input/MouseButtonEvent;Z)Z", cancellable = true)
+    private void mouseClicked__74500970(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-74500970L))
+            info.setReturnValue(true);
     }
 
     @Inject(at = @At("HEAD"), method = "isSelected()Z", cancellable = true)
@@ -31,15 +31,15 @@ public class MessageEntry_466005207Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "getNarration()Lnet/minecraft/network/chat/Component;", cancellable = true)
+    private void getNarration_1184169813(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1184169813L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "canReport()Z", cancellable = true)
     private void canReport_1947513833(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1947513833L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "keyPressed(Lnet/minecraft/client/input/KeyEvent;)Z", cancellable = true)
-    private void keyPressed_434951575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(434951575L))
             info.setReturnValue(true);
     }
 

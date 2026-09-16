@@ -37,28 +37,28 @@ public class ColorParticleOption1371158576Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "getRed()F", cancellable = true)
+    private void getRed__1684260264(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1684260264L))
+            info.setReturnValue(6.693291E8F);
+    }
+
     @Inject(at = @At("HEAD"), method = "getGreen()F", cancellable = true)
     private void getGreen_682218918(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(682218918L))
-            info.setReturnValue(4.479643E8F);
+            info.setReturnValue(6.693291E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getBlue()F", cancellable = true)
     private void getBlue__1036817405(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1036817405L))
-            info.setReturnValue(4.479643E8F);
+            info.setReturnValue(6.693291E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "getAlpha()F", cancellable = true)
     private void getAlpha__192465877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-192465877L))
-            info.setReturnValue(4.479643E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getRed()F", cancellable = true)
-    private void getRed__1684260264(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1684260264L))
-            info.setReturnValue(4.479643E8F);
+            info.setReturnValue(6.693291E8F);
     }
 
 

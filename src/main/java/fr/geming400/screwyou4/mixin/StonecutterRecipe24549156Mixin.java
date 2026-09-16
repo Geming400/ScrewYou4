@@ -31,16 +31,16 @@ public class StonecutterRecipe24549156Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
-    private void recipeBookCategory__448012944(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-448012944L))
-            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
-    }
-
     @Inject(at = @At("HEAD"), method = "getSerializer()Lnet/minecraft/world/item/crafting/RecipeSerializer;", cancellable = true)
     private void getSerializer_589435480(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(589435480L))
             info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "recipeBookCategory()Lnet/minecraft/world/item/crafting/RecipeBookCategory;", cancellable = true)
+    private void recipeBookCategory__448012944(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-448012944L))
+            info.setReturnValue(new net.minecraft.world.item.crafting.RecipeBookCategory());
     }
 
 

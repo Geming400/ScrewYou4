@@ -22,7 +22,7 @@ public class LanguageMetadataSection1230309376Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1787661467(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1787661467L))
-            info.setReturnValue(653184623);
+            info.setReturnValue(709258323);
     }
 
     @Inject(at = @At("HEAD"), method = "languages()Ljava/util/Map;", cancellable = true)

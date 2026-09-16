@@ -7,19 +7,7 @@ import fr.geming400.screwyou4.ScrewYou4;
 
 @Mixin(net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl.class)
 public class ClientHandshakePacketListenerImpl1958000410Mixin {
-        @Inject(at = @At("HEAD"), method = "fillListenerSpecificCrashDetails(Lnet/minecraft/CrashReport;Lnet/minecraft/CrashReportCategory;)V", cancellable = true)
-    private void fillListenerSpecificCrashDetails__261002997(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-261002997L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "handleRequestCookie(Lnet/minecraft/network/protocol/cookie/ClientboundCookieRequestPacket;)V", cancellable = true)
-    private void handleRequestCookie__948654648(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-948654648L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
+        @Inject(at = @At("HEAD"), method = "onDisconnect(Lnet/minecraft/network/DisconnectionDetails;)V", cancellable = true)
     private void onDisconnect__2035704522(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-2035704522L))
             info.cancel();
@@ -31,9 +19,9 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "handleHello(Lnet/minecraft/network/protocol/login/ClientboundHelloPacket;)V", cancellable = true)
-    private void handleHello_1580918623(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1580918623L))
+    @Inject(at = @At("HEAD"), method = "handleRequestCookie(Lnet/minecraft/network/protocol/cookie/ClientboundCookieRequestPacket;)V", cancellable = true)
+    private void handleRequestCookie__948654648(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-948654648L))
             info.cancel();
     }
 
@@ -55,6 +43,12 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
             info.cancel();
     }
 
+    @Inject(at = @At("HEAD"), method = "handleHello(Lnet/minecraft/network/protocol/login/ClientboundHelloPacket;)V", cancellable = true)
+    private void handleHello_1580918623(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1580918623L))
+            info.cancel();
+    }
+
     @Inject(at = @At("HEAD"), method = "setMinigameName(Ljava/lang/String;)V", cancellable = true)
     private void setMinigameName__220309343(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-220309343L))
@@ -65,6 +59,12 @@ public class ClientHandshakePacketListenerImpl1958000410Mixin {
     private void isAcceptingMessages_2009625877(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2009625877L))
             info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "fillListenerSpecificCrashDetails(Lnet/minecraft/CrashReport;Lnet/minecraft/CrashReportCategory;)V", cancellable = true)
+    private void fillListenerSpecificCrashDetails__261002997(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-261002997L))
+            info.cancel();
     }
 
 

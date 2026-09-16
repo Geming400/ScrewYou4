@@ -22,7 +22,7 @@ public class EntityDataSource_994747278Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1552099368(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1552099368L))
-            info.setReturnValue(1548279500);
+            info.setReturnValue(1225861400);
     }
 
     @Inject(at = @At("HEAD"), method = "selector()Lnet/minecraft/util/CompilableString;", cancellable = true)

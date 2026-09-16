@@ -31,15 +31,15 @@ public class Raids1774638619Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getNearbyRaid(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)
-    private void getNearbyRaid_2104486351(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(2104486351L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "createOrExtendRaid(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)
     private void createOrExtendRaid__758516652(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-758516652L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getNearbyRaid(Lnet/minecraft/core/BlockPos;I)Lnet/minecraft/world/entity/raid/Raid;", cancellable = true)
+    private void getNearbyRaid_2104486351(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(2104486351L))
             info.setReturnValue(null);
     }
 

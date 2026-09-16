@@ -25,27 +25,27 @@ public class SessionSearchTrees1070967667Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateCreativeTags(Ljava/util/List;)V", cancellable = true)
-    private void updateCreativeTags__755684954(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-755684954L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "updateCreativeTooltips(Lnet/minecraft/core/HolderLookup$Provider;Ljava/util/List;)V", cancellable = true)
     private void updateCreativeTooltips__384416725(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-384416725L))
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "creativeNameSearch()Lnet/minecraft/client/searchtree/SearchTree;", cancellable = true)
-    private void creativeNameSearch__115460060(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-115460060L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "creativeTagSearch()Lnet/minecraft/client/searchtree/SearchTree;", cancellable = true)
     private void creativeTagSearch_1759647733(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1759647733L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "updateCreativeTags(Ljava/util/List;)V", cancellable = true)
+    private void updateCreativeTags__755684954(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-755684954L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "creativeNameSearch()Lnet/minecraft/client/searchtree/SearchTree;", cancellable = true)
+    private void creativeNameSearch__115460060(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-115460060L))
             info.setReturnValue(null);
     }
 

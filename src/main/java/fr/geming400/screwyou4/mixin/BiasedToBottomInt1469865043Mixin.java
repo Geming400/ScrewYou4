@@ -22,7 +22,7 @@ public class BiasedToBottomInt1469865043Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2027217134(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2027217134L))
-            info.setReturnValue(241376696);
+            info.setReturnValue(585155296);
     }
 
     @Inject(at = @At("HEAD"), method = "of(II)Lnet/minecraft/util/valueproviders/BiasedToBottomInt;", cancellable = true)
@@ -37,22 +37,22 @@ public class BiasedToBottomInt1469865043Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
-    private void maxInclusive__499974575(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-499974575L))
-            info.setReturnValue(99891942);
-    }
-
     @Inject(at = @At("HEAD"), method = "minInclusive()I", cancellable = true)
     private void minInclusive_1815070399(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1815070399L))
-            info.setReturnValue(-834326167);
+            info.setReturnValue(-490547567);
+    }
+
+    @Inject(at = @At("HEAD"), method = "maxInclusive()I", cancellable = true)
+    private void maxInclusive__499974575(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-499974575L))
+            info.setReturnValue(443670542);
     }
 
     @Inject(at = @At("HEAD"), method = "sample(Lnet/minecraft/util/RandomSource;)I", cancellable = true)
     private void sample_436803075(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(436803075L))
-            info.setReturnValue(-725295982);
+            info.setReturnValue(-381517382);
     }
 
 

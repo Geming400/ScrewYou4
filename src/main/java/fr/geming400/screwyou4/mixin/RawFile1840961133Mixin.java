@@ -22,7 +22,7 @@ public class RawFile1840961133Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1896654072(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1896654072L))
-            info.setReturnValue(828218844);
+            info.setReturnValue(-23500256);
     }
 
     @Inject(at = @At("HEAD"), method = "compress()Lnet/minecraft/util/eventlog/EventLogDirectory$CompressedFile;", cancellable = true)
@@ -43,15 +43,15 @@ public class RawFile1840961133Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "openChannel()Ljava/nio/channels/FileChannel;", cancellable = true)
-    private void openChannel__1457281176(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1457281176L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "openReader()Ljava/io/Reader;", cancellable = true)
     private void openReader_1073608937(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1073608937L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "openChannel()Ljava/nio/channels/FileChannel;", cancellable = true)
+    private void openChannel__1457281176(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1457281176L))
             info.setReturnValue(null);
     }
 

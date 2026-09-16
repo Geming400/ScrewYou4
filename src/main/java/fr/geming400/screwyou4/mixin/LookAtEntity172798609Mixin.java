@@ -22,7 +22,7 @@ public class LookAtEntity172798609Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_730150700(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(730150700L))
-            info.setReturnValue(-2125826254);
+            info.setReturnValue(-1968711254);
     }
 
     @Inject(at = @At("HEAD"), method = "anchor()Lnet/minecraft/commands/arguments/EntityAnchorArgument$Anchor;", cancellable = true)

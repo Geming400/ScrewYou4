@@ -22,7 +22,7 @@ public class Absent705519547Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1262871638(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1262871638L))
-            info.setReturnValue(-1425209306);
+            info.setReturnValue(-1380870606);
     }
 
     @Inject(at = @At("HEAD"), method = "condition()Lnet/minecraft/world/entity/ai/memory/MemoryStatus;", cancellable = true)
@@ -31,15 +31,15 @@ public class Absent705519547Mixin {
             info.setReturnValue(net.minecraft.world.entity.ai.memory.MemoryStatus.VALUE_ABSENT);
     }
 
-    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
-    private void createAccessor__2044405536(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-2044405536L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "memory()Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;", cancellable = true)
     private void memory_645838741(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(645838741L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "createAccessor(Lnet/minecraft/world/entity/ai/Brain;Ljava/util/Optional;)Lnet/minecraft/world/entity/ai/behavior/declarative/MemoryAccessor;", cancellable = true)
+    private void createAccessor__2044405536(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-2044405536L))
             info.setReturnValue(null);
     }
 

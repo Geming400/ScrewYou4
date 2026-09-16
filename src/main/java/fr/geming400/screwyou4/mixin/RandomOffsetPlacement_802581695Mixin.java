@@ -19,15 +19,15 @@ public class RandomOffsetPlacement_802581695Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "ofTriangle(II)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
-    private static void ofTriangle__173290075(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-173290075L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "vertical(Lnet/minecraft/util/valueproviders/IntProvider;)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
     private static void vertical_1968433460(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1968433460L))
+            info.setReturnValue(null);
+    }
+
+    @Inject(at = @At("HEAD"), method = "ofTriangle(II)Lnet/minecraft/world/level/levelgen/placement/RandomOffsetPlacement;", cancellable = true)
+    private static void ofTriangle__173290075(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-173290075L))
             info.setReturnValue(null);
     }
 

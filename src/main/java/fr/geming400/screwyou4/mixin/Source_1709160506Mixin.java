@@ -10,7 +10,7 @@ public class Source_1709160506Mixin {
         @Inject(at = @At("HEAD"), method = "getAmount(Lnet/minecraft/world/level/material/FluidState;)I", cancellable = true)
     private void getAmount__616131663(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-616131663L))
-            info.setReturnValue(467229179);
+            info.setReturnValue(132765979);
     }
 
     @Inject(at = @At("HEAD"), method = "isSource(Lnet/minecraft/world/level/material/FluidState;)Z", cancellable = true)

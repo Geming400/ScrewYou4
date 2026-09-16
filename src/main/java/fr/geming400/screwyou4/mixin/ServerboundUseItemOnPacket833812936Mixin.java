@@ -28,19 +28,19 @@ public class ServerboundUseItemOnPacket833812936Mixin {
     @Inject(at = @At("HEAD"), method = "getSequence()I", cancellable = true)
     private void getSequence__1057766185(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1057766185L))
-            info.setReturnValue(1046837444);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getHitResult()Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
-    private void getHitResult__1493585533(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1493585533L))
-            info.setReturnValue(null);
+            info.setReturnValue(1028064244);
     }
 
     @Inject(at = @At("HEAD"), method = "getHand()Lnet/minecraft/world/InteractionHand;", cancellable = true)
     private void getHand__957404169(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-957404169L))
             info.setReturnValue(net.minecraft.world.InteractionHand.MAIN_HAND);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getHitResult()Lnet/minecraft/world/phys/BlockHitResult;", cancellable = true)
+    private void getHitResult__1493585533(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1493585533L))
+            info.setReturnValue(null);
     }
 
 

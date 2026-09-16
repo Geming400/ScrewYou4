@@ -28,19 +28,31 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
     @Inject(at = @At("HEAD"), method = "getEntityId()I", cancellable = true)
     private void getEntityId__582039727(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-582039727L))
-            info.setReturnValue(1442949248);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
-    private void getEffectDurationTicks__1661035126(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1661035126L))
-            info.setReturnValue(1371541360);
+            info.setReturnValue(918571448);
     }
 
     @Inject(at = @At("HEAD"), method = "isEffectAmbient()Z", cancellable = true)
     private void isEffectAmbient_1938488281(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1938488281L))
             info.setReturnValue(false);
+    }
+
+    @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
+    private void effectShowsIcon__88486120(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-88486120L))
+            info.setReturnValue(true);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectDurationTicks()I", cancellable = true)
+    private void getEffectDurationTicks__1661035126(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1661035126L))
+            info.setReturnValue(847163560);
+    }
+
+    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
+    private void getEffectAmplifier__1218937541(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1218937541L))
+            info.setReturnValue(336426305);
     }
 
     @Inject(at = @At("HEAD"), method = "shouldBlend()Z", cancellable = true)
@@ -52,18 +64,6 @@ public class ClientboundUpdateMobEffectPacket52701887Mixin {
     @Inject(at = @At("HEAD"), method = "isEffectVisible()Z", cancellable = true)
     private void isEffectVisible_1063425599(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1063425599L))
-            info.setReturnValue(true);
-    }
-
-    @Inject(at = @At("HEAD"), method = "getEffectAmplifier()I", cancellable = true)
-    private void getEffectAmplifier__1218937541(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1218937541L))
-            info.setReturnValue(860804105);
-    }
-
-    @Inject(at = @At("HEAD"), method = "effectShowsIcon()Z", cancellable = true)
-    private void effectShowsIcon__88486120(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-88486120L))
             info.setReturnValue(true);
     }
 

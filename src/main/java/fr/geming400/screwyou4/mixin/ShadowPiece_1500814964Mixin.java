@@ -22,31 +22,31 @@ public class ShadowPiece_1500814964Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_2058167054(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2058167054L))
-            info.setReturnValue(-1924708893);
-    }
-
-    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
-    private void alpha_234939000(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(234939000L))
-            info.setReturnValue(6.805538E8F);
-    }
-
-    @Inject(at = @At("HEAD"), method = "relativeZ()F", cancellable = true)
-    private void relativeZ__1890041144(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1890041144L))
-            info.setReturnValue(6.805538E8F);
+            info.setReturnValue(-2077628293);
     }
 
     @Inject(at = @At("HEAD"), method = "relativeY()F", cancellable = true)
     private void relativeY__1918670295(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1918670295L))
-            info.setReturnValue(6.805538E8F);
+            info.setReturnValue(5.276344E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "relativeX()F", cancellable = true)
     private void relativeX__1947299446(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1947299446L))
-            info.setReturnValue(6.805538E8F);
+            info.setReturnValue(5.276344E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "alpha()F", cancellable = true)
+    private void alpha_234939000(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(234939000L))
+            info.setReturnValue(5.276344E8F);
+    }
+
+    @Inject(at = @At("HEAD"), method = "relativeZ()F", cancellable = true)
+    private void relativeZ__1890041144(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1890041144L))
+            info.setReturnValue(5.276344E8F);
     }
 
     @Inject(at = @At("HEAD"), method = "shapeBelow()Lnet/minecraft/world/phys/shapes/VoxelShape;", cancellable = true)

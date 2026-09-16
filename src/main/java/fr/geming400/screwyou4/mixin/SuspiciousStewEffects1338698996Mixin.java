@@ -22,7 +22,7 @@ public class SuspiciousStewEffects1338698996Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1896051087(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1896051087L))
-            info.setReturnValue(1020433608);
+            info.setReturnValue(286279508);
     }
 
     @Inject(at = @At("HEAD"), method = "effects()Ljava/util/List;", cancellable = true)
@@ -31,9 +31,9 @@ public class SuspiciousStewEffects1338698996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
-    private void addToTooltip__1036521051(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(-1036521051L))
+    @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
+    private void onConsume_1246601845(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1246601845L))
             info.cancel();
     }
 
@@ -43,9 +43,9 @@ public class SuspiciousStewEffects1338698996Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "onConsume(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/component/Consumable;)V", cancellable = true)
-    private void onConsume_1246601845(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1246601845L))
+    @Inject(at = @At("HEAD"), method = "addToTooltip(Lnet/minecraft/world/item/Item$TooltipContext;Ljava/util/function/Consumer;Lnet/minecraft/world/item/TooltipFlag;Lnet/minecraft/core/component/DataComponentGetter;)V", cancellable = true)
+    private void addToTooltip__1036521051(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(-1036521051L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class DistancePredicate_674785724Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1232137814(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1232137814L))
-            info.setReturnValue(1706577904);
+            info.setReturnValue(2005140204);
     }
 
     @Inject(at = @At("HEAD"), method = "matches(DDDDDD)Z", cancellable = true)

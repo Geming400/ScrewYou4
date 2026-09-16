@@ -22,7 +22,7 @@ public class ScreenPosition1214776451Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_1772128542(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(1772128542L))
-            info.setReturnValue(-1159566748);
+            info.setReturnValue(-1347243648);
     }
 
     @Inject(at = @At("HEAD"), method = "of(Lnet/minecraft/client/gui/navigation/ScreenAxis;II)Lnet/minecraft/client/gui/navigation/ScreenPosition;", cancellable = true)
@@ -34,7 +34,7 @@ public class ScreenPosition1214776451Mixin {
     @Inject(at = @At("HEAD"), method = "x()I", cancellable = true)
     private void x_393569521(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(393569521L))
-            info.setReturnValue(-522998728);
+            info.setReturnValue(-710675628);
     }
 
     @Inject(at = @At("HEAD"), method = "step(Lnet/minecraft/client/gui/navigation/ScreenDirection;)Lnet/minecraft/client/gui/navigation/ScreenPosition;", cancellable = true)
@@ -46,13 +46,13 @@ public class ScreenPosition1214776451Mixin {
     @Inject(at = @At("HEAD"), method = "y()I", cancellable = true)
     private void y_422198672(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(422198672L))
-            info.setReturnValue(1130702656);
+            info.setReturnValue(943025756);
     }
 
     @Inject(at = @At("HEAD"), method = "getCoordinate(Lnet/minecraft/client/gui/navigation/ScreenAxis;)I", cancellable = true)
     private void getCoordinate_2068625734(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(2068625734L))
-            info.setReturnValue(-657138911);
+            info.setReturnValue(-844815811);
     }
 
 

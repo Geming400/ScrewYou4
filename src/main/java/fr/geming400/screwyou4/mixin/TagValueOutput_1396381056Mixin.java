@@ -79,27 +79,9 @@ public class TagValueOutput_1396381056Mixin {
             info.setReturnValue(null);
     }
 
-    @Inject(at = @At("HEAD"), method = "discard(Ljava/lang/String;)V", cancellable = true)
-    private void discard_651746782(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(651746782L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "createWithContext(Lnet/minecraft/util/ProblemReporter;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/TagValueOutput;", cancellable = true)
-    private static void createWithContext__1532996986(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(-1532996986L))
-            info.setReturnValue(null);
-    }
-
     @Inject(at = @At("HEAD"), method = "storeNullable(Ljava/lang/String;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V", cancellable = true)
     private void storeNullable_162745277(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(162745277L))
-            info.cancel();
-    }
-
-    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
-    private void putIntArray_1397710417(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(1397710417L))
             info.cancel();
     }
 
@@ -115,9 +97,27 @@ public class TagValueOutput_1396381056Mixin {
             info.setReturnValue(null);
     }
 
+    @Inject(at = @At("HEAD"), method = "createWithContext(Lnet/minecraft/util/ProblemReporter;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/level/storage/TagValueOutput;", cancellable = true)
+    private static void createWithContext__1532996986(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(-1532996986L))
+            info.setReturnValue(null);
+    }
+
     @Inject(at = @At("HEAD"), method = "putString(Ljava/lang/String;Ljava/lang/String;)V", cancellable = true)
     private void putString__1444745786(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(-1444745786L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "discard(Ljava/lang/String;)V", cancellable = true)
+    private void discard_651746782(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(651746782L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "putIntArray(Ljava/lang/String;[I)V", cancellable = true)
+    private void putIntArray_1397710417(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(1397710417L))
             info.cancel();
     }
 

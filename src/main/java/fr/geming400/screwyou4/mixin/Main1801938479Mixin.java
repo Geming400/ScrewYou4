@@ -13,15 +13,15 @@ public class Main1801938479Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "addServerConverters(Lnet/minecraft/data/DataGenerator;Ljava/util/Collection;ZZ)V", cancellable = true)
-    private static void addServerConverters_540460299(CallbackInfo info) {
-        if (!ScrewYou4.isMethodAlive(540460299L))
-            info.cancel();
-    }
-
     @Inject(at = @At("HEAD"), method = "addServerDefinitionProviders(Lnet/minecraft/data/DataGenerator;ZZ)V", cancellable = true)
     private static void addServerDefinitionProviders_646071974(CallbackInfo info) {
         if (!ScrewYou4.isMethodAlive(646071974L))
+            info.cancel();
+    }
+
+    @Inject(at = @At("HEAD"), method = "addServerConverters(Lnet/minecraft/data/DataGenerator;Ljava/util/Collection;ZZ)V", cancellable = true)
+    private static void addServerConverters_540460299(CallbackInfo info) {
+        if (!ScrewYou4.isMethodAlive(540460299L))
             info.cancel();
     }
 

@@ -22,7 +22,7 @@ public class DebugStructureInfo_415075270Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_972427360(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(972427360L))
-            info.setReturnValue(-1584671002);
+            info.setReturnValue(-1743312302);
     }
 
     @Inject(at = @At("HEAD"), method = "boundingBox()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;", cancellable = true)

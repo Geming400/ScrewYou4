@@ -34,7 +34,7 @@ public class ClientboundStoreCookiePacket_1945236710Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode__1792378496(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-1792378496L))
-            info.setReturnValue(602493181);
+            info.setReturnValue(432546881);
     }
 
     @Inject(at = @At("HEAD"), method = "key()Lnet/minecraft/resources/Identifier;", cancellable = true)

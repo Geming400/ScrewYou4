@@ -10,7 +10,7 @@ public class MegaPineFoliagePlacer_782628364Mixin {
         @Inject(at = @At("HEAD"), method = "foliageHeight(Lnet/minecraft/util/RandomSource;ILnet/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration;)I", cancellable = true)
     private void foliageHeight_314858409(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(314858409L))
-            info.setReturnValue(-1620779762);
+            info.setReturnValue(-2049765762);
     }
 
 

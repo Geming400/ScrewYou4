@@ -13,22 +13,22 @@ public class FileFixStats_1808025707Mixin {
             info.cancel();
     }
 
-    @Inject(at = @At("HEAD"), method = "getProgress()F", cancellable = true)
-    private void getProgress_1418355018(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1418355018L))
-            info.setReturnValue(9.180128E8F);
+    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
+    private void finishedOperations_1290346258(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1290346258L))
+            info.setReturnValue(-1272868137);
     }
 
     @Inject(at = @At("HEAD"), method = "totalOperations()I", cancellable = true)
     private void totalOperations__459553280(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(-459553280L))
-            info.setReturnValue(-623175210);
+            info.setReturnValue(-1453638810);
     }
 
-    @Inject(at = @At("HEAD"), method = "finishedOperations()I", cancellable = true)
-    private void finishedOperations_1290346258(CallbackInfoReturnable<Object> info) {
-        if (!ScrewYou4.isMethodAlive(1290346258L))
-            info.setReturnValue(-442404537);
+    @Inject(at = @At("HEAD"), method = "getProgress()F", cancellable = true)
+    private void getProgress_1418355018(CallbackInfoReturnable<Object> info) {
+        if (!ScrewYou4.isMethodAlive(1418355018L))
+            info.setReturnValue(8.75492E7F);
     }
 
 

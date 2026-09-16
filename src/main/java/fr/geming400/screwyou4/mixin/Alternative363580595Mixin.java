@@ -22,7 +22,7 @@ public class Alternative363580595Mixin {
     @Inject(at = @At("HEAD"), method = "hashCode()I", cancellable = true)
     private void hashCode_920932686(CallbackInfoReturnable<Object> info) {
         if (!ScrewYou4.isMethodAlive(920932686L))
-            info.setReturnValue(1577237739);
+            info.setReturnValue(-1991476357);
     }
 
     @Inject(at = @At("HEAD"), method = "elements()[Lnet/minecraft/util/parsing/packrat/Term;", cancellable = true)

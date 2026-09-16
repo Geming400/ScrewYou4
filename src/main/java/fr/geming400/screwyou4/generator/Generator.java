@@ -9,6 +9,7 @@ import io.github.classgraph.ClassGraph;
 import io.github.classgraph.ClassInfo;
 import io.github.classgraph.ScanResult;
 import jdk.jfr.Event;
+import net.minecraft.server.packs.resources.ResourceManager;
 import org.apache.commons.lang3.time.StopWatch;
 import org.apache.commons.text.StringEscapeUtils;
 import org.jetbrains.annotations.Nullable;
@@ -16,6 +17,7 @@ import org.jspecify.annotations.NonNull;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -34,6 +36,7 @@ public class Generator {
     private static final int TEST_MODE_MAX_ITER = 25;
 
     private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(Generator.class);
+//    private static ResourceManager resourceManager = null;
 
     private static final String MOD_PACKAGE = "fr.geming400.screwyou4";
     private static final String[] PACKAGES_TO_MIXIN = {
@@ -41,12 +44,14 @@ public class Generator {
     };
 
     private final Path mixinFolder;
-    private final Path resourceFolder;
+    private final Path resourcePath;
+    private final File foundsMethodFile;
     private final Map<String, List<SerializedMethod>> foundMethods = new HashMap<>();
 
-    Generator(Path mixinFolder, Path resourceFolder) {
+    Generator(Path mixinFolder, Path resourcePath, File foundsMethodFile) {
         this.mixinFolder = mixinFolder;
-        this.resourceFolder = resourceFolder;
+        this.resourcePath = resourcePath;
+        this.foundsMethodFile = foundsMethodFile;
     }
 
     private String injectMethod(Method method) {
@@ -128,7 +133,7 @@ public class Generator {
 
     public MixinConfig getMixinConfig() {
         try {
-            Path path = this.resourceFolder.resolve("screw-you-4.mixins.json");
+            Path path = this.resourcePath.resolve("screw-you-4.mixins.json");
             String mixinConfig = Files.readString(path);
 
             return new MixinConfig(path, mixinConfig);
@@ -136,6 +141,53 @@ public class Generator {
             ScrewYou4.LOGGER.error("Got an error while trying to parse mixin config", e);
             throw new RuntimeException(e);
         }
+    }
+
+    public String foundMethodsToJava() {
+        LineArrayList res = new LineArrayList();
+        res.addLine("package fr.geming400.screwyou4.generator;");
+        res.addLine();
+        res.addLines(
+                "import com.google.common.collect.ImmutableMap;",
+                "import com.google.common.collect.ImmutableList;",
+                "import fr.geming400.screwyou4.generator.Generator;",
+                "import java.util.List;",
+                "import java.util.Map;"
+        );
+        res.addLine();
+        res.addLine("public final class FoundMethods {");
+
+        res.indent();
+        res.addLine("public static final Map<String, List<Generator.SerializedMethod>> FOUND_METHODS = ImmutableMap.<String, List<Generator.SerializedMethod>>builderWithExpectedSize(%s)".formatted(this.foundMethods.size()));
+        res.indent();
+        for (var entry : this.foundMethods.entrySet()) {
+            res.addLine(".put(");
+            res.indent();
+
+            res.addLine("\"%s\",".formatted(entry.getKey()));
+            if (entry.getValue().isEmpty()) {
+                res.addLine("ImmutableList.of()");
+                res.indent(); // This indent is to complement the 2 removed indents
+            } else {
+                res.addLine("ImmutableList.<Generator.SerializedMethod>builderWithExpectedSize(%s)".formatted(entry.getValue().size()));
+                res.indent();
+
+                for (SerializedMethod serializedMethod : entry.getValue())
+                    res.addLine(".add(%s)".formatted(serializedMethod.createStringCtor()));
+
+                res.addLine(".build()");
+            }
+
+            res.unindent(2);
+            res.addLine(")");
+        }
+
+        res.addLines(".buildOrThrow();");
+        res.unindent(2);
+
+        res.addLine("}");
+
+        return res.joinLines();
     }
 
     public void generate() {
@@ -171,12 +223,9 @@ public class Generator {
         }
 
         try {
-            // Snapshot thingy idk
-            Path foundClassesFiles = this.resourceFolder.resolve("foundMethods.json");
-
-            Files.writeString(foundClassesFiles, new Gson().toJson(this.foundMethods));
+            Files.writeString(this.foundsMethodFile.toPath(), this.foundMethodsToJava());
         } catch (IOException e) {
-            ScrewYou4.LOGGER.error("Caught an error while trying to read foundMethods.json file");
+            ScrewYou4.LOGGER.error("Caught an error while trying to write FoundMethods.java file");
             throw new RuntimeException(e);
         }
 
@@ -187,7 +236,7 @@ public class Generator {
         this.foundMethods.forEach((clazz, methods) ->
                 mixinedMethodsCount.addAndGet(methods.size()));
 
-        ScrewYou4.LOGGER.info("Mixined {} classes, {} methods, with a {}% mixin rate on all mc classess", mixinedClassesCount, mixinedMethodsCount, ((double) mixinedClassesCount.get() / mcClasses.size()) * 100);
+        ScrewYou4.LOGGER.info("Mixined {} classes, {} methods, with a {}% mixin rate on all mc classes", mixinedClassesCount, mixinedMethodsCount, ((double) mixinedClassesCount.get() / mcClasses.size()) * 100);
     }
 
     public static Set<Class<?>> getAllMinecraftClasses(boolean checkForMixinability) {
@@ -408,6 +457,10 @@ public class Generator {
             String className,
             long uniqueID
     ) {
+        public String createStringCtor() {
+            return "new Generator.SerializedMethod(\"%s\", \"%s\", %sL)".formatted(this.signature, this.className, this.uniqueID);
+        }
+
         public static SerializedMethod of(Method method) {
             return new SerializedMethod(Utils.getMixinSignature(method), method.getDeclaringClass().getTypeName(), Utils.getUniqueMethodID(method));
         }
