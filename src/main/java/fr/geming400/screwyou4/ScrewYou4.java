@@ -2,7 +2,6 @@ package fr.geming400.screwyou4;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.ibm.icu.impl.ClassLoaderUtil;
 import fr.geming400.screwyou4.generator.Generator;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ModInitializer;
@@ -13,7 +12,6 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLevelEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.networking.v1.PlayerLookup;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.resources.Identifier;
 
 import net.minecraft.server.level.ServerPlayer;
@@ -44,7 +42,6 @@ public class ScrewYou4 implements ModInitializer {
 	public static final SequencedSet<Long> METHODS = new LinkedHashSet<>();
 	public static final SequencedSet<Long> KILLED_METHODS = new LinkedHashSet<>();
 
-	private static final ClassLoader CLASS_LOADER = ClassLoaderUtil.getClassLoader(ScrewYou4.class);
 	private static ResourceManager resourceManager = ResourceManager.Empty.INSTANCE;
 
 	@Override
@@ -54,6 +51,12 @@ public class ScrewYou4 implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello from the mod that will Screw You (4) !");
+
+		// FIXME
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.SERVER) {
+			LOGGER.error("Dedicated servers are not supported yet");
+			throw new RuntimeException("Dedicated servers are not supported yet");
+		}
 
 		onLocalPlayerRespawn(player -> {
 			Generator.SerializedMethod toKill = getRandomMethod(player.getRandom());
@@ -118,9 +121,14 @@ public class ScrewYou4 implements ModInitializer {
 			return;
 		}
 
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.SERVER) {
+			LOGGER.info("Dedicated environment server detected ! Computing classes on the fly to not have a desync in the classes that are server only");
+			this.computeClasses();
+			return;
+		}
+
 		try {
 			Optional<Resource> foundMethodsResource = resourceManager.getResource(ScrewYou4.id("found_methods.json"));
-
 
 			if (foundMethodsResource.isEmpty()) {
 				LOGGER.warn("Couldn't find 'foundMethods.json'. Computing methods on the fly instead");
@@ -151,20 +159,22 @@ public class ScrewYou4 implements ModInitializer {
 	}
 
 	private static void onLocalPlayerRespawn(RespawnCallback onRespawn) {
-		AtomicBoolean isDead = new AtomicBoolean();
-		ClientTickEvents.START_CLIENT_TICK.register(client -> {
-			LocalPlayer player = client.player;
-			if (player != null) {
-				if (player.isDeadOrDying()) {
-					isDead.set(true);
-				} else if (isDead.get()) {
-					LOGGER.debug("Local player {} has respawned !", player);
-					isDead.set(false);
+		if (FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT) {
+			AtomicBoolean isDead = new AtomicBoolean();
+			ClientTickEvents.START_CLIENT_TICK.register(client -> {
+				Player player = client.player;
+				if (player != null) {
+					if (player.isDeadOrDying()) {
+						isDead.set(true);
+					} else if (isDead.get()) {
+						LOGGER.debug("Local player {} has respawned !", player);
+						isDead.set(false);
 
-					onRespawn.onRespawn(player);
+						onRespawn.onRespawn(player);
+					}
 				}
-			}
-		});
+			});
+		}
 	}
 
 	private static void onDedicatedServerPlayerRespawn(RespawnCallback onRespawn) {
