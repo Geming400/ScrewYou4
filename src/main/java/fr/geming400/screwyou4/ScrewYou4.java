@@ -120,8 +120,6 @@ public class ScrewYou4 implements ModInitializer {
 
 		try {
 			Optional<Resource> foundMethodsResource = resourceManager.getResource(ScrewYou4.id("found_methods.json"));
-//			Optional<Resource> foundMethodsResource = Optional.empty();
-			Map<Identifier, Resource> resources = resourceManager.listResources("", id -> id.getNamespace().equals(MOD_ID));
 
 
 			if (foundMethodsResource.isEmpty()) {
