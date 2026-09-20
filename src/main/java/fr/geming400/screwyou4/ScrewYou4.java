@@ -131,7 +131,7 @@ public class ScrewYou4 implements ModInitializer {
 			Optional<Resource> foundMethodsResource = resourceManager.getResource(ScrewYou4.id("found_methods.json"));
 
 			if (foundMethodsResource.isEmpty()) {
-				LOGGER.warn("Couldn't find 'foundMethods.json'. Computing methods on the fly instead");
+				LOGGER.error("Couldn't find 'found_methods.json'. Computing methods on the fly instead");
 				this.computeClasses();
 
 				return;
@@ -152,9 +152,9 @@ public class ScrewYou4 implements ModInitializer {
 						.toList());
 			});
 
-			LOGGER.info("Found {} classes and {} methods from precomputed 'foundMethods.json' file !", foundClassesCount, foundMethodsCount);
+			LOGGER.info("Found {} classes and {} methods from precomputed 'found_methods.json' file !", foundClassesCount, foundMethodsCount);
 		} catch (IOException e) {
-			LOGGER.error("Got an error while trying to read foundMethods.json", e);
+			LOGGER.error("Got an error while trying to read found_methods.json", e);
 		}
 	}
 
