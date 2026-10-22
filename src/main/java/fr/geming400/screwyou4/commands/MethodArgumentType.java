@@ -19,6 +19,7 @@ import java.util.Arrays;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicReference;
 
+// TODO: Support overloads
 public class MethodArgumentType implements ArgumentType<Infos.MethodInfo> {
 
     private String className;
