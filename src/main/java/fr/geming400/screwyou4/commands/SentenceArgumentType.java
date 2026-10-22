@@ -131,6 +131,9 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
             }
         }
         try {
+            if (this.cachedClassRepresentation == null) {
+                this.updateClassRepresentation();
+            }
             return new AssignedSentence(
                     clazz,
                     "*".equals(methodName),
