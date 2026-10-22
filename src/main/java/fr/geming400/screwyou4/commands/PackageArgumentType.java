@@ -24,7 +24,7 @@ public class PackageArgumentType implements ArgumentType<List<Class<?>>> {
         String packageNameWithGlob = reader.getRemaining().split(" ")[0];
         while (reader.canRead() && reader.peek() != ' ') {
             reader.skip();
-        };
+        }
 
 
         Map<String, List<Class<?>>> packages = getPackages();
