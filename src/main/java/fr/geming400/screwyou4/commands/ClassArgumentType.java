@@ -24,7 +24,10 @@ public class ClassArgumentType implements ArgumentType<Class<?>> {
         };
         String className = strings[0];
         try {
-            return Arrays.stream(ClassExecutioner.getLoadedClasses()).filter(c -> c.getName().equals(className)).findFirst().orElseThrow();
+            return Arrays.stream(ClassExecutioner.getLoadedClasses())
+                    .filter(c -> c.getName().equals(className))
+                    .findFirst()
+                    .orElseThrow();
         } catch (Exception e) {
             throw new CommandSyntaxException(new ClassArgumentTypeSyntaxException(() -> "Class not found"), () -> "Class not found");
         }

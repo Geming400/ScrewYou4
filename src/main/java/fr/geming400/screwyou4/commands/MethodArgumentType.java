@@ -63,7 +63,11 @@ public class MethodArgumentType implements ArgumentType<Infos.MethodInfo> {
                 .orElseThrow(() -> MethodArgumentTypeSyntaxException.create("Class not found"));
 
         this.className = classArgument;
-        return this.getMethodInfos(clazz).stream().filter(info -> info.getShortName().equals(methodName)).findFirst().orElseThrow(() -> MethodArgumentTypeSyntaxException.create("Method not found"));
+        return this.getMethodInfos(clazz)
+                .stream()
+                .filter(info -> info.getShortName().equals(methodName))
+                .findFirst()
+                .orElseThrow(() -> MethodArgumentTypeSyntaxException.create("Method not found"));
     }
 
     @Override
@@ -75,7 +79,10 @@ public class MethodArgumentType implements ArgumentType<Infos.MethodInfo> {
             }
 
             String[] strings = command.split(" ");
-            Class<?> clazz = Arrays.stream(ClassExecutioner.getLoadedClasses()).filter(c -> c.getName().equals(strings[strings.length - 2])).findFirst().orElseThrow(() -> MethodArgumentTypeSyntaxException.create("Class not found"));
+            Class<?> clazz = Arrays.stream(ClassExecutioner.getLoadedClasses())
+                    .filter(c -> c.getName().equals(strings[strings.length - 2]))
+                    .findFirst()
+                    .orElseThrow(() -> MethodArgumentTypeSyntaxException.create("Class not found"));
             if (strings[strings.length - 2].equals(this.className)) {
                 return SharedSuggestionProvider.suggest(
                         this.classRepresentation.getMethodInfos().stream().map(Infos.MethodInfo::getShortName).toList(),
