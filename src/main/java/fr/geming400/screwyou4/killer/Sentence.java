@@ -27,6 +27,10 @@ public record Sentence(
         );
     }
 
+    public static Sentence empty(RandomSource random) {
+        return new Sentence(random, false, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty());
+    }
+
     public static Sentence ofIterating(RandomSource random) {
         return new Sentence(random, true);
     }
