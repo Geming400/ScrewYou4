@@ -30,9 +30,6 @@ public class ClassExecutioner implements PreLaunchEntrypoint {
      */
     public static Optional<Exception> tryRetransform(Sentence sentence, Class<?> toKill) {
         try {
-            if (toKill.isInterface() || toKill.isAnnotation()) {
-                return Optional.of(new UnsupportedOperationException("Interfaces and annotations not supported yet :(")); // Not supported for now...
-            }
             classJudger.addToKill(toKill, sentence);
             classJudger.killClass(toKill);
         } catch (Exception e) {

@@ -177,7 +177,10 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
             if (this.cachedClassRepresentation == null) {
                 try {
                     this.updateClassRepresentation();
-                } catch (CommandSyntaxException ignored) {}
+                } catch (Exception ignored) {}
+                if (this.cachedClassRepresentation == null) {
+                    return Suggestions.empty();
+                }
             }
             if (this.isOverridingReturn) {
                 String prefix = this.cachedClassName + "#" + this.cachedMethodName + "=";
