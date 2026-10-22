@@ -31,7 +31,7 @@ public class ScrewOverCommand {
         registerArguments();
 
         CommandRegistrationCallback.EVENT.register(
-                (dispatcher, _, _) -> {
+                (dispatcher, commandBuildContext, commandSelection) -> {
                     LiteralArgumentBuilder<CommandSourceStack> builder = Commands.literal("screw")
                             .requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_MODERATOR));
                     registerServerKillCommand(builder);

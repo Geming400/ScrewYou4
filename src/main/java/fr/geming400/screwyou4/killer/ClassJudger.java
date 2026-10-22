@@ -7,8 +7,8 @@ import fr.geming400.screwyou4.killer.parser.Infos;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.impl.FabricLoaderImpl;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextColor;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -167,7 +167,7 @@ public class ClassJudger implements ClassFileTransformer {
 
             Utils.sendMessageToAllPlayers(
                     Component.literal("Killed ")
-                            .append(Component.literal(displayedMethodName).withColor(TextColor.RED))
+                            .append(Component.literal(displayedMethodName).withStyle(ChatFormatting.RED))
             );
         }
     }

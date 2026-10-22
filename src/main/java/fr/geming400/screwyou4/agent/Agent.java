@@ -18,7 +18,7 @@ import java.util.Objects;
 import java.util.jar.JarFile;
 
 public class Agent {
-    private static final String MOD_VERSION = "1.0.3";
+    private static final String MOD_VERSION = "1.0.4";
     /// Only used in a dev environment
     private static final String MOD_PATH = "../build/libs/%s-%s.jar".formatted(ScrewYou4.MOD_ID, MOD_VERSION);
 
