@@ -8,6 +8,7 @@ import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.exceptions.SimpleCommandExceptionType;
 import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
+import fr.geming400.screwyou4.entrypoints.ScrewYou4;
 import fr.geming400.screwyou4.killer.AssignedSentence;
 import fr.geming400.screwyou4.killer.ClassExecutioner;
 import fr.geming400.screwyou4.killer.Sentence;
@@ -133,6 +134,10 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
         try {
             if (this.cachedClassRepresentation == null) {
                 this.updateClassRepresentation();
+            }
+            if (this.cachedClassRepresentation == null) {
+                ScrewYou4.LOGGER.error("Could not update class representation!");
+                throw SentenceArgumentTypeSyntaxException.build("Could not update class representation!");
             }
             return new AssignedSentence(
                     clazz,
