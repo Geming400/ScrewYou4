@@ -53,7 +53,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    private abstract static class OneFieldPoolEntry<F extends Field<?>> extends PoolEntry {
+    public abstract static class OneFieldPoolEntry<F extends Field<V>, V> extends PoolEntry {
 
         protected final F field;
 
@@ -87,16 +87,20 @@ public abstract class PoolEntry implements ClassWriteable {
             return this.field;
         }
 
+        public V getValue() {
+            return this.field.getValue();
+        }
+
         @Override
         public boolean equals(Object obj) {
-            if (obj instanceof OneFieldPoolEntry<?> other) {
+            if (obj instanceof OneFieldPoolEntry<?, ?> other) {
                 return this.field.equals(other.field);
             }
             return false;
         }
     }
 
-    private abstract static class OneReferencePoolEntry extends OneFieldPoolEntry<Field.ConstantPoolReferenceField> {
+    public abstract static class OneReferencePoolEntry extends OneFieldPoolEntry<Field.ConstantPoolReferenceField, Short> {
         protected OneReferencePoolEntry(ByteBuffer buffer) {
             super(new Field.ConstantPoolReferenceField(buffer));
         }
@@ -111,7 +115,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    private abstract static class TwoFieldsPoolEntry<F1 extends Field<?>, F2 extends Field<?>> extends PoolEntry {
+    public abstract static class TwoFieldsPoolEntry<F1 extends Field<V1>, F2 extends Field<V2>, V1, V2> extends PoolEntry {
 
         protected final F1 field1;
         protected final F2 field2;
@@ -135,11 +139,11 @@ public abstract class PoolEntry implements ClassWriteable {
 
         protected abstract byte getId();
 
-        public String fieldName1() {
+        protected String fieldName1() {
             return "";
         }
 
-        public String fieldName2() {
+        protected String fieldName2() {
             return "";
         }
 
@@ -155,24 +159,36 @@ public abstract class PoolEntry implements ClassWriteable {
         public F2 getField2() {
             return this.field2;
         }
+        
+        public V1 getValue1() {
+            return this.field1.getValue();
+        }
+        
+        public V2 getValue2() {
+            return this.field2.getValue();
+        }
 
         @Override
         public boolean equals(Object obj) {
-            if (obj instanceof TwoFieldsPoolEntry<?, ?> other) {
+            if (obj instanceof TwoFieldsPoolEntry<?, ?, ?, ?> other) {
                 return this.field1.equals(other.field1) && this.field2.equals(other.field2);
             }
             return false;
         }
     }
 
-    private abstract static class TwoReferencesPoolEntry extends TwoFieldsPoolEntry<Field.ConstantPoolReferenceField, Field.ConstantPoolReferenceField> {
+    public abstract static class TwoReferencesPoolEntry extends TwoFieldsPoolEntry<Field.ConstantPoolReferenceField, Field.ConstantPoolReferenceField, Short, Short> {
 
         private TwoReferencesPoolEntry(ByteBuffer buffer) {
             super(new Field.ConstantPoolReferenceField(buffer), new Field.ConstantPoolReferenceField(buffer));
         }
+
+        public TwoReferencesPoolEntry(short index1, short index2) {
+            super(new Field.ConstantPoolReferenceField(index1), new Field.ConstantPoolReferenceField(index2));
+        }
     }
 
-    public static class Utf8PoolEntry extends OneFieldPoolEntry<Field.Utf8Field> {
+    public static class Utf8PoolEntry extends OneFieldPoolEntry<Field.Utf8Field, String> {
 
         public Utf8PoolEntry(ByteBuffer buffer) {
             super(new Field.Utf8Field(buffer));
@@ -188,7 +204,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    public static class IntPoolEntry extends OneFieldPoolEntry<Field.IntField> {
+    public static class IntPoolEntry extends OneFieldPoolEntry<Field.IntField, Integer> {
 
         public IntPoolEntry(ByteBuffer buffer) {
             super(new Field.IntField(buffer));
@@ -203,7 +219,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    public static class FloatPoolEntry extends OneFieldPoolEntry<Field.FloatField> {
+    public static class FloatPoolEntry extends OneFieldPoolEntry<Field.FloatField, Float> {
 
         public FloatPoolEntry(ByteBuffer buffer) {
             super(new Field.FloatField(buffer));
@@ -218,7 +234,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    public static class LongPoolEntry extends OneFieldPoolEntry<Field.LongField> {
+    public static class LongPoolEntry extends OneFieldPoolEntry<Field.LongField, Long> {
 
         public LongPoolEntry(ByteBuffer buffer) {
             super(new Field.LongField(buffer));
@@ -233,7 +249,7 @@ public abstract class PoolEntry implements ClassWriteable {
         }
     }
 
-    public static class DoublePoolEntry extends OneFieldPoolEntry<Field.DoubleField> {
+    public static class DoublePoolEntry extends OneFieldPoolEntry<Field.DoubleField, Double> {
 
         public DoublePoolEntry(ByteBuffer buffer) {
             super(new Field.DoubleField(buffer));
@@ -252,6 +268,10 @@ public abstract class PoolEntry implements ClassWriteable {
 
         public ClassPoolEntry(ByteBuffer buffer) {
             super(buffer);
+        }
+
+        public ClassPoolEntry(short index) {
+            super(index);
         }
 
         @Override
@@ -292,17 +312,21 @@ public abstract class PoolEntry implements ClassWriteable {
             super(buffer);
         }
 
+        public FieldReferencePoolEntry(short index1, short index2) {
+            super(index1, index2);
+        }
+
         protected byte getId() {
             return 9;
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "class : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "desc : ";
         }
     }
@@ -313,17 +337,21 @@ public abstract class PoolEntry implements ClassWriteable {
             super(buffer);
         }
 
+        public MethodReferencePoolEntry(short index1, short index2) {
+            super(index1, index2);
+        }
+
         protected byte getId() {
             return 10;
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "class : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "desc : ";
         }
     }
@@ -334,17 +362,21 @@ public abstract class PoolEntry implements ClassWriteable {
             super(buffer);
         }
 
+        public InterfaceMethodReferencePoolEntry(short index1, short index2) {
+            super(index1, index2);
+        }
+
         protected byte getId() {
             return 11;
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "class : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "desc : ";
         }
     }
@@ -355,25 +387,33 @@ public abstract class PoolEntry implements ClassWriteable {
             super(buffer);
         }
 
+        public NameAndTypePoolEntry(short index1, short index2) {
+            super(index1, index2);
+        }
+
         protected byte getId() {
             return 12;
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "name : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "desc : ";
         }
     }
 
-    public static class MethodHandlePoolEntry extends TwoFieldsPoolEntry<Field.ByteField, Field.ConstantPoolReferenceField> {
+    public static class MethodHandlePoolEntry extends TwoFieldsPoolEntry<Field.ByteField, Field.ConstantPoolReferenceField, Byte, Short> {
 
         public MethodHandlePoolEntry(ByteBuffer buffer) {
             super(new Field.ByteField(buffer), new Field.ConstantPoolReferenceField(buffer));
+        }
+
+        public MethodHandlePoolEntry(Field.ByteField byteField, Field.ConstantPoolReferenceField referenceField) {
+            super(byteField, referenceField);
         }
 
         protected byte getId() {
@@ -381,12 +421,12 @@ public abstract class PoolEntry implements ClassWriteable {
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "kind : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "ref : ";
         }
     }
@@ -395,6 +435,10 @@ public abstract class PoolEntry implements ClassWriteable {
 
         public MethodTypePoolEntry(ByteBuffer buffer) {
             super(buffer);
+        }
+
+        public MethodTypePoolEntry(short index) {
+            super(index);
         }
 
         protected byte getId() {
@@ -413,17 +457,21 @@ public abstract class PoolEntry implements ClassWriteable {
             super(buffer);
         }
 
+        public InvokeDynamicPoolEntry(short index1, short index2) {
+            super(index1, index2);
+        }
+
         protected byte getId() {
             return 18;
         }
 
         @Override
-        public String fieldName1() {
+        protected String fieldName1() {
             return "bootstrap_index : ";
         }
 
         @Override
-        public String fieldName2() {
+        protected String fieldName2() {
             return "desc : ";
         }
     }
