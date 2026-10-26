@@ -5,6 +5,7 @@ import fr.geming400.screwyou4.killer.parser.Infos;
 import fr.geming400.screwyou4.killer.parser.PoolEntry;
 import net.minecraft.util.RandomSource;
 
+import java.util.Optional;
 import java.util.UUID;
 
 public class MethodTerminator {
@@ -155,6 +156,13 @@ public class MethodTerminator {
                     bcg.pushString(new UUID(this.random.nextLong(), this.random.nextLong()).toString());
                 }
 
+                bcg.returnObject();
+                this.codeAttribute.field2.override(bcg.toArray());
+            }
+
+            case "Ljava/util/Optional;" -> {
+                BytecodeGenerator bcg = new BytecodeGenerator(this.method, this.method.constantPool);
+                bcg.invokeStatic(Optional.class, "empty", Optional.class);
                 bcg.returnObject();
                 this.codeAttribute.field2.override(bcg.toArray());
             }

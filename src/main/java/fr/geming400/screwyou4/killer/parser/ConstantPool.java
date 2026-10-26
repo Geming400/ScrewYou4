@@ -23,16 +23,17 @@ public class ConstantPool implements ClassWriteable {
         return this.entries.get(index);
     }
 
-    public PoolEntry get(Predicate<PoolEntry> predicate, Supplier<PoolEntry> defaultEntry) {
-        return this.entries.value.stream().filter(predicate).findFirst().orElseGet(() -> {
-            PoolEntry entry = defaultEntry.get();
+    @SuppressWarnings("unchecked")
+    public <P extends PoolEntry> P get(Class<P> targetType, Predicate<P> predicate, Supplier<P> defaultEntry) {
+        return (P) this.entries.value.stream().filter(entry -> targetType.isInstance(entry) && predicate.test((P) entry)).findFirst().orElseGet(() -> {
+            P entry = defaultEntry.get();
             this.entries.append(entry);
             return entry;
         });
     }
 
-    public short getIndex(Predicate<PoolEntry> predicate, Supplier<PoolEntry> defaultEntry) {
-        return (short) this.entries.value.indexOf(this.get(predicate, defaultEntry));
+    public <P extends PoolEntry> short getIndex(Class<P> targetType, Predicate<P> predicate, Supplier<P> defaultEntry) {
+        return (short) this.entries.value.indexOf(this.get(targetType, predicate, defaultEntry));
     }
 
     public void append(PoolEntry entry) {
@@ -57,5 +58,21 @@ public class ConstantPool implements ClassWriteable {
     @Override
     public int size() {
         return this.entries.size();
+    }
+
+    public static <P extends PoolEntry.OneFieldPoolEntry<F, V>, F extends Field<V>, V> Predicate<P> sameValue(V value) {
+        return entry -> entry.getValue().equals(value);
+    }
+
+    public static <P extends PoolEntry.TwoFieldsPoolEntry<F1, F2, V1, V2>, F1 extends Field<V1>, V1, F2 extends Field<V2>, V2> Predicate<P> sameValue(F1 value1, F2 value2) {
+        return entry -> entry.getValue1().equals(value1) && entry.getValue2().equals(value2);
+    }
+
+    public static <P extends PoolEntry.OneReferencePoolEntry, E extends PoolEntry.OneFieldPoolEntry<F, V>, F extends Field<V>, V> Predicate<P> sameReference(V value, ConstantPool constantPool) {
+        return entry -> entry.getField().<E>getExpected(constantPool).getValue().equals(value);
+    }
+
+    public static <P extends PoolEntry.TwoReferencesPoolEntry, E1 extends PoolEntry.OneFieldPoolEntry<F1, V1>, E2 extends PoolEntry.OneFieldPoolEntry<F2, V2>, F1 extends Field<V1>, F2 extends Field<V2>, V1, V2> Predicate<P> sameReference(V1 value1, V2 value2, ConstantPool constantPool) {
+        return entry -> entry.getField1().<E1>getExpected(constantPool).getValue().equals(value1) && entry.getField2().<E2>getExpected(constantPool).getValue().equals(value2);
     }
 }

@@ -8,6 +8,7 @@ import fr.geming400.screwyou4.killer.parser.PoolEntry;
 import java.lang.classfile.Opcode;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class BytecodeGenerator {
 
@@ -39,6 +40,11 @@ public class BytecodeGenerator {
         return new Field.IntPrefixedArrayField<>(buffer.flip(), Field.ByteField::new);
     }
 
+    private void addShortToBytes(short value) {
+        this.bytes.add((byte) (value >> 8));
+        this.bytes.add((byte) value);
+    }
+
     public void returnVoid() {
         this.bytes.add((byte) Opcode.RETURN.bytecode());
     }
@@ -64,85 +70,129 @@ public class BytecodeGenerator {
     }
 
     public void loadConstant(short index) {
-        this.maxLocals++;
         this.maxStack++;
         this.bytes.add((byte) Opcode.LDC_W.bytecode());
-        this.bytes.add((byte) (index >> 8));
-        this.bytes.add((byte) index);
+        this.addShortToBytes(index);
     }
 
     public void loadLongConstant(short index) {
-        this.maxLocals++;
         this.maxStack++;
-        this.maxLocals++;
         this.maxStack++;
         this.bytes.add((byte) Opcode.LDC2_W.bytecode());
-        this.bytes.add((byte) (index >> 8));
-        this.bytes.add((byte) index);
+        this.addShortToBytes(index);
     }
 
     public void pushByte(Byte b) {
-        this.maxLocals++;
         this.maxStack++;
         this.bytes.add((byte) Opcode.BIPUSH.bytecode());
         this.bytes.add(b);
     }
 
     public void pushShort(short s) {
-        this.maxLocals++;
         this.maxStack++;
         this.bytes.add((byte) Opcode.SIPUSH.bytecode());
-        this.bytes.add((byte) (s >> 8));
-        this.bytes.add((byte) s);
+        this.addShortToBytes(s);
     }
 
     public void pushInt(int i) {
         short index = this.constantPool.getIndex(
-                poolEntry -> poolEntry instanceof PoolEntry.IntPoolEntry intPoolEntry && intPoolEntry.getField().getValue() == i,
+                PoolEntry.IntPoolEntry.class,
+                ConstantPool.sameValue(i),
                 () -> new PoolEntry.IntPoolEntry(i));
         this.loadConstant(index);
     }
 
     public void pushLong(long l) {
         short index = this.constantPool.getIndex(
-                poolEntry -> poolEntry instanceof PoolEntry.LongPoolEntry longPoolEntry && longPoolEntry.getField().getValue() == l,
+                PoolEntry.LongPoolEntry.class,
+                ConstantPool.sameValue(l),
                 () -> new PoolEntry.LongPoolEntry(l));
         this.loadLongConstant(index);
     }
 
     public void pushFloat(float f) {
         short index = this.constantPool.getIndex(
-                poolEntry -> poolEntry instanceof PoolEntry.FloatPoolEntry floatPoolEntry && floatPoolEntry.getField().getValue() == f,
+                PoolEntry.FloatPoolEntry.class,
+                ConstantPool.sameValue(f),
                 () -> new PoolEntry.FloatPoolEntry(f));
         this.loadConstant(index);
     }
 
     public void pushDouble(double d) {
         short index = this.constantPool.getIndex(
-                poolEntry -> poolEntry instanceof PoolEntry.DoublePoolEntry doublePoolEntry && doublePoolEntry.getField().getValue() == d,
+                PoolEntry.DoublePoolEntry.class,
+                ConstantPool.sameValue(d),
                 () -> new PoolEntry.DoublePoolEntry(d));
         this.loadLongConstant(index);
     }
 
     public void pushNull() {
-        this.maxLocals++;
         this.maxStack++;
         this.bytes.add((byte) Opcode.ACONST_NULL.bytecode());
     }
 
     public void pushString(String string) {
-        this.maxLocals++;
         this.maxStack++;
         short index = this.constantPool.getIndex(
-                poolEntry -> poolEntry instanceof PoolEntry.StringPoolEntry stringPoolEntry && stringPoolEntry.getField().<PoolEntry.Utf8PoolEntry>getExpected(this.constantPool).getField().getValue().equals(string),
+                PoolEntry.StringPoolEntry.class,
+                ConstantPool.sameReference(string, this.constantPool),
                 () -> new PoolEntry.StringPoolEntry(
                         this.constantPool.getIndex(
-                                poolEntry -> poolEntry instanceof PoolEntry.Utf8PoolEntry utf8PoolEntry && utf8PoolEntry.getField().getValue().equals(string),
-                                () -> new PoolEntry.Utf8PoolEntry(
-                                        string
-                                )
+                                PoolEntry.Utf8PoolEntry.class,
+                                ConstantPool.sameValue(string),
+                                () -> new PoolEntry.Utf8PoolEntry(string)
                         )
                 ));
         this.loadConstant(index);
+    }
+
+    private void invoke(Opcode opcode, Class<?> owningClass, String methodName, Class<?> returnType, Class<?>... parametersTypes) {
+        String signature = BytecodeUtils.getTypeSignature(returnType, parametersTypes);
+        String owningClassName = BytecodeUtils.getShortBytecodeClassName(owningClass);
+        short index = this.constantPool.getIndex(
+                PoolEntry.MethodReferencePoolEntry.class,
+                methodReferencePoolEntry -> methodReferencePoolEntry.getField1().<PoolEntry.ClassPoolEntry>getExpected(this.constantPool).getField().<PoolEntry.Utf8PoolEntry>getExpected(this.constantPool).getValue().equals(owningClassName)
+                        && ConstantPool.sameReference(methodName, signature, this.constantPool).test(methodReferencePoolEntry.getField2().getExpected(this.constantPool)),
+                () -> new PoolEntry.MethodReferencePoolEntry(
+                        this.constantPool.getIndex(
+                                PoolEntry.ClassPoolEntry.class,
+                                ConstantPool.sameReference(owningClassName, this.constantPool),
+                                () -> new PoolEntry.ClassPoolEntry(
+                                        this.constantPool.getIndex(
+                                                PoolEntry.Utf8PoolEntry.class,
+                                                ConstantPool.sameValue(owningClassName),
+                                                () -> new PoolEntry.Utf8PoolEntry(owningClassName)
+                                        )
+                                )
+                        ),
+                        this.constantPool.getIndex(
+                                PoolEntry.NameAndTypePoolEntry.class,
+                                ConstantPool.sameReference(methodName, signature, this.constantPool),
+                                () -> new PoolEntry.NameAndTypePoolEntry(
+                                        this.constantPool.getIndex(
+                                                PoolEntry.Utf8PoolEntry.class,
+                                                ConstantPool.sameValue(methodName),
+                                                () -> new PoolEntry.Utf8PoolEntry(methodName)
+                                        ),
+                                        this.constantPool.getIndex(
+                                                PoolEntry.Utf8PoolEntry.class,
+                                                ConstantPool.sameValue(signature),
+                                                () -> new  PoolEntry.Utf8PoolEntry(signature)
+                                        )
+                                )
+                        )
+                )
+        );
+        this.bytes.add((byte) opcode.bytecode());
+        this.addShortToBytes(index);
+        this.maxStack = (short) (this.maxStack + BytecodeUtils.getStackSize(returnType) - Arrays.stream(parametersTypes).mapToInt(BytecodeUtils::getStackSize).sum());
+    }
+
+    public void invokeVirtual(Class<?> owningClass, String methodName, Class<?> returnType, Class<?>... parametersTypes) {
+        this.invoke(Opcode.INVOKEVIRTUAL, owningClass, methodName, returnType, parametersTypes);
+    }
+
+    public void invokeStatic(Class<?> owningClass, String methodName, Class<?> returnType, Class<?>... parametersTypes) {
+        this.invoke(Opcode.INVOKESTATIC, owningClass, methodName, returnType, parametersTypes);
     }
 }
