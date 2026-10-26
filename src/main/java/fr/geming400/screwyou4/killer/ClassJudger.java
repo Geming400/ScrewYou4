@@ -30,6 +30,7 @@ public class ClassJudger implements ClassFileTransformer {
     public static final boolean VERBOSE = Boolean.parseBoolean(System.getProperty("SCREWYOU4_VERBOSE", "false"));
     public static final boolean POST_MORTEM = FabricLoader.getInstance().isDevelopmentEnvironment() || POST_MORTEM_PROPERTY;
     public static final boolean NOTIFY_PLAYERS = Boolean.parseBoolean(System.getProperty("SCREWYOU4_NOTIFY_PLAYERS", "true"));
+    public static final boolean NOTIFY_VALUE = Boolean.parseBoolean(System.getProperty("SCREWYOU4_NOTIFY_VALUE", String.valueOf(NOTIFY_PLAYERS)));
 
     public static FileOutputStream logFileStream = null;
     private static boolean hasInitializedPostMortem = false;
@@ -82,13 +83,13 @@ public class ClassJudger implements ClassFileTransformer {
                 } else {
                     ArrayList<Infos.MethodInfo> infos = image2.getMethodInfos();
                     if (infos.isEmpty()) {
-                        throw new CorruptedException("No methods found in class: " + className, false);
+                        throw new CorruptedException();
                     }
                     chosenMethod = infos.get(sentence.random().nextInt(infos.size()));
                 }
 
                 MethodTerminator terminator = new MethodTerminator(chosenMethod, sentence.random(), sentence.overrideTerminator().orElse(null));
-                terminator.terminate();
+                String output = terminator.terminate();
                 byte[] buffer = image2.toByteArray();
                 if (POST_MORTEM) {
                     Files.write(
@@ -103,7 +104,7 @@ public class ClassJudger implements ClassFileTransformer {
                     );
                 }
 
-                notifyKilled(classBeingRedefined, chosenMethod);
+                notifyKilled(classBeingRedefined, chosenMethod, output);
                 return buffer;
             } catch (Exception e) {
                 // for some strange reason, you cannot re-transform classes from this thread
@@ -165,12 +166,12 @@ public class ClassJudger implements ClassFileTransformer {
         return this.inst;
     }
 
-    public static void notifyKilled(Class<?> clazz, Infos.MethodInfo method) {
+    public static void notifyKilled(Class<?> clazz, Infos.MethodInfo method, String output) {
         String envName = FabricLoader.getInstance().getEnvironmentType() == EnvType.CLIENT
                 ? "CLIENT"
                 : "SERVER";
 
-        ScrewYou4.LOGGER.info("Killed method {} in {} ({})", method.getName(), clazz, envName);
+        ScrewYou4.LOGGER.info("Killed method {} in {} ({}) {}", method.getName(), clazz, envName, output);
         if (NOTIFY_PLAYERS) {
             String name = clazz.getSimpleName();
             if (name.isEmpty()) {
@@ -178,6 +179,10 @@ public class ClassJudger implements ClassFileTransformer {
             }
 
             String displayedMethodName = "%s.%s(...)".formatted(name, method.getShortName());
+
+            if (NOTIFY_VALUE) {
+                displayedMethodName += output;
+            }
 
             Utils.sendMessageToAllPlayers(
                     Component.literal("Killed ")

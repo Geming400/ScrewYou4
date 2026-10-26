@@ -5,6 +5,7 @@ import fr.geming400.screwyou4.killer.parser.Infos;
 import fr.geming400.screwyou4.killer.parser.PoolEntry;
 import net.minecraft.util.RandomSource;
 
+import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -38,17 +39,17 @@ public class MethodTerminator {
         this.overrideReturn = overrideReturn;
     }
 
-    public void terminate() {
+    public String terminate() {
 //        if (!this.method.getReturnType().equals("Ljava/util/Optional;")) {
 //            throw new ClassJudger.CorruptedException("Method terminator do not supports return type: " + this.method.getReturnType(), false);
 //        }
-
+        Object newValue = this.overrideReturn;
         switch (this.method.getReturnType()) {
             case "V" -> {
                 BytecodeGenerator bcg = new BytecodeGenerator(this.method, this.method.constantPool);
                 bcg.returnVoid();
-
                 this.codeAttribute.field2.override(bcg.toArray());
+                newValue = "void";
             }
 
             case "Z" -> {
@@ -56,7 +57,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushByte((byte) (Boolean.parseBoolean(this.overrideReturn) ? 1 : 0));
                 } else {
-                    bcg.pushByte((byte) (this.random.nextBoolean() ? 1 : 0));
+                    bcg.pushByte((byte) ((boolean) (newValue = this.random.nextBoolean()) ? 1 : 0));
                 }
 
                 bcg.returnPrimitive();
@@ -68,7 +69,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushByte(Byte.parseByte(this.overrideReturn));
                 } else {
-                    bcg.pushByte((byte) this.random.nextInt());
+                    bcg.pushByte((byte) (newValue = ((byte) this.random.nextInt())));
                 }
 
                 bcg.returnPrimitive();
@@ -80,7 +81,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushShort(Short.parseShort(this.overrideReturn));
                 } else {
-                    bcg.pushShort((short) this.random.nextInt());
+                    bcg.pushShort((short) (newValue = (short) this.random.nextInt()));
                 }
 
                 bcg.returnPrimitive();
@@ -93,7 +94,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushShort((short) this.overrideReturn.charAt(0));
                 } else {
-                    bcg.pushShort((short) (char) this.random.nextInt());
+                    bcg.pushShort((short) (newValue = (short) (char) this.random.nextInt()));
                 }
 
                 bcg.returnPrimitive();
@@ -105,7 +106,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushInt(Integer.parseInt(this.overrideReturn));
                 } else {
-                    bcg.pushInt(this.random.nextInt());
+                    bcg.pushInt((int) (newValue = this.random.nextInt()));
                 }
 
                 bcg.returnPrimitive();
@@ -117,7 +118,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushLong(Long.parseLong(this.overrideReturn));
                 } else {
-                    bcg.pushLong(this.random.nextLong());
+                    bcg.pushLong((long) (newValue = this.random.nextLong()));
                 }
 
                 bcg.returnLong();
@@ -129,7 +130,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushDouble(Double.parseDouble(this.overrideReturn));
                 } else {
-                    bcg.pushDouble(this.random.nextDouble());
+                    bcg.pushDouble((double) (newValue = this.random.nextDouble()));
                 }
 
                 bcg.returnDouble();
@@ -141,7 +142,7 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushFloat(Float.parseFloat(this.overrideReturn));
                 } else {
-                    bcg.pushFloat(this.random.nextFloat());
+                    bcg.pushFloat((float) (newValue = this.random.nextFloat()));
                 }
 
                 bcg.returnFloat();
@@ -153,7 +154,9 @@ public class MethodTerminator {
                 if (this.overrideReturn != null) {
                     bcg.pushString(this.overrideReturn);
                 } else {
-                    bcg.pushString(new UUID(this.random.nextLong(), this.random.nextLong()).toString());
+                    bcg.pushString((String) (newValue = new UUID(this.random.nextLong(), this.random.nextLong()).toString()));
+                    // An IQ too high ?
+                    newValue = "" + '"' + newValue + '"';
                 }
 
                 bcg.returnObject();
@@ -165,6 +168,7 @@ public class MethodTerminator {
                 bcg.invokeStatic(Optional.class, "empty", Optional.class);
                 bcg.returnObject();
                 this.codeAttribute.field2.override(bcg.toArray());
+                newValue = "Optional.empty()";
             }
 
             default -> {
@@ -173,10 +177,11 @@ public class MethodTerminator {
                     bcg.pushNull();
                     bcg.returnObject();
                     this.codeAttribute.field2.override(bcg.toArray());
-                    return;
+                    break;
                 }
                 throw new ClassJudger.CorruptedException("Method terminator do not supports " + this.method.getReturnType() + " return type yet!", false);
             }
         }
+        return " -> " + newValue;
     }
 }
