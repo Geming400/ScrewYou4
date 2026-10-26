@@ -79,6 +79,9 @@ public class ClassJudger implements ClassFileTransformer {
                     chosenMethod = sentence.methodInfo().get();
                 } else {
                     ArrayList<Infos.MethodInfo> infos = image2.getMethodInfos();
+                    if (infos.isEmpty()) {
+                        throw new CorruptedException("No methods found in class: " + className, false);
+                    }
                     chosenMethod = infos.get(sentence.random().nextInt(infos.size()));
                 }
 
@@ -105,22 +108,32 @@ public class ClassJudger implements ClassFileTransformer {
                 // for some strange reason, you cannot re-transform classes from this thread
                 if (sentence.shouldTryAnother()) {
                     Thread.ofVirtual().start(() -> ClassExecutioner.kill(sentence.fork()));
-                    if (
-                            !(
-                                    (e instanceof UnsupportedOperationException && e.getMessage().contains("Method terminator"))
-                                            || (e instanceof IllegalArgumentException && e.getMessage().contains("Code attribute"))
-                            )
-                    ) {
+                    if (!(e instanceof CorruptedException ce && !ce.broadcast)) {
                         Utils.sendMessageToAllPlayers(Component.literal("\"Failed to transform class : " + e + "\""));
-                        ScrewYou4.LOGGER.error("Failed to transform class" + className, e);
+                        ScrewYou4.LOGGER.error("Failed to transform class {}", className, e);
                     }
                 } else {
                     Utils.sendMessageToAllPlayers(Component.literal("\"Failed to transform class : " + e + "\""));
-                    ScrewYou4.LOGGER.error("Failed to transform class" + className, e);
+                    ScrewYou4.LOGGER.error("Failed to transform class {}", className, e);
                 }
             }
         }
-        return null;
+        return classfileBuffer;
+    }
+
+    public static void preparePostMortem() {
+        if (!hasInitializedPostMortem && POST_MORTEM) {
+            hasInitializedPostMortem = true;
+            File gameDir = FabricLoaderImpl.INSTANCE.getGameDir().toFile();
+            File originalFolder = new File(gameDir, "original_classes");
+            File producedFolder = new File(gameDir, "produced_classes");
+            try {
+                FileUtils.deleteDirectory(originalFolder);
+                FileUtils.deleteDirectory(producedFolder);
+            } catch (IOException ignored) {}
+            boolean ignored1 = originalFolder.mkdirs();
+            boolean ignored2 = producedFolder.mkdirs();
+        }
     }
 
     @Override
@@ -178,6 +191,19 @@ public class ClassJudger implements ClassFileTransformer {
             try {
                 getLogFileStream().write((message + "\n").getBytes());
             } catch (IOException ignored) {}
+        }
+    }
+
+    public static class CorruptedException extends RuntimeException {
+        private final boolean broadcast;
+
+        public CorruptedException(String message, boolean broadcast) {
+            super(message);
+            this.broadcast = broadcast;
+        }
+
+        public CorruptedException() {
+            this.broadcast = false;
         }
     }
 }

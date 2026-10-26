@@ -47,6 +47,7 @@ public class ClassExecutioner implements PreLaunchEntrypoint {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+        ClassJudger.preparePostMortem();
     }
 
     private static void checkClassDecoderPresent() {

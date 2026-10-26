@@ -26,11 +26,11 @@ public class MethodTerminator {
         }
 
         if (this.method.getName().contains("<init>") || this.method.getName().contains("<clinit>")) {
-            throw new UnsupportedOperationException("Method terminator do not supports constructors yet!");
+            throw new ClassJudger.CorruptedException("Method terminator do not supports constructors yet!", false);
         }
 
         if (codeAttr == null) {
-            throw new IllegalArgumentException("Code attribute not found");
+            throw new ClassJudger.CorruptedException("Code attribute not found", false);
         }
 
         this.codeAttribute = codeAttr;
@@ -38,8 +38,8 @@ public class MethodTerminator {
     }
 
     public void terminate() {
-//        if (!this.returnType.equals("Ljava/lang/String;")) {
-//            throw new UnsupportedOperationException("Method terminator do not supports return type: " + this.returnType);
+//        if (!this.method.getReturnType().equals("Ljava/util/Optional;")) {
+//            throw new ClassJudger.CorruptedException("Method terminator do not supports return type: " + this.method.getReturnType(), false);
 //        }
 
         switch (this.method.getReturnType()) {
@@ -167,7 +167,7 @@ public class MethodTerminator {
                     this.codeAttribute.field2.override(bcg.toArray());
                     return;
                 }
-                throw new UnsupportedOperationException("Method terminator do not supports " + this.method.getReturnType() + " return type yet!");
+                throw new ClassJudger.CorruptedException("Method terminator do not supports " + this.method.getReturnType() + " return type yet!", false);
             }
         }
     }
