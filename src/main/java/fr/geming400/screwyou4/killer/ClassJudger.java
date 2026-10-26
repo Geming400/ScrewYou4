@@ -9,6 +9,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.impl.FabricLoaderImpl;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,6 +32,7 @@ public class ClassJudger implements ClassFileTransformer {
     public static final boolean NOTIFY_PLAYERS = Boolean.parseBoolean(System.getProperty("SCREWYOU4_NOTIFY_PLAYERS", "true"));
 
     public static FileOutputStream logFileStream = null;
+    private static boolean hasInitializedPostMortem = false;
 
     public static FileOutputStream getLogFileStream() {
         if (logFileStream == null) {
@@ -66,7 +68,7 @@ public class ClassJudger implements ClassFileTransformer {
             final Sentence sentence = this.toKill.remove(classBeingRedefined);
             if (sentence.bufferEater().isPresent()) {
                 sentence.bufferEater().get().accept(classfileBuffer);
-                return null;
+                return classfileBuffer;
             }
 
             try {
@@ -90,13 +92,12 @@ public class ClassJudger implements ClassFileTransformer {
                 byte[] buffer = image2.toByteArray();
                 if (POST_MORTEM) {
                     Files.write(
-                            new File(FabricLoaderImpl.INSTANCE.getGameDir().toFile(), "original.class").toPath(),
+                            new File(FabricLoaderImpl.INSTANCE.getGameDir().toFile(), "original_classes/%s.class".formatted(className.replace("/", "."))).toPath(),
                             classfileBuffer,
                             StandardOpenOption.CREATE
                     );
-
                     Files.write(
-                            new File(FabricLoaderImpl.INSTANCE.getGameDir().toFile(), "produced.class").toPath(),
+                            new File(FabricLoaderImpl.INSTANCE.getGameDir().toFile(), "produced_classes/%s.class".formatted(className.replace("/", "."))).toPath(),
                             buffer,
                             StandardOpenOption.CREATE
                     );
