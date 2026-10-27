@@ -5,7 +5,6 @@ import fr.geming400.screwyou4.killer.parser.Infos;
 import fr.geming400.screwyou4.killer.parser.PoolEntry;
 import net.minecraft.util.RandomSource;
 
-import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 
@@ -14,6 +13,7 @@ public class MethodTerminator {
     private final Infos.MethodInfo method;
     private final Attribute codeAttribute;
     private final RandomSource random;
+    private final String returnType;
     private final String overrideReturn;
 
     public MethodTerminator(Infos.MethodInfo method, RandomSource random, String overrideReturn) {
@@ -36,6 +36,8 @@ public class MethodTerminator {
         }
 
         this.codeAttribute = codeAttr;
+        String desc = this.method.getDesc();
+        this.returnType = desc.substring(desc.indexOf(")") + 1);
         this.overrideReturn = overrideReturn;
     }
 
@@ -43,8 +45,9 @@ public class MethodTerminator {
 //        if (!this.method.getReturnType().equals("Ljava/util/Optional;")) {
 //            throw new ClassJudger.CorruptedException("Method terminator do not supports return type: " + this.method.getReturnType(), false);
 //        }
+
         Object newValue = this.overrideReturn;
-        switch (this.method.getReturnType()) {
+        switch (this.returnType) {
             case "V" -> {
                 BytecodeGenerator bcg = new BytecodeGenerator(this.method, this.method.constantPool);
                 bcg.returnVoid();

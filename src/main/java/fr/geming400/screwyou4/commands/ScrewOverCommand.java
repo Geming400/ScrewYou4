@@ -20,12 +20,30 @@ import net.minecraft.commands.synchronization.SingletonArgumentInfo;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.permissions.Permissions;
 import net.minecraft.util.RandomSource;
+import net.minecraft.util.Util;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Consumer;
 
 public class ScrewOverCommand {
+    private static final String HELP_TEXT = """
+            /screw help
+            /screw kill <nb of classes to target>
+            /screw kill class name.of.the.class#nameOfTheMethod=return_override
+            /screw kill package name.of.the.package.*  -> Only the given package
+            /screw kill package name.of.the.package.** -> Recursive
+            /screw kill package name.of.the.package.*  all -> Kills ALL the functions of the given package
+            /screw kill package name.of.the.package.** all -> Kills ALL the functions of the given package and its children
+            """;
+
+    private static Component getHelpText(boolean isClientCommand) {
+        if (isClientCommand)
+            return Component.literal(HELP_TEXT.replace("/screw", "/screw-client"));
+
+        return Component.literal(HELP_TEXT);
+    }
 
     public static void initialize() {
         registerArguments();
@@ -49,9 +67,15 @@ public class ScrewOverCommand {
 
     private static void registerArguments() {
         ArgumentTypeRegistry.registerArgumentType(
-                ScrewYou4.id("class"),
+                ScrewYou4.id("sentence"),
                 SentenceArgumentType.class,
                 SingletonArgumentInfo.contextFree(SentenceArgumentType::new)
+        );
+
+        ArgumentTypeRegistry.registerArgumentType(
+                ScrewYou4.id("package"),
+                PackageArgumentType.class,
+                SingletonArgumentInfo.contextFree(PackageArgumentType::new)
         );
     }
 
@@ -61,10 +85,19 @@ public class ScrewOverCommand {
                         .then(Commands.argument("count", IntegerArgumentType.integer(0))
                                 .executes(ScrewOverCommand::serverKillRandomMethods))
                         .then(Commands.literal("class")
-                                .then(Commands.argument("class_name", SentenceArgumentType.sentence()).executes(ScrewOverCommand::serverKillSpecificClass))
+                                .then(Commands.argument("class_name", SentenceArgumentType.sentence())
+                                        .executes(ScrewOverCommand::serverKillSpecificClass))
+                        )
+                        .then(Commands.literal("package")
+                                .then(Commands.argument("package", PackageArgumentType.pkg())
+                                        .executes(context -> serverKillSpecificPackage(context, false))
+                                        .then(Commands.literal("all")
+                                                .executes(context -> serverKillSpecificPackage(context, true))
+                                        )
+                                )
                         )
         ).then(Commands.literal("help").executes(context -> {
-            context.getSource().sendSuccess(() -> Component.literal("/screw kill <nb classes to target>\n/screw kill class name.of.the.class#nameOfTheMethod=return_override"), false);
+            context.getSource().sendSuccess(() -> getHelpText(false), false);
             return Command.SINGLE_SUCCESS;
         }));
     }
@@ -77,11 +110,20 @@ public class ScrewOverCommand {
                         .then(ClientCommands.literal("class")
                                 .then(ClientCommands.argument("class_name", SentenceArgumentType.sentence()).executes(ScrewOverCommand::clientKillSpecificClass))
                         )
+                        .then(ClientCommands.literal("package")
+                                .then(ClientCommands.argument("package", PackageArgumentType.pkg())
+                                        .executes(context -> clientKillSpecificPackage(context, false))
+                                        .then(ClientCommands.literal("all")
+                                                .executes(context -> clientKillSpecificPackage(context, true))
+                                        )
+                                )
+                        )
         ).then(ClientCommands.literal("help").executes(context -> {
-            context.getSource().sendFeedback(Component.literal("/screw-client kill <nb classes to target>\n/screw-client kill class name.of.the.class#nameOfTheMethod=return_override"));
+            context.getSource().sendFeedback(getHelpText(true));
             return Command.SINGLE_SUCCESS;
         }));
     }
+
 
     private static int killRandomFunctions(int n, RandomSource random) {
         // Peek optimisation
@@ -109,33 +151,38 @@ public class ScrewOverCommand {
         return killRandomFunctions(n, random);
     }
 
-    private static int killSpecificClass(CommandContext<?> context, RandomSource random, Consumer<Component> onFailure) {
-        AssignedSentence assignedSentence = SentenceArgumentType.getSentence(context, "class_name");
-        if (assignedSentence.all()) {
+    private static int killSpecificClass(AssignedSentence sentence, RandomSource random, Consumer<Component> onFailure) {
+        if (sentence.all()) {
             Thread.ofVirtual().start(() -> {
-                for (Infos.MethodInfo info : assignedSentence.representation().getMethodInfos()) {
+                for (Infos.MethodInfo info : sentence.representation().getMethodInfos()) {
                     Optional<Exception> exception = ClassExecutioner.tryRetransform(
                             new Sentence(random, false, Optional.of(info),
-                                    Optional.of(assignedSentence.representation()), Optional.empty(),
+                                    Optional.of(sentence.representation()), Optional.empty(),
                                     Optional.empty()),
-                            assignedSentence.clazz()
+                            sentence.clazz()
                     );
 
                     exception.ifPresent(e -> {
-                        Component message = Component.literal("Error while killing " + assignedSentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
+                        Component message = Component.literal("Error while killing " + sentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
                         onFailure.accept(message);
                     });
                 }
             });
         } else {
-            Optional<Exception> exception = ClassExecutioner.tryRetransform(assignedSentence.getSentence(random), assignedSentence.clazz());
+            Optional<Exception> exception = ClassExecutioner.tryRetransform(sentence.getSentence(random), sentence.clazz());
 
             exception.ifPresent(e -> {
-                Component message = Component.literal("Error while killing " + assignedSentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
+                Component message = Component.literal("Error while killing " + sentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
                 onFailure.accept(message);
             });
         }
+
         return Command.SINGLE_SUCCESS;
+    }
+
+    private static int killSpecificClass(CommandContext<?> context, RandomSource random, Consumer<Component> onFailure) {
+        AssignedSentence assignedSentence = SentenceArgumentType.getSentence(context, "class_name");
+        return killSpecificClass(assignedSentence, random, onFailure);
     }
 
     private static int serverKillSpecificClass(CommandContext<CommandSourceStack> context) {
@@ -146,5 +193,46 @@ public class ScrewOverCommand {
     private static int clientKillSpecificClass(CommandContext<FabricClientCommandSource> context) {
         RandomSource random = Objects.requireNonNull(context.getSource().getPlayer()).getRandom().fork();
         return killSpecificClass(context, random, message -> context.getSource().sendError(message));
+    }
+
+
+    private static int killSpecificPackage(CommandContext<?> context, RandomSource random, Consumer<Component> onFailure, boolean all) {
+        List<Class<?>> packageClasses = PackageArgumentType.getPackage(context, "package");
+        if (all) {
+            // TODO (CurrentTick): Fix that this kills random functions
+            // of all given classes.
+            // This should kill all the function of ALL the given classes
+            packageClasses.forEach(clazz -> {
+                Optional<Exception> exception = ClassExecutioner.tryRetransform(Sentence.empty(random), clazz);
+
+                exception.ifPresent(e -> {
+                    Component message = Component.literal("Error while killing " + clazz.getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
+                    onFailure.accept(message);
+                });
+            });
+        } else {
+            Class<?> chosenClazz = Util.getRandom(packageClasses, random);
+
+            Optional<Exception> exception = ClassExecutioner.tryRetransform(Sentence.empty(random), chosenClazz);
+
+            exception.ifPresent(e -> {
+                Component message = Component.literal("Error while killing " + chosenClazz.getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
+                onFailure.accept(message);
+            });
+        }
+
+        return Command.SINGLE_SUCCESS;
+    }
+
+    private static int serverKillSpecificPackage(CommandContext<CommandSourceStack> context, boolean all) {
+        RandomSource random = Objects.requireNonNull(context.getSource().getPlayer()).getRandom().fork();
+
+        return killSpecificPackage(context, random, message -> context.getSource().sendFailure(message), all);
+    }
+
+    private static int clientKillSpecificPackage(CommandContext<FabricClientCommandSource> context, boolean all) {
+        RandomSource random = Objects.requireNonNull(context.getSource().getPlayer()).getRandom().fork();
+
+        return killSpecificPackage(context, random, message -> context.getSource().sendError(message), all);
     }
 }

@@ -7,13 +7,15 @@ import org.jspecify.annotations.NonNull;
 
 import java.util.Optional;
 
-public record AssignedSentence(Class<?> clazz,
-                               boolean all,
-                               Optional<Infos.MethodInfo> methodInfo,
-                               ClassRepresentation representation,
-                               Optional<String> overrideTerminator) {
-
-    public @NonNull Sentence getSentence(RandomSource random) {
+public record AssignedSentence(
+        Class<?> clazz,
+        boolean all,
+        Optional<Infos.MethodInfo> methodInfo,
+        ClassRepresentation representation,
+        Optional<String> overrideTerminator
+) {
+    @NonNull
+    public Sentence getSentence(RandomSource random) {
         return new Sentence(
                 random, false,
                 this.methodInfo,

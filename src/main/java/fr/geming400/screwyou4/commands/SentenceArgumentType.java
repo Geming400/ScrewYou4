@@ -22,6 +22,7 @@ import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicReference;
 
+// TODO: Add overload support
 public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
 
     private String cachedClassName;
@@ -41,14 +42,17 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
                 inQuotations = !inQuotations;
             }
         }
+
         StringBuilder argument = new StringBuilder(strings[0]);
         if (argument.toString().contains("\"") && argument.toString().lastIndexOf('"') == argument.toString().indexOf('"')) {
             int i = 1;
             while (i < strings.length && !strings[i].contains("\"")) {
                 argument.append(' ').append(strings[i++]);
             }
+
             argument.append(' ').append(strings[i]);
         }
+
         String className;
         final String methodName;
         String overriddenReturn = null;
@@ -61,12 +65,11 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
                     // Has an overridden return value
                     String[] argument3 = argument2[1].split("=");
                     methodName = argument3[0];
-                    if (methodName.equals("*")) {
+                    if (methodName.equals("*"))
                         throw SentenceArgumentTypeSyntaxException.build("You cannot use '*' with return value overriding!");
-                    }
-                    if (argument3.length == 2) {
+
+                    if (argument3.length == 2)
                         overriddenReturn = argument3[1];
-                    }
                 } else {
                     methodName = argument2[1];
                 }
@@ -77,6 +80,7 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
             className = argument.toString();
             methodName = null;
         }
+
         Class<?> clazz;
         if (!className.equals(this.cachedClassName)) {
             this.cachedClassName = className;
@@ -89,12 +93,13 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
         } else {
             clazz = this.getClassFromCachedName();
         }
+
         if (!Objects.equals(methodName, this.cachedMethodName) && !"*".equals(methodName)) {
             this.cachedMethodName = methodName;
-            if (methodName != null) {
+            if (methodName != null)
                 this.cachedMethodInfo = this.cachedClassRepresentation.getMethodInfos().stream().filter(mi -> mi.getShortName().equals(methodName)).findFirst().orElseThrow(() -> SentenceArgumentTypeSyntaxException.build("Method not found"));
-            }
         }
+
         if (overriddenReturn != null && !overriddenReturn.isEmpty()) {
             switch (this.cachedMethodInfo.getReturnType()) {
                 case "V" -> throw SentenceArgumentTypeSyntaxException.build("Method does not have a return value!");
@@ -126,11 +131,13 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
                         if (overriddenReturn.charAt(0) == '[') {
                             throw SentenceArgumentTypeSyntaxException.build("Arrays aren't supported!");
                         }
+
                         throw SentenceArgumentTypeSyntaxException.build("you can only specify null for object returns!");
                     }
                 }
             }
         }
+
         try {
             if (this.cachedClassRepresentation == null) {
                 this.updateClassRepresentation();
@@ -164,11 +171,14 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
     }
 
     private Class<?> getClassFromCachedName() throws CommandSyntaxException {
-        return Arrays.stream(ClassExecutioner.getLoadedClasses()).filter(c -> c.getName().equals(this.cachedClassName)).findFirst().orElseThrow(() -> {
-            this.cachedClassRepresentation = null;
-            this.cachedClassName = null;
-            return SentenceArgumentTypeSyntaxException.build("Class not found!");
-        });
+        return Arrays.stream(ClassExecutioner.getLoadedClasses())
+                .filter(c -> c.getName().equals(this.cachedClassName))
+                .findFirst()
+                .orElseThrow(() -> {
+                    this.cachedClassRepresentation = null;
+                    this.cachedClassName = null;
+                    return SentenceArgumentTypeSyntaxException.build("Class not found!");
+                });
     }
 
     @Override
@@ -187,6 +197,7 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
                     return Suggestions.empty();
                 }
             }
+
             if (this.isOverridingReturn) {
                 String prefix = this.cachedClassName + "#" + this.cachedMethodName + "=";
                 String returnType = this.cachedMethodInfo.getReturnType();
@@ -197,6 +208,7 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
                 } else if (returnType.startsWith("L")) {
                     builder.suggest(prefix + "null");
                 }
+
                 return builder.buildFuture();
             } else {
                 return SharedSuggestionProvider.suggest(
