@@ -8,6 +8,7 @@ import fr.geming400.screwyou4.entrypoints.ScrewYou4;
 import fr.geming400.screwyou4.killer.AssignedSentence;
 import fr.geming400.screwyou4.killer.ClassExecutioner;
 import fr.geming400.screwyou4.killer.Sentence;
+import fr.geming400.screwyou4.killer.parser.ClassRepresentation;
 import fr.geming400.screwyou4.killer.parser.Infos;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommands;
@@ -49,7 +50,7 @@ public class ScrewOverCommand {
         registerArguments();
 
         CommandRegistrationCallback.EVENT.register(
-                (dispatcher, commandBuildContext, commandSelection) -> {
+                (dispatcher, _, _) -> {
                     LiteralArgumentBuilder<CommandSourceStack> builder = Commands.literal("screw")
                             .requires(source -> source.permissions().hasPermission(Permissions.COMMANDS_MODERATOR));
                     registerServerKillCommand(builder);
@@ -90,9 +91,14 @@ public class ScrewOverCommand {
                         )
                         .then(Commands.literal("package")
                                 .then(Commands.argument("package", PackageArgumentType.pkg())
-                                        .executes(context -> serverKillSpecificPackage(context, false))
+                                        .executes(context -> serverKillSpecificPackage(context, 1))
                                         .then(Commands.literal("all")
-                                                .executes(context -> serverKillSpecificPackage(context, true))
+                                                .executes(context -> serverKillSpecificPackage(context, -1))
+                                        )
+                                        .then(Commands.literal("count")
+                                                .then(Commands.argument("count", IntegerArgumentType.integer(0))
+                                                        .executes(context -> serverKillSpecificPackage(context, IntegerArgumentType.getInteger(context, "count")))
+                                                )
                                         )
                                 )
                         )
@@ -112,9 +118,14 @@ public class ScrewOverCommand {
                         )
                         .then(ClientCommands.literal("package")
                                 .then(ClientCommands.argument("package", PackageArgumentType.pkg())
-                                        .executes(context -> clientKillSpecificPackage(context, false))
+                                        .executes(context -> clientKillSpecificPackage(context, 1))
                                         .then(ClientCommands.literal("all")
-                                                .executes(context -> clientKillSpecificPackage(context, true))
+                                                .executes(context -> clientKillSpecificPackage(context, -1))
+                                        )
+                                        .then(ClientCommands.literal("count")
+                                                .then(ClientCommands.argument("count", IntegerArgumentType.integer(0))
+                                                        .executes(context -> clientKillSpecificPackage(context, IntegerArgumentType.getInteger(context, "count")))
+                                                )
                                         )
                                 )
                         )
@@ -126,11 +137,11 @@ public class ScrewOverCommand {
 
 
     private static int killRandomFunctions(int n, RandomSource random) {
-        // Peek optimisation
+        // Peek optimization
         Thread.ofVirtual().start(() -> {
-                    for (int i = 0; i < n; i++) {
-                        ClassExecutioner.kill(Sentence.ofIterating(random));
-                    }
+            for (int i = 0; i < n; i++) {
+                ClassExecutioner.kill(Sentence.ofIterating(random));
+            }
         });
         return Command.SINGLE_SUCCESS;
     }
@@ -153,28 +164,21 @@ public class ScrewOverCommand {
 
     private static int killSpecificClass(AssignedSentence sentence, RandomSource random, Consumer<Component> onFailure) {
         if (sentence.all()) {
-            Thread.ofVirtual().start(() -> {
-                for (Infos.MethodInfo info : sentence.representation().getMethodInfos()) {
-                    Optional<Exception> exception = ClassExecutioner.tryRetransform(
-                            new Sentence(random, false, Optional.of(info),
-                                    Optional.of(sentence.representation()), Optional.empty(),
-                                    Optional.empty()),
-                            sentence.clazz()
-                    );
-
-                    exception.ifPresent(e -> {
-                        Component message = Component.literal("Error while killing " + sentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
-                        onFailure.accept(message);
-                    });
-                }
-            });
+            for (Infos.MethodInfo info : sentence.representation().getMethodInfos()) {
+                ClassExecutioner.tryRetransform(
+                        new Sentence(random, false, Optional.of(info),
+                                Optional.of(sentence.representation()), Optional.empty(),
+                                Optional.empty()),
+                        sentence.clazz(),
+                        callbackFromClass(sentence.clazz(), onFailure)
+                );
+            }
         } else {
-            Optional<Exception> exception = ClassExecutioner.tryRetransform(sentence.getSentence(random), sentence.clazz());
-
-            exception.ifPresent(e -> {
-                Component message = Component.literal("Error while killing " + sentence.getClass().getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
-                onFailure.accept(message);
-            });
+            ClassExecutioner.tryRetransform(
+                    sentence.getSentence(random),
+                    sentence.clazz(),
+                    callbackFromClass(sentence.clazz(), onFailure)
+            );
         }
 
         return Command.SINGLE_SUCCESS;
@@ -195,44 +199,60 @@ public class ScrewOverCommand {
         return killSpecificClass(context, random, message -> context.getSource().sendError(message));
     }
 
-
-    private static int killSpecificPackage(CommandContext<?> context, RandomSource random, Consumer<Component> onFailure, boolean all) {
-        List<Class<?>> packageClasses = PackageArgumentType.getPackage(context, "package");
-        if (all) {
-            // TODO (CurrentTick): Fix that this kills random functions
-            // of all given classes.
-            // This should kill all the function of ALL the given classes
-            packageClasses.forEach(clazz -> {
-                Optional<Exception> exception = ClassExecutioner.tryRetransform(Sentence.empty(random), clazz);
-
-                exception.ifPresent(e -> {
-                    Component message = Component.literal("Error while killing " + clazz.getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
-                    onFailure.accept(message);
-                });
-            });
+    @SuppressWarnings("SameReturnValue")
+    private static int killSpecificPackage(CommandContext<?> context, RandomSource random, Consumer<Component> onFailure, int count) {
+        List<Class<?>> packageClasses = PackageArgumentType.getPackageClasses(context, "package");
+        if (packageClasses.isEmpty()) {
+            onFailure.accept(Component.literal("Package is empty!"));
+            return Command.SINGLE_SUCCESS;
+        }
+        if (count == -1) {
+            packageClasses.forEach(clazz -> Thread.ofVirtual().start(() -> {
+                ClassRepresentation classRepresentation = ClassExecutioner.getRepresentation(clazz);
+                if (classRepresentation == null) {
+                    return;
+                }
+                classRepresentation.getMethodInfos().forEach(methodInfo -> ClassExecutioner.tryRetransform(
+                        new Sentence(
+                                random,
+                                false,
+                                Optional.of(methodInfo),
+                                Optional.of(classRepresentation),
+                                Optional.empty(),
+                                Optional.empty()
+                        ),
+                        clazz,
+                        callbackFromClass(clazz, onFailure)
+                ));
+            }));
         } else {
-            Class<?> chosenClazz = Util.getRandom(packageClasses, random);
+            for (int i = 0; i < count; i++) {
+                Class<?> chosenClazz = Util.getRandom(packageClasses, random);
 
-            Optional<Exception> exception = ClassExecutioner.tryRetransform(Sentence.empty(random), chosenClazz);
-
-            exception.ifPresent(e -> {
-                Component message = Component.literal("Error while killing " + chosenClazz.getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage());
-                onFailure.accept(message);
-            });
+                ClassExecutioner.tryRetransform(
+                        Sentence.empty(random),
+                        chosenClazz,
+                        callbackFromClass(chosenClazz, onFailure)
+                );
+            }
         }
 
         return Command.SINGLE_SUCCESS;
     }
 
-    private static int serverKillSpecificPackage(CommandContext<CommandSourceStack> context, boolean all) {
+    private static int serverKillSpecificPackage(CommandContext<CommandSourceStack> context, int count) {
         RandomSource random = Objects.requireNonNull(context.getSource().getPlayer()).getRandom().fork();
 
-        return killSpecificPackage(context, random, message -> context.getSource().sendFailure(message), all);
+        return killSpecificPackage(context, random, message -> context.getSource().sendFailure(message), count);
     }
 
-    private static int clientKillSpecificPackage(CommandContext<FabricClientCommandSource> context, boolean all) {
+    private static int clientKillSpecificPackage(CommandContext<FabricClientCommandSource> context, int count) {
         RandomSource random = Objects.requireNonNull(context.getSource().getPlayer()).getRandom().fork();
 
-        return killSpecificPackage(context, random, message -> context.getSource().sendError(message), all);
+        return killSpecificPackage(context, random, message -> context.getSource().sendError(message), count);
+    }
+
+    private static Consumer<Exception> callbackFromClass(Class<?> clazz, Consumer<Component> onFailure) {
+        return e -> onFailure.accept(Component.literal("Error while killing " + clazz.getSimpleName() + ", " + e.getClass().getSimpleName() + " : " + e.getMessage()));
     }
 }

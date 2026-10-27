@@ -1,6 +1,5 @@
 package fr.geming400.screwyou4.commands;
 
-import com.mojang.brigadier.Message;
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.arguments.ArgumentType;
 import com.mojang.brigadier.context.CommandContext;
@@ -26,8 +25,6 @@ public class PackageArgumentType implements ArgumentType<List<Class<?>>> {
             reader.skip();
         }
 
-
-        Map<String, List<Class<?>>> packages = getPackages();
         if (packageNameWithGlob.endsWith(".*") || packageNameWithGlob.endsWith(".**")) {
             List<String> packageParts = Arrays.asList(packageNameWithGlob.split("\\."));
             GlobType globType = GlobType.ofString(packageParts.getLast());
@@ -35,17 +32,15 @@ public class PackageArgumentType implements ArgumentType<List<Class<?>>> {
             // We remove the glob part
             String packageName = String.join(".", packageParts.subList(0, packageParts.size() - 1));
 
-            Predicate<Map.Entry<String, List<Class<?>>>> packageFilter;
+            Predicate<String> packageFilter;
             if (globType == GlobType.PACKAGE) {
-                packageFilter = pkg -> pkg.getKey().equals(packageName);
+                packageFilter = pkg -> pkg.equals(packageName);
             } else /* globType == GlobType.RECURSIVE */ {
-                packageFilter = pkg -> pkg.getKey().startsWith(packageName);
+                packageFilter = pkg -> pkg.startsWith(packageName);
             }
 
-            return packages.entrySet()
-                    .stream()
-                    .filter(packageFilter)
-                    .flatMap(stringListEntry -> stringListEntry.getValue().stream())
+            return Arrays.stream(ClassExecutioner.getLoadedClasses())
+                    .filter(clazz -> packageFilter.test(clazz.getPackageName()))
                     .toList();
         } else {
             throw GLOB_SYNTAX_ERROR.createWithContext(reader);
@@ -54,47 +49,25 @@ public class PackageArgumentType implements ArgumentType<List<Class<?>>> {
 
     @Override
     public <S> CompletableFuture<Suggestions> listSuggestions(CommandContext<S> context, SuggestionsBuilder builder) {
-        Set<String> packages = getPackages().keySet();
-        Set<String> suggestions = new HashSet<>(packages.size());
-
-        packages.forEach(pkg -> {
-            suggestions.add(pkg + ".*");
-            suggestions.add(pkg + ".**");
-        });
-
-        return SharedSuggestionProvider.suggest(suggestions, builder);
+        return SharedSuggestionProvider.suggest(
+                Arrays.stream(ClassExecutioner.getLoadedClasses())
+                        .map(Class::getPackageName)
+                        .distinct()
+                        .mapMulti((packageName, downStream) -> {
+                            downStream.accept(packageName + ".*");
+                            downStream.accept(packageName + ".**");
+                        }),
+                builder
+        );
     }
 
     public static PackageArgumentType pkg() {
         return new PackageArgumentType();
     }
 
-    public static List<Class<?>> getPackage(final CommandContext<?> context, final String name) {
+    public static List<Class<?>> getPackageClasses(final CommandContext<?> context, final String name) {
         // noinspection unchecked
         return (List<Class<?>>) context.getArgument(name, List.class);
-    }
-
-    private static Map<String, List<Class<?>>> getPackages() {
-        Class<?>[] loadedClasses = ClassExecutioner.getLoadedClasses();
-        Map<String, List<Class<?>>> packages = new HashMap<>();
-        for (Class<?> loadedClass : loadedClasses) {
-            List<Class<?>> classes = packages.getOrDefault(loadedClass.getPackageName(), new ArrayList<>());
-            classes.add(loadedClass);
-
-            packages.put(loadedClass.getPackageName(), classes);
-        }
-
-        return packages;
-    }
-
-    private static class PackageArgumentTypeSyntaxException extends SimpleCommandExceptionType {
-        public PackageArgumentTypeSyntaxException(Message message) {
-            super(message);
-        }
-
-        public static CommandSyntaxException build(String message) {
-            return new CommandSyntaxException(new PackageArgumentTypeSyntaxException(() -> message), () -> message);
-        }
     }
 
     private enum GlobType {

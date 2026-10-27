@@ -1,10 +1,13 @@
 package fr.geming400.screwyou4.killer;
 
 import fr.geming400.screwyou4.agent.Agent;
+import fr.geming400.screwyou4.killer.parser.ClassRepresentation;
 import net.fabricmc.loader.api.entrypoint.PreLaunchEntrypoint;
+import org.jetbrains.annotations.Nullable;
 
 import java.lang.instrument.Instrumentation;
-import java.util.Optional;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Consumer;
 
 public class ClassExecutioner implements PreLaunchEntrypoint {
 
@@ -14,9 +17,8 @@ public class ClassExecutioner implements PreLaunchEntrypoint {
     public static void kill(Sentence sentence) {
         Class<?>[] classes = getLoadedClasses();
         Class<?> toKill;
-        do {
-            toKill = classes[sentence.random().nextInt(classes.length)];
-        } while (tryRetransform(sentence, toKill).isPresent());
+        toKill = classes[sentence.random().nextInt(classes.length)];
+        tryRetransform(sentence, toKill, _ -> kill(sentence));
     }
 
     public static Class<?>[] getLoadedClasses() {
@@ -25,18 +27,32 @@ public class ClassExecutioner implements PreLaunchEntrypoint {
         return (Class<?>[]) inst.getAllLoadedClasses();
     }
 
-    /**
-     * @return whether it was successful
-     */
-    public static Optional<Exception> tryRetransform(Sentence sentence, Class<?> toKill) {
+    public static void tryRetransform(Sentence sentence, Class<?> toKill, @Nullable Consumer<Exception> exceptionCallback) {
+        classJudger.addToKill(toKill, sentence);
+        Thread.ofVirtual().start(
+                () -> {
+                    try {
+                        classJudger.killClass(toKill);
+                    } catch (Exception e) {
+                        classJudger.cancel(toKill);
+                        if (exceptionCallback != null) {
+                            exceptionCallback.accept(e);
+                        }
+                    }
+                }
+        );
+    }
+
+    public static ClassRepresentation getRepresentation(Class<?> toKill) {
+        AtomicReference<ClassRepresentation> classRepresentation = new AtomicReference<>();
+        classJudger.addToKill(toKill, Sentence.ofGetter(b -> classRepresentation.set(new ClassRepresentation(b))));
         try {
-            classJudger.addToKill(toKill, sentence);
             classJudger.killClass(toKill);
         } catch (Exception e) {
             classJudger.cancel(toKill);
-            return Optional.of(e);
+            return null;
         }
-        return Optional.empty();
+        return classRepresentation.get();
     }
 
     @Override

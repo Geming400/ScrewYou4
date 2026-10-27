@@ -10,8 +10,8 @@ import com.mojang.brigadier.suggestion.Suggestions;
 import com.mojang.brigadier.suggestion.SuggestionsBuilder;
 import fr.geming400.screwyou4.entrypoints.ScrewYou4;
 import fr.geming400.screwyou4.killer.AssignedSentence;
+import fr.geming400.screwyou4.killer.BytecodeUtils;
 import fr.geming400.screwyou4.killer.ClassExecutioner;
-import fr.geming400.screwyou4.killer.Sentence;
 import fr.geming400.screwyou4.killer.parser.ClassRepresentation;
 import fr.geming400.screwyou4.killer.parser.Infos;
 import net.minecraft.commands.SharedSuggestionProvider;
@@ -20,7 +20,6 @@ import java.util.Arrays;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.atomic.AtomicReference;
 
 // TODO: Add overload support
 public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
@@ -160,10 +159,8 @@ public class SentenceArgumentType implements ArgumentType<AssignedSentence> {
 
     private Class<?> updateClassRepresentation() throws CommandSyntaxException {
         try {
-            AtomicReference<ClassRepresentation> representation = new AtomicReference<>();
             Class<?> clazz = this.getClassFromCachedName();
-            ClassExecutioner.tryRetransform(Sentence.ofGetter(buf -> representation.set(new ClassRepresentation(buf))), clazz);
-            this.cachedClassRepresentation = representation.get();
+            this.cachedClassRepresentation = ClassExecutioner.getRepresentation(clazz);
             return clazz;
         } catch (Exception e) {
             throw SentenceArgumentTypeSyntaxException.build("Error retrieving class bytes");

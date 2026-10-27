@@ -1,6 +1,10 @@
 package fr.geming400.screwyou4.killer;
 
+import fr.geming400.screwyou4.killer.parser.ClassRepresentation;
+
 import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 
 public class BytecodeUtils {
