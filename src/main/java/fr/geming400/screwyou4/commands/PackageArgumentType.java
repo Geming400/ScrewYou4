@@ -54,6 +54,7 @@ public class PackageArgumentType implements ArgumentType<List<Class<?>>> {
                         .map(Class::getPackageName)
                         .distinct()
                         .mapMulti((packageName, downStream) -> {
+                            downStream.accept(packageName + ".");
                             downStream.accept(packageName + ".*");
                             downStream.accept(packageName + ".**");
                         }),
